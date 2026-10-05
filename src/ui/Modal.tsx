@@ -45,7 +45,7 @@ export function Modal({ open, onClose, title, children, footer }: ModalProps) {
       {open && (
         <div className="modal-panel">
           <header className="flex items-center justify-between gap-4 border-b-2 border-border py-3 pr-4 pl-6 sm:pl-8">
-            <h2 id={titleId} className="font-display text-2xl font-semibold">
+            <h2 id={titleId} className="font-display text-2xl font-extrabold">
               {title}
             </h2>
             <IconButton label={t('common.close')} onClick={onClose}>

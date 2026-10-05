@@ -21,15 +21,19 @@ export function Header() {
         <Logo variant="header" className="h-(--logo-header-height) w-auto" />
       </Link>
 
-      <nav aria-label={t('nav.label')} className="flex items-center gap-1 sm:gap-3">
+      <nav aria-label={t('nav.label')} className="flex items-center gap-2 sm:gap-4">
         <button type="button" className="header-link" onClick={() => setOpenDialog('howToPlay')}>
           <QuestionIcon className="sm:hidden" />
           <span className="max-sm:sr-only">{t('nav.howToPlay')}</span>
         </button>
-        <IconButton label={t('nav.settings')} onClick={() => setOpenDialog('settings')}>
+        <IconButton
+          label={t('nav.settings')}
+          className="icon-btn-chip"
+          onClick={() => setOpenDialog('settings')}
+        >
           <GearIcon />
         </IconButton>
-        <ButtonLink to={ROUTES.newGame} size="lg" className="ml-2 sm:ml-3">
+        <ButtonLink to={ROUTES.newGame} size="header" className="ml-1 sm:ml-3">
           {t('nav.play')}
         </ButtonLink>
       </nav>

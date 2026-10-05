@@ -2,7 +2,7 @@ import type { ButtonHTMLAttributes, ReactNode } from 'react'
 import { Link, type LinkProps } from 'react-router'
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost'
-export type ButtonSize = 'sm' | 'md' | 'lg' | 'xl'
+export type ButtonSize = 'sm' | 'md' | 'lg' | 'header' | 'hero'
 
 interface ButtonStyleProps {
   variant?: ButtonVariant

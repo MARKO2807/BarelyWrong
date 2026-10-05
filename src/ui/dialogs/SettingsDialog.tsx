@@ -1,7 +1,7 @@
 import { useId, useState, type ReactNode } from 'react'
 import { useSettings } from '../../app/SettingsProvider'
 import { t } from '../../i18n'
-import { THEME_PREFERENCES, resetPlayed } from '../../storage'
+import { THEMES, resetPlayed } from '../../storage'
 import { Button } from '../Button'
 import { Modal } from '../Modal'
 import { SegmentedControl } from '../SegmentedControl'
@@ -18,7 +18,11 @@ export function SettingsDialog({ open, onClose }: DialogProps) {
       open={open}
       onClose={onClose}
       title={t('settings.title')}
-      footer={<Button onClick={onClose}>{t('common.done')}</Button>}
+      footer={
+        <Button size="lg" onClick={onClose}>
+          {t('common.done')}
+        </Button>
+      }
     >
       <SettingsContent />
     </Modal>
@@ -30,7 +34,6 @@ function SettingsContent() {
   const soundId = useId()
   const themeId = useId()
   const playedId = useId()
-  const creditsId = useId()
 
   return (
     <div className="flex flex-col divide-y-2 divide-border">
@@ -56,7 +59,7 @@ function SettingsContent() {
         <SegmentedControl
           name="theme"
           value={settings.theme}
-          options={THEME_PREFERENCES.map((value) => ({
+          options={THEMES.map((value) => ({
             value,
             label: t(`settings.theme.${value}`),
           }))}
@@ -72,28 +75,6 @@ function SettingsContent() {
       >
         <ResetPlayed />
       </SettingRow>
-
-      <section
-        aria-labelledby={creditsId}
-        className="flex flex-col gap-2 pt-5 text-base text-text-muted"
-      >
-        <h3 id={creditsId} className="font-display text-xl font-semibold text-text">
-          {t('settings.credits.label')}
-        </h3>
-        <p>
-          {t('settings.credits.hks')}{' '}
-          <a
-            href={t('settings.credits.hksUrl')}
-            target="_blank"
-            rel="noreferrer"
-            className="text-secondary-text underline underline-offset-2"
-          >
-            {t('settings.credits.hksLink')}
-          </a>
-        </p>
-        <p>{t('settings.credits.questions')}</p>
-        <p>{t('settings.credits.fonts')}</p>
-      </section>
     </div>
   )
 }
@@ -109,13 +90,13 @@ function SettingRow({ titleId, title, description, children }: SettingRowProps) 
   return (
     <section
       aria-labelledby={titleId}
-      className="flex flex-col gap-3 py-5 first:pt-0 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
+      className="flex flex-col gap-3 py-5 first:pt-0 last:pb-0 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
     >
       <div className="min-w-0">
-        <h3 id={titleId} className="font-display text-xl font-semibold">
+        <h3 id={titleId} className="font-display text-2xl font-extrabold">
           {title}
         </h3>
-        <p className="mt-1 text-text-muted">{description}</p>
+        <p className="mt-1 text-pretty text-text-muted">{description}</p>
       </div>
       <div className="shrink-0 sm:max-w-[60%]">{children}</div>
     </section>
@@ -141,10 +122,10 @@ function ResetPlayed() {
         <>
           <p className="font-semibold sm:text-right">{t('settings.played.confirmQuestion')}</p>
           <div className="flex gap-2">
-            <Button variant="ghost" size="sm" onClick={() => setStatus('idle')} autoFocus>
+            <Button variant="ghost" size="md" onClick={() => setStatus('idle')} autoFocus>
               {t('common.cancel')}
             </Button>
-            <Button size="sm" onClick={() => setStatus(resetPlayed() ? 'done' : 'failed')}>
+            <Button size="md" onClick={() => setStatus(resetPlayed() ? 'done' : 'failed')}>
               {t('settings.played.confirm')}
             </Button>
           </div>
@@ -152,7 +133,7 @@ function ResetPlayed() {
       ) : (
         <Button
           variant="secondary"
-          size="sm"
+          size="md"
           onClick={() => setStatus('confirm')}
           autoFocus={status !== 'initial'}
         >

@@ -1,4 +1,4 @@
-import '@fontsource-variable/pixelify-sans/wght.css'
+import '@fontsource-variable/rubik/wght.css'
 import '@fontsource/chakra-petch/latin-400.css'
 import '@fontsource/chakra-petch/latin-ext-400.css'
 import '@fontsource/chakra-petch/latin-600.css'

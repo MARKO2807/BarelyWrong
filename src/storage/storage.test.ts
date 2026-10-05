@@ -1,14 +1,6 @@
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { resolveTheme } from '../app/theme'
-import {
-  DEFAULT_SETTINGS,
-  KEYS,
-  THEME_PREFERENCES,
-  loadSettings,
-  resetPlayed,
-  saveSettings,
-} from '.'
+import { DEFAULT_SETTINGS, KEYS, THEMES, loadSettings, resetPlayed, saveSettings } from '.'
 import { themeBootScript } from './theme-boot'
 
 beforeEach(() => {
@@ -32,6 +24,10 @@ describe('settings', () => {
     expect(loadSettings()).toEqual(DEFAULT_SETTINGS)
   })
 
+  it('defaults to the dark theme', () => {
+    expect(DEFAULT_SETTINGS.theme).toBe('dark')
+  })
+
   it('round-trips saved settings', () => {
     saveSettings({ theme: 'light', sound: false })
     expect(loadSettings()).toEqual({ theme: 'light', sound: false })
@@ -42,9 +38,14 @@ describe('settings', () => {
     expect(loadSettings()).toEqual(DEFAULT_SETTINGS)
   })
 
+  it('treats the old "system" theme as dark', () => {
+    localStorage.setItem(KEYS.settings, JSON.stringify({ theme: 'system', sound: true }))
+    expect(loadSettings().theme).toBe('dark')
+  })
+
   it('keeps valid fields when another field is invalid', () => {
     localStorage.setItem(KEYS.settings, JSON.stringify({ theme: 'neon', sound: false }))
-    expect(loadSettings()).toEqual({ theme: 'system', sound: false })
+    expect(loadSettings()).toEqual({ theme: 'dark', sound: false })
   })
 
   it('works when local storage is unavailable', () => {
@@ -70,30 +71,23 @@ describe('resetPlayed', () => {
 })
 
 describe('theme boot script', () => {
-  function runBoot(systemPrefersDark: boolean): string | undefined {
-    vi.spyOn(window, 'matchMedia').mockImplementation(
-      (query) => ({ matches: systemPrefersDark, media: query }) as MediaQueryList,
-    )
+  function runBoot(): string | undefined {
     delete document.documentElement.dataset.theme
     new Function(themeBootScript)()
     return document.documentElement.dataset.theme
   }
 
-  // jsdom has no matchMedia; give spyOn something to replace.
-  beforeEach(() => {
-    window.matchMedia ??= (() => ({ matches: false })) as unknown as typeof window.matchMedia
-  })
-
-  it.each(
-    THEME_PREFERENCES.flatMap((theme) => [true, false].map((dark) => [theme, dark] as const)),
-  )('matches resolveTheme for %s (system dark: %s)', (theme, systemPrefersDark) => {
+  it.each(THEMES)('applies the saved %s theme', (theme) => {
     saveSettings({ theme, sound: true })
-    expect(runBoot(systemPrefersDark)).toBe(resolveTheme(theme, systemPrefersDark))
+    expect(runBoot()).toBe(theme)
   })
 
-  it('follows the system when nothing or garbage is saved', () => {
-    expect(runBoot(true)).toBe('dark')
-    localStorage.setItem(KEYS.settings, 'null')
-    expect(runBoot(false)).toBe('light')
+  it('falls back to dark like loadSettings', () => {
+    for (const stored of [null, 'null', '{not json', JSON.stringify({ theme: 'system' })]) {
+      if (stored === null) localStorage.clear()
+      else localStorage.setItem(KEYS.settings, stored)
+      expect(runBoot()).toBe(loadSettings().theme)
+      expect(runBoot()).toBe('dark')
+    }
   })
 })

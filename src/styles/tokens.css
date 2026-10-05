@@ -13,7 +13,7 @@
   --radius-*: initial;
   --shadow-*: initial;
 
-  --font-display: 'Pixelify Sans Variable', 'Pixelify Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Rubik Variable', 'Rubik', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Chakra Petch', ui-sans-serif, system-ui, sans-serif;
   --font-terminal: 'VT323', ui-monospace, monospace;
 
@@ -85,9 +85,14 @@
   /* 1rem grows with the screen: ~17px at 1920×1080, ~35px at 3840×2160, never below 15px. */
   --root-font-size: clamp(15px, min(0.9vw, 1.6vh), 48px);
 
+  /* Home page sizes also follow the screen height, so everything fits on short laptop and landscape phone screens. */
   --logo-hero-width: min(32vw, 56vh);
-  --logo-header-height: 4.25rem;
-  --hero-lift: 16vh;
+  --logo-header-height: min(5rem, 9vh);
+  --header-font-size: min(2.25rem, 4vh);
+  --header-icon-size: max(3rem, calc(var(--header-font-size) * 2));
+  --tagline-font-size: min(4rem, 6.5vh);
+  --play-font-size: min(4rem, 6.5vh);
+  --hero-lift: 12vh;
   --button-padding: 0.65em 1.15em;
   --button-depth: 0.3rem;
   --focus-ring-width: 0.1875rem;
@@ -101,6 +106,9 @@
   :root {
     --logo-hero-width: min(84vw, 42vh);
     --logo-header-height: 2.75rem;
+    --header-font-size: 1.5rem;
+    --tagline-font-size: 2.25rem;
+    --play-font-size: 2.25rem;
     --hero-lift: 6vh;
   }
 }
@@ -125,7 +133,8 @@
   --backdrop: rgb(7 11 48 / 0.72);
   --hero-glow: rgb(7 11 48 / 0.62);
   --hero-shade-top: rgb(7 11 48 / 0.55);
-  --hero-text-shadow: 0 0.1rem 0.6rem rgb(7 11 48 / 0.95), 0 0 0.2rem rgb(7 11 48 / 0.9);
+  --hero-text-shadow:
+    0 0 0.15rem rgb(7 11 48), 0 0 0.5rem rgb(7 11 48 / 0.95), 0 0.15rem 1rem rgb(7 11 48 / 0.9);
   --glow-primary: 0 0 1.75rem rgb(251 31 146 / 0.5);
   --glow-primary-strong: 0 0 2.5rem rgb(251 31 146 / 0.75);
   --dialog-shadow: 0 1.5rem 4rem rgb(0 0 0 / 0.5);
@@ -149,7 +158,9 @@
   --backdrop: rgb(20 24 61 / 0.45);
   --hero-glow: rgb(255 255 255 / 0.72);
   --hero-shade-top: rgb(243 248 255 / 0.6);
-  --hero-text-shadow: 0 0 0.6rem rgb(255 255 255 / 0.95), 0 0 0.2rem rgb(255 255 255 / 0.9);
+  --hero-text-shadow:
+    0 0 0.15rem rgb(255 255 255), 0 0 0.5rem rgb(255 255 255 / 0.95),
+    0 0.15rem 1rem rgb(255 255 255 / 0.9);
   --glow-primary: 0 0.4rem 1.5rem rgb(251 31 146 / 0.35);
   --glow-primary-strong: 0 0.4rem 2rem rgb(251 31 146 / 0.55);
   --dialog-shadow: 0 1.5rem 4rem rgb(20 24 61 / 0.25);

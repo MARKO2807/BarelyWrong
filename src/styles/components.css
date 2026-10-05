@@ -9,7 +9,7 @@
     padding: var(--button-padding);
     border-radius: var(--radius-button);
     font-family: var(--font-display);
-    font-weight: 600;
+    font-weight: 800;
     line-height: 1;
     white-space: nowrap;
     user-select: none;
@@ -80,18 +80,18 @@
     --button-padding: 0.65em 1.4em;
   }
 
-  .btn-xl {
-    font-size: var(--text-4xl);
-    --button-padding: 0.45em 1.25em;
+  /* Sized for the header and the home hero; see the size tokens in tokens.css. */
+  .btn-header {
+    font-size: var(--header-font-size);
+    --button-padding: 0.55em 1.25em;
   }
 
-  @media (width < 40rem) {
-    .btn-xl {
-      font-size: var(--text-3xl);
-    }
+  .btn-hero {
+    font-size: var(--play-font-size);
+    --button-padding: 0.4em 1.2em;
   }
 
-  /* Round icon-only button (settings, close). */
+  /* Round icon-only button (popup close). */
   .icon-btn {
     display: inline-grid;
     place-items: center;
@@ -109,18 +109,32 @@
     background-color: color-mix(in srgb, var(--text) 12%, transparent);
   }
 
-  /* Header text link; shrinks to a round icon button on phones. */
+  /* Header icon on a frosted disc, so it stands out on any part of the hero image. */
+  .icon-btn-chip {
+    width: var(--header-icon-size);
+    height: var(--header-icon-size);
+    border: 0.125rem solid color-mix(in srgb, var(--text) 35%, transparent);
+    background-color: color-mix(in srgb, var(--surface) 72%, transparent);
+    backdrop-filter: blur(0.375rem);
+    font-size: calc(var(--header-icon-size) * 0.5);
+  }
+
+  .icon-btn-chip:hover {
+    background-color: var(--surface);
+  }
+
+  /* Header text link; becomes a round icon button on phones. */
   .header-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 3.25rem;
-    padding: 0 0.85rem;
+    min-height: var(--header-icon-size);
+    padding: 0 0.6em;
     border-radius: var(--radius-md);
     color: var(--text);
     font-family: var(--font-display);
-    font-size: var(--text-xl);
-    font-weight: 600;
+    font-size: var(--header-font-size);
+    font-weight: 800;
     text-shadow: var(--hero-text-shadow);
     cursor: pointer;
     transition: background-color var(--duration-fast) var(--ease-out);
@@ -132,10 +146,14 @@
 
   @media (width < 40rem) {
     .header-link {
-      width: 3.25rem;
+      width: var(--header-icon-size);
       padding: 0;
+      border: 0.125rem solid color-mix(in srgb, var(--text) 35%, transparent);
       border-radius: var(--radius-full);
-      font-size: var(--text-2xl);
+      background-color: color-mix(in srgb, var(--surface) 72%, transparent);
+      backdrop-filter: blur(0.375rem);
+      font-size: calc(var(--header-icon-size) * 0.5);
+      text-shadow: none;
     }
   }
 

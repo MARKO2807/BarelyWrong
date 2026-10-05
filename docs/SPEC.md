@@ -111,7 +111,7 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 - **Postavljanje partije** prema 4.1.
 - **Igra:** najava runde, potez, otkrivanje, Najbrži prst, ljestvica nakon runde, neriješeno i kraj. Na vrhu: runda (npr. 3/12), tema s ikonom, značka Double trouble kad vrijedi. U sredini: pitanje i timer. Dolje: bodovi svih timova i kontrole.
 - **Popup "Kako se igra"** s tekstom iz priloga A. Nije zasebna ruta.
-- **Popup Postavke:** zvuk, tema (Sustav, Svijetla, Tamna), "Vrati odigrana pitanja" (uz potvrdu), Zasluge (izvori pitanja, uključujući Hrvatski kviz savez).
+- **Popup Postavke:** zvuk, tema (Tamna ili Svijetla; zadano Tamna) i "Vrati odigrana pitanja" (uz potvrdu).
 - **Urednik** na ruti `/urednik`, samo uz prijavu (poglavlje 9).
 
 **Prečaci na tipkovnici:** razmaknica (Kreni, Otvori odgovor, Dalje), T (Točno), N (Netočno), 1–4 (odabir tima), Z (Poništi), P (Pauza), F (cijeli zaslon), Esc (izbornik partije).
@@ -130,9 +130,9 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 
 Google Fonts, self-hostani preko `@fontsource`, uključujući latin-ext (č, ć, đ, š, ž):
 
-- **Pixelify Sans:** naslovi, gumbi, nazivi tema, oznake.
+- **Rubik ExtraBold:** naslovi, gumbi, poveznice, nazivi tema, oznake.
 - **Chakra Petch:** tekst pitanja i sav ostali tekst.
-- **VT323:** timer, bodovi i terminalski natpisi.
+- **VT323:** podnaslov na početnoj, timer, bodovi i terminalski natpisi.
 
 Pikselni fontovi nikad se ne koriste za tekst pitanja.
 
@@ -161,7 +161,7 @@ Na ružičastim gumbima tekst je uvijek tamni; bijeli tekst na #FB1F92 ima prema
 
 ### 6.4 Tema
 
-Prekidač Sustav, Svijetla, Tamna; izbor se pamti. Hero slika i boje mijenjaju se s temom, a učitava se samo slika aktivne teme.
+Tamna ili Svijetla; zadano je Tamna, a izbor se pamti. Hero slika i boje mijenjaju se s temom, a učitava se samo slika aktivne teme.
 
 ### 6.5 Grafike, animacije i zvuk
 

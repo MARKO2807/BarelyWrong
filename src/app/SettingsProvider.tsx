@@ -5,40 +5,27 @@ import {
   useLayoutEffect,
   useMemo,
   useState,
-  useSyncExternalStore,
   type ReactNode,
 } from 'react'
 import { loadSettings, saveSettings, type Settings } from '../storage'
-import { DARK_SCHEME_QUERY, resolveTheme, type ResolvedTheme } from './theme'
 
 interface SettingsContextValue {
   settings: Settings
   updateSettings: (patch: Partial<Settings>) => void
-  /** The theme actually shown, with "system" resolved. */
-  resolvedTheme: ResolvedTheme
 }
 
 const SettingsContext = createContext<SettingsContextValue | null>(null)
 
-function subscribeToSystemScheme(onChange: () => void) {
-  const query = window.matchMedia(DARK_SCHEME_QUERY)
-  query.addEventListener('change', onChange)
-  return () => query.removeEventListener('change', onChange)
-}
-
-const systemPrefersDark = () => window.matchMedia(DARK_SCHEME_QUERY).matches
-
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [settings, setSettings] = useState(loadSettings)
-  const systemDark = useSyncExternalStore(subscribeToSystemScheme, systemPrefersDark)
-  const resolvedTheme = resolveTheme(settings.theme, systemDark)
+  const { theme } = settings
 
   useLayoutEffect(() => {
     const root = document.documentElement
-    root.dataset.theme = resolvedTheme
+    root.dataset.theme = theme
     const background = getComputedStyle(root).getPropertyValue('--bg').trim()
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', background)
-  }, [resolvedTheme])
+  }, [theme])
 
   const updateSettings = useCallback(
     (patch: Partial<Settings>) => {
@@ -49,10 +36,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     [settings],
   )
 
-  const value = useMemo(
-    () => ({ settings, updateSettings, resolvedTheme }),
-    [settings, updateSettings, resolvedTheme],
-  )
+  const value = useMemo(() => ({ settings, updateSettings }), [settings, updateSettings])
 
   return <SettingsContext value={value}>{children}</SettingsContext>
 }

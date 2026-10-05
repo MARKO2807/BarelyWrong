@@ -2,9 +2,9 @@ export { KEYS } from './keys'
 export { resetPlayed } from './played'
 export {
   DEFAULT_SETTINGS,
-  THEME_PREFERENCES,
+  THEMES,
   loadSettings,
   saveSettings,
   type Settings,
-  type ThemePreference,
+  type Theme,
 } from './settings'

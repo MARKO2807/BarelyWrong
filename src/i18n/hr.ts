@@ -48,10 +48,9 @@ export const hr = {
     },
     theme: {
       label: 'Tema',
-      description: 'Sustav prati postavku uređaja.',
-      system: 'Sustav',
-      light: 'Svijetla',
+      description: 'Tamna je najugodnija za TV u mraku.',
       dark: 'Tamna',
+      light: 'Svijetla',
     },
     played: {
       label: 'Odigrana pitanja',
@@ -61,15 +60,6 @@ export const hr = {
       confirm: 'Da, vrati',
       success: 'Gotovo! Sva pitanja su opet u igri.',
       failure: 'Nešto je pošlo krivo. Pokušaj ponovno.',
-    },
-    credits: {
-      label: 'Zasluge',
-      questions:
-        'Pitanja se provjeravaju u Wikipediji, Hrvatskoj enciklopediji i na službenim stranicama.',
-      hks: 'Dio pitanja nastao je prema setovima iz repozitorija Hrvatskog kviz saveza. Pitanja su napisana iznova, a činjenice ponovno provjerene.',
-      hksLink: 'hrkviz.hr/repozitorij',
-      hksUrl: 'https://hrkviz.hr/repozitorij',
-      fonts: 'Fontovi: Pixelify Sans, Chakra Petch i VT323 (SIL Open Font License).',
     },
   },
   comingSoon: {

@@ -13,14 +13,18 @@ export function HowToPlayDialog({ open, onClose }: DialogProps) {
       open={open}
       onClose={onClose}
       title={t('howToPlay.title')}
-      footer={<Button onClick={onClose}>{t('howToPlay.confirm')}</Button>}
+      footer={
+        <Button size="lg" onClick={onClose}>
+          {t('howToPlay.confirm')}
+        </Button>
+      }
     >
       <ol className="flex flex-col gap-4">
         {tList('howToPlay.steps').map((step, index) => (
           <li key={step} className="flex items-start gap-4">
             <span
               aria-hidden="true"
-              className="grid size-10 shrink-0 place-items-center rounded-sm bg-primary font-display text-xl font-semibold text-on-primary"
+              className="grid size-10 shrink-0 place-items-center rounded-sm bg-primary font-display text-xl font-extrabold text-on-primary"
             >
               {index + 1}
             </span>

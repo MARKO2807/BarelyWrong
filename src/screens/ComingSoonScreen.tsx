@@ -9,7 +9,7 @@ export function ComingSoonScreen() {
   useDocumentTitle(t('comingSoon.title'))
   return (
     <PageShell>
-      <h1 className="font-display text-5xl font-semibold text-primary-text">
+      <h1 className="font-display text-5xl font-extrabold text-primary-text">
         {t('comingSoon.title')}
       </h1>
       <p className="max-w-xl text-xl text-balance text-text-muted">{t('comingSoon.text')}</p>
