@@ -34,7 +34,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 | `content/` | Pravilnici i serije pitanja (JSON) prije uvoza. |
 | `assets/` | Logo i hero slike od korisnika. |
 
-**Tok podataka u partiji.** Na početku partije aplikacija dohvati sva odobrena pitanja, filtrira ona koja su već odigrana na ovom uređaju i odmah odabere sva pitanja za cijelu partiju (sve runde, Najbrži prst i dva rezervna pitanja procjene za neriješeno). Odabrana pitanja spremaju se u stanje partije. Partija se zatim vodi i sprema lokalno nakon svake akcije, pa kratki prekid interneta ne smeta, a nastavak nakon zatvaranja preglednika radi bez mreže.
+**Tok podataka u partiji.** Na početku partije aplikacija dohvati sva odobrena pitanja, filtrira ona koja su već odigrana na ovom uređaju i odmah odabere sva pitanja za cijelu partiju (sve runde, Najbrži prst i jedno rezervno pitanje procjene za neriješeno). Odabrana pitanja spremaju se u stanje partije. Pitanje se smatra odigranim kad se prikaže na ekranu; neiskorišteno rezervno pitanje i pitanja iz prekinute partije ostaju za sljedeći put. Partija se zatim vodi i sprema lokalno nakon svake akcije, pa kratki prekid interneta ne smeta, a nastavak nakon zatvaranja preglednika radi bez mreže.
 
 **Statistika i prijave** šalju se u pozadini. Ako nema mreže, čuvaju se u lokalnom redu i šalju kasnije. Statistika za potez šalje se tek kad se prijeđe na sljedeći potez, kako "Poništi" ne bi kvario podatke.
 
@@ -44,7 +44,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 
 ### 4.1 Postavljanje partije
 
-- 2–4 tima. Ime je obavezno (do 20 znakova). Boja se bira iz šest ponuđenih, a dva tima ne mogu imati istu. Svaka boja ima svoju ikonu.
+- 2–4 tima. Ime je obavezno (do 20 znakova), a dva tima ne mogu imati isto ime (bez obzira na velika i mala slova). Boja se bira iz šest ponuđenih, a dva tima ne mogu imati istu. Svaka boja ima svoju ikonu.
 - Duljina: Puna (12 rundi) ili Kratka (6 rundi).
 - Vrijeme po pitanju: 30, 45, 60, 75 ili 90 sekundi; zadano 60.
 - Najbrži prst: uključen ili isključen; zadano uključen.
@@ -85,17 +85,17 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 ### 4.7 Najbrži prst
 
 - Jednom po partiji, ako je uključen, na nasumičnom mjestu između dviju rundi, uz najavu.
-- Otvoreno pitanje iz nasumične teme, za sve timove odjednom.
+- Otvoreno pitanje bilo koje težine iz nasumične teme, za sve timove odjednom.
 - Fiksni timer od 30 sekundi, neovisno o postavci vremena. Timovi dižu ruku, a voditelj klikne tim koji se prvi javio; timer tada staje.
-- Jedan pokušaj: točno +2, netočno −1. Nakon toga se pitanje zatvara.
+- Jedan pokušaj: točno +2, netočno −1. Nakon toga se pitanje zatvara. "Poništi" vraća i pogrešno odabran tim, a timer nastavlja gdje je stao.
 - Ako se nitko ne javi u 30 sekundi, otkriva se odgovor i nitko ne dobiva ni ne gubi bodove.
 - Ne udvostručuje se. Ukupni rezultat smije biti negativan.
 
 ### 4.8 Ljestvica, kraj i neriješeno
 
-- Nakon svake runde prikazuje se ljestvica: poredak s animiranim pomicanjem, ukupni bodovi i bodovi po temama.
+- Nakon svake runde prikazuje se ljestvica: poredak s animiranim pomicanjem, ukupni bodovi i bodovi po temama (Najbrži prst ima svoj stupac).
 - Kraj: pobjednik uz slavlje, poredak, tablica bodova po temama, "Revanš" (isti timovi i postavke, nova pitanja) i "Nova partija". Tim na zadnjem mjestu dobiva poruku „Error 404: IQ not found.”
-- Ako je više timova izjednačeno na prvom mjestu: dobivaju pitanje procjene, svaki naglas kaže broj, a nakon otkrivanja klikne se tim koji je bio najbliže. Ako je i dalje neriješeno, slijedi novo pitanje.
+- Ako je više timova izjednačeno na prvom mjestu: dobivaju pitanje procjene, svaki naglas kaže broj, a nakon otkrivanja klikne se tim koji je bio najbliže. Igra se samo jedno takvo pitanje i pobjednik je uvijek jedan; ako su dva tima jednako blizu, odlučuje voditelj. Pitanje za neriješeno ne donosi bodove, samo određuje pobjednika.
 
 ### 4.9 Ostalo
 
@@ -236,7 +236,7 @@ create table question_reports (
 
 - Igra čita pitanja kroz pogled `game_questions` koji spaja `questions` i `question_texts` (jezik `hr`) samo za status `approved`, bez internih polja (`embedding`, `editor_note`, `origin`).
 - RLS: anonimni korisnik smije čitati samo odobrena pitanja kroz pogled te dodavati retke u `answer_events` i `question_reports`. Prijavljeni urednik smije sve.
-- Statistika se bilježi za otvorena pitanja, točno/netočno i Najbrži prst; procjena se ne bilježi.
+- Statistika se bilježi za otvorena pitanja, točno/netočno i Najbrži prst; procjena se ne bilježi, a ni Najbrži prst na koji se nitko nije javio.
 - Pitanja se nikad ne brišu: odbačena dobivaju status, a njihov `id` se nikad ponovno ne koristi.
 - Engleski kasnije dolazi kao novi redak u `question_texts` s `lang = 'en'`.
 - Teme (`id`, naziv): `general` Opće znanje, `sport` Sport, `film_tv` Film i TV, `music` Glazba, `geography` Geografija, `history` Povijest, `culture` Kultura, `nature` Biologija i priroda, `science_tech` Znanost i tehnologija, `language_literature` Jezik i književnost.

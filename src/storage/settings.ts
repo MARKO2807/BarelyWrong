@@ -1,6 +1,6 @@
 import { z } from 'zod'
-import { KEYS } from './keys'
-import { readJson, writeJson } from './local'
+import { STORED } from './keys'
+import { readStored, writeStored, type StoredValue } from './versioned'
 
 /** Dark first: it is the default and the order shown in Settings. */
 export const THEMES = ['dark', 'light'] as const
@@ -16,11 +16,12 @@ export type Settings = z.infer<typeof settingsSchema>
 
 export const DEFAULT_SETTINGS: Settings = { theme: 'dark', sound: true }
 
+const stored: StoredValue<Settings> = { ...STORED.settings, schema: settingsSchema }
+
 export function loadSettings(): Settings {
-  const parsed = settingsSchema.safeParse(readJson(KEYS.settings))
-  return parsed.success ? parsed.data : { ...DEFAULT_SETTINGS }
+  return readStored(stored) ?? { ...DEFAULT_SETTINGS }
 }
 
 export function saveSettings(settings: Settings): boolean {
-  return writeJson(KEYS.settings, settings)
+  return writeStored(stored, settings)
 }
