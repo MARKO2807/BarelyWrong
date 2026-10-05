@@ -1,0 +1,231 @@
+@layer components {
+  /* Buttons */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: var(--button-padding);
+    border-radius: var(--radius-button);
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition:
+      transform var(--duration-fast) var(--ease-out),
+      box-shadow var(--duration-fast) var(--ease-out),
+      background-color var(--duration-fast) var(--ease-out),
+      color var(--duration-fast) var(--ease-out);
+  }
+
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .btn-primary {
+    margin-bottom: var(--button-depth);
+    background-color: var(--primary);
+    color: var(--on-primary);
+    box-shadow:
+      0 var(--button-depth) 0 var(--primary-shade),
+      var(--glow-primary);
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    transform: translateY(-0.1rem);
+    box-shadow:
+      0 calc(var(--button-depth) + 0.1rem) 0 var(--primary-shade),
+      var(--glow-primary-strong);
+  }
+
+  .btn-primary:active:not(:disabled) {
+    transform: translateY(var(--button-depth));
+    box-shadow:
+      0 0 0 var(--primary-shade),
+      var(--glow-primary);
+  }
+
+  .btn-secondary {
+    border: 0.125rem solid var(--secondary);
+    background-color: var(--surface);
+    color: var(--secondary-text);
+  }
+
+  .btn-secondary:hover:not(:disabled) {
+    background-color: color-mix(in srgb, var(--secondary) 14%, var(--surface));
+  }
+
+  .btn-ghost {
+    color: var(--text);
+  }
+
+  .btn-ghost:hover:not(:disabled) {
+    background-color: color-mix(in srgb, var(--text) 10%, transparent);
+  }
+
+  .btn-sm {
+    font-size: var(--text-base);
+  }
+
+  .btn-md {
+    font-size: var(--text-lg);
+  }
+
+  .btn-lg {
+    font-size: var(--text-xl);
+    --button-padding: 0.65em 1.4em;
+  }
+
+  .btn-xl {
+    font-size: var(--text-4xl);
+    --button-padding: 0.45em 1.25em;
+  }
+
+  @media (width < 40rem) {
+    .btn-xl {
+      font-size: var(--text-3xl);
+    }
+  }
+
+  /* Round icon-only button (settings, close). */
+  .icon-btn {
+    display: inline-grid;
+    place-items: center;
+    flex: none;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: var(--radius-full);
+    color: var(--text);
+    font-size: var(--text-2xl);
+    cursor: pointer;
+    transition: background-color var(--duration-fast) var(--ease-out);
+  }
+
+  .icon-btn:hover {
+    background-color: color-mix(in srgb, var(--text) 12%, transparent);
+  }
+
+  /* Header text link; shrinks to a round icon button on phones. */
+  .header-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0 0.85rem;
+    border-radius: var(--radius-md);
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 600;
+    text-shadow: var(--hero-text-shadow);
+    cursor: pointer;
+    transition: background-color var(--duration-fast) var(--ease-out);
+  }
+
+  .header-link:hover {
+    background-color: color-mix(in srgb, var(--text) 12%, transparent);
+  }
+
+  @media (width < 40rem) {
+    .header-link {
+      width: 3.25rem;
+      padding: 0;
+      border-radius: var(--radius-full);
+      font-size: var(--text-2xl);
+    }
+  }
+
+  .pixel-icon {
+    flex: none;
+    width: auto;
+    height: 1em;
+  }
+
+  .btn .pixel-icon {
+    height: 0.8em;
+  }
+
+  /* Focus ring for a wrapper whose real control is visually hidden (custom radios). */
+  .has-focus-ring:has(:focus-visible) {
+    outline: var(--focus-ring-width) solid var(--focus-ring);
+    outline-offset: 0.15rem;
+  }
+
+  /* Popups on native <dialog> */
+
+  .modal {
+    width: min(100% - 2rem, 52rem);
+    max-width: none;
+    max-height: min(100dvh - 2rem, 92dvh);
+    margin: auto;
+    padding: 0;
+    border: 0;
+    overflow: visible;
+    background: transparent;
+    color: var(--text);
+  }
+
+  .modal[open] {
+    animation: modal-in var(--duration-base) var(--ease-out);
+  }
+
+  .modal::backdrop {
+    background-color: var(--backdrop);
+    backdrop-filter: blur(0.25rem);
+  }
+
+  .modal[open]::backdrop {
+    animation: fade-in var(--duration-base) var(--ease-out);
+  }
+
+  .modal-panel {
+    display: flex;
+    flex-direction: column;
+    max-height: inherit;
+    border: 0.125rem solid var(--border);
+    border-radius: var(--radius-lg);
+    background-color: var(--surface);
+    box-shadow: var(--dialog-shadow);
+  }
+
+  /* Darkens (or lightens) the top of the hero image so the header reads. */
+  .hero-top-shade {
+    background: linear-gradient(to bottom, var(--hero-shade-top), transparent);
+  }
+
+  /* Home hero: soft glow behind the logo, tagline and button so they read on any part of the image. */
+  .hero-glow {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .hero-glow::before {
+    content: '';
+    position: absolute;
+    inset: -14% -32% -18%;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(closest-side, var(--hero-glow) 35%, transparent 100%);
+  }
+}
+
+@utility hero-text-shadow {
+  text-shadow: var(--hero-text-shadow);
+}
+
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem) scale(0.97);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}

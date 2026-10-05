@@ -1,0 +1,156 @@
+/*
+ * Design tokens. This is the only file with raw colour values; everything else uses the variables.
+ * Theme colours switch on <html data-theme="dark|light">, set before first paint by the boot
+ * script (src/storage/theme-boot.ts). Without the attribute the dark theme applies.
+ * src/styles/tokens.test.ts checks every text/background pair for 4.5:1 contrast.
+ */
+
+/* Tailwind theme: only these fonts, sizes, radii and colours exist as utilities. */
+@theme static {
+  --color-*: initial;
+  --font-*: initial;
+  --text-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+
+  --font-display: 'Pixelify Sans Variable', 'Pixelify Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Chakra Petch', ui-sans-serif, system-ui, sans-serif;
+  --font-terminal: 'VT323', ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 3rem;
+  --text-5xl: 4rem;
+
+  --spacing: 0.25rem;
+  /* TV-safe area: some TVs crop the picture edges. */
+  --spacing-safe-x: 5vw;
+  --spacing-safe-y: 5vh;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-button: 0.4em;
+  --radius-full: 9999px;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-primary: var(--primary);
+  --color-primary-shade: var(--primary-shade);
+  --color-on-primary: var(--on-primary);
+  --color-primary-text: var(--primary-text);
+  --color-secondary: var(--secondary);
+  --color-secondary-text: var(--secondary-text);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-correct: var(--correct);
+  --color-wrong: var(--wrong);
+  --color-team-pink: var(--team-pink);
+  --color-team-cyan: var(--team-cyan);
+  --color-team-amber: var(--team-amber);
+  --color-team-purple: var(--team-purple);
+  --color-team-blue: var(--team-blue);
+  --color-team-lime: var(--team-lime);
+  --color-on-team: var(--on-team);
+  --color-on-team-pink: var(--on-team-pink);
+}
+
+/* Same in both themes. */
+:root {
+  --primary: #fb1f92;
+  --primary-shade: #a30d5d;
+  --on-primary: #14071f;
+  --accent: #ffb547;
+  --on-accent: #14183d;
+
+  --team-pink: #fb1f92;
+  --team-cyan: #03e1fd;
+  --team-amber: #ffb547;
+  --team-purple: #a779ff;
+  --team-blue: #4380ff;
+  --team-lime: #b6f23b;
+  --on-team: #14183d;
+  --on-team-pink: #14071f;
+
+  /* 1rem grows with the screen: ~17px at 1920×1080, ~35px at 3840×2160, never below 15px. */
+  --root-font-size: clamp(15px, min(0.9vw, 1.6vh), 48px);
+
+  --logo-hero-width: min(32vw, 56vh);
+  --logo-header-height: 4.25rem;
+  --hero-lift: 16vh;
+  --button-padding: 0.65em 1.15em;
+  --button-depth: 0.3rem;
+  --focus-ring-width: 0.1875rem;
+
+  --duration-fast: 120ms;
+  --duration-base: 220ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (orientation: portrait) {
+  :root {
+    --logo-hero-width: min(84vw, 42vh);
+    --logo-header-height: 2.75rem;
+    --hero-lift: 6vh;
+  }
+}
+
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #070b30;
+  --surface: #141857;
+  --border: #2b2f86;
+  --text: #f2eeff;
+  --text-muted: #a9a6d6;
+  /* Lighter than the button pink: #fb1f92 on --surface is only 4.4:1. */
+  --primary-text: #ff3d9f;
+  --secondary: #03e1fd;
+  --secondary-text: #03e1fd;
+  --correct: #3bf2a1;
+  --wrong: #ff5468;
+
+  --focus-ring: var(--secondary-text);
+  --backdrop: rgb(7 11 48 / 0.72);
+  --hero-glow: rgb(7 11 48 / 0.62);
+  --hero-shade-top: rgb(7 11 48 / 0.55);
+  --hero-text-shadow: 0 0.1rem 0.6rem rgb(7 11 48 / 0.95), 0 0 0.2rem rgb(7 11 48 / 0.9);
+  --glow-primary: 0 0 1.75rem rgb(251 31 146 / 0.5);
+  --glow-primary-strong: 0 0 2.5rem rgb(251 31 146 / 0.75);
+  --dialog-shadow: 0 1.5rem 4rem rgb(0 0 0 / 0.5);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #f3f8ff;
+  --surface: #ffffff;
+  --border: #c6d4f0;
+  --text: #14183d;
+  --text-muted: #545c80;
+  --primary-text: #d10c74;
+  --secondary: #1f96f9;
+  --secondary-text: #0a6cc2;
+  --correct: #0b7a4c;
+  --wrong: #d62839;
+
+  --focus-ring: var(--secondary-text);
+  --backdrop: rgb(20 24 61 / 0.45);
+  --hero-glow: rgb(255 255 255 / 0.72);
+  --hero-shade-top: rgb(243 248 255 / 0.6);
+  --hero-text-shadow: 0 0 0.6rem rgb(255 255 255 / 0.95), 0 0 0.2rem rgb(255 255 255 / 0.9);
+  --glow-primary: 0 0.4rem 1.5rem rgb(251 31 146 / 0.35);
+  --glow-primary-strong: 0 0.4rem 2rem rgb(251 31 146 / 0.55);
+  --dialog-shadow: 0 1.5rem 4rem rgb(20 24 61 / 0.25);
+}
