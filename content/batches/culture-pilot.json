@@ -1,0 +1,209 @@
+[
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je talijanski renesansni umjetnik naslikao Mona Lisu?",
+    "answer": "Leonardo da Vinci",
+    "accept": [
+      "Leonardo"
+    ],
+    "note": "Slika je 1911. ukradena iz Louvrea, a vraćena je tek 1914.",
+    "source": "Wikipedia (en): Mona Lisa",
+    "tags": [
+      "slikarstvo",
+      "renesansa"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je nizozemski slikar 1889. naslikao „Zvjezdanu noć”?",
+    "answer": "Vincent van Gogh",
+    "accept": [
+      "Van Gogh"
+    ],
+    "note": "Prikazao je pogled kroz istočni prozor svoje sobe u lječilištu u Saint-Rémy-de-Provenceu.",
+    "source": "Wikipedia (en): The Starry Night",
+    "tags": [
+      "slikarstvo"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je junak grčke mitologije morao izvršiti dvanaest zadataka?",
+    "answer": "Heraklo",
+    "accept": [
+      "Herakle",
+      "Herkul",
+      "Heracles"
+    ],
+    "note": "Rimljani su ga zvali Herkul.",
+    "source": "Wikipedia (en): Labours of Hercules",
+    "tags": [
+      "mitologija",
+      "antička Grčka"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je hrvatski kipar 1929. izradio kip Grgura Ninskog u Splitu?",
+    "answer": "Ivan Meštrović",
+    "accept": [
+      "Meštrović"
+    ],
+    "note": "Njegov „Zdenac života” ispred zagrebačkog HNK nastao je 1905., pod utjecajem secesije i Rodina.",
+    "source": "Wikipedia (en): Ivan Meštrović",
+    "tags": [
+      "kiparstvo",
+      "hrvatska umjetnost"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se zovu ukrasni kolači od medenog tijesta čija je izrada 2010. upisana na UNESCO-ov popis kao baština sjeverne Hrvatske?",
+    "answer": "Licitari",
+    "accept": [
+      "Licitar",
+      "Licitarsko srce"
+    ],
+    "note": "Tijesto se radi od meda, brašna, jaja, vode i prirodnih boja.",
+    "source": "Wikipedia (en): Licitar",
+    "tags": [
+      "tradicija",
+      "UNESCO",
+      "hrvatska baština"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je arhitekt od 1883. do kraja života vodio gradnju barcelonske Sagrade Família?",
+    "answer": "Antoni Gaudí",
+    "accept": [
+      "Gaudí",
+      "Gaudi"
+    ],
+    "note": "Pokopan je u kripti te crkve.",
+    "source": "Wikipedia (en): Sagrada Família",
+    "tags": [
+      "arhitektura",
+      "Španjolska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se zove korčulanski ples s mačevima u kojem se Bijeli i Crni kralj bore za djevojku Bulu?",
+    "answer": "Moreška",
+    "accept": [],
+    "note": "Pobjeđuje Bijeli kralj, koji porazi crne vojnike i oslobodi Bulu.",
+    "source": "Wikipedia (en): Moreška",
+    "tags": [
+      "ples",
+      "tradicija",
+      "hrvatska baština"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je graditelj od 1441. do smrti vodio gradnju šibenske katedrale sv. Jakova?",
+    "answer": "Juraj Dalmatinac",
+    "accept": [
+      "Giorgio da Sebenico"
+    ],
+    "note": "Na vijencu apsida nalazi se više od 70 isklesanih ljudskih glava.",
+    "source": "Wikipedia (en): Cathedral of St. James, Šibenik",
+    "tags": [
+      "arhitektura",
+      "hrvatska baština"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review",
+    "editorNote": "Izvor navodi 74 glave u tekstu i 72 u opisu slike, pa je u zanimljivosti „više od 70”."
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je mogulski car dao sagraditi Tadž Mahal u spomen na svoju suprugu?",
+    "answer": "Šah Džahan",
+    "accept": [
+      "Shah Jahan",
+      "Šahdžahan"
+    ],
+    "note": "Na gradnji je radilo više od 20 000 radnika i majstora.",
+    "source": "Wikipedia (en): Taj Mahal",
+    "tags": [
+      "arhitektura",
+      "Indija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji se tradicijski ples iz dubrovačkog kraja pleše uz lijericu?",
+    "answer": "Linđo",
+    "accept": [
+      "Lindjo",
+      "Dubrovačka poskočica"
+    ],
+    "note": "Kolovođa duhovitim stihovima izvikuje naredbe i određuje koji parovi plešu.",
+    "source": "Wikipedia (hr): Linđo",
+    "tags": [
+      "ples",
+      "tradicija",
+      "hrvatska baština"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

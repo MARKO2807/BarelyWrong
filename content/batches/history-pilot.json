@@ -1,0 +1,207 @@
+[
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koje je godine Kristofor Kolumbo na svom prvom putovanju stigao do Amerike?",
+    "answer": "1492.",
+    "accept": [
+      "1492"
+    ],
+    "note": "Isplovio je s tri broda: Santa María, Pinta i Niña.",
+    "source": "Wikipedia (en): Voyages of Christopher Columbus",
+    "tags": [
+      "otkrića",
+      "novi vijek"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Čiji se konjanički kip od 1866. nalazi na glavnom zagrebačkom trgu?",
+    "answer": "Josip Jelačić",
+    "accept": [
+      "Ban Jelačić",
+      "Jelačić"
+    ],
+    "note": "Kip je uklonjen 1947., a na trg je vraćen 1990.",
+    "source": "Wikipedia (hr): Josip Jelačić",
+    "tags": [
+      "hrvatska povijest",
+      "19. stoljeće"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je rimski car u Splitu dao sagraditi palaču u koju se povukao nakon vladavine?",
+    "answer": "Dioklecijan",
+    "accept": [
+      "Diocletian"
+    ],
+    "note": "Prijestolja se odrekao 1. svibnja 305.",
+    "source": "Wikipedia (en): Diocletian’s Palace",
+    "tags": [
+      "antika",
+      "Rim",
+      "hrvatska povijest"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je zid otvoren 9. studenoga 1989.?",
+    "answer": "Berlinski zid",
+    "accept": [
+      "Berlinski"
+    ],
+    "note": "Granica oko Zapadnog Berlina bila je duga oko 155 kilometara.",
+    "source": "Wikipedia (en): Berlin Wall",
+    "tags": [
+      "20. stoljeće",
+      "Hladni rat"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Čiju je gotovo netaknutu grobnicu 1922. pronašao Howard Carter?",
+    "answer": "Tutankamon",
+    "accept": [
+      "Tutankhamun",
+      "Tutankamonova"
+    ],
+    "note": "Faraon je postao kao dječak od osam ili devet godina.",
+    "source": "Wikipedia (en): Tutankhamun",
+    "tags": [
+      "Egipat",
+      "arheologija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je hrvatski vladar oko 925. postao prvi hrvatski kralj?",
+    "answer": "Tomislav",
+    "accept": [
+      "Kralj Tomislav"
+    ],
+    "note": "Ne zna se točno kada, gdje ni tko ga je okrunio.",
+    "source": "Wikipedia (en): Tomislav of Croatia",
+    "tags": [
+      "hrvatska povijest",
+      "srednji vijek"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja je britanska kraljica vladala 63 godine, gotovo cijelu drugu polovicu 19. stoljeća?",
+    "answer": "Viktorija",
+    "accept": [
+      "Kraljica Viktorija",
+      "Victoria"
+    ],
+    "note": "Najdulje je vladala tek Elizabeta II., više od 70 godina.",
+    "source": "Wikipedia (en): Queen Victoria; Wikipedia (en): Elizabeth II",
+    "tags": [
+      "Velika Britanija",
+      "19. stoljeće"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je mletački putnik opisao boravak u Kini, a prema jednoj teoriji rođen je na Korčuli?",
+    "answer": "Marko Polo",
+    "accept": [
+      "Marco Polo"
+    ],
+    "note": "Putopis je izdiktirao Rustichellu iz Pise dok je bio u genoveškom zatočeništvu.",
+    "source": "Wikipedia (en): Marco Polo",
+    "tags": [
+      "putovanja",
+      "srednji vijek"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je bizantski car dao sagraditi Aju Sofiju u današnjem obliku?",
+    "answer": "Justinijan I.",
+    "accept": [
+      "Justinijan",
+      "Justinian"
+    ],
+    "note": "Gradnja je trajala manje od šest godina, od 532. do 537.",
+    "source": "Wikipedia (en): Hagia Sophia",
+    "tags": [
+      "Bizant"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review",
+    "editorNote": "„U današnjem obliku” ostavljeno namjerno: ranije su na tom mjestu stajale dvije starije bazilike."
+  },
+  {
+    "topic": "history",
+    "format": "open",
+    "difficulty": 3,
+    "question": "U kojoj je bitki 1066. normandijski vojvoda Vilim porazio engleskog kralja Harolda?",
+    "answer": "Bitka kod Hastingsa",
+    "accept": [
+      "Hastings"
+    ],
+    "note": "Bitka je prikazana na tapiseriji iz Bayeuxa, dugoj oko 70 metara.",
+    "source": "Wikipedia (en): Bayeux Tapestry",
+    "tags": [
+      "srednji vijek",
+      "Engleska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

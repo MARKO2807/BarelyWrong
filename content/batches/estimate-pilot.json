@@ -1,0 +1,184 @@
+[
+  {
+    "topic": "science_tech",
+    "format": "estimate",
+    "difficulty": 3,
+    "question": "Pri kojoj temperaturi Celzijeva i Fahrenheitova ljestvica pokazuju isti broj?",
+    "answer": "−40 °C",
+    "accept": [
+      "−40 °F",
+      "-40"
+    ],
+    "note": "Na Fahrenheitovoj ljestvici voda se ledi na 32 °F, a vrije na 212 °F.",
+    "source": "Wikipedia (en): Fahrenheit",
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "sport",
+    "format": "estimate",
+    "difficulty": 2,
+    "question": "Na kojoj je visini košarkaški obruč, u centimetrima?",
+    "answer": "305 cm",
+    "accept": [],
+    "note": "To je točno 10 stopa; obruč je 122 cm odmaknut od crte iza koša.",
+    "source": "Wikipedia (en): Basketball",
+    "tags": [
+      "košarka",
+      "pravila"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "estimate",
+    "difficulty": 3,
+    "question": "Koje je godine car Leopold I. izdao povelju iz koje je nastalo Sveučilište u Zagrebu?",
+    "answer": "1669.",
+    "accept": [
+      "1669"
+    ],
+    "note": "Povelja je bila za isusovačku akademiju, iz koje je kasnije izraslo sveučilište.",
+    "source": "Wikipedia (en): University of Zagreb",
+    "tags": [
+      "hrvatska povijest",
+      "obrazovanje"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "estimate",
+    "difficulty": 2,
+    "question": "Koliko je metara visoko Sljeme, najviši vrh Medvednice?",
+    "answer": "1033 m",
+    "accept": [],
+    "note": "Na vrhu je 169 metara visok radiotelevizijski toranj iz 1973.",
+    "source": "Wikipedia (hr): Sljeme",
+    "tags": [
+      "planine",
+      "Zagreb"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "estimate",
+    "difficulty": 1,
+    "question": "Koliko trajnih zuba obično ima odrastao čovjek, računajući umnjake?",
+    "answer": "32",
+    "accept": [],
+    "note": "Djeca imaju 20 mliječnih zuba.",
+    "source": "Wikipedia (en): Human tooth",
+    "tags": [
+      "ljudsko tijelo"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "estimate",
+    "difficulty": 3,
+    "question": "Koliko je metara visok Kip slobode, od tla do vrha baklje?",
+    "answer": "93 m",
+    "accept": [],
+    "note": "Željeznu konstrukciju kipa projektirao je Gustave Eiffel.",
+    "source": "Wikipedia (en): Statue of Liberty",
+    "tags": [
+      "znamenitosti",
+      "kiparstvo"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "estimate",
+    "difficulty": 2,
+    "question": "Koliko je Oscara osvojio film „Titanic” iz 1997.?",
+    "answer": "11",
+    "accept": [],
+    "note": "Time je izjednačio rekord filma „Ben-Hur” iz 1959.",
+    "source": "Wikipedia (en): Titanic (1997 film)",
+    "tags": [
+      "Oscar"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "estimate",
+    "difficulty": 2,
+    "question": "Koliko stihova ima sonet?",
+    "answer": "14",
+    "accept": [],
+    "note": "Oblik je nastao u 13. stoljeću na Siciliji, a začetnikom se smatra Giacomo da Lentini.",
+    "source": "Wikipedia (en): Sonnet",
+    "tags": [
+      "poezija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "general",
+    "format": "estimate",
+    "difficulty": 3,
+    "question": "Koliko grama ima jedna unča?",
+    "answer": "28,35 g",
+    "accept": [
+      "28,349523125 g"
+    ],
+    "note": "Šesnaest unci čini jednu funtu.",
+    "source": "Wikipedia (en): Ounce",
+    "tags": [
+      "mjerne jedinice"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "estimate",
+    "difficulty": 2,
+    "question": "Koliko tipki ima standardni moderni klavir?",
+    "answer": "88",
+    "accept": [],
+    "note": "Od toga su 52 bijele i 36 crnih tipki.",
+    "source": "Wikipedia (en): Piano",
+    "tags": [
+      "instrumenti"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "topic": "nature",
+    "format": "true_false",
+    "difficulty": 1,
+    "question": "Točno ili netočno: dalmatinac je ime dobio po Dalmaciji.",
+    "answer": "Točno",
+    "accept": [],
+    "note": "Štenci se rađaju potpuno bijeli, a prve točke dobivaju u desetak dana.",
+    "source": "Wikipedia (en): Dalmatian dog",
+    "tags": [
+      "psi",
+      "hrvatska priroda"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: Kineski zid vidi se golim okom s Mjeseca.",
+    "answer": "Netočno",
+    "accept": [],
+    "note": "Dovoljno je dug, ali preuzak: s Mjeseca bi izgledao kao vlas kose gledana s tri kilometra.",
+    "source": "Wikipedia (en): Great Wall of China",
+    "tags": [
+      "mitovi",
+      "znamenitosti"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "history",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: Napoleon Bonaparte bio je neobično nizak za svoje doba.",
+    "answer": "Netočno",
+    "accept": [],
+    "note": "Bio je visok oko 1,67 m, prosječno za ono doba; mit su širili britanski karikaturisti.",
+    "source": "Wikipedia (en): Napoleon complex",
+    "tags": [
+      "mitovi",
+      "Francuska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: zvuk se kroz zrak širi brže nego kroz vodu.",
+    "answer": "Netočno",
+    "accept": [],
+    "note": "U vodi je oko 4,3 puta brži nego u zraku.",
+    "source": "Wikipedia (en): Speed of sound",
+    "tags": [
+      "fizika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "true_false",
+    "difficulty": 3,
+    "question": "Točno ili netočno: Wolfgang Amadeus Mozart rođen je nakon smrti Johanna Sebastiana Bacha.",
+    "answer": "Točno",
+    "accept": [],
+    "note": "Bach je umro 1750., a Mozart je rođen 1756.; kao dijete u Londonu upoznao je Bachova sina Johanna Christiana.",
+    "source": "Wikipedia (en): Wolfgang Amadeus Mozart; Wikipedia (en): Johann Sebastian Bach",
+    "tags": [
+      "klasična glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "sport",
+    "format": "true_false",
+    "difficulty": 3,
+    "question": "Točno ili netočno: pobjednici prvih modernih Olimpijskih igara, 1896. u Ateni, dobivali su srebrne medalje.",
+    "answer": "Točno",
+    "accept": [],
+    "note": "Drugoplasirani su dobivali bakrenu medalju, a trećeplasirani ništa.",
+    "source": "Wikipedia (en): 1896 Summer Olympics",
+    "tags": [
+      "olimpijske igre"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: Walt Disney osobno je posuđivao glas Mikiju Mausu u prvim crtićima.",
+    "answer": "Točno",
+    "accept": [],
+    "note": "Glas mu je davao do 1946., kad je ulogu preuzeo Jimmy MacDonald.",
+    "source": "Wikipedia (en): Mickey Mouse",
+    "tags": [
+      "animacija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: riječ „robot” prvi je put upotrijebljena u drami češkog pisca Karela Čapeka.",
+    "answer": "Točno",
+    "accept": [],
+    "note": "Riječ je predložio njegov brat Josef, prema češkoj riječi robota, prisilni rad.",
+    "source": "Wikipedia (en): R.U.R.",
+    "tags": [
+      "porijeklo riječi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "culture",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: Eiffelov toranj od početka je zamišljen kao trajna građevina.",
+    "answer": "Netočno",
+    "accept": [],
+    "note": "Trebao je biti srušen 1909., a spasila ga je korisnost za radiotelegrafiju.",
+    "source": "Wikipedia (en): Eiffel Tower",
+    "tags": [
+      "arhitektura",
+      "Francuska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "general",
+    "format": "true_false",
+    "difficulty": 2,
+    "question": "Točno ili netočno: znak za pomoć SOS izvorno je kratica za „Save Our Souls”.",
+    "answer": "Netočno",
+    "accept": [],
+    "note": "Izabran je kao lako prepoznatljiv niz Morseovih znakova: tri točke, tri crte, tri točke.",
+    "source": "Wikipedia (en): SOS",
+    "tags": [
+      "simboli"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

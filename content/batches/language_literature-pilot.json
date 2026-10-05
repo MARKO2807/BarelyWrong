@@ -1,0 +1,202 @@
+[
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je hrvatska književnica napisala „Čudnovate zgode šegrta Hlapića”?",
+    "answer": "Ivana Brlić-Mažuranić",
+    "accept": [
+      "Brlić-Mažuranić"
+    ],
+    "note": "Zbog njezinih bajki zvali su je hrvatskim Andersenom, ali i hrvatskim Tolkienom.",
+    "source": "Wikipedia (hr): Ivana Brlić-Mažuranić",
+    "tags": [
+      "hrvatska književnost",
+      "dječja književnost"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Tko je napisao tragediju „Romeo i Julija”?",
+    "answer": "William Shakespeare",
+    "accept": [
+      "Shakespeare"
+    ],
+    "note": "Radnja se odvija u talijanskim gradovima Veroni i Mantovi.",
+    "source": "Wikipedia (en): Romeo and Juliet",
+    "tags": [
+      "drama",
+      "engleska književnost"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je slavni detektiv živio u londonskoj ulici Baker Street 221B?",
+    "answer": "Sherlock Holmes",
+    "accept": [
+      "Holmes"
+    ],
+    "note": "Kad je Doyle 1893. objavio Holmesovu smrt, časopis Strand navodno je izgubio više od 20 000 pretplatnika.",
+    "source": "Wikipedia (en): Sherlock Holmes",
+    "tags": [
+      "likovi",
+      "kriminalistička književnost"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je Asterixov prijatelj kao dijete upao u kotao s čarobnim napitkom?",
+    "answer": "Obelix",
+    "accept": [],
+    "note": "Zato je jedini u selu na kojeg napitak djeluje trajno, pa ga ne smije piti.",
+    "source": "Wikipedia (en): Obelix",
+    "tags": [
+      "stripovi",
+      "likovi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review",
+    "editorNote": "Dio „pa ga ne smije piti” nije izrijekom u izvoru (piše da je jedini trajno jak); po potrebi skratiti."
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji se glagoljski kameni spomenik iz oko 1100. naziva „krsnim listom” hrvatskog naroda?",
+    "answer": "Bašćanska ploča",
+    "accept": [],
+    "note": "Pronađena je 1851. u crkvi sv. Lucije u Jurandvoru na Krku.",
+    "source": "Wikipedia (hr): Bašćanska ploča",
+    "tags": [
+      "glagoljica",
+      "hrvatski jezik"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je dubrovački barokni pjesnik napisao ep „Osman”?",
+    "answer": "Ivan Gundulić",
+    "accept": [
+      "Gundulić"
+    ],
+    "note": "Njegov portret bio je glavni motiv novčanice od 50 kuna.",
+    "source": "Wikipedia (hr): Ivan Gundulić",
+    "tags": [
+      "hrvatska književnost",
+      "barok"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koliko slova ima hrvatska abeceda?",
+    "answer": "30",
+    "accept": [
+      "Trideset"
+    ],
+    "note": "Tri slova, dž, lj i nj, pišu se s dva znaka.",
+    "source": "Wikipedia (hr): Hrvatska abeceda",
+    "tags": [
+      "hrvatski jezik"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je kolumbijski pisac napisao roman „Sto godina samoće”?",
+    "answer": "Gabriel García Márquez",
+    "accept": [
+      "García Márquez",
+      "Márquez",
+      "Marquez"
+    ],
+    "note": "Radnja se odvija u izmišljenom gradiću Macondu.",
+    "source": "Wikipedia (en): One Hundred Years of Solitude",
+    "tags": [
+      "svjetska književnost",
+      "roman"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Kako se zove prva hrvatska tiskana knjiga, glagoljski misal iz 1483.?",
+    "answer": "Misal po zakonu rimskoga dvora",
+    "accept": [
+      "Prvotisak",
+      "Misal"
+    ],
+    "note": "Bio je prvi misal na svijetu koji nije tiskan latinicom, nego glagoljicom.",
+    "source": "Wikipedia (hr): Misal po zakonu rimskoga dvora",
+    "tags": [
+      "glagoljica",
+      "tisak",
+      "hrvatska književnost"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je irski pisac autor romana „Uliks”, čija se radnja odvija u Dublinu tijekom jednog dana?",
+    "answer": "James Joyce",
+    "accept": [
+      "Joyce"
+    ],
+    "note": "Taj dan, 16. lipnja, slavi se kao Bloomsday.",
+    "source": "Wikipedia (en): Bloomsday",
+    "tags": [
+      "svjetska književnost",
+      "roman"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

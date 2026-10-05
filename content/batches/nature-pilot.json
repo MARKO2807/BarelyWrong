@@ -1,0 +1,193 @@
+[
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je najveća životinja za koju znamo da je ikad živjela na Zemlji?",
+    "answer": "Plavetni kit",
+    "accept": [
+      "Plavi kit"
+    ],
+    "note": "Hrani se gotovo isključivo sitnim račićima, krilom.",
+    "source": "Wikipedia (en): Blue whale",
+    "tags": [
+      "životinje",
+      "rekordi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Kako se zove hladan i suh vjetar koji na mahove puše s kopna prema Jadranu?",
+    "answer": "Bura",
+    "accept": [],
+    "note": "Najjači izmjereni udar, 248 km/h, zabilježen je 1998. na Masleničkom mostu.",
+    "source": "Wikipedia (en): Bora (wind)",
+    "tags": [
+      "vrijeme",
+      "Jadran"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji plin biljke upijaju iz zraka tijekom fotosinteze?",
+    "answer": "Ugljikov dioksid",
+    "accept": [
+      "CO2",
+      "Ugljični dioksid"
+    ],
+    "note": "Biljke su zelene jer klorofil ne upija zeleni dio svjetlosti, nego ga odbija.",
+    "source": "Wikipedia (en): Photosynthesis",
+    "tags": [
+      "biljke"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je najbrža kopnena životinja?",
+    "answer": "Gepard",
+    "accept": [],
+    "note": "Za razliku od drugih mačaka, kandže može uvući samo djelomično.",
+    "source": "Wikipedia (en): Cheetah",
+    "tags": [
+      "životinje",
+      "rekordi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koliko kostiju ima kostur odrasla čovjeka?",
+    "answer": "206",
+    "accept": [],
+    "note": "Najmanja je stremen, jedna od slušnih koščica u srednjem uhu.",
+    "source": "Wikipedia (en): Human skeleton",
+    "tags": [
+      "ljudsko tijelo"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se u narodu zove proteus, slijepi vodozemac iz podzemnih voda dinarskog krša?",
+    "answer": "Čovječja ribica",
+    "accept": [],
+    "note": "Može doživjeti više od stotinu godina.",
+    "source": "Wikipedia (hr): Čovječja ribica; Wikipedia (en): Olm",
+    "tags": [
+      "životinje",
+      "špilje",
+      "hrvatska priroda"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je najteži unutarnji organ ljudskog tijela?",
+    "answer": "Jetra",
+    "accept": [],
+    "note": "Iz samo četvrtine jetre može ponovno izrasti cijela.",
+    "source": "Wikipedia (en): Liver",
+    "tags": [
+      "ljudsko tijelo"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja se velika ptica strvinar gnijezdi na liticama otoka Cresa?",
+    "answer": "Bjeloglavi sup",
+    "accept": [
+      "Sup"
+    ],
+    "note": "Raspon krila može mu doseći i 2,8 metra.",
+    "source": "Wikipedia (en): Griffon vulture",
+    "tags": [
+      "ptice",
+      "hrvatska priroda"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koja je biljka, endem Velebita, bila prikazana na hrvatskoj kovanici od 50 lipa?",
+    "answer": "Velebitska degenija",
+    "accept": [
+      "Degenija"
+    ],
+    "note": "Ime je dobila po mađarskom prirodoslovcu Árpádu von Degenu, koji ju je pronašao 1907.",
+    "source": "Wikipedia (hr): Velebitska degenija",
+    "tags": [
+      "biljke",
+      "hrvatska priroda"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "nature",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koja biljka iz prašuma jugoistočne Azije ima najveći pojedinačni cvijet na svijetu?",
+    "answer": "Raflezija",
+    "accept": [
+      "Rafflesia",
+      "Rafflesia arnoldii"
+    ],
+    "note": "Širi miris trulog mesa kojim privlači muhe oprašivače.",
+    "source": "Wikipedia (en): Rafflesia arnoldii",
+    "tags": [
+      "biljke",
+      "rekordi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review",
+    "editorNote": "„Iz prašuma jugoistočne Azije” nije posebno provjereno; po potrebi skratiti pitanje."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja je animirana serija o kamenodobnom Fredu i njegovoj obitelji bila prva prikazivana u udarnom večernjem terminu američke televizije?",
+    "answer": "Kremenkovi",
+    "accept": [
+      "The Flintstones",
+      "Obitelj Kremenko",
+      "Porodica Kremenko"
+    ],
+    "note": "Seriju su stvorili William Hanna i Joseph Barbera, a prva je epizoda prikazana 1960.",
+    "source": "Wikipedia (en): The Flintstones",
+    "tags": [
+      "animacija",
+      "serije"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je crtani film Dušana Vukotića 1962. postao prvi animirani film izvan SAD-a nagrađen Oscarom?",
+    "answer": "Surogat",
+    "accept": [
+      "Ersatz"
+    ],
+    "note": "Vukotić je bio jedan od začetnika prepoznatljivog stila Zagrebačke škole crtanog filma.",
+    "source": "Wikipedia (hr): Dušan Vukotić; Wikipedia (en): Ersatz (film)",
+    "tags": [
+      "animacija",
+      "Oscar",
+      "Zagrebačka škola crtanog filma"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 1,
+    "question": "U kojoj je seriji HBO-a Dubrovnik od druge sezone glumio prijestolnicu King’s Landing?",
+    "answer": "Igra prijestolja",
+    "accept": [
+      "Game of Thrones"
+    ],
+    "note": "U prvoj su sezoni te scene snimane u Mdini na Malti.",
+    "source": "HAVC (havc.hr): Game of Thrones crew fascinated by Croatia and Dubrovnik; untappedcities.com: Game of Thrones film locations",
+    "tags": [
+      "serije",
+      "snimanje u Hrvatskoj"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review",
+    "editorNote": "Izvori nisu Wikipedia; pri pregledu po želji potvrditi u enciklopedijskom izvoru."
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je redatelj 1975. snimio film „Ralje”?",
+    "answer": "Steven Spielberg",
+    "accept": [
+      "Spielberg"
+    ],
+    "note": "„Ralje” se smatraju prototipom ljetnog blockbustera.",
+    "source": "Wikipedia (en): Jaws (film)",
+    "tags": [
+      "redatelji"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je glumac Oscara za najbolju mušku ulogu dobio za film „Povratnik”?",
+    "answer": "Leonardo DiCaprio",
+    "accept": [
+      "DiCaprio"
+    ],
+    "note": "Prvu nominaciju za Oscara dobio je s 19 godina, za film „Što muči Gilberta Grapea”.",
+    "source": "Wikipedia (en): Leonardo DiCaprio",
+    "tags": [
+      "glumci",
+      "Oscar"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Kako se zove Nintendov vodoinstalater, brat Luigija?",
+    "answer": "Mario",
+    "accept": [
+      "Super Mario"
+    ],
+    "note": "U prvoj igri, „Donkey Kongu” iz 1981., zvao se Jumpman.",
+    "source": "Wikipedia (en): Mario",
+    "tags": [
+      "videoigre"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je ratni film iz 1927. dobio prvog Oscara za najbolji film?",
+    "answer": "Krila",
+    "accept": [
+      "Wings"
+    ],
+    "note": "Ostao je jedini potpuno nijemi film s Oscarom za najbolji film.",
+    "source": "Wikipedia (en): Wings (1927 film)",
+    "tags": [
+      "Oscar",
+      "povijest filma"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja je dječja serija po romanima Hrvoja Hitreca pratila zagrebačku obitelj Vragec?",
+    "answer": "Smogovci",
+    "accept": [],
+    "note": "Obitelj živi u Peščenici, a serija se prikazivala od 1982. do 1997.",
+    "source": "Wikipedia (hr): Smogovci",
+    "tags": [
+      "serije",
+      "hrvatska televizija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je prvi dugometražni film studija Pixar, iz 1995.?",
+    "answer": "Priča o igračkama",
+    "accept": [
+      "Toy Story"
+    ],
+    "note": "Bio je to prvi dugometražni film u potpunosti napravljen računalnom animacijom.",
+    "source": "Wikipedia (en): Toy Story",
+    "tags": [
+      "animacija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Na kojem se filmskom festivalu dodjeljuje Zlatna palma?",
+    "answer": "Cannes",
+    "accept": [
+      "Filmski festival u Cannesu",
+      "Kan"
+    ],
+    "note": "Zlatna palma uvedena je 1955.; prije toga glavna nagrada zvala se Grand Prix.",
+    "source": "Wikipedia (en): Palme d’Or",
+    "tags": [
+      "festivali",
+      "nagrade"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

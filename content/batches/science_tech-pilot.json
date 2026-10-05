@@ -1,0 +1,200 @@
+[
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je izumitelj rođen u Smiljanu zaslužan za razvoj sustava izmjenične struje?",
+    "answer": "Nikola Tesla",
+    "accept": [
+      "Tesla"
+    ],
+    "note": "Po njemu je nazvana mjerna jedinica za magnetsku indukciju.",
+    "source": "Wikipedia (en): Nikola Tesla",
+    "tags": [
+      "izumitelji",
+      "elektricitet"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je kemijski simbol za zlato?",
+    "answer": "Au",
+    "accept": [],
+    "note": "Simbol dolazi od latinske riječi aurum.",
+    "source": "Wikipedia (en): Gold",
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je najveći planet Sunčeva sustava?",
+    "answer": "Jupiter",
+    "accept": [],
+    "note": "Masa mu je oko dva i pol puta veća od mase svih ostalih planeta zajedno.",
+    "source": "Wikipedia (en): Jupiter",
+    "tags": [
+      "svemir",
+      "planeti"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Tko je 12. travnja 1961. postao prvi čovjek u svemiru?",
+    "answer": "Jurij Gagarin",
+    "accept": [
+      "Gagarin",
+      "Yuri Gagarin"
+    ],
+    "note": "Let letjelicom Vostok 1 trajao je oko 108 minuta.",
+    "source": "Wikipedia (en): Vostok 1",
+    "tags": [
+      "svemir",
+      "istraživanje svemira"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je zagrebački izumitelj 1906. patentirao prvu mehaničku olovku?",
+    "answer": "Slavoljub Penkala",
+    "accept": [
+      "Penkala",
+      "Eduard Slavoljub Penkala"
+    ],
+    "note": "Konstruirao je i avion kojim je 1910. poletio prvi hrvatski pilot Dragutin Novak.",
+    "source": "Wikipedia (hr): Slavoljub Eduard Penkala",
+    "tags": [
+      "izumitelji",
+      "hrvatski izumi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Tko je 1989. u CERN-u osmislio World Wide Web?",
+    "answer": "Tim Berners-Lee",
+    "accept": [
+      "Berners-Lee"
+    ],
+    "note": "Web je cijelom internetu postao dostupan u kolovozu 1991.",
+    "source": "Wikipedia (en): World Wide Web",
+    "tags": [
+      "računala i internet"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se zove niz brojeva u kojem je svaki broj zbroj dvaju prethodnih?",
+    "answer": "Fibonaccijev niz",
+    "accept": [
+      "Fibonacci",
+      "Fibonaccijevi brojevi"
+    ],
+    "note": "Fibonacci ga je 1202. opisao primjerom razmnožavanja zečeva.",
+    "source": "Wikipedia (en): Fibonacci sequence",
+    "tags": [
+      "matematika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kojeg plina ima najviše u Zemljinoj atmosferi?",
+    "answer": "Dušik",
+    "accept": [
+      "N2"
+    ],
+    "note": "Kisika u suhom zraku ima oko 21 %, a argona manje od 1 %.",
+    "source": "Wikipedia (en): Atmosphere of Earth",
+    "tags": [
+      "kemija",
+      "Zemlja"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji je hrvatski kemičar 1975. dobio Nobelovu nagradu za istraživanja stereokemije?",
+    "answer": "Vladimir Prelog",
+    "accept": [
+      "Prelog"
+    ],
+    "note": "Nagradu je podijelio s australsko-britanskim kemičarom Johnom Cornforthom.",
+    "source": "Wikipedia (en): Vladimir Prelog",
+    "tags": [
+      "Nobelova nagrada",
+      "kemija",
+      "hrvatski znanstvenici"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "science_tech",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koji se planet Sunčeva sustava okreće gotovo na boku, s osi nagnutom za oko 98 stupnjeva?",
+    "answer": "Uran",
+    "accept": [
+      "Uranus"
+    ],
+    "note": "Zbog toga svaki pol ima oko 42 godine neprekidnog dana, a zatim 42 godine noći.",
+    "source": "Wikipedia (en): Uranus",
+    "tags": [
+      "svemir",
+      "planeti"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

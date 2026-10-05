@@ -1,0 +1,197 @@
+[
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je švedska grupa 1974. pobijedila na Euroviziji pjesmom „Waterloo”?",
+    "answer": "ABBA",
+    "accept": [],
+    "note": "Ime je sastavljeno od početnih slova imena članova: Agnetha, Björn, Benny i Anni-Frid.",
+    "source": "Wikipedia (en): ABBA",
+    "tags": [
+      "Eurovizija",
+      "pop"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja je zadarska grupa 1989. Jugoslaviji donijela jedinu pobjedu na Euroviziji?",
+    "answer": "Riva",
+    "accept": [],
+    "note": "Zbog te pobjede Eurovizija se 1990. održala u Zagrebu.",
+    "source": "Wikipedia (en): Riva (band)",
+    "tags": [
+      "Eurovizija",
+      "hrvatska glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je instrument oko 1700. u Firenci izumio Bartolomeo Cristofori?",
+    "answer": "Klavir",
+    "accept": [
+      "Glasovir",
+      "Pianoforte"
+    ],
+    "note": "U inventaru Medicija opisan je kao novi instrument koji svira i tiho i glasno, „il piano e il forte”.",
+    "source": "Wikipedia (en): Bartolomeo Cristofori",
+    "tags": [
+      "instrumenti"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je skladatelj Devetu simfoniju napisao gotovo potpuno gluh?",
+    "answer": "Ludwig van Beethoven",
+    "accept": [
+      "Beethoven"
+    ],
+    "note": "Glazbu „Ode radosti” iz njezina završnog stavka Europske su zajednice 1985. usvojile kao himnu.",
+    "source": "Wikipedia (en): Symphony No. 9 (Beethoven)",
+    "tags": [
+      "klasična glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je hrvatski skladatelj napisao operu „Nikola Šubić Zrinjski”?",
+    "answer": "Ivan Zajc",
+    "accept": [
+      "Zajc"
+    ],
+    "note": "Najpoznatiji dio opere je muški zbor „U boj”.",
+    "source": "Wikipedia (hr): Nikola Šubić Zrinjski (opera)",
+    "tags": [
+      "opera",
+      "hrvatska glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je bend 1969. objavio album „Abbey Road”, nazvan po londonskoj ulici u kojoj je bio njihov studio?",
+    "answer": "The Beatles",
+    "accept": [
+      "Beatles",
+      "Beatlesi"
+    ],
+    "note": "Bio je to posljednji album koji su zajedno snimili, iako je „Let It Be” objavljen kasnije.",
+    "source": "Wikipedia (en): Abbey Road",
+    "tags": [
+      "rock",
+      "albumi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "U kojem je američkom gradu rođen jazz trubač Louis Armstrong?",
+    "answer": "New Orleans",
+    "accept": [
+      "Nju Orleans"
+    ],
+    "note": "Nadimak Satchmo dolazi od riječi satchelmouth, otprilike „usta kao torba”.",
+    "source": "Wikipedia (en): Louis Armstrong",
+    "tags": [
+      "jazz"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je oblik tradicionalnog višeglasnog pjevanja iz Dalmacije 2012. upisan na UNESCO-ov popis nematerijalne baštine?",
+    "answer": "Klapsko pjevanje",
+    "accept": [
+      "Klapa"
+    ],
+    "note": "Riječ klapa znači „družina prijatelja”, a pjeva se uglavnom bez pratnje instrumenata.",
+    "source": "Wikipedia (en): Klapa",
+    "tags": [
+      "tradicijska glazba",
+      "UNESCO",
+      "hrvatska glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je talijanski skladatelj napisao „Četiri godišnja doba”?",
+    "answer": "Antonio Vivaldi",
+    "accept": [
+      "Vivaldi"
+    ],
+    "note": "Bio je svećenik, a zbog crvene kose zvali su ga „crveni svećenik”.",
+    "source": "Wikipedia (en): Antonio Vivaldi",
+    "tags": [
+      "klasična glazba",
+      "barok"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "music",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koje je Ravelovo djelo izgrađeno na ritmu malog bubnja koji se ponavlja kroz cijelu skladbu?",
+    "answer": "Bolero",
+    "accept": [
+      "Boléro"
+    ],
+    "note": "Naručila ga je plesačica Ida Rubinstein, a ritam se ponovi 169 puta.",
+    "source": "Wikipedia (en): Boléro",
+    "tags": [
+      "klasična glazba"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]

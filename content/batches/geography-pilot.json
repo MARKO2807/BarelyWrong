@@ -1,0 +1,186 @@
+[
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je najdulja rijeka u Hrvatskoj?",
+    "answer": "Sava",
+    "accept": [],
+    "note": "Izvire u Sloveniji, a u Dunav se ulijeva u Beogradu.",
+    "source": "Wikipedia (hr): Sava",
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Na kojoj se planini nalazi Sinjal, najviši vrh Hrvatske?",
+    "answer": "Dinara",
+    "accept": [],
+    "note": "Najviši vrh cijelog masiva, Troglav (1913 m), nalazi se u Bosni i Hercegovini.",
+    "source": "Wikipedia (hr): Dinara",
+    "tags": [
+      "planine",
+      "Hrvatska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je grad glavni grad Kanade?",
+    "answer": "Ottawa",
+    "accept": [],
+    "note": "Za glavni grad izabrala ju je britanska kraljica Viktorija 1857.",
+    "source": "Wikipedia (en): Ottawa",
+    "tags": [
+      "glavni gradovi",
+      "Sjeverna Amerika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koje je najdublje jezero na svijetu?",
+    "answer": "Bajkalsko jezero",
+    "accept": [
+      "Bajkal"
+    ],
+    "note": "U njemu se nalazi oko petine sve nezaleđene slatke vode na Zemlji.",
+    "source": "Wikipedia (en): Lake Baikal",
+    "tags": [
+      "jezera",
+      "rekordi"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koja afrička država ima najviše stanovnika?",
+    "answer": "Nigerija",
+    "accept": [],
+    "note": "Najveći grad je Lagos, ali glavni je grad Abuja.",
+    "source": "Wikipedia (en): Nigeria",
+    "tags": [
+      "stanovništvo",
+      "Afrika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je najviša planina Afrike?",
+    "answer": "Kilimandžaro",
+    "accept": [
+      "Kilimanjaro"
+    ],
+    "note": "To je vulkan i najviša samostojeća planina na svijetu, koja ne pripada nijednom gorskom lancu.",
+    "source": "Wikipedia (en): Mount Kilimanjaro",
+    "tags": [
+      "planine",
+      "Afrika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koje se jezero, najveće u Hrvatskoj, nalazi sjeverozapadno od Pakoštana?",
+    "answer": "Vransko jezero",
+    "accept": [],
+    "note": "Zaštićeno je kao park prirode, s ornitološkim područjem važnim za ptice.",
+    "source": "Wikipedia (hr): Vransko jezero (Dalmacija)",
+    "tags": [
+      "jezera",
+      "Hrvatska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koja rijeka izvire u Plitvičkim jezerima, a u Kupu se ulijeva u Karlovcu?",
+    "answer": "Korana",
+    "accept": [],
+    "note": "Plitvička jezera najstariji su hrvatski nacionalni park, proglašen 1949.",
+    "source": "Wikipedia (hr): Korana; Wikipedia (hr): Nacionalni park Plitvička jezera",
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je najveća država Južne Amerike?",
+    "answer": "Brazil",
+    "accept": [],
+    "note": "Graniči sa svim državama kontinenta osim Čilea i Ekvadora.",
+    "source": "Wikipedia (en): Brazil",
+    "tags": [
+      "države",
+      "Južna Amerika"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  },
+  {
+    "topic": "geography",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Koja država ima jedinu nacionalnu zastavu koja nije pravokutna?",
+    "answer": "Nepal",
+    "accept": [],
+    "note": "To je ujedno jedina nacionalna zastava koja je viša nego što je široka.",
+    "source": "Wikipedia (en): Flag of Nepal",
+    "tags": [
+      "zastave",
+      "Azija"
+    ],
+    "timeSensitive": false,
+    "origin": "own",
+    "checkedAt": "2026-10-06",
+    "status": "review"
+  }
+]
