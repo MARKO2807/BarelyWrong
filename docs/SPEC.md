@@ -272,6 +272,8 @@ Granični slučajevi: odlučuje znanje potrebno za odgovor. Pjesma iz filma ide 
 - **2 Srednje:** zna netko tko prati temu.
 - **3 Teško:** traži specifično znanje, ali ne natjecateljsko.
 
+Ciljana raspodjela u svakoj temi i formatu: oko 30 % lako, 45 % srednje, 25 % teško.
+
 Natjecateljski teška pitanja ne ulaze u igru; mogu se spremiti sa statusom `archived` za budući ekspertni način.
 
 ### 8.4 Pravilnik pisanja
