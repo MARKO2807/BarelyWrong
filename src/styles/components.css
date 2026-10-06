@@ -231,6 +231,141 @@
   }
 }
 
+@layer components {
+  /* Game */
+
+  /* Team colour comes from inline --team / --on-team-color (see src/ui/game/team.ts). */
+  .team-chip {
+    display: inline-grid;
+    place-items: center;
+    flex: none;
+    border-radius: var(--radius-md);
+    background-color: var(--team);
+    color: var(--on-team-color);
+  }
+
+  .btn-team {
+    background-color: var(--team);
+    color: var(--on-team-color);
+    box-shadow: 0 var(--button-depth) 0 color-mix(in srgb, var(--team) 55%, var(--bg));
+    margin-bottom: var(--button-depth);
+  }
+
+  .btn-correct {
+    background-color: var(--correct);
+    color: var(--bg);
+  }
+
+  .btn-wrong {
+    background-color: var(--wrong);
+    color: var(--bg);
+  }
+
+  .btn-team:hover:not(:disabled),
+  .btn-correct:hover:not(:disabled),
+  .btn-wrong:hover:not(:disabled) {
+    transform: translateY(-0.1rem);
+  }
+
+  .kbd-hint {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.6em;
+    padding: 0.15em 0.35em;
+    border-radius: var(--radius-sm);
+    background-color: color-mix(in srgb, currentColor 18%, transparent);
+    font-family: var(--font-terminal);
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .reveal-in {
+    animation: reveal-in 600ms var(--ease-out) both;
+  }
+
+  .pop-in {
+    animation: pop-in 450ms var(--ease-out) both;
+  }
+
+  .score-bubble {
+    animation: float-up 1.6s var(--ease-out) forwards;
+    pointer-events: none;
+  }
+
+  /* Leaderboard rows slide from their previous place; --shift is the number of places moved. */
+  .rank-move {
+    animation: rank-move 900ms var(--ease-out) both;
+  }
+
+  .timer-urgent {
+    color: var(--wrong);
+    animation: urgent-pulse 1s steps(2) infinite;
+  }
+
+  .confetti-piece {
+    position: absolute;
+    top: -6%;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: var(--piece);
+    animation: confetti-fall var(--fall) linear var(--delay) infinite;
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(1rem);
+    filter: blur(0.4rem);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.02);
+    filter: blur(0);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+
+@keyframes float-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(-0.5rem) scale(1.15);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-3.5rem);
+  }
+}
+
+@keyframes rank-move {
+  from {
+    transform: translateY(calc(var(--shift, 0) * (100% + var(--rank-gap))));
+  }
+}
+
+@keyframes urgent-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes confetti-fall {
+  to {
+    transform: translateY(115vh) rotate(720deg);
+  }
+}
+
 @utility hero-text-shadow {
   text-shadow: var(--hero-text-shadow);
 }

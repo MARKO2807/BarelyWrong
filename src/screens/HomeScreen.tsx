@@ -1,7 +1,11 @@
+import { useState } from 'react'
+import { useNavigate } from 'react-router'
+import { useGameSession } from '../app/GameSession'
 import { ROUTES } from '../app/routes'
 import { useSettings } from '../app/SettingsProvider'
 import { t } from '../i18n'
-import { ButtonLink } from '../ui/Button'
+import { hasUnfinishedGame } from '../storage'
+import { Button, ButtonLink } from '../ui/Button'
 import { Header } from '../ui/Header'
 import { HeroImage } from '../ui/HeroImage'
 import { Logo } from '../ui/Logo'
@@ -11,6 +15,9 @@ import { useDocumentTitle } from '../ui/useDocumentTitle'
 export function HomeScreen() {
   useDocumentTitle()
   const { settings } = useSettings()
+  const { resume } = useGameSession()
+  const navigate = useNavigate()
+  const [canContinue] = useState(hasUnfinishedGame)
 
   return (
     <div className="relative isolate flex min-h-dvh flex-col overflow-hidden">
@@ -27,6 +34,17 @@ export function HomeScreen() {
           <ButtonLink to={ROUTES.newGame} size="hero" icon={<PlayIcon />} className="mt-2">
             {t('nav.play')}
           </ButtonLink>
+          {canContinue && (
+            <Button
+              variant="secondary"
+              size="lg"
+              onClick={() => {
+                if (resume()) navigate(ROUTES.game)
+              }}
+            >
+              {t('nav.continueGame')}
+            </Button>
+          )}
         </div>
       </main>
     </div>

@@ -93,6 +93,14 @@
   --tagline-font-size: min(4rem, 6.5vh);
   --play-font-size: min(4rem, 6.5vh);
   --hero-lift: 12vh;
+
+  /* Game screen: sizes follow the screen height so a whole turn fits without scrolling. */
+  --game-gap: 2.5vh;
+  --icon-hero: min(8rem, 14vh);
+  --team-name-size: min(5rem, 10vh);
+  --timer-size: min(5.5rem, 10vh);
+  --answer-size: min(4rem, 8vh);
+  --rank-gap: 0.75rem;
   --button-padding: 0.65em 1.15em;
   --button-depth: 0.3rem;
   --focus-ring-width: 0.1875rem;
