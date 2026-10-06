@@ -115,7 +115,7 @@ create or replace function public.import_questions(items jsonb)
 returns table (item_index int, id text)
 language plpgsql
 set search_path = ''
-as $
+as $$
 #variable_conflict use_column
 declare
   item jsonb;
