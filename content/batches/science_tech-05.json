@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Ime je složenica engleskih riječi binary digit, „binarna znamenka”.",
     "source": "Wikipedia (en): Bit",
-    "tags": ["informatika", "pojmovi"],
+    "tags": [
+      "informatika",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +23,16 @@
     "difficulty": 1,
     "question": "Kako se zove mjerna jedinica SI za tlak?",
     "answer": "Paskal",
-    "accept": ["Pascal", "Pa"],
+    "accept": [
+      "Pascal",
+      "Pa"
+    ],
     "note": "Nazvana je po Blaiseu Pascalu.",
     "source": "Wikipedia (en): Pascal (unit)",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,10 +43,17 @@
     "difficulty": 1,
     "question": "Kako se zove pojava kad Mjesec prođe između Zemlje i Sunca i zakloni ga?",
     "answer": "Pomrčina Sunca",
-    "accept": ["Pomrčina", "Pomračenje Sunca", "Solarna pomrčina"],
+    "accept": [
+      "Pomrčina",
+      "Pomračenje Sunca",
+      "Solarna pomrčina"
+    ],
     "note": "Takav raspored nastaje otprilike svakih šest mjeseci.",
     "source": "Wikipedia (en): Solar eclipse",
-    "tags": ["astronomija", "pojave"],
+    "tags": [
+      "astronomija",
+      "pojave"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +64,15 @@
     "difficulty": 1,
     "question": "Kako se zove instrument koji bilježi podrhtavanje tla pri potresu?",
     "answer": "Seizmograf",
-    "accept": ["Seizmometar"],
+    "accept": [
+      "Seizmometar"
+    ],
     "note": "Bilježi i podrhtavanje od vulkanskih erupcija i eksplozija.",
     "source": "Wikipedia (en): Seismometer",
-    "tags": ["geofizika", "instrumenti"],
+    "tags": [
+      "geofizika",
+      "instrumenti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -63,9 +84,12 @@
     "question": "Točno ili netočno: voda se pri smrzavanju širi.",
     "answer": "Točno",
     "accept": [],
-    "note": "Led je oko 8,3 % rjeđi od tekuće vode.",
+    "note": "Zato led pluta na vodi.",
     "source": "Wikipedia (en): Ice",
-    "tags": ["fizika", "voda"],
+    "tags": [
+      "fizika",
+      "voda"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Najveći je Jupiter; Saturn je drugi.",
     "source": "Wikipedia (en): Saturn",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +117,15 @@
     "difficulty": 1,
     "question": "Koje je godine rođen Nikola Tesla?",
     "answer": "1856.",
-    "accept": ["1856"],
+    "accept": [
+      "1856"
+    ],
     "note": "Rođen je 10. srpnja, a umro 7. siječnja 1943.",
     "source": "Wikipedia (en): Nikola Tesla",
-    "tags": ["znanstvenici", "godine"],
+    "tags": [
+      "znanstvenici",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +136,15 @@
     "difficulty": 2,
     "question": "Koji kemijski element ima simbol K?",
     "answer": "Kalij",
-    "accept": ["Kalijum"],
+    "accept": [
+      "Kalijum"
+    ],
     "note": "Simbol dolazi od novolatinskog kalium.",
     "source": "Wikipedia (en): Potassium",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +155,16 @@
     "difficulty": 2,
     "question": "Koji je fizičar, istražujući katodne zrake, otkrio elektron?",
     "answer": "J. J. Thomson",
-    "accept": ["Thomson", "Joseph John Thomson"],
+    "accept": [
+      "Thomson",
+      "Joseph John Thomson"
+    ],
     "note": "Ime katodnim zrakama dao je Eugen Goldstein.",
     "source": "Wikipedia (en): Electron",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +175,15 @@
     "difficulty": 2,
     "question": "Kako se popularno zove dušikov oksidul, N₂O?",
     "answer": "Plin smijeha",
-    "accept": ["Rajski plin"],
+    "accept": [
+      "Rajski plin"
+    ],
     "note": "Pri sobnoj temperaturi bezbojan je i nezapaljiv.",
     "source": "Wikipedia (en): Nitrous oxide",
-    "tags": ["kemija", "plinovi"],
+    "tags": [
+      "kemija",
+      "plinovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +194,15 @@
     "difficulty": 2,
     "question": "Kako se zove komet koji se vraća otprilike svakih 76 godina?",
     "answer": "Halleyev komet",
-    "accept": ["Halley"],
+    "accept": [
+      "Halley"
+    ],
     "note": "Razdoblje mu se zapravo kreće između 72 i 80 godina.",
     "source": "Wikipedia (en): Halley's Comet",
-    "tags": ["astronomija", "kometi"],
+    "tags": [
+      "astronomija",
+      "kometi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +216,10 @@
     "accept": [],
     "note": "Veći je od planeta Merkura.",
     "source": "Wikipedia (en): Ganymede (moon)",
-    "tags": ["astronomija", "mjeseci"],
+    "tags": [
+      "astronomija",
+      "mjeseci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +230,15 @@
     "difficulty": 2,
     "question": "Kako se zove uređaj koji izmjeničnu struju pretvara u istosmjernu?",
     "answer": "Ispravljač",
-    "accept": ["Usmjerivač"],
+    "accept": [
+      "Usmjerivač"
+    ],
     "note": "Postupak se zove ispravljanje.",
     "source": "Wikipedia (en): Rectifier",
-    "tags": ["elektrotehnika", "uređaji"],
+    "tags": [
+      "elektrotehnika",
+      "uređaji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +252,10 @@
     "accept": [],
     "note": "To su mali, nepravilni Fobos i Deimos.",
     "source": "Wikipedia (en): Mars",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +269,10 @@
     "accept": [],
     "note": "Nagradu za 1921. dobio je posebno za otkriće zakona fotoelektričnog učinka.",
     "source": "Wikipedia (en): Albert Einstein",
-    "tags": ["fizika", "nagrade"],
+    "tags": [
+      "fizika",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +286,10 @@
     "accept": [],
     "note": "Otpor se mjeri u omima, a volt je jedinica napona.",
     "source": "Wikipedia (en): Ohm",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +303,10 @@
     "accept": [],
     "note": "Ganimed je najveći i najmasivniji mjesec u Sunčevu sustavu.",
     "source": "Wikipedia (en): Ganymede (moon)",
-    "tags": ["astronomija", "mjeseci"],
+    "tags": [
+      "astronomija",
+      "mjeseci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +317,17 @@
     "difficulty": 3,
     "question": "Koliko je kilometara visok Olympus Mons, najviši vulkan na Marsu?",
     "answer": "22 km",
-    "accept": ["21,9 km", "22", "21,9"],
+    "accept": [
+      "21,9 km",
+      "22",
+      "21,9"
+    ],
     "note": "Širok je oko 600 km.",
     "source": "Wikipedia (en): Olympus Mons",
-    "tags": ["astronomija", "brojevi"],
+    "tags": [
+      "astronomija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +338,16 @@
     "difficulty": 3,
     "question": "Koliko zemaljskih dana traje jedna godina na Veneri?",
     "answer": "225",
-    "accept": ["224,7", "224,7 dana"],
+    "accept": [
+      "224,7",
+      "224,7 dana"
+    ],
     "note": "Jedan zvjezdani dan na Veneri, 243 zemaljska dana, dulji je od njezine godine.",
     "source": "Wikipedia (en): Venus",
-    "tags": ["astronomija", "brojevi"],
+    "tags": [
+      "astronomija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +358,17 @@
     "difficulty": 3,
     "question": "Koliko je posto led rjeđi od tekuće vode?",
     "answer": "8,3 %",
-    "accept": ["8,3", "Oko 8 %", "9 %"],
-    "note": "Zato led pluta na vodi.",
+    "accept": [
+      "8,3",
+      "Oko 8 %",
+      "9 %"
+    ],
+    "note": "Neobično je svojstvo vode da je njezin kruti oblik rjeđi od tekućeg.",
     "source": "Wikipedia (en): Ice",
-    "tags": ["fizika", "brojevi"],
+    "tags": [
+      "fizika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }
