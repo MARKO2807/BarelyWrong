@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { Link, NavLink, Route, Routes } from 'react-router'
 import { EDITOR_ROUTES, ROUTES } from '../../app/routes'
 import { t } from '../../i18n'
-import { Button } from '../../ui/Button'
+import { Button, ButtonLink } from '../../ui/Button'
 import { Logo } from '../../ui/Logo'
 import { useEditorData } from './EditorData'
 import { ImportExportPage } from './ImportExportPage'
@@ -62,7 +62,10 @@ export function EditorLayout({
             </NavLink>
           ))}
         </nav>
-        <Button variant="ghost" size="sm" onClick={onSignOut} className="max-sm:ml-auto">
+        <ButtonLink variant="ghost" size="sm" to={ROUTES.home} className="max-sm:ml-auto">
+          {t('editor.nav.home')}
+        </ButtonLink>
+        <Button variant="ghost" size="sm" onClick={onSignOut}>
           {t('editor.nav.signOut')}
         </Button>
       </header>

@@ -2,7 +2,8 @@ import type { Session, SupabaseClient } from '@supabase/supabase-js'
 import { useEffect, useState, type ReactNode } from 'react'
 import { editorDb, isEditor } from '../../data/editorSession'
 import { t } from '../../i18n'
-import { Button } from '../../ui/Button'
+import { ROUTES } from '../../app/routes'
+import { Button, ButtonLink } from '../../ui/Button'
 import { TextInput } from '../../ui/editor/fields'
 import { useDocumentTitle } from '../../ui/useDocumentTitle'
 import { EditorDataProvider } from './EditorData'
@@ -23,6 +24,9 @@ function Notice({ children }: { children: ReactNode }) {
   return (
     <main className="flex min-h-dvh flex-col items-center justify-center gap-6 bg-bg px-4 text-center text-xl">
       {children}
+      <ButtonLink variant="ghost" size="md" to={ROUTES.home}>
+        {t('editor.nav.home')}
+      </ButtonLink>
     </main>
   )
 }

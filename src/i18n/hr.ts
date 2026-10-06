@@ -294,6 +294,7 @@ export const hr = {
       importExport: 'Uvoz i izvoz',
       signOut: 'Odjava',
       game: 'Na igru',
+      home: 'Povratak na početnu',
     },
     statuses: {
       review: 'Na pregledu',
