@@ -5,7 +5,7 @@
 -- an account created by mistake (if sign-ups were ever switched on) gets nothing. Set it once with:
 --   update auth.users set raw_app_meta_data = raw_app_meta_data || '{"role":"editor"}'
 --   where email = '<editor e-mail>';
-create function public.is_editor() returns boolean
+create or replace function public.is_editor() returns boolean
 language sql
 stable
 set search_path = ''
@@ -13,11 +13,11 @@ as $$
   select coalesce((auth.jwt() -> 'app_metadata' ->> 'role') = 'editor', false)
 $$;
 
-drop policy "editor manages topics" on public.topics;
-drop policy "editor manages questions" on public.questions;
-drop policy "editor manages question texts" on public.question_texts;
-drop policy "editor reads statistics" on public.answer_events;
-drop policy "editor manages reports" on public.question_reports;
+drop policy if exists "editor manages topics" on public.topics;
+drop policy if exists "editor manages questions" on public.questions;
+drop policy if exists "editor manages question texts" on public.question_texts;
+drop policy if exists "editor reads statistics" on public.answer_events;
+drop policy if exists "editor manages reports" on public.question_reports;
 
 create policy "editor manages topics" on public.topics
   for all to authenticated using (public.is_editor()) with check (public.is_editor());
@@ -57,19 +57,19 @@ begin
 end;
 $$;
 
-drop trigger questions_touch on public.questions;
+drop trigger if exists questions_touch on public.questions;
 create trigger questions_touch before update on public.questions
   for each row
-  when (old.embedding is not distinct from new.embedding)
+  when (old.embedding::text is not distinct from new.embedding::text)
   execute function public.touch_question();
 
-create index questions_embedding on public.questions
+create index if not exists questions_embedding on public.questions
   using hnsw (embedding extensions.vector_cosine_ops);
 
 -- Editor view ------------------------------------------------------------------------------------
 -- Everything the editor lists and edits, plus statistics. Runs with the caller's rights, so only
 -- the editor sees rows.
-create view public.editor_questions with (security_invoker = true) as
+create or replace view public.editor_questions with (security_invoker = true) as
 select
   q.id,
   q.topic_id as topic,
@@ -111,7 +111,7 @@ revoke all on public.editor_questions from anon;
 -- Import -----------------------------------------------------------------------------------------
 -- Inserts a checked batch (src/data/import) in one transaction: all of it or nothing. A question
 -- without an id gets the next free number in its topic (`sport-0042`).
-create function public.import_questions(items jsonb)
+create or replace function public.import_questions(items jsonb)
 returns table (item_index int, id text)
 language plpgsql
 set search_path = ''
@@ -180,7 +180,7 @@ $$;
 -- (spec 8.5: from 0.92 a likely duplicate, 0.85–0.92 worth a look).
 
 /** The closest questions to an embedding that is not stored yet (used by the import). */
-create function public.match_questions(
+create or replace function public.match_questions(
   query_embedding extensions.vector(384),
   min_similarity float,
   max_results int default 5
@@ -201,7 +201,7 @@ as $$
 $$;
 
 /** Every pair of stored questions at least this similar, each pair once. */
-create function public.similar_pairs(min_similarity float)
+create or replace function public.similar_pairs(min_similarity float)
 returns table (id text, other_id text, similarity float)
 language sql
 stable
