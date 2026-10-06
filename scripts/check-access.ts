@@ -121,10 +121,11 @@ if (process.env.BW_EDITOR_EMAIL && process.env.BW_EDITOR_PASSWORD) {
     password: process.env.BW_EDITOR_PASSWORD,
   })
   check('editor can sign in', !signIn.error, signIn.error?.message)
+  const role = signIn.data.user?.app_metadata.role
   check(
     'editor account has the editor role',
-    signIn.data.user?.app_metadata.role === 'editor',
-    'app_metadata.role is not "editor"',
+    role === 'editor',
+    role === 'editor' ? '' : 'app_metadata.role is not "editor"',
   )
   const list = await editor.from('editor_questions').select('id', { count: 'exact', head: true })
   check('editor reads editor_questions', !list.error && (list.count ?? 0) > 0, describe(list))
