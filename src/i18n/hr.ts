@@ -173,7 +173,6 @@ export const hr = {
     tiebreakText:
       'Na prvom su mjestu izjednačeni: {teams}. Odlučuje jedno pitanje procjene: svaki tim kaže broj, a pobjeđuje tko je najbliže.',
     winner: '{team} pobjeđuje!',
-    finalStandings: 'Konačni poredak',
     lastPlace: 'Error 404: IQ not found.',
     rematch: 'Revanš',
     newGame: 'Nova partija',

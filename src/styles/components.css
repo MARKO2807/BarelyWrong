@@ -303,6 +303,18 @@
     animation: urgent-pulse 1s steps(2) infinite;
   }
 
+  /* Leaderboard table; points per topic drop out on narrow screens (see Standings.tsx). */
+  .standings-grid {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr) repeat(var(--topic-count), 2.5rem) var(--gained-col) 5.5rem;
+  }
+
+  @media (width < 48rem) {
+    .standings-grid {
+      grid-template-columns: 2.5rem minmax(0, 1fr) var(--gained-col) 4.75rem;
+    }
+  }
+
   .confetti-piece {
     position: absolute;
     top: -6%;

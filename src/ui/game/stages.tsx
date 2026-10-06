@@ -14,7 +14,7 @@ import { FitText } from '../FitText'
 import { BoltIcon, KIND_ICONS } from '../pixel/gameIcons'
 import { AnswerCard, type Verdict } from './AnswerCard'
 import { GameTimer } from './GameTimer'
-import { ScoreTable } from './ScoreTable'
+import { Standings } from './Standings'
 import { formatPoints } from './Scoreboard'
 import { TeamChip, joinNames, teamStyle } from './team'
 
@@ -208,51 +208,21 @@ export function TiebreakIntro({ game }: { game: GameState }) {
 
 /** Standings after a round, sliding teams from their previous places. */
 export function LeaderboardStage({ game, roundIndex }: { game: GameState; roundIndex: number }) {
-  const ranking = getRankingAfterRound(game, roundIndex)
-  const previous = roundIndex > 0 ? getRankingAfterRound(game, roundIndex - 1) : ranking
-  const previousPlace = new Map(previous.map((entry, index) => [entry.teamId, index]))
-  const previousScore = new Map(previous.map((entry) => [entry.teamId, entry.score]))
-
+  const previous =
+    roundIndex > 0
+      ? getRankingAfterRound(game, roundIndex - 1)
+      : game.teams.map((team) => ({ teamId: team.id, score: 0, rank: 1 }))
   return (
-    <section className="flex max-h-full w-full max-w-5xl flex-col gap-4 overflow-y-auto">
-      <h1 className="text-center font-display text-3xl font-extrabold">
+    <section className="flex max-h-full w-full max-w-6xl flex-col gap-4 overflow-y-auto">
+      <h1 className="text-center font-display text-2xl font-extrabold lg:text-3xl">
         {t('game.leaderboard', { round: roundIndex + 1 })}
       </h1>
-      <ol className="flex flex-col gap-(--rank-gap)">
-        {ranking.map((entry, index) => {
-          const team = getTeam(game, entry.teamId)
-          const gained =
-            roundIndex > 0 ? entry.score - (previousScore.get(entry.teamId) ?? 0) : entry.score
-          return (
-            <li
-              key={`${roundIndex}-${entry.teamId}`}
-              className="rank-move flex items-center gap-2 rounded-lg border-2 border-border bg-surface px-3 py-1.5 lg:gap-4 lg:px-5"
-              style={
-                { '--shift': (previousPlace.get(entry.teamId) ?? index) - index } as CSSProperties
-              }
-            >
-              <span className="w-8 font-terminal text-2xl text-text-muted lg:w-12 lg:text-3xl">
-                {entry.rank}.
-              </span>
-              <TeamChip color={team.color} className="size-8 text-xl lg:size-10 lg:text-2xl" />
-              <span className="min-w-0 flex-1 truncate font-display text-xl font-extrabold lg:text-2xl">
-                {team.name}
-              </span>
-              {gained !== 0 && (
-                <span
-                  className={`font-terminal text-3xl ${gained > 0 ? 'text-correct' : 'text-wrong'}`}
-                >
-                  {formatPoints(gained)}
-                </span>
-              )}
-              <span className="w-12 text-right font-terminal text-3xl leading-none tabular-nums lg:w-20 lg:text-4xl">
-                {entry.score}
-              </span>
-            </li>
-          )
-        })}
-      </ol>
-      <ScoreTable game={game} upToRound={roundIndex} />
+      <Standings
+        game={game}
+        ranking={getRankingAfterRound(game, roundIndex)}
+        previous={previous}
+        upToRound={roundIndex}
+      />
     </section>
   )
 }
@@ -290,7 +260,7 @@ export function EndStage({ game }: { game: GameState }) {
   const outcome = getOutcome(game)!
   const winner = getTeam(game, outcome.winnerId)
   return (
-    <section className="flex max-h-full w-full max-w-5xl flex-col items-center gap-5 overflow-y-auto">
+    <section className="flex max-h-full w-full max-w-6xl flex-col items-center gap-5 overflow-y-auto">
       <Confetti />
       <div
         className="pop-in flex flex-col items-center gap-3 text-center"
@@ -301,33 +271,12 @@ export function EndStage({ game }: { game: GameState }) {
           {t('game.winner', { team: winner.name })}
         </h1>
       </div>
-      <ol aria-label={t('game.finalStandings')} className="flex w-full flex-col gap-2">
-        {outcome.ranking.map((entry) => {
-          const team = getTeam(game, entry.teamId)
-          const last = outcome.lastPlaceTeamIds.includes(entry.teamId)
-          return (
-            <li
-              key={entry.teamId}
-              className="flex flex-wrap items-center gap-x-2 rounded-lg bg-surface px-3 py-1.5 lg:gap-x-4 lg:px-5"
-            >
-              <span className="w-8 font-terminal text-2xl text-text-muted lg:w-10 lg:text-3xl">
-                {entry.rank}.
-              </span>
-              <TeamChip color={team.color} className="size-8 text-xl lg:size-9 lg:text-2xl" />
-              <span className="min-w-0 flex-1 truncate font-display text-xl font-extrabold lg:text-2xl">
-                {team.name}
-              </span>
-              {last && (
-                <span className="font-terminal text-2xl text-wrong">{t('game.lastPlace')}</span>
-              )}
-              <span className="w-12 text-right font-terminal text-3xl tabular-nums lg:w-16 lg:text-4xl">
-                {entry.score}
-              </span>
-            </li>
-          )
-        })}
-      </ol>
-      <ScoreTable game={game} upToRound={game.rounds.length - 1} />
+      <Standings
+        game={game}
+        ranking={outcome.ranking}
+        upToRound={game.rounds.length - 1}
+        lastPlaceTeamIds={outcome.lastPlaceTeamIds}
+      />
     </section>
   )
 }
