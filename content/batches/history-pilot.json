@@ -24,15 +24,15 @@
     "id": "history-0003",
     "topic": "history",
     "format": "open",
-    "difficulty": 1,
-    "question": "Čiji se konjanički kip od 1866. nalazi na glavnom zagrebačkom trgu?",
-    "answer": "Josip Jelačić",
+    "difficulty": 3,
+    "question": "Koji je austrijski kipar izradio konjanički kip bana Jelačića, postavljen 1866. na glavnom zagrebačkom trgu?",
+    "answer": "Anton Dominik Fernkorn",
     "accept": [
-      "Ban Jelačić",
-      "Jelačić"
+      "Fernkorn",
+      "Anton Fernkorn"
     ],
-    "note": "Kip je uklonjen 1947., a na trg je vraćen 1990.",
-    "source": "Wikipedia (hr): Josip Jelačić",
+    "note": "Kip je otkriven 19. listopada 1866., a trg je ime bana Jelačića dobio 1848.",
+    "source": "Wikipedia (en): Ban Jelačić Square",
     "tags": [
       "hrvatska povijest",
       "19. stoljeće"
