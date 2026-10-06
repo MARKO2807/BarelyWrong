@@ -1,4 +1,5 @@
 /// <reference types="vitest/config" />
+import { createHash } from 'node:crypto'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import { defineConfig, type Plugin } from 'vite'
@@ -20,6 +21,42 @@ function escapeHtml(text: string): string {
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
+}
+
+/**
+ * Content Security Policy for Netlify (dist/_headers). The inline theme script is allowed by its
+ * hash, and the app may only talk to Supabase.
+ */
+function contentSecurityPolicy(): string {
+  const scriptHash = createHash('sha256').update(themeBootScript).digest('base64')
+  return [
+    "default-src 'self'",
+    `script-src 'self' 'sha256-${scriptHash}'`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data:",
+    "font-src 'self'",
+    "connect-src 'self' https://*.supabase.co wss://*.supabase.co",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'none'",
+  ].join('; ')
+}
+
+function headersPlugin(): Plugin {
+  return {
+    name: 'barely-wrong-headers',
+    apply: 'build',
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: '_headers',
+        source: `/*
+  Content-Security-Policy: ${contentSecurityPolicy()}
+`,
+      })
+    },
+  }
 }
 
 /** Fills index.html texts from src/i18n/hr.ts and applies the saved theme before first paint. */
@@ -70,6 +107,7 @@ export default defineConfig({
       },
     }),
     htmlPlugin(),
+    headersPlugin(),
   ],
   test: {
     // Tests read src CSS as raw text (token contrast, conventions); without this it comes back empty.

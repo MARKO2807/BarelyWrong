@@ -8,7 +8,14 @@ import {
   useState,
   type ReactNode,
 } from 'react'
-import { gameReducer, getShownQuestionId, type GameAction, type GameState } from '../engine'
+import { startOutboxSync, submit } from '../data/sync'
+import {
+  gameReducer,
+  getCommittedAnswerEvents,
+  getShownQuestionId,
+  type GameAction,
+  type GameState,
+} from '../engine'
 import { clearGame, loadGame, markPlayed, saveGame } from '../storage'
 
 interface GameSessionValue {
@@ -27,7 +34,7 @@ const GameSessionContext = createContext<GameSessionValue | null>(null)
 /**
  * Glue between the engine and the browser: every change is saved, questions are marked as
  * played the moment they appear, and a closing tab saves the game with its clock paused.
- * Statistics (getCommittedAnswerEvents) are sent from phase 4.
+ * Answers go to the statistics queue once the game moves on, so Undo never has to take them back.
  */
 export function GameSessionProvider({ children }: { children: ReactNode }) {
   const [game, setGame] = useState<GameState | null>(null)
@@ -47,6 +54,12 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
       if (next === previous) return
       const shown = getShownQuestionId(previous, next)
       if (shown) markPlayed([shown])
+      submit(
+        getCommittedAnswerEvents(previous, next).map((event) => ({
+          type: 'answer' as const,
+          ...event,
+        })),
+      )
       apply(next)
     },
     [apply],
@@ -66,6 +79,8 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
     setGame(null)
     clearGame()
   }, [])
+
+  useEffect(() => startOutboxSync(), [])
 
   useEffect(() => {
     const saveOnLeave = () => {

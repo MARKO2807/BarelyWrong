@@ -29,6 +29,8 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - `npm run dev`, `npm run build`, `npm run preview`
 - `npm run test` (jednom), `npm run test:watch`
 - `npm run lint`, `npm run format`
+- `npm run db:push` (migracije na Supabase), `npm run db:check` (provjera pravila pristupa)
+- `npm run pilot:sql` (ponovno generira migraciju s pilot pitanjima)
 - `npm run import -- <datoteka> [--dry-run]`
 - `npm run export`
 - `npm run embed`

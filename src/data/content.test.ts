@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { questionSchema } from '../engine'
-import { questionsFromBatch } from './questions'
+import { questionsFromBatches } from './questions'
 
 // Checks the real question files, so a broken batch fails the build instead of a game night.
 
@@ -10,7 +10,7 @@ const files = import.meta.glob<unknown>('../../content/batches/*.json', {
 })
 
 describe('content/batches', () => {
-  const questions = Object.entries(files).flatMap(([path, data]) => questionsFromBatch(path, data))
+  const questions = questionsFromBatches(files)
 
   it('has question files', () => {
     expect(Object.keys(files).length).toBeGreaterThan(0)
@@ -20,9 +20,11 @@ describe('content/batches', () => {
     for (const question of questions) expect(questionSchema.safeParse(question).success).toBe(true)
   })
 
-  it('gives every question a unique id', () => {
+  it('gives every question a unique database-style id', () => {
     const ids = questions.map((q) => q.id)
     expect(new Set(ids).size).toBe(ids.length)
+    for (const q of questions) expect(q.id.startsWith(`${q.topic}-`)).toBe(true)
+    for (const q of questions) expect(q.id).toMatch(/-\d{4}$/)
   })
 
   it('has a note for every question', () => {

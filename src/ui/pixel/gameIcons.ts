@@ -305,3 +305,16 @@ export const PauseIcon = createPixelIcon('PauseIcon', [
   '###..###',
   '###..###',
 ])
+
+export const FlagIcon = createPixelIcon('FlagIcon', [
+  '##........',
+  '########..',
+  '##########',
+  '##########',
+  '########..',
+  '##........',
+  '##........',
+  '##........',
+  '##........',
+  '##........',
+])

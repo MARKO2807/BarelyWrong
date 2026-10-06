@@ -1,5 +1,6 @@
 import type { Question } from '../../engine'
 import { t } from '../../i18n'
+import { ReportQuestion } from './ReportQuestion'
 
 export interface Verdict {
   correct: boolean
@@ -23,6 +24,9 @@ export function AnswerCard({ question, verdict }: { question: Question; verdict:
           {verdict.label}
         </span>
       )}
+      <div className="absolute top-2 right-2">
+        <ReportQuestion questionId={question.id} />
+      </div>
       <p className="font-display text-(length:--answer-size) leading-tight font-extrabold text-balance text-primary-text">
         {question.answer}
       </p>

@@ -20,7 +20,7 @@ export default defineConfig([
   {
     // Local storage is only touched through src/storage (see CLAUDE.md).
     files: ['src/**/*.{ts,tsx}'],
-    ignores: ['src/storage/**'],
+    ignores: ['src/storage/**', 'src/**/*.test.{ts,tsx}'],
     rules: {
       'no-restricted-globals': [
         'error',

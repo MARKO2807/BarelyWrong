@@ -6,9 +6,11 @@
  */
 export const STORED = {
   settings: { name: 'settings', version: 1 },
-  played: { name: 'played', version: 1 },
-  game: { name: 'game', version: 1 },
+  // v2: question ids changed from file-based (sport-pilot-3) to database ids (sport-0003).
+  played: { name: 'played', version: 2 },
+  game: { name: 'game', version: 2 },
   lastSetup: { name: 'lastSetup', version: 1 },
+  outbox: { name: 'outbox', version: 1 },
 } as const
 
 /** `bw:` prefix plus the schema version, e.g. `bw:settings:v1`. */
@@ -21,4 +23,5 @@ export const KEYS = {
   played: storageKey(STORED.played.name, STORED.played.version),
   game: storageKey(STORED.game.name, STORED.game.version),
   lastSetup: storageKey(STORED.lastSetup.name, STORED.lastSetup.version),
+  outbox: storageKey(STORED.outbox.name, STORED.outbox.version),
 } as const

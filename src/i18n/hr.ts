@@ -195,6 +195,21 @@ export const hr = {
       space: 'razmak',
     },
   },
+  report: {
+    button: 'Prijavi pitanje',
+    title: 'Prijavi pitanje',
+    reason: 'Što nije u redu?',
+    reasons: {
+      wrong: 'Odgovor je netočan',
+      unclear: 'Pitanje je nejasno',
+      outdated: 'Zastarjelo je',
+      too_hard: 'Preteško je',
+      other: 'Nešto drugo',
+    },
+    comment: 'Komentar (neobavezno)',
+    send: 'Pošalji',
+    thanks: 'Hvala! Prijava je zaprimljena i stići će uredniku čim bude veze.',
+  },
   comingSoon: {
     title: 'Uskoro',
     text: 'Ovaj dio još gradimo. Vrati se uskoro!',
