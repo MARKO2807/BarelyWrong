@@ -11,7 +11,7 @@ import {
 } from '../../engine'
 import { t } from '../../i18n'
 import { FitText } from '../FitText'
-import { BoltIcon, KIND_ICONS } from '../pixel/gameIcons'
+import { BoltIcon, KIND_ICONS } from '../icons'
 import { AnswerCard, type Verdict } from './AnswerCard'
 import { GameTimer } from './GameTimer'
 import { Standings } from './Standings'
@@ -67,7 +67,11 @@ export function TeamIntro({ game }: { game: GameState }) {
       className="pop-in flex flex-col items-center gap-5 text-center"
     >
       <span className="text-3xl text-text-muted">{t('game.onTurn')}</span>
-      <TeamChip color={turn.team.color} className="size-(--icon-hero) text-(length:--icon-hero)" />
+      <TeamChip
+        color={turn.team.color}
+        icon={turn.team.icon}
+        className="size-(--icon-hero) text-(length:--icon-hero)"
+      />
       <h1 className="font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance">
         {turn.team.name}
       </h1>
@@ -97,7 +101,7 @@ function QuestionLabel({ game }: { game: GameState }) {
     return (
       <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-4 gap-y-1 text-2xl">
         <span className="flex items-center gap-3 font-display font-extrabold">
-          <TeamChip color={turn.team.color} className="size-9 text-2xl" />
+          <TeamChip color={turn.team.color} icon={turn.team.icon} className="size-9 text-2xl" />
           {turn.team.name}
         </span>
         {turn.challenger && (
@@ -118,7 +122,7 @@ function QuestionLabel({ game }: { game: GameState }) {
         </span>
         {team && (
           <span className="flex items-center gap-3 font-display font-extrabold">
-            <TeamChip color={team.color} className="size-9 text-2xl" />
+            <TeamChip color={team.color} icon={team.icon} className="size-9 text-2xl" />
             {t('game.answering', { team: team.name })}
           </span>
         )}
@@ -195,7 +199,12 @@ export function TiebreakIntro({ game }: { game: GameState }) {
     <div className="pop-in flex flex-col items-center gap-6 text-center">
       <div className="flex gap-4">
         {tied.map((team) => (
-          <TeamChip key={team.id} color={team.color} className="size-20 text-5xl" />
+          <TeamChip
+            key={team.id}
+            color={team.color}
+            icon={team.icon}
+            className="size-20 text-5xl"
+          />
         ))}
       </div>
       <h1 className="font-display text-5xl font-extrabold">{t('game.tiebreak')}</h1>
@@ -266,7 +275,7 @@ export function EndStage({ game }: { game: GameState }) {
         className="pop-in flex flex-col items-center gap-3 text-center"
         style={teamStyle(winner.color)}
       >
-        <TeamChip color={winner.color} className="size-24 text-5xl" />
+        <TeamChip color={winner.color} icon={winner.icon} className="size-24 text-5xl" />
         <h1 className="font-display text-4xl font-extrabold text-balance">
           {t('game.winner', { team: winner.name })}
         </h1>

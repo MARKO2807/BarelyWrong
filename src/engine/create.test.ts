@@ -43,16 +43,25 @@ describe('createGame', () => {
     expect(newGame({ options: { fastestFinger: false } }).fastestFinger).toBeNull()
   })
 
-  it('gives each team one turn per round, each round starting with the next team', () => {
+  it('gives each team one turn per round, in the same order all game', () => {
     for (const teamCount of [2, 3, 4]) {
       const game = newGame({ teams: teamCount, seed: teamCount })
       const order = game.teams.map((team) => team.id)
-      const firstOfRound0 = order.indexOf(game.rounds[0]!.turns[0]!.teamId)
-      game.rounds.forEach((round, r) => {
+      const first = order.indexOf(game.rounds[0]!.turns[0]!.teamId)
+      for (const round of game.rounds) {
         expect(round.turns.map((turn) => turn.teamId)).toEqual(
-          order.map((_, i) => order[(firstOfRound0 + r + i) % teamCount]),
+          order.map((_, i) => order[(first + i) % teamCount]),
         )
-      })
+      }
+    }
+  })
+
+  it('never lets a team play twice in a row across rounds', () => {
+    for (const teamCount of [2, 3, 4]) {
+      const turns = newGame({ teams: teamCount, seed: 7 }).rounds.flatMap((round) =>
+        round.turns.map((turn) => turn.teamId),
+      )
+      turns.slice(1).forEach((teamId, i) => expect(teamId).not.toBe(turns[i]))
     }
   })
 

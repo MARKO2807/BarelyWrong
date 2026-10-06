@@ -11,15 +11,15 @@ import { QuestionsPage } from './QuestionsPage'
 import { ReportsPage } from './ReportsPage'
 import { ReviewPage } from './ReviewPage'
 
-/** The editor's pages, below /urednik. */
+/** The editor's pages, below /admin. */
 export function EditorRoutes() {
   return (
     <Routes>
       <Route index element={<QuestionsPage />} />
-      <Route path="pregled" element={<ReviewPage />} />
-      <Route path="pitanje/:id" element={<QuestionPage />} />
-      <Route path="prijave" element={<ReportsPage />} />
-      <Route path="uvoz" element={<ImportExportPage />} />
+      <Route path="review" element={<ReviewPage />} />
+      <Route path="question/:id" element={<QuestionPage />} />
+      <Route path="reports" element={<ReportsPage />} />
+      <Route path="import" element={<ImportExportPage />} />
       <Route path="*" element={<p className="text-xl">{t('notFound.text')}</p>} />
     </Routes>
   )

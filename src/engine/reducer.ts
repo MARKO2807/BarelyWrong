@@ -28,6 +28,8 @@ export type GameAction =
   | { type: 'undo'; now: number }
   /** Dalje. */
   | { type: 'next' }
+  /** Ispravi bodove: adds `delta` points to a team by hand. Not undone by Poništi. */
+  | { type: 'adjust'; teamId: string; delta: number }
 
 function withStep(game: GameState, step: Step): GameState {
   return { ...game, step }
@@ -239,8 +241,27 @@ function next(game: GameState): GameState {
   }
 }
 
+/**
+ * Corrections are allowed until the winner is being decided, so a tie they would create still
+ * goes to the tiebreak.
+ */
+export function canAdjustScores(game: GameState): boolean {
+  return !['tiebreakIntro', 'tiebreakQuestion', 'tiebreakAnswer', 'finished'].includes(
+    game.step.type,
+  )
+}
+
+function adjust(game: GameState, teamId: string, delta: number): GameState {
+  if (!canAdjustScores(game) || !Number.isInteger(delta) || delta === 0) return game
+  if (!game.teams.some((team) => team.id === teamId)) return game
+  const adjustments = { ...game.adjustments, [teamId]: (game.adjustments[teamId] ?? 0) + delta }
+  return { ...game, adjustments }
+}
+
 export function gameReducer(game: GameState, action: GameAction): GameState {
   switch (action.type) {
+    case 'adjust':
+      return adjust(game, action.teamId, action.delta)
     case 'start':
       return start(game, action.now)
     case 'pause':

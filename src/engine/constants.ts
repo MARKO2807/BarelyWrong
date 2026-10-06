@@ -21,8 +21,30 @@ export type QuestionFormat = (typeof QUESTION_FORMATS)[number]
 export const ROUND_KINDS = [...TOPICS, 'true_false', 'estimate'] as const
 export type RoundKind = (typeof ROUND_KINDS)[number]
 
-export const TEAM_COLORS = ['pink', 'cyan', 'amber', 'purple', 'blue', 'lime'] as const
+export const TEAM_COLORS = [
+  'pink',
+  'cyan',
+  'amber',
+  'purple',
+  'blue',
+  'lime',
+  'orange',
+  'red',
+] as const
 export type TeamColor = (typeof TEAM_COLORS)[number]
+
+/** Each team picks one; two teams can't share it. Drawn by src/ui/game/team.tsx. */
+export const TEAM_ICONS = [
+  'rocket',
+  'ghost',
+  'crown',
+  'cat',
+  'pizza',
+  'bomb',
+  'snail',
+  'bot',
+] as const
+export type TeamIcon = (typeof TEAM_ICONS)[number]
 
 export const MIN_TEAMS = 2
 export const MAX_TEAMS = 4

@@ -1,7 +1,7 @@
 import { getCurrentRoundIndex, type GameState, type ScoreColumn } from '../../engine'
 import { t } from '../../i18n'
 import { IconButton } from '../IconButton'
-import { FullscreenIcon, KIND_ICONS, MenuIcon } from '../pixel/gameIcons'
+import { ExitFullscreenIcon, FullscreenIcon, KIND_ICONS, MenuIcon } from '../icons'
 import { DoubleTroubleBadge } from './stages'
 
 interface TopBarProps {
@@ -48,7 +48,7 @@ export function TopBar({ game, isFullscreen, onFullscreen, onMenu }: TopBarProps
           label={isFullscreen ? t('game.exitFullscreen') : t('game.fullscreen')}
           onClick={onFullscreen}
         >
-          <FullscreenIcon />
+          {isFullscreen ? <ExitFullscreenIcon /> : <FullscreenIcon />}
         </IconButton>
         <IconButton label={t('game.menu')} onClick={onMenu}>
           <MenuIcon />

@@ -1,6 +1,6 @@
 // Test helpers: made-up questions and teams, and a driver that plays games step by step.
 
-import { TEAM_COLORS, TOPICS } from '../constants'
+import { TEAM_COLORS, TEAM_ICONS, TOPICS } from '../constants'
 import { createGame } from '../create'
 import { createSeededRng } from '../random'
 import { gameReducer, type GameAction } from '../reducer'
@@ -64,6 +64,7 @@ export function makeTeams(count: number): Team[] {
     id: `t${i + 1}`,
     name: `Tim ${i + 1}`,
     color: TEAM_COLORS[i]!,
+    icon: TEAM_ICONS[i]!,
   }))
 }
 

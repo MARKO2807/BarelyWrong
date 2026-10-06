@@ -387,3 +387,35 @@ describe('a whole game', () => {
     expect(getScores(game)).toEqual(expected)
   })
 })
+
+describe('score corrections', () => {
+  it('adds and takes away points by hand, without touching results or Poništi', () => {
+    const game = topicFirst()
+    const judged = run(game, next, start, reveal, right)
+    const teamId = getCurrentTurn(judged)!.team.id
+    const fixed = run(judged, { type: 'adjust', teamId, delta: -1 })
+    expect(getScores(fixed)[teamId]).toBe(0)
+    expect(fixed.results).toEqual(judged.results)
+    const raised = run(fixed, { type: 'adjust', teamId, delta: 2 })
+    expect(getScores(raised)[teamId]).toBe(2)
+    expect(gameStateSchema.safeParse(raised).success).toBe(true)
+  })
+
+  it('ignores unknown teams and zero or fractional changes', () => {
+    const game = topicFirst()
+    const teamId = game.teams[0]!.id
+    for (const action of [
+      { type: 'adjust', teamId: 'nobody', delta: 1 },
+      { type: 'adjust', teamId, delta: 0 },
+      { type: 'adjust', teamId, delta: 0.5 },
+    ] as GameAction[]) {
+      expect(run(game, action)).toBe(game)
+    }
+  })
+
+  it('is closed once the winner is being decided', () => {
+    const finished = playToEnd(newGame())
+    const teamId = finished.teams[0]!.id
+    expect(run(finished, { type: 'adjust', teamId, delta: 1 })).toBe(finished)
+  })
+})

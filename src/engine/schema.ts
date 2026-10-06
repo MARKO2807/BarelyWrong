@@ -5,6 +5,7 @@ import {
   ROUND_KINDS,
   SECONDS_PER_QUESTION_OPTIONS,
   TEAM_COLORS,
+  TEAM_ICONS,
   TOPICS,
 } from './constants'
 
@@ -31,6 +32,7 @@ export const teamSchema = z.object({
   id,
   name: z.string(),
   color: z.enum(TEAM_COLORS),
+  icon: z.enum(TEAM_ICONS),
 })
 export type Team = z.infer<typeof teamSchema>
 
@@ -126,6 +128,8 @@ export const gameStateSchema = z
     /** Results before this index are final (the game moved on), so Undo can't touch them. */
     committedResults: index,
     tiebreak: z.object({ teamIds: z.array(id).min(2), winnerId: id.nullable() }).nullable(),
+    /** Points the host added or took away by hand, per team (a mis-click fixed after the fact). */
+    adjustments: z.record(z.string(), z.number().int()),
     step: stepSchema,
   })
   .superRefine((game, ctx) => {

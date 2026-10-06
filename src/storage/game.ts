@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { gameStateSchema, type GameState } from '../engine'
+import { withTeamIcons } from './teamIcons'
 import { STORED } from './keys'
 import { readStored, removeStored, writeStored, type StoredValue } from './versioned'
 
@@ -12,7 +13,20 @@ const savedGameSchema = z.object({
 })
 export type SavedGame = z.infer<typeof savedGameSchema>
 
-const stored: StoredValue<SavedGame> = { ...STORED.game, schema: savedGameSchema }
+const stored: StoredValue<SavedGame> = {
+  ...STORED.game,
+  schema: savedGameSchema,
+  migrations: {
+    // v2 → v3: an icon for every team, no corrections yet.
+    2: (data) => {
+      const saved = data as { savedAt: unknown; game: { teams: unknown[] } }
+      return {
+        ...saved,
+        game: { ...saved.game, teams: withTeamIcons(saved.game.teams), adjustments: {} },
+      }
+    },
+  },
+}
 
 export function saveGame(game: GameState, now: number = Date.now()): boolean {
   return writeStored(stored, { savedAt: now, game })

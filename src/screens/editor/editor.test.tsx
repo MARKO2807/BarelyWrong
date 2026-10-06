@@ -103,9 +103,9 @@ async function render(db: SupabaseClient, path: string) {
           </EditorDataProvider>
         ),
         children: [
-          { path: '/urednik', element: <QuestionsPage /> },
-          { path: '/urednik/pregled', element: <ReviewPage /> },
-          { path: '/urednik/pitanje/:id', element: <QuestionPage /> },
+          { path: '/admin', element: <QuestionsPage /> },
+          { path: '/admin/review', element: <ReviewPage /> },
+          { path: '/admin/question/:id', element: <QuestionPage /> },
         ],
       },
     ],
@@ -138,7 +138,7 @@ describe('questions list', () => {
       question('geography-0002', { question: 'Najduža rijeka Hrvatske?' }),
       question('geography-0003', { question: 'Najviši vrh Australije?' }),
     ])
-    await render(db, '/urednik?status=review&q=australij')
+    await render(db, '/admin?status=review&q=australij')
     expect(text()).toContain('1 od 3 pitanja')
     expect(text()).toContain('Najviši vrh Australije?')
     expect(text()).not.toContain('Glavni grad Australije?')
@@ -148,7 +148,7 @@ describe('questions list', () => {
 describe('review', () => {
   it('approves with O, moves on, and undoes with Z', async () => {
     const { db, writes } = fakeDb([question('geography-0001'), question('geography-0002')])
-    await render(db, '/urednik/pregled')
+    await render(db, '/admin/review')
     expect(text()).toContain('Pitanje geography-0001?')
     expect(text()).toContain('1 od 2')
 
@@ -168,7 +168,7 @@ describe('review', () => {
 
   it('does not approve a question that fails the checks', async () => {
     const { db, writes } = fakeDb([question('geography-0001', { note: null })])
-    await render(db, '/urednik/pregled')
+    await render(db, '/admin/review')
     expect(text()).toContain('Nedostaje zanimljivost')
     await press('o')
     expect(writes).toEqual([])
@@ -180,7 +180,7 @@ describe('review', () => {
 describe('question page', () => {
   it('saves cleaned-up text to both tables', async () => {
     const { db, writes } = fakeDb([question('geography-0001')])
-    await render(db, '/urednik/pitanje/geography-0001')
+    await render(db, '/admin/question/geography-0001')
     const answer = container.querySelector<HTMLInputElement>('input[required]')!
     await act(async () => setValue(answer, '  "Canberra"  '))
     expect(text()).toContain('Ima nespremljenih promjena.')
@@ -201,7 +201,7 @@ describe('question page', () => {
 
   it('approves from the page when the checks pass', async () => {
     const { db, writes } = fakeDb([question('geography-0001')])
-    await render(db, '/urednik/pitanje/geography-0001')
+    await render(db, '/admin/question/geography-0001')
     await act(async () => button('Odobri').click())
     expect(writes.find((w) => w.table === 'questions')!.values).toMatchObject({
       status: 'approved',

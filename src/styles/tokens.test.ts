@@ -88,9 +88,15 @@ const PAIRS: Array<[text: string, background: string]> = [
   ['--on-primary', '--primary'],
   ['--on-accent', '--accent'],
   ['--on-team-pink', '--team-pink'],
-  ...['--team-cyan', '--team-amber', '--team-purple', '--team-blue', '--team-lime'].map(
-    (team): [string, string] => ['--on-team', team],
-  ),
+  ...[
+    '--team-cyan',
+    '--team-amber',
+    '--team-purple',
+    '--team-blue',
+    '--team-lime',
+    '--team-orange',
+    '--team-red',
+  ].map((team): [string, string] => ['--on-team', team]),
 ]
 
 describe.each<Theme>(['dark', 'light'])('%s theme', (theme) => {

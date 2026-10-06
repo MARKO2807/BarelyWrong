@@ -9,7 +9,7 @@ import { Button, ButtonLink } from '../ui/Button'
 import { Header } from '../ui/Header'
 import { HeroImage } from '../ui/HeroImage'
 import { Logo } from '../ui/Logo'
-import { PlayIcon } from '../ui/pixel/icons'
+import { PlayIcon } from '../ui/icons'
 import { useDocumentTitle } from '../ui/useDocumentTitle'
 
 export function HomeScreen() {

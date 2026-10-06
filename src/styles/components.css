@@ -110,19 +110,6 @@
   }
 
   /* Header icon on a frosted disc, so it stands out on any part of the hero image. */
-  .icon-btn-chip {
-    width: var(--header-icon-size);
-    height: var(--header-icon-size);
-    border: 0.125rem solid color-mix(in srgb, var(--text) 35%, transparent);
-    background-color: color-mix(in srgb, var(--surface) 72%, transparent);
-    backdrop-filter: blur(0.375rem);
-    font-size: calc(var(--header-icon-size) * 0.5);
-  }
-
-  .icon-btn-chip:hover {
-    background-color: var(--surface);
-  }
-
   /* Header text link; becomes a round icon button on phones. */
   .header-link {
     display: inline-flex;
@@ -144,6 +131,33 @@
     background-color: color-mix(in srgb, var(--text) 12%, transparent);
   }
 
+  .header-link {
+    gap: 0.4em;
+  }
+
+  /* Postavke: a frosted pill (round on small screens) whose gear turns on hover. */
+  .header-settings {
+    min-width: var(--header-icon-size);
+    border: 0.125rem solid color-mix(in srgb, var(--text) 35%, transparent);
+    border-radius: var(--radius-full);
+    background-color: color-mix(in srgb, var(--surface) 72%, transparent);
+    backdrop-filter: blur(0.375rem);
+    text-shadow: none;
+  }
+
+  .header-settings:hover {
+    border-color: var(--primary);
+    background-color: var(--surface);
+  }
+
+  .header-settings-icon {
+    transition: transform var(--duration-base) var(--ease-out);
+  }
+
+  .header-settings:hover .header-settings-icon {
+    transform: rotate(90deg);
+  }
+
   @media (width < 40rem) {
     .header-link {
       width: var(--header-icon-size);
@@ -155,16 +169,6 @@
       font-size: calc(var(--header-icon-size) * 0.5);
       text-shadow: none;
     }
-  }
-
-  .pixel-icon {
-    flex: none;
-    width: auto;
-    height: 1em;
-  }
-
-  .btn .pixel-icon {
-    height: 0.8em;
   }
 
   /* Focus ring for a wrapper whose real control is visually hidden (custom radios). */
@@ -431,5 +435,127 @@
   .editor-nav-link[aria-current='page'] {
     background: var(--primary);
     color: var(--on-primary);
+  }
+}
+
+/* Icons (src/ui/icons.tsx): 1em square in the current text colour. */
+@layer components {
+  .ui-icon {
+    flex: none;
+    width: 1em;
+    height: 1em;
+  }
+
+  .btn .ui-icon {
+    width: 0.9em;
+    height: 0.9em;
+  }
+}
+
+/* Home hero (src/ui/HeroImage.tsx) */
+@layer components {
+  /* The scene keeps the background's 1672 × 941 shape and covers the screen like object-fit: cover,
+     so the characters stay on the platform at any window size. */
+  .hero-stage {
+    container-type: size;
+  }
+
+  .hero-scene {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: max(100cqw, 100cqh * 1672 / 941);
+    height: max(100cqh, 100cqw * 941 / 1672);
+    translate: -50% -50%;
+  }
+
+  .hero-float {
+    animation: hero-float 3.2s ease-in-out infinite;
+  }
+
+  .hero-glow-pulse {
+    animation:
+      hero-float 3.2s ease-in-out infinite,
+      hero-glow 3.2s ease-in-out infinite;
+  }
+
+  .hero-breathe {
+    transform-origin: 50% 100%;
+    animation: hero-breathe 2.6s ease-in-out infinite;
+  }
+
+  .hero-sway {
+    transform-origin: 30% 100%;
+    animation: hero-sway 4.4s ease-in-out infinite;
+  }
+
+  .hero-sparkle {
+    position: absolute;
+    height: auto;
+    color: var(--accent);
+    fill: currentColor;
+    animation: hero-twinkle 2.1s ease-in-out infinite;
+  }
+
+  @keyframes hero-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14%);
+    }
+  }
+
+  @keyframes hero-glow {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 0.15rem var(--primary));
+    }
+    50% {
+      filter: drop-shadow(0 0 0.6rem var(--primary));
+    }
+  }
+
+  @keyframes hero-breathe {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.025, 0.96);
+    }
+  }
+
+  @keyframes hero-sway {
+    0%,
+    100% {
+      transform: rotate(0deg) translateY(0);
+    }
+    50% {
+      transform: rotate(-1.2deg) translateY(-1.5%);
+    }
+  }
+
+  @keyframes hero-twinkle {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: scale(0.6);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-float,
+    .hero-glow-pulse,
+    .hero-breathe,
+    .hero-sway,
+    .hero-sparkle {
+      animation: none;
+    }
   }
 }

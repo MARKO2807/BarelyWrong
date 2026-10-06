@@ -17,6 +17,11 @@ declare module '*?logo' {
   export default picture
 }
 
+declare module '*?sprite' {
+  const picture: ResponsivePicture
+  export default picture
+}
+
 /** Tiny blurred preview, inlined as a data URL. */
 declare module '*?placeholder' {
   const src: string

@@ -8,7 +8,7 @@ import { useDocumentTitle } from '../../ui/useDocumentTitle'
 import { EditorDataProvider } from './EditorData'
 import { EditorLayout, EditorRoutes } from './EditorLayout'
 
-/** /urednik (spec 9.3): loaded on its own, so the game never downloads it. */
+/** /admin (spec 9.3): loaded on its own, so the game never downloads it. */
 export function EditorApp() {
   useDocumentTitle(t('editor.title'))
   return (

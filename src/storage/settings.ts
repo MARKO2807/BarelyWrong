@@ -9,12 +9,13 @@ export type Theme = (typeof THEMES)[number]
 // Each field falls back on its own, so one bad value doesn't wipe the rest.
 const settingsSchema = z.object({
   theme: z.enum(THEMES).catch('dark'),
-  sound: z.boolean().catch(true),
+  sound: z.boolean().catch(false),
 })
 
 export type Settings = z.infer<typeof settingsSchema>
 
-export const DEFAULT_SETTINGS: Settings = { theme: 'dark', sound: true }
+/** Sound starts off: the game is often played late at night. */
+export const DEFAULT_SETTINGS: Settings = { theme: 'dark', sound: false }
 
 const stored: StoredValue<Settings> = { ...STORED.settings, schema: settingsSchema }
 

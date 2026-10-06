@@ -5,7 +5,7 @@ import { QUESTION_STATUSES, type QuestionStatus } from './batchSchema'
 import type { ImportRow, SimilarMatch } from './import'
 import { REPORT_REASONS } from './reports'
 
-// Database access for the editor, shared by the /urednik screens and the scripts. Every function
+// Database access for the editor, shared by the /admin screens and the scripts. Every function
 // takes a client signed in as the editor; the database refuses everyone else (RLS).
 
 export const editorQuestionSchema = z.object({

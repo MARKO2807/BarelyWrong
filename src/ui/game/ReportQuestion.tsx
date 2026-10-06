@@ -5,7 +5,7 @@ import { REPORT_REASONS, type ReportReason } from '../../data/reports'
 import { Button } from '../Button'
 import { IconButton } from '../IconButton'
 import { Modal } from '../Modal'
-import { FlagIcon } from '../pixel/gameIcons'
+import { FlagIcon } from '../icons'
 
 const COMMENT_MAX = 500
 

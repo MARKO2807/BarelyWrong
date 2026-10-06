@@ -85,3 +85,32 @@ describe('last setup', () => {
     expect(loadLastSetup()).toBeNull()
   })
 })
+
+function withoutIcon(team: object): object {
+  const copy: Record<string, unknown> = { ...team }
+  delete copy.icon
+  return copy
+}
+
+describe('older saves', () => {
+  it('gives teams in a v2 game icons and starts it without corrections', () => {
+    const game = newGame()
+    const v2Game: Partial<typeof game> = { ...game }
+    delete v2Game.adjustments
+    const v2Teams = game.teams.map((team) => withoutIcon(team))
+    localStorage.setItem(
+      'bw:game:v2',
+      JSON.stringify({ savedAt: 5, game: { ...v2Game, teams: v2Teams } }),
+    )
+    const loaded = loadGame()
+    expect(loaded?.game.adjustments).toEqual({})
+    expect(new Set(loaded?.game.teams.map((team) => team.icon)).size).toBe(game.teams.length)
+    expect(localStorage.getItem('bw:game:v2')).toBeNull()
+  })
+
+  it('gives teams in a v1 last setup icons', () => {
+    const teams = makeTeams(3).map((team) => withoutIcon(team))
+    localStorage.setItem('bw:lastSetup:v1', JSON.stringify({ teams, options: TEST_OPTIONS }))
+    expect(loadLastSetup()?.teams.map((team) => team.icon)).toEqual(['rocket', 'ghost', 'crown'])
+  })
+})

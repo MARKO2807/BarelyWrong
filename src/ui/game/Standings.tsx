@@ -7,7 +7,7 @@ import {
   type ScoreColumn,
 } from '../../engine'
 import { t } from '../../i18n'
-import { KIND_ICONS } from '../pixel/gameIcons'
+import { KIND_ICONS } from '../icons'
 import { formatPoints } from './Scoreboard'
 import { TeamChip } from './team'
 
@@ -38,6 +38,8 @@ export function Standings({
     game.fastestFinger.afterRound < upToRound &&
     game.results.some((result) => result.type === 'fastestFinger')
   if (fastestFingerPlayed) columns.push('fastest_finger')
+  // Hand corrections get their own column, so each row still adds up to the total.
+  if (Object.values(game.adjustments).some((points) => points !== 0)) columns.push('correction')
 
   const byColumn = getScoresByColumn(game)
   const previousPlace = new Map(previous?.map((entry, index) => [entry.teamId, index]))
@@ -102,7 +104,11 @@ export function Standings({
                 {entry.rank}.
               </span>
               <span role="cell" className="flex min-w-0 items-center gap-3">
-                <TeamChip color={team.color} className="size-9 text-2xl lg:size-10" />
+                <TeamChip
+                  color={team.color}
+                  icon={team.icon}
+                  className="size-9 text-2xl lg:size-10"
+                />
                 <span className="flex min-w-0 flex-col">
                   <span className="truncate font-display text-xl font-extrabold lg:text-2xl">
                     {team.name}

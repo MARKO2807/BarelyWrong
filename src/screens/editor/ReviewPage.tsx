@@ -91,7 +91,7 @@ export function ReviewPage() {
     decide(last.id, last.status, last.previous, false)
   }, [last, busy, decide])
   const edit = useCallback(() => {
-    if (current) void navigate(`${EDITOR_ROUTES.question(current.id)}?from=pregled`)
+    if (current) void navigate(`${EDITOR_ROUTES.question(current.id)}?from=review`)
   }, [current, navigate])
 
   useEffect(() => {

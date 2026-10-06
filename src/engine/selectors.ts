@@ -1,8 +1,8 @@
 import { DOUBLE_TROUBLE_MULTIPLIER, type RoundKind } from './constants'
 import type { GameState, Question, Result, Round, Team, Timer } from './schema'
 
-/** Columns of the per-topic score table: round kinds plus Najbrži prst. */
-export type ScoreColumn = RoundKind | 'fastest_finger'
+/** Columns of the per-topic score table: round kinds, Najbrži prst and the host's corrections. */
+export type ScoreColumn = RoundKind | 'fastest_finger' | 'correction'
 
 export interface RankedTeam {
   teamId: string
@@ -104,6 +104,8 @@ export function canUndo(game: GameState): boolean {
 function sumScores(game: GameState, results: readonly Result[]): Record<string, number> {
   const scores = Object.fromEntries(game.teams.map((team) => [team.id, 0]))
   for (const result of results) scores[result.teamId] = (scores[result.teamId] ?? 0) + result.points
+  for (const [teamId, points] of Object.entries(game.adjustments))
+    scores[teamId] = (scores[teamId] ?? 0) + points
   return scores
 }
 
@@ -123,6 +125,10 @@ export function getScoresByColumn(
       result.type === 'fastestFinger' ? 'fastest_finger' : game.rounds[result.round]!.kind
     const row = table[result.teamId]!
     row[column] = (row[column] ?? 0) + result.points
+  }
+  for (const [teamId, points] of Object.entries(game.adjustments)) {
+    const row = table[teamId]
+    if (row && points !== 0) row.correction = points
   }
   return table
 }

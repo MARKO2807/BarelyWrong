@@ -61,6 +61,8 @@
   --color-team-purple: var(--team-purple);
   --color-team-blue: var(--team-blue);
   --color-team-lime: var(--team-lime);
+  --color-team-orange: var(--team-orange);
+  --color-team-red: var(--team-red);
   --color-on-team: var(--on-team);
   --color-on-team-pink: var(--on-team-pink);
 }
@@ -79,6 +81,8 @@
   --team-purple: #a779ff;
   --team-blue: #4380ff;
   --team-lime: #b6f23b;
+  --team-orange: #ff8a3d;
+  --team-red: #ff4d4d;
   --on-team: #14183d;
   --on-team-pink: #14071f;
 

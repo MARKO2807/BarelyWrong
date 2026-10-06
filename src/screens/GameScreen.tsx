@@ -58,7 +58,7 @@ export function GameScreen() {
 
   const inProgress = game !== null && game.step.type !== 'finished'
 
-  // Opening /igra directly (or after a reload) continues the saved game.
+  // Opening /game directly (or after a reload) continues the saved game.
   useEffect(() => {
     if (!game && !triedResume.current) {
       triedResume.current = true
@@ -170,6 +170,8 @@ export function GameScreen() {
       </footer>
 
       <GameMenu
+        game={game}
+        dispatch={dispatch}
         open={menuOpen}
         onClose={() => setMenuOpen(false)}
         isFullscreen={isFullscreen}

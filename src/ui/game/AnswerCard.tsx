@@ -30,11 +30,7 @@ export function AnswerCard({ question, verdict }: { question: Question; verdict:
       <p className="font-display text-(length:--answer-size) leading-tight font-extrabold text-balance text-primary-text">
         {question.answer}
       </p>
-      {question.accept.length > 0 && (
-        <p className="mt-1 text-xl text-text-muted">
-          {t('game.alsoAccepted', { list: question.accept.join(', ') })}
-        </p>
-      )}
+      {/* Other accepted forms stay off screen: the teams decide together whether an answer counts. */}
       {question.note && (
         <p className="mt-3 text-xl text-pretty">
           <span className="font-display font-extrabold text-secondary-text">

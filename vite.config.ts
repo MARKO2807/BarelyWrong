@@ -10,6 +10,7 @@ import { themeBootScript } from './src/storage/theme-boot.ts'
 /** Candidate widths for responsive images; anything wider than the source is skipped. */
 const HERO_WIDTHS = [640, 960, 1280, 1920, 2560, 3840]
 const LOGO_WIDTHS = [320, 640, 960, 1280, 1920]
+const SPRITE_WIDTHS = [160, 320, 640, 960]
 
 function widthsUpTo(candidates: number[], sourceWidth: number): string {
   return [...candidates.filter((w) => w < sourceWidth), sourceWidth].join(';')
@@ -54,9 +55,9 @@ function headersPlugin(): Plugin {
         // The editor is not for search engines, also those that don't run the page's script.
         source: `/*
   Content-Security-Policy: ${contentSecurityPolicy()}
-/urednik
+/admin
   X-Robots-Tag: noindex, nofollow
-/urednik/*
+/admin/*
   X-Robots-Tag: noindex, nofollow
 `,
       })
@@ -85,7 +86,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     imagetools({
-      // Presets: `?hero`, `?logo` and `?placeholder` on an image import.
+      // Presets: `?hero`, `?logo`, `?sprite` and `?placeholder` on an image import.
       defaultDirectives: async (url, metadata) => {
         const { searchParams } = url
         if (searchParams.has('hero') || searchParams.has('logo')) {
@@ -96,6 +97,16 @@ export default defineConfig({
             // The pixel-art heroes come out smaller as WebP than as AVIF; the logo is the other way round.
             format: hero ? 'webp' : 'avif;webp',
             quality: hero ? '72' : '82',
+            as: 'picture',
+          })
+        }
+        if (searchParams.has('sprite')) {
+          // Transparent hero characters: small on screen, so a few narrow WebP sizes are enough.
+          const { width = 0 } = await metadata()
+          return new URLSearchParams({
+            w: widthsUpTo(SPRITE_WIDTHS, width),
+            format: 'webp',
+            quality: '85',
             as: 'picture',
           })
         }

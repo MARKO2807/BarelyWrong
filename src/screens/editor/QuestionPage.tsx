@@ -29,7 +29,7 @@ import { Toggle } from '../../ui/Toggle'
 import { useEditorData } from './EditorData'
 import { errorMessage, formatDate, ReportItem, SectionTitle, SimilarList } from './parts'
 
-/** Edit every field of one question (spec 9.3). `?from=pregled` returns to the review. */
+/** Edit every field of one question (spec 9.3). `?from=review` returns to the review. */
 export function QuestionPage() {
   const { id = '' } = useParams()
   const { byId } = useEditorData()
@@ -51,7 +51,7 @@ const STATUS_ACTIONS: { status: QuestionStatus; label: MessageKey }[] = [
 function QuestionForm({ question }: { question: EditorQuestion }) {
   const { db, questions, reports, today, patchQuestion } = useEditorData()
   const [params] = useSearchParams()
-  const fromReview = params.get('from') === 'pregled'
+  const fromReview = params.get('from') === 'review'
   const backTo = fromReview
     ? `${EDITOR_ROUTES.review}?id=${encodeURIComponent(question.id)}`
     : EDITOR_ROUTES.questions

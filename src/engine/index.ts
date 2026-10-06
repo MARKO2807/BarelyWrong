@@ -4,7 +4,7 @@ export * from './constants'
 export { createGame, createRematch, type CreateGameInput, type CreateGameResult } from './create'
 export { getCommittedAnswerEvents, getShownQuestionId, type AnswerEvent } from './events'
 export { createSeededRng, type Rng } from './random'
-export { gameReducer, type GameAction } from './reducer'
+export { canAdjustScores, gameReducer, type GameAction } from './reducer'
 export * from './schema'
 export {
   questionFitsKind,

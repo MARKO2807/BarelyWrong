@@ -40,7 +40,11 @@ export function Scoreboard({ game, activeTeamIds, bubble }: ScoreboardProps) {
               active ? 'border-(--team)' : 'border-border'
             }`}
           >
-            <TeamChip color={team.color} className="size-8 text-xl lg:size-10 lg:text-2xl" />
+            <TeamChip
+              color={team.color}
+              icon={team.icon}
+              className="size-8 text-xl lg:size-10 lg:text-2xl"
+            />
             <span className="min-w-0 flex-1 truncate font-display text-lg font-extrabold lg:text-xl">
               {team.name}
             </span>

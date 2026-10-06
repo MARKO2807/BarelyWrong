@@ -53,9 +53,9 @@ export function createGame({
   const rounds = plan.rounds.map((round, roundIndex) => ({
     kind: round.kind,
     doubled: roundIndex === doubledRound,
-    // Each round starts with the team after the one that started the previous round.
+    // Teams keep the same order all game (A, B, A, B…), so nobody plays twice in a row.
     turns: round.questionIds.map((questionId, turnIndex) => ({
-      teamId: teams[(firstTeam + roundIndex + turnIndex) % teams.length]!.id,
+      teamId: teams[(firstTeam + turnIndex) % teams.length]!.id,
       questionId,
     })),
   }))
@@ -86,6 +86,7 @@ export function createGame({
       results: [],
       committedResults: 0,
       tiebreak: null,
+      adjustments: {},
       step: { type: 'roundIntro', round: 0 },
     },
   }

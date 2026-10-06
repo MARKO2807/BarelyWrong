@@ -2,15 +2,14 @@ import { useCallback, useState } from 'react'
 import { Link } from 'react-router'
 import { ROUTES } from '../app/routes'
 import { t } from '../i18n'
-import { ButtonLink } from './Button'
 import { HowToPlayDialog } from './dialogs/HowToPlayDialog'
 import { SettingsDialog } from './dialogs/SettingsDialog'
-import { IconButton } from './IconButton'
+import { RulesIcon, SettingsIcon } from './icons'
 import { Logo } from './Logo'
-import { GearIcon, QuestionIcon } from './pixel/icons'
 
 type OpenDialog = 'howToPlay' | 'settings' | null
 
+/** Logo, Pravila and Postavke. Playing starts from the big button on the home page. */
 export function Header() {
   const [openDialog, setOpenDialog] = useState<OpenDialog>(null)
   const closeDialog = useCallback(() => setOpenDialog(null), [])
@@ -21,21 +20,19 @@ export function Header() {
         <Logo variant="header" className="h-(--logo-header-height) w-auto" />
       </Link>
 
-      <nav aria-label={t('nav.label')} className="flex items-center gap-2 sm:gap-4">
+      <nav aria-label={t('nav.label')} className="flex items-center gap-2 sm:gap-3">
         <button type="button" className="header-link" onClick={() => setOpenDialog('howToPlay')}>
-          <QuestionIcon className="sm:hidden" />
+          <RulesIcon />
           <span className="max-sm:sr-only">{t('nav.howToPlay')}</span>
         </button>
-        <IconButton
-          label={t('nav.settings')}
-          className="icon-btn-chip"
+        <button
+          type="button"
+          className="header-link header-settings"
           onClick={() => setOpenDialog('settings')}
         >
-          <GearIcon />
-        </IconButton>
-        <ButtonLink to={ROUTES.newGame} size="header" className="ml-1 sm:ml-3">
-          {t('nav.play')}
-        </ButtonLink>
+          <SettingsIcon className="header-settings-icon" />
+          <span className="max-lg:sr-only">{t('nav.settings')}</span>
+        </button>
       </nav>
 
       <HowToPlayDialog open={openDialog === 'howToPlay'} onClose={closeDialog} />
