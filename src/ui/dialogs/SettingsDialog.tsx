@@ -1,8 +1,9 @@
 import { useId, useState, type ReactNode } from 'react'
+import { ROUTES } from '../../app/routes'
 import { useSettings } from '../../app/SettingsProvider'
 import { t } from '../../i18n'
 import { THEMES, resetPlayed } from '../../storage'
-import { Button } from '../Button'
+import { Button, ButtonLink } from '../Button'
 import { Modal } from '../Modal'
 import { SegmentedControl } from '../SegmentedControl'
 import { Toggle } from '../Toggle'
@@ -24,16 +25,17 @@ export function SettingsDialog({ open, onClose }: DialogProps) {
         </Button>
       }
     >
-      <SettingsContent />
+      <SettingsContent onLeave={onClose} />
     </Modal>
   )
 }
 
-function SettingsContent() {
+function SettingsContent({ onLeave }: { onLeave: () => void }) {
   const { settings, updateSettings } = useSettings()
   const soundId = useId()
   const themeId = useId()
   const playedId = useId()
+  const adminId = useId()
 
   return (
     <div className="flex flex-col divide-y-2 divide-border">
@@ -74,6 +76,16 @@ function SettingsContent() {
         description={t('settings.played.description')}
       >
         <ResetPlayed />
+      </SettingRow>
+
+      <SettingRow
+        titleId={adminId}
+        title={t('settings.admin.label')}
+        description={t('settings.admin.description')}
+      >
+        <ButtonLink variant="secondary" size="md" to={ROUTES.editor} onClick={onLeave}>
+          {t('settings.admin.open')}
+        </ButtonLink>
       </SettingRow>
     </div>
   )

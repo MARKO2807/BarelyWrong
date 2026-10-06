@@ -62,6 +62,11 @@ export const hr = {
       success: 'Gotovo! Sva pitanja su opet u igri.',
       failure: 'Nešto je pošlo krivo. Pokušaj ponovno.',
     },
+    admin: {
+      label: 'Admin',
+      description: 'Prijava za urednike pitanja.',
+      open: 'Admin',
+    },
   },
   /** Round kinds and score-table columns. */
   topics: {
