@@ -306,7 +306,9 @@
   /* Leaderboard table; points per topic drop out on narrow screens (see Standings.tsx). */
   .standings-grid {
     display: grid;
-    grid-template-columns: 3rem minmax(0, 1fr) repeat(var(--topic-count), 2.5rem) var(--gained-col) 5.5rem;
+    grid-template-columns: 3rem minmax(0, 1fr) repeat(var(--topic-count), 2.5rem) var(
+        --gained-col
+      ) 5.5rem;
   }
 
   @media (width < 48rem) {
