@@ -96,6 +96,8 @@ const PAIRS: Array<[text: string, background: string]> = [
     '--team-lime',
     '--team-orange',
     '--team-red',
+    '--team-yellow',
+    '--team-white',
   ].map((team): [string, string] => ['--on-team', team]),
 ]
 

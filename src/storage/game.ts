@@ -1,6 +1,5 @@
 import { z } from 'zod'
 import { gameStateSchema, type GameState } from '../engine'
-import { withTeamIcons } from './teamIcons'
 import { STORED } from './keys'
 import { readStored, removeStored, writeStored, type StoredValue } from './versioned'
 
@@ -17,12 +16,12 @@ const stored: StoredValue<SavedGame> = {
   ...STORED.game,
   schema: savedGameSchema,
   migrations: {
-    // v2 → v3: an icon for every team, no corrections yet.
+    // v2 → v3: games keep the host's score corrections.
     2: (data) => {
-      const saved = data as { savedAt: unknown; game: { teams: unknown[] } }
+      const saved = data as { savedAt: unknown; game: object }
       return {
         ...saved,
-        game: { ...saved.game, teams: withTeamIcons(saved.game.teams), adjustments: {} },
+        game: { ...saved.game, adjustments: {} },
       }
     },
   },

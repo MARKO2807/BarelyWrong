@@ -20,7 +20,6 @@ export type SetupProblem =
   | { type: 'nameTooLong'; teamId: string }
   | { type: 'nameTaken'; teamId: string }
   | { type: 'colorTaken'; teamId: string }
-  | { type: 'iconTaken'; teamId: string }
 
 /** Trims and collapses inner whitespace. */
 export function normalizeTeamName(name: string): string {
@@ -35,7 +34,6 @@ export function validateSetup({ teams, options }: GameSetup): SetupProblem[] {
 
   const names = new Set<string>()
   const colors = new Set<string>()
-  const icons = new Set<string>()
   for (const team of teams) {
     const name = normalizeTeamName(team.name)
     const nameKey = name.toLocaleLowerCase('hr')
@@ -47,9 +45,6 @@ export function validateSetup({ teams, options }: GameSetup): SetupProblem[] {
 
     if (colors.has(team.color)) problems.push({ type: 'colorTaken', teamId: team.id })
     colors.add(team.color)
-
-    if (icons.has(team.icon)) problems.push({ type: 'iconTaken', teamId: team.id })
-    icons.add(team.icon)
   }
   return problems
 }

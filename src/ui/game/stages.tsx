@@ -64,15 +64,11 @@ export function TeamIntro({ game }: { game: GameState }) {
   return (
     <div
       key={turn.team.id + turn.roundIndex}
-      className="pop-in flex flex-col items-center gap-5 text-center"
+      style={teamStyle(turn.team.color)}
+      className="team-spotlight pop-in flex flex-col items-center gap-6 text-center"
     >
       <span className="text-3xl text-text-muted">{t('game.onTurn')}</span>
-      <TeamChip
-        color={turn.team.color}
-        icon={turn.team.icon}
-        className="size-(--icon-hero) text-(length:--icon-hero)"
-      />
-      <h1 className="font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance">
+      <h1 className="team-banner font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance">
         {turn.team.name}
       </h1>
       {turn.challenger && (
@@ -100,8 +96,7 @@ function QuestionLabel({ game }: { game: GameState }) {
   if (turn) {
     return (
       <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-4 gap-y-1 text-2xl">
-        <span className="flex items-center gap-3 font-display font-extrabold">
-          <TeamChip color={turn.team.color} icon={turn.team.icon} className="size-9 text-2xl" />
+        <span style={teamStyle(turn.team.color)} className="team-pill font-display font-extrabold">
           {turn.team.name}
         </span>
         {turn.challenger && (
@@ -121,8 +116,7 @@ function QuestionLabel({ game }: { game: GameState }) {
           <BoltIcon /> {t('game.forEveryone')}
         </span>
         {team && (
-          <span className="flex items-center gap-3 font-display font-extrabold">
-            <TeamChip color={team.color} icon={team.icon} className="size-9 text-2xl" />
+          <span style={teamStyle(team.color)} className="team-pill font-display font-extrabold">
             {t('game.answering', { team: team.name })}
           </span>
         )}
@@ -202,7 +196,7 @@ export function TiebreakIntro({ game }: { game: GameState }) {
           <TeamChip
             key={team.id}
             color={team.color}
-            icon={team.icon}
+            name={team.name}
             className="size-20 text-5xl"
           />
         ))}
@@ -275,7 +269,7 @@ export function EndStage({ game }: { game: GameState }) {
         className="pop-in flex flex-col items-center gap-3 text-center"
         style={teamStyle(winner.color)}
       >
-        <TeamChip color={winner.color} icon={winner.icon} className="size-24 text-5xl" />
+        <TeamChip color={winner.color} name={winner.name} className="size-24 text-5xl" />
         <h1 className="font-display text-4xl font-extrabold text-balance">
           {t('game.winner', { team: winner.name })}
         </h1>

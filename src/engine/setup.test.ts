@@ -49,13 +49,6 @@ describe('validateSetup', () => {
     ])
   })
 
-  it('flags a repeated icon on the later team', () => {
-    const [a, b] = makeTeams(2)
-    expect(validateSetup({ teams: [a!, { ...b!, icon: a!.icon }], options: TEST_OPTIONS })).toEqual(
-      [{ type: 'iconTaken', teamId: b!.id }],
-    )
-  })
-
   it('rejects options outside the allowed values', () => {
     const options = { ...TEST_OPTIONS, secondsPerQuestion: 50 } as unknown as typeof TEST_OPTIONS
     expect(validateSetup({ teams: makeTeams(2), options })).toContainEqual({ type: 'options' })

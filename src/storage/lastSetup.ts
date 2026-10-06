@@ -1,7 +1,6 @@
 import { z } from 'zod'
 import { MAX_TEAMS, gameOptionsSchema, teamSchema, type GameSetup } from '../engine'
 import { STORED } from './keys'
-import { withTeamIcons } from './teamIcons'
 import { readStored, writeStored, type StoredValue } from './versioned'
 
 // The last teams and game options, so the setup screen starts where the previous game did.
@@ -15,11 +14,8 @@ const stored: StoredValue<GameSetup> = {
   ...STORED.lastSetup,
   schema: lastSetupSchema,
   migrations: {
-    // v1 → v2: an icon for every team.
-    1: (data) => {
-      const setup = data as { teams: unknown[] }
-      return { ...setup, teams: withTeamIcons(setup.teams) }
-    },
+    // v1 → v2: same shape (v2 briefly carried team icons, which are dropped when read).
+    1: (data) => data,
   },
 }
 

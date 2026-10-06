@@ -8,9 +8,9 @@ export const STORED = {
   settings: { name: 'settings', version: 1 },
   // v2: question ids changed from file-based (sport-pilot-3) to database ids (sport-0003).
   played: { name: 'played', version: 2 },
-  // v3: teams pick an icon; games keep the host's score corrections.
+  // v3: games keep the host's score corrections.
   game: { name: 'game', version: 3 },
-  // v2: teams pick an icon.
+  // v2: same shape (briefly held team icons).
   lastSetup: { name: 'lastSetup', version: 2 },
   outbox: { name: 'outbox', version: 1 },
   // The editor's Supabase session (src/storage/auth.ts).

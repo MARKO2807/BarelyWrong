@@ -106,7 +106,7 @@ export function Standings({
               <span role="cell" className="flex min-w-0 items-center gap-3">
                 <TeamChip
                   color={team.color}
-                  icon={team.icon}
+                  name={team.name}
                   className="size-9 text-2xl lg:size-10"
                 />
                 <span className="flex min-w-0 flex-col">
@@ -124,7 +124,7 @@ export function Standings({
                 <span
                   key={column}
                   role="cell"
-                  className="text-center font-terminal text-2xl tabular-nums max-md:hidden"
+                  className="text-center font-display text-2xl font-extrabold tabular-nums max-md:hidden"
                 >
                   {byColumn[team.id]?.[column] ?? 0}
                 </span>
@@ -132,14 +132,14 @@ export function Standings({
               {previous && (
                 <span
                   role="cell"
-                  className={`text-right font-terminal text-2xl ${gained > 0 ? 'text-correct' : gained < 0 ? 'text-wrong' : 'text-text-muted'}`}
+                  className={`text-right font-display text-2xl font-extrabold ${gained > 0 ? 'text-correct' : gained < 0 ? 'text-wrong' : 'text-text-muted'}`}
                 >
                   {gained !== 0 ? formatPoints(gained) : ''}
                 </span>
               )}
               <span
                 role="cell"
-                className="text-right font-terminal text-4xl leading-none tabular-nums"
+                className="text-right font-display text-4xl leading-none font-extrabold tabular-nums"
               >
                 {entry.score}
               </span>

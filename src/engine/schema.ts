@@ -5,7 +5,6 @@ import {
   ROUND_KINDS,
   SECONDS_PER_QUESTION_OPTIONS,
   TEAM_COLORS,
-  TEAM_ICONS,
   TOPICS,
 } from './constants'
 
@@ -32,7 +31,6 @@ export const teamSchema = z.object({
   id,
   name: z.string(),
   color: z.enum(TEAM_COLORS),
-  icon: z.enum(TEAM_ICONS),
 })
 export type Team = z.infer<typeof teamSchema>
 

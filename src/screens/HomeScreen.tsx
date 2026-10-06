@@ -9,7 +9,6 @@ import { Button, ButtonLink } from '../ui/Button'
 import { Header } from '../ui/Header'
 import { HeroImage } from '../ui/HeroImage'
 import { Logo } from '../ui/Logo'
-import { PlayIcon } from '../ui/icons'
 import { useDocumentTitle } from '../ui/useDocumentTitle'
 
 export function HomeScreen() {
@@ -26,12 +25,12 @@ export function HomeScreen() {
       <main className="flex flex-1 flex-col items-center justify-center px-safe-x pt-8 pb-(--hero-lift)">
         <div className="hero-glow flex flex-col items-center gap-6 text-center">
           <h1>
-            <Logo variant="hero" className="h-auto w-(--logo-hero-width)" />
+            <Logo variant="hero" className="hero-logo h-auto w-(--logo-hero-width)" />
           </h1>
           <p className="hero-text-shadow max-w-(--logo-hero-width) font-terminal text-(length:--tagline-font-size) leading-[1.1] text-balance">
             {t('app.tagline')}
           </p>
-          <ButtonLink to={ROUTES.newGame} size="hero" icon={<PlayIcon />} className="mt-2">
+          <ButtonLink to={ROUTES.newGame} size="hero" className="play-cta mt-2">
             {t('nav.play')}
           </ButtonLink>
           {canContinue && (

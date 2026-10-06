@@ -44,7 +44,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 
 ### 4.1 Postavljanje partije
 
-- 2–4 tima. Ime je obavezno (do 20 znakova), a dva tima ne mogu imati isto ime (bez obzira na velika i mala slova). Svaki tim bira jednu od osam boja i jednu od osam ikona (raketa, duh, kruna, mačka, pizza, bomba, puž, robot); dva tima ne mogu imati istu boju ni istu ikonu.
+- 2–4 tima. Ime je obavezno (do 20 znakova), a dva tima ne mogu imati isto ime (bez obzira na velika i mala slova). Svaki tim bira jednu od deset boja; dva tima ne mogu imati istu. Oznaka tima je kvadrat u njegovoj boji s početnim slovom imena, a boja tima jako je naglašena tijekom igre (najava tima, oznaka iznad pitanja, kartica s bodovima).
 - Duljina: Puna (12 rundi) ili Kratka (6 rundi).
 - Vrijeme po pitanju: 30, 45, 60, 75 ili 90 sekundi; zadano 60.
 - Najbrži prst: uključen ili isključen; zadano uključen.
@@ -158,7 +158,7 @@ Pikselni fontovi nikad se ne koriste za tekst pitanja.
 
 Na ružičastim gumbima tekst je uvijek tamni; bijeli tekst na #FB1F92 ima premali kontrast. Sve kombinacije teksta i pozadine moraju imati kontrast od najmanje 4,5:1; to provjerava test `src/styles/tokens.test.ts`. Zato je ružičasti tekst u tamnoj temi svjetliji od gumba (#FB1F92 na `--surface` ima samo 4,4:1), a plava boja tima je #4380FF umjesto #3D7BFF (4,46:1 s tamnim tekstom).
 
-**Boje timova** (ispune s tamnim tekstom #14183D, na ružičastoj #14071F), : ružičasta #FB1F92, cijan #03E1FD, jantarna #FFB547, ljubičasta #A779FF, plava #4380FF, limeta #B6F23B, narančasta #FF8A3D, crvena #FF4D4D. Ikona se bira zasebno od boje.
+**Boje timova** (ispune s tamnim tekstom #14183D, na ružičastoj #14071F), : ružičasta #FB1F92, cijan #03E1FD, jantarna #FFB547, ljubičasta #A779FF, plava #4380FF, limeta #B6F23B, narančasta #FF8A3D, crvena #FF4D4D, žuta #FFE14D, bijela #F4F2FF.
 
 ### 6.4 Tema
 
@@ -166,8 +166,9 @@ Tamna ili Svijetla; zadano je Tamna, a izbor se pamti. Hero slika i boje mijenja
 
 ### 6.5 Grafike, animacije i zvuk
 
-- Ikone su iz biblioteke lucide (lucide-react): 12 ikona vrsta rundi (10 tema, Točno/netočno, Procjena), Najbrži prst, 8 ikona timova i ikone sučelja. Favicon je pikselno slovo B.
-- Na početnoj mozak lebdi gore-dolje, Brainly „diše”, a lovac se blago njiše.
+- Ikone su iz biblioteke lucide (lucide-react): 12 ikona vrsta rundi (10 tema, Točno/netočno, Procjena), Najbrži prst i ikone sučelja. Favicon je pikselno slovo B. Gumb "Igraj" nema ikonu.
+- Na početnoj mozak lebdi gore-dolje, Brainly „diše”, a lovac samo jedva primjetno diše na mjestu. Veliki logo lagano lebdi uz neonski sjaj, logo u zaglavlju pulsira sjajem, a gumb "Igraj" lagano pulsira.
+- Bodovi u igri pišu se istim fontom kao odgovor (Rubik ExtraBold).
 - Animacije: otkrivanje odgovora, najava runde, najava Double trouble i Najbržeg prsta, pomicanje na ljestvici, slavlje na kraju. Poštuje se postavka sustava za smanjene animacije.
 - Zvukovi: 8-bitni efekti generirani preko Web Audio API-ja (otkucaji u zadnjih 10 s, otkrivanje, točno, netočno, najave, pobjeda). Po zadanom su isključeni i uključuju se u Postavkama.
 - Ton tekstova: zaigran, kratak, na hrvatskom, u duhu „Error 404: IQ not found.”

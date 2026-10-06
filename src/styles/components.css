@@ -484,9 +484,71 @@
     animation: hero-breathe 2.6s ease-in-out infinite;
   }
 
+  /* The hunter only breathes in place; floating made him look like he was hovering. */
   .hero-sway {
-    transform-origin: 30% 100%;
-    animation: hero-sway 4.4s ease-in-out infinite;
+    transform-origin: 40% 100%;
+    animation: hero-sway 3.6s ease-in-out infinite;
+  }
+
+  /* Logos and the Igraj button */
+  .hero-logo {
+    animation: logo-float 5s ease-in-out infinite;
+  }
+
+  .header-logo {
+    animation: logo-glow 4s ease-in-out infinite;
+    transition:
+      rotate var(--duration-base) var(--ease-out),
+      scale var(--duration-base) var(--ease-out);
+  }
+
+  a:hover > picture > .header-logo,
+  a:focus-visible > picture > .header-logo {
+    rotate: -4deg;
+    scale: 1.06;
+  }
+
+  .play-cta {
+    animation: play-pulse 2.4s ease-in-out infinite;
+  }
+
+  .play-cta:hover,
+  .play-cta:focus-visible {
+    animation-play-state: paused;
+  }
+
+  @keyframes logo-float {
+    0%,
+    100% {
+      translate: 0 0;
+      filter: drop-shadow(0 0 0.6rem color-mix(in srgb, var(--primary) 35%, transparent));
+    }
+    50% {
+      translate: 0 -2.5%;
+      filter: drop-shadow(0 0 1.6rem color-mix(in srgb, var(--primary) 70%, transparent));
+    }
+  }
+
+  @keyframes logo-glow {
+    0%,
+    100% {
+      filter: drop-shadow(0 0 0 transparent);
+    }
+    50% {
+      filter: drop-shadow(0 0 0.7rem color-mix(in srgb, var(--primary) 65%, transparent));
+    }
+  }
+
+  @keyframes play-pulse {
+    0%,
+    100% {
+      scale: 1;
+      filter: drop-shadow(0 0 0.4rem color-mix(in srgb, var(--primary) 40%, transparent));
+    }
+    50% {
+      scale: 1.05;
+      filter: drop-shadow(0 0 1.4rem color-mix(in srgb, var(--primary) 75%, transparent));
+    }
   }
 
   .hero-sparkle {
@@ -530,10 +592,10 @@
   @keyframes hero-sway {
     0%,
     100% {
-      transform: rotate(0deg) translateY(0);
+      transform: scale(1, 1);
     }
     50% {
-      transform: rotate(-1.2deg) translateY(-1.5%);
+      transform: scale(1.006, 0.985);
     }
   }
 
@@ -554,8 +616,60 @@
     .hero-glow-pulse,
     .hero-breathe,
     .hero-sway,
-    .hero-sparkle {
+    .hero-sparkle,
+    .hero-logo,
+    .header-logo,
+    .play-cta {
       animation: none;
     }
+  }
+}
+
+/* Team colour during the game (spec 4.3): spotlight on the team's turn, coloured name pills. */
+@layer components {
+  .team-spotlight {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .team-spotlight::before {
+    content: '';
+    position: absolute;
+    inset: -40% -60%;
+    z-index: -1;
+    background: radial-gradient(
+      closest-side,
+      color-mix(in srgb, var(--team) 38%, transparent),
+      transparent
+    );
+    pointer-events: none;
+  }
+
+  .team-banner {
+    border-radius: var(--radius-lg);
+    background-color: var(--team);
+    color: var(--on-team-color);
+    padding: 0.1em 0.5em;
+    box-shadow: 0 0 2.5rem color-mix(in srgb, var(--team) 55%, transparent);
+  }
+
+  .team-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-full);
+    background-color: var(--team);
+    color: var(--on-team-color);
+    padding: 0.15em 0.8em;
+  }
+
+  /* On a card filled with the team colour, the chip turns inside out. */
+  .scoreboard-active .team-chip {
+    background-color: var(--on-team-color);
+    color: var(--team);
+  }
+
+  /* White and yellow chips need an edge on the light theme. */
+  .team-chip {
+    box-shadow: inset 0 0 0 0.125rem color-mix(in srgb, var(--text) 18%, transparent);
   }
 }

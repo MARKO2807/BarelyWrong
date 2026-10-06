@@ -6,7 +6,6 @@ import {
   MIN_TEAMS,
   SECONDS_PER_QUESTION_OPTIONS,
   TEAM_COLORS,
-  TEAM_ICONS,
   TEAM_NAME_MAX_LENGTH,
   estimatedDurationSeconds,
   validateSetup,
@@ -15,7 +14,6 @@ import {
   type SetupProblem,
   type Team,
   type TeamColor,
-  type TeamIcon,
 } from '../engine'
 import { t } from '../i18n'
 import { loadLastSetup } from '../storage'
@@ -29,14 +27,14 @@ import { SegmentedControl } from '../ui/SegmentedControl'
 import { Toggle } from '../ui/Toggle'
 import { useDocumentTitle } from '../ui/useDocumentTitle'
 
-function newTeam(color: TeamColor, icon: TeamIcon): Team {
-  return { id: crypto.randomUUID(), name: '', color, icon }
+function newTeam(color: TeamColor): Team {
+  return { id: crypto.randomUUID(), name: '', color }
 }
 
 function initialSetup(): GameSetup {
   return (
     loadLastSetup() ?? {
-      teams: [newTeam(TEAM_COLORS[0], TEAM_ICONS[0]), newTeam(TEAM_COLORS[1], TEAM_ICONS[1])],
+      teams: [newTeam(TEAM_COLORS[0]), newTeam(TEAM_COLORS[1])],
       options: { ...DEFAULT_GAME_OPTIONS },
     }
   )
@@ -73,10 +71,8 @@ export function SetupScreen() {
   const addTeam = () =>
     setSetup((s) => {
       const usedColors = new Set(s.teams.map((team) => team.color))
-      const usedIcons = new Set(s.teams.map((team) => team.icon))
       const color = TEAM_COLORS.find((c) => !usedColors.has(c)) ?? TEAM_COLORS[0]
-      const icon = TEAM_ICONS.find((i) => !usedIcons.has(i)) ?? TEAM_ICONS[0]
-      return { ...s, teams: [...s.teams, newTeam(color, icon)] }
+      return { ...s, teams: [...s.teams, newTeam(color)] }
     })
   const removeTeam = (id: string) =>
     setSetup((s) => ({ ...s, teams: s.teams.filter((team) => team.id !== id) }))
@@ -106,9 +102,6 @@ export function SetupScreen() {
               takenColors={setup.teams
                 .filter((other) => other.id !== team.id)
                 .map((other) => other.color)}
-              takenIcons={setup.teams
-                .filter((other) => other.id !== team.id)
-                .map((other) => other.icon)}
               problem={teamProblem(team)}
               canRemove={setup.teams.length > MIN_TEAMS}
               onChange={(patch) => updateTeam(team.id, patch)}
@@ -203,7 +196,6 @@ interface TeamRowProps {
   team: Team
   number: number
   takenColors: readonly TeamColor[]
-  takenIcons: readonly TeamIcon[]
   problem: string | null
   canRemove: boolean
   onChange: (patch: Partial<Team>) => void
@@ -215,7 +207,6 @@ function TeamRow({
   team,
   number,
   takenColors,
-  takenIcons,
   problem,
   canRemove,
   onChange,
@@ -230,7 +221,7 @@ function TeamRow({
       style={teamStyle(team.color)}
     >
       <div className="flex items-center gap-3">
-        <TeamChip color={team.color} icon={team.icon} className="size-12 text-3xl max-sm:hidden" />
+        <TeamChip color={team.color} name={team.name} className="size-12 text-3xl max-sm:hidden" />
         <label htmlFor={inputId} className="sr-only">
           {t('setup.teamNumber', { number })}
         </label>
@@ -270,7 +261,7 @@ function TeamRow({
       <div
         role="radiogroup"
         aria-label={t('setup.colors', { number })}
-        className="flex flex-wrap items-center gap-2"
+        className="grid w-fit grid-cols-5 gap-2 xl:grid-cols-10"
       >
         {TEAM_COLORS.map((color) => {
           const taken = takenColors.includes(color)
@@ -292,37 +283,7 @@ function TeamRow({
                 className="sr-only"
               />
               <span className="sr-only">{t(`teamColors.${color}`)}</span>
-              <TeamChip color={color} icon={team.icon} className="size-11 text-2xl" />
-            </label>
-          )
-        })}
-      </div>
-      <div
-        role="radiogroup"
-        aria-label={t('setup.icons', { number })}
-        className="flex flex-wrap items-center gap-2"
-      >
-        {TEAM_ICONS.map((icon) => {
-          const taken = takenIcons.includes(icon)
-          return (
-            <label
-              key={icon}
-              title={t(`teamIcons.${icon}`)}
-              className={`has-focus-ring rounded-md p-0.5 ${taken ? 'opacity-25' : 'cursor-pointer'} ${
-                team.icon === icon ? 'ring-3 ring-text' : ''
-              }`}
-            >
-              <input
-                type="radio"
-                name={`icon-${team.id}`}
-                value={icon}
-                checked={team.icon === icon}
-                disabled={taken}
-                onChange={() => onChange({ icon })}
-                className="sr-only"
-              />
-              <span className="sr-only">{t(`teamIcons.${icon}`)}</span>
-              <TeamChip color={team.color} icon={icon} className="size-11 text-2xl" />
+              <TeamChip color={color} name={team.name} className="size-11 text-2xl" />
             </label>
           )
         })}

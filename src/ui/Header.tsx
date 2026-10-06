@@ -17,7 +17,7 @@ export function Header() {
   return (
     <header className="relative z-10 flex items-center justify-between gap-4 px-safe-x pt-safe-y">
       <Link to={ROUTES.home} className="shrink-0 rounded-sm">
-        <Logo variant="header" className="h-(--logo-header-height) w-auto" />
+        <Logo variant="header" className="header-logo h-(--logo-header-height) w-auto" />
       </Link>
 
       <nav aria-label={t('nav.label')} className="flex items-center gap-2 sm:gap-3">

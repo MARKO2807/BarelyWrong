@@ -106,7 +106,7 @@ function ScoreCorrections({
       <ul className="flex flex-col gap-2">
         {game.teams.map((team) => (
           <li key={team.id} className="flex items-center gap-3">
-            <TeamChip color={team.color} icon={team.icon} className="size-9 text-2xl" />
+            <TeamChip color={team.color} name={team.name} className="size-9 text-2xl" />
             <span className="min-w-0 flex-1 truncate font-display text-xl font-extrabold">
               {team.name}
             </span>
