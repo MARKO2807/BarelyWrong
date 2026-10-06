@@ -14,3 +14,7 @@ Thumbs.db
 !.vscode/extensions.json
 .idea
 .claude/settings.local.json
+
+# Embedding model (npm run embed / import) and database backups (npm run export)
+.cache
+backups

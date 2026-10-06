@@ -1,5 +1,6 @@
 [
   {
+    "id": "science_tech-0001",
     "topic": "science_tech",
     "format": "estimate",
     "difficulty": 3,
@@ -21,6 +22,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0001",
     "topic": "sport",
     "format": "estimate",
     "difficulty": 2,
@@ -39,6 +41,7 @@
     "status": "review"
   },
   {
+    "id": "history-0001",
     "topic": "history",
     "format": "estimate",
     "difficulty": 3,
@@ -59,6 +62,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0001",
     "topic": "geography",
     "format": "estimate",
     "difficulty": 2,
@@ -77,6 +81,7 @@
     "status": "review"
   },
   {
+    "id": "nature-0001",
     "topic": "nature",
     "format": "estimate",
     "difficulty": 1,
@@ -94,6 +99,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0011",
     "topic": "culture",
     "format": "estimate",
     "difficulty": 3,
@@ -112,6 +118,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0001",
     "topic": "film_tv",
     "format": "estimate",
     "difficulty": 2,
@@ -129,6 +136,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0001",
     "topic": "language_literature",
     "format": "estimate",
     "difficulty": 2,
@@ -146,6 +154,7 @@
     "status": "review"
   },
   {
+    "id": "general-0001",
     "topic": "general",
     "format": "estimate",
     "difficulty": 3,
@@ -165,6 +174,7 @@
     "status": "review"
   },
   {
+    "id": "music-0001",
     "topic": "music",
     "format": "estimate",
     "difficulty": 2,

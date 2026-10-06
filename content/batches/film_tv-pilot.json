@@ -1,5 +1,6 @@
 [
   {
+    "id": "film_tv-0002",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 2,
@@ -22,6 +23,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0003",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 3,
@@ -43,6 +45,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0004",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 1,
@@ -64,6 +67,7 @@
     "editorNote": "Izvori nisu Wikipedia; pri pregledu po želji potvrditi u enciklopedijskom izvoru."
   },
   {
+    "id": "film_tv-0005",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 1,
@@ -83,6 +87,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0006",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 2,
@@ -103,6 +108,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0007",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 1,
@@ -122,6 +128,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0008",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 3,
@@ -142,6 +149,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0009",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 2,
@@ -160,6 +168,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0010",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 2,
@@ -179,6 +188,7 @@
     "status": "review"
   },
   {
+    "id": "film_tv-0011",
     "topic": "film_tv",
     "format": "open",
     "difficulty": 1,

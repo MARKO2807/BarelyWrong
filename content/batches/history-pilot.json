@@ -1,5 +1,6 @@
 [
   {
+    "id": "history-0002",
     "topic": "history",
     "format": "open",
     "difficulty": 1,
@@ -20,6 +21,7 @@
     "status": "review"
   },
   {
+    "id": "history-0003",
     "topic": "history",
     "format": "open",
     "difficulty": 1,
@@ -41,6 +43,7 @@
     "status": "review"
   },
   {
+    "id": "history-0004",
     "topic": "history",
     "format": "open",
     "difficulty": 1,
@@ -62,6 +65,7 @@
     "status": "review"
   },
   {
+    "id": "history-0005",
     "topic": "history",
     "format": "open",
     "difficulty": 1,
@@ -82,6 +86,7 @@
     "status": "review"
   },
   {
+    "id": "history-0006",
     "topic": "history",
     "format": "open",
     "difficulty": 2,
@@ -103,6 +108,7 @@
     "status": "review"
   },
   {
+    "id": "history-0007",
     "topic": "history",
     "format": "open",
     "difficulty": 1,
@@ -123,6 +129,7 @@
     "status": "review"
   },
   {
+    "id": "history-0008",
     "topic": "history",
     "format": "open",
     "difficulty": 2,
@@ -144,6 +151,7 @@
     "status": "review"
   },
   {
+    "id": "history-0009",
     "topic": "history",
     "format": "open",
     "difficulty": 2,
@@ -164,6 +172,7 @@
     "status": "review"
   },
   {
+    "id": "history-0010",
     "topic": "history",
     "format": "open",
     "difficulty": 3,
@@ -185,6 +194,7 @@
     "editorNote": "„U današnjem obliku” ostavljeno namjerno: ranije su na tom mjestu stajale dvije starije bazilike."
   },
   {
+    "id": "history-0011",
     "topic": "history",
     "format": "open",
     "difficulty": 3,

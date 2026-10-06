@@ -1,7 +1,7 @@
 import { useId, useState } from 'react'
 import { submit } from '../../data/sync'
 import { t } from '../../i18n'
-import { REPORT_REASONS, type ReportReason } from '../../storage'
+import { REPORT_REASONS, type ReportReason } from '../../data/reports'
 import { Button } from '../Button'
 import { IconButton } from '../IconButton'
 import { Modal } from '../Modal'

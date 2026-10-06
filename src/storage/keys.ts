@@ -11,6 +11,8 @@ export const STORED = {
   game: { name: 'game', version: 2 },
   lastSetup: { name: 'lastSetup', version: 1 },
   outbox: { name: 'outbox', version: 1 },
+  // The editor's Supabase session (src/storage/auth.ts).
+  auth: { name: 'auth', version: 1 },
 } as const
 
 /** `bw:` prefix plus the schema version, e.g. `bw:settings:v1`. */

@@ -1,4 +1,4 @@
-import { createClient, type SupabaseClient } from '@supabase/supabase-js'
+import { PostgrestClient } from '@supabase/postgrest-js'
 
 const url = import.meta.env.VITE_SUPABASE_URL
 const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
@@ -8,8 +8,15 @@ export function projectOrigin(value: string): string {
   return new URL(value).origin
 }
 
-/** Null until VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY are set; the game then runs offline. */
-export const supabase: SupabaseClient | null =
+/**
+ * The game's database client: reading questions and sending statistics and reports is all it
+ * does, so it is the bare REST client rather than the whole supabase-js (sign-in, realtime,
+ * storage), which only the editor loads. Null until the env variables are set; the game then
+ * runs offline.
+ */
+export const supabase: PostgrestClient | null =
   url && anonKey
-    ? createClient(projectOrigin(url), anonKey, { auth: { persistSession: false } })
+    ? new PostgrestClient(`${projectOrigin(url)}/rest/v1`, {
+        headers: { apikey: anonKey, Authorization: `Bearer ${anonKey}` },
+      })
     : null

@@ -1,5 +1,6 @@
 [
   {
+    "id": "language_literature-0002",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 1,
@@ -20,6 +21,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0003",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 1,
@@ -40,6 +42,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0004",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 1,
@@ -60,6 +63,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0005",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 1,
@@ -79,6 +83,7 @@
     "editorNote": "Dio „pa ga ne smije piti” nije izrijekom u izvoru (piše da je jedini trajno jak); po potrebi skratiti."
   },
   {
+    "id": "language_literature-0006",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 2,
@@ -97,6 +102,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0007",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 2,
@@ -117,6 +123,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0008",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 2,
@@ -136,6 +143,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0009",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 2,
@@ -158,6 +166,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0010",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 3,
@@ -180,6 +189,7 @@
     "status": "review"
   },
   {
+    "id": "language_literature-0011",
     "topic": "language_literature",
     "format": "open",
     "difficulty": 3,

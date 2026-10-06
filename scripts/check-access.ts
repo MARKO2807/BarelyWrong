@@ -96,6 +96,55 @@ refused(
   PERMISSION,
 )
 
+// The editor's tools (migration _editor.sql).
+refused(
+  'players cannot read editor_questions',
+  await db.from('editor_questions').select('id').limit(1),
+  PERMISSION,
+)
+refused(
+  'players cannot import questions',
+  await db.rpc('import_questions', { items: [] }),
+  PERMISSION,
+)
+refused(
+  'players cannot search similar questions',
+  await db.rpc('similar_pairs', { min_similarity: 0.9 }),
+  PERMISSION,
+)
+
+// The editor's side, when the scripts can sign in (BW_EDITOR_EMAIL / BW_EDITOR_PASSWORD).
+if (process.env.BW_EDITOR_EMAIL && process.env.BW_EDITOR_PASSWORD) {
+  const editor = createClient(new URL(url).origin, key, { auth: { persistSession: false } })
+  const signIn = await editor.auth.signInWithPassword({
+    email: process.env.BW_EDITOR_EMAIL,
+    password: process.env.BW_EDITOR_PASSWORD,
+  })
+  check('editor can sign in', !signIn.error, signIn.error?.message)
+  check(
+    'editor account has the editor role',
+    signIn.data.user?.app_metadata.role === 'editor',
+    'app_metadata.role is not "editor"',
+  )
+  const list = await editor.from('editor_questions').select('id', { count: 'exact', head: true })
+  check('editor reads editor_questions', !list.error && (list.count ?? 0) > 0, describe(list))
+  allowed(
+    'editor can call the import (empty batch)',
+    await editor.rpc('import_questions', { items: [] }),
+  )
+  allowed(
+    'editor can search similar questions',
+    await editor.rpc('similar_pairs', { min_similarity: 0.99 }),
+  )
+  refused(
+    'not even the editor can delete questions',
+    await editor.from('questions').delete().eq('id', 'sport-9999'),
+    PERMISSION,
+  )
+} else {
+  console.log('\n(Editor checks skipped: BW_EDITOR_EMAIL / BW_EDITOR_PASSWORD not set.)')
+}
+
 console.log(failures === 0 ? '\nAll access rules hold.' : `\n${failures} check(s) failed.`)
 console.log(
   'Note: each run adds one test statistic and one test report; delete them in the editor.',

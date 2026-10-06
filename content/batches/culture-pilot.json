@@ -1,5 +1,6 @@
 [
   {
+    "id": "culture-0001",
     "topic": "culture",
     "format": "open",
     "difficulty": 1,
@@ -20,6 +21,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0002",
     "topic": "culture",
     "format": "open",
     "difficulty": 1,
@@ -39,6 +41,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0003",
     "topic": "culture",
     "format": "open",
     "difficulty": 1,
@@ -61,6 +64,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0004",
     "topic": "culture",
     "format": "open",
     "difficulty": 1,
@@ -81,6 +85,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0005",
     "topic": "culture",
     "format": "open",
     "difficulty": 2,
@@ -103,6 +108,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0006",
     "topic": "culture",
     "format": "open",
     "difficulty": 2,
@@ -124,6 +130,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0007",
     "topic": "culture",
     "format": "open",
     "difficulty": 2,
@@ -143,6 +150,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0008",
     "topic": "culture",
     "format": "open",
     "difficulty": 2,
@@ -164,6 +172,7 @@
     "editorNote": "Izvor navodi 74 glave u tekstu i 72 u opisu slike, pa je u zanimljivosti „više od 70”."
   },
   {
+    "id": "culture-0009",
     "topic": "culture",
     "format": "open",
     "difficulty": 3,
@@ -185,6 +194,7 @@
     "status": "review"
   },
   {
+    "id": "culture-0010",
     "topic": "culture",
     "format": "open",
     "difficulty": 3,

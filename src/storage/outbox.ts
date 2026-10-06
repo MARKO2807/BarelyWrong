@@ -1,11 +1,9 @@
 import { z } from 'zod'
+import { REPORT_REASONS } from '../data/reports'
 import { STORED } from './keys'
 import { readStored, writeStored, type StoredValue } from './versioned'
 
 // Statistics and reports wait here until they reach the server, so nothing is lost offline.
-
-export const REPORT_REASONS = ['wrong', 'unclear', 'outdated', 'too_hard', 'other'] as const
-export type ReportReason = (typeof REPORT_REASONS)[number]
 
 const outboxItemSchema = z.discriminatedUnion('type', [
   z.object({

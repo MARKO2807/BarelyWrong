@@ -1,29 +1,41 @@
 [
   {
+    "id": "general-0002",
     "topic": "general",
     "format": "open",
     "difficulty": 1,
     "question": "Koja je mjerna jedinica za snagu dobila ime po škotskom inženjeru koji je usavršio parni stroj?",
     "answer": "Vat",
-    "accept": ["Watt", "W"],
+    "accept": [
+      "Watt",
+      "W"
+    ],
     "note": "Jedna konjska snaga iznosi otprilike 746 vata.",
     "source": "Wikipedia (en): Watt",
-    "tags": ["mjerne jedinice"],
+    "tags": [
+      "mjerne jedinice"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0003",
     "topic": "general",
     "format": "open",
     "difficulty": 1,
     "question": "Koja je talijanska kava dobila ime po boji odore redovnika kapucina?",
     "answer": "Kapučino",
-    "accept": ["Cappuccino"],
+    "accept": [
+      "Cappuccino"
+    ],
     "note": "Ime ne dolazi od same kapuljače, nego od boje njihovih halja s kapuljačom.",
     "source": "Wikipedia (en): Cappuccino",
-    "tags": ["hrana i piće", "kava"],
+    "tags": [
+      "hrana i piće",
+      "kava"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
@@ -31,6 +43,7 @@
     "editorNote": "Zanimljivost je slaba (djelomično ponavlja pitanje); zamijeniti boljom."
   },
   {
+    "id": "general-0004",
     "topic": "general",
     "format": "open",
     "difficulty": 1,
@@ -39,13 +52,17 @@
     "accept": [],
     "note": "Dan kravate Hrvatski sabor proglasio je 2008., na poticaj udruge Academia Cravatica.",
     "source": "Wikipedia (hr): Dan kravate",
-    "tags": ["moda", "hrvatski simboli"],
+    "tags": [
+      "moda",
+      "hrvatski simboli"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0005",
     "topic": "general",
     "format": "open",
     "difficulty": 2,
@@ -54,43 +71,61 @@
     "accept": [],
     "note": "Recept je osmislila Zlata Bartl, voditeljica tima u Podravkinu istraživačkom laboratoriju.",
     "source": "Wikipedia (hr): Vegeta",
-    "tags": ["hrana i piće", "brendovi"],
+    "tags": [
+      "hrana i piće",
+      "brendovi"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0006",
     "topic": "general",
     "format": "open",
     "difficulty": 2,
     "question": "Koji znak iz adresa e-pošte Talijani zovu „chiocciola”, odnosno puž?",
     "answer": "@",
-    "accept": ["et", "majmunčić", "manki"],
+    "accept": [
+      "et",
+      "majmunčić",
+      "manki"
+    ],
     "note": "U hrvatskom ga kolokvijalno zovu i majmunčić ili manki, prema engleskoj riječi monkey.",
     "source": "Wikipedia (en): At sign; Wikipedia (hr): @",
-    "tags": ["simboli", "internet"],
+    "tags": [
+      "simboli",
+      "internet"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0007",
     "topic": "general",
     "format": "open",
     "difficulty": 2,
     "question": "Koje jelo od riže, obojeno šafranom, potječe iz Valencije?",
     "answer": "Paella",
-    "accept": ["Paelja"],
+    "accept": [
+      "Paelja"
+    ],
     "note": "Ime je dobilo po širokoj plitkoj tavi u kojoj se tradicionalno kuha na otvorenoj vatri.",
     "source": "Wikipedia (en): Paella",
-    "tags": ["hrana i piće", "Španjolska"],
+    "tags": [
+      "hrana i piće",
+      "Španjolska"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0008",
     "topic": "general",
     "format": "open",
     "difficulty": 2,
@@ -99,13 +134,16 @@
     "accept": [],
     "note": "Ingvar Kamprad osnovao ju je 1943., sa samo 17 godina.",
     "source": "Wikipedia (en): IKEA",
-    "tags": ["brendovi"],
+    "tags": [
+      "brendovi"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0009",
     "topic": "general",
     "format": "open",
     "difficulty": 1,
@@ -114,13 +152,17 @@
     "accept": [],
     "note": "Format A0 ima površinu od otprilike jednog četvornog metra, a svaki sljedeći nastaje prepolovljavanjem prethodnog.",
     "source": "Wikipedia (en): ISO 216",
-    "tags": ["mjerne jedinice", "svakodnevica"],
+    "tags": [
+      "mjerne jedinice",
+      "svakodnevica"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0010",
     "topic": "general",
     "format": "open",
     "difficulty": 2,
@@ -129,22 +171,31 @@
     "accept": [],
     "note": "Bila je prvi proizvod koji je dobio oznaku Izvorno hrvatsko.",
     "source": "Wikipedia (hr): Bajadera; Wikipedia (hr): Kraš",
-    "tags": ["hrana i piće", "brendovi"],
+    "tags": [
+      "hrana i piće",
+      "brendovi"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
     "status": "review"
   },
   {
+    "id": "general-0011",
     "topic": "general",
     "format": "open",
     "difficulty": 3,
     "question": "Po kojem je američkom ljekarniku nazvana ljestvica za mjerenje ljutine papričica?",
     "answer": "Wilbur Scoville",
-    "accept": ["Scoville"],
+    "accept": [
+      "Scoville"
+    ],
     "note": "Izvorni test iz 1912. razrjeđivao je ekstrakt papričice šećernom vodicom dok kušači više nisu osjećali ljutinu.",
     "source": "Wikipedia (en): Scoville scale",
-    "tags": ["mjerne jedinice", "hrana i piće"],
+    "tags": [
+      "mjerne jedinice",
+      "hrana i piće"
+    ],
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",

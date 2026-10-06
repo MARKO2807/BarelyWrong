@@ -1,5 +1,6 @@
 [
   {
+    "id": "geography-0002",
     "topic": "geography",
     "format": "open",
     "difficulty": 1,
@@ -18,6 +19,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0003",
     "topic": "geography",
     "format": "open",
     "difficulty": 1,
@@ -36,6 +38,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0004",
     "topic": "geography",
     "format": "open",
     "difficulty": 2,
@@ -54,6 +57,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0005",
     "topic": "geography",
     "format": "open",
     "difficulty": 2,
@@ -74,6 +78,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0006",
     "topic": "geography",
     "format": "open",
     "difficulty": 2,
@@ -92,6 +97,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0007",
     "topic": "geography",
     "format": "open",
     "difficulty": 1,
@@ -112,6 +118,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0008",
     "topic": "geography",
     "format": "open",
     "difficulty": 2,
@@ -130,6 +137,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0009",
     "topic": "geography",
     "format": "open",
     "difficulty": 3,
@@ -148,6 +156,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0010",
     "topic": "geography",
     "format": "open",
     "difficulty": 1,
@@ -166,6 +175,7 @@
     "status": "review"
   },
   {
+    "id": "geography-0011",
     "topic": "geography",
     "format": "open",
     "difficulty": 3,

@@ -1,5 +1,6 @@
 [
   {
+    "id": "science_tech-0002",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 1,
@@ -20,6 +21,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0003",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 1,
@@ -38,6 +40,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0004",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 1,
@@ -56,6 +59,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0005",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 1,
@@ -77,6 +81,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0006",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 2,
@@ -98,6 +103,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0007",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 2,
@@ -117,6 +123,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0008",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 2,
@@ -137,6 +144,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0009",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 2,
@@ -157,6 +165,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0010",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 3,
@@ -178,6 +187,7 @@
     "status": "review"
   },
   {
+    "id": "science_tech-0011",
     "topic": "science_tech",
     "format": "open",
     "difficulty": 3,

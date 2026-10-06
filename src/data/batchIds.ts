@@ -11,20 +11,31 @@ export interface IdentifiedQuestion extends BatchQuestion {
   id: string
 }
 
+export function formatQuestionId(topic: string, number: number): string {
+  return `${topic}-${String(number).padStart(4, '0')}`
+}
+
+/** The number in `sport-0042`. */
+export function questionNumber(id: string): number {
+  return Number(id.slice(id.lastIndexOf('-') + 1))
+}
+
 /**
- * Gives every question its database id: files in name order, questions in file order, numbered
- * per topic from 0001. The pilot seed migration and the local question files both use this, so a
- * question has the same id in the database and in a game.
+ * Ids for the local question files. Imported questions carry the id the database gave them; a
+ * question that is not imported yet gets a provisional one after the highest id in its topic
+ * (files in name order), so local games work before the import.
  */
 export function assignIds(files: readonly BatchFile[]): IdentifiedQuestion[] {
-  const counters = new Map<string, number>()
-  return [...files]
-    .sort((a, b) => a.name.localeCompare(b.name))
-    .flatMap((file) =>
-      file.items.map((item) => {
-        const next = (counters.get(item.topic) ?? 0) + 1
-        counters.set(item.topic, next)
-        return { ...item, id: `${item.topic}-${String(next).padStart(4, '0')}` }
-      }),
-    )
+  const items = [...files].sort((a, b) => a.name.localeCompare(b.name)).flatMap((f) => f.items)
+  const highest = new Map<string, number>()
+  for (const item of items) {
+    if (item.id)
+      highest.set(item.topic, Math.max(highest.get(item.topic) ?? 0, questionNumber(item.id)))
+  }
+  return items.map((item) => {
+    if (item.id) return { ...item, id: item.id }
+    const next = (highest.get(item.topic) ?? 0) + 1
+    highest.set(item.topic, next)
+    return { ...item, id: formatQuestionId(item.topic, next) }
+  })
 }

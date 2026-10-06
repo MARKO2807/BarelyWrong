@@ -30,10 +30,10 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - `npm run test` (jednom), `npm run test:watch`
 - `npm run lint`, `npm run format`
 - `npm run db:push` (migracije na Supabase), `npm run db:check` (provjera pravila pristupa)
-- `npm run pilot:sql` (ponovno generira migraciju s pilot pitanjima)
-- `npm run import -- <datoteka> [--dry-run]`
-- `npm run export`
-- `npm run embed`
+- `npm run import -- <datoteka> [--dry-run] [--allow-similar]` (uvoz serije; dodijeljene id-jeve upisuje natrag u datoteku)
+- `npm run export` (sigurnosna kopija baze u `backups/`)
+- `npm run embed` (embeddingi za pitanja koja ih nemaju; model se prvi put preuzme u `.cache/`)
+- Skripte za bazu čitaju `.env.local`; `import`, `export` i `embed` prijavljuju se uredničkim računom (`BW_EDITOR_EMAIL`, `BW_EDITOR_PASSWORD`).
 
 ## Pravila rada
 

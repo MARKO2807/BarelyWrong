@@ -16,12 +16,15 @@
     "format": "prettier --write .",
     "db:push": "supabase db push",
     "db:check": "tsx --env-file=.env.local scripts/check-access.ts",
-    "pilot:sql": "tsx scripts/pilot-sql.ts"
+    "import": "tsx --env-file=.env.local scripts/import.ts",
+    "export": "tsx --env-file=.env.local scripts/export.ts",
+    "embed": "tsx --env-file=.env.local scripts/embed.ts"
   },
   "dependencies": {
     "@fontsource-variable/rubik": "^5.3.0",
     "@fontsource/chakra-petch": "^5.3.0",
     "@fontsource/vt323": "^5.3.0",
+    "@supabase/postgrest-js": "^2.117.2",
     "@supabase/supabase-js": "^2.117.2",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
+    "@huggingface/transformers": "^4.3.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.4",
     "@types/react": "^19.3.0",

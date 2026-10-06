@@ -1,5 +1,6 @@
 [
   {
+    "id": "sport-0002",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -18,6 +19,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0003",
     "topic": "sport",
     "format": "open",
     "difficulty": 1,
@@ -39,6 +41,7 @@
     "editorNote": "Izvorno pitanje kaže „nježna vještina”, što je zapravo značenje naziva jiu-jitsu. Preformulirano."
   },
   {
+    "id": "sport-0004",
     "topic": "sport",
     "format": "open",
     "difficulty": 1,
@@ -59,6 +62,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0005",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -79,6 +83,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0006",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -99,6 +104,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0007",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -120,6 +126,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0008",
     "topic": "sport",
     "format": "open",
     "difficulty": 3,
@@ -141,6 +148,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0009",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -160,6 +168,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0010",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -180,6 +189,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0011",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -200,6 +210,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0012",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -220,6 +231,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0013",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -239,6 +251,7 @@
     "editorNote": "Izvorno pitanje (2021.) traži zadnjeg olimpijskog pobjednika i daje Južnu Koreju (2008.). Nakon Tokija to više nije točno, pa je pitanje preformulirano bez riječi „zadnji”."
   },
   {
+    "id": "sport-0014",
     "topic": "sport",
     "format": "open",
     "difficulty": 1,
@@ -260,6 +273,7 @@
     "editorNote": "Izvorno pitanje (2021.) tvrdi da su osim Hrvatske samo Portugalci dobili sva svoja četvrtfinala SP-a. To više ne vrijedi jer je Portugal 2022. izgubio četvrtfinale od Maroka, pa je pitanje zamijenjeno stabilnom činjenicom."
   },
   {
+    "id": "sport-0015",
     "topic": "sport",
     "format": "estimate",
     "difficulty": 3,
@@ -279,6 +293,7 @@
     "editorNote": "Pretvoreno u pitanje procjene."
   },
   {
+    "id": "sport-0016",
     "topic": "sport",
     "format": "estimate",
     "difficulty": 2,
@@ -297,6 +312,7 @@
     "editorNote": "U izvornom pitanju maraton je naveden kao „42 195 km”; ispravljeno."
   },
   {
+    "id": "sport-0017",
     "topic": "sport",
     "format": "true_false",
     "difficulty": 2,
@@ -315,6 +331,7 @@
     "editorNote": "Pretvoreno u točno/netočno."
   },
   {
+    "id": "sport-0018",
     "topic": "sport",
     "format": "true_false",
     "difficulty": 2,
@@ -333,6 +350,7 @@
     "editorNote": "Pretvoreno u točno/netočno."
   },
   {
+    "id": "sport-0019",
     "topic": "sport",
     "format": "open",
     "difficulty": 3,
@@ -353,6 +371,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0020",
     "topic": "sport",
     "format": "open",
     "difficulty": 1,
@@ -373,6 +392,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0021",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -394,6 +414,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0022",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -413,6 +434,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0023",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -433,6 +455,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0024",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,
@@ -453,6 +476,7 @@
     "editorNote": "Izvorno pitanje navodi 46 godina. Foreman je rođen 10. siječnja 1949., a meč je bio 5. studenoga 1994., pa je imao 45."
   },
   {
+    "id": "sport-0025",
     "topic": "sport",
     "format": "true_false",
     "difficulty": 2,
@@ -472,6 +496,7 @@
     "editorNote": "Izvorno pitanje (2021.) daje Saint-Étienne kao točan odgovor; od 2023. to više ne vrijedi. Pretvoreno u točno/netočno."
   },
   {
+    "id": "sport-0026",
     "topic": "sport",
     "format": "open",
     "difficulty": 3,
@@ -492,6 +517,7 @@
     "editorNote": "U ključu izvornog seta za ovo pitanje stoji „ŠAH”, što je greška. Šah je po pravilniku kategorija svrstan u Sport."
   },
   {
+    "id": "sport-0027",
     "topic": "sport",
     "format": "open",
     "difficulty": 3,
@@ -511,6 +537,7 @@
     "status": "review"
   },
   {
+    "id": "sport-0028",
     "topic": "sport",
     "format": "open",
     "difficulty": 2,

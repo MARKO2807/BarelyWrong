@@ -51,8 +51,13 @@ function headersPlugin(): Plugin {
       this.emitFile({
         type: 'asset',
         fileName: '_headers',
+        // The editor is not for search engines, also those that don't run the page's script.
         source: `/*
   Content-Security-Policy: ${contentSecurityPolicy()}
+/urednik
+  X-Robots-Tag: noindex, nofollow
+/urednik/*
+  X-Robots-Tag: noindex, nofollow
 `,
       })
     },

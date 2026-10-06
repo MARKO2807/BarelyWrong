@@ -26,3 +26,21 @@ export function removeKey(key: string): boolean {
     return false
   }
 }
+
+/** Raw string access, for libraries that serialize their own data (the editor session). */
+export function readString(key: string): string | null {
+  try {
+    return window.localStorage.getItem(key)
+  } catch {
+    return null
+  }
+}
+
+export function writeString(key: string, value: string): boolean {
+  try {
+    window.localStorage.setItem(key, value)
+    return true
+  } catch {
+    return false
+  }
+}
