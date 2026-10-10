@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { QUESTION_FORMATS, TOPICS } from '../engine'
 import { QUESTION_STATUSES, type QuestionStatus } from './batchSchema'
 import type { ImportRow, SimilarMatch } from './import'
+import { readAll } from './readAll'
 import { REPORT_REASONS } from './reports'
 
 // Database access for the editor, shared by the /admin screens and the scripts. Every function
@@ -42,22 +43,6 @@ export const reportSchema = z.object({
   created_at: z.string(),
 })
 export type Report = z.infer<typeof reportSchema>
-
-/** PostgREST returns at most 1000 rows per request; read everything in pages. */
-async function readAll<T>(
-  page: (from: number, to: number) => PromiseLike<{ data: unknown; error: unknown }>,
-  schema: z.ZodType<T>,
-): Promise<T[]> {
-  const size = 1000
-  const rows: T[] = []
-  for (let from = 0; ; from += size) {
-    const { data, error } = await page(from, from + size - 1)
-    if (error) throw error
-    const parsed = z.array(schema).parse(data)
-    rows.push(...parsed)
-    if (parsed.length < size) return rows
-  }
-}
 
 export function fetchEditorQuestions(db: SupabaseClient): Promise<EditorQuestion[]> {
   return readAll(

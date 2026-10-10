@@ -2,6 +2,7 @@ import { z } from 'zod'
 import { questionSchema, type Question } from '../engine'
 import { assignIds, type IdentifiedQuestion } from './batchIds'
 import { batchSchema } from './batchSchema'
+import { readAll } from './readAll'
 import { supabase } from './supabase'
 
 // Where new games get their questions. Until the pilot is approved in the editor (phase 5) the
@@ -46,13 +47,18 @@ async function fetchLocal(): Promise<Question[]> {
 /** A row of the `game_questions` view (approved questions only). */
 const gameQuestionRow = questionSchema.extend({ note: z.string().nullable() })
 
-async function fetchRemote(): Promise<Question[]> {
-  if (!supabase) throw new Error('Supabase is not configured')
-  const { data, error } = await supabase
-    .from('game_questions')
-    .select('id, topic, format, difficulty, question, answer, accept, note')
-  if (error) throw error
-  return z.array(gameQuestionRow).parse(data)
+function fetchRemote(): Promise<Question[]> {
+  const db = supabase
+  if (!db) return Promise.reject(new Error('Supabase is not configured'))
+  return readAll(
+    (from, to) =>
+      db
+        .from('game_questions')
+        .select('id, topic, format, difficulty, question, answer, accept, note')
+        .order('id')
+        .range(from, to),
+    gameQuestionRow,
+  )
 }
 
 /** Every question a new game can draw from. */
