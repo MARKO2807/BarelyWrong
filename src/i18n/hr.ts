@@ -242,6 +242,9 @@ export const hr = {
       answerLimit:
         'Odgovor se u ovoj temi već pojavljuje dvaput ({ids}); dopušteno je najviše dvaput.',
       answerRepeated: 'Isti odgovor u ovoj temi već ima: {ids}.',
+      answerElsewhere: 'Isti odgovor ima i pitanje iz druge teme: {ids}.',
+      answerMentioned: 'Odgovor se spominje u pitanju ili zanimljivosti: {ids}.',
+      mentionsAnswer: 'Pitanje ili zanimljivost spominje odgovor pitanja: {ids}.',
       noNote: 'Nedostaje zanimljivost (note).',
       noSource: 'Nedostaje izvor (source).',
       trueFalsePrefix: 'Tvrdnja mora počinjati s „Točno ili netočno:”.',

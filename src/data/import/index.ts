@@ -24,3 +24,10 @@ export {
   similarWithinBatch,
   type SimilarMatch,
 } from './similarity'
+export {
+  MAX_MENTIONS,
+  findOverlaps,
+  overlapIndex,
+  type OverlapEntry,
+  type Overlaps,
+} from './overlap'

@@ -2,6 +2,7 @@ import { z } from 'zod'
 import type { QuestionFormat, Topic } from '../../engine'
 import { batchQuestionSchema, type BatchQuestion, type QuestionStatus } from '../batchSchema'
 import { matchKey, normalizeText, wordCount } from './normalize'
+import { addToIndex, findOverlaps, overlapIndex } from './overlap'
 
 // Checks a batch before it is written (spec 9.1, 8.4, 8.5). Shared by `npm run import` and the
 // editor, so both refuse and warn about exactly the same things.
@@ -16,6 +17,9 @@ export type Issue =
   | { level: 'error'; code: 'duplicateInBatch'; number: number }
   | { level: 'error'; code: 'answerLimit'; ids: string[] }
   | { level: 'warning'; code: 'answerRepeated'; ids: string[] }
+  | { level: 'warning'; code: 'answerElsewhere'; ids: string[] }
+  | { level: 'warning'; code: 'answerMentioned'; ids: string[] }
+  | { level: 'warning'; code: 'mentionsAnswer'; ids: string[] }
   | { level: 'error'; code: 'noNote' }
   | { level: 'error'; code: 'noSource' }
   | { level: 'error'; code: 'trueFalsePrefix' }
@@ -33,6 +37,9 @@ export interface ExistingQuestion {
   status: QuestionStatus
   question: string
   answer: string
+  /** Optional so callers that only check duplicates can leave them out. */
+  accept?: readonly string[]
+  note?: string | null
 }
 
 /** A valid question with the defaults from spec 9.1 filled in and its text cleaned up. */
@@ -117,11 +124,14 @@ const pairKey = (question: string, answer: string) => `${matchKey(question)}|${m
 /**
  * Checks a parsed JSON file against the format, the writing rules and the questions already in
  * the database. Semantic similarity needs embeddings and is added separately (see similarity.ts).
+ * `overlaps` (overlap.ts) is for whole batches; the editor's per-question checks leave it out,
+ * because in the existing questions related subjects are common and mostly harmless.
  */
 export function prepareImport(
   data: unknown,
   existing: readonly ExistingQuestion[],
   today: string,
+  { overlaps: checkOverlaps = true }: { overlaps?: boolean } = {},
 ): ImportPlan {
   if (!Array.isArray(data)) return { fileError: 'notList', items: [] }
 
@@ -136,6 +146,9 @@ export function prepareImport(
     answers.set(key, [...(answers.get(key) ?? []), q.id])
   }
   const batchPairs = new Map<string, number>()
+  const overlaps = overlapIndex(
+    existing.filter((q) => q.status !== 'rejected' && q.status !== 'archived'),
+  )
 
   const items = data.map((raw, index): PlannedItem => {
     const rawQuestion =
@@ -186,6 +199,17 @@ export function prepareImport(
       if (ids.length >= MAX_SAME_ANSWER) issues.push({ level: 'error', code: 'answerLimit', ids })
       else if (ids.length > 0) issues.push({ level: 'warning', code: 'answerRepeated', ids })
       answers.set(key, [...ids, `#${index + 1}`])
+    }
+
+    if (checkOverlaps && item.status !== 'rejected' && item.status !== 'archived') {
+      const found = findOverlaps({ ...item, id: `#${index + 1}` }, overlaps)
+      if (found.sameAnswer.length)
+        issues.push({ level: 'warning', code: 'answerElsewhere', ids: found.sameAnswer })
+      if (found.answerMentioned.length)
+        issues.push({ level: 'warning', code: 'answerMentioned', ids: found.answerMentioned })
+      if (found.mentionsAnswer.length)
+        issues.push({ level: 'warning', code: 'mentionsAnswer', ids: found.mentionsAnswer })
+      addToIndex(overlaps, { ...item, id: `#${index + 1}` })
     }
 
     return { index, question: item.question, item, action: 'insert', issues }

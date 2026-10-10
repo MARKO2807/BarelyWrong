@@ -165,7 +165,127 @@ describe('prepareImport', () => {
       existing({ id: 'geography-0001', question: 'A?', answer: 'Canberra', status: 'rejected' }),
       existing({ id: 'history-0001', topic: 'history', question: 'B?', answer: 'Canberra' }),
     ]
-    expect(codes([question()], db)).toEqual([[]])
+    expect(codes([question()], db)).toEqual([['answerElsewhere']])
+  })
+
+  it('warns about the same answer in another topic, by answer or accepted form', () => {
+    const db = [
+      existing({
+        id: 'general-0004',
+        topic: 'general',
+        question: 'Koji modni dodatak…?',
+        answer: 'Kravata',
+      }),
+      existing({
+        id: 'general-0009',
+        topic: 'general',
+        question: 'A?',
+        answer: 'Kravata',
+        status: 'archived',
+      }),
+    ]
+    const plan = prepareImport(
+      [
+        question({
+          topic: 'language_literature',
+          question: 'Koja riječ…?',
+          answer: 'Cravat',
+          accept: ['kravata'],
+        }),
+      ],
+      db,
+      TODAY,
+    )
+    expect(plan.items[0]!.issues).toEqual([
+      { level: 'warning', code: 'answerElsewhere', ids: ['general-0004'] },
+    ])
+  })
+
+  it('warns when another question gives the answer away, allowing case endings', () => {
+    const db = [
+      existing({
+        id: 'language_literature-0047',
+        topic: 'language_literature',
+        question: 'Kako se zove kit kojeg progoni kapetan Ahab?',
+        answer: 'Moby Dick',
+      }),
+      existing({
+        id: 'language_literature-0002',
+        topic: 'language_literature',
+        question: 'Tko pada kroz zečju rupu u romanu Lewisa Carrolla?',
+        answer: 'Alisa',
+      }),
+    ]
+    const ahab = question({
+      topic: 'language_literature',
+      question: 'Tko zapovijeda Pequodom?',
+      answer: 'Ahab',
+      accept: ['kapetan Ahab'],
+    })
+    const carroll = question({
+      topic: 'language_literature',
+      question: 'Tko je Charles Dodgson?',
+      answer: 'Lewis Carroll',
+    })
+    expect(codes([ahab, carroll], db)).toEqual([['answerMentioned'], ['answerMentioned']])
+  })
+
+  it('warns when the new question or its note gives away an existing answer', () => {
+    const db = [
+      existing({
+        id: 'film_tv-0001',
+        topic: 'film_tv',
+        question: 'Tko je skladao glazbu?',
+        answer: 'Howard Shore',
+      }),
+    ]
+    const plan = prepareImport(
+      [
+        question({
+          topic: 'film_tv',
+          question: 'Koji je film iz 2001.?',
+          answer: 'Prstenova družina',
+          note: 'Glazbu je skladao Howard Shore.',
+        }),
+      ],
+      db,
+      TODAY,
+    )
+    expect(plan.items[0]!.issues).toEqual([
+      { level: 'warning', code: 'mentionsAnswer', ids: ['film_tv-0001'] },
+    ])
+  })
+
+  it('leaves the overlap check out when asked (the editor checks one question at a time)', () => {
+    const db = [
+      existing({ id: 'history-0001', topic: 'history', question: 'B?', answer: 'Canberra' }),
+    ]
+    const plan = prepareImport([question()], db, TODAY, { overlaps: false })
+    expect(plan.items[0]!.issues).toEqual([])
+  })
+
+  it('ignores common answers, numbers and true/false questions in the overlap check', () => {
+    const zagreb = (n: number) =>
+      existing({
+        id: `culture-000${n}`,
+        topic: 'culture',
+        question: `Što je u Zagrebu ${n}?`,
+        answer: `X${n}`,
+      })
+    const db = [1, 2, 3, 4].map(zagreb)
+    expect(
+      codes([question({ topic: 'music', question: 'Koji grad?', answer: 'Zagreb' })], db),
+    ).toEqual([[]])
+    const tf = question({
+      format: 'true_false',
+      question: 'Točno ili netočno: X1 je u Zagrebu.',
+      answer: 'Točno',
+    })
+    expect(codes([tf], [existing({ answer: 'Točno', format: 'true_false' })])).toEqual([[]])
+    const estimate = question({ format: 'estimate', question: 'Koliko?', answer: '1440' })
+    expect(
+      codes([estimate], [existing({ topic: 'history', question: 'Godina 1440?', answer: '1440' })]),
+    ).toEqual([[]])
   })
 
   it('does not apply the answer limit to true/false questions', () => {

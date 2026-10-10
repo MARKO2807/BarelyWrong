@@ -17,7 +17,10 @@ export function describeIssue(issue: Issue): string {
     case 'answerLimit':
       return t('import.issues.answerLimit', { ids: issue.ids.join(', ') })
     case 'answerRepeated':
-      return t('import.issues.answerRepeated', { ids: issue.ids.join(', ') })
+    case 'answerElsewhere':
+    case 'answerMentioned':
+    case 'mentionsAnswer':
+      return t(`import.issues.${issue.code}`, { ids: issue.ids.join(', ') })
     case 'tooLong':
       return t('import.issues.tooLong', { words: issue.words })
     case 'timeWord':

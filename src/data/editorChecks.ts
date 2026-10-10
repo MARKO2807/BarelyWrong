@@ -99,7 +99,7 @@ export function draftIssues(
     timeSensitive: changes.time_sensitive,
   }
   const others = all.filter((q) => q.id !== id).map(toExisting)
-  return prepareImport([candidate], others, today).items[0]!.issues
+  return prepareImport([candidate], others, today, { overlaps: false }).items[0]!.issues
 }
 
 export function questionIssues(
