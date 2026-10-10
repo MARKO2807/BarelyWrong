@@ -11,7 +11,8 @@
     "source": "Wikipedia (en): Sandwich",
     "tags": ["etimologija", "hrana"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ista činjenica kao general-0101 (sendvič i grof od Sandwicha)."
   },
   {
     "id": "language_literature-0142",
@@ -25,7 +26,8 @@
     "source": "Wikipedia (en): Necktie",
     "tags": ["etimologija", "Hrvatska"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Duplikat pitanja general-0004 (kravata)."
   },
   {
     "id": "language_literature-0143",
@@ -39,7 +41,8 @@
     "source": "Wikipedia (en): Captain Ahab",
     "tags": ["romani", "likovi"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Odgovor (Ahab) navodi se u pitanju language_literature-0047."
   },
   {
     "id": "language_literature-0144",
@@ -277,6 +280,48 @@
     "source": "Wikipedia (en): Karen Blixen",
     "tags": ["pisci", "pseudonimi"],
     "checkedAt": "2026-10-10",
+    "status": "approved"
+  },
+  {
+    "id": "language_literature-0161",
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koja je švedska spisateljica stvorila Pipi Dugu Čarapu?",
+    "answer": "Astrid Lindgren",
+    "accept": ["Lindgren"],
+    "note": "Ime Pipi smislila je njezina kći Karin, kad je bolesna tražila da joj mama ispriča priču.",
+    "source": "Wikipedia (en): Pippi Longstocking",
+    "tags": ["dječja književnost", "pisci"],
+    "checkedAt": "2026-10-11",
+    "status": "approved"
+  },
+  {
+    "id": "language_literature-0162",
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Kako se zove čarobnjak i prorok iz legendi o kralju Arthuru?",
+    "answer": "Merlin",
+    "accept": [],
+    "note": "Na velškom se zove Myrddin.",
+    "source": "Wikipedia (en): Merlin",
+    "tags": ["legende", "likovi"],
+    "checkedAt": "2026-10-11",
+    "status": "approved"
+  },
+  {
+    "id": "language_literature-0163",
+    "topic": "language_literature",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se zove zmaj iz Tolkienova „Hobita” koji je osvojio patuljačko kraljevstvo Erebor i čuva njegovo blago?",
+    "answer": "Smaug",
+    "accept": [],
+    "note": "Erebor je osvojio 171 godinu prije događaja iz romana.",
+    "source": "Wikipedia (en): Smaug",
+    "tags": ["fantastika", "likovi"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]

@@ -277,6 +277,21 @@
     "source": "Wikipedia (en): Howard Shore",
     "tags": ["filmska glazba", "Oscar"],
     "checkedAt": "2026-10-10",
+    "status": "archived",
+    "editorNote": "Odgovor (Howard Shore) navodi se u bilješci pitanja film_tv-0110."
+  },
+  {
+    "id": "film_tv-0160",
+    "topic": "film_tv",
+    "format": "open",
+    "difficulty": 3,
+    "question": "Kojim je nadimkom ekipa filma „Ralje” prozvala mehaničke morske pse s kojima se snimalo?",
+    "answer": "Bruce",
+    "accept": [],
+    "note": "Nazvani su po Spielbergovu odvjetniku Bruceu Rameru; izrađena su tri takva morska psa.",
+    "source": "Wikipedia (en): Jaws (film)",
+    "tags": ["Spielberg", "iza kamere"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]

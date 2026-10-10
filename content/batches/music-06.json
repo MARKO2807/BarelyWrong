@@ -77,7 +77,7 @@
     "question": "Pod kojim je imenom rođen Freddie Mercury?",
     "answer": "Farrokh Bulsara",
     "accept": ["Bulsara"],
-    "note": "Rođen je 1946. u Stone Townu na Zanzibaru, u parsijskoj obitelji indijskog podrijetla.",
+    "note": "Rođen je 1946. u parsijskoj obitelji indijskog podrijetla.",
     "source": "Wikipedia (en): Freddie Mercury",
     "tags": ["rock", "pravo ime"],
     "checkedAt": "2026-10-10",
@@ -179,7 +179,8 @@
     "source": "Wikipedia (en): Louis Armstrong",
     "tags": ["jazz", "nadimci"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Odgovor (Louis Armstrong) i nadimak Satchmo navode se u pitanju music-0008."
   },
   {
     "id": "music-0152",
@@ -277,6 +278,20 @@
     "source": "Wikipedia (en): Doris Dragović",
     "tags": ["Hrvatska", "Eurovizija"],
     "checkedAt": "2026-10-10",
+    "status": "approved"
+  },
+  {
+    "id": "music-0159",
+    "topic": "music",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Kako se zove glazbena oznaka pp, koja znači „vrlo tiho”?",
+    "answer": "Pianissimo",
+    "accept": [],
+    "note": "Suprotna je oznaka ff, fortissimo, „vrlo glasno”.",
+    "source": "Wikipedia (en): Dynamics (music)",
+    "tags": ["glazbeni pojmovi", "dinamika"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]

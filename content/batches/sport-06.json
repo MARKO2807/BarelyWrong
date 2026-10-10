@@ -11,7 +11,8 @@
     "source": "Wikipedia (en): Sandra Perković",
     "tags": ["Hrvatska", "atletika"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Obrnuto pitanje od sport-0036 (Sandra Perković, bacanje diska)."
   },
   {
     "id": "sport-0137",
@@ -123,7 +124,8 @@
     "source": "Wikipedia (en): French Open",
     "tags": ["tenis", "Grand Slam"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Odgovor (Roland Garros) navodi se u pitanju sport-0066."
   },
   {
     "id": "sport-0145",
@@ -277,6 +279,34 @@
     "source": "Wikipedia (en): 1924 Winter Olympics",
     "tags": ["Olimpijske igre", "zimski sportovi"],
     "checkedAt": "2026-10-10",
+    "status": "approved"
+  },
+  {
+    "id": "sport-0156",
+    "topic": "sport",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji sport igraju Harlem Globetrottersi, poznati po zabavnim egzibicijskim utakmicama?",
+    "answer": "Košarka",
+    "accept": [],
+    "note": "Odigrali su više od 26 000 egzibicijskih utakmica u 124 zemlje i teritorija.",
+    "source": "Wikipedia (en): Harlem Globetrotters",
+    "tags": ["košarka", "zabava"],
+    "checkedAt": "2026-10-11",
+    "status": "approved"
+  },
+  {
+    "id": "sport-0157",
+    "topic": "sport",
+    "format": "open",
+    "difficulty": 2,
+    "question": "U kojem se švicarskom gradu nalazi sjedište Međunarodnog olimpijskog odbora?",
+    "answer": "Lausanne",
+    "accept": ["Lozana"],
+    "note": "Odbor su 1894. osnovali Pierre de Coubertin i Demetrios Vikelas; u istom je gradu i Olimpijski muzej.",
+    "source": "Wikipedia (en): International Olympic Committee",
+    "tags": ["Olimpijske igre", "Švicarska"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]

@@ -39,7 +39,8 @@
     "source": "Wikipedia (en): Manneken Pis",
     "tags": ["Belgija", "spomenici"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ista činjenica kao general-0125 (Manneken Pis u Bruxellesu)."
   },
   {
     "id": "culture-0143",
@@ -179,7 +180,8 @@
     "source": "Wikipedia (en): Fabergé egg",
     "tags": ["umjetnički obrt", "Rusija"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Odgovor (Fabergé) navodi se u pitanju general-0062."
   },
   {
     "id": "culture-0153",
@@ -277,6 +279,34 @@
     "source": "Wikipedia (en): Statue of Zeus at Olympia",
     "tags": ["antika", "kiparstvo"],
     "checkedAt": "2026-10-10",
+    "status": "approved"
+  },
+  {
+    "id": "culture-0160",
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 1,
+    "question": "Koji je pariški spomenik Napoleon naručio 1806., nakon pobjede kod Austerlitza?",
+    "answer": "Slavoluk pobjede",
+    "accept": ["Arc de Triomphe", "Trijumfalni luk"],
+    "note": "Stoji na Trgu Charlesa de Gaullea, a na njemu su uklesana imena francuskih pobjeda i generala.",
+    "source": "Wikipedia (en): Arc de Triomphe",
+    "tags": ["Pariz", "spomenici"],
+    "checkedAt": "2026-10-11",
+    "status": "approved"
+  },
+  {
+    "id": "culture-0161",
+    "topic": "culture",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Koji je renesansni arhitekt projektirao kupolu firentinske katedrale, dovršene do 1436.?",
+    "answer": "Filippo Brunelleschi",
+    "accept": ["Brunelleschi"],
+    "note": "Na natječaju za kupolu pobijedio je zlatara Lorenza Ghibertija.",
+    "source": "Wikipedia (en): Florence Cathedral",
+    "tags": ["renesansa", "arhitektura"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]

@@ -151,7 +151,8 @@
     "source": "Wikipedia (en): Quarantine",
     "tags": ["Hrvatska", "medicina"],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Duplikat pitanja science_tech-0086 (dubrovačka karantena 1377.)."
   },
   {
     "id": "history-0153",
@@ -277,6 +278,20 @@
     "source": "Wikipedia (en): Women's suffrage in New Zealand",
     "tags": ["prava žena", "Oceanija"],
     "checkedAt": "2026-10-10",
+    "status": "approved"
+  },
+  {
+    "id": "history-0162",
+    "topic": "history",
+    "format": "open",
+    "difficulty": 2,
+    "question": "Po kojem je rimskom caru nazvan obrambeni zid preko sjeverne Britanije, građen od 122.?",
+    "answer": "Hadrijan",
+    "accept": ["Hadrian", "Publije Elije Hadrijan"],
+    "note": "Protezao se od Wallsenda na rijeci Tyne na istoku do Bowness-on-Solwaya na zapadu.",
+    "source": "Wikipedia (en): Hadrian's Wall",
+    "tags": ["Rim", "Britanija"],
+    "checkedAt": "2026-10-11",
     "status": "approved"
   }
 ]
