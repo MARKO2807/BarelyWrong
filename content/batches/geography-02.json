@@ -133,7 +133,7 @@
     "question": "Koji je vrh, na francusko-talijanskoj granici, najviša planina Europe izvan Kavkaza?",
     "answer": "Mont Blanc",
     "accept": ["Monte Bianco"],
-    "note": "Po istaknutosti je drugi u Europi, iza Elbrusa.",
+    "note": "Po topografskoj istaknutosti drugi je vrh u Europi.",
     "source": "Wikipedia (en): Mont Blanc",
     "tags": ["planine", "Alpe"],
     "checkedAt": "2026-10-06",

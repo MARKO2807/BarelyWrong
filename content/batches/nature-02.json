@@ -399,7 +399,7 @@
     "question": "Koji je vodozemac najveći na svijetu?",
     "answer": "Kineski divovski daždevnjak",
     "accept": ["Divovski daždevnjak", "Andrias davidianus"],
-    "note": "Živi samo u vodi, u planinskim potocima i jezerima porječja Jangcea.",
+    "note": "Živi samo u vodi, u planinskim potocima i jezerima.",
     "source": "Wikipedia (en): Chinese giant salamander",
     "tags": ["vodozemci", "rekordi"],
     "checkedAt": "2026-10-06",

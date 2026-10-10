@@ -189,7 +189,7 @@
     "question": "Koji je zaljev Hormuškim tjesnacem povezan s Omanskim zaljevom?",
     "answer": "Perzijski zaljev",
     "accept": ["Perzijski", "Arapski zaljev"],
-    "note": "Produžetak je Arapskog mora i Indijskog oceana, a na sjevernoj mu je obali Iran.",
+    "note": "Produžetak je Arapskog mora i Indijskog oceana.",
     "source": "Wikipedia (en): Persian Gulf",
     "tags": ["Azija", "mora"],
     "checkedAt": "2026-10-11",

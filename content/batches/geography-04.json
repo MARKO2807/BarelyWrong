@@ -21,7 +21,7 @@
     "question": "Koja je najviša planina Japana?",
     "answer": "Fuji",
     "accept": ["Fujiyama", "Fudži"],
-    "note": "Riječ je o aktivnom stratovulkanu na otoku Honshu, visokom 3776 m.",
+    "note": "Riječ je o aktivnom stratovulkanu visokom 3776 m.",
     "source": "Wikipedia (en): Mount Fuji",
     "tags": ["planine", "Azija"],
     "checkedAt": "2026-10-06",
