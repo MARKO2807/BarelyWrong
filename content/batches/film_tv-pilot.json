@@ -20,7 +20,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0003",
@@ -42,7 +42,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0004",
@@ -63,7 +63,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Potvrđeno u Wikipedia (en): Game of Thrones (Mdina u 1. sezoni, Dubrovnik od 2.)."
   },
   {
@@ -84,7 +84,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0006",
@@ -105,7 +105,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0007",
@@ -125,7 +125,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0008",
@@ -146,7 +146,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0009",
@@ -165,7 +165,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0010",
@@ -185,7 +185,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0011",
@@ -207,6 +207,6 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

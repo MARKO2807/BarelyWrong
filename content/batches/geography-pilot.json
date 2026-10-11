@@ -16,7 +16,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0003",
@@ -35,7 +35,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0004",
@@ -54,7 +54,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0005",
@@ -75,7 +75,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0006",
@@ -94,7 +94,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0007",
@@ -115,7 +115,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0008",
@@ -134,7 +134,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0009",
@@ -153,7 +153,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0010",
@@ -172,7 +172,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0011",
@@ -191,6 +191,6 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

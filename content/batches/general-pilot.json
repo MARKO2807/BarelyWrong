@@ -18,7 +18,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0003",
@@ -39,7 +39,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Zanimljivost zamijenjena (Kapuziner), provjereno u izvoru 6. 10. 2026."
   },
   {
@@ -59,7 +59,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0005",
@@ -78,7 +78,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0006",
@@ -100,7 +100,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0007",
@@ -121,7 +121,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0008",
@@ -139,7 +139,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0009",
@@ -158,7 +158,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0010",
@@ -168,7 +168,7 @@
     "question": "Koja je Kraševa praline od nugata s bademima i lješnjacima dobila ime po orijentalnoj plesačici?",
     "answer": "Bajadera",
     "accept": [],
-    "note": "Bila je prvi proizvod koji je dobio oznaku Izvorno hrvatsko.",
+    "note": "Jedan je od prvih hrvatskih proizvoda s oznakom Izvorno hrvatsko.",
     "source": "Wikipedia (hr): Bajadera; Wikipedia (hr): Kraš",
     "tags": [
       "hrana i piće",
@@ -177,7 +177,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0011",
@@ -198,6 +198,6 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

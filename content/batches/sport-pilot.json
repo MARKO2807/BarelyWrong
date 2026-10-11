@@ -16,7 +16,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#90",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0003",
@@ -37,7 +37,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#17",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Izvorno pitanje kaže „nježna vještina”, što je zapravo značenje naziva jiu-jitsu. Preformulirano."
   },
   {
@@ -59,7 +59,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#41",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0005",
@@ -80,7 +80,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#83",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0006",
@@ -101,7 +101,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#74",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0007",
@@ -123,7 +123,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#27",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0008",
@@ -145,7 +145,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#96",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0009",
@@ -165,7 +165,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#87",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0010",
@@ -186,7 +186,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#91",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0011",
@@ -207,7 +207,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#52",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0012",
@@ -228,7 +228,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#99",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0013",
@@ -247,7 +247,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#100",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Izvorno pitanje (2021.) traži zadnjeg olimpijskog pobjednika i daje Južnu Koreju (2008.). Nakon Tokija to više nije točno, pa je pitanje preformulirano bez riječi „zadnji”."
   },
   {
@@ -269,7 +269,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#40",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Izvorno pitanje (2021.) tvrdi da su osim Hrvatske samo Portugalci dobili sva svoja četvrtfinala SP-a. To više ne vrijedi jer je Portugal 2022. izgubio četvrtfinale od Maroka, pa je pitanje zamijenjeno stabilnom činjenicom."
   },
   {
@@ -289,7 +289,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#37",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Pretvoreno u pitanje procjene."
   },
   {
@@ -308,7 +308,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#98",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "U izvornom pitanju maraton je naveden kao „42 195 km”; ispravljeno."
   },
   {
@@ -327,7 +327,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#77",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Pretvoreno u točno/netočno."
   },
   {
@@ -346,7 +346,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#15",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Pretvoreno u točno/netočno."
   },
   {
@@ -368,7 +368,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#82",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0020",
@@ -389,7 +389,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#67",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0021",
@@ -411,7 +411,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#36",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0022",
@@ -431,7 +431,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#4",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0023",
@@ -452,7 +452,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#10",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0024",
@@ -472,7 +472,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#39",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Izvorno pitanje navodi 46 godina. Foreman je rođen 10. siječnja 1949., a meč je bio 5. studenoga 1994., pa je imao 45."
   },
   {
@@ -492,7 +492,7 @@
     "timeSensitive": true,
     "origin": "hks/sportskih-100-kiric#21",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Izvorno pitanje (2021.) daje Saint-Étienne kao točan odgovor; od 2023. to više ne vrijedi. Pretvoreno u točno/netočno."
   },
   {
@@ -513,7 +513,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#34",
     "checkedAt": "2026-10-05",
-    "status": "review",
+    "status": "approved",
     "editorNote": "U ključu izvornog seta za ovo pitanje stoji „ŠAH”, što je greška. Šah je po pravilniku kategorija svrstan u Sport."
   },
   {
@@ -534,7 +534,7 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#16",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0028",
@@ -555,6 +555,6 @@
     "timeSensitive": false,
     "origin": "hks/sportskih-100-kiric#9",
     "checkedAt": "2026-10-05",
-    "status": "review"
+    "status": "approved"
   }
 ]

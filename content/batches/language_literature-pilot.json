@@ -18,7 +18,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0003",
@@ -39,7 +39,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0004",
@@ -60,7 +60,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0005",
@@ -79,7 +79,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review",
+    "status": "approved",
     "editorNote": "Dio „pa ga ne smije piti” nije izrijekom u izvoru (piše da je jedini trajno jak); po potrebi skratiti."
   },
   {
@@ -99,7 +99,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0007",
@@ -120,7 +120,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0008",
@@ -140,7 +140,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0009",
@@ -163,7 +163,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0010",
@@ -186,7 +186,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0011",
@@ -207,6 +207,6 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

@@ -19,7 +19,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0001",
@@ -29,7 +29,7 @@
     "question": "Na kojoj je visini košarkaški obruč, u centimetrima?",
     "answer": "305 cm",
     "accept": [],
-    "note": "To je točno 10 stopa; obruč je 122 cm odmaknut od crte iza koša.",
+    "note": "To je točno 10 stopa.",
     "source": "Wikipedia (en): Basketball",
     "tags": [
       "košarka",
@@ -38,7 +38,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "history-0001",
@@ -59,7 +59,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0001",
@@ -78,7 +78,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0001",
@@ -96,7 +96,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0011",
@@ -115,7 +115,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0001",
@@ -133,7 +133,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0001",
@@ -151,7 +151,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0001",
@@ -171,7 +171,7 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0001",
@@ -189,6 +189,6 @@
     "timeSensitive": false,
     "origin": "own",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]
