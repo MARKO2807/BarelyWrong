@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koja je najveća kopnena životinja na svijetu?",
     "answer": "Afrički savanski slon",
-    "accept": ["Afrički slon", "Slon"],
+    "accept": [
+      "Afrički slon",
+      "Slon"
+    ],
     "note": "Odrasli mužjak u prosjeku je visok oko 3,2 metra u ramenima i težak oko šest tona.",
     "source": "Wikipedia (en): African bush elephant",
-    "tags": ["sisavci", "rekordi"],
+    "tags": [
+      "sisavci",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0014",
@@ -23,9 +29,12 @@
     "accept": [],
     "note": "U kratkim naletima trči i do 70 km/h, brže od ijedne druge dvonožne životinje.",
     "source": "Wikipedia (en): Common ostrich",
-    "tags": ["ptice", "rekordi"],
+    "tags": [
+      "ptice",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0015",
@@ -37,9 +46,12 @@
     "accept": [],
     "note": "Punoglavci imaju neka obilježja riba, a većina ih cijeli razvoj provede u vodi.",
     "source": "Wikipedia (en): Tadpole",
-    "tags": ["vodozemci", "razvoj"],
+    "tags": [
+      "vodozemci",
+      "razvoj"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0016",
@@ -48,12 +60,17 @@
     "difficulty": 1,
     "question": "Koliko nogu ima pauk?",
     "answer": "8",
-    "accept": ["Osam"],
+    "accept": [
+      "Osam"
+    ],
     "note": "Pauci nisu kukci nego paučnjaci, a za razliku od kukaca nemaju ticala.",
     "source": "Wikipedia (en): Spider",
-    "tags": ["paučnjaci", "brojevi"],
+    "tags": [
+      "paučnjaci",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0017",
@@ -62,12 +79,17 @@
     "difficulty": 1,
     "question": "Kako se zove preobrazba u kojoj gusjenica postaje leptir?",
     "answer": "Metamorfoza",
-    "accept": ["Preobrazba"],
+    "accept": [
+      "Preobrazba"
+    ],
     "note": "Između ličinke i odraslog leptira kukac prolazi kroz stadij kukuljice, koji kod leptira zovemo i krizalidom.",
     "source": "Wikipedia (en): Metamorphosis",
-    "tags": ["kukci", "razvoj"],
+    "tags": [
+      "kukci",
+      "razvoj"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0018",
@@ -76,12 +98,18 @@
     "difficulty": 1,
     "question": "Koji vlažni jugoistočni vjetar na Jadranu često donosi oblake i obilnu kišu?",
     "answer": "Jugo",
-    "accept": ["Široko"],
+    "accept": [
+      "Široko"
+    ],
     "note": "Može puhati i do tri tjedna, a postoji i „suho jugo” uz sunčano vrijeme.",
     "source": "Wikipedia (hr): Jugo",
-    "tags": ["vjetrovi", "vrijeme", "Hrvatska"],
+    "tags": [
+      "vjetrovi",
+      "vrijeme",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0019",
@@ -90,12 +118,18 @@
     "difficulty": 2,
     "question": "Koja ptica pri obrušavanju na plijen prema nekim izvorima prelazi 320 km/h?",
     "answer": "Sivi sokol",
-    "accept": ["Sokol selac", "Peregrin"],
+    "accept": [
+      "Sokol selac",
+      "Peregrin"
+    ],
     "note": "Da je to točno, bila bi najbrža životinja na planetu.",
     "source": "Wikipedia (en): Peregrine falcon",
-    "tags": ["ptice", "rekordi"],
+    "tags": [
+      "ptice",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0020",
@@ -104,12 +138,18 @@
     "difficulty": 2,
     "question": "Koliko srca ima hobotnica?",
     "answer": "3",
-    "accept": ["Tri"],
+    "accept": [
+      "Tri"
+    ],
     "note": "Glavno srce prestaje kucati dok hobotnica pliva, pa se brzo umara i radije puže.",
     "source": "Wikipedia (en): Octopus",
-    "tags": ["mekušci", "more", "brojevi"],
+    "tags": [
+      "mekušci",
+      "more",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0021",
@@ -118,12 +158,16 @@
     "difficulty": 2,
     "question": "Koji su jedini sisavci sposobni za pravi, dugotrajni let?",
     "answer": "Šišmiši",
-    "accept": ["Šišmiš"],
+    "accept": [
+      "Šišmiš"
+    ],
     "note": "Krila su im tanka kožna opna razapeta između dugih prstiju.",
     "source": "Wikipedia (en): Bat",
-    "tags": ["sisavci"],
+    "tags": [
+      "sisavci"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0022",
@@ -132,12 +176,19 @@
     "difficulty": 2,
     "question": "Ljude s kojom krvnom grupom za transfuziju crvenih krvnih stanica zovu „univerzalnim davateljima”?",
     "answer": "0 negativna",
-    "accept": ["0−", "0 Rh negativna", "Nula negativna"],
+    "accept": [
+      "0−",
+      "0 Rh negativna",
+      "Nula negativna"
+    ],
     "note": "Univerzalni primatelji, pak, imaju krvnu grupu AB pozitivnu.",
     "source": "Wikipedia (en): Blood type",
-    "tags": ["ljudsko tijelo", "krv"],
+    "tags": [
+      "ljudsko tijelo",
+      "krv"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0023",
@@ -146,13 +197,19 @@
     "difficulty": 2,
     "question": "Po kojoj je ptici selo Čigoć u Lonjskom polju proglašeno prvim europskim selom te vrste?",
     "answer": "Roda",
-    "accept": ["Bijela roda"],
+    "accept": [
+      "Bijela roda"
+    ],
     "note": "Rode se gnijezde na većini kuća u selu.",
     "source": "Wikipedia (hr): Čigoč",
-    "tags": ["ptice", "Lonjsko polje", "Hrvatska"],
+    "tags": [
+      "ptice",
+      "Lonjsko polje",
+      "Hrvatska"
+    ],
     "editorNote": "Hrvatska Wikipedija piše ime sela kao Čigoč; provjeri pravopis pri pregledu.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0024",
@@ -161,12 +218,19 @@
     "difficulty": 2,
     "question": "Koja je najveća poznata živuća vrsta ribe?",
     "answer": "Kitopsina",
-    "accept": ["Kitov morski pas", "Rhincodon typus"],
+    "accept": [
+      "Kitov morski pas",
+      "Rhincodon typus"
+    ],
     "note": "Najveća pouzdano izmjerena jedinka bila je duga 18,8 metara, a hrani se filtriranjem planktona.",
     "source": "Wikipedia (en): Whale shark",
-    "tags": ["ribe", "more", "rekordi"],
+    "tags": [
+      "ribe",
+      "more",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0025",
@@ -175,12 +239,18 @@
     "difficulty": 2,
     "question": "Koja se pasmina konja uzgaja i dresira u državnoj ergeli u Đakovu?",
     "answer": "Lipicanac",
-    "accept": ["Lipicaner"],
+    "accept": [
+      "Lipicaner"
+    ],
     "note": "Đakovačka ergela najstarija je u Hrvatskoj.",
     "source": "Wikipedia (hr): Državna ergela Đakovo",
-    "tags": ["konji", "Slavonija", "Hrvatska"],
+    "tags": [
+      "konji",
+      "Slavonija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0026",
@@ -189,12 +259,18 @@
     "difficulty": 2,
     "question": "Koja je kost najdulja u ljudskom tijelu?",
     "answer": "Bedrena kost",
-    "accept": ["Femur", "Bedrenica"],
+    "accept": [
+      "Femur",
+      "Bedrenica"
+    ],
     "note": "Ujedno je i najdeblja kost u tijelu i jedina kost natkoljenice.",
     "source": "Wikipedia (en): Femur",
-    "tags": ["ljudsko tijelo", "kosti"],
+    "tags": [
+      "ljudsko tijelo",
+      "kosti"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0027",
@@ -203,12 +279,19 @@
     "difficulty": 2,
     "question": "Koji je endemski cvijet 2000. u HAZU-u predložen za hrvatski nacionalni cvijet?",
     "answer": "Hrvatska perunika",
-    "accept": ["Perunika", "Iris croatica"],
+    "accept": [
+      "Perunika",
+      "Iris croatica"
+    ],
     "note": "Prijedlog je potaknula izložba Japan Flora 2000, pred kojom se pokazalo da Hrvatska nema nacionalni cvijet.",
     "source": "Wikipedia (hr): Hrvatska perunika",
-    "tags": ["biljke", "endemi", "Hrvatska"],
+    "tags": [
+      "biljke",
+      "endemi",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0028",
@@ -217,12 +300,17 @@
     "difficulty": 3,
     "question": "Koja je otrovna zmija, prisutna i u Hrvatskoj, najotrovnija u Europi?",
     "answer": "Poskok",
-    "accept": ["Vipera ammodytes"],
+    "accept": [
+      "Vipera ammodytes"
+    ],
     "note": "Živi na kamenitim i sunčanim područjima južne Europe i Male Azije.",
     "source": "Wikipedia (hr): Poskok",
-    "tags": ["gmazovi", "Hrvatska"],
+    "tags": [
+      "gmazovi",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0029",
@@ -231,12 +319,18 @@
     "difficulty": 3,
     "question": "Koji morski pas ima najdulji poznati životni vijek od svih kralježnjaka?",
     "answer": "Grenlandski morski pas",
-    "accept": ["Grenlandski polarni morski pas"],
+    "accept": [
+      "Grenlandski polarni morski pas"
+    ],
     "note": "Procjenjuje se da živi između 272 i 510 godina, a spolno sazrijeva tek oko 150. godine.",
     "source": "Wikipedia (en): Greenland shark",
-    "tags": ["ribe", "more", "rekordi"],
+    "tags": [
+      "ribe",
+      "more",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0030",
@@ -245,12 +339,19 @@
     "difficulty": 3,
     "question": "Koji je tuljan, jedan od najugroženijih sisavaca na svijetu, na Jadranu prozvan i „morskim fratrom”?",
     "answer": "Sredozemna medvjedica",
-    "accept": ["Medvjedica", "Monachus monachus"],
+    "accept": [
+      "Medvjedica",
+      "Monachus monachus"
+    ],
     "note": "Vjerojatno je najrjeđi perajar na svijetu.",
     "source": "Wikipedia (hr): Sredozemna medvjedica",
-    "tags": ["sisavci", "more", "ugrožene vrste"],
+    "tags": [
+      "sisavci",
+      "more",
+      "ugrožene vrste"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0031",
@@ -262,9 +363,13 @@
     "accept": [],
     "note": "Ima površinu od 81,5 hektara i duboko je 46,4 metra.",
     "source": "Wikipedia (hr): Kozjak (jezero)",
-    "tags": ["jezera", "Plitvice", "Hrvatska"],
+    "tags": [
+      "jezera",
+      "Plitvice",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0032",
@@ -273,11 +378,16 @@
     "difficulty": 3,
     "question": "Koliko očiju ima pčela?",
     "answer": "5",
-    "accept": ["Pet"],
+    "accept": [
+      "Pet"
+    ],
     "note": "Dva velika složena oka pokrivaju veći dio glave, a tri mala jednostavna oka između njih osjećaju jakost svjetla.",
     "source": "Wikipedia (en): Bee",
-    "tags": ["kukci", "brojevi"],
+    "tags": [
+      "kukci",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

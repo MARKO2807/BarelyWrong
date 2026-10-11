@@ -6,12 +6,19 @@
     "difficulty": 1,
     "question": "Koji je renesansni umjetnik oslikao strop Sikstinske kapele?",
     "answer": "Michelangelo",
-    "accept": ["Michelangelo Buonarroti", "Mikelanđelo"],
+    "accept": [
+      "Michelangelo Buonarroti",
+      "Mikelanđelo"
+    ],
     "note": "Freske je slikao od 1508. do 1512.",
     "source": "Wikipedia (en): Sistine Chapel ceiling",
-    "tags": ["slikarstvo", "renesansa", "Vatikan"],
+    "tags": [
+      "slikarstvo",
+      "renesansa",
+      "Vatikan"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0014",
@@ -20,12 +27,17 @@
     "difficulty": 1,
     "question": "Koji je grčki bog vladao morem?",
     "answer": "Posejdon",
-    "accept": ["Poseidon"],
+    "accept": [
+      "Poseidon"
+    ],
     "note": "Rimljani su ga zvali Neptun, a prema mitu je udarcem trozupca stvarao izvore.",
     "source": "Wikipedia (en): Poseidon",
-    "tags": ["grčka mitologija", "bogovi"],
+    "tags": [
+      "grčka mitologija",
+      "bogovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0015",
@@ -34,12 +46,17 @@
     "difficulty": 1,
     "question": "Koji je norveški slikar 1893. stvorio „Krik”?",
     "answer": "Edvard Munch",
-    "accept": ["Munch"],
+    "accept": [
+      "Munch"
+    ],
     "note": "Poslije ga je ponovio u nekoliko inačica.",
     "source": "Wikipedia (en): The Scream",
-    "tags": ["slikarstvo", "ekspresionizam"],
+    "tags": [
+      "slikarstvo",
+      "ekspresionizam"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0016",
@@ -48,12 +65,17 @@
     "difficulty": 1,
     "question": "Koji je slikar 1937. naslikao „Guernicu”?",
     "answer": "Pablo Picasso",
-    "accept": ["Picasso"],
+    "accept": [
+      "Picasso"
+    ],
     "note": "Platno je visoko 3,49 i široko 7,76 metara, a izloženo je u madridskom muzeju Reina Sofía.",
     "source": "Wikipedia (en): Guernica (Picasso)",
-    "tags": ["slikarstvo", "Španjolska"],
+    "tags": [
+      "slikarstvo",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0017",
@@ -62,12 +84,17 @@
     "difficulty": 1,
     "question": "U kojem se talijanskom gradu nalazi kosi toranj?",
     "answer": "Pisa",
-    "accept": ["U Pisi"],
+    "accept": [
+      "U Pisi"
+    ],
     "note": "Počeo se naginjati već tijekom gradnje u 12. stoljeću, zbog mekog tla.",
     "source": "Wikipedia (en): Leaning Tower of Pisa",
-    "tags": ["arhitektura", "Italija"],
+    "tags": [
+      "arhitektura",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0018",
@@ -76,12 +103,18 @@
     "difficulty": 1,
     "question": "Kojem je grčkom junaku jedino ranjivo mjesto bila peta?",
     "answer": "Ahil",
-    "accept": ["Ahilej", "Achilles"],
+    "accept": [
+      "Ahilej",
+      "Achilles"
+    ],
     "note": "Prema mitu, majka Tetida uronila ga je u Stiks držeći ga za petu, pa ta peta ostala nezaštićena.",
     "source": "Wikipedia (en): Achilles",
-    "tags": ["grčka mitologija", "junaci"],
+    "tags": [
+      "grčka mitologija",
+      "junaci"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0019",
@@ -90,12 +123,18 @@
     "difficulty": 2,
     "question": "Kako se zove viteška igra koja se u Sinju održava u spomen na obranu grada od Osmanlija 1715.?",
     "answer": "Sinjska alka",
-    "accept": ["Alka"],
+    "accept": [
+      "Alka"
+    ],
     "note": "Tada je 700 hrvatskih vojnika iz Sinja odbilo napad vojske Mehmed-paše Čelića.",
     "source": "Wikipedia (hr): Sinjska alka",
-    "tags": ["običaji", "baština", "Hrvatska"],
+    "tags": [
+      "običaji",
+      "baština",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0020",
@@ -104,12 +143,18 @@
     "difficulty": 2,
     "question": "Koji je nizozemski slikar naslikao „Djevojku s bisernom naušnicom”?",
     "answer": "Johannes Vermeer",
-    "accept": ["Vermeer", "Jan Vermeer"],
+    "accept": [
+      "Vermeer",
+      "Jan Vermeer"
+    ],
     "note": "Slika je od 1902. u zbirci muzeja Mauritshuis u Haagu.",
     "source": "Wikipedia (en): Girl with a Pearl Earring",
-    "tags": ["slikarstvo", "barok"],
+    "tags": [
+      "slikarstvo",
+      "barok"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0021",
@@ -118,12 +163,18 @@
     "difficulty": 2,
     "question": "Koji je slikar iz Hlebina začetnik suvremene hrvatske naivne umjetnosti?",
     "answer": "Ivan Generalić",
-    "accept": ["Generalić"],
+    "accept": [
+      "Generalić"
+    ],
     "note": "Bio je središnja osoba i mentor druge generacije Hlebinske škole.",
     "source": "Wikipedia (hr): Ivan Generalić",
-    "tags": ["slikarstvo", "naivna umjetnost", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "naivna umjetnost",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0022",
@@ -132,12 +183,18 @@
     "difficulty": 2,
     "question": "Koja je bazilika iz 6. stoljeća u Poreču 1997. upisana na UNESCO-ov popis svjetske baštine?",
     "answer": "Eufrazijeva bazilika",
-    "accept": ["Eufrazijana"],
+    "accept": [
+      "Eufrazijana"
+    ],
     "note": "Izgrađena je u vrijeme biskupa Eufrazija i cara Justinijana I.",
     "source": "Wikipedia (hr): Eufrazijeva bazilika",
-    "tags": ["arhitektura", "baština", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "baština",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0023",
@@ -146,12 +203,17 @@
     "difficulty": 2,
     "question": "Koji je francuski impresionist naslikao oko 250 slika lopoča iz svog vrta u Givernyju?",
     "answer": "Claude Monet",
-    "accept": ["Monet"],
+    "accept": [
+      "Monet"
+    ],
     "note": "Lopoči su bili glavna tema njegova rada u posljednjih tridesetak godina života.",
     "source": "Wikipedia (en): Water Lilies (Monet series)",
-    "tags": ["slikarstvo", "impresionizam"],
+    "tags": [
+      "slikarstvo",
+      "impresionizam"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0024",
@@ -163,9 +225,13 @@
     "accept": [],
     "note": "Najpoznatiji su Halubajski zvončari iz Marčelja i Viškova.",
     "source": "Wikipedia (hr): Zvončari",
-    "tags": ["običaji", "poklade", "Hrvatska"],
+    "tags": [
+      "običaji",
+      "poklade",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0025",
@@ -174,12 +240,17 @@
     "difficulty": 2,
     "question": "Koji je talijanski renesansni slikar naslikao „Rođenje Venere”?",
     "answer": "Sandro Botticelli",
-    "accept": ["Botticelli"],
+    "accept": [
+      "Botticelli"
+    ],
     "note": "Slika se čuva u firentinskoj galeriji Uffizi, kao i njegova „Primavera”.",
     "source": "Wikipedia (en): The Birth of Venus",
-    "tags": ["slikarstvo", "renesansa"],
+    "tags": [
+      "slikarstvo",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0026",
@@ -188,12 +259,18 @@
     "difficulty": 2,
     "question": "Po kojem je nordijskom bogu groma engleski dobio ime za četvrtak, Thursday?",
     "answer": "Thor",
-    "accept": ["Tor", "Donar"],
+    "accept": [
+      "Tor",
+      "Donar"
+    ],
     "note": "Staroengleski thunresdæg značio je „Thunorov dan”.",
     "source": "Wikipedia (en): Thor",
-    "tags": ["nordijska mitologija", "bogovi"],
+    "tags": [
+      "nordijska mitologija",
+      "bogovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0027",
@@ -205,9 +282,12 @@
     "accept": [],
     "note": "Pridružili su im se i Juan Gris, Fernand Léger i Robert Delaunay.",
     "source": "Wikipedia (en): Cubism",
-    "tags": ["slikarstvo", "moderna umjetnost"],
+    "tags": [
+      "slikarstvo",
+      "moderna umjetnost"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0028",
@@ -216,12 +296,19 @@
     "difficulty": 3,
     "question": "Koji je arhitektonski dvojac projektirao zgradu HNK-a u Zagrebu, otvorenu 1895.?",
     "answer": "Fellner i Helmer",
-    "accept": ["Fellner & Helmer", "Ferdinand Fellner i Hermann Helmer"],
+    "accept": [
+      "Fellner & Helmer",
+      "Ferdinand Fellner i Hermann Helmer"
+    ],
     "note": "Austrijanac Ferdinand Fellner i Nijemac Hermann Helmer projektirali su neobaroknu zgradu za oko 750 gledatelja.",
     "source": "Wikipedia (hr): Hrvatsko narodno kazalište u Zagrebu",
-    "tags": ["arhitektura", "kazalište", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "kazalište",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0029",
@@ -230,12 +317,18 @@
     "difficulty": 3,
     "question": "Po kojem je majstoru nazvan glavni portal trogirske katedrale sv. Lovre?",
     "answer": "Radovan",
-    "accept": ["Majstor Radovan"],
+    "accept": [
+      "Majstor Radovan"
+    ],
     "note": "Isklesao ga je 1240. i potpisao s „per Raduanum”, a dovršen je tek u 14. stoljeću.",
     "source": "Wikipedia (hr): Radovanov portal",
-    "tags": ["kiparstvo", "romanika", "Hrvatska"],
+    "tags": [
+      "kiparstvo",
+      "romanika",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0030",
@@ -244,12 +337,18 @@
     "difficulty": 3,
     "question": "Koji je hrvatski kipar autor skulpture „Prizemljeno sunce” u Zagrebu?",
     "answer": "Ivan Kožarić",
-    "accept": ["Kožarić"],
+    "accept": [
+      "Kožarić"
+    ],
     "note": "Grad Zagreb 2007. otkupio je cijeli njegov atelijer, s više od 6000 predmeta.",
     "source": "Wikipedia (hr): Ivan Kožarić",
-    "tags": ["kiparstvo", "Zagreb", "Hrvatska"],
+    "tags": [
+      "kiparstvo",
+      "Zagreb",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0031",
@@ -258,12 +357,18 @@
     "difficulty": 3,
     "question": "Čija se oslikana vapnenačka bista, pronađena u radionici kipara Tutmozisa, izlaže u berlinskom Neues Museumu?",
     "answer": "Nefertiti",
-    "accept": ["Nefertitina"],
+    "accept": [
+      "Nefertitina"
+    ],
     "note": "Bila je glavna žena faraona Ehnatona, a bista je jedno od najkopiranijih djela staroegipatske umjetnosti.",
     "source": "Wikipedia (en): Nefertiti Bust",
-    "tags": ["kiparstvo", "Egipat", "stari vijek"],
+    "tags": [
+      "kiparstvo",
+      "Egipat",
+      "stari vijek"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0032",
@@ -272,11 +377,17 @@
     "difficulty": 3,
     "question": "Koji je flamanski slikar 1565. naslikao „Lovce u snijegu”?",
     "answer": "Pieter Bruegel stariji",
-    "accept": ["Bruegel", "Pieter Bruegel"],
+    "accept": [
+      "Bruegel",
+      "Pieter Bruegel"
+    ],
     "note": "Slika je dio serije prizora iz različitih doba godine, od kojih je sačuvano pet.",
     "source": "Wikipedia (en): The Hunters in the Snow",
-    "tags": ["slikarstvo", "renesansa"],
+    "tags": [
+      "slikarstvo",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

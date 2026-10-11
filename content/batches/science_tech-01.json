@@ -9,9 +9,12 @@
     "accept": [],
     "note": "Narančastocrvenu boju daje mu željezov oksid na površini.",
     "source": "Wikipedia (en): Mars",
-    "tags": ["svemir", "planeti"],
+    "tags": [
+      "svemir",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0014",
@@ -20,12 +23,17 @@
     "difficulty": 1,
     "question": "Koji je engleski znanstvenik 1687. objavio djelo „Principia” i postavio zakon opće gravitacije?",
     "answer": "Isaac Newton",
-    "accept": ["Newton"],
+    "accept": [
+      "Newton"
+    ],
     "note": "„Principia” je postavila temelje klasične mehanike.",
     "source": "Wikipedia (en): Isaac Newton",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0015",
@@ -34,12 +42,18 @@
     "difficulty": 1,
     "question": "Koji je američki izumitelj osmislio fonograf?",
     "answer": "Thomas Edison",
-    "accept": ["Edison", "Thomas Alva Edison"],
+    "accept": [
+      "Edison",
+      "Thomas Alva Edison"
+    ],
     "note": "U SAD-u je registrirao 1093 patenta, a još je kao dijete oglušio.",
     "source": "Wikipedia (en): Thomas Edison",
-    "tags": ["izumi", "izumitelji"],
+    "tags": [
+      "izumi",
+      "izumitelji"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0016",
@@ -48,12 +62,20 @@
     "difficulty": 1,
     "question": "Koja je znanstvenica bila prva žena dobitnica Nobelove nagrade?",
     "answer": "Marie Curie",
-    "accept": ["Marija Curie", "Marie Skłodowska-Curie", "Curie"],
+    "accept": [
+      "Marija Curie",
+      "Marie Skłodowska-Curie",
+      "Curie"
+    ],
     "note": "Bila je i prva osoba koja je Nobelovu nagradu dobila dvaput.",
     "source": "Wikipedia (en): Marie Curie",
-    "tags": ["znanstvenici", "Nobelova nagrada", "kemija"],
+    "tags": [
+      "znanstvenici",
+      "Nobelova nagrada",
+      "kemija"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0017",
@@ -62,12 +84,17 @@
     "difficulty": 1,
     "question": "Koliko iznosi broj π zaokružen na dvije decimale?",
     "answer": "3,14",
-    "accept": ["3.14"],
+    "accept": [
+      "3.14"
+    ],
     "note": "Broj π omjer je opsega kruga i njegova promjera.",
     "source": "Wikipedia (en): Pi",
-    "tags": ["matematika", "brojevi"],
+    "tags": [
+      "matematika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0018",
@@ -76,12 +103,18 @@
     "difficulty": 1,
     "question": "Koliko planeta ima Sunčev sustav?",
     "answer": "8",
-    "accept": ["Osam"],
+    "accept": [
+      "Osam"
+    ],
     "note": "Pluton je 2006. izgubio status planeta, kada je Međunarodna astronomska unija iznova definirala pojam planeta.",
     "source": "Wikipedia (en): Solar System; Wikipedia (en): Pluto",
-    "tags": ["svemir", "planeti", "brojevi"],
+    "tags": [
+      "svemir",
+      "planeti",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0019",
@@ -90,12 +123,18 @@
     "difficulty": 2,
     "question": "Koliko kilometara u sekundi, zaokruženo na tisuću, prijeđe svjetlost u vakuumu?",
     "answer": "300 000 km/s",
-    "accept": ["300 000", "300.000"],
+    "accept": [
+      "300 000",
+      "300.000"
+    ],
     "note": "Točna vrijednost od 299 792 458 m/s utvrđena je dogovorom, jer se metar definira upravo preko brzine svjetlosti.",
     "source": "Wikipedia (en): Speed of light",
-    "tags": ["fizika", "brojevi"],
+    "tags": [
+      "fizika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0020",
@@ -104,12 +143,17 @@
     "difficulty": 2,
     "question": "Koji je kemijski element najzastupljeniji u Zemljinoj kori?",
     "answer": "Kisik",
-    "accept": ["O"],
+    "accept": [
+      "O"
+    ],
     "note": "U obliku raznih oksida čini gotovo polovicu Zemljine kore.",
     "source": "Wikipedia (en): Oxygen",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0021",
@@ -118,12 +162,19 @@
     "difficulty": 2,
     "question": "Koji je dubrovački isusovac iz 18. stoljeća bio matematičar, astronom, geodet, fizičar i filozof?",
     "answer": "Ruđer Bošković",
-    "accept": ["Bošković", "Ruđer Josip Bošković"],
+    "accept": [
+      "Bošković",
+      "Ruđer Josip Bošković"
+    ],
     "note": "Nobelovac Werner Heisenberg nazvao ga je „hrvatskim Leibnizom”.",
     "source": "Wikipedia (hr): Ruđer Bošković",
-    "tags": ["znanstvenici", "Hrvatska", "18. stoljeće"],
+    "tags": [
+      "znanstvenici",
+      "Hrvatska",
+      "18. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0022",
@@ -132,12 +183,18 @@
     "difficulty": 2,
     "question": "Po kojem je njemačkom fizičaru nazvana mjerna jedinica za električni otpor?",
     "answer": "Georg Ohm",
-    "accept": ["Ohm", "Georg Simon Ohm"],
+    "accept": [
+      "Ohm",
+      "Georg Simon Ohm"
+    ],
     "note": "Simbol jedinice je veliko grčko slovo omega, Ω.",
     "source": "Wikipedia (en): Ohm",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0023",
@@ -146,12 +203,18 @@
     "difficulty": 2,
     "question": "Koji je svemirski teleskop 1990. lansiran u nisku Zemljinu orbitu?",
     "answer": "Hubble",
-    "accept": ["Hubbleov svemirski teleskop", "Hubbleov teleskop"],
+    "accept": [
+      "Hubbleov svemirski teleskop",
+      "Hubbleov teleskop"
+    ],
     "note": "Nije bio prvi svemirski teleskop, ali je jedan od najvećih i najsvestranijih.",
     "source": "Wikipedia (en): Hubble Space Telescope",
-    "tags": ["svemir", "teleskopi"],
+    "tags": [
+      "svemir",
+      "teleskopi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0024",
@@ -160,12 +223,18 @@
     "difficulty": 2,
     "question": "Koji je britanski matematičar pomogao saveznicima dešifrirati poruke njemačkog stroja Enigma?",
     "answer": "Alan Turing",
-    "accept": ["Turing"],
+    "accept": [
+      "Turing"
+    ],
     "note": "Po njemu je nazvan i Turingov test iz filozofije umjetne inteligencije.",
     "source": "Wikipedia (en): Alan Turing",
-    "tags": ["računala", "matematika", "znanstvenici"],
+    "tags": [
+      "računala",
+      "matematika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0025",
@@ -174,12 +243,18 @@
     "difficulty": 2,
     "question": "Kako se zove potpuno električni sportski automobil hrvatske tvrtke Rimac Automobili, predstavljen 2021.?",
     "answer": "Nevera",
-    "accept": ["Rimac Nevera"],
+    "accept": [
+      "Rimac Nevera"
+    ],
     "note": "Proizvodnja je ograničena na 150 primjeraka, a prvi je kupcu isporučen u kolovozu 2022.",
     "source": "Wikipedia (en): Rimac Nevera",
-    "tags": ["automobili", "Hrvatska", "21. stoljeće"],
+    "tags": [
+      "automobili",
+      "Hrvatska",
+      "21. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0026",
@@ -188,12 +263,18 @@
     "difficulty": 2,
     "question": "Koji je planet najtopliji u Sunčevu sustavu, iako nije najbliži Suncu?",
     "answer": "Venera",
-    "accept": ["Venus"],
+    "accept": [
+      "Venus"
+    ],
     "note": "Na površini je oko 464 °C, a tlak je 92 puta veći nego na Zemlji.",
     "source": "Wikipedia (en): Venus",
-    "tags": ["svemir", "planeti", "rekordi"],
+    "tags": [
+      "svemir",
+      "planeti",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0027",
@@ -202,12 +283,20 @@
     "difficulty": 2,
     "question": "Kojoj temperaturi u stupnjevima Celzija odgovara apsolutna nula?",
     "answer": "−273,15 °C",
-    "accept": ["−273,15", "-273,15", "−273"],
+    "accept": [
+      "−273,15",
+      "-273,15",
+      "−273"
+    ],
     "note": "Na Kelvinovoj ljestvici to je 0 K, a na Fahrenheitovoj −459,67 °F.",
     "source": "Wikipedia (en): Absolute zero",
-    "tags": ["fizika", "temperatura", "brojevi"],
+    "tags": [
+      "fizika",
+      "temperatura",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0028",
@@ -216,12 +305,18 @@
     "difficulty": 3,
     "question": "Koji je hrvatski seizmolog, proučavajući pokupski potres 1909., prvi otkrio granicu između Zemljine kore i plašta?",
     "answer": "Andrija Mohorovičić",
-    "accept": ["Mohorovičić"],
+    "accept": [
+      "Mohorovičić"
+    ],
     "note": "Ta granica po njemu se zove Mohorovičićev diskontinuitet.",
     "source": "Wikipedia (hr): Andrija Mohorovičić",
-    "tags": ["geofizika", "znanstvenici", "Hrvatska"],
+    "tags": [
+      "geofizika",
+      "znanstvenici",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0029",
@@ -230,12 +325,18 @@
     "difficulty": 3,
     "question": "Koja je čestica 2012. otkrivena na Velikom hadronskom sudaraču u CERN-u, nakon 40 godina potrage?",
     "answer": "Higgsov bozon",
-    "accept": ["Higgs", "Higgsova čestica"],
+    "accept": [
+      "Higgs",
+      "Higgsova čestica"
+    ],
     "note": "Otkrili su je pokusi ATLAS i CMS.",
     "source": "Wikipedia (en): Higgs boson",
-    "tags": ["fizika", "čestice"],
+    "tags": [
+      "fizika",
+      "čestice"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0030",
@@ -244,12 +345,19 @@
     "difficulty": 3,
     "question": "Po kojem je danskom kralju iz 10. stoljeća nazvana bežična tehnologija Bluetooth?",
     "answer": "Harald Modrozubi",
-    "accept": ["Harald Bluetooth", "Harald Plavozubi", "Harald"],
+    "accept": [
+      "Harald Bluetooth",
+      "Harald Plavozubi",
+      "Harald"
+    ],
     "note": "Ime je predložio inženjer Jim Kardach nakon što je u knjizi o Vikinzima vidio Haraldov runski kamen.",
     "source": "Wikipedia (en): Bluetooth",
-    "tags": ["tehnologija", "imena"],
+    "tags": [
+      "tehnologija",
+      "imena"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0031",
@@ -258,12 +366,19 @@
     "difficulty": 3,
     "question": "Koji je hrvatski izumitelj s Hvara u Argentini razvio daktiloskopiju, identifikaciju po otiscima prstiju?",
     "answer": "Ivan Vučetić",
-    "accept": ["Vučetić", "Juan Vucetich"],
+    "accept": [
+      "Vučetić",
+      "Juan Vucetich"
+    ],
     "note": "U Argentinu je došao 1884., a ondje ga zovu Juan Vucetich.",
     "source": "Wikipedia (hr): Ivan Vučetić",
-    "tags": ["izumitelji", "Hrvatska", "19. stoljeće"],
+    "tags": [
+      "izumitelji",
+      "Hrvatska",
+      "19. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0032",
@@ -272,11 +387,17 @@
     "difficulty": 3,
     "question": "Kako se zove Vrančićev crtež padobranca iz djela „Machinae novae”?",
     "answer": "Homo volans",
-    "accept": ["Leteći čovjek"],
+    "accept": [
+      "Leteći čovjek"
+    ],
     "note": "Pretpostavlja se da je Vrančić padobran i iskušao, skokom s nekog tornja.",
     "source": "Wikipedia (hr): Faust Vrančić",
-    "tags": ["izumi", "Hrvatska", "16. stoljeće"],
+    "tags": [
+      "izumi",
+      "Hrvatska",
+      "16. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

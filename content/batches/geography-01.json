@@ -6,12 +6,17 @@
     "difficulty": 1,
     "question": "Koji je ocean najveći na svijetu?",
     "answer": "Tihi ocean",
-    "accept": ["Pacifik", "Tihi"],
+    "accept": [
+      "Pacifik",
+      "Tihi"
+    ],
     "note": "Veći je od cijelog kopna na Zemlji zajedno.",
     "source": "Wikipedia (en): Pacific Ocean",
-    "tags": ["oceani"],
+    "tags": [
+      "oceani"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0014",
@@ -23,9 +28,12 @@
     "accept": [],
     "note": "Graniči kopnom s četrnaest država.",
     "source": "Wikipedia (en): Russia",
-    "tags": ["države", "rekordi"],
+    "tags": [
+      "države",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0015",
@@ -34,12 +42,18 @@
     "difficulty": 1,
     "question": "U kojem se gradu, na brdu Corcovado, nalazi kip Krista Otkupitelja?",
     "answer": "Rio de Janeiro",
-    "accept": ["Rio"],
+    "accept": [
+      "Rio"
+    ],
     "note": "Kip je visok 30 metara, ne računajući postolje od osam metara, a raspon ruku mu je 28 metara.",
     "source": "Wikipedia (en): Christ the Redeemer (statue)",
-    "tags": ["gradovi", "Brazil", "znamenitosti"],
+    "tags": [
+      "gradovi",
+      "Brazil",
+      "znamenitosti"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0016",
@@ -48,12 +62,17 @@
     "difficulty": 1,
     "question": "Koji je najstariji nacionalni park u Hrvatskoj?",
     "answer": "Plitvička jezera",
-    "accept": ["Plitvice"],
+    "accept": [
+      "Plitvice"
+    ],
     "note": "Nacionalni park proglašen je 1949., a na UNESCO-ov popis svjetske baštine upisan je 1979.",
     "source": "Wikipedia (hr): Nacionalni park Plitvička jezera",
-    "tags": ["nacionalni parkovi", "Hrvatska"],
+    "tags": [
+      "nacionalni parkovi",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0017",
@@ -65,9 +84,12 @@
     "accept": [],
     "note": "Dijele ga Hrvatska, Slovenija i Italija, a Hrvatskoj pripada oko 90 % poluotoka.",
     "source": "Wikipedia (hr): Istra",
-    "tags": ["poluotoci", "Hrvatska"],
+    "tags": [
+      "poluotoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0018",
@@ -79,9 +101,12 @@
     "accept": [],
     "note": "Ima samo 44 hektara i nešto manje od 900 stanovnika.",
     "source": "Wikipedia (en): Vatican City",
-    "tags": ["države", "rekordi"],
+    "tags": [
+      "države",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0019",
@@ -93,9 +118,12 @@
     "accept": [],
     "note": "Najjužniji je glavni grad neke suverene države na svijetu.",
     "source": "Wikipedia (en): Wellington",
-    "tags": ["glavni gradovi", "Oceanija"],
+    "tags": [
+      "glavni gradovi",
+      "Oceanija"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0020",
@@ -107,9 +135,12 @@
     "accept": [],
     "note": "U zlatno doba bio je i važno središte islamske učenosti i trgovine knjigama.",
     "source": "Wikipedia (en): Timbuktu",
-    "tags": ["gradovi", "Afrika"],
+    "tags": [
+      "gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0021",
@@ -118,12 +149,17 @@
     "difficulty": 2,
     "question": "Koje se jezero na granici Perua i Bolivije često naziva najvišim plovnim jezerom na svijetu?",
     "answer": "Titicaca",
-    "accept": ["Titikaka"],
+    "accept": [
+      "Titikaka"
+    ],
     "note": "Najveće je jezero Južne Amerike i po površini i po količini vode.",
     "source": "Wikipedia (en): Lake Titicaca",
-    "tags": ["jezera", "Južna Amerika"],
+    "tags": [
+      "jezera",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0022",
@@ -135,9 +171,12 @@
     "accept": [],
     "note": "Prikazan je na slovenskom grbu i zastavi.",
     "source": "Wikipedia (en): Triglav",
-    "tags": ["planine", "susjedi"],
+    "tags": [
+      "planine",
+      "susjedi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0023",
@@ -146,12 +185,18 @@
     "difficulty": 2,
     "question": "Koji slap u Venezueli, visok 979 metara, nosi ime američkog pilota?",
     "answer": "Anđeoski slap",
-    "accept": ["Salto Ángel", "Angel Falls"],
+    "accept": [
+      "Salto Ángel",
+      "Angel Falls"
+    ],
     "note": "Pilot Jimmie Angel prvi ga je preletio 1933., a njegov je pepeo 1960. rasut nad slapom.",
     "source": "Wikipedia (en): Angel Falls",
-    "tags": ["slapovi", "Južna Amerika"],
+    "tags": [
+      "slapovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0024",
@@ -160,12 +205,20 @@
     "difficulty": 2,
     "question": "Koji su grad na Hvaru 384. pr. Kr. osnovali grčki doseljenici s otoka Parosa?",
     "answer": "Stari Grad",
-    "accept": ["Faros", "Pharos"],
+    "accept": [
+      "Faros",
+      "Pharos"
+    ],
     "note": "Raspored polja koje su tada uredili grčki kolonisti sačuvan je 24 stoljeća, a 2008. upisano je na UNESCO-ov popis svjetske baštine.",
     "source": "Wikipedia (en): Stari Grad, Croatia; Wikipedia (en): Stari Grad Plain",
-    "tags": ["gradovi", "otoci", "Hrvatska", "antika"],
+    "tags": [
+      "gradovi",
+      "otoci",
+      "Hrvatska",
+      "antika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0025",
@@ -174,12 +227,19 @@
     "difficulty": 2,
     "question": "Koji se istarski zaljev, nastao kad je more potopilo staro korito rijeke, često pogrešno naziva fjordom?",
     "answer": "Limski kanal",
-    "accept": ["Limski zaljev", "Lim"],
+    "accept": [
+      "Limski zaljev",
+      "Lim"
+    ],
     "note": "Ni naziv „kanal” nije točan, a ime dolazi od latinske riječi limes, što znači granica.",
     "source": "Wikipedia (hr): Limski kanal",
-    "tags": ["zaljevi", "Istra", "Hrvatska"],
+    "tags": [
+      "zaljevi",
+      "Istra",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0026",
@@ -191,9 +251,12 @@
     "accept": [],
     "note": "Ujedno je i najveća pustinja magle na Zemlji.",
     "source": "Wikipedia (en): Atacama Desert",
-    "tags": ["pustinje", "Južna Amerika"],
+    "tags": [
+      "pustinje",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0027",
@@ -202,12 +265,16 @@
     "difficulty": 2,
     "question": "Koji tjesnac dijeli Aljasku od Rusije?",
     "answer": "Beringov tjesnac",
-    "accept": ["Beringov"],
+    "accept": [
+      "Beringov"
+    ],
     "note": "Plivačica Lynne Cox 1987. preplivala je 4,3 km između Diomedovih otoka, iz SAD-a u Sovjetski Savez.",
     "source": "Wikipedia (en): Bering Strait",
-    "tags": ["tjesnaci"],
+    "tags": [
+      "tjesnaci"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0028",
@@ -219,9 +286,13 @@
     "accept": [],
     "note": "U Iloku je 1456. umro sveti Ivan Kapistran, a grad zbog bogate baštine zovu i „Dubrovnikom na istoku”.",
     "source": "Wikipedia (hr): Ilok",
-    "tags": ["gradovi", "Hrvatska", "Srijem"],
+    "tags": [
+      "gradovi",
+      "Hrvatska",
+      "Srijem"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0029",
@@ -230,12 +301,18 @@
     "difficulty": 3,
     "question": "Koja se rijeka u Komolcu kraj Dubrovnika, s vodotokom od tridesetak metara, smatra najkraćom rijekom na svijetu?",
     "answer": "Ombla",
-    "accept": ["Rijeka dubrovačka"],
+    "accept": [
+      "Rijeka dubrovačka"
+    ],
     "note": "Dubrovnik se iz njezina izvora opskrbljuje vodom za piće još od 1438., kada je izgrađen prvi gradski vodovod.",
     "source": "Wikipedia (hr): Ombla",
-    "tags": ["rijeke", "Hrvatska", "Dubrovnik"],
+    "tags": [
+      "rijeke",
+      "Hrvatska",
+      "Dubrovnik"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0030",
@@ -244,12 +321,18 @@
     "difficulty": 3,
     "question": "Kako se zove najdublja jama u Hrvatskoj, na sjevernom Velebitu?",
     "answer": "Lukina jama",
-    "accept": ["Lukina jama–Trojama"],
+    "accept": [
+      "Lukina jama–Trojama"
+    ],
     "note": "Otkrili su je slovački speleolozi 1991., a duboka je 1431 metar.",
     "source": "Wikipedia (hr): Lukina jama",
-    "tags": ["špilje i jame", "Velebit", "Hrvatska"],
+    "tags": [
+      "špilje i jame",
+      "Velebit",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0031",
@@ -261,9 +344,12 @@
     "accept": [],
     "note": "Ime na kazaškom znači „glavni grad”, a od 2019. do 2022. grad se zvao Nur-Sultan.",
     "source": "Wikipedia (en): Astana",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0032",
@@ -272,11 +358,17 @@
     "difficulty": 3,
     "question": "Koji je glavni grad, prema prosječnoj godišnjoj temperaturi, najhladniji na svijetu?",
     "answer": "Ulan Bator",
-    "accept": ["Ulaanbaatar"],
+    "accept": [
+      "Ulaanbaatar"
+    ],
     "note": "Glavni grad Mongolije leži na oko 1300 metara nadmorske visine.",
     "source": "Wikipedia (en): Ulaanbaatar",
-    "tags": ["glavni gradovi", "Azija", "rekordi"],
+    "tags": [
+      "glavni gradovi",
+      "Azija",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

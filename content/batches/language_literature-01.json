@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je francuski pisac i pilot napisao „Malog princa”?",
     "answer": "Antoine de Saint-Exupéry",
-    "accept": ["Saint-Exupéry", "Exupéry"],
+    "accept": [
+      "Saint-Exupéry",
+      "Exupéry"
+    ],
     "note": "Knjiga je prvi put izašla 1943. u SAD-u, a u Francuskoj tek nakon oslobođenja, jer je režim u Vichyju zabranio njegova djela.",
     "source": "Wikipedia (en): The Little Prince",
-    "tags": ["francuska književnost", "dječja književnost"],
+    "tags": [
+      "francuska književnost",
+      "dječja književnost"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0014",
@@ -20,12 +26,17 @@
     "difficulty": 1,
     "question": "Koji je hrvatski pisac 1871. napisao roman „Zlatarovo zlato”?",
     "answer": "August Šenoa",
-    "accept": ["Šenoa"],
+    "accept": [
+      "Šenoa"
+    ],
     "note": "To je prvi hrvatski povijesni roman, a radnja se odvija u Zagrebu u 16. stoljeću, nakon Gupčeve bune.",
     "source": "Wikipedia (hr): Zlatarovo zlato",
-    "tags": ["hrvatska književnost", "romani"],
+    "tags": [
+      "hrvatska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0015",
@@ -34,12 +45,19 @@
     "difficulty": 1,
     "question": "Kako se zove lik koji je od komada drva izrezbario lutku Pinokija?",
     "answer": "Geppetto",
-    "accept": ["Đepeto", "Gepetto"],
+    "accept": [
+      "Đepeto",
+      "Gepetto"
+    ],
     "note": "Drvo mu je dao susjed, majstor Antonio, prestrašen kad je cjepanica zaplakala.",
     "source": "Wikipedia (en): The Adventures of Pinocchio",
-    "tags": ["dječja književnost", "talijanska književnost", "likovi"],
+    "tags": [
+      "dječja književnost",
+      "talijanska književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0016",
@@ -48,12 +66,18 @@
     "difficulty": 1,
     "question": "Koji se vitez iz romana Miguela de Cervantesa borio s vjetrenjačama?",
     "answer": "Don Quijote",
-    "accept": ["Don Kihot", "Don Quixote"],
+    "accept": [
+      "Don Kihot",
+      "Don Quixote"
+    ],
     "note": "Roman je izašao u dva dijela, 1605. i 1615., i smatra se prvim modernim romanom.",
     "source": "Wikipedia (en): Don Quixote",
-    "tags": ["španjolska književnost", "likovi"],
+    "tags": [
+      "španjolska književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0017",
@@ -62,12 +86,17 @@
     "difficulty": 1,
     "question": "Koji je hrvatski pisac napisao romane „Vlak u snijegu” i „Družba Pere Kvržice”?",
     "answer": "Mato Lovrak",
-    "accept": ["Lovrak"],
+    "accept": [
+      "Lovrak"
+    ],
     "note": "„Vlak u snijegu” prvotno se zvao „Djeca velikog sela”.",
     "source": "Wikipedia (hr): Mato Lovrak",
-    "tags": ["hrvatska književnost", "dječja književnost"],
+    "tags": [
+      "hrvatska književnost",
+      "dječja književnost"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0018",
@@ -76,12 +105,17 @@
     "difficulty": 1,
     "question": "Koji je junak romana Daniela Defoea 28 godina proveo na pustom otoku?",
     "answer": "Robinson Crusoe",
-    "accept": ["Robinson"],
+    "accept": [
+      "Robinson"
+    ],
     "note": "Roman je objavljen 1719., a često ga nazivaju prvim engleskim romanom.",
     "source": "Wikipedia (en): Robinson Crusoe",
-    "tags": ["engleska književnost", "likovi"],
+    "tags": [
+      "engleska književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0019",
@@ -90,12 +124,17 @@
     "difficulty": 2,
     "question": "Koji je pisac 1932. objavio roman „Povratak Filipa Latinovicza”?",
     "answer": "Miroslav Krleža",
-    "accept": ["Krleža"],
+    "accept": [
+      "Krleža"
+    ],
     "note": "Smatra se prvim cjelovitim modernim romanom u hrvatskoj književnosti.",
     "source": "Wikipedia (hr): Povratak Filipa Latinovicza",
-    "tags": ["hrvatska književnost", "romani"],
+    "tags": [
+      "hrvatska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0020",
@@ -104,12 +143,17 @@
     "difficulty": 2,
     "question": "Kako se zove riječ ili rečenica koja se jednako čita s obje strane, poput „Ana voli Milovana”?",
     "answer": "Palindrom",
-    "accept": ["Obrtaljka"],
+    "accept": [
+      "Obrtaljka"
+    ],
     "note": "Riječ dolazi od grčkog palíndromos, „koji trči natrag”.",
     "source": "Wikipedia (hr): Palindrom",
-    "tags": ["igre riječima", "jezik"],
+    "tags": [
+      "igre riječima",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0021",
@@ -118,12 +162,17 @@
     "difficulty": 2,
     "question": "Koji je talijanski pjesnik napisao „Božanstvenu komediju”?",
     "answer": "Dante Alighieri",
-    "accept": ["Dante"],
+    "accept": [
+      "Dante"
+    ],
     "note": "Pisao ju je otprilike od 1308. do 1321., malo prije smrti.",
     "source": "Wikipedia (en): Divine Comedy",
-    "tags": ["talijanska književnost", "srednji vijek"],
+    "tags": [
+      "talijanska književnost",
+      "srednji vijek"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0022",
@@ -132,12 +181,17 @@
     "difficulty": 2,
     "question": "Koji je hrvatski pjesnik 1846. objavio spjev „Smrt Smail-age Čengića”?",
     "answer": "Ivan Mažuranić",
-    "accept": ["Mažuranić"],
+    "accept": [
+      "Mažuranić"
+    ],
     "note": "Spjev je nastao djelomice po narudžbi Dimitrije Demetra.",
     "source": "Wikipedia (hr): Smrt Smail-age Čengića",
-    "tags": ["hrvatska književnost", "19. stoljeće"],
+    "tags": [
+      "hrvatska književnost",
+      "19. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0023",
@@ -149,9 +203,12 @@
     "accept": [],
     "note": "Ima šest pjevanja i ukupno 2126 dvostruko rimovanih dvanaesteraca.",
     "source": "Wikipedia (hr): Judita (Marko Marulić)",
-    "tags": ["hrvatska književnost", "renesansa"],
+    "tags": [
+      "hrvatska književnost",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0024",
@@ -163,9 +220,13 @@
     "accept": [],
     "note": "Hrvatska je 2014. umijeće čitanja, pisanja i tiskanja glagoljice proglasila nematerijalnim kulturnim dobrom.",
     "source": "Wikipedia (hr): Glagoljica",
-    "tags": ["pisma", "jezik", "Hrvatska"],
+    "tags": [
+      "pisma",
+      "jezik",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0025",
@@ -174,12 +235,19 @@
     "difficulty": 2,
     "question": "U što se jednog jutra pretvorio Gregor Samsa u Kafkinoj „Preobrazbi”?",
     "answer": "U golemog kukca",
-    "accept": ["Kukac", "Buba", "Kukca"],
+    "accept": [
+      "Kukac",
+      "Buba",
+      "Kukca"
+    ],
     "note": "U njemačkom izvorniku stoji „ungeheueres Ungeziefer”, čudovišna gamad.",
     "source": "Wikipedia (en): The Metamorphosis",
-    "tags": ["njemačka književnost", "likovi"],
+    "tags": [
+      "njemačka književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0026",
@@ -188,12 +256,18 @@
     "difficulty": 2,
     "question": "Koliko padeža tradicionalno ima hrvatski jezik?",
     "answer": "7",
-    "accept": ["Sedam"],
+    "accept": [
+      "Sedam"
+    ],
     "note": "Latinski ih ima šest, a njemački četiri.",
     "source": "Wikipedia (hr): Padež",
-    "tags": ["gramatika", "jezik", "brojevi"],
+    "tags": [
+      "gramatika",
+      "jezik",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0027",
@@ -202,12 +276,17 @@
     "difficulty": 2,
     "question": "Kako se zove stilska figura u kojoj se neživim predmetima pridaju ljudske osobine?",
     "answer": "Personifikacija",
-    "accept": ["Poosobljenje"],
+    "accept": [
+      "Poosobljenje"
+    ],
     "note": "Kad se ljudske osobine pridaju životinjama i biljkama, to je značenjem bliže antropomorfizaciji.",
     "source": "Wikipedia (hr): Personifikacija",
-    "tags": ["stilske figure", "jezik"],
+    "tags": [
+      "stilske figure",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0028",
@@ -216,12 +295,17 @@
     "difficulty": 3,
     "question": "Koji je pjesnik napisao spjev „Ribanje i ribarsko prigovaranje”, objavljen 1568. u Veneciji?",
     "answer": "Petar Hektorović",
-    "accept": ["Hektorović"],
+    "accept": [
+      "Hektorović"
+    ],
     "note": "Dovršio ga je 14. siječnja 1556., dvanaest godina prije tiskanja.",
     "source": "Wikipedia (hr): Ribanje i ribarsko prigovaranje",
-    "tags": ["hrvatska književnost", "renesansa"],
+    "tags": [
+      "hrvatska književnost",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0029",
@@ -230,12 +314,17 @@
     "difficulty": 3,
     "question": "Tko je napisao „Planine”, prvi hrvatski roman?",
     "answer": "Petar Zoranić",
-    "accept": ["Zoranić"],
+    "accept": [
+      "Zoranić"
+    ],
     "note": "Dovršio ga je 1536., a tiskan je u Mlecima tek 1569., nakon piščeve smrti.",
     "source": "Wikipedia (hr): Planine (roman)",
-    "tags": ["hrvatska književnost", "renesansa"],
+    "tags": [
+      "hrvatska književnost",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0030",
@@ -244,12 +333,18 @@
     "difficulty": 3,
     "question": "Koji je hrvatski izumitelj i jezikoslovac 1595. objavio rječnik pet „najplemenitijih” europskih jezika?",
     "answer": "Faust Vrančić",
-    "accept": ["Vrančić"],
+    "accept": [
+      "Vrančić"
+    ],
     "note": "Njegove su izume dugo pripisivali drugima, pa tako i njegov padobran Leonardu da Vinciju.",
     "source": "Wikipedia (hr): Faust Vrančić",
-    "tags": ["rječnici", "jezik", "Hrvatska"],
+    "tags": [
+      "rječnici",
+      "jezik",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0031",
@@ -261,9 +356,12 @@
     "accept": [],
     "note": "Ime dolazi od latinskog ad (prema) i littera (slovo).",
     "source": "Wikipedia (hr): Aliteracija",
-    "tags": ["stilske figure", "jezik"],
+    "tags": [
+      "stilske figure",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0032",
@@ -275,8 +373,11 @@
     "accept": [],
     "note": "Napisala je sedam romana, među njima i „Mlin na Flossi” iz 1860.",
     "source": "Wikipedia (en): George Eliot",
-    "tags": ["engleska književnost", "pseudonimi"],
+    "tags": [
+      "engleska književnost",
+      "pseudonimi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

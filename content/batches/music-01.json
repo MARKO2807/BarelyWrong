@@ -6,14 +6,19 @@
     "difficulty": 1,
     "question": "Koji je skladatelj napisao glazbu za filmove „Ratovi zvijezda”, „Ralje” i „Indiana Jones”?",
     "answer": "John Williams",
-    "accept": ["Williams"],
+    "accept": [
+      "Williams"
+    ],
     "note": "Karijera mu traje više od sedam desetljeća, a stil mu spaja romantizam i impresionizam.",
     "source": "Wikipedia (en): John Williams",
-    "tags": ["filmska glazba", "skladatelji"],
+    "tags": [
+      "filmska glazba",
+      "skladatelji"
+    ],
     "origin": "hks/glazbenih-100-cicak#66",
     "editorNote": "Iz HKS-a uzeta činjenica; pitanje preokrenuto (traži se skladatelj preko poznatih filmova), broj nominacija ažuriran prema izvoru.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0014",
@@ -25,9 +30,12 @@
     "accept": [],
     "note": "Pjevač Freddie Mercury rođen je 1946. na Zanzibaru, u obitelji indijskih Parsa.",
     "source": "Wikipedia (en): Bohemian Rhapsody; Wikipedia (en): Freddie Mercury",
-    "tags": ["rock", "1970-e"],
+    "tags": [
+      "rock",
+      "1970-e"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0015",
@@ -36,12 +44,17 @@
     "difficulty": 1,
     "question": "Kojeg pjevača zovu „kraljem rock and rolla”?",
     "answer": "Elvis Presley",
-    "accept": ["Elvis"],
+    "accept": [
+      "Elvis"
+    ],
     "note": "Procjenjuje se da je prodao oko 500 milijuna nosača zvuka.",
     "source": "Wikipedia (en): Elvis Presley",
-    "tags": ["rock and roll", "1950-e"],
+    "tags": [
+      "rock and roll",
+      "1950-e"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0016",
@@ -50,14 +63,19 @@
     "difficulty": 1,
     "question": "Kako se zove oponašanje zvuka bubnjeva i drugih instrumenata ustima i glasom?",
     "answer": "Beatbox",
-    "accept": ["Beatboxing"],
+    "accept": [
+      "Beatboxing"
+    ],
     "note": "Često ga zovu „petim elementom” hip-hopa.",
     "source": "Wikipedia (en): Beatboxing",
-    "tags": ["hip-hop", "glazbeni pojmovi"],
+    "tags": [
+      "hip-hop",
+      "glazbeni pojmovi"
+    ],
     "origin": "hks/glazbenih-100-cicak#68",
     "editorNote": "Iz HKS-a uzeta činjenica; pitanje preformulirano, spomen hip-hopa premješten u zanimljivost.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0017",
@@ -66,12 +84,18 @@
     "difficulty": 1,
     "question": "Koji je skladatelj napisao operu „Čarobna frula”?",
     "answer": "Wolfgang Amadeus Mozart",
-    "accept": ["Mozart"],
+    "accept": [
+      "Mozart"
+    ],
     "note": "Praizvedena je u Beču 30. rujna 1791., samo dva mjeseca prije Mozartove smrti.",
     "source": "Wikipedia (en): The Magic Flute",
-    "tags": ["opera", "klasična glazba", "skladatelji"],
+    "tags": [
+      "opera",
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0018",
@@ -80,12 +104,18 @@
     "difficulty": 1,
     "question": "Koji je trzalački instrument postao najizrazitijim narodnim instrumentom Slavonije?",
     "answer": "Tambura",
-    "accept": ["Tamburica"],
+    "accept": [
+      "Tamburica"
+    ],
     "note": "U Slavoniju su je iz Bosne donijeli Bunjevci i Šokci, a najstarija sačuvana tambura potječe iz 19. stoljeća.",
     "source": "Wikipedia (hr): Tambura",
-    "tags": ["instrumenti", "tradicijska glazba", "Hrvatska"],
+    "tags": [
+      "instrumenti",
+      "tradicijska glazba",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0019",
@@ -97,11 +127,14 @@
     "accept": [],
     "note": "Natjecalo se sedam zemalja, a pobijedila je Lys Assia s pjesmom „Refrain”.",
     "source": "Wikipedia (en): Eurovision Song Contest 1956",
-    "tags": ["Eurovizija", "1950-e"],
+    "tags": [
+      "Eurovizija",
+      "1950-e"
+    ],
     "origin": "hks/glazbenih-100-cicak#9",
     "editorNote": "HKS traži sedmu sudionicu prve Eurovizije; ovdje se traži domaćin i pobjednik.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0020",
@@ -110,14 +143,20 @@
     "difficulty": 2,
     "question": "Koji je skladatelj uglazbio Mihanovićevu pjesmu „Horvatska domovina”, današnju hrvatsku himnu?",
     "answer": "Josip Runjanin",
-    "accept": ["Runjanin"],
+    "accept": [
+      "Runjanin"
+    ],
     "note": "Bio je vojni časnik, a pjesma je za himnu izabrana 1891.",
     "source": "Wikipedia (hr): Josip Runjanin",
-    "tags": ["himne", "skladatelji", "Hrvatska"],
+    "tags": [
+      "himne",
+      "skladatelji",
+      "Hrvatska"
+    ],
     "origin": "hks/glazbenih-100-cicak#12",
     "editorNote": "Iz HKS-a uzeta činjenica; dodano da je riječ o himni.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0021",
@@ -129,11 +168,15 @@
     "accept": [],
     "note": "Smatra se jednim od najutjecajnijih sastava jugoslavenskog novog vala.",
     "source": "Wikipedia (en): Azra (band)",
-    "tags": ["rock", "novi val", "Hrvatska"],
+    "tags": [
+      "rock",
+      "novi val",
+      "Hrvatska"
+    ],
     "origin": "hks/glazbenih-100-cicak#54",
     "editorNote": "Iz HKS-a uzeta činjenica; dodan Štulić kao trag.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0022",
@@ -142,14 +185,20 @@
     "difficulty": 2,
     "question": "Koji je glazbenik 1985., zahvaljujući letu Concordeom, nastupio na oba koncerta Live Aida, u Londonu i u Philadelphiji?",
     "answer": "Phil Collins",
-    "accept": ["Collins"],
+    "accept": [
+      "Collins"
+    ],
     "note": "Osim svog nastupa, u Londonu je svirao klavir Stingu, a u Philadelphiji bubnjeve Ericu Claptonu.",
     "source": "Wikipedia (en): Live Aid",
-    "tags": ["rock", "koncerti", "1980-e"],
+    "tags": [
+      "rock",
+      "koncerti",
+      "1980-e"
+    ],
     "origin": "hks/glazbenih-100-cicak#56",
     "editorNote": "Iz HKS-a uzeta činjenica; pitanje preformulirano.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0023",
@@ -158,14 +207,20 @@
     "difficulty": 2,
     "question": "Koji se elektronički instrument svira bez dodirivanja, pomicanjem ruku u blizini njegovih antena?",
     "answer": "Teremin",
-    "accept": ["Theremin", "Termenvoks"],
+    "accept": [
+      "Theremin",
+      "Termenvoks"
+    ],
     "note": "Ime je dobio po izumitelju Lavu Termenu, koji ga je patentirao 1928.",
     "source": "Wikipedia (en): Theremin",
-    "tags": ["instrumenti", "izumi"],
+    "tags": [
+      "instrumenti",
+      "izumi"
+    ],
     "origin": "hks/glazbenih-100-cicak#92",
     "editorNote": "Iz HKS-a uzeta činjenica; izbačen trag sa Sheldonom Cooperom.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0024",
@@ -174,14 +229,21 @@
     "difficulty": 2,
     "question": "Uz koji se ples veže „Galop infernal” iz Offenbachove operete „Orfej u podzemlju”?",
     "answer": "Kankan",
-    "accept": ["Can-can", "Cancan"],
+    "accept": [
+      "Can-can",
+      "Cancan"
+    ],
     "note": "Pariški kabareti Moulin Rouge i Folies Bergère uzeli su ga za kankan u posljednjem desetljeću 19. stoljeća.",
     "source": "Wikipedia (en): Orpheus in the Underworld",
-    "tags": ["ples", "opereta", "klasična glazba"],
+    "tags": [
+      "ples",
+      "opereta",
+      "klasična glazba"
+    ],
     "origin": "hks/glazbenih-100-cicak#36",
     "editorNote": "Iz HKS-a uzeta činjenica; dodan naziv operete.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0025",
@@ -193,9 +255,12 @@
     "accept": [],
     "note": "Ustanovljena je 1993., a redovito se dodjeljuje od 1994.",
     "source": "Wikipedia (hr): Porin (nagrada)",
-    "tags": ["nagrade", "Hrvatska"],
+    "tags": [
+      "nagrade",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0026",
@@ -204,12 +269,18 @@
     "difficulty": 2,
     "question": "Kako se zvao hrvatski duo violončelista Luke Šulića i Stjepana Hausera?",
     "answer": "2Cellos",
-    "accept": ["Two Cellos"],
+    "accept": [
+      "Two Cellos"
+    ],
     "note": "Svirali su obrade poznatih pop i rock pjesama, a za Sony Masterworks potpisali su 2011.",
     "source": "Wikipedia (en): 2Cellos",
-    "tags": ["instrumentalisti", "Hrvatska", "21. stoljeće"],
+    "tags": [
+      "instrumentalisti",
+      "Hrvatska",
+      "21. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0027",
@@ -218,12 +289,18 @@
     "difficulty": 2,
     "question": "Koji je skladatelj napisao operu „Aida”, praizvedenu 1871. u Kairu?",
     "answer": "Giuseppe Verdi",
-    "accept": ["Verdi"],
+    "accept": [
+      "Verdi"
+    ],
     "note": "Naručila ju je kairska Kedivska opera, a radnja se odvija u starom Egiptu.",
     "source": "Wikipedia (en): Aida",
-    "tags": ["opera", "klasična glazba", "skladatelji"],
+    "tags": [
+      "opera",
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0028",
@@ -232,12 +309,18 @@
     "difficulty": 3,
     "question": "Koji je hrvatski pjevač 1959. s pjesmom „Morgen” ušao na američku listu Billboard Hot 100?",
     "answer": "Ivo Robić",
-    "accept": ["Robić"],
+    "accept": [
+      "Robić"
+    ],
     "note": "Pjesma je u Kanadi bila prva na ljestvici, prodana je u više od milijun primjeraka, a Robić je dobio nadimak „Mister Morgen”.",
     "source": "Wikipedia (en): Ivo Robić",
-    "tags": ["zabavna glazba", "Hrvatska", "1950-e"],
+    "tags": [
+      "zabavna glazba",
+      "Hrvatska",
+      "1950-e"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0029",
@@ -246,14 +329,20 @@
     "difficulty": 3,
     "question": "Kako se zove muški klasični pjevački glas čiji opseg odgovara ženskom altu ili mezzosopranu?",
     "answer": "Kontratenor",
-    "accept": ["Countertenor"],
+    "accept": [
+      "Countertenor"
+    ],
     "note": "Sopranist, posebna vrsta kontratenora, može dosegnuti i sopranski opseg.",
     "source": "Wikipedia (en): Countertenor",
-    "tags": ["glasovi", "klasična glazba", "glazbeni pojmovi"],
+    "tags": [
+      "glasovi",
+      "klasična glazba",
+      "glazbeni pojmovi"
+    ],
     "origin": "hks/glazbenih-100-cicak#50",
     "editorNote": "HKS ga opisuje kao najviši muški glas; pitanje prepisano prema definiciji iz izvora.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0030",
@@ -262,14 +351,20 @@
     "difficulty": 3,
     "question": "Koji je francuski barokni skladatelj napisao „Te Deum” čiji se uvod svira prije prijenosa Eurovizije?",
     "answer": "Marc-Antoine Charpentier",
-    "accept": ["Charpentier"],
+    "accept": [
+      "Charpentier"
+    ],
     "note": "Skladba se vjerojatno izvela 1692., u slavu pobjede u bitki kod Steenkerquea.",
     "source": "Wikipedia (en): Te Deum (Charpentier)",
-    "tags": ["barok", "Eurovizija", "skladatelji"],
+    "tags": [
+      "barok",
+      "Eurovizija",
+      "skladatelji"
+    ],
     "origin": "hks/glazbenih-100-cicak#81",
     "editorNote": "Iz HKS-a uzeta činjenica; pitanje preformulirano.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0031",
@@ -278,14 +373,20 @@
     "difficulty": 3,
     "question": "Kako se zvao album Harryja Belafontea iz 1956., prvi LP jednog izvođača prodan u milijun primjeraka?",
     "answer": "Calypso",
-    "accept": ["Kalipso"],
+    "accept": [
+      "Kalipso"
+    ],
     "note": "Na vrhu Billboardove ljestvice albuma bio je 31 tjedan.",
     "source": "Wikipedia (en): Calypso (album); Wikipedia (en): Harry Belafonte",
-    "tags": ["albumi", "rekordi", "1950-e"],
+    "tags": [
+      "albumi",
+      "rekordi",
+      "1950-e"
+    ],
     "origin": "hks/glazbenih-100-cicak#74",
     "editorNote": "HKS traži glazbeni stil; ovdje se traži album istog imena.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0032",
@@ -294,13 +395,18 @@
     "difficulty": 3,
     "question": "Koji je instrument iz obitelji koncertina nezaobilazan u argentinskom i urugvajskom tangu?",
     "answer": "Bandoneon",
-    "accept": ["Bandoneón"],
+    "accept": [
+      "Bandoneón"
+    ],
     "note": "Drži se među dlanovima, a svira se rastezanjem i stiskanjem mijeha.",
     "source": "Wikipedia (en): Bandoneon",
-    "tags": ["instrumenti", "tango"],
+    "tags": [
+      "instrumenti",
+      "tango"
+    ],
     "origin": "hks/glazbenih-100-cicak#34",
     "editorNote": "Iz HKS-a uzeta činjenica; pitanje skraćeno.",
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]

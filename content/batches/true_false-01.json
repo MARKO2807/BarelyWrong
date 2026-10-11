@@ -9,9 +9,12 @@
     "accept": [],
     "note": "Pamte najmanje tri mjeseca i razlikuju oblike, boje i zvukove.",
     "source": "Wikipedia (en): Goldfish",
-    "tags": ["ribe", "zablude"],
+    "tags": [
+      "ribe",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0034",
@@ -23,9 +26,12 @@
     "accept": [],
     "note": "To je raširen mit koji se pogrešno pripisuje raznim slavnim znanstvenicima.",
     "source": "Wikipedia (en): Ten percent of the brain myth",
-    "tags": ["ljudsko tijelo", "zablude"],
+    "tags": [
+      "ljudsko tijelo",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "music-0033",
@@ -37,9 +43,12 @@
     "accept": [],
     "note": "Napisao ju je Beethoven, a pronađena je i objavljena tek 40 godina nakon njegove smrti.",
     "source": "Wikipedia (en): Für Elise",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0035",
@@ -51,9 +60,12 @@
     "accept": [],
     "note": "Točnije, rajčica je bobica, iako je kuhamo i jedemo kao povrće.",
     "source": "Wikipedia (en): Tomato",
-    "tags": ["biljke", "hrana"],
+    "tags": [
+      "biljke",
+      "hrana"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "history-0033",
@@ -65,9 +77,12 @@
     "accept": [],
     "note": "Tu su sliku u 19. stoljeću proširile Wagnerove opere s nordijskim temama.",
     "source": "Wikipedia (en): Horned helmet",
-    "tags": ["Vikinzi", "zablude"],
+    "tags": [
+      "Vikinzi",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0033",
@@ -79,9 +94,12 @@
     "accept": [],
     "note": "Najveća je vruća pustinja, ali ukupno je treća, iza antarktičke i arktičke.",
     "source": "Wikipedia (en): Sahara",
-    "tags": ["pustinje", "zablude"],
+    "tags": [
+      "pustinje",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0034",
@@ -93,9 +111,12 @@
     "accept": [],
     "note": "Australija se smatra kontinentom, a najveći je otok Grenland.",
     "source": "Wikipedia (en): Greenland",
-    "tags": ["otoci", "rekordi"],
+    "tags": [
+      "otoci",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0033",
@@ -107,9 +128,12 @@
     "accept": [],
     "note": "Frankenstein je Victor, znanstvenik koji ga je stvorio; čudovište je njegovo ime dobilo tek u popularnoj kulturi.",
     "source": "Wikipedia (en): Frankenstein's monster",
-    "tags": ["likovi", "engleska književnost"],
+    "tags": [
+      "likovi",
+      "engleska književnost"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "history-0034",
@@ -121,9 +145,12 @@
     "accept": [],
     "note": "Bila je najviša građevina koju je čovjek sagradio više od 3700 godina.",
     "source": "Wikipedia (en): Great Pyramid of Giza",
-    "tags": ["Egipat", "rekordi"],
+    "tags": [
+      "Egipat",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "film_tv-0033",
@@ -135,9 +162,12 @@
     "accept": [],
     "note": "Postavljen je 1923. kao privremena reklama za novo naselje.",
     "source": "Wikipedia (en): Hollywood Sign",
-    "tags": ["Hollywood", "znamenitosti"],
+    "tags": [
+      "Hollywood",
+      "znamenitosti"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0033",
@@ -149,9 +179,12 @@
     "accept": [],
     "note": "Okreće se vrlo sporo, pa dan na Veneri traje gotovo 117 zemaljskih dana.",
     "source": "Wikipedia (en): Venus",
-    "tags": ["svemir", "planeti"],
+    "tags": [
+      "svemir",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "science_tech-0034",
@@ -163,9 +196,12 @@
     "accept": [],
     "note": "Ime dolazi od grčke riječi za „užaren” ili „žareći”.",
     "source": "Wikipedia (en): Sirius",
-    "tags": ["svemir", "zvijezde"],
+    "tags": [
+      "svemir",
+      "zvijezde"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "general-0033",
@@ -177,9 +213,12 @@
     "accept": [],
     "note": "Studirao je kiparstvo i arhitekturu, a geometrijske modele gradio je iz hobija.",
     "source": "Wikipedia (en): Ernő Rubik",
-    "tags": ["igračke", "izumi"],
+    "tags": [
+      "igračke",
+      "izumi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "sport-0050",
@@ -191,9 +230,12 @@
     "accept": [],
     "note": "Astronaut Alan Shepard u misiji Apollo 14 udario je dvije loptice improviziranom palicom.",
     "source": "Wikipedia (en): Apollo 14",
-    "tags": ["golf", "svemir"],
+    "tags": [
+      "golf",
+      "svemir"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "geography-0035",
@@ -205,9 +247,12 @@
     "accept": [],
     "note": "Havajski Mauna Kea, mjeren od podnožja na dnu oceana, ima oko 9330 metara, više od Everestove visine nad morem.",
     "source": "Wikipedia (en): Mauna Kea",
-    "tags": ["planine", "rekordi"],
+    "tags": [
+      "planine",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "history-0035",
@@ -219,9 +264,12 @@
     "accept": [],
     "note": "Piramida je građena oko 2600. pr. Kr., a Kleopatra je umrla 30. pr. Kr., gotovo 2000 godina prije 1969.",
     "source": "Wikipedia (en): Cleopatra; Wikipedia (en): Great Pyramid of Giza",
-    "tags": ["Egipat", "vremenske crte"],
+    "tags": [
+      "Egipat",
+      "vremenske crte"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "history-0036",
@@ -233,9 +281,12 @@
     "accept": [],
     "note": "Tragovi poučavanja na Oxfordu sežu u 1096., a za osnutak Tenochtitlana uzima se 1325.",
     "source": "Wikipedia (en): University of Oxford; Wikipedia (en): Tenochtitlan",
-    "tags": ["vremenske crte", "srednji vijek"],
+    "tags": [
+      "vremenske crte",
+      "srednji vijek"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "nature-0036",
@@ -247,9 +298,12 @@
     "accept": [],
     "note": "Jagoda je zbirni plod, a sitne „sjemenke” na njoj zapravo su zasebni plodovi.",
     "source": "Wikipedia (en): Banana; Wikipedia (en): Strawberry",
-    "tags": ["biljke", "hrana"],
+    "tags": [
+      "biljke",
+      "hrana"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "culture-0033",
@@ -261,9 +315,13 @@
     "accept": [],
     "note": "Sagrađena je 1938., a Zagrepčani je zovu Meštrovićev paviljon.",
     "source": "Wikipedia (hr): Dom hrvatskih likovnih umjetnika",
-    "tags": ["arhitektura", "Zagreb", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Zagreb",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   },
   {
     "id": "language_literature-0034",
@@ -275,8 +333,11 @@
     "accept": [],
     "note": "Zaključke često zove „elementarnima”, a Watsona katkad „dragi moj Watsone”, ali tu rečenicu nikad ne izgovori.",
     "source": "Wikipedia (en): Elementary, my dear Watson",
-    "tags": ["likovi", "citati"],
+    "tags": [
+      "likovi",
+      "citati"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "review"
+    "status": "approved"
   }
 ]
