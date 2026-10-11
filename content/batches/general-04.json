@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Od kojeg se voća radi meksički umak guacamole?",
     "answer": "Od avokada",
-    "accept": ["Avokado"],
+    "accept": [
+      "Avokado"
+    ],
     "note": "Guacamole se prvi put pripremao u Meksiku.",
     "source": "Wikipedia (en): Guacamole",
-    "tags": ["hrana", "Meksiko"],
+    "tags": [
+      "hrana",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +25,15 @@
     "difficulty": 1,
     "question": "Kako se zove meksičko jelo od male tortilje presavijene oko nadjeva?",
     "answer": "Taco",
-    "accept": ["Tako"],
+    "accept": [
+      "Tako"
+    ],
     "note": "Tortilja može biti od kukuruznog ili pšeničnog brašna.",
     "source": "Wikipedia (en): Taco",
-    "tags": ["hrana", "Meksiko"],
+    "tags": [
+      "hrana",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,10 +44,15 @@
     "difficulty": 1,
     "question": "Kako se zove švicarsko jelo od otopljenog sira i vina u zajedničkoj posudi?",
     "answer": "Fondue",
-    "accept": ["Fondi"],
+    "accept": [
+      "Fondi"
+    ],
     "note": "Posuda se grije na malom plameniku, nekad i svijećom.",
     "source": "Wikipedia (en): Fondue",
-    "tags": ["hrana", "Švicarska"],
+    "tags": [
+      "hrana",
+      "Švicarska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +66,10 @@
     "accept": [],
     "note": "Sake se dobiva vrenjem polirane riže, pa ga zovu i japanskim rižinim vinom.",
     "source": "Wikipedia (en): Sake",
-    "tags": ["pića", "Japan"],
+    "tags": [
+      "pića",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +83,10 @@
     "accept": [],
     "note": "Nastao je u dolini rijeke Emme.",
     "source": "Wikipedia (en): Emmental cheese",
-    "tags": ["hrana", "Švicarska"],
+    "tags": [
+      "hrana",
+      "Švicarska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +100,10 @@
     "accept": [],
     "note": "Riječ je o Johnu Montaguu, četvrtom grofu od Sandwicha, iz 18. stoljeća.",
     "source": "Wikipedia (en): Sandwich",
-    "tags": ["hrana", "riječi"],
+    "tags": [
+      "hrana",
+      "riječi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,12 +114,18 @@
     "difficulty": 1,
     "question": "Koliko figura ima svaki igrač na početku šahovske partije?",
     "answer": "16",
-    "accept": ["Šesnaest"],
+    "accept": [
+      "Šesnaest"
+    ],
     "note": "Kralj, kraljica, dva topa, dva lovca, dva skakača i osam pješaka.",
     "source": "Wikipedia (en): Chess",
-    "tags": ["šah", "igre"],
+    "tags": [
+      "šah",
+      "igre"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0103",
@@ -104,10 +134,16 @@
     "difficulty": 2,
     "question": "Kako se zove umak od procijeđenog jogurta, krastavaca i češnjaka?",
     "answer": "Tzatziki",
-    "accept": ["Džadžiki", "Cacık"],
+    "accept": [
+      "Džadžiki",
+      "Cacık"
+    ],
     "note": "U turskoj kuhinji poznat je kao cacık.",
     "source": "Wikipedia (en): Tzatziki",
-    "tags": ["hrana", "Grčka"],
+    "tags": [
+      "hrana",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +154,15 @@
     "difficulty": 2,
     "question": "Što doslovno znači talijanski izraz al dente, kojim se opisuje tjestenina?",
     "answer": "Na zub",
-    "accept": ["Za zub"],
+    "accept": [
+      "Za zub"
+    ],
     "note": "Tako kuhana tjestenina ostaje čvrsta pod zubom.",
     "source": "Wikipedia (en): Al dente",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Kako se zove japanski specijalitet od tanko narezane sirove ribe, bez riže?",
     "answer": "Sašimi",
-    "accept": ["Sashimi"],
+    "accept": [
+      "Sashimi"
+    ],
     "note": "Riječ doslovno znači „probodeno tijelo”.",
     "source": "Wikipedia (en): Sashimi",
-    "tags": ["hrana", "Japan"],
+    "tags": [
+      "hrana",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +195,10 @@
     "accept": [],
     "note": "Vjerojatno potječu od kolačića japanskih useljenika u Kaliforniji.",
     "source": "Wikipedia (en): Fortune cookie",
-    "tags": ["hrana", "zablude"],
+    "tags": [
+      "hrana",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +212,10 @@
     "accept": [],
     "note": "Proizvodi ga tvrtka McIlhenny s otoka Avery u Louisiani, od 1868.",
     "source": "Wikipedia (en): Tabasco sauce",
-    "tags": ["hrana", "SAD"],
+    "tags": [
+      "hrana",
+      "SAD"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +229,10 @@
     "accept": [],
     "note": "Izmislio ju je u Kanadi Sam Panopoulos, Kanađanin grčkog podrijetla.",
     "source": "Wikipedia (en): Hawaiian pizza",
-    "tags": ["hrana", "zablude"],
+    "tags": [
+      "hrana",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +246,10 @@
     "accept": [],
     "note": "Rokfor je plavi sir od ovčjeg mlijeka, koji mora dozrijevati u špiljama Combalou.",
     "source": "Wikipedia (en): Roquefort",
-    "tags": ["hrana", "Francuska"],
+    "tags": [
+      "hrana",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +263,10 @@
     "accept": [],
     "note": "Djeluje poticajno ponajprije zbog kofeina.",
     "source": "Wikipedia (en): Tea",
-    "tags": ["pića", "rekordi"],
+    "tags": [
+      "pića",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +280,10 @@
     "accept": [],
     "note": "Ime je dobio po obliku polumjeseca.",
     "source": "Wikipedia (en): Croissant",
-    "tags": ["hrana", "Francuska"],
+    "tags": [
+      "hrana",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +294,15 @@
     "difficulty": 2,
     "question": "Koliko polja ima ploča igre Monopoly?",
     "answer": "40",
-    "accept": ["Četrdeset"],
+    "accept": [
+      "Četrdeset"
+    ],
     "note": "Od toga je 28 posjeda: 22 ulice, četiri željezničke stanice i dva komunalna poduzeća.",
     "source": "Wikipedia (en): Monopoly (game)",
-    "tags": ["društvene igre", "brojevi"],
+    "tags": [
+      "društvene igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +313,15 @@
     "difficulty": 2,
     "question": "Koliko karata ima špil igre Uno?",
     "answer": "108",
-    "accept": ["Sto osam"],
+    "accept": [
+      "Sto osam"
+    ],
     "note": "Svaka od četiri boje ima 25 karata.",
     "source": "Wikipedia (en): Uno (card game)",
-    "tags": ["kartaške igre", "brojevi"],
+    "tags": [
+      "kartaške igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +335,10 @@
     "accept": [],
     "note": "Recept se povezuje s Keltima koji su nekad živjeli u Istri.",
     "source": "Wikipedia (hr): Biska",
-    "tags": ["pića", "Hrvatska"],
+    "tags": [
+      "pića",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +349,16 @@
     "difficulty": 3,
     "question": "Kako se zove jelo sinjskog kraja, slično sarmi, koje se priprema za Sinjsku alku i blagdane?",
     "answer": "Sinjski arambaši",
-    "accept": ["Arambaši", "Arambašići"],
+    "accept": [
+      "Arambaši",
+      "Arambašići"
+    ],
     "note": "Meso za nadjev sitno se sjecka nožem.",
     "source": "Wikipedia (hr): Arambašići",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -289,7 +372,10 @@
     "accept": [],
     "note": "Upisana je u Guinnessovu knjigu rekorda, a neprekidno se koristi od 1625.",
     "source": "Wikipedia (en): Flag of Denmark",
-    "tags": ["zastave", "rekordi"],
+    "tags": [
+      "zastave",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +386,15 @@
     "difficulty": 3,
     "question": "Koliko pločica ima tradicionalni europski set domina?",
     "answer": "28",
-    "accept": ["Dvadeset osam"],
+    "accept": [
+      "Dvadeset osam"
+    ],
     "note": "Pločice sadrže sve kombinacije od nula do šest točkica.",
     "source": "Wikipedia (en): Dominoes",
-    "tags": ["igre", "brojevi"],
+    "tags": [
+      "igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +405,17 @@
     "difficulty": 3,
     "question": "Koliko litara ima jedan američki galon?",
     "answer": "3,785",
-    "accept": ["3,79", "3,785 L", "Oko 3,8 litara"],
+    "accept": [
+      "3,79",
+      "3,785 L",
+      "Oko 3,8 litara"
+    ],
     "note": "Britanski galon nešto je veći.",
     "source": "Wikipedia (en): Gallon",
-    "tags": ["mjerne jedinice", "brojevi"],
+    "tags": [
+      "mjerne jedinice",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +426,17 @@
     "difficulty": 3,
     "question": "Koliko grama ima jedna funta?",
     "answer": "453,6 g",
-    "accept": ["453,59", "454", "453,6"],
+    "accept": [
+      "453,59",
+      "454",
+      "453,6"
+    ],
     "note": "Funta je zakonski definirana kao točno 0,45359237 kilograma i ima 16 unča.",
     "source": "Wikipedia (en): Pound (mass)",
-    "tags": ["mjerne jedinice", "brojevi"],
+    "tags": [
+      "mjerne jedinice",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

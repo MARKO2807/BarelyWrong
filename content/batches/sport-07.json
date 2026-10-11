@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "U kojem se sportu postiže „home run”, kad udarač loptom obiđe sve baze?",
     "answer": "Bejzbol",
-    "accept": ["baseball"],
+    "accept": [
+      "baseball"
+    ],
     "note": "Home run se najčešće postiže udarcem preko ograde igrališta.",
     "source": "Wikipedia (en): Home run",
-    "tags": ["bejzbol", "pravila"],
+    "tags": [
+      "bejzbol",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +25,18 @@
     "difficulty": 1,
     "question": "U kojem se sportu meč sastoji od poena, gemova i setova?",
     "answer": "Tenis",
-    "accept": ["tenisu"],
+    "accept": [
+      "tenisu"
+    ],
     "note": "Set ima najmanje šest gemova.",
     "source": "Wikipedia (en): Tennis scoring",
-    "tags": ["tenis", "pravila"],
+    "tags": [
+      "tenis",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0160",
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "U kojem se sportu igra Super Bowl, završna utakmica sezone lige NFL?",
     "answer": "Američki nogomet",
-    "accept": ["američkom nogometu"],
+    "accept": [
+      "američkom nogometu"
+    ],
     "note": "Super Bowl je završna utakmica svake sezone NFL-a od 1966.",
     "source": "Wikipedia (en): Super Bowl",
-    "tags": ["SAD", "finala"],
+    "tags": [
+      "SAD",
+      "finala"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +64,16 @@
     "difficulty": 1,
     "question": "Ragbijaška reprezentacija koje zemlje prije utakmica izvodi maorski ples haka?",
     "answer": "Novi Zeland",
-    "accept": ["Novog Zelanda", "All Blacks"],
+    "accept": [
+      "Novog Zelanda",
+      "All Blacks"
+    ],
     "note": "Reprezentacija, poznata kao All Blacks, tu tradiciju njeguje od 1905.",
     "source": "Wikipedia (en): Haka",
-    "tags": ["ragbi", "tradicije"],
+    "tags": [
+      "ragbi",
+      "tradicije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +87,10 @@
     "accept": [],
     "note": "Na bodovnom listiću označava se slovom X.",
     "source": "Wikipedia (en): Strike (bowling)",
-    "tags": ["kuglanje", "pojmovi"],
+    "tags": [
+      "kuglanje",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,12 +101,18 @@
     "difficulty": 1,
     "question": "Koje boje karton sudac pokazuje kad isključuje igrača?",
     "answer": "Crveni",
-    "accept": ["crveni karton"],
+    "accept": [
+      "crveni karton"
+    ],
     "note": "Ideju o kartonima kao jeziku razumljivom svima dao je engleski sudac Ken Aston.",
     "source": "Wikipedia (en): Penalty card",
-    "tags": ["nogomet", "pravila"],
+    "tags": [
+      "nogomet",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0164",
@@ -90,10 +121,15 @@
     "difficulty": 2,
     "question": "Koji je tenisač rekordnih 14 puta osvojio Roland Garros?",
     "answer": "Rafael Nadal",
-    "accept": ["Nadal"],
+    "accept": [
+      "Nadal"
+    ],
     "note": "Ukupno je osvojio 22 Grand Slam turnira.",
     "source": "Wikipedia (en): Rafael Nadal",
-    "tags": ["tenis", "rekordi"],
+    "tags": [
+      "tenis",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +140,15 @@
     "difficulty": 2,
     "question": "U kojem je momčadskom sportu Hrvatska postala olimpijski prvak 2012.?",
     "answer": "Vaterpolo",
-    "accept": ["vaterpolu"],
+    "accept": [
+      "vaterpolu"
+    ],
     "note": "Ista reprezentacija tri je puta bila svjetski prvak: 2007., 2017. i 2024.",
     "source": "Wikipedia (en): Croatia men's national water polo team",
-    "tags": ["Hrvatska", "Olimpijske igre"],
+    "tags": [
+      "Hrvatska",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +159,15 @@
     "difficulty": 2,
     "question": "Koji je brazilski vozač Formule 1 poginuo 1994. na Velikoj nagradi San Marina u Imoli?",
     "answer": "Ayrton Senna",
-    "accept": ["Senna"],
+    "accept": [
+      "Senna"
+    ],
     "note": "U trenutku nesreće vodio je u utrci.",
     "source": "Wikipedia (en): Ayrton Senna",
-    "tags": ["Formula 1", "vozači"],
+    "tags": [
+      "Formula 1",
+      "vozači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +178,15 @@
     "difficulty": 2,
     "question": "Koliko minuta traje regularno vrijeme utakmice u NBA ligi?",
     "answer": "48",
-    "accept": ["48 minuta"],
+    "accept": [
+      "48 minuta"
+    ],
     "note": "Igraju se četiri četvrtine po 12 minuta, a u FIBA-inim pravilima po 10.",
     "source": "Wikipedia (en): Basketball",
-    "tags": ["košarka", "pravila"],
+    "tags": [
+      "košarka",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +197,15 @@
     "difficulty": 2,
     "question": "Koliko grama najviše smije težiti nogometna lopta prema pravilima?",
     "answer": "450 g",
-    "accept": ["450"],
+    "accept": [
+      "450"
+    ],
     "note": "Propisana masa je 410–450 g, a opseg 68–70 cm.",
     "source": "Wikipedia (en): Ball (association football)",
-    "tags": ["nogomet", "pravila"],
+    "tags": [
+      "nogomet",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +216,16 @@
     "difficulty": 2,
     "question": "Po kojem se bivšem igraču i predsjedniku kluba zove madridski stadion na kojem njegov klub igra od 1947.?",
     "answer": "Santiago Bernabéu",
-    "accept": ["Bernabéu", "Bernabeu"],
+    "accept": [
+      "Bernabéu",
+      "Bernabeu"
+    ],
     "note": "Po kapacitetu je drugi nogometni stadion u Španjolskoj, nakon barcelonskog Camp Noua.",
     "source": "Wikipedia (en): Santiago Bernabéu Stadium",
-    "tags": ["nogomet", "stadioni"],
+    "tags": [
+      "nogomet",
+      "stadioni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +236,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski nogometaš u finalu SP-a 2018. zabio i autogol i gol za Hrvatsku?",
     "answer": "Mario Mandžukić",
-    "accept": ["Mandžukić"],
+    "accept": [
+      "Mandžukić"
+    ],
     "note": "Bio je to prvi autogol u nekom finalu Svjetskog prvenstva.",
     "source": "Wikipedia (en): 2018 FIFA World Cup final",
-    "tags": ["Hrvatska", "Svjetsko prvenstvo"],
+    "tags": [
+      "Hrvatska",
+      "Svjetsko prvenstvo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +255,15 @@
     "difficulty": 2,
     "question": "Koji je kenijski trkač 2019. u Beču prvi istrčao maratonsku dionicu brže od dva sata?",
     "answer": "Eliud Kipchoge",
-    "accept": ["Kipchoge"],
+    "accept": [
+      "Kipchoge"
+    ],
     "note": "Istrčao ju je za 1:59:40 u bečkom parku Prater; vrijeme se nije priznalo kao službeni rekord.",
     "source": "Wikipedia (en): Eliud Kipchoge",
-    "tags": ["atletika", "rekordi"],
+    "tags": [
+      "atletika",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +277,10 @@
     "accept": [],
     "note": "Umjetnička natjecanja bila su dio igara od 1912. do 1948.",
     "source": "Wikipedia (en): Art competitions at the Summer Olympics",
-    "tags": ["Olimpijske igre", "umjetnost"],
+    "tags": [
+      "Olimpijske igre",
+      "umjetnost"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +291,15 @@
     "difficulty": 2,
     "question": "Kako se zove stadion HNK Rijeke?",
     "answer": "Rujevica",
-    "accept": ["Stadion Rujevica"],
+    "accept": [
+      "Stadion Rujevica"
+    ],
     "note": "Službeno se zove Stadion HNK Rijeka.",
     "source": "Wikipedia (en): Stadion Rujevica",
-    "tags": ["Hrvatska", "stadioni"],
+    "tags": [
+      "Hrvatska",
+      "stadioni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +310,15 @@
     "difficulty": 3,
     "question": "Koja je hrvatska tekvondoašica osvojila olimpijsko zlato na Igrama u Tokiju, u kategoriji do 67 kg?",
     "answer": "Matea Jelić",
-    "accept": ["Jelić"],
+    "accept": [
+      "Jelić"
+    ],
     "note": "Godinu kasnije osvojila je zlato i na Mediteranskim igrama u Oranu.",
     "source": "Wikipedia (en): Matea Jelić",
-    "tags": ["Hrvatska", "tekvondo"],
+    "tags": [
+      "Hrvatska",
+      "tekvondo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +329,16 @@
     "difficulty": 3,
     "question": "Kako se zove trofej Svjetskog prvenstva u ragbiju, nazvan po čovjeku kojemu se pripisuje izum ragbija?",
     "answer": "Webb Ellis Cup",
-    "accept": ["Pehar Webba Ellisa", "Webb Ellis"],
+    "accept": [
+      "Pehar Webba Ellisa",
+      "Webb Ellis"
+    ],
     "note": "Dodjeljuje se od prvog prvenstva, 1987.",
     "source": "Wikipedia (en): Webb Ellis Cup",
-    "tags": ["ragbi", "trofeji"],
+    "tags": [
+      "ragbi",
+      "trofeji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +349,15 @@
     "difficulty": 3,
     "question": "Koja dva sveučilišta od 1829. na Temzi veslaju u utrci poznatoj kao The Boat Race?",
     "answer": "Oxford i Cambridge",
-    "accept": ["Cambridge i Oxford"],
+    "accept": [
+      "Cambridge i Oxford"
+    ],
     "note": "Tradiciju je pokrenuo Charles Merivale, student s Cambridgea.",
     "source": "Wikipedia (en): The Boat Race",
-    "tags": ["veslanje", "tradicije"],
+    "tags": [
+      "veslanje",
+      "tradicije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +368,15 @@
     "difficulty": 3,
     "question": "Tko je pobijedio na prvom Tour de Franceu, 1903.?",
     "answer": "Maurice Garin",
-    "accept": ["Garin"],
+    "accept": [
+      "Garin"
+    ],
     "note": "Na drugom Touru oduzeta mu je titula.",
     "source": "Wikipedia (en): Maurice Garin",
-    "tags": ["biciklizam", "povijest sporta"],
+    "tags": [
+      "biciklizam",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

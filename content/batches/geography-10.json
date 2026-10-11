@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Po površini je sedma država na svijetu.",
     "source": "Wikipedia (en): India",
-    "tags": ["države", "Azija"],
+    "tags": [
+      "države",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,16 @@
     "difficulty": 1,
     "question": "Koja je najveća kopnena vodena površina na svijetu, koja se naziva i najvećim jezerom?",
     "answer": "Kaspijsko jezero",
-    "accept": ["Kaspijsko more", "Kaspij"],
+    "accept": [
+      "Kaspijsko more",
+      "Kaspij"
+    ],
     "note": "Leži i u Europi i u Aziji, istočno od Kavkaza.",
     "source": "Wikipedia (en): Caspian Sea",
-    "tags": ["jezera", "rekordi"],
+    "tags": [
+      "jezera",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +43,15 @@
     "difficulty": 1,
     "question": "Koji azijski planinski lanac odvaja Indijski potkontinent od Tibetske visoravni?",
     "answer": "Himalaja",
-    "accept": ["Himalaje"],
+    "accept": [
+      "Himalaje"
+    ],
     "note": "U njemu je više od 100 vrhova viših od 7200 metara.",
     "source": "Wikipedia (en): Himalayas",
-    "tags": ["planine", "Azija"],
+    "tags": [
+      "planine",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,12 +62,18 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Poljske?",
     "answer": "Varšava",
-    "accept": ["Warszawa"],
+    "accept": [
+      "Warszawa"
+    ],
     "note": "Leži na rijeci Visli.",
     "source": "Wikipedia (en): Warsaw",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0226",
@@ -65,7 +85,10 @@
     "accept": [],
     "note": "Službeni je naziv Republika Kuba.",
     "source": "Wikipedia (en): Cuba",
-    "tags": ["države", "Karibi"],
+    "tags": [
+      "države",
+      "Karibi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -79,7 +102,10 @@
     "accept": [],
     "note": "Dva su glavna otoka Malta i Gozo.",
     "source": "Wikipedia (en): Malta",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +116,16 @@
     "difficulty": 2,
     "question": "Koja rijeka izvire u švicarskom kantonu Graubünden i protječe kroz Bodensko jezero?",
     "answer": "Rajna",
-    "accept": ["Rhein", "Rhine"],
+    "accept": [
+      "Rhein",
+      "Rhine"
+    ],
     "note": "Čini i dio švicarsko-austrijske granice.",
     "source": "Wikipedia (en): Rhine",
-    "tags": ["rijeke", "Europa"],
+    "tags": [
+      "rijeke",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +136,15 @@
     "difficulty": 2,
     "question": "Koja rijeka teče od jezera Itasca u Minnesoti do Meksičkog zaljeva?",
     "answer": "Mississippi",
-    "accept": ["Misisipi"],
+    "accept": [
+      "Misisipi"
+    ],
     "note": "Druga je po duljini rijeka u SAD-u, nakon Missourija.",
     "source": "Wikipedia (en): Mississippi River",
-    "tags": ["rijeke", "Sjeverna Amerika"],
+    "tags": [
+      "rijeke",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +158,10 @@
     "accept": [],
     "note": "Proteže se kroz srednju i jugoistočnu Europu.",
     "source": "Wikipedia (en): Carpathian Mountains",
-    "tags": ["planine", "Europa"],
+    "tags": [
+      "planine",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +175,10 @@
     "accept": [],
     "note": "Službeni joj je naziv Savezna Demokratska Republika Etiopija.",
     "source": "Wikipedia (en): Ethiopia",
-    "tags": ["države", "Afrika"],
+    "tags": [
+      "države",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +192,10 @@
     "accept": [],
     "note": "Talijanski se zove Monte Maggiore.",
     "source": "Wikipedia (en): Učka",
-    "tags": ["planine", "Hrvatska"],
+    "tags": [
+      "planine",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +209,10 @@
     "accept": [],
     "note": "Službeni joj je naziv Republika San Marino.",
     "source": "Wikipedia (en): San Marino",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +223,15 @@
     "difficulty": 2,
     "question": "Koja europska država službeno nosi naziv Veliko Vojvodstvo?",
     "answer": "Luksemburg",
-    "accept": ["Luxembourg"],
+    "accept": [
+      "Luxembourg"
+    ],
     "note": "U glavnom gradu sjedište je Suda Europske unije.",
     "source": "Wikipedia (en): Luxembourg",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +245,10 @@
     "accept": [],
     "note": "Glavni i najveći grad je Mogadišu.",
     "source": "Wikipedia (en): Somalia",
-    "tags": ["države", "Afrika"],
+    "tags": [
+      "države",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +262,10 @@
     "accept": [],
     "note": "Portugalci su Cap-Vert kolonizirali početkom 15. stoljeća.",
     "source": "Wikipedia (en): Dakar",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -219,7 +279,10 @@
     "accept": [],
     "note": "Feničanima se pripisuje najstarije potvrđeno pismo.",
     "source": "Wikipedia (en): Lebanon",
-    "tags": ["države", "Azija"],
+    "tags": [
+      "države",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +293,15 @@
     "difficulty": 3,
     "question": "Koja rijeka dužinom od 118 kilometara čini granicu Hrvatske i Slovenije?",
     "answer": "Kupa",
-    "accept": ["Kolpa"],
+    "accept": [
+      "Kolpa"
+    ],
     "note": "Rimljani su je zvali Colapis.",
     "source": "Wikipedia (en): Kupa (river)",
-    "tags": ["rijeke", "Hrvatska"],
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +312,15 @@
     "difficulty": 3,
     "question": "Koji je otočić uz sjevernu obalu Grenlanda najsjevernija neosporna točka kopna na svijetu?",
     "answer": "Kaffeklubben",
-    "accept": ["otok Kaffeklubben"],
+    "accept": [
+      "otok Kaffeklubben"
+    ],
     "note": "Glavni i najveći grad Grenlanda je Nuuk.",
     "source": "Wikipedia (en): Greenland",
-    "tags": ["otoci", "rekordi"],
+    "tags": [
+      "otoci",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +334,10 @@
     "accept": [],
     "note": "Na sjeverozapadu su visoravni Madhupur i Barind.",
     "source": "Wikipedia (en): Bangladesh",
-    "tags": ["države", "Azija"],
+    "tags": [
+      "države",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +348,16 @@
     "difficulty": 3,
     "question": "Oko kojeg su se pustog arktičkog otočića u Naresovu tjesnacu dvije države desetljećima sporile u tzv. „Viskijevu ratu”?",
     "answer": "Hansov otok",
-    "accept": ["Hans", "Hans Ø"],
+    "accept": [
+      "Hans",
+      "Hans Ø"
+    ],
     "note": "Otok je nenaseljen, a najviša mu je točka na oko 168 metara.",
     "source": "Wikipedia (en): Hans Island",
-    "tags": ["otoci", "granice"],
+    "tags": [
+      "otoci",
+      "granice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

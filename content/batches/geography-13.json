@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji glavni grad leži na ušću Save u Dunav?",
     "answer": "Beograd",
-    "accept": ["Belgrade"],
+    "accept": [
+      "Belgrade"
+    ],
     "note": "Ime doslovno znači „bijeli grad”.",
     "source": "Wikipedia (en): Belgrade",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +25,15 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Irana?",
     "answer": "Teheran",
-    "accept": ["Tehran"],
+    "accept": [
+      "Tehran"
+    ],
     "note": "Ujedno je i središte istoimene pokrajine.",
     "source": "Wikipedia (en): Tehran",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Kube?",
     "answer": "Havana",
-    "accept": ["La Habana"],
+    "accept": [
+      "La Habana"
+    ],
     "note": "Glavna je luka i trgovačko središte države.",
     "source": "Wikipedia (en): Havana",
-    "tags": ["glavni gradovi", "Karibi"],
+    "tags": [
+      "glavni gradovi",
+      "Karibi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0285",
@@ -51,7 +67,10 @@
     "accept": [],
     "note": "Po broju stanovnika drugi je grad u državi, iza Quezon Cityja.",
     "source": "Wikipedia (en): Manila",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +81,15 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Čilea?",
     "answer": "Santiago",
-    "accept": ["Santiago de Chile"],
+    "accept": [
+      "Santiago de Chile"
+    ],
     "note": "Leži u čileanskoj Središnjoj dolini.",
     "source": "Wikipedia (en): Santiago",
-    "tags": ["glavni gradovi", "Južna Amerika"],
+    "tags": [
+      "glavni gradovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +100,16 @@
     "difficulty": 2,
     "question": "Koji glavni grad leži na rijeci Dâmboviți, na jugoistoku svoje države?",
     "answer": "Bukurešt",
-    "accept": ["Bucharest", "București"],
+    "accept": [
+      "Bucharest",
+      "București"
+    ],
     "note": "Glavni je i najveći grad Rumunjske.",
     "source": "Wikipedia (en): Bucharest",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +123,10 @@
     "accept": [],
     "note": "Smješten je u središtu države.",
     "source": "Wikipedia (en): Tirana",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +140,10 @@
     "accept": [],
     "note": "Ima oko 620 000 stanovnika.",
     "source": "Wikipedia (en): Vilnius",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +154,15 @@
     "difficulty": 2,
     "question": "Koji je glavni grad Gane, na obali Gvinejskog zaljeva?",
     "answer": "Akra",
-    "accept": ["Accra"],
+    "accept": [
+      "Accra"
+    ],
     "note": "Gvinejski zaljev dio je Atlantskog oceana.",
     "source": "Wikipedia (en): Accra",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +173,16 @@
     "difficulty": 2,
     "question": "Koji je glavni grad Saudijske Arabije, na istočnoj obali Wadi Hanife?",
     "answer": "Rijad",
-    "accept": ["Riyadh", "Er Rijad"],
+    "accept": [
+      "Riyadh",
+      "Er Rijad"
+    ],
     "note": "Ujedno je i središte istoimene pokrajine.",
     "source": "Wikipedia (en): Riyadh",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +196,10 @@
     "accept": [],
     "note": "Glavno je financijsko središte države.",
     "source": "Wikipedia (en): Doha",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +213,10 @@
     "accept": [],
     "note": "Leži u istočnoj polovici države.",
     "source": "Wikipedia (en): Kabul",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +227,15 @@
     "difficulty": 2,
     "question": "Koji je glavni grad Sjeverne Koreje, na rijeci Taedong?",
     "answer": "Pjongjang",
-    "accept": ["Pyongyang"],
+    "accept": [
+      "Pyongyang"
+    ],
     "note": "Prema popisu iz 2008. imao je oko 3,26 milijuna stanovnika.",
     "source": "Wikipedia (en): Pyongyang",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +246,16 @@
     "difficulty": 2,
     "question": "Koji je glavni grad Ekvadora, u dolini na istočnim obroncima vulkana Pichincha?",
     "answer": "Quito",
-    "accept": ["Kito", "San Francisco de Quito"],
+    "accept": [
+      "Kito",
+      "San Francisco de Quito"
+    ],
     "note": "Drugi je grad po veličini u državi.",
     "source": "Wikipedia (en): Quito",
-    "tags": ["glavni gradovi", "Južna Amerika"],
+    "tags": [
+      "glavni gradovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +266,16 @@
     "difficulty": 2,
     "question": "Koji je afrički glavni grad, čije ime na amharskom znači „novi cvijet”?",
     "answer": "Adis Abeba",
-    "accept": ["Addis Ababa", "Addis Abeba"],
+    "accept": [
+      "Addis Ababa",
+      "Addis Abeba"
+    ],
     "note": "Na jeziku oromo zove se Finfinnee.",
     "source": "Wikipedia (en): Addis Ababa",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +286,17 @@
     "difficulty": 3,
     "question": "Koji je glavni i najveći grad Moldavije?",
     "answer": "Kišinjev",
-    "accept": ["Chișinău", "Kišinev", "Chisinau"],
+    "accept": [
+      "Chișinău",
+      "Kišinev",
+      "Chisinau"
+    ],
     "note": "Glavno je industrijsko i trgovačko središte države.",
     "source": "Wikipedia (en): Chișinău",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -233,7 +310,10 @@
     "accept": [],
     "note": "Ujedno ima status pokrajine.",
     "source": "Wikipedia (en): Kigali",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +324,15 @@
     "difficulty": 3,
     "question": "Koji je glavni grad Paragvaja, na istočnoj obali istoimene rijeke?",
     "answer": "Asunción",
-    "accept": ["Asuncion"],
+    "accept": [
+      "Asuncion"
+    ],
     "note": "Na gvaranskom se grad zove Paraguay.",
     "source": "Wikipedia (en): Asunción",
-    "tags": ["glavni gradovi", "Južna Amerika"],
+    "tags": [
+      "glavni gradovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +343,15 @@
     "difficulty": 3,
     "question": "Koji je glavni grad Namibije, na visoravni Khomas na oko 1700 metara?",
     "answer": "Windhoek",
-    "accept": ["Vindhuk"],
+    "accept": [
+      "Vindhuk"
+    ],
     "note": "Leži u zemljopisnom središtu države.",
     "source": "Wikipedia (en): Windhoek",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +362,15 @@
     "difficulty": 3,
     "question": "Koji je glavni i najmnogoljudniji grad Omana?",
     "answer": "Maskat",
-    "accept": ["Muscat"],
+    "accept": [
+      "Muscat"
+    ],
     "note": "Sjedište je istoimene pokrajine.",
     "source": "Wikipedia (en): Muscat",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

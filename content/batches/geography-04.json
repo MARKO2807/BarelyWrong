@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Grad leži na kraju Oslofjorda.",
     "source": "Wikipedia (en): Oslo",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0105",
@@ -20,10 +24,16 @@
     "difficulty": 1,
     "question": "Koja je najviša planina Japana?",
     "answer": "Fuji",
-    "accept": ["Fujiyama", "Fudži"],
+    "accept": [
+      "Fujiyama",
+      "Fudži"
+    ],
     "note": "Riječ je o aktivnom stratovulkanu visokom 3776 m.",
     "source": "Wikipedia (en): Mount Fuji",
-    "tags": ["planine", "Azija"],
+    "tags": [
+      "planine",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,7 +47,10 @@
     "accept": [],
     "note": "Istanbul je najveći turski grad, a glavni je grad Ankara.",
     "source": "Wikipedia (en): Ankara",
-    "tags": ["glavni gradovi", "zablude"],
+    "tags": [
+      "glavni gradovi",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +64,10 @@
     "accept": [],
     "note": "Točan broj ovisi o definiciji, a zajedno zauzimaju oko 3300 km².",
     "source": "Wikipedia (en): List of islands of Croatia",
-    "tags": ["otoci", "Hrvatska"],
+    "tags": [
+      "otoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +81,10 @@
     "accept": [],
     "note": "Službeni naziv države na španjolskom znači „Republika Ekvator”.",
     "source": "Wikipedia (en): Ecuador",
-    "tags": ["države", "Južna Amerika"],
+    "tags": [
+      "države",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +98,10 @@
     "accept": [],
     "note": "Ima 16 saveznih zemalja i više od 83 milijuna stanovnika.",
     "source": "Wikipedia (en): Germany",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +115,10 @@
     "accept": [],
     "note": "Grad se poslije proširio sve do Mrežnice i Dobre.",
     "source": "Wikipedia (en): Karlovac",
-    "tags": ["gradovi", "Hrvatska"],
+    "tags": [
+      "gradovi",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -107,7 +132,10 @@
     "accept": [],
     "note": "Kod Neuma ima jedini izlaz na Jadransko more.",
     "source": "Wikipedia (en): Neum",
-    "tags": ["države", "susjedstvo"],
+    "tags": [
+      "države",
+      "susjedstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -121,7 +149,10 @@
     "accept": [],
     "note": "Nikad nije bio članica EU-a, ali je u Europskom gospodarskom prostoru.",
     "source": "Wikipedia (en): Iceland",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +166,10 @@
     "accept": [],
     "note": "Ulijeva se u Sredozemno more.",
     "source": "Wikipedia (en): Nile",
-    "tags": ["rijeke", "Afrika"],
+    "tags": [
+      "rijeke",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +180,15 @@
     "difficulty": 2,
     "question": "Koliko u Africi ima priznatih suverenih država?",
     "answer": "54",
-    "accept": ["Pedeset četiri"],
+    "accept": [
+      "Pedeset četiri"
+    ],
     "note": "Kontinentu se pribrajaju i brojna okolna otočja.",
     "source": "Wikipedia (en): Africa",
-    "tags": ["Afrika", "brojevi"],
+    "tags": [
+      "Afrika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +199,15 @@
     "difficulty": 2,
     "question": "Koliko vremenskih zona ima Rusija?",
     "answer": "11",
-    "accept": ["Jedanaest"],
+    "accept": [
+      "Jedanaest"
+    ],
     "note": "Ljetno se računanje vremena u Rusiji ne koristi od 26. listopada 2014.",
     "source": "Wikipedia (en): Time in Russia",
-    "tags": ["Rusija", "brojevi"],
+    "tags": [
+      "Rusija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +218,16 @@
     "difficulty": 3,
     "question": "Kako se zove tjesnac koji čini granicu između Danske i Švedske?",
     "answer": "Øresund",
-    "accept": ["Öresund", "Oresund"],
+    "accept": [
+      "Öresund",
+      "Oresund"
+    ],
     "note": "Dug je 118 km, a širok od 4 do 28 km.",
     "source": "Wikipedia (en): Øresund",
-    "tags": ["tjesnaci", "Europa"],
+    "tags": [
+      "tjesnaci",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +241,10 @@
     "accept": [],
     "note": "Slanost mu je oko 1,2 %, otprilike trećina slanosti oceana.",
     "source": "Wikipedia (en): Caspian Sea",
-    "tags": ["jezera", "Azija"],
+    "tags": [
+      "jezera",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +258,10 @@
     "accept": [],
     "note": "To su Beč, Bratislava, Budimpešta i Beograd.",
     "source": "Wikipedia (en): Danube",
-    "tags": ["rijeke", "Europa"],
+    "tags": [
+      "rijeke",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +272,17 @@
     "difficulty": 3,
     "question": "Koliko je metara visok Mount Everest, prema mjerenju iz 2020.?",
     "answer": "8849 m",
-    "accept": ["8848,86 m", "8849", "8848"],
+    "accept": [
+      "8848,86 m",
+      "8849",
+      "8848"
+    ],
     "note": "Izmjerili su ga zajedno nepalske i kineske vlasti.",
     "source": "Wikipedia (en): Mount Everest",
-    "tags": ["planine", "brojevi"],
+    "tags": [
+      "planine",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +293,16 @@
     "difficulty": 3,
     "question": "Koliko je kilometara duga kopnena obala Hrvatske?",
     "answer": "1777 km",
-    "accept": ["1777,3 km", "1777"],
+    "accept": [
+      "1777,3 km",
+      "1777"
+    ],
     "note": "Otoci i otočići imaju još 4058 km obale.",
     "source": "Wikipedia (en): Geography of Croatia",
-    "tags": ["Hrvatska", "brojevi"],
+    "tags": [
+      "Hrvatska",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

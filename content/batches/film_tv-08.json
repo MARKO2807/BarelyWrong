@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Kako se zove sport koji čarobnjaci u serijalu o Harryju Potteru igraju leteći na metlama?",
     "answer": "Quidditch",
-    "accept": ["metloboj", "kvidič"],
+    "accept": [
+      "metloboj",
+      "kvidič"
+    ],
     "note": "U knjigama je prikazan kao opasan, ali vrlo popularan sport.",
     "source": "Wikipedia (en): Quidditch",
-    "tags": ["fantastika", "sport"],
+    "tags": [
+      "fantastika",
+      "sport"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Na koji se njujorški neboder na kraju filma iz 1933. penje divovski gorila King Kong?",
     "answer": "Empire State Building",
-    "accept": ["Empire State"],
+    "accept": [
+      "Empire State"
+    ],
     "note": "Na vrhu nebodera drži junakinju Ann.",
     "source": "Wikipedia (en): King Kong (1933 film)",
-    "tags": ["klasici", "čudovišta"],
+    "tags": [
+      "klasici",
+      "čudovišta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Koji Marvelov superjunak u stvarnosti je milijarder Tony Stark?",
     "answer": "Iron Man",
-    "accept": ["Željezni čovjek"],
+    "accept": [
+      "Željezni čovjek"
+    ],
     "note": "U filmu iz 2008. glumio ga je Robert Downey Jr.",
     "source": "Wikipedia (en): Iron Man",
-    "tags": ["Marvel", "superjunaci"],
+    "tags": [
+      "Marvel",
+      "superjunaci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,12 +64,19 @@
     "difficulty": 1,
     "question": "Kako se zove žuta morska spužva koja živi u ananasu na dnu mora?",
     "answer": "Spužva Bob",
-    "accept": ["SpongeBob", "Spužva Bob Skockani"],
+    "accept": [
+      "SpongeBob",
+      "Spužva Bob Skockani"
+    ],
     "note": "Živi u podmorskom gradu Bikini Bottom.",
     "source": "Wikipedia (en): SpongeBob SquarePants",
-    "tags": ["animirane serije", "likovi"],
+    "tags": [
+      "animirane serije",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0185",
@@ -62,10 +85,15 @@
     "difficulty": 1,
     "question": "Kako se zove mali zeleni majstor Jedija koji Lukea Skywalkera obučava na planetu Dagobah?",
     "answer": "Yoda",
-    "accept": ["Joda"],
+    "accept": [
+      "Joda"
+    ],
     "note": "Prvi se put pojavio 1980., a glas mu je dao i lutkom upravljao Frank Oz.",
     "source": "Wikipedia (en): Yoda",
-    "tags": ["Ratovi zvijezda", "likovi"],
+    "tags": [
+      "Ratovi zvijezda",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +104,15 @@
     "difficulty": 2,
     "question": "U kojoj je američkoj humorističnoj seriji Steve Carell glumio šefa Michaela Scotta?",
     "answer": "The Office",
-    "accept": ["Ured"],
+    "accept": [
+      "Ured"
+    ],
     "note": "Serija se emitirala devet sezona, do 2013.",
     "source": "Wikipedia (en): The Office (American TV series)",
-    "tags": ["serije", "komedije"],
+    "tags": [
+      "serije",
+      "komedije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +123,15 @@
     "difficulty": 2,
     "question": "Koja britanska serija prati aristokratsku obitelj Crawley i njihove sluge od 1912. do 1925.?",
     "answer": "Downton Abbey",
-    "accept": ["Downton"],
+    "accept": [
+      "Downton"
+    ],
     "note": "Radnja je smještena na izmišljeno imanje u Yorkshireu.",
     "source": "Wikipedia (en): Downton Abbey",
-    "tags": ["serije", "drame"],
+    "tags": [
+      "serije",
+      "drame"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +142,16 @@
     "difficulty": 2,
     "question": "Koja su braća redatelji snimila „Fargo” i „Big Lebowskog”?",
     "answer": "Braća Coen",
-    "accept": ["Coen", "Joel i Ethan Coen"],
+    "accept": [
+      "Coen",
+      "Joel i Ethan Coen"
+    ],
     "note": "Za „Fargo” su zajedno dobili Oscara za originalni scenarij.",
     "source": "Wikipedia (en): Coen brothers",
-    "tags": ["redatelji", "komedije"],
+    "tags": [
+      "redatelji",
+      "komedije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +162,15 @@
     "difficulty": 2,
     "question": "Koja je glumica u Cameronovu „Titanicu” glumila Rose?",
     "answer": "Kate Winslet",
-    "accept": ["Winslet"],
+    "accept": [
+      "Winslet"
+    ],
     "note": "Puno ime lika je Rose DeWitt Bukater.",
     "source": "Wikipedia (en): Kate Winslet",
-    "tags": ["glumci", "drame"],
+    "tags": [
+      "glumci",
+      "drame"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +184,10 @@
     "accept": [],
     "note": "Dječak Miguel u filmu potajno uči svirati gitaru.",
     "source": "Wikipedia (en): Coco (2017 film)",
-    "tags": ["animirani film", "Pixar"],
+    "tags": [
+      "animirani film",
+      "Pixar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +201,10 @@
     "accept": [],
     "note": "Dok Wallace stalno priča, Gromit uglavnom šuti i izražava se pogledom.",
     "source": "Wikipedia (en): Wallace & Gromit",
-    "tags": ["animirani film", "psi"],
+    "tags": [
+      "animirani film",
+      "psi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +215,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj snimio „Grand Budapest Hotel” iz 2014.?",
     "answer": "Wes Anderson",
-    "accept": ["Anderson"],
+    "accept": [
+      "Anderson"
+    ],
     "note": "Glavnu ulogu, Monsieura Gustavea H., igra Ralph Fiennes.",
     "source": "Wikipedia (en): The Grand Budapest Hotel",
-    "tags": ["redatelji", "komedije"],
+    "tags": [
+      "redatelji",
+      "komedije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +237,10 @@
     "accept": [],
     "note": "Ime Mickey predložila je Disneyjeva supruga Lillian.",
     "source": "Wikipedia (en): Mickey Mouse",
-    "tags": ["Disney", "imena"],
+    "tags": [
+      "Disney",
+      "imena"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +251,15 @@
     "difficulty": 2,
     "question": "Koji je glumac tehnikom snimanja pokreta utjelovio Golluma u „Gospodaru prstenova”?",
     "answer": "Andy Serkis",
-    "accept": ["Serkis"],
+    "accept": [
+      "Serkis"
+    ],
     "note": "Proslavio se upravo ulogama računalno stvorenih likova.",
     "source": "Wikipedia (en): Andy Serkis",
-    "tags": ["glumci", "fantastika"],
+    "tags": [
+      "glumci",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +270,15 @@
     "difficulty": 2,
     "question": "Koje je godine izašao prvi film o Harryju Potteru?",
     "answer": "2001.",
-    "accept": ["2001"],
+    "accept": [
+      "2001"
+    ],
     "note": "Režirao ga je Chris Columbus.",
     "source": "Wikipedia (en): Harry Potter and the Philosopher's Stone (film)",
-    "tags": ["fantastika", "godine"],
+    "tags": [
+      "fantastika",
+      "godine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +289,15 @@
     "difficulty": 3,
     "question": "Kako se zove lav, maskota studija Metro-Goldwyn-Mayer koja riče na početku filmova?",
     "answer": "Leo",
-    "accept": ["Leo the Lion"],
+    "accept": [
+      "Leo the Lion"
+    ],
     "note": "Bio je maskota i prethodnika MGM-a, studija Goldwyn Pictures.",
     "source": "Wikipedia (en): Leo the Lion (MGM)",
-    "tags": ["filmski studiji", "maskote"],
+    "tags": [
+      "filmski studiji",
+      "maskote"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +308,15 @@
     "difficulty": 3,
     "question": "Kako se zove rijetki mineral zbog kojeg ljudi u „Avataru” iz 2009. kopaju na Pandori?",
     "answer": "Unobtanium",
-    "accept": ["unobtainium"],
+    "accept": [
+      "unobtainium"
+    ],
     "note": "Izraz se općenito koristi u šali, za materijal kakav ne postoji.",
     "source": "Wikipedia (en): Unobtainium",
-    "tags": ["znanstvena fantastika", "Avatar"],
+    "tags": [
+      "znanstvena fantastika",
+      "Avatar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +327,15 @@
     "difficulty": 3,
     "question": "Kako se zove pustinjski planet s dvama suncima u „Ratovima zvijezda”?",
     "answer": "Tatooine",
-    "accept": ["Tatuin"],
+    "accept": [
+      "Tatuin"
+    ],
     "note": "Na njemu je rođen Anakin Skywalker.",
     "source": "Wikipedia (en): Tatooine",
-    "tags": ["Ratovi zvijezda", "planeti"],
+    "tags": [
+      "Ratovi zvijezda",
+      "planeti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +349,10 @@
     "accept": [],
     "note": "U posadi je i drugi robot, CASE.",
     "source": "Wikipedia (en): Interstellar (film)",
-    "tags": ["znanstvena fantastika", "roboti"],
+    "tags": [
+      "znanstvena fantastika",
+      "roboti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +363,15 @@
     "difficulty": 3,
     "question": "Kako se zove lanac restorana brze hrane kojim Gus Fring prikriva trgovinu drogom?",
     "answer": "Los Pollos Hermanos",
-    "accept": ["Pollos Hermanos"],
+    "accept": [
+      "Pollos Hermanos"
+    ],
     "note": "Gusa Fringa glumi Giancarlo Esposito.",
     "source": "Wikipedia (en): Breaking Bad",
-    "tags": ["serije", "kriminalističke"],
+    "tags": [
+      "serije",
+      "kriminalističke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

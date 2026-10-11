@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Nadimak mu je „Zeleni grad pod suncem”.",
     "source": "Wikipedia (en): Nairobi",
-    "tags": ["Afrika", "glavni gradovi"],
+    "tags": [
+      "Afrika",
+      "glavni gradovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,15 @@
     "difficulty": 1,
     "question": "Na koje more izlaze Estonija, Latvija i Litva?",
     "answer": "Baltičko more",
-    "accept": ["Baltik"],
+    "accept": [
+      "Baltik"
+    ],
     "note": "Rukavac je Atlantskog oceana; obale mu dijeli devet država.",
     "source": "Wikipedia (en): Baltic Sea",
-    "tags": ["Europa", "mora"],
+    "tags": [
+      "Europa",
+      "mora"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,9 +45,13 @@
     "accept": [],
     "note": "Japanski nazivi Nippon i Nihon doslovno znače „izvor sunca”.",
     "source": "Wikipedia (en): Names of Japan",
-    "tags": ["Azija", "nadimci"],
+    "tags": [
+      "Azija",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0205",
@@ -48,10 +60,16 @@
     "difficulty": 1,
     "question": "Koji je ocean najmanji i najplići na svijetu?",
     "answer": "Arktički ocean",
-    "accept": ["Sjeverni ledeni ocean", "Arktički"],
+    "accept": [
+      "Sjeverni ledeni ocean",
+      "Arktički"
+    ],
     "note": "Ujedno je i najhladniji.",
     "source": "Wikipedia (en): Arctic Ocean",
-    "tags": ["oceani", "rekordi"],
+    "tags": [
+      "oceani",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +80,15 @@
     "difficulty": 1,
     "question": "Koja se pustinja, zapravo polusušna pjeskovita savana, prostire većim dijelom Bocvane?",
     "answer": "Kalahari",
-    "accept": ["Kalaharijska pustinja"],
+    "accept": [
+      "Kalaharijska pustinja"
+    ],
     "note": "Pokriva oko 900 000 km², a zahvaća i dijelove Namibije.",
     "source": "Wikipedia (en): Kalahari Desert",
-    "tags": ["Afrika", "pustinje"],
+    "tags": [
+      "Afrika",
+      "pustinje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +99,15 @@
     "difficulty": 2,
     "question": "Koja je rijeka najdulja u Francuskoj?",
     "answer": "Loira",
-    "accept": ["Loire"],
+    "accept": [
+      "Loire"
+    ],
     "note": "Na latinskom se zvala Liger.",
     "source": "Wikipedia (en): Loire",
-    "tags": ["Europa", "rijeke"],
+    "tags": [
+      "Europa",
+      "rijeke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +121,10 @@
     "accept": [],
     "note": "Izvire na planini Falterona u Apeninima.",
     "source": "Wikipedia (en): Arno",
-    "tags": ["Italija", "rijeke"],
+    "tags": [
+      "Italija",
+      "rijeke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +135,15 @@
     "difficulty": 2,
     "question": "Koji je najveći grad Novog Zelanda?",
     "answer": "Auckland",
-    "accept": ["Okland"],
+    "accept": [
+      "Okland"
+    ],
     "note": "Godine 2023. Azijci su činili 34,9 % stanovništva grada.",
     "source": "Wikipedia (en): Auckland",
-    "tags": ["Oceanija", "gradovi"],
+    "tags": [
+      "Oceanija",
+      "gradovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +154,15 @@
     "difficulty": 2,
     "question": "Koji je otok, uz jugoistočnu obalu Afrike, četvrti po veličini na svijetu?",
     "answer": "Madagaskar",
-    "accept": ["Madagascar"],
+    "accept": [
+      "Madagascar"
+    ],
     "note": "Ujedno je i druga najveća otočna država.",
     "source": "Wikipedia (en): Madagascar",
-    "tags": ["Afrika", "otoci"],
+    "tags": [
+      "Afrika",
+      "otoci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Koja je otočna država u Indijskom oceanu najmanja država Azije?",
     "answer": "Maldivi",
-    "accept": ["Maldives"],
+    "accept": [
+      "Maldives"
+    ],
     "note": "Čini je 26 atola, a kopnena površina joj je samo 298 km².",
     "source": "Wikipedia (en): Maldives",
-    "tags": ["Azija", "države"],
+    "tags": [
+      "Azija",
+      "države"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +192,16 @@
     "difficulty": 2,
     "question": "Koje je jezero najveće u Italiji?",
     "answer": "Gardsko jezero",
-    "accept": ["Garda", "Lago di Garda"],
+    "accept": [
+      "Garda",
+      "Lago di Garda"
+    ],
     "note": "Leži između Brescije i Milana na zapadu te Verone i Venecije na istoku.",
     "source": "Wikipedia (en): Lake Garda",
-    "tags": ["Italija", "jezera"],
+    "tags": [
+      "Italija",
+      "jezera"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +215,10 @@
     "accept": [],
     "note": "Trajektom od Splita do Supetra plovi se oko 50 minuta.",
     "source": "Wikipedia (en): Supetar",
-    "tags": ["Hrvatska", "otoci"],
+    "tags": [
+      "Hrvatska",
+      "otoci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Visok je oko 780 metara.",
     "source": "Wikipedia (en): Vidova Gora",
-    "tags": ["Hrvatska", "planine"],
+    "tags": [
+      "Hrvatska",
+      "planine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +249,10 @@
     "accept": [],
     "note": "Sjeverna Koreja na sjeveru graniči s Kinom i Rusijom.",
     "source": "Wikipedia (en): North Korea",
-    "tags": ["Azija", "granice"],
+    "tags": [
+      "Azija",
+      "granice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +263,15 @@
     "difficulty": 2,
     "question": "Koji je grad glavni grad Škotske?",
     "answer": "Edinburgh",
-    "accept": ["Edinburg"],
+    "accept": [
+      "Edinburg"
+    ],
     "note": "Na sjeveru ga omeđuje zaljev Firth of Forth.",
     "source": "Wikipedia (en): Edinburgh",
-    "tags": ["Europa", "glavni gradovi"],
+    "tags": [
+      "Europa",
+      "glavni gradovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +282,16 @@
     "difficulty": 3,
     "question": "Kako se zove najdulji željeznički tunel na svijetu, otvoren 2016. kroz švicarske Alpe?",
     "answer": "Gotthardski bazni tunel",
-    "accept": ["Gotthard", "tunel Gotthard"],
+    "accept": [
+      "Gotthard",
+      "tunel Gotthard"
+    ],
     "note": "Dug je 57 km, a ujedno je i najdublji prometni tunel.",
     "source": "Wikipedia (en): Gotthard Base Tunnel",
-    "tags": ["Europa", "građevine"],
+    "tags": [
+      "Europa",
+      "građevine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Koliko je metara duboko norveško jezero Hornindalsvatnet, najdublje u Europi?",
     "answer": "514 m",
-    "accept": ["514"],
+    "accept": [
+      "514"
+    ],
     "note": "Površina jezera nalazi se 53 m iznad mora.",
     "source": "Wikipedia (en): Hornindalsvatnet",
-    "tags": ["Europa", "jezera"],
+    "tags": [
+      "Europa",
+      "jezera"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +324,10 @@
     "accept": [],
     "note": "Otok je ujedno i švedska pokrajina.",
     "source": "Wikipedia (en): Gotland",
-    "tags": ["Europa", "otoci"],
+    "tags": [
+      "Europa",
+      "otoci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +338,15 @@
     "difficulty": 3,
     "question": "Koja je rijeka najdulja u Velikoj Britaniji?",
     "answer": "Severn",
-    "accept": ["rijeka Severn"],
+    "accept": [
+      "rijeka Severn"
+    ],
     "note": "Duga je 354 km, a na velškom se zove Afon Hafren.",
     "source": "Wikipedia (en): River Severn",
-    "tags": ["Europa", "rijeke"],
+    "tags": [
+      "Europa",
+      "rijeke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +357,15 @@
     "difficulty": 3,
     "question": "Koja je planina, visoka 5137 m, najviša u Turskoj?",
     "answer": "Ararat",
-    "accept": ["Veliki Ararat"],
+    "accept": [
+      "Veliki Ararat"
+    ],
     "note": "Sastoji se od dva vulkanska stošca, Velikog i Malog Ararata.",
     "source": "Wikipedia (en): Mount Ararat",
-    "tags": ["Azija", "planine"],
+    "tags": [
+      "Azija",
+      "planine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Na kojem je instrumentu Jimi Hendrix bio jedan od najutjecajnijih svirača svih vremena?",
     "answer": "Na gitari",
-    "accept": ["Gitara", "Električna gitara"],
+    "accept": [
+      "Gitara",
+      "Električna gitara"
+    ],
     "note": "U Kuću slavnih rock and rolla primljen je 1992.",
     "source": "Wikipedia (en): Jimi Hendrix",
-    "tags": ["rock", "instrumenti"],
+    "tags": [
+      "rock",
+      "instrumenti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Tko je pjevač i jedan od osnivača Rolling Stonesa?",
     "answer": "Mick Jagger",
-    "accept": ["Jagger"],
+    "accept": [
+      "Jagger"
+    ],
     "note": "Većinu pjesama sastava napisao je s gitaristom Keithom Richardsom.",
     "source": "Wikipedia (en): Mick Jagger",
-    "tags": ["rock", "pjevači"],
+    "tags": [
+      "rock",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,7 +48,10 @@
     "accept": [],
     "note": "Uz Bona, sastav čine The Edge, Adam Clayton i Larry Mullen Jr.",
     "source": "Wikipedia (en): U2",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +65,10 @@
     "accept": [],
     "note": "Glazbu je skladao gitarist Jimmy Page, a tekst napisao pjevač Robert Plant.",
     "source": "Wikipedia (en): Stairway to Heaven",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +79,16 @@
     "difficulty": 1,
     "question": "Na kojem instrumentu svira Yo-Yo Ma?",
     "answer": "Na violončelu",
-    "accept": ["Violončelo", "Čelo"],
+    "accept": [
+      "Violončelo",
+      "Čelo"
+    ],
     "note": "Rođen je u Parizu, a violončelo je počeo učiti s ocem u dobi od četiri godine.",
     "source": "Wikipedia (en): Yo-Yo Ma",
-    "tags": ["klasična glazba", "instrumenti"],
+    "tags": [
+      "klasična glazba",
+      "instrumenti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +102,10 @@
     "accept": [],
     "note": "Suprotna mu je oznaka p, piano, „tiho”.",
     "source": "Wikipedia (en): Dynamics (music)",
-    "tags": ["glazbeni pojmovi", "talijanski"],
+    "tags": [
+      "glazbeni pojmovi",
+      "talijanski"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +116,16 @@
     "difficulty": 1,
     "question": "Koji je poljski skladatelj i pijanist iz doba romantizma pisao uglavnom za klavir?",
     "answer": "Frédéric Chopin",
-    "accept": ["Chopin", "Fryderyk Chopin"],
+    "accept": [
+      "Chopin",
+      "Fryderyk Chopin"
+    ],
     "note": "Rođen je u Żelazowoj Woli, a odrastao u Varšavi.",
     "source": "Wikipedia (en): Frédéric Chopin",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,12 +136,18 @@
     "difficulty": 1,
     "question": "Koja je pjevačica 2006. predstavljala Hrvatsku na Euroviziji pjesmom „Moja štikla”?",
     "answer": "Severina",
-    "accept": ["Severina Vučković"],
+    "accept": [
+      "Severina Vučković"
+    ],
     "note": "Pjesma je izabrana pobjedom na Dori 2006., hrvatskom nacionalnom izboru.",
     "source": "Wikipedia (en): Moja štikla",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0072",
@@ -121,7 +159,10 @@
     "accept": [],
     "note": "Jedan je od najuspješnijih i najnagrađivanijih hrvatskih glazbenika.",
     "source": "Wikipedia (en): Gibonni",
-    "tags": ["pop", "Hrvatska"],
+    "tags": [
+      "pop",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +173,16 @@
     "difficulty": 2,
     "question": "Koji je skladatelj 1721. markgrofu Christianu Ludwigu posvetio šest „Brandenburških koncerata”?",
     "answer": "Johann Sebastian Bach",
-    "accept": ["Bach", "J. S. Bach"],
+    "accept": [
+      "Bach",
+      "J. S. Bach"
+    ],
     "note": "Izvorni francuski naslov znači „Šest koncerata za više instrumenata”.",
     "source": "Wikipedia (en): Brandenburg Concertos",
-    "tags": ["barok", "skladatelji"],
+    "tags": [
+      "barok",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +193,15 @@
     "difficulty": 2,
     "question": "Koji je pjevač rođen 1947. u Splitu, u obitelji iz Vele Luke na Korčuli?",
     "answer": "Oliver Dragojević",
-    "accept": ["Oliver"],
+    "accept": [
+      "Oliver"
+    ],
     "note": "Imao je starijeg brata Aljošu.",
     "source": "Wikipedia (en): Oliver Dragojević",
-    "tags": ["pop", "Hrvatska"],
+    "tags": [
+      "pop",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +215,10 @@
     "accept": [],
     "note": "Osnovali su ga gitaristi Husein Hasanefendić i Jurica Pađen, bivši članovi Grupe 220.",
     "source": "Wikipedia (en): Parni Valjak",
-    "tags": ["rock", "Hrvatska"],
+    "tags": [
+      "rock",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +229,16 @@
     "difficulty": 2,
     "question": "Koji je skladatelj napisao 19 „Mađarskih rapsodija” za klavir?",
     "answer": "Franz Liszt",
-    "accept": ["Liszt", "Ferenc Liszt"],
+    "accept": [
+      "Liszt",
+      "Ferenc Liszt"
+    ],
     "note": "Temelje se na mađarskim narodnim napjevima.",
     "source": "Wikipedia (en): Hungarian Rhapsodies",
-    "tags": ["romantizam", "skladatelji"],
+    "tags": [
+      "romantizam",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +249,15 @@
     "difficulty": 2,
     "question": "Koji je skladatelj autor ciklusa četiriju glazbenih drama „Prsten Nibelunga”?",
     "answer": "Richard Wagner",
-    "accept": ["Wagner"],
+    "accept": [
+      "Wagner"
+    ],
     "note": "Ciklus se oslanja na nordijske sage i „Pjesmu o Nibelunzima”.",
     "source": "Wikipedia (en): Der Ring des Nibelungen",
-    "tags": ["opera", "skladatelji"],
+    "tags": [
+      "opera",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +268,15 @@
     "difficulty": 2,
     "question": "Koji je skladatelj napisao „U dvorani planinskog kralja” za Ibsenovu dramu „Peer Gynt”?",
     "answer": "Edvard Grieg",
-    "accept": ["Grieg"],
+    "accept": [
+      "Grieg"
+    ],
     "note": "Skladbu je napisao 1875., a poslije je postala završni stavak prve suite „Peer Gynt”.",
     "source": "Wikipedia (en): In the Hall of the Mountain King",
-    "tags": ["romantizam", "skladatelji"],
+    "tags": [
+      "romantizam",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +287,16 @@
     "difficulty": 2,
     "question": "Koji je ruski skladatelj napisao balet „Posvećenje proljeća”, praizveden 1913. u Parizu?",
     "answer": "Igor Stravinski",
-    "accept": ["Stravinski", "Stravinsky"],
+    "accept": [
+      "Stravinski",
+      "Stravinsky"
+    ],
     "note": "Napisan je za Djagiljevljev Ruski balet, a koreografiju je postavio Vaslav Nižinski.",
     "source": "Wikipedia (en): The Rite of Spring",
-    "tags": ["balet", "skladatelji"],
+    "tags": [
+      "balet",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +307,16 @@
     "difficulty": 2,
     "question": "Koji je skladatelj 1741. napisao oratorij „Mesija”?",
     "answer": "Georg Friedrich Händel",
-    "accept": ["Händel", "Handel"],
+    "accept": [
+      "Händel",
+      "Handel"
+    ],
     "note": "Prvi je put izveden 13. travnja 1742. u Dublinu.",
     "source": "Wikipedia (en): Messiah (Handel)",
-    "tags": ["barok", "skladatelji"],
+    "tags": [
+      "barok",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +327,16 @@
     "difficulty": 2,
     "question": "Koji je kantautor i pjesnik, rođen 1938. u Šibeniku, pisao šansone i filmsku glazbu?",
     "answer": "Arsen Dedić",
-    "accept": ["Arsen", "Dedić"],
+    "accept": [
+      "Arsen",
+      "Dedić"
+    ],
     "note": "Bio je i nagrađivani pjesnik, jedan od najprodavanijih na prostoru bivše Jugoslavije.",
     "source": "Wikipedia (en): Arsen Dedić",
-    "tags": ["šansona", "Hrvatska"],
+    "tags": [
+      "šansona",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +350,10 @@
     "accept": [],
     "note": "Album je bio soundtrack istoimenog filma iz iste godine.",
     "source": "Wikipedia (en): Purple Rain (album)",
-    "tags": ["pop", "albumi"],
+    "tags": [
+      "pop",
+      "albumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 2,
     "question": "Koji je američki rock-sastav autor pjesme „Hotel California”?",
     "answer": "Eagles",
-    "accept": ["The Eagles"],
+    "accept": [
+      "The Eagles"
+    ],
     "note": "Glavni vokal u pjesmi pjeva Don Henley.",
     "source": "Wikipedia (en): Hotel California",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +383,15 @@
     "difficulty": 2,
     "question": "Koliko tonova unutar oktave ima kromatska ljestvica?",
     "answer": "12",
-    "accept": ["Dvanaest"],
+    "accept": [
+      "Dvanaest"
+    ],
     "note": "Razmak između dvaju susjednih tonova uvijek je polustepen.",
     "source": "Wikipedia (en): Chromatic scale",
-    "tags": ["glazbeni pojmovi", "teorija"],
+    "tags": [
+      "glazbeni pojmovi",
+      "teorija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +402,15 @@
     "difficulty": 2,
     "question": "Koji je austrijski skladatelj 1822. počeo „Nedovršenu simfoniju”, ostavivši je sa samo dva stavka?",
     "answer": "Franz Schubert",
-    "accept": ["Schubert"],
+    "accept": [
+      "Schubert"
+    ],
     "note": "Simfonija je u h-molu i nosi oznaku D. 759.",
     "source": "Wikipedia (en): Symphony No. 8 (Schubert)",
-    "tags": ["romantizam", "skladatelji"],
+    "tags": [
+      "romantizam",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +421,15 @@
     "difficulty": 3,
     "question": "Koja je dubrovačka pjevačica 1966. na Euroviziji predstavljala Monako?",
     "answer": "Tereza Kesovija",
-    "accept": ["Kesovija"],
+    "accept": [
+      "Kesovija"
+    ],
     "note": "Na Euroviziji je 1972. nastupila i za Jugoslaviju.",
     "source": "Wikipedia (en): Tereza Kesovija",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +440,15 @@
     "difficulty": 3,
     "question": "Čija se simfonija u fis-molu smatra prvom modernom simfonijom hrvatske glazbe?",
     "answer": "Dora Pejačević",
-    "accept": ["Pejačević"],
+    "accept": [
+      "Pejačević"
+    ],
     "note": "Bila je skladateljica, pijanistica i violinistica, a pripadala je grofovskoj obitelji.",
     "source": "Wikipedia (en): Dora Pejačević",
-    "tags": ["klasična glazba", "Hrvatska"],
+    "tags": [
+      "klasična glazba",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +459,16 @@
     "difficulty": 3,
     "question": "Koja je hrvatska sopranistica bila prva Tosca u Londonu i 1901. pjevala Toscu na američkoj premijeri?",
     "answer": "Milka Trnina",
-    "accept": ["Trnina", "Milka Ternina"],
+    "accept": [
+      "Trnina",
+      "Milka Ternina"
+    ],
     "note": "Ulogu Tosce u Metropolitanu je s velikim uspjehom otpjevala još 18 puta.",
     "source": "Wikipedia (en): Milka Trnina",
-    "tags": ["opera", "Hrvatska"],
+    "tags": [
+      "opera",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +479,15 @@
     "difficulty": 3,
     "question": "Koji je skladatelj autor kantate „Carmina Burana”, koja počinje stavkom „O Fortuna”?",
     "answer": "Carl Orff",
-    "accept": ["Orff"],
+    "accept": [
+      "Orff"
+    ],
     "note": "Autograf djela čuva se u Bavarskoj državnoj knjižnici.",
     "source": "Wikipedia (en): Carmina Burana (Orff)",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -373,7 +501,10 @@
     "accept": [],
     "note": "Smatra se jednim od najvećih pjevača u povijesti opere.",
     "source": "Wikipedia (en): Farinelli",
-    "tags": ["opera", "pjevači"],
+    "tags": [
+      "opera",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +515,15 @@
     "difficulty": 3,
     "question": "Koji je indijski glazbenik bio virtuoz na sitaru?",
     "answer": "Ravi Shankar",
-    "accept": ["Shankar"],
+    "accept": [
+      "Shankar"
+    ],
     "note": "Uz Ali Akbara Khana bio je najistaknutiji predstavnik hindustanske klasične glazbe.",
     "source": "Wikipedia (en): Ravi Shankar",
-    "tags": ["svjetska glazba", "instrumenti"],
+    "tags": [
+      "svjetska glazba",
+      "instrumenti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +534,15 @@
     "difficulty": 3,
     "question": "Koji je američki skladatelj autor djela „4′33″”, tijekom kojeg izvođači ne sviraju?",
     "answer": "John Cage",
-    "accept": ["Cage"],
+    "accept": [
+      "Cage"
+    ],
     "note": "Djelo je napisano 1952. za bilo koji instrument ili skupinu instrumenata.",
     "source": "Wikipedia (en): 4′33″",
-    "tags": ["avangarda", "skladatelji"],
+    "tags": [
+      "avangarda",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +553,15 @@
     "difficulty": 3,
     "question": "Koji je francuski skladatelj 1888. završio tri klavirske „Gymnopédies”?",
     "answer": "Erik Satie",
-    "accept": ["Satie"],
+    "accept": [
+      "Satie"
+    ],
     "note": "Prva i treća objavljene su 1888., a druga tek kasnije.",
     "source": "Wikipedia (en): Gymnopédies",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

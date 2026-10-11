@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji je grčki bog vladao podzemnim svijetom?",
     "answer": "Had",
-    "accept": ["Hades"],
+    "accept": [
+      "Hades"
+    ],
     "note": "Bio je najstariji sin Krona i Reje.",
     "source": "Wikipedia (en): Hades",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +25,16 @@
     "difficulty": 1,
     "question": "Kako se zove rimski bog ljubavi i žudnje, poznat i kao Amor?",
     "answer": "Kupid",
-    "accept": ["Amor", "Cupido"],
+    "accept": [
+      "Amor",
+      "Cupido"
+    ],
     "note": "Njegov je grčki pandan Eros.",
     "source": "Wikipedia (en): Cupid",
-    "tags": ["mitologija", "rimski bogovi"],
+    "tags": [
+      "mitologija",
+      "rimski bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,12 +45,18 @@
     "difficulty": 1,
     "question": "U kojem se gradu nalazi Koloseum?",
     "answer": "Rim",
-    "accept": ["Roma"],
+    "accept": [
+      "Roma"
+    ],
     "note": "Najveći je antički amfiteatar ikad izgrađen.",
     "source": "Wikipedia (en): Colosseum",
-    "tags": ["arhitektura", "Italija"],
+    "tags": [
+      "arhitektura",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0067",
@@ -48,10 +65,16 @@
     "difficulty": 1,
     "question": "U kojem se gradu od 1913. nalazi kip Male sirene, nadahnut Andersenovom bajkom?",
     "answer": "Kopenhagen",
-    "accept": ["København", "Copenhagen"],
+    "accept": [
+      "København",
+      "Copenhagen"
+    ],
     "note": "Kip je često meta vandala i političkih aktivista.",
     "source": "Wikipedia (en): The Little Mermaid (statue)",
-    "tags": ["kiparstvo", "Danska"],
+    "tags": [
+      "kiparstvo",
+      "Danska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +85,17 @@
     "difficulty": 1,
     "question": "Koji je grčki bog vina, plodnosti, svetkovina i kazališta?",
     "answer": "Dioniz",
-    "accept": ["Dionis", "Bakho", "Dionysus"],
+    "accept": [
+      "Dionis",
+      "Bakho",
+      "Dionysus"
+    ],
     "note": "Zvali su ga i Bakho.",
     "source": "Wikipedia (en): Dionysus",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +109,10 @@
     "accept": [],
     "note": "Rodio se u siromašnim lučkim četvrtima obiju zemalja.",
     "source": "Wikipedia (en): Tango",
-    "tags": ["ples", "Južna Amerika"],
+    "tags": [
+      "ples",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,12 +123,18 @@
     "difficulty": 1,
     "question": "Iz koje države potječe flamenko?",
     "answer": "Španjolska",
-    "accept": ["Iz Španjolske"],
+    "accept": [
+      "Iz Španjolske"
+    ],
     "note": "Razvio se na jugu zemlje, dijelom među Romima Andaluzije.",
     "source": "Wikipedia (en): Flamenco",
-    "tags": ["ples", "glazba"],
+    "tags": [
+      "ples",
+      "glazba"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0071",
@@ -107,7 +146,10 @@
     "accept": [],
     "note": "Toranj se izvorno zvao samo Clock Tower, „toranj sa satom”.",
     "source": "Wikipedia (en): Big Ben",
-    "tags": ["arhitektura", "London"],
+    "tags": [
+      "arhitektura",
+      "London"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +160,16 @@
     "difficulty": 1,
     "question": "Koja je pariška katedrala 15. travnja 2019. teško stradala u požaru?",
     "answer": "Notre-Dame",
-    "accept": ["Notre-Dame de Paris", "Katedrala Notre-Dame"],
+    "accept": [
+      "Notre-Dame de Paris",
+      "Katedrala Notre-Dame"
+    ],
     "note": "Požar je izbio u 18.18 u krovištu srednjovjekovne katedrale.",
     "source": "Wikipedia (en): Notre-Dame de Paris fire",
-    "tags": ["arhitektura", "Francuska"],
+    "tags": [
+      "arhitektura",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +180,16 @@
     "difficulty": 2,
     "question": "Kako se zove dubrovačka tvrđava izvan zapadnih zidina, zvana i „dubrovački Gibraltar”?",
     "answer": "Lovrijenac",
-    "accept": ["Tvrđava Lovrijenac", "Sv. Lovro"],
+    "accept": [
+      "Tvrđava Lovrijenac",
+      "Sv. Lovro"
+    ],
     "note": "Stoji 37 metara iznad mora i poznata je po kazališnim predstavama.",
     "source": "Wikipedia (en): Fort Lovrijenac",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +200,15 @@
     "difficulty": 2,
     "question": "Kako se zovu srednjovjekovni nadgrobni spomenici koji su 2016. upisani na UNESCO-ov popis?",
     "answer": "Stećci",
-    "accept": ["Stećak"],
+    "accept": [
+      "Stećak"
+    ],
     "note": "Upisano je oko 4000 spomenika na 28 lokaliteta.",
     "source": "Wikipedia (en): Stećak",
-    "tags": ["baština", "UNESCO"],
+    "tags": [
+      "baština",
+      "UNESCO"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +219,17 @@
     "difficulty": 2,
     "question": "Koji je renesansni slikar od 1509. do 1511. naslikao fresku „Atenska škola”?",
     "answer": "Rafael",
-    "accept": ["Raffaello", "Raphael", "Rafael Santi"],
+    "accept": [
+      "Raffaello",
+      "Raphael",
+      "Rafael Santi"
+    ],
     "note": "Freska je dio narudžbe pape Julija II. za odaje u Apostolskoj palači.",
     "source": "Wikipedia (en): The School of Athens",
-    "tags": ["slikarstvo", "renesansa"],
+    "tags": [
+      "slikarstvo",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +240,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski slikar poznat po dramatičnom svjetlu i sjeni, tenebrizmu?",
     "answer": "Caravaggio",
-    "accept": ["Michelangelo Merisi da Caravaggio"],
+    "accept": [
+      "Michelangelo Merisi da Caravaggio"
+    ],
     "note": "Pravo ime bilo mu je Michelangelo Merisi.",
     "source": "Wikipedia (en): Caravaggio",
-    "tags": ["slikarstvo", "barok"],
+    "tags": [
+      "slikarstvo",
+      "barok"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +259,15 @@
     "difficulty": 2,
     "question": "Koji je francuski kipar autor brončane skulpture „Mislilac”?",
     "answer": "Auguste Rodin",
-    "accept": ["Rodin"],
+    "accept": [
+      "Rodin"
+    ],
     "note": "Lik sjedi na stijeni, s bradom oslonjenom na ruku.",
     "source": "Wikipedia (en): The Thinker",
-    "tags": ["kiparstvo", "Francuska"],
+    "tags": [
+      "kiparstvo",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +278,15 @@
     "difficulty": 2,
     "question": "Koja je grčka božica lova i divljine?",
     "answer": "Artemida",
-    "accept": ["Artemis"],
+    "accept": [
+      "Artemis"
+    ],
     "note": "Bila je i zaštitnica poroda i djece.",
     "source": "Wikipedia (en): Artemis",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +297,16 @@
     "difficulty": 2,
     "question": "Kako se zove Odinova dvorana u Asgardu, u koju odlaze poginuli ratnici?",
     "answer": "Valhalla",
-    "accept": ["Valhala", "Valhǫll"],
+    "accept": [
+      "Valhala",
+      "Valhǫll"
+    ],
     "note": "Ime doslovno znači „dvorana poginulih”.",
     "source": "Wikipedia (en): Valhalla",
-    "tags": ["mitologija", "nordijski bogovi"],
+    "tags": [
+      "mitologija",
+      "nordijski bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +320,10 @@
     "accept": [],
     "note": "Mit je zapisao Heziod u djelu „Poslovi i dani”, oko 700. pr. Kr.",
     "source": "Wikipedia (en): Pandora's box",
-    "tags": ["mitologija", "likovi"],
+    "tags": [
+      "mitologija",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +334,16 @@
     "difficulty": 2,
     "question": "Kako se zove rimski amfiteatar u Puli?",
     "answer": "Arena",
-    "accept": ["Pulska arena", "Amfiteatar u Puli"],
+    "accept": [
+      "Pulska arena",
+      "Amfiteatar u Puli"
+    ],
     "note": "Na talijanskom se zove Arena di Pola.",
     "source": "Wikipedia (en): Pula Arena",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +354,16 @@
     "difficulty": 2,
     "question": "Koja je zadarska crkva iz 9. stoljeća izvorno nosila ime crkva Sv. Trojstva?",
     "answer": "Sv. Donat",
-    "accept": ["Crkva sv. Donata", "Sveti Donat"],
+    "accept": [
+      "Crkva sv. Donata",
+      "Sveti Donat"
+    ],
     "note": "Gradnju je započeo biskup Donat, na mjestu rimskog foruma.",
     "source": "Wikipedia (en): Church of St. Donatus",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +377,10 @@
     "accept": [],
     "note": "Uz kapelu je sačuvan i srednjovjekovni dućan Pod boltom.",
     "source": "Wikipedia (hr): Kamenita vrata",
-    "tags": ["Zagreb", "baština"],
+    "tags": [
+      "Zagreb",
+      "baština"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +391,15 @@
     "difficulty": 2,
     "question": "Koji je američki slikar 1942. naslikao „Noćne ptice”, prizor iz noćnog bistroa?",
     "answer": "Edward Hopper",
-    "accept": ["Hopper"],
+    "accept": [
+      "Hopper"
+    ],
     "note": "Kroz veliki prozor bistroa vide se četiri osobe.",
     "source": "Wikipedia (en): Nighthawks (Hopper)",
-    "tags": ["slikarstvo", "SAD"],
+    "tags": [
+      "slikarstvo",
+      "SAD"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +410,15 @@
     "difficulty": 2,
     "question": "Kako se zove palača u Dubrovniku koja je bila sjedište kneza Dubrovačke Republike?",
     "answer": "Knežev dvor",
-    "accept": ["Kneževa palača"],
+    "accept": [
+      "Kneževa palača"
+    ],
     "note": "Građena je u gotičkom stilu, uz renesansne i barokne elemente.",
     "source": "Wikipedia (en): Rector's Palace, Dubrovnik",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +429,17 @@
     "difficulty": 3,
     "question": "Koji se hrvatski minijaturist iz 16. stoljeća smatra najvećim iluminatorom talijanske renesanse?",
     "answer": "Julije Klović",
-    "accept": ["Juraj Julije Klović", "Klović", "Giulio Clovio"],
+    "accept": [
+      "Juraj Julije Klović",
+      "Klović",
+      "Giulio Clovio"
+    ],
     "note": "Djelovao je uglavnom u Italiji.",
     "source": "Wikipedia (en): Giulio Clovio",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +450,16 @@
     "difficulty": 3,
     "question": "Koji je renesansni slikar rođen u Zadru, a u Italiji poznat kao Andrea Schiavone?",
     "answer": "Andrija Medulić",
-    "accept": ["Medulić", "Andrea Meldolla"],
+    "accept": [
+      "Medulić",
+      "Andrea Meldolla"
+    ],
     "note": "Nadimak Schiavone znači „Slaven”.",
     "source": "Wikipedia (en): Andrea Schiavone",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -345,7 +473,10 @@
     "accept": [],
     "note": "Vila se nalazi u Poissyju, na rubu Pariza.",
     "source": "Wikipedia (en): Villa Savoye",
-    "tags": ["arhitektura", "modernizam"],
+    "tags": [
+      "arhitektura",
+      "modernizam"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +487,15 @@
     "difficulty": 3,
     "question": "Kojeg je hrvatskog naivnog slikara Anatole Jakovsky nazvao jednim od najvećih naivnih slikara svih vremena?",
     "answer": "Ivan Rabuzin",
-    "accept": ["Rabuzin"],
+    "accept": [
+      "Rabuzin"
+    ],
     "note": "Otac mu je bio rudar, a Ivan je bio šesto dijete.",
     "source": "Wikipedia (en): Ivan Rabuzin",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +506,15 @@
     "difficulty": 3,
     "question": "Koja je arhitektica 2004. prva žena dobila Pritzkerovu nagradu?",
     "answer": "Zaha Hadid",
-    "accept": ["Hadid"],
+    "accept": [
+      "Hadid"
+    ],
     "note": "Projektirala je i zračnu luku Daxing u Pekingu.",
     "source": "Wikipedia (en): Zaha Hadid",
-    "tags": ["arhitektura", "nagrade"],
+    "tags": [
+      "arhitektura",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +525,15 @@
     "difficulty": 3,
     "question": "Koja je grčka muza zaštitnica rječitosti i epske poezije?",
     "answer": "Kaliopa",
-    "accept": ["Calliope"],
+    "accept": [
+      "Calliope"
+    ],
     "note": "Ime joj znači „lijepoga glasa”.",
     "source": "Wikipedia (en): Calliope",
-    "tags": ["mitologija", "muze"],
+    "tags": [
+      "mitologija",
+      "muze"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +544,15 @@
     "difficulty": 3,
     "question": "Koji je japanski umjetnik autor drvoreza „Veliki val kod Kanagawe”?",
     "answer": "Hokusai",
-    "accept": ["Katsushika Hokusai"],
+    "accept": [
+      "Katsushika Hokusai"
+    ],
     "note": "Drvorez je nastao krajem 1831., u razdoblju Edo.",
     "source": "Wikipedia (en): The Great Wave off Kanagawa",
-    "tags": ["grafika", "Japan"],
+    "tags": [
+      "grafika",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +563,16 @@
     "difficulty": 3,
     "question": "Koji je renesansni kipar i graditelj nakon smrti Jurja Dalmatinca dovršio šibensku katedralu sv. Jakova?",
     "answer": "Nikola Firentinac",
-    "accept": ["Firentinac", "Niccolò di Giovanni Fiorentino"],
+    "accept": [
+      "Firentinac",
+      "Niccolò di Giovanni Fiorentino"
+    ],
     "note": "Dovršio je i izvornu kamenu kupolu katedrale, a umro je 1506. u Šibeniku.",
     "source": "Wikipedia (en): Niccolò di Giovanni Fiorentino",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

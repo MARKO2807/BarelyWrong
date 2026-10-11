@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Kako se zove mladunče konja?",
     "answer": "Ždrijebe",
-    "accept": ["Ždrebe"],
+    "accept": [
+      "Ždrebe"
+    ],
     "note": "Kobila ga nosi oko 11 mjeseci, a ždrijebe odmah nakon rođenja pokušava ustati.",
     "source": "Wikipedia (hr): Konj",
-    "tags": ["životinje", "mladunčad"],
+    "tags": [
+      "životinje",
+      "mladunčad"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0069",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji parni organ proizvodi mokraću?",
     "answer": "Bubrezi",
-    "accept": ["Bubreg"],
+    "accept": [
+      "Bubreg"
+    ],
     "note": "Mokraća iz svakog bubrega mokraćovodom odlazi u mokraćni mjehur.",
     "source": "Wikipedia (en): Kidney",
-    "tags": ["ljudsko tijelo", "organi"],
+    "tags": [
+      "ljudsko tijelo",
+      "organi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,12 +45,18 @@
     "difficulty": 1,
     "question": "Plod kojeg je drveta žir?",
     "answer": "Hrasta",
-    "accept": ["Hrast"],
+    "accept": [
+      "Hrast"
+    ],
     "note": "Žir je orašasti plod hrastova i njihovih bliskih srodnika iz porodice bukvi.",
     "source": "Wikipedia (en): Acorn",
-    "tags": ["biljke", "drveće"],
+    "tags": [
+      "biljke",
+      "drveće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0071",
@@ -51,7 +68,10 @@
     "accept": [],
     "note": "Oči mu se pomiču neovisno jedna o drugoj.",
     "source": "Wikipedia (en): Chameleon",
-    "tags": ["životinje", "gmazovi"],
+    "tags": [
+      "životinje",
+      "gmazovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +82,15 @@
     "difficulty": 1,
     "question": "Koji tobolčar, uz koalu, je simbol Australije i nalazi se na njezinu grbu?",
     "answer": "Klokan",
-    "accept": ["Kengur"],
+    "accept": [
+      "Kengur"
+    ],
     "note": "Prikazan je i na nekim australskim kovanicama.",
     "source": "Wikipedia (en): Kangaroo",
-    "tags": ["životinje", "Australija"],
+    "tags": [
+      "životinje",
+      "Australija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,10 +101,15 @@
     "difficulty": 1,
     "question": "Kako se zove ptica koja ne leti, endem Novog Zelanda i njegov nacionalni simbol?",
     "answer": "Kivi",
-    "accept": ["Kiwi"],
+    "accept": [
+      "Kiwi"
+    ],
     "note": "Njezino je jaje, u odnosu na veličinu tijela, jedno od najvećih u ptičjem svijetu.",
     "source": "Wikipedia (en): Kiwi (bird)",
-    "tags": ["ptice", "Novi Zeland"],
+    "tags": [
+      "ptice",
+      "Novi Zeland"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +120,15 @@
     "difficulty": 1,
     "question": "Kojim organom ribe iz vode izdvajaju otopljeni kisik?",
     "answer": "Škrgama",
-    "accept": ["Škrge"],
+    "accept": [
+      "Škrge"
+    ],
     "note": "Kroz škrge izlučuju i ugljikov dioksid.",
     "source": "Wikipedia (en): Gill",
-    "tags": ["životinje", "ribe"],
+    "tags": [
+      "životinje",
+      "ribe"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +139,17 @@
     "difficulty": 1,
     "question": "Ličinke kojeg leptira proizvode svilu?",
     "answer": "Dudova svilca",
-    "accept": ["Dudov svilac", "Svilac", "Svilena buba"],
+    "accept": [
+      "Dudov svilac",
+      "Svilac",
+      "Svilena buba"
+    ],
     "note": "Riječ je o pripitomljenoj vrsti, najbližoj srodnici divljeg svilca.",
     "source": "Wikipedia (en): Bombyx mori",
-    "tags": ["kukci", "životinje"],
+    "tags": [
+      "kukci",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +160,15 @@
     "difficulty": 1,
     "question": "Koja je najveća živuća vrsta medvjeda i najveća kopnena zvijer?",
     "answer": "Bijeli medvjed",
-    "accept": ["Polarni medvjed"],
+    "accept": [
+      "Polarni medvjed"
+    ],
     "note": "Odrasli mužjaci teže od 300 do 800 kg.",
     "source": "Wikipedia (en): Polar bear",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +182,10 @@
     "accept": [],
     "note": "Veći su od njega samo tigar i lav.",
     "source": "Wikipedia (en): Jaguar",
-    "tags": ["životinje", "mačke"],
+    "tags": [
+      "životinje",
+      "mačke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +196,15 @@
     "difficulty": 2,
     "question": "Po kojoj je životinji vjerojatno nazvan masiv Risnjak u Gorskom kotaru?",
     "answer": "Po risu",
-    "accept": ["Ris"],
+    "accept": [
+      "Ris"
+    ],
     "note": "Prema drugom tumačenju, ime dolazi od lokalne riječi za jednu vrstu trave.",
     "source": "Wikipedia (en): Risnjak National Park",
-    "tags": ["Hrvatska", "nacionalni parkovi"],
+    "tags": [
+      "Hrvatska",
+      "nacionalni parkovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +215,15 @@
     "difficulty": 2,
     "question": "Koji je kit najveći od svih zubatih kitova?",
     "answer": "Ulješura",
-    "accept": ["Kašalot"],
+    "accept": [
+      "Kašalot"
+    ],
     "note": "Ujedno je i najveći grabežljivac sa zubima.",
     "source": "Wikipedia (en): Sperm whale",
-    "tags": ["kitovi", "more"],
+    "tags": [
+      "kitovi",
+      "more"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +234,15 @@
     "difficulty": 2,
     "question": "Koji hormon nadbubrežne žlijezde ima ključnu ulogu u reakciji „bori se ili bježi”?",
     "answer": "Adrenalin",
-    "accept": ["Epinefrin"],
+    "accept": [
+      "Epinefrin"
+    ],
     "note": "Ubrzava rad srca, širi zjenice i povećava razinu šećera u krvi.",
     "source": "Wikipedia (en): Adrenaline",
-    "tags": ["ljudsko tijelo", "hormoni"],
+    "tags": [
+      "ljudsko tijelo",
+      "hormoni"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +256,10 @@
     "accept": [],
     "note": "Ime dolazi od grčkih riječi za „blijedozeleno” i „list”.",
     "source": "Wikipedia (en): Chlorophyll",
-    "tags": ["biljke", "biokemija"],
+    "tags": [
+      "biljke",
+      "biokemija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +270,16 @@
     "difficulty": 2,
     "question": "Koja je najmanja poznata ptica na svijetu, endem Kube?",
     "answer": "Pčelinji kolibri",
-    "accept": ["Kolibri", "Zunzuncito"],
+    "accept": [
+      "Kolibri",
+      "Zunzuncito"
+    ],
     "note": "Hrani se cvjetnim nektarom i kukcima.",
     "source": "Wikipedia (en): Bee hummingbird",
-    "tags": ["ptice", "rekordi"],
+    "tags": [
+      "ptice",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +290,15 @@
     "difficulty": 2,
     "question": "Lišće kojeg drveća čini većinu prehrane koala?",
     "answer": "Eukaliptusa",
-    "accept": ["Eukaliptus"],
+    "accept": [
+      "Eukaliptus"
+    ],
     "note": "Ta je hrana siromašna hranjivim tvarima i sadrži otrovne spojeve.",
     "source": "Wikipedia (en): Koala",
-    "tags": ["životinje", "Australija"],
+    "tags": [
+      "životinje",
+      "Australija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +309,15 @@
     "difficulty": 2,
     "question": "Koji meksički daždevnjak i kao odrastao zadržava vanjske škrge?",
     "answer": "Aksolotl",
-    "accept": ["Axolotl"],
+    "accept": [
+      "Axolotl"
+    ],
     "note": "Zadržavanje ličinačkih obilježja u odrasloj dobi zove se neotenija.",
     "source": "Wikipedia (en): Axolotl",
-    "tags": ["vodozemci", "životinje"],
+    "tags": [
+      "vodozemci",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +328,15 @@
     "difficulty": 2,
     "question": "Kako se zove autohtona istarska pasmina goveda?",
     "answer": "Boškarin",
-    "accept": ["Istarsko govedo"],
+    "accept": [
+      "Istarsko govedo"
+    ],
     "note": "Pasmina je gotovo potpuno nestala, a zatim je spašena.",
     "source": "Wikipedia (en): Istrian cattle",
-    "tags": ["Hrvatska", "pasmine"],
+    "tags": [
+      "Hrvatska",
+      "pasmine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +350,10 @@
     "accept": [],
     "note": "Selo pripada Otočcu u Ličko-senjskoj županiji.",
     "source": "Wikipedia (en): Kuterevo",
-    "tags": ["Hrvatska", "životinje"],
+    "tags": [
+      "Hrvatska",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 2,
     "question": "Kako se zove biljka mesožderka iz močvara Sjeverne i Južne Karoline?",
     "answer": "Venerina muholovka",
-    "accept": ["Muholovka"],
+    "accept": [
+      "Muholovka"
+    ],
     "note": "Jedina je vrsta svoga roda.",
     "source": "Wikipedia (en): Venus flytrap",
-    "tags": ["biljke", "mesožderke"],
+    "tags": [
+      "biljke",
+      "mesožderke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -289,7 +386,10 @@
     "accept": [],
     "note": "Služe se njome i neke ptice koje žive u špiljama, poput guvala.",
     "source": "Wikipedia (en): Animal echolocation",
-    "tags": ["životinje", "osjetila"],
+    "tags": [
+      "životinje",
+      "osjetila"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -303,7 +403,10 @@
     "accept": [],
     "note": "Ime dolazi od grčke riječi za kukca, entomon.",
     "source": "Wikipedia (en): Entomology",
-    "tags": ["znanost", "kukci"],
+    "tags": [
+      "znanost",
+      "kukci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +417,16 @@
     "difficulty": 3,
     "question": "Koja strogo zaštićena hrvatska endemska biljka raste na Dubrovačkom području i otocima poput Mrkana i Bobare?",
     "answer": "Dubrovačka zečina",
-    "accept": ["Zečina", "Centaurea ragusina"],
+    "accept": [
+      "Zečina",
+      "Centaurea ragusina"
+    ],
     "note": "Raste i na Šolti, Braču, Hvaru i Visu.",
     "source": "Wikipedia (hr): Dubrovačka zečina",
-    "tags": ["Hrvatska", "endemi"],
+    "tags": [
+      "Hrvatska",
+      "endemi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +437,15 @@
     "difficulty": 3,
     "question": "Koja se meduza, sposobna vratiti se u stadij polipa, zove „besmrtnom meduzom”?",
     "answer": "Turritopsis dohrnii",
-    "accept": ["Turritopsis"],
+    "accept": [
+      "Turritopsis"
+    ],
     "note": "Rasprostranjena je u umjerenim i tropskim morima diljem svijeta.",
     "source": "Wikipedia (en): Turritopsis dohrnii",
-    "tags": ["more", "životinje"],
+    "tags": [
+      "more",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +456,16 @@
     "difficulty": 3,
     "question": "Kako se zovu mikroskopske životinje s osam nogu, poznate i kao „vodeni medvjedići”?",
     "answer": "Dugoživci",
-    "accept": ["Tardigradi", "Vodeni medvjedići"],
+    "accept": [
+      "Tardigradi",
+      "Vodeni medvjedići"
+    ],
     "note": "Prvi ih je 1773. opisao njemački zoolog Johann August Ephraim Goeze.",
     "source": "Wikipedia (en): Tardigrade",
-    "tags": ["životinje", "mikroorganizmi"],
+    "tags": [
+      "životinje",
+      "mikroorganizmi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +476,15 @@
     "difficulty": 3,
     "question": "Koja je papiga jedina na svijetu koja ne leti, a ujedno i najteža?",
     "answer": "Kakapo",
-    "accept": ["Kākāpō"],
+    "accept": [
+      "Kākāpō"
+    ],
     "note": "Noćna je ptica i hrani se biljem.",
     "source": "Wikipedia (en): Kākāpō",
-    "tags": ["ptice", "Novi Zeland"],
+    "tags": [
+      "ptice",
+      "Novi Zeland"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +495,15 @@
     "difficulty": 3,
     "question": "Koja se dalmatinska biljka koristi kao prirodni izvor insekticida piretruma?",
     "answer": "Dalmatinski buhač",
-    "accept": ["Buhač"],
+    "accept": [
+      "Buhač"
+    ],
     "note": "Prah od mljevenih cvjetova služi kao insekticid.",
     "source": "Wikipedia (en): Tanacetum cinerariifolium",
-    "tags": ["biljke", "Hrvatska"],
+    "tags": [
+      "biljke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +514,16 @@
     "difficulty": 3,
     "question": "Koji je kornjaš najveći u Europi?",
     "answer": "Jelenak",
-    "accept": ["Obični jelenak", "Lucanus cervus"],
+    "accept": [
+      "Obični jelenak",
+      "Lucanus cervus"
+    ],
     "note": "Mužjaci imaju povećane čeljusti nalik na rogove.",
     "source": "Wikipedia (en): Lucanus cervus",
-    "tags": ["kukci", "Europa"],
+    "tags": [
+      "kukci",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +534,16 @@
     "difficulty": 3,
     "question": "Kako se zove crvenkastoljubičasta antička boja koju izlučuju neki grabežljivi morski puževi?",
     "answer": "Tirski purpur",
-    "accept": ["Purpur", "Grimiz"],
+    "accept": [
+      "Purpur",
+      "Grimiz"
+    ],
     "note": "Ime je dobila po feničkom gradu Tiru, a za njezino je dobivanje trebalo desetke tisuća puževa.",
     "source": "Wikipedia (en): Tyrian purple",
-    "tags": ["more", "povijest"],
+    "tags": [
+      "more",
+      "povijest"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +554,15 @@
     "difficulty": 3,
     "question": "Koji sisavac ima najgušće krzno od svih sisavaca?",
     "answer": "Morska vidra",
-    "accept": ["Kalan"],
+    "accept": [
+      "Kalan"
+    ],
     "note": "Zbog krzna je stoljećima bila meta lovaca.",
     "source": "Wikipedia (en): Sea otter",
-    "tags": ["sisavci", "more"],
+    "tags": [
+      "sisavci",
+      "more"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

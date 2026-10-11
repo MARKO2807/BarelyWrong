@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Meso teleta zove se teletina.",
     "source": "Wikipedia (en): Calf",
-    "tags": ["životinje", "mladunčad"],
+    "tags": [
+      "životinje",
+      "mladunčad"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0099",
@@ -23,9 +27,13 @@
     "accept": [],
     "note": "Pauci su paučnjaci i imaju osam nogu.",
     "source": "Wikipedia (en): Spider",
-    "tags": ["životinje", "zablude"],
+    "tags": [
+      "životinje",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0100",
@@ -37,7 +45,10 @@
     "accept": [],
     "note": "Koala je tobolčar, a najbliži su joj srodnici vombati.",
     "source": "Wikipedia (en): Koala",
-    "tags": ["životinje", "zablude"],
+    "tags": [
+      "životinje",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +62,10 @@
     "accept": [],
     "note": "Arterije odvode krv od srca prema dijelovima tijela.",
     "source": "Wikipedia (en): Artery",
-    "tags": ["ljudsko tijelo", "krvožilni sustav"],
+    "tags": [
+      "ljudsko tijelo",
+      "krvožilni sustav"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,12 +76,19 @@
     "difficulty": 1,
     "question": "Kolika je, zaokruženo, normalna tjelesna temperatura čovjeka u stupnjevima Celzija?",
     "answer": "37 °C",
-    "accept": ["37", "36,5–37,5 °C"],
+    "accept": [
+      "37",
+      "36,5–37,5 °C"
+    ],
     "note": "Obično se navodi raspon od 36,5 do 37,5 °C.",
     "source": "Wikipedia (en): Human body temperature",
-    "tags": ["ljudsko tijelo", "brojevi"],
+    "tags": [
+      "ljudsko tijelo",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0103",
@@ -76,10 +97,15 @@
     "difficulty": 1,
     "question": "Koliko zuba ima mliječno zubalo?",
     "answer": "20",
-    "accept": ["Dvadeset"],
+    "accept": [
+      "Dvadeset"
+    ],
     "note": "Prvi zubi obično niču oko šestog mjeseca.",
     "source": "Wikipedia (en): Deciduous teeth",
-    "tags": ["ljudsko tijelo", "brojevi"],
+    "tags": [
+      "ljudsko tijelo",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +116,15 @@
     "difficulty": 2,
     "question": "Koja je životinja bila prikazana na hrvatskoj kovanici od 5 kuna?",
     "answer": "Smeđi medvjed",
-    "accept": ["Medvjed"],
+    "accept": [
+      "Medvjed"
+    ],
     "note": "Kovanica se kovala od 1993.",
     "source": "Wikipedia (en): Brown bear",
-    "tags": ["životinje", "Hrvatska"],
+    "tags": [
+      "životinje",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +135,15 @@
     "difficulty": 2,
     "question": "Kako se zove žlijezda u vratu u obliku leptira, ispod Adamove jabučice?",
     "answer": "Štitnjača",
-    "accept": ["Štitna žlijezda"],
+    "accept": [
+      "Štitna žlijezda"
+    ],
     "note": "Sastoji se od dvaju povezanih režnjeva.",
     "source": "Wikipedia (en): Thyroid",
-    "tags": ["ljudsko tijelo", "žlijezde"],
+    "tags": [
+      "ljudsko tijelo",
+      "žlijezde"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -121,7 +157,10 @@
     "accept": [],
     "note": "Biljka za nju ne troši energiju, a usput se i hladi.",
     "source": "Wikipedia (en): Transpiration",
-    "tags": ["biljke", "procesi"],
+    "tags": [
+      "biljke",
+      "procesi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +174,10 @@
     "accept": [],
     "note": "Ime dolazi od grčke riječi mélas, „crn, taman”.",
     "source": "Wikipedia (en): Melanin",
-    "tags": ["biologija", "pigmenti"],
+    "tags": [
+      "biologija",
+      "pigmenti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +188,15 @@
     "difficulty": 2,
     "question": "Kako se stručno zove iver, plosnata kost koja štiti koljeno?",
     "answer": "Patela",
-    "accept": ["Patella"],
+    "accept": [
+      "Patella"
+    ],
     "note": "Zglobljena je s bedrenom kosti.",
     "source": "Wikipedia (en): Patella",
-    "tags": ["ljudsko tijelo", "kosti"],
+    "tags": [
+      "ljudsko tijelo",
+      "kosti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +210,10 @@
     "accept": [],
     "note": "Nijedna vrsta šišmiša nije potpuno slijepa.",
     "source": "Wikipedia (en): Bat",
-    "tags": ["životinje", "zablude"],
+    "tags": [
+      "životinje",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +227,10 @@
     "accept": [],
     "note": "Ima i debeo sloj masti.",
     "source": "Wikipedia (en): Polar bear",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +244,10 @@
     "accept": [],
     "note": "Riječ je o visokoj, čvrstoj travi koja daje žitno zrno.",
     "source": "Wikipedia (en): Maize",
-    "tags": ["biljke", "žitarice"],
+    "tags": [
+      "biljke",
+      "žitarice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +258,16 @@
     "difficulty": 2,
     "question": "Koliko litara krvi otprilike ima odrastao čovjek?",
     "answer": "5 L",
-    "accept": ["5", "Oko 5 litara"],
+    "accept": [
+      "5",
+      "Oko 5 litara"
+    ],
     "note": "Krv čini oko 7 do 8 % tjelesne mase.",
     "source": "Wikipedia (en): Blood volume",
-    "tags": ["ljudsko tijelo", "brojevi"],
+    "tags": [
+      "ljudsko tijelo",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +278,15 @@
     "difficulty": 2,
     "question": "Koliko dana kokoš sjedi na jajima dok se pilići ne izlegu?",
     "answer": "21",
-    "accept": ["21 dan"],
+    "accept": [
+      "21 dan"
+    ],
     "note": "Pile ljusku probija posebnim zubom na kljunu.",
     "source": "Wikipedia (en): Chicken",
-    "tags": ["ptice", "brojevi"],
+    "tags": [
+      "ptice",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +300,10 @@
     "accept": [],
     "note": "Ta je bjelančevina hemocijanin, zbog koje je krv gusta.",
     "source": "Wikipedia (en): Octopus",
-    "tags": ["more", "životinje"],
+    "tags": [
+      "more",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +317,10 @@
     "accept": [],
     "note": "Slonica nakon toga ne rađa najmanje četiri godine.",
     "source": "Wikipedia (en): Elephant",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +334,10 @@
     "accept": [],
     "note": "Na tri para nogu ima kliješta, a prvi je par obično najveći.",
     "source": "Wikipedia (en): Lobster",
-    "tags": ["more", "životinje"],
+    "tags": [
+      "more",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +351,10 @@
     "accept": [],
     "note": "Pripitomili su ga starosjedioci južnog Meksika prije oko 9000 godina.",
     "source": "Wikipedia (en): Maize",
-    "tags": ["biljke", "povijest"],
+    "tags": [
+      "biljke",
+      "povijest"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +365,15 @@
     "difficulty": 3,
     "question": "Od koliko se kostiju obično sastoji ljudska lubanja?",
     "answer": "22",
-    "accept": ["Dvadeset dvije"],
+    "accept": [
+      "Dvadeset dvije"
+    ],
     "note": "Osam je kostiju moždanog dijela i četrnaest kostiju lica.",
     "source": "Wikipedia (en): Skull",
-    "tags": ["ljudsko tijelo", "kosti"],
+    "tags": [
+      "ljudsko tijelo",
+      "kosti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +384,15 @@
     "difficulty": 3,
     "question": "Koliko vratnih kralježaka ima većina sisavaca?",
     "answer": "7",
-    "accept": ["Sedam"],
+    "accept": [
+      "Sedam"
+    ],
     "note": "Iznimke su morska krava s šest i dvoprsti ljenivac s pet ili šest kralježaka.",
     "source": "Wikipedia (en): Cervical vertebrae",
-    "tags": ["sisavci", "kosti"],
+    "tags": [
+      "sisavci",
+      "kosti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Kako se zove zmija otrovnica s „zvečkom” na kraju repa?",
     "answer": "Čegrtuša",
-    "accept": ["Zvečarka"],
+    "accept": [
+      "Zvečarka"
+    ],
     "note": "Čegrtuše pripadaju jamičarkama, podskupini ljutica.",
     "source": "Wikipedia (en): Rattlesnake",
-    "tags": ["gmazovi", "zmije"],
+    "tags": [
+      "gmazovi",
+      "zmije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Kako se zovu životinje koje jedu i biljnu i životinjsku hranu?",
     "answer": "Svejedi",
-    "accept": ["Svejed", "Omnivori"],
+    "accept": [
+      "Svejed",
+      "Omnivori"
+    ],
     "note": "Probavljaju ugljikohidrate, bjelančevine, masti i vlakna.",
     "source": "Wikipedia (en): Omnivore",
-    "tags": ["životinje", "prehrana"],
+    "tags": [
+      "životinje",
+      "prehrana"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0122",
@@ -34,12 +46,18 @@
     "difficulty": 1,
     "question": "Kako se zove mladunče psa?",
     "answer": "Štene",
-    "accept": ["Štenad"],
+    "accept": [
+      "Štenad"
+    ],
     "note": "Boja dlake šteneta s godinama se može promijeniti.",
     "source": "Wikipedia (en): Puppy",
-    "tags": ["životinje", "mladunčad"],
+    "tags": [
+      "životinje",
+      "mladunčad"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0123",
@@ -48,12 +66,18 @@
     "difficulty": 1,
     "question": "Kako se zove mladunče mačke?",
     "answer": "Mače",
-    "accept": ["Mačić"],
+    "accept": [
+      "Mačić"
+    ],
     "note": "Oči obično otvore tek nakon sedam do deset dana.",
     "source": "Wikipedia (en): Kitten",
-    "tags": ["životinje", "mladunčad"],
+    "tags": [
+      "životinje",
+      "mladunčad"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0124",
@@ -65,7 +89,10 @@
     "accept": [],
     "note": "Postoje atlantska i pacifička podvrsta.",
     "source": "Wikipedia (en): Walrus",
-    "tags": ["more", "sisavci"],
+    "tags": [
+      "more",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +106,10 @@
     "accept": [],
     "note": "Kitopsina je morski pas i najveća poznata živuća riba.",
     "source": "Wikipedia (en): Whale shark",
-    "tags": ["more", "zablude"],
+    "tags": [
+      "more",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +123,10 @@
     "accept": [],
     "note": "Psi su dikromati: njihov svijet čine žute, plave i sive boje.",
     "source": "Wikipedia (en): Dog",
-    "tags": ["životinje", "zablude"],
+    "tags": [
+      "životinje",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +137,15 @@
     "difficulty": 1,
     "question": "Koliko slušnih koščica ima srednje uho?",
     "answer": "3",
-    "accept": ["Tri"],
+    "accept": [
+      "Tri"
+    ],
     "note": "To su čekić, nakovanj i stremen, među najmanjim kostima u tijelu.",
     "source": "Wikipedia (en): Ossicles",
-    "tags": ["ljudsko tijelo", "kosti"],
+    "tags": [
+      "ljudsko tijelo",
+      "kosti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +156,15 @@
     "difficulty": 2,
     "question": "Kako se zove bjelančevina sa željezom koja u crvenim krvnim stanicama prenosi kisik?",
     "answer": "Hemoglobin",
-    "accept": ["Hb"],
+    "accept": [
+      "Hb"
+    ],
     "note": "Imaju je gotovo svi kralježnjaci, osim jedne porodice antarktičkih riba.",
     "source": "Wikipedia (en): Hemoglobin",
-    "tags": ["ljudsko tijelo", "krv"],
+    "tags": [
+      "ljudsko tijelo",
+      "krv"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +175,16 @@
     "difficulty": 2,
     "question": "Kako se zove spolno razvijena ženka koja je majka većine pčela u košnici?",
     "answer": "Matica",
-    "accept": ["Pčela matica", "Kraljica"],
+    "accept": [
+      "Pčela matica",
+      "Kraljica"
+    ],
     "note": "Jaja polaže u posebne stanice saća kad se zajednica sprema rojiti.",
     "source": "Wikipedia (en): Queen bee",
-    "tags": ["kukci", "pčele"],
+    "tags": [
+      "kukci",
+      "pčele"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +198,10 @@
     "accept": [],
     "note": "Ime dolazi od grčkih riječi órnis, „ptica”, i lógos, „proučavanje”.",
     "source": "Wikipedia (en): Ornithology",
-    "tags": ["znanost", "ptice"],
+    "tags": [
+      "znanost",
+      "ptice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +212,16 @@
     "difficulty": 2,
     "question": "Koji je najveći živući gušter?",
     "answer": "Komodski varan",
-    "accept": ["Komodski zmaj", "Varan"],
+    "accept": [
+      "Komodski zmaj",
+      "Varan"
+    ],
     "note": "Živi na nekoliko indonezijskih otoka, među njima Komodu, Rinci i Floresu.",
     "source": "Wikipedia (en): Komodo dragon",
-    "tags": ["gmazovi", "rekordi"],
+    "tags": [
+      "gmazovi",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +235,10 @@
     "accept": [],
     "note": "I noću izvrsno vide na daljinu.",
     "source": "Wikipedia (en): Owl",
-    "tags": ["ptice", "životinje"],
+    "tags": [
+      "ptice",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +252,10 @@
     "accept": [],
     "note": "Banane rastu na velikim zeljastim biljkama koje samo nalikuju drveću.",
     "source": "Wikipedia (en): Banana",
-    "tags": ["biljke", "zablude"],
+    "tags": [
+      "biljke",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +269,10 @@
     "accept": [],
     "note": "Prvi su simptomi slabost, umor i bolovi u rukama i nogama.",
     "source": "Wikipedia (en): Scurvy",
-    "tags": ["zdravlje", "vitamini"],
+    "tags": [
+      "zdravlje",
+      "vitamini"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 2,
     "question": "Iz koliko se dijelova sastoji želudac preživača?",
     "answer": "4",
-    "accept": ["Četiri"],
+    "accept": [
+      "Četiri"
+    ],
     "note": "Neki sisavci, takozvani pseudopreživači, imaju želudac od tri dijela.",
     "source": "Wikipedia (en): Ruminant",
-    "tags": ["sisavci", "probava"],
+    "tags": [
+      "sisavci",
+      "probava"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Koja je jedina živuća vrsta medvjeda u Južnoj Americi?",
     "answer": "Naočarski medvjed",
-    "accept": ["Andski medvjed"],
+    "accept": [
+      "Andski medvjed"
+    ],
     "note": "Živi u Andama, na sjeveru i zapadu Južne Amerike.",
     "source": "Wikipedia (en): Spectacled bear",
-    "tags": ["sisavci", "Južna Amerika"],
+    "tags": [
+      "sisavci",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +321,16 @@
     "difficulty": 3,
     "question": "Od koje je divlje ptice iz jugoistočne Azije pripitomljena kokoš?",
     "answer": "Crvena divlja kokoš",
-    "accept": ["Bankivska kokoš", "Divlja kokoš"],
+    "accept": [
+      "Bankivska kokoš",
+      "Divlja kokoš"
+    ],
     "note": "Pripitomljena je prije oko 8000 godina.",
     "source": "Wikipedia (en): Chicken",
-    "tags": ["ptice", "pripitomljavanje"],
+    "tags": [
+      "ptice",
+      "pripitomljavanje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +344,10 @@
     "accept": [],
     "note": "Udvostručeni kromosomi pritom se razdvajaju u dvije nove jezgre.",
     "source": "Wikipedia (en): Mitosis",
-    "tags": ["biologija", "stanice"],
+    "tags": [
+      "biologija",
+      "stanice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +358,15 @@
     "difficulty": 3,
     "question": "Koliko vratnih kralježaka ima sova?",
     "answer": "14",
-    "accept": ["Četrnaest"],
+    "accept": [
+      "Četrnaest"
+    ],
     "note": "Čovjek ih ima samo sedam.",
     "source": "Wikipedia (en): Owl",
-    "tags": ["ptice", "brojevi"],
+    "tags": [
+      "ptice",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

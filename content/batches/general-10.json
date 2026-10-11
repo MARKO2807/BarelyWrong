@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Ime je kratica od Hans Riegel Bonn.",
     "source": "Wikipedia (en): Haribo",
-    "tags": ["tvrtke", "slatkiši"],
+    "tags": [
+      "tvrtke",
+      "slatkiši"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,15 @@
     "difficulty": 1,
     "question": "Koja njemačka automobilska marka ima ime koje znači „narodni automobil”?",
     "answer": "Volkswagen",
-    "accept": ["VW"],
+    "accept": [
+      "VW"
+    ],
     "note": "Sjedište joj je u Wolfsburgu, u Donjoj Saskoj.",
     "source": "Wikipedia (en): Volkswagen",
-    "tags": ["automobili", "Njemačka"],
+    "tags": [
+      "automobili",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,12 +42,19 @@
     "difficulty": 1,
     "question": "Koji se blagdan, nazvan po mučeniku, slavi 14. veljače?",
     "answer": "Valentinovo",
-    "accept": ["Dan zaljubljenih", "sveti Valentin"],
+    "accept": [
+      "Dan zaljubljenih",
+      "sveti Valentin"
+    ],
     "note": "Nastao je kao kršćanski blagdan u čast mučenika Valentina.",
     "source": "Wikipedia (en): Valentine's Day",
-    "tags": ["blagdani", "kalendar"],
+    "tags": [
+      "blagdani",
+      "kalendar"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0223",
@@ -48,12 +63,18 @@
     "difficulty": 1,
     "question": "Koji se običaj slavi 31. listopada, uoči blagdana Svih svetih?",
     "answer": "Noć vještica",
-    "accept": ["Halloween"],
+    "accept": [
+      "Halloween"
+    ],
     "note": "Na engleskom se zove i All Hallows' Eve.",
     "source": "Wikipedia (en): Halloween",
-    "tags": ["blagdani", "kalendar"],
+    "tags": [
+      "blagdani",
+      "kalendar"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0224",
@@ -62,10 +83,15 @@
     "difficulty": 1,
     "question": "Kako se zove kava koja se priprema protiskivanjem vruće vode pod visokim tlakom kroz fino mljevenu kavu?",
     "answer": "Espresso",
-    "accept": ["ekspreso"],
+    "accept": [
+      "ekspreso"
+    ],
     "note": "Potječe iz Italije.",
     "source": "Wikipedia (en): Espresso",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +102,15 @@
     "difficulty": 2,
     "question": "Koje se gazirano piće, prvi put napravljeno 1893., isprva zvalo „Brad's Drink”?",
     "answer": "Pepsi",
-    "accept": ["Pepsi-Cola"],
+    "accept": [
+      "Pepsi-Cola"
+    ],
     "note": "Prodavalo se u ljekarni Caleba Bradhama u New Bernu u Sjevernoj Karolini.",
     "source": "Wikipedia (en): Pepsi",
-    "tags": ["pića", "tvrtke"],
+    "tags": [
+      "pića",
+      "tvrtke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +124,10 @@
     "accept": [],
     "note": "Izvorno ju je u Švicarskoj osmislio Carl Russ-Suchard.",
     "source": "Wikipedia (en): Milka",
-    "tags": ["slatkiši", "tvrtke"],
+    "tags": [
+      "slatkiši",
+      "tvrtke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +141,10 @@
     "accept": [],
     "note": "Ime je dobio po pelinu, od kojeg se radi.",
     "source": "Wikipedia (en): Pelinkovac",
-    "tags": ["pića", "Hrvatska"],
+    "tags": [
+      "pića",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +155,15 @@
     "difficulty": 2,
     "question": "Kako se zove suhi aperitiv s okusom anisa, omiljen u Grčkoj i na Cipru?",
     "answer": "Ouzo",
-    "accept": ["uzo"],
+    "accept": [
+      "uzo"
+    ],
     "note": "Radi se od rektificiranog alkohola koji se destilira i aromatizira.",
     "source": "Wikipedia (en): Ouzo",
-    "tags": ["pića", "Grčka"],
+    "tags": [
+      "pića",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +174,15 @@
     "difficulty": 2,
     "question": "Kako se zove bezbojno destilirano korejsko alkoholno piće, tradicionalno od riže?",
     "answer": "Soju",
-    "accept": ["sodžu"],
+    "accept": [
+      "sodžu"
+    ],
     "note": "Okusom podsjeća na votku.",
     "source": "Wikipedia (en): Soju",
-    "tags": ["pića", "Azija"],
+    "tags": [
+      "pića",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +193,15 @@
     "difficulty": 2,
     "question": "Koja se igra za dva do četiri igrača obično igra sa 144 pločice s kineskim znakovima i simbolima?",
     "answer": "Mahjong",
-    "accept": ["madžong"],
+    "accept": [
+      "madžong"
+    ],
     "note": "Igrači zauzimaju jednu od četiriju pozicija vjetrova.",
     "source": "Wikipedia (en): Mahjong",
-    "tags": ["igre", "Kina"],
+    "tags": [
+      "igre",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +215,10 @@
     "accept": [],
     "note": "Prodaje se u inačicama od svilenkaste do vrlo čvrste.",
     "source": "Wikipedia (en): Tofu",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +229,16 @@
     "difficulty": 2,
     "question": "Koja se strateška igra, izumljena u Kini prije više od 2500 godina, smatra najstarijom društvenom igrom koja se igra bez prekida?",
     "answer": "Go",
-    "accept": ["weiqi", "baduk"],
+    "accept": [
+      "weiqi",
+      "baduk"
+    ],
     "note": "Cilj je ograditi više područja od protivnika.",
     "source": "Wikipedia (en): Go (game)",
-    "tags": ["igre", "Kina"],
+    "tags": [
+      "igre",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +252,10 @@
     "accept": [],
     "note": "Tajlandski uzor zvao se Krating Daeng.",
     "source": "Wikipedia (en): Red Bull",
-    "tags": ["pića", "tvrtke"],
+    "tags": [
+      "pića",
+      "tvrtke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +269,10 @@
     "accept": [],
     "note": "Osnovali su je Gerard Philips i njegov otac Frederik.",
     "source": "Wikipedia (en): Philips",
-    "tags": ["tvrtke", "Europa"],
+    "tags": [
+      "tvrtke",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 3,
     "question": "Koja je kartaška igra, uz scopu i trešetu, jedna od najpopularnijih u Italiji?",
     "answer": "Briškula",
-    "accept": ["Briscola"],
+    "accept": [
+      "Briscola"
+    ],
     "note": "Malo izmijenjena je potomkinja igre Brusquembille.",
     "source": "Wikipedia (en): Briscola",
-    "tags": ["igre", "karte"],
+    "tags": [
+      "igre",
+      "karte"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Koji češki proizvođač automobila, sa sjedištem u Mladoj Boleslavi, nasljednik je tvrtke Laurin & Klement?",
     "answer": "Škoda",
-    "accept": ["Škoda Auto"],
+    "accept": [
+      "Škoda Auto"
+    ],
     "note": "Od 1948. bila je u državnom vlasništvu.",
     "source": "Wikipedia (en): Škoda Auto",
-    "tags": ["automobili", "Europa"],
+    "tags": [
+      "automobili",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +321,15 @@
     "difficulty": 3,
     "question": "Kako glasi puni naziv iza kratice talijanskog proizvođača automobila FIAT?",
     "answer": "Fabbrica Italiana Automobili Torino",
-    "accept": ["Talijanska tvornica automobila Torino"],
+    "accept": [
+      "Talijanska tvornica automobila Torino"
+    ],
     "note": "Među osnivačima 1899. bio je Giovanni Agnelli.",
     "source": "Wikipedia (en): Fiat",
-    "tags": ["automobili", "kratice"],
+    "tags": [
+      "automobili",
+      "kratice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +340,16 @@
     "difficulty": 3,
     "question": "Koja se kartaška igra na štihove igra standardnim špilom od 52 karte, u četiri igrača podijeljena u dva para?",
     "answer": "Bridž",
-    "accept": ["Bridge", "Contract bridge"],
+    "accept": [
+      "Bridge",
+      "Contract bridge"
+    ],
     "note": "Partneri sjede jedan nasuprot drugome.",
     "source": "Wikipedia (en): Contract bridge",
-    "tags": ["igre", "karte"],
+    "tags": [
+      "igre",
+      "karte"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +360,16 @@
     "difficulty": 3,
     "question": "Koja je društvena igra s kockicama najrašireniji zapadni član obitelji igara „tables”?",
     "answer": "Backgammon",
-    "accept": ["tavla", "bekgemon"],
+    "accept": [
+      "tavla",
+      "bekgemon"
+    ],
     "note": "Preci te obitelji igara stari su najmanje 1600 godina.",
     "source": "Wikipedia (en): Backgammon",
-    "tags": ["igre", "društvene igre"],
+    "tags": [
+      "igre",
+      "društvene igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

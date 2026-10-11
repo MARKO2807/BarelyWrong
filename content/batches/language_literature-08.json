@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Na francuskom se zove Le Petit Chaperon rouge, a na njemačkom Rotkäppchen.",
     "source": "Wikipedia (en): Little Red Riding Hood",
-    "tags": ["bajke", "likovi"],
+    "tags": [
+      "bajke",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0185",
@@ -20,10 +24,16 @@
     "difficulty": 1,
     "question": "Kako se zove prva knjiga Biblije?",
     "answer": "Postanak",
-    "accept": ["Knjiga Postanka", "Geneza"],
+    "accept": [
+      "Knjiga Postanka",
+      "Geneza"
+    ],
     "note": "Hebrejski naziv znači „U početku”.",
     "source": "Wikipedia (en): Book of Genesis",
-    "tags": ["Biblija", "knjige"],
+    "tags": [
+      "Biblija",
+      "knjige"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +44,15 @@
     "difficulty": 1,
     "question": "Kako se zove riječ nastala premetanjem svih slova druge riječi, poput „rak” i „kar”?",
     "answer": "Anagram",
-    "accept": ["anagrami"],
+    "accept": [
+      "anagrami"
+    ],
     "note": "Svako se slovo izvorne riječi pritom koristi točno jednom.",
     "source": "Wikipedia (en): Anagram",
-    "tags": ["igre riječima", "jezik"],
+    "tags": [
+      "igre riječima",
+      "jezik"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,9 +66,13 @@
     "accept": [],
     "note": "Razlikuje se od biografije, koju o nečijem životu piše netko drugi.",
     "source": "Wikipedia (en): Autobiography",
-    "tags": ["književni rodovi", "pojmovi"],
+    "tags": [
+      "književni rodovi",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0188",
@@ -62,10 +81,15 @@
     "difficulty": 1,
     "question": "Koja je židovska djevojčica u Amsterdamu dvije godine u skrivanju vodila dnevnik koji je postao svjetski poznata knjiga?",
     "answer": "Anne Frank",
-    "accept": ["Ana Frank"],
+    "accept": [
+      "Ana Frank"
+    ],
     "note": "Dnevnik je pisala na nizozemskom.",
     "source": "Wikipedia (en): The Diary of a Young Girl",
-    "tags": ["dnevnici", "Drugi svjetski rat"],
+    "tags": [
+      "dnevnici",
+      "Drugi svjetski rat"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Pravim imenom zvao se Charles Lutwidge Dodgson; bio je i fotograf i anglikanski đakon.",
     "source": "Wikipedia (en): Lewis Carroll",
-    "tags": ["pisci", "zanimljivosti"],
+    "tags": [
+      "pisci",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +117,16 @@
     "difficulty": 2,
     "question": "Kako se zove šuma u kojoj žive Winnie Pooh i njegovi prijatelji?",
     "answer": "Stojutarska šuma",
-    "accept": ["Šuma od sto jutara", "Hundred Acre Wood"],
+    "accept": [
+      "Šuma od sto jutara",
+      "Hundred Acre Wood"
+    ],
     "note": "Na engleskom se zove i samo „The Wood”.",
     "source": "Wikipedia (en): Hundred Acre Wood",
-    "tags": ["dječja književnost", "mjesta"],
+    "tags": [
+      "dječja književnost",
+      "mjesta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +137,16 @@
     "difficulty": 2,
     "question": "Koji je američki pisac autor knjige „Čarobnjak iz Oza”?",
     "answer": "L. Frank Baum",
-    "accept": ["Baum", "Frank Baum"],
+    "accept": [
+      "Baum",
+      "Frank Baum"
+    ],
     "note": "Knjiga je dio cijele serije o zemlji Oz.",
     "source": "Wikipedia (en): L. Frank Baum",
-    "tags": ["dječja književnost", "pisci"],
+    "tags": [
+      "dječja književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +157,15 @@
     "difficulty": 2,
     "question": "Koji je irski pisac 1897. objavio roman „Drakula”?",
     "answer": "Bram Stoker",
-    "accept": ["Stoker"],
+    "accept": [
+      "Stoker"
+    ],
     "note": "Roman je ispripovijedan kroz pisma, dnevnike i novinske članke.",
     "source": "Wikipedia (en): Dracula",
-    "tags": ["horor", "pisci"],
+    "tags": [
+      "horor",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +176,15 @@
     "difficulty": 2,
     "question": "Koji je francuski pisac autor romana „Gospođa Bovary”?",
     "answer": "Gustave Flaubert",
-    "accept": ["Flaubert"],
+    "accept": [
+      "Flaubert"
+    ],
     "note": "Zbog romana je 1857. suđen za nemoral, ali je oslobođen.",
     "source": "Wikipedia (en): Madame Bovary",
-    "tags": ["romani", "pisci"],
+    "tags": [
+      "romani",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +195,15 @@
     "difficulty": 2,
     "question": "Koji je čileanski pjesnik 1971. dobio Nobelovu nagradu za književnost?",
     "answer": "Pablo Neruda",
-    "accept": ["Neruda"],
+    "accept": [
+      "Neruda"
+    ],
     "note": "Pravim imenom zvao se Ricardo Eliécer Neftalí Reyes Basoalto.",
     "source": "Wikipedia (en): Pablo Neruda",
-    "tags": ["poezija", "Nobelova nagrada"],
+    "tags": [
+      "poezija",
+      "Nobelova nagrada"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +214,15 @@
     "difficulty": 2,
     "question": "Koji je pisac 1994. objavio zbirku priča „Sarajevski Marlboro”?",
     "answer": "Miljenko Jergović",
-    "accept": ["Jergović"],
+    "accept": [
+      "Jergović"
+    ],
     "note": "Knjiga je prevedena i na engleski.",
     "source": "Wikipedia (en): Miljenko Jergović",
-    "tags": ["suvremena književnost", "pisci"],
+    "tags": [
+      "suvremena književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +233,15 @@
     "difficulty": 2,
     "question": "Koja je spisateljica autorica romana „Muzej bezuvjetne predaje”?",
     "answer": "Dubravka Ugrešić",
-    "accept": ["Ugrešić"],
+    "accept": [
+      "Ugrešić"
+    ],
     "note": "Roman govori o sjeti sjećanja i zaborava.",
     "source": "Wikipedia (en): Dubravka Ugrešić",
-    "tags": ["suvremena književnost", "pisci"],
+    "tags": [
+      "suvremena književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +255,10 @@
     "accept": [],
     "note": "Alfabet počinje alfom, a završava omegom.",
     "source": "Wikipedia (en): Greek alphabet",
-    "tags": ["pismo", "brojevi"],
+    "tags": [
+      "pismo",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +269,16 @@
     "difficulty": 2,
     "question": "Kako se zove prijatelj Toma Sawyera koji je glavni junak i pripovjedač nastavka Twainova romana?",
     "answer": "Huckleberry Finn",
-    "accept": ["Huck Finn", "Huck"],
+    "accept": [
+      "Huck Finn",
+      "Huck"
+    ],
     "note": "Prvi se put pojavio 1876., u „Pustolovinama Toma Sawyera”.",
     "source": "Wikipedia (en): Huckleberry Finn",
-    "tags": ["romani", "likovi"],
+    "tags": [
+      "romani",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +289,15 @@
     "difficulty": 3,
     "question": "Pod kojim je umjetničkim imenom poznat francuski komediograf Jean-Baptiste Poquelin?",
     "answer": "Molière",
-    "accept": ["Moliere"],
+    "accept": [
+      "Moliere"
+    ],
     "note": "Na sceni mu je pozlilo tijekom izvedbe; umro je nekoliko sati poslije.",
     "source": "Wikipedia (en): Molière",
-    "tags": ["drama", "pisci"],
+    "tags": [
+      "drama",
+      "pisci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +308,15 @@
     "difficulty": 3,
     "question": "Koji se indijski ep, čije ime znači otprilike „velika priča o Bharati”, ubraja u najdulje epove na svijetu?",
     "answer": "Mahabharata",
-    "accept": ["Mahābhārata"],
+    "accept": [
+      "Mahābhārata"
+    ],
     "note": "Naslov se prevodi i kao „Velika indijska priča”.",
     "source": "Wikipedia (en): Mahabharata",
-    "tags": ["epovi", "Indija"],
+    "tags": [
+      "epovi",
+      "Indija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +327,15 @@
     "difficulty": 3,
     "question": "Kako se zove pjesnički oblik od 19 stihova s dva refrena i samo dvije rime?",
     "answer": "Vilanela",
-    "accept": ["villanelle"],
+    "accept": [
+      "villanelle"
+    ],
     "note": "Iako je francuskog podrijetla, većina vilanela napisana je na engleskom.",
     "source": "Wikipedia (en): Villanelle",
-    "tags": ["poezija", "oblici"],
+    "tags": [
+      "poezija",
+      "oblici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +349,10 @@
     "accept": [],
     "note": "Pisan je aliteracijskim stihom.",
     "source": "Wikipedia (en): Beowulf",
-    "tags": ["epovi", "srednji vijek"],
+    "tags": [
+      "epovi",
+      "srednji vijek"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +363,16 @@
     "difficulty": 3,
     "question": "Koji je perzijski pjesnik, zvan „astronom-pjesnik Perzije”, autor slavnih četverostiha, rubaija?",
     "answer": "Omar Hajjam",
-    "accept": ["Omar Khayyam", "Hajjam"],
+    "accept": [
+      "Omar Khayyam",
+      "Hajjam"
+    ],
     "note": "Živio je od 1048. do 1131.",
     "source": "Wikipedia (en): Rubaiyat of Omar Khayyam",
-    "tags": ["poezija", "Perzija"],
+    "tags": [
+      "poezija",
+      "Perzija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Pravo mu je ime Jumbo mlađi, a nadimak mu je podrugljivo nadjenut zbog ušiju.",
     "source": "Wikipedia (en): Dumbo",
-    "tags": ["animirani film", "Disney"],
+    "tags": [
+      "animirani film",
+      "Disney"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0121",
@@ -23,7 +27,10 @@
     "accept": [],
     "note": "Snoopyja je Schulz osmislio prema svom psu iz djetinjstva, Spikeu.",
     "source": "Wikipedia (en): Snoopy",
-    "tags": ["crtani filmovi", "likovi"],
+    "tags": [
+      "crtani filmovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,10 +41,15 @@
     "difficulty": 1,
     "question": "Koji je glumac utjelovio Maximusa u Scottovu filmu „Gladijator” iz 2000.?",
     "answer": "Russell Crowe",
-    "accept": ["Crowe"],
+    "accept": [
+      "Crowe"
+    ],
     "note": "U filmu glume i Joaquin Phoenix, Connie Nielsen i Oliver Reed.",
     "source": "Wikipedia (en): Gladiator (2000 film)",
-    "tags": ["glumci", "povijesni film"],
+    "tags": [
+      "glumci",
+      "povijesni film"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +63,10 @@
     "accept": [],
     "note": "Bio je 38. guverner, od 2003. do 2011.",
     "source": "Wikipedia (en): Arnold Schwarzenegger",
-    "tags": ["glumci", "politika"],
+    "tags": [
+      "glumci",
+      "politika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +80,10 @@
     "accept": [],
     "note": "Film je napisao i režirao George Lucas.",
     "source": "Wikipedia (en): Star Wars (film)",
-    "tags": ["Ratovi zvijezda", "zablude"],
+    "tags": [
+      "Ratovi zvijezda",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,9 +97,13 @@
     "accept": [],
     "note": "Tom je mačak, a Jerry miš.",
     "source": "Wikipedia (en): Tom and Jerry",
-    "tags": ["crtani filmovi", "zablude"],
+    "tags": [
+      "crtani filmovi",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0126",
@@ -90,10 +112,15 @@
     "difficulty": 1,
     "question": "Koje je godine izašao Disneyjev „Kralj lavova”?",
     "answer": "1994.",
-    "accept": ["1994"],
+    "accept": [
+      "1994"
+    ],
     "note": "Režirali su ga Roger Allers i Rob Minkoff.",
     "source": "Wikipedia (en): The Lion King",
-    "tags": ["animirani film", "godine"],
+    "tags": [
+      "animirani film",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,12 +131,18 @@
     "difficulty": 1,
     "question": "Koliko je filmova snimljeno prema knjigama o Harryju Potteru?",
     "answer": "8",
-    "accept": ["Osam"],
+    "accept": [
+      "Osam"
+    ],
     "note": "Serijal je počeo filmom „Harry Potter i Kamen mudraca” 2001.",
     "source": "Wikipedia (en): Harry Potter (film series)",
-    "tags": ["fantastika", "brojevi"],
+    "tags": [
+      "fantastika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0128",
@@ -118,10 +151,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj 1994. snimio „Forresta Gumpa”?",
     "answer": "Robert Zemeckis",
-    "accept": ["Zemeckis"],
+    "accept": [
+      "Zemeckis"
+    ],
     "note": "Film je snimljen prema romanu Winstona Grooma iz 1986.",
     "source": "Wikipedia (en): Forrest Gump",
-    "tags": ["redatelji", "filmovi"],
+    "tags": [
+      "redatelji",
+      "filmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +170,15 @@
     "difficulty": 2,
     "question": "Koji je kanadski glumac izvorno utjelovio kapetana Kirka u „Zvjezdanim stazama”?",
     "answer": "William Shatner",
-    "accept": ["Shatner"],
+    "accept": [
+      "Shatner"
+    ],
     "note": "Kirk je najpoznatiji kao zapovjednik svemirskog broda Enterprise.",
     "source": "Wikipedia (en): James T. Kirk",
-    "tags": ["znanstvena fantastika", "glumci"],
+    "tags": [
+      "znanstvena fantastika",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +189,15 @@
     "difficulty": 2,
     "question": "Kako se zove japanski animacijski studio koji su 1985. osnovali Hayao Miyazaki i Isao Takahata?",
     "answer": "Studio Ghibli",
-    "accept": ["Ghibli"],
+    "accept": [
+      "Ghibli"
+    ],
     "note": "Sjedište mu je u Koganeiju u Tokiju.",
     "source": "Wikipedia (en): Studio Ghibli",
-    "tags": ["animacija", "Japan"],
+    "tags": [
+      "animacija",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +211,10 @@
     "accept": [],
     "note": "Svjetsku je slavu stekao u doba nijemog filma.",
     "source": "Wikipedia (en): Charlie Chaplin",
-    "tags": ["nijemi film", "glumci"],
+    "tags": [
+      "nijemi film",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +228,10 @@
     "accept": [],
     "note": "Uslugu gledanja preko interneta pokrenuo je 2007., gotovo desetljeće poslije.",
     "source": "Wikipedia (en): Netflix",
-    "tags": ["televizija", "tehnologija"],
+    "tags": [
+      "televizija",
+      "tehnologija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +245,10 @@
     "accept": [],
     "note": "Režirao ga je Chris Columbus, a scenarij je napisao Steve Kloves.",
     "source": "Wikipedia (en): Harry Potter and the Philosopher's Stone (film)",
-    "tags": ["fantastika", "zablude"],
+    "tags": [
+      "fantastika",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +259,15 @@
     "difficulty": 3,
     "question": "Koji je glumac u svih osam filmova o Harryju Potteru utjelovio Hagrida?",
     "answer": "Robbie Coltrane",
-    "accept": ["Coltrane"],
+    "accept": [
+      "Coltrane"
+    ],
     "note": "Hagrid na kraju postaje profesor skrbi za čarobna stvorenja.",
     "source": "Wikipedia (en): Rubeus Hagrid",
-    "tags": ["glumci", "fantastika"],
+    "tags": [
+      "glumci",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +278,15 @@
     "difficulty": 3,
     "question": "Koji je redatelj snimio antiratni film „Okupacija u 26 slika” iz 1978.?",
     "answer": "Lordan Zafranović",
-    "accept": ["Zafranović"],
+    "accept": [
+      "Zafranović"
+    ],
     "note": "Film je bio jugoslavenski kandidat za Oscara za strani film.",
     "source": "Wikipedia (en): Occupation in 26 Pictures",
-    "tags": ["redatelji", "Hrvatska"],
+    "tags": [
+      "redatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +297,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski redatelj snimio film „Rondo” iz 1966.?",
     "answer": "Zvonimir Berković",
-    "accept": ["Berković"],
+    "accept": [
+      "Berković"
+    ],
     "note": "Film je sniman u Zagrebu.",
     "source": "Wikipedia (en): Rondo (1966 film)",
-    "tags": ["redatelji", "Hrvatska"],
+    "tags": [
+      "redatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +316,15 @@
     "difficulty": 3,
     "question": "Kako se zove hrvatski kratki film iz 2024. koji je osvojio Zlatnu palmu za kratki film u Cannesu?",
     "answer": "Čovjek koji nije mogao šutjeti",
-    "accept": ["The Man Who Could Not Remain Silent"],
+    "accept": [
+      "The Man Who Could Not Remain Silent"
+    ],
     "note": "Režirao ga je Nebojša Slijepčević, a bio je nominiran i za Oscara.",
     "source": "Wikipedia (en): The Man Who Could Not Remain Silent",
-    "tags": ["kratki film", "Hrvatska"],
+    "tags": [
+      "kratki film",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +335,15 @@
     "difficulty": 3,
     "question": "Koliko je epizoda imala serija „Breaking Bad”?",
     "answer": "62",
-    "accept": ["Šezdeset dvije"],
+    "accept": [
+      "Šezdeset dvije"
+    ],
     "note": "Emitirana je od 2008. do 2013., u pet sezona.",
     "source": "Wikipedia (en): Breaking Bad",
-    "tags": ["serije", "brojevi"],
+    "tags": [
+      "serije",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +354,15 @@
     "difficulty": 3,
     "question": "Koliko je kratkih filmova o Tomu i Jerryju proizveo MGM?",
     "answer": "161",
-    "accept": ["Sto šezdeset jedan"],
+    "accept": [
+      "Sto šezdeset jedan"
+    ],
     "note": "Seriju su osmislili William Hanna i Joseph Barbera.",
     "source": "Wikipedia (en): Tom and Jerry",
-    "tags": ["crtani filmovi", "brojevi"],
+    "tags": [
+      "crtani filmovi",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

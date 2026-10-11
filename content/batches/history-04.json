@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Kako je sovjetski novinar prozvao britansku premijerku Margaret Thatcher?",
     "answer": "Željezna lady",
-    "accept": ["Željezna dama", "Iron Lady"],
+    "accept": [
+      "Željezna dama",
+      "Iron Lady"
+    ],
     "note": "Bila je prva žena na mjestu britanske premijerke.",
     "source": "Wikipedia (en): Margaret Thatcher",
-    "tags": ["Ujedinjeno Kraljevstvo", "nadimci"],
+    "tags": [
+      "Ujedinjeno Kraljevstvo",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -23,7 +29,10 @@
     "accept": [],
     "note": "Prvi je rimski car bio August, od 27. pr. Kr. do smrti 14. godine.",
     "source": "Wikipedia (en): Augustus",
-    "tags": ["Rim", "zablude"],
+    "tags": [
+      "Rim",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,7 +46,10 @@
     "accept": [],
     "note": "U Rusiji je taj rat poznat kao Domovinski rat 1812.",
     "source": "Wikipedia (en): French invasion of Russia",
-    "tags": ["Napoleon", "ratovi"],
+    "tags": [
+      "Napoleon",
+      "ratovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +63,10 @@
     "accept": [],
     "note": "Nema dokaza da je to ikad izrekla; izreka se smatra novinarskim klišejem.",
     "source": "Wikipedia (en): Let them eat cake",
-    "tags": ["Francuska", "zablude"],
+    "tags": [
+      "Francuska",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,12 +77,18 @@
     "difficulty": 1,
     "question": "Koje je godine završio Drugi svjetski rat?",
     "answer": "1945.",
-    "accept": ["1945"],
+    "accept": [
+      "1945"
+    ],
     "note": "Trajao je od 1. rujna 1939. do 2. rujna 1945.",
     "source": "Wikipedia (en): World War II",
-    "tags": ["Drugi svjetski rat", "godine"],
+    "tags": [
+      "Drugi svjetski rat",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0105",
@@ -76,10 +97,15 @@
     "difficulty": 1,
     "question": "Koje je godine počela Francuska revolucija?",
     "answer": "1789.",
-    "accept": ["1789"],
+    "accept": [
+      "1789"
+    ],
     "note": "Završila je državnim udarom 18. brumairea, 9. studenoga 1799.",
     "source": "Wikipedia (en): French Revolution",
-    "tags": ["Francuska", "godine"],
+    "tags": [
+      "Francuska",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +116,16 @@
     "difficulty": 2,
     "question": "Koji je faraon dao isklesati hramove u Abu Simbelu?",
     "answer": "Ramzes II.",
-    "accept": ["Ramzes Veliki", "Ramesses II"],
+    "accept": [
+      "Ramzes Veliki",
+      "Ramesses II"
+    ],
     "note": "U manjim likovima prikazani su i njegova supruga Nefertari i djeca.",
     "source": "Wikipedia (en): Abu Simbel",
-    "tags": ["Egipat", "faraoni"],
+    "tags": [
+      "Egipat",
+      "faraoni"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +136,15 @@
     "difficulty": 2,
     "question": "Kako se zvala saveznička operacija koja je 6. lipnja 1944. počela iskrcavanjem u Normandiji?",
     "answer": "Overlord",
-    "accept": ["Operacija Overlord"],
+    "accept": [
+      "Operacija Overlord"
+    ],
     "note": "Dan iskrcavanja poznat je kao Dan D.",
     "source": "Wikipedia (en): Operation Overlord",
-    "tags": ["Drugi svjetski rat", "operacije"],
+    "tags": [
+      "Drugi svjetski rat",
+      "operacije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +155,16 @@
     "difficulty": 2,
     "question": "Koji je peruanski grad bio prijestolnica Carstva Inka?",
     "answer": "Cusco",
-    "accept": ["Cuzco", "Kusko"],
+    "accept": [
+      "Cuzco",
+      "Kusko"
+    ],
     "note": "Prema predaji osnovao ga je Manco Cápac u 12. stoljeću.",
     "source": "Wikipedia (en): Cusco",
-    "tags": ["Inke", "gradovi"],
+    "tags": [
+      "Inke",
+      "gradovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +178,10 @@
     "accept": [],
     "note": "Smatra se da je to bio nordijski istraživač Leif Erikson, oko pola tisućljeća ranije.",
     "source": "Wikipedia (en): Leif Erikson",
-    "tags": ["istraživači", "zablude"],
+    "tags": [
+      "istraživači",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +195,10 @@
     "accept": [],
     "note": "Osuđen je 1633. na kućni pritvor jer je bio „žestoko sumnjiv za herezu”.",
     "source": "Wikipedia (en): Galileo affair",
-    "tags": ["znanost", "sudovi"],
+    "tags": [
+      "znanost",
+      "sudovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +212,10 @@
     "accept": [],
     "note": "Tiskana je 1450-ih u Mainzu, a sačuvano je 49 primjeraka.",
     "source": "Wikipedia (en): Gutenberg Bible",
-    "tags": ["tisak", "knjige"],
+    "tags": [
+      "tisak",
+      "knjige"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +229,10 @@
     "accept": [],
     "note": "Potjecala je od Ptolemeja I. Sotera, makedonskog grčkog vojskovođe i suborca Aleksandra Velikog.",
     "source": "Wikipedia (en): Cleopatra",
-    "tags": ["Egipat", "vladari"],
+    "tags": [
+      "Egipat",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +243,15 @@
     "difficulty": 2,
     "question": "Koje je godine Drugi kontinentalni kongres usvojio Deklaraciju nezavisnosti SAD-a?",
     "answer": "1776.",
-    "accept": ["1776"],
+    "accept": [
+      "1776"
+    ],
     "note": "Usvojena je jednoglasno 4. srpnja.",
     "source": "Wikipedia (en): United States Declaration of Independence",
-    "tags": ["SAD", "godine"],
+    "tags": [
+      "SAD",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +265,10 @@
     "accept": [],
     "note": "Između Gradeca i Kaptola prije toga je bilo i krvavih sukoba.",
     "source": "Wikipedia (en): Zagreb",
-    "tags": ["Zagreb", "gradovi"],
+    "tags": [
+      "Zagreb",
+      "gradovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +279,16 @@
     "difficulty": 3,
     "question": "Kako se zove hrvatska kraljica, supruga Mihajla Krešimira II., umrla 976.?",
     "answer": "Jelena Slavna",
-    "accept": ["Jelena", "Jelena Zadarska"],
+    "accept": [
+      "Jelena",
+      "Jelena Zadarska"
+    ],
     "note": "Prema predaji, u Solinu je podigla crkve sv. Stjepana i sv. Marije.",
     "source": "Wikipedia (en): Helen of Zadar",
-    "tags": ["Hrvatska", "vladari"],
+    "tags": [
+      "Hrvatska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +302,10 @@
     "accept": [],
     "note": "Kao regentica je vladala plemenom Ardijejaca otprilike od 231. do 228. pr. Kr.",
     "source": "Wikipedia (en): Teuta",
-    "tags": ["Iliri", "vladari"],
+    "tags": [
+      "Iliri",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +319,10 @@
     "accept": [],
     "note": "Na tvrđavi Lovrijenac piše: „Non bene pro toto libertas venditur auro”.",
     "source": "Wikipedia (en): Republic of Ragusa",
-    "tags": ["Hrvatska", "Dubrovnik"],
+    "tags": [
+      "Hrvatska",
+      "Dubrovnik"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +333,16 @@
     "difficulty": 3,
     "question": "Koje je godine ubijen Julije Cezar?",
     "answer": "44. pr. Kr.",
-    "accept": ["44 pr. Kr.", "44"],
+    "accept": [
+      "44 pr. Kr.",
+      "44"
+    ],
     "note": "Ubijen je na martovske ide, 15. ožujka, u Pompejevoj kuriji.",
     "source": "Wikipedia (en): Assassination of Julius Caesar",
-    "tags": ["Rim", "godine"],
+    "tags": [
+      "Rim",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +353,15 @@
     "difficulty": 3,
     "question": "Koliko je godina vladao Luj XIV., najdugovječniji vladar u povijesti?",
     "answer": "72",
-    "accept": ["72 godine"],
+    "accept": [
+      "72 godine"
+    ],
     "note": "Vladao je od 14. svibnja 1643. do smrti 1715.",
     "source": "Wikipedia (en): Louis XIV",
-    "tags": ["Francuska", "brojevi"],
+    "tags": [
+      "Francuska",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +372,15 @@
     "difficulty": 3,
     "question": "Koliko je urotnika sudjelovalo u ubojstvu Julija Cezara?",
     "answer": "60",
-    "accept": ["Šezdeset"],
+    "accept": [
+      "Šezdeset"
+    ],
     "note": "Predvodili su ih Marko Junije Brut i Gaj Kasije Longin.",
     "source": "Wikipedia (en): Assassination of Julius Caesar",
-    "tags": ["Rim", "brojevi"],
+    "tags": [
+      "Rim",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

@@ -6,10 +6,17 @@
     "difficulty": 1,
     "question": "Kako se zove gusarski kapetan, Petar Panov najveći neprijatelj?",
     "answer": "Kapetan Kuka",
-    "accept": ["Kuka", "Captain Hook", "James Hook"],
+    "accept": [
+      "Kuka",
+      "Captain Hook",
+      "James Hook"
+    ],
     "note": "Lik se prvi put pojavio u Barriejevoj drami iz 1904.",
     "source": "Wikipedia (en): Captain Hook",
-    "tags": ["dječja književnost", "likovi"],
+    "tags": [
+      "dječja književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +27,16 @@
     "difficulty": 1,
     "question": "Kako se zove hobit, naslovni junak Tolkienova „Hobita”?",
     "answer": "Bilbo Baggins",
-    "accept": ["Bilbo", "Bilbo Bagins"],
+    "accept": [
+      "Bilbo",
+      "Bilbo Bagins"
+    ],
     "note": "U „Gospodaru prstenova” pojavljuje se kao sporedni lik.",
     "source": "Wikipedia (en): Bilbo Baggins",
-    "tags": ["fantastika", "likovi"],
+    "tags": [
+      "fantastika",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,9 +50,13 @@
     "accept": [],
     "note": "Holmesa je stvorio Arthur Conan Doyle, a Agatha Christie stvorila je Herculea Poirota.",
     "source": "Wikipedia (en): Sherlock Holmes",
-    "tags": ["kriminalistički roman", "zablude"],
+    "tags": [
+      "kriminalistički roman",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0124",
@@ -51,7 +68,10 @@
     "accept": [],
     "note": "Roman je napisao Daniel Defoe, a objavljen je 25. travnja 1719.",
     "source": "Wikipedia (en): Robinson Crusoe",
-    "tags": ["engleska književnost", "zablude"],
+    "tags": [
+      "engleska književnost",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +85,10 @@
     "accept": [],
     "note": "„Hobit” je izašao 1937.",
     "source": "Wikipedia (en): The Hobbit",
-    "tags": ["fantastika", "knjige"],
+    "tags": [
+      "fantastika",
+      "knjige"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,12 +99,18 @@
     "difficulty": 1,
     "question": "Koliko slova ima engleska abeceda?",
     "answer": "26",
-    "accept": ["Dvadeset šest"],
+    "accept": [
+      "Dvadeset šest"
+    ],
     "note": "Riječ abeceda, odnosno alfabet, dolazi od imena prvih dvaju grčkih slova.",
     "source": "Wikipedia (en): English alphabet",
-    "tags": ["jezik", "brojevi"],
+    "tags": [
+      "jezik",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0127",
@@ -90,10 +119,15 @@
     "difficulty": 2,
     "question": "Koji je američki pisac autor romana „Lovac u žitu” iz 1951.?",
     "answer": "J. D. Salinger",
-    "accept": ["Salinger"],
+    "accept": [
+      "Salinger"
+    ],
     "note": "Dijelovi su izlazili u nastavcima od 1945. do 1946.",
     "source": "Wikipedia (en): The Catcher in the Rye",
-    "tags": ["američka književnost", "romani"],
+    "tags": [
+      "američka književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +138,15 @@
     "difficulty": 2,
     "question": "Koji je britanski pisac 1954. objavio „Gospodara muha”, o dječacima nasukanima na otoku?",
     "answer": "William Golding",
-    "accept": ["Golding"],
+    "accept": [
+      "Golding"
+    ],
     "note": "Bio je to njegov prvi roman.",
     "source": "Wikipedia (en): Lord of the Flies",
-    "tags": ["engleska književnost", "romani"],
+    "tags": [
+      "engleska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +157,16 @@
     "difficulty": 2,
     "question": "Koja je engleska spisateljica, pod pseudonimom Ellis Bell, 1847. objavila „Orkanske visove”?",
     "answer": "Emily Brontë",
-    "accept": ["Emily Bronte", "Brontë"],
+    "accept": [
+      "Emily Bronte",
+      "Brontë"
+    ],
     "note": "Bio je to njezin jedini roman.",
     "source": "Wikipedia (en): Wuthering Heights",
-    "tags": ["engleska književnost", "romani"],
+    "tags": [
+      "engleska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +177,16 @@
     "difficulty": 2,
     "question": "Koji je ruski pisac 1900. napisao dramu „Tri sestre”?",
     "answer": "Anton Pavlovič Čehov",
-    "accept": ["Čehov", "Anton Čehov"],
+    "accept": [
+      "Čehov",
+      "Anton Čehov"
+    ],
     "note": "Prvi put izvedena je 1901. u Moskovskom umjetničkom kazalištu.",
     "source": "Wikipedia (en): Three Sisters (play)",
-    "tags": ["ruska književnost", "drama"],
+    "tags": [
+      "ruska književnost",
+      "drama"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +197,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski pisac za djecu autor romana „Koko u Parizu” i „Lažeš, Melita”?",
     "answer": "Ivan Kušan",
-    "accept": ["Kušan"],
+    "accept": [
+      "Kušan"
+    ],
     "note": "Prvu je knjigu objavio 1956.",
     "source": "Wikipedia (en): Ivan Kušan",
-    "tags": ["dječja književnost", "Hrvatska"],
+    "tags": [
+      "dječja književnost",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +216,15 @@
     "difficulty": 2,
     "question": "Kako se zovu riječi koje se jednako pišu ili izgovaraju, a imaju različito značenje?",
     "answer": "Homonimi",
-    "accept": ["Homonim"],
+    "accept": [
+      "Homonim"
+    ],
     "note": "Dijele se na homografe i homofone.",
     "source": "Wikipedia (en): Homonym",
-    "tags": ["jezik", "pojmovi"],
+    "tags": [
+      "jezik",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +235,15 @@
     "difficulty": 2,
     "question": "Kako se zove kratica sastavljena od početnih slova više riječi?",
     "answer": "Akronim",
-    "accept": ["Akronimi"],
+    "accept": [
+      "Akronimi"
+    ],
     "note": "Često se piše velikim slovima bez interpunkcije.",
     "source": "Wikipedia (en): Acronym",
-    "tags": ["jezik", "pojmovi"],
+    "tags": [
+      "jezik",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +257,10 @@
     "accept": [],
     "note": "Bio je engleski romanopisac, pjesnik, esejist, novinar i kritičar.",
     "source": "Wikipedia (en): George Orwell",
-    "tags": ["engleska književnost", "pseudonimi"],
+    "tags": [
+      "engleska književnost",
+      "pseudonimi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +274,10 @@
     "accept": [],
     "note": "Uz Petrarcu i Boccaccia ubraja se u „tri krune” talijanske književnosti.",
     "source": "Wikipedia (en): Dante Alighieri",
-    "tags": ["talijanska književnost", "pisci"],
+    "tags": [
+      "talijanska književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +288,15 @@
     "difficulty": 2,
     "question": "Koje je godine objavljen „Hobit”?",
     "answer": "1937.",
-    "accept": ["1937"],
+    "accept": [
+      "1937"
+    ],
     "note": "Nominiran je za Carnegiejevu medalju.",
     "source": "Wikipedia (en): The Hobbit",
-    "tags": ["fantastika", "godine"],
+    "tags": [
+      "fantastika",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +307,16 @@
     "difficulty": 3,
     "question": "Koji je hrvatski pisac autor romana „Mirisi, zlato i tamjan” iz 1968.?",
     "answer": "Slobodan Novak",
-    "accept": ["Novak", "Ante Slobodan Novak"],
+    "accept": [
+      "Novak",
+      "Ante Slobodan Novak"
+    ],
     "note": "Roman se često navodi među najboljim hrvatskim romanima.",
     "source": "Wikipedia (en): Slobodan Novak",
-    "tags": ["hrvatska književnost", "romani"],
+    "tags": [
+      "hrvatska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +327,16 @@
     "difficulty": 3,
     "question": "Koji je ekspresionistički pjesnik rođen 1898. u Drinovcima kod Gruda, a umro 1925.?",
     "answer": "Antun Branko Šimić",
-    "accept": ["Šimić", "A. B. Šimić"],
+    "accept": [
+      "Šimić",
+      "A. B. Šimić"
+    ],
     "note": "Smatra se jednim od najvažnijih hrvatskih pjesnika 20. stoljeća.",
     "source": "Wikipedia (en): Antun Branko Šimić",
-    "tags": ["hrvatska književnost", "poezija"],
+    "tags": [
+      "hrvatska književnost",
+      "poezija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +350,10 @@
     "accept": [],
     "note": "Bio je praški pisac njemačkog jezika.",
     "source": "Wikipedia (en): Franz Kafka",
-    "tags": ["češka književnost", "jezik"],
+    "tags": [
+      "češka književnost",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 3,
     "question": "Koje je godine umro August Šenoa?",
     "answer": "1881.",
-    "accept": ["1881"],
+    "accept": [
+      "1881"
+    ],
     "note": "Rođen je 14. studenoga 1838., a obitelj se izvorno prezivala Schönoa.",
     "source": "Wikipedia (en): August Šenoa",
-    "tags": ["hrvatska književnost", "godine"],
+    "tags": [
+      "hrvatska književnost",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

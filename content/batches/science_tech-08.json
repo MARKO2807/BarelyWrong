@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Kako se zove mjerna jedinica SI za energiju i rad?",
     "answer": "Džul",
-    "accept": ["joule", "J"],
+    "accept": [
+      "joule",
+      "J"
+    ],
     "note": "Nazvan je po engleskom fizičaru Jamesu Prescottu Jouleu.",
     "source": "Wikipedia (en): Joule",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +26,19 @@
     "difficulty": 1,
     "question": "Kako se zove glavni dio računala koji izvršava naredbe programa, poznat po kratici CPU?",
     "answer": "Procesor",
-    "accept": ["središnji procesor", "CPU"],
+    "accept": [
+      "središnji procesor",
+      "CPU"
+    ],
     "note": "Zove se i središnja procesorska jedinica.",
     "source": "Wikipedia (en): Central processing unit",
-    "tags": ["računala", "hardver"],
+    "tags": [
+      "računala",
+      "hardver"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0183",
@@ -37,7 +50,10 @@
     "accept": [],
     "note": "U 19. stoljeću grafitne olovke uvelike su pridonijele širenju obrazovanja.",
     "source": "Wikipedia (en): Graphite",
-    "tags": ["kemija", "minerali"],
+    "tags": [
+      "kemija",
+      "minerali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +64,16 @@
     "difficulty": 1,
     "question": "Koji je talijanski astronom otkrio četiri najveća Jupiterova mjeseca, koji se po njemu zovu?",
     "answer": "Galileo Galilei",
-    "accept": ["Galileo", "Galilei"],
+    "accept": [
+      "Galileo",
+      "Galilei"
+    ],
     "note": "Ti su mjeseci, od najvećeg, Ganimed, Kalisto, Io i Europa.",
     "source": "Wikipedia (en): Galilean moons",
-    "tags": ["astronomija", "znanstvenici"],
+    "tags": [
+      "astronomija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,15 @@
     "difficulty": 1,
     "question": "Kako se zove zlonamjerni program koji se širi tako da svoj kod ubacuje u druge programe?",
     "answer": "Računalni virus",
-    "accept": ["virus"],
+    "accept": [
+      "virus"
+    ],
     "note": "Ime je dobio po sličnosti s biološkim virusom, koji se umnaža u živim stanicama.",
     "source": "Wikipedia (en): Computer virus",
-    "tags": ["računala", "sigurnost"],
+    "tags": [
+      "računala",
+      "sigurnost"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +103,15 @@
     "difficulty": 2,
     "question": "Na kojem je Saturnovu mjesecu sonda Cassini otkrila mlazove vode koji izbijaju s južnog pola?",
     "answer": "Enkelad",
-    "accept": ["Enceladus"],
+    "accept": [
+      "Enceladus"
+    ],
     "note": "Prema NASA-i, sastav tih mlazova sličan je sastavu kometa.",
     "source": "Wikipedia (en): Enceladus",
-    "tags": ["astronomija", "mjeseci"],
+    "tags": [
+      "astronomija",
+      "mjeseci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +122,15 @@
     "difficulty": 2,
     "question": "Kakva je otopina koja na 25 °C ima pH točno 7?",
     "answer": "Neutralna",
-    "accept": ["neutralno"],
+    "accept": [
+      "neutralno"
+    ],
     "note": "Otopine s pH manjim od 7 su kisele, a s većim lužnate.",
     "source": "Wikipedia (en): PH",
-    "tags": ["kemija", "kiseline"],
+    "tags": [
+      "kemija",
+      "kiseline"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +141,15 @@
     "difficulty": 2,
     "question": "Koji kemijski element ima simbol Sn, od latinskog stannum?",
     "answer": "Kositar",
-    "accept": ["cin"],
+    "accept": [
+      "cin"
+    ],
     "note": "Najčešće se dobiva iz minerala kasiterita.",
     "source": "Wikipedia (en): Tin",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +163,10 @@
     "accept": [],
     "note": "Tako se na sobnoj temperaturi ponaša suhi led.",
     "source": "Wikipedia (en): Sublimation (phase transition)",
-    "tags": ["fizika", "agregatna stanja"],
+    "tags": [
+      "fizika",
+      "agregatna stanja"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +180,10 @@
     "accept": [],
     "note": "Kava java potječe iz Indonezije.",
     "source": "Wikipedia (en): Java (programming language)",
-    "tags": ["programiranje", "računala"],
+    "tags": [
+      "programiranje",
+      "računala"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +197,10 @@
     "accept": [],
     "note": "Zato voda od 4 °C tone na dno jezera, a led nastaje na površini.",
     "source": "Wikipedia (en): Water",
-    "tags": ["fizika", "voda"],
+    "tags": [
+      "fizika",
+      "voda"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +211,16 @@
     "difficulty": 2,
     "question": "Kako se zove matematička konstanta e ≈ 2,718, nazvana po švicarskom matematičaru?",
     "answer": "Eulerov broj",
-    "accept": ["Euler", "broj e"],
+    "accept": [
+      "Euler",
+      "broj e"
+    ],
     "note": "Konstanta je iracionalna i transcendentna.",
     "source": "Wikipedia (en): E (mathematical constant)",
-    "tags": ["matematika", "konstante"],
+    "tags": [
+      "matematika",
+      "konstante"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +231,15 @@
     "difficulty": 2,
     "question": "Kako se zove tvar koja ubrzava kemijsku reakciju, a da se pritom sama ne troši?",
     "answer": "Katalizator",
-    "accept": ["katalizatori"],
+    "accept": [
+      "katalizatori"
+    ],
     "note": "Pojava se zove kataliza.",
     "source": "Wikipedia (en): Catalysis",
-    "tags": ["kemija", "reakcije"],
+    "tags": [
+      "kemija",
+      "reakcije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +253,10 @@
     "accept": [],
     "note": "Promjene tlaka koje bilježi povezane su s promjenama vremena.",
     "source": "Wikipedia (en): Barometer",
-    "tags": ["fizika", "vrijeme"],
+    "tags": [
+      "fizika",
+      "vrijeme"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +270,10 @@
     "accept": [],
     "note": "Nastaje jer je tlak na dnu uronjenog tijela veći nego na vrhu.",
     "source": "Wikipedia (en): Buoyancy",
-    "tags": ["fizika", "tekućine"],
+    "tags": [
+      "fizika",
+      "tekućine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +284,15 @@
     "difficulty": 3,
     "question": "Kako se zove antičestica elektrona, iste mase ali pozitivnog naboja?",
     "answer": "Pozitron",
-    "accept": ["antielektron"],
+    "accept": [
+      "antielektron"
+    ],
     "note": "Zove se i antielektron.",
     "source": "Wikipedia (en): Positron",
-    "tags": ["fizika", "čestice"],
+    "tags": [
+      "fizika",
+      "čestice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -233,7 +306,10 @@
     "accept": [],
     "note": "Bio je dio misije Mars Pathfinder i radio je 95 zemaljskih dana.",
     "source": "Wikipedia (en): Sojourner (rover)",
-    "tags": ["svemir", "Mars"],
+    "tags": [
+      "svemir",
+      "Mars"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +320,15 @@
     "difficulty": 3,
     "question": "Pri kojoj se temperaturi, u °C, tali željezo?",
     "answer": "1538 °C",
-    "accept": ["1538"],
+    "accept": [
+      "1538"
+    ],
     "note": "Pri hlađenju taline kristalizira u oblik koji se zove delta-željezo.",
     "source": "Wikipedia (en): Iron",
-    "tags": ["kemija", "metali"],
+    "tags": [
+      "kemija",
+      "metali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +339,16 @@
     "difficulty": 3,
     "question": "Koliko je milijuna kilometara duga astronomska jedinica, prosječna udaljenost Zemlje od Sunca?",
     "answer": "Oko 149,6",
-    "accept": ["149,6", "150"],
+    "accept": [
+      "149,6",
+      "150"
+    ],
     "note": "Točno je definirana kao 149 597 870 700 metara.",
     "source": "Wikipedia (en): Astronomical unit",
-    "tags": ["astronomija", "mjerne jedinice"],
+    "tags": [
+      "astronomija",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +359,15 @@
     "difficulty": 3,
     "question": "Kako se zove čestica bez mase koja prenosi jaku silu i drži kvarkove na okupu?",
     "answer": "Gluon",
-    "accept": ["gluoni"],
+    "accept": [
+      "gluoni"
+    ],
     "note": "Ime dolazi od engleske riječi glue, „ljepilo”.",
     "source": "Wikipedia (en): Gluon",
-    "tags": ["fizika", "čestice"],
+    "tags": [
+      "fizika",
+      "čestice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

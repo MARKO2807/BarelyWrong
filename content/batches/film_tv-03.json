@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Njegova oca Mufasu ubije stric Scar kako bi preuzeo prijestolje.",
     "source": "Wikipedia (en): The Lion King",
-    "tags": ["animirani film", "Disney"],
+    "tags": [
+      "animirani film",
+      "Disney"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0065",
@@ -20,12 +24,18 @@
     "difficulty": 1,
     "question": "Koji je glumac Harryja Pottera glumio u svih osam filmova serijala?",
     "answer": "Daniel Radcliffe",
-    "accept": ["Radcliffe"],
+    "accept": [
+      "Radcliffe"
+    ],
     "note": "Filmovi su snimani od 2001. do 2011.",
     "source": "Wikipedia (en): Daniel Radcliffe",
-    "tags": ["glumci", "fantastika"],
+    "tags": [
+      "glumci",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0066",
@@ -34,10 +44,16 @@
     "difficulty": 1,
     "question": "Kako se zove protokolarni droid, pratitelj R2-D2 u „Ratovima zvijezda”?",
     "answer": "C-3PO",
-    "accept": ["C3PO", "See-Threepio"],
+    "accept": [
+      "C3PO",
+      "See-Threepio"
+    ],
     "note": "Govori više od šest milijuna oblika komunikacije.",
     "source": "Wikipedia (en): R2-D2",
-    "tags": ["Ratovi zvijezda", "likovi"],
+    "tags": [
+      "Ratovi zvijezda",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,12 +64,19 @@
     "difficulty": 1,
     "question": "Koji je superjunak u stvarnosti Peter Parker?",
     "answer": "Spider-Man",
-    "accept": ["Spiderman", "Čovjek pauk"],
+    "accept": [
+      "Spiderman",
+      "Čovjek pauk"
+    ],
     "note": "U alternativnim pričama Spider-Man je i Miles Morales.",
     "source": "Wikipedia (en): Spider-Man",
-    "tags": ["superjunaci", "likovi"],
+    "tags": [
+      "superjunaci",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0068",
@@ -62,10 +85,15 @@
     "difficulty": 1,
     "question": "Koji glumac glumi arheologa Indianu Jonesa u svih pet filmova?",
     "answer": "Harrison Ford",
-    "accept": ["Ford"],
+    "accept": [
+      "Ford"
+    ],
     "note": "Serijal je osmislio George Lucas, a prvi je film izašao 1981.",
     "source": "Wikipedia (en): Indiana Jones",
-    "tags": ["glumci", "pustolovni film"],
+    "tags": [
+      "glumci",
+      "pustolovni film"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,10 +104,15 @@
     "difficulty": 1,
     "question": "Kako se zove odani batler Brucea Waynea, odnosno Batmana?",
     "answer": "Alfred",
-    "accept": ["Alfred Pennyworth"],
+    "accept": [
+      "Alfred Pennyworth"
+    ],
     "note": "Brinuo se o Bruceu nakon ubojstva njegovih roditelja.",
     "source": "Wikipedia (en): Alfred Pennyworth",
-    "tags": ["Batman", "likovi"],
+    "tags": [
+      "Batman",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +126,10 @@
     "accept": [],
     "note": "Glas Dory posudila je Ellen DeGeneres.",
     "source": "Wikipedia (en): Finding Nemo",
-    "tags": ["animirani film", "Pixar"],
+    "tags": [
+      "animirani film",
+      "Pixar"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,12 +140,19 @@
     "difficulty": 1,
     "question": "Koji crtani mornar dobiva snagu jedući špinat?",
     "answer": "Popaj",
-    "accept": ["Popeye", "Mornar Popaj"],
+    "accept": [
+      "Popeye",
+      "Mornar Popaj"
+    ],
     "note": "Robert Altman snimio je 1980. igrani film s Robinom Williamsom u naslovnoj ulozi.",
     "source": "Wikipedia (en): Popeye",
-    "tags": ["crtani filmovi", "likovi"],
+    "tags": [
+      "crtani filmovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0072",
@@ -118,12 +161,18 @@
     "difficulty": 1,
     "question": "Kako se zove škola čarobnjaštva u serijalu o Harryju Potteru?",
     "answer": "Hogwarts",
-    "accept": ["Hogwarts School of Witchcraft and Wizardry"],
+    "accept": [
+      "Hogwarts School of Witchcraft and Wizardry"
+    ],
     "note": "Glavno je mjesto radnje prvih šest knjiga i filmova.",
     "source": "Wikipedia (en): Hogwarts",
-    "tags": ["fantastika", "mjesta"],
+    "tags": [
+      "fantastika",
+      "mjesta"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0073",
@@ -132,10 +181,15 @@
     "difficulty": 2,
     "question": "Kako se zove Pixarov robot koji 2805. sam čisti smeće na napuštenoj Zemlji?",
     "answer": "WALL-E",
-    "accept": ["Wall-E"],
+    "accept": [
+      "Wall-E"
+    ],
     "note": "Film je izašao 2008., a robota posjećuje robotkinja EVE.",
     "source": "Wikipedia (en): WALL-E",
-    "tags": ["animirani film", "Pixar"],
+    "tags": [
+      "animirani film",
+      "Pixar"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +200,15 @@
     "difficulty": 2,
     "question": "Koji je glumac utjelovio Vita Corleonea u „Kumu” iz 1972.?",
     "answer": "Marlon Brando",
-    "accept": ["Brando"],
+    "accept": [
+      "Brando"
+    ],
     "note": "Njegova najmlađeg sina Michaela glumio je Al Pacino.",
     "source": "Wikipedia (en): The Godfather",
-    "tags": ["glumci", "filmovi"],
+    "tags": [
+      "glumci",
+      "filmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +219,15 @@
     "difficulty": 2,
     "question": "Koji je glumac u „Kad jaganjci utihnu” utjelovio Hannibala Lectera?",
     "answer": "Anthony Hopkins",
-    "accept": ["Hopkins"],
+    "accept": [
+      "Hopkins"
+    ],
     "note": "Lecter je u filmu zatvoreni psihijatar i serijski ubojica.",
     "source": "Wikipedia (en): The Silence of the Lambs (film)",
-    "tags": ["glumci", "triler"],
+    "tags": [
+      "glumci",
+      "triler"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +238,15 @@
     "difficulty": 2,
     "question": "Koji je glumac u HBO-ovoj seriji „Obitelj Soprano” glumio mafijaškog šefa Tonyja Soprana?",
     "answer": "James Gandolfini",
-    "accept": ["Gandolfini"],
+    "accept": [
+      "Gandolfini"
+    ],
     "note": "Seriju je osmislio David Chase.",
     "source": "Wikipedia (en): The Sopranos",
-    "tags": ["serije", "glumci"],
+    "tags": [
+      "serije",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +257,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj snimio film „Lisice” iz 1969.?",
     "answer": "Krsto Papić",
-    "accept": ["Papić"],
+    "accept": [
+      "Papić"
+    ],
     "note": "Snimio je i „Predstavu Hamleta u Mrduši Donjoj” iz 1973.",
     "source": "Wikipedia (en): Krsto Papić",
-    "tags": ["redatelji", "Hrvatska"],
+    "tags": [
+      "redatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +279,10 @@
     "accept": [],
     "note": "Režirao ju je Joakim Marušić, a glazbu je skladao Pero Gotovac.",
     "source": "Wikipedia (hr): Velo misto",
-    "tags": ["serije", "Hrvatska"],
+    "tags": [
+      "serije",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +293,15 @@
     "difficulty": 2,
     "question": "Na kojem je hrvatskom otoku najvećim dijelom snimljen film „Mamma Mia! Here We Go Again”?",
     "answer": "Vis",
-    "accept": ["Otok Vis"],
+    "accept": [
+      "Otok Vis"
+    ],
     "note": "Snimanje je trajalo od kolovoza do prosinca 2017.",
     "source": "Wikipedia (en): Mamma Mia! Here We Go Again",
-    "tags": ["snimanje u Hrvatskoj", "mjuzikli"],
+    "tags": [
+      "snimanje u Hrvatskoj",
+      "mjuzikli"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +315,10 @@
     "accept": [],
     "note": "Ondje se snimalo od 9. do 16. ožujka, a poslije i u Irskoj.",
     "source": "Wikipedia (en): Star Wars: The Last Jedi",
-    "tags": ["snimanje u Hrvatskoj", "Ratovi zvijezda"],
+    "tags": [
+      "snimanje u Hrvatskoj",
+      "Ratovi zvijezda"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +329,15 @@
     "difficulty": 2,
     "question": "Koja je glumica utjelovila Amélie Poulain u filmu „Amélie”?",
     "answer": "Audrey Tautou",
-    "accept": ["Tautou"],
+    "accept": [
+      "Tautou"
+    ],
     "note": "Radnja filma smještena je na pariški Montmartre.",
     "source": "Wikipedia (en): Amélie",
-    "tags": ["francuski film", "glumci"],
+    "tags": [
+      "francuski film",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +348,15 @@
     "difficulty": 2,
     "question": "Koji je japanski redatelj snimio „Avanture male Chihiro”, prvi ručno crtani film na stranom jeziku nagrađen Oscarom?",
     "answer": "Hayao Miyazaki",
-    "accept": ["Miyazaki"],
+    "accept": [
+      "Miyazaki"
+    ],
     "note": "Film je 2002. podijelio i Zlatnog medvjeda u Berlinu.",
     "source": "Wikipedia (en): Spirited Away",
-    "tags": ["animirani film", "Japan"],
+    "tags": [
+      "animirani film",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +367,15 @@
     "difficulty": 2,
     "question": "Koji je glumac utjelovio Tonyja Manera u filmu „Groznica subotnje večeri” iz 1977.?",
     "answer": "John Travolta",
-    "accept": ["Travolta"],
+    "accept": [
+      "Travolta"
+    ],
     "note": "Film je režirao John Badham.",
     "source": "Wikipedia (en): Saturday Night Fever",
-    "tags": ["glumci", "plesni film"],
+    "tags": [
+      "glumci",
+      "plesni film"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +386,15 @@
     "difficulty": 2,
     "question": "U kojem izmišljenom gradu djeluje Batman?",
     "answer": "Gotham",
-    "accept": ["Gotham City"],
+    "accept": [
+      "Gotham City"
+    ],
     "note": "Grad su osmislili scenarist Bill Finger i crtač Bob Kane.",
     "source": "Wikipedia (en): Gotham City",
-    "tags": ["Batman", "mjesta"],
+    "tags": [
+      "Batman",
+      "mjesta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +405,17 @@
     "difficulty": 2,
     "question": "Na kojem se filmskom festivalu dodjeljuje Zlatni medvjed?",
     "answer": "Na Berlinaleu",
-    "accept": ["Berlinale", "Berlin", "Međunarodni filmski festival u Berlinu"],
+    "accept": [
+      "Berlinale",
+      "Berlin",
+      "Međunarodni filmski festival u Berlinu"
+    ],
     "note": "Medvjed je heraldička životinja Berlina.",
     "source": "Wikipedia (en): Golden Bear",
-    "tags": ["festivali", "nagrade"],
+    "tags": [
+      "festivali",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +426,15 @@
     "difficulty": 3,
     "question": "Koji je dugometražni film iz 1927. prvi imao sinkroniziranu glazbu i pjevanje usklađeno s pokretima usana?",
     "answer": "Jazz pjevač",
-    "accept": ["The Jazz Singer"],
+    "accept": [
+      "The Jazz Singer"
+    ],
     "note": "Najavio je kraj ere nijemog filma.",
     "source": "Wikipedia (en): The Jazz Singer",
-    "tags": ["povijest filma", "klasici"],
+    "tags": [
+      "povijest filma",
+      "klasici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +445,15 @@
     "difficulty": 3,
     "question": "Koji je glumac prvi dobio Oscara za najbolju mušku ulogu?",
     "answer": "Emil Jannings",
-    "accept": ["Jannings"],
+    "accept": [
+      "Jannings"
+    ],
     "note": "Rođen je u Švicarskoj, a bio je njemački glumac popularan u Hollywoodu 1920-ih.",
     "source": "Wikipedia (en): Emil Jannings",
-    "tags": ["Oscari", "glumci"],
+    "tags": [
+      "Oscari",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +464,15 @@
     "difficulty": 3,
     "question": "Koji je redatelj snimio njemački znanstvenofantastični nijemi film „Metropolis” iz 1927.?",
     "answer": "Fritz Lang",
-    "accept": ["Lang"],
+    "accept": [
+      "Lang"
+    ],
     "note": "Scenarij je napisao s Theom von Harbou, prema njezinu romanu.",
     "source": "Wikipedia (en): Metropolis (1927 film)",
-    "tags": ["redatelji", "nijemi film"],
+    "tags": [
+      "redatelji",
+      "nijemi film"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -359,7 +486,10 @@
     "accept": [],
     "note": "Najavljeno je da se festival od 2027. seli u Boulder u Coloradu.",
     "source": "Wikipedia (en): Sundance Film Festival",
-    "tags": ["festivali", "SAD"],
+    "tags": [
+      "festivali",
+      "SAD"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +500,15 @@
     "difficulty": 3,
     "question": "Koja je glumica 1929. prva dobila Oscara za najbolju žensku ulogu?",
     "answer": "Janet Gaynor",
-    "accept": ["Gaynor"],
+    "accept": [
+      "Gaynor"
+    ],
     "note": "Nagradu je dobila za tri filma, među kojima su „Sedmo nebo” i „Zora”.",
     "source": "Wikipedia (en): Janet Gaynor",
-    "tags": ["Oscari", "glumci"],
+    "tags": [
+      "Oscari",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +519,15 @@
     "difficulty": 3,
     "question": "U kojem su se hrvatskom nacionalnom parku 1960-ih najviše snimali filmovi o Winnetouu?",
     "answer": "Paklenica",
-    "accept": ["NP Paklenica"],
+    "accept": [
+      "NP Paklenica"
+    ],
     "note": "Filmovi su bili toliko uspješni u Zapadnoj Njemačkoj da su im budžeti gotovo svaki put rasli.",
     "source": "Wikipedia (en): Winnetou",
-    "tags": ["snimanje u Hrvatskoj", "vesterni"],
+    "tags": [
+      "snimanje u Hrvatskoj",
+      "vesterni"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +538,15 @@
     "difficulty": 3,
     "question": "Koja je hrvatska glumica dobila nagradu Laurence Olivier za ulogu u londonskom mjuziklu „Once”?",
     "answer": "Zrinka Cvitešić",
-    "accept": ["Cvitešić"],
+    "accept": [
+      "Cvitešić"
+    ],
     "note": "Nagrađivana je i za ulogu u filmu „Što je muškarac bez brkova?” iz 2005.",
     "source": "Wikipedia (en): Zrinka Cvitešić",
-    "tags": ["glumci", "Hrvatska"],
+    "tags": [
+      "glumci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +557,15 @@
     "difficulty": 3,
     "question": "Koji je redatelj, rođen u Omišu, od 1950. bio direktor studija Jadran film?",
     "answer": "Vatroslav Mimica",
-    "accept": ["Mimica"],
+    "accept": [
+      "Mimica"
+    ],
     "note": "Redateljski je debitirao 1952. filmom „U oluji”.",
     "source": "Wikipedia (en): Vatroslav Mimica",
-    "tags": ["redatelji", "Hrvatska"],
+    "tags": [
+      "redatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

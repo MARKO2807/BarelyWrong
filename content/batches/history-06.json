@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji su grad, prema predaji, Grci osvojili tako što su se vojnici sakrili u drvenog konja?",
     "answer": "Troja",
-    "accept": ["Troju"],
+    "accept": [
+      "Troju"
+    ],
     "note": "Homerova Ilijada o konju uopće ne govori, jer završava prije kraja rata; najpoznatiji opis daje Vergilijeva Eneida.",
     "source": "Wikipedia (en): Trojan Horse",
-    "tags": ["antika", "mitovi"],
+    "tags": [
+      "antika",
+      "mitovi"
+    ],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0143",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji je američki predsjednik jedini dao ostavku na tu dužnost?",
     "answer": "Richard Nixon",
-    "accept": ["Nixon"],
+    "accept": [
+      "Nixon"
+    ],
     "note": "Odstupio je 9. kolovoza 1974. zbog afere Watergate, a nasljednik Gerald Ford zatim ga je pomilovao.",
     "source": "Wikipedia (en): Richard Nixon",
-    "tags": ["SAD", "državnici"],
+    "tags": [
+      "SAD",
+      "državnici"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Pod kojim se imenom, koje je 1877. popularizirao njemački geograf Ferdinand von Richthofen, poznaje mreža trgovačkih putova između Kine i Sredozemlja?",
     "answer": "Put svile",
-    "accept": ["Svileni put"],
+    "accept": [
+      "Svileni put"
+    ],
     "note": "Richthofen je između 1868. i 1872. sedam puta putovao u Kinu.",
     "source": "Wikipedia (en): Silk Road",
-    "tags": ["trgovina", "Azija"],
+    "tags": [
+      "trgovina",
+      "Azija"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -51,9 +67,13 @@
     "accept": [],
     "note": "Kip je oblikovao Frédéric Auguste Bartholdi, a metalnu konstrukciju izgradio je Gustave Eiffel.",
     "source": "Wikipedia (en): Statue of Liberty",
-    "tags": ["SAD", "spomenici"],
+    "tags": [
+      "SAD",
+      "spomenici"
+    ],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0146",
@@ -65,7 +85,10 @@
     "accept": [],
     "note": "Pilot Paul Tibbets nazvao ga je po svojoj majci, a bomba je nosila nadimak „Little Boy”.",
     "source": "Wikipedia (en): Enola Gay",
-    "tags": ["Drugi svjetski rat", "zrakoplovi"],
+    "tags": [
+      "Drugi svjetski rat",
+      "zrakoplovi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -76,10 +99,15 @@
     "difficulty": 2,
     "question": "S kojim je sultanatom Britanija 27. kolovoza 1896. vodila rat koji je trajao između 38 i 45 minuta, najkraći zabilježeni rat u povijesti?",
     "answer": "Zanzibar",
-    "accept": ["Zanzibarski sultanat"],
+    "accept": [
+      "Zanzibarski sultanat"
+    ],
     "note": "Povod je bila sumnjiva smrt probritanskog sultana, nakon koje je na vlast došao sultan kojeg Britanci nisu željeli.",
     "source": "Wikipedia (en): Anglo-Zanzibar War",
-    "tags": ["ratovi", "Afrika"],
+    "tags": [
+      "ratovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -90,10 +118,16 @@
     "difficulty": 2,
     "question": "Protiv kojih je životinja australska vojska krajem 1932. s mitraljezima vodila „rat” koji je prošao vrlo neslavno?",
     "answer": "Emu",
-    "accept": ["emui", "emua"],
+    "accept": [
+      "emui",
+      "emua"
+    ],
     "note": "Bojnik Meredith, koji je vodio akciju, rekao je da emui mitraljeze podnose „s neranjivošću tenkova”.",
     "source": "Wikipedia (en): Emu War",
-    "tags": ["Australija", "životinje"],
+    "tags": [
+      "Australija",
+      "životinje"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -104,10 +138,16 @@
     "difficulty": 2,
     "question": "Kojem je britanskom kraljevskom domu kralj Juraj V. 1917., usred rata s Njemačkom, promijenio ime iz njemačkog Saxe-Coburg i Gotha?",
     "answer": "Windsor",
-    "accept": ["kuća Windsor", "dinastija Windsor"],
+    "accept": [
+      "kuća Windsor",
+      "dinastija Windsor"
+    ],
     "note": "Novo ime uzeto je po dvorcu Windsor.",
     "source": "Wikipedia (en): House of Windsor",
-    "tags": ["Ujedinjeno Kraljevstvo", "dinastije"],
+    "tags": [
+      "Ujedinjeno Kraljevstvo",
+      "dinastije"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -118,10 +158,15 @@
     "difficulty": 2,
     "question": "Koji se japanski vojnik predao tek 1974., nakon gotovo 29 godina skrivanja u džungli filipinskog otoka Lubanga?",
     "answer": "Hiroo Onoda",
-    "accept": ["Onoda"],
+    "accept": [
+      "Onoda"
+    ],
     "note": "Predao se tek kad je njegov bivši zapovjednik doputovao iz Japana i službeno ga razriješio dužnosti.",
     "source": "Wikipedia (en): Hiroo Onoda",
-    "tags": ["Drugi svjetski rat", "Japan"],
+    "tags": [
+      "Drugi svjetski rat",
+      "Japan"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -135,7 +180,10 @@
     "accept": [],
     "note": "U Prvom svjetskom ratu Austro-Ugarska je onamo slala ruske ratne zarobljenike.",
     "source": "Wikipedia (en): Goli Otok",
-    "tags": ["Hrvatska", "Jugoslavija"],
+    "tags": [
+      "Hrvatska",
+      "Jugoslavija"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -146,10 +194,16 @@
     "difficulty": 2,
     "question": "Koja je država 1377. prva propisala da pridošlice prije ulaska u grad provedu 30 dana u izolaciji, što je preteča karantene?",
     "answer": "Dubrovačka Republika",
-    "accept": ["Dubrovnik", "Ragusa"],
+    "accept": [
+      "Dubrovnik",
+      "Ragusa"
+    ],
     "note": "Izolacija se izvorno provodila na obližnjim otocima; riječ karantena dolazi od mletačkog quarantena, „četrdeset dana”.",
     "source": "Wikipedia (en): Quarantine",
-    "tags": ["Hrvatska", "medicina"],
+    "tags": [
+      "Hrvatska",
+      "medicina"
+    ],
     "checkedAt": "2026-10-10",
     "status": "archived",
     "editorNote": "Duplikat pitanja science_tech-0086 (dubrovačka karantena 1377.)."
@@ -164,7 +218,10 @@
     "accept": [],
     "note": "Završio je Moskovskim mirom 13. ožujka 1940., nakon tri i pol mjeseca borbi.",
     "source": "Wikipedia (en): Winter War",
-    "tags": ["Drugi svjetski rat", "Finska"],
+    "tags": [
+      "Drugi svjetski rat",
+      "Finska"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -178,7 +235,10 @@
     "accept": [],
     "note": "Antički pisci tvrde samo da je to namjeravao; konj je navodno imao mramornu štalu i jeo iz jasala od slonovače.",
     "source": "Wikipedia (en): Incitatus",
-    "tags": ["Rim", "zablude"],
+    "tags": [
+      "Rim",
+      "zablude"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -192,7 +252,10 @@
     "accept": [],
     "note": "Piramida je sagrađena oko 2600. pr. Kr., a mamuti su na otoku Wrangel preživjeli do prije otprilike 4000 godina.",
     "source": "Wikipedia (en): Woolly mammoth; Great Pyramid of Giza",
-    "tags": ["prapovijest", "Egipat"],
+    "tags": [
+      "prapovijest",
+      "Egipat"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -203,10 +266,15 @@
     "difficulty": 2,
     "question": "Koje je godine Napoleon okrunjen za cara Francuza?",
     "answer": "1804.",
-    "accept": ["1804"],
+    "accept": [
+      "1804"
+    ],
     "note": "Krunidba je bila 2. prosinca u katedrali Notre-Dame u Parizu.",
     "source": "Wikipedia (en): Coronation of Napoleon",
-    "tags": ["Francuska", "vladari"],
+    "tags": [
+      "Francuska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -217,10 +285,16 @@
     "difficulty": 3,
     "question": "Koja je engleska plemkinja 1553. proglašena kraljicom, a zbog kratke vladavine prozvana „kraljicom od devet dana”?",
     "answer": "Jane Grey",
-    "accept": ["Lady Jane Grey", "Jane Dudley"],
+    "accept": [
+      "Lady Jane Grey",
+      "Jane Dudley"
+    ],
     "note": "Pogubljena je u veljači 1554., kad joj je bilo tek 16 ili 17 godina.",
     "source": "Wikipedia (en): Lady Jane Grey",
-    "tags": ["Engleska", "vladari"],
+    "tags": [
+      "Engleska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -231,10 +305,16 @@
     "difficulty": 3,
     "question": "Koji je car Svetog Rimskog Carstva 1077. tri dana i noći čekao u mećavi pred vratima utvrde Canossa da ga papa oslobodi izopćenja?",
     "answer": "Henrik IV.",
-    "accept": ["Henrik IV", "Heinrich IV."],
+    "accept": [
+      "Henrik IV",
+      "Heinrich IV."
+    ],
     "note": "Papa Grgur VII. tada je boravio kod markgrofice Matilde od Toskane.",
     "source": "Wikipedia (en): Road to Canossa",
-    "tags": ["srednji vijek", "vladari"],
+    "tags": [
+      "srednji vijek",
+      "vladari"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -245,10 +325,15 @@
     "difficulty": 3,
     "question": "Koji je švedski ratni brod potonuo 1628. na prvom putovanju, nakon tek oko 1300 metara plovidbe?",
     "answer": "Vasa",
-    "accept": ["Wasa"],
+    "accept": [
+      "Wasa"
+    ],
     "note": "Olupina je ponovno pronađena krajem 1950-ih.",
     "source": "Wikipedia (en): Vasa (ship)",
-    "tags": ["Švedska", "brodovi"],
+    "tags": [
+      "Švedska",
+      "brodovi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -259,10 +344,16 @@
     "difficulty": 3,
     "question": "Koji je poljski kralj 1683. zapovijedao savezničkom vojskom koja je razbila osmansku opsadu Beča?",
     "answer": "Jan III. Sobieski",
-    "accept": ["Sobieski", "Ivan III. Sobieski"],
+    "accept": [
+      "Sobieski",
+      "Ivan III. Sobieski"
+    ],
     "note": "Osmanskom vojskom zapovijedao je veliki vezir Kara Mustafa-paša.",
     "source": "Wikipedia (en): Battle of Vienna",
-    "tags": ["Osmansko Carstvo", "bitke"],
+    "tags": [
+      "Osmansko Carstvo",
+      "bitke"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -276,7 +367,10 @@
     "accept": [],
     "note": "Kampanju je predvodila Kate Sheppard, a žene su prvi put glasale 28. studenoga 1893.",
     "source": "Wikipedia (en): Women's suffrage in New Zealand",
-    "tags": ["prava žena", "Oceanija"],
+    "tags": [
+      "prava žena",
+      "Oceanija"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -287,10 +381,16 @@
     "difficulty": 2,
     "question": "Po kojem je rimskom caru nazvan obrambeni zid preko sjeverne Britanije, građen od 122.?",
     "answer": "Hadrijan",
-    "accept": ["Hadrian", "Publije Elije Hadrijan"],
+    "accept": [
+      "Hadrian",
+      "Publije Elije Hadrijan"
+    ],
     "note": "Protezao se od Wallsenda na rijeci Tyne na istoku do Bowness-on-Solwaya na zapadu.",
     "source": "Wikipedia (en): Hadrian's Wall",
-    "tags": ["Rim", "Britanija"],
+    "tags": [
+      "Rim",
+      "Britanija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

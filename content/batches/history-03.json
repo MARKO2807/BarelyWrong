@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je britanski prekooceanski brod potonuo 15. travnja 1912., nakon udara u santu leda?",
     "answer": "Titanic",
-    "accept": ["RMS Titanic"],
+    "accept": [
+      "RMS Titanic"
+    ],
     "note": "Bilo mu je to prvo putovanje, od Southamptona prema New Yorku.",
     "source": "Wikipedia (en): Titanic",
-    "tags": ["katastrofe", "20. stoljeće"],
+    "tags": [
+      "katastrofe",
+      "20. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0071",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji je britanski premijer vodio zemlju kroz Drugi svjetski rat, od 1940. do 1945.?",
     "answer": "Winston Churchill",
-    "accept": ["Churchill"],
+    "accept": [
+      "Churchill"
+    ],
     "note": "Premijer je bio ponovno od 1951. do 1955.",
     "source": "Wikipedia (en): Winston Churchill",
-    "tags": ["Drugi svjetski rat", "državnici"],
+    "tags": [
+      "Drugi svjetski rat",
+      "državnici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Koji je rimski grad 79. godine zatrpala erupcija Vezuva?",
     "answer": "Pompeji",
-    "accept": ["Pompeii"],
+    "accept": [
+      "Pompeii"
+    ],
     "note": "Uz njega su zatrpani i Herculaneum i Stabije.",
     "source": "Wikipedia (en): Pompeii",
-    "tags": ["antika", "Rim"],
+    "tags": [
+      "antika",
+      "Rim"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +64,16 @@
     "difficulty": 1,
     "question": "Koja je francuska junakinja Stogodišnjeg rata spaljena na lomači 1431.?",
     "answer": "Ivana Orleanska",
-    "accept": ["Jeanne d'Arc", "Ivana od Arka"],
+    "accept": [
+      "Jeanne d'Arc",
+      "Ivana od Arka"
+    ],
     "note": "Imala je oko devetnaest godina, a presuda je poništena 1456.",
     "source": "Wikipedia (en): Joan of Arc",
-    "tags": ["srednji vijek", "Francuska"],
+    "tags": [
+      "srednji vijek",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +84,16 @@
     "difficulty": 1,
     "question": "Koji je američki predsjednik ubijen 22. studenoga 1963. u Dallasu?",
     "answer": "John F. Kennedy",
-    "accept": ["Kennedy", "JFK"],
+    "accept": [
+      "Kennedy",
+      "JFK"
+    ],
     "note": "Bio je 35. predsjednik SAD-a.",
     "source": "Wikipedia (en): Assassination of John F. Kennedy",
-    "tags": ["SAD", "20. stoljeće"],
+    "tags": [
+      "SAD",
+      "20. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,12 +104,18 @@
     "difficulty": 1,
     "question": "Koje je godine počeo Drugi svjetski rat?",
     "answer": "1939.",
-    "accept": ["1939"],
+    "accept": [
+      "1939"
+    ],
     "note": "Trajao je od 1. rujna 1939. do 2. rujna 1945.",
     "source": "Wikipedia (en): World War II",
-    "tags": ["Drugi svjetski rat", "godine"],
+    "tags": [
+      "Drugi svjetski rat",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0076",
@@ -90,12 +124,18 @@
     "difficulty": 1,
     "question": "Tko je bio prvi predsjednik Republike Hrvatske?",
     "answer": "Franjo Tuđman",
-    "accept": ["Tuđman"],
+    "accept": [
+      "Tuđman"
+    ],
     "note": "Bio je i deveti i posljednji predsjednik Predsjedništva SR Hrvatske.",
     "source": "Wikipedia (en): Franjo Tuđman",
-    "tags": ["Hrvatska", "državnici"],
+    "tags": [
+      "Hrvatska",
+      "državnici"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0077",
@@ -104,10 +144,16 @@
     "difficulty": 1,
     "question": "Koji je osvajač, rođen kao Temüjin, osnovao Mongolsko Carstvo?",
     "answer": "Džingis-kan",
-    "accept": ["Džingis Kan", "Genghis Khan"],
+    "accept": [
+      "Džingis Kan",
+      "Genghis Khan"
+    ],
     "note": "Prije osvajanja Kine i srednje Azije ujedinio je mongolska plemena.",
     "source": "Wikipedia (en): Genghis Khan",
-    "tags": ["Azija", "osvajači"],
+    "tags": [
+      "Azija",
+      "osvajači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +164,16 @@
     "difficulty": 1,
     "question": "Kojeg je austrougarskog prijestolonasljednika Gavrilo Princip ubio u Sarajevu 1914.?",
     "answer": "Franju Ferdinanda",
-    "accept": ["Franjo Ferdinand", "Franz Ferdinand"],
+    "accept": [
+      "Franjo Ferdinand",
+      "Franz Ferdinand"
+    ],
     "note": "S njim je ubijena i njegova supruga Sofija.",
     "source": "Wikipedia (en): Assassination of Archduke Franz Ferdinand",
-    "tags": ["Prvi svjetski rat", "atentati"],
+    "tags": [
+      "Prvi svjetski rat",
+      "atentati"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +184,16 @@
     "difficulty": 2,
     "question": "Koja je dinastija vladala Rusijom od 1613. do 1917.?",
     "answer": "Romanovi",
-    "accept": ["Romanov", "Dinastija Romanov"],
+    "accept": [
+      "Romanov",
+      "Dinastija Romanov"
+    ],
     "note": "Postala je istaknuta kad se Anastazija Romanovna udala za Ivana Groznog.",
     "source": "Wikipedia (en): House of Romanov",
-    "tags": ["Rusija", "dinastije"],
+    "tags": [
+      "Rusija",
+      "dinastije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +204,16 @@
     "difficulty": 2,
     "question": "Kojim je mirovnim ugovorom, potpisanim 28. lipnja 1919., okončano ratno stanje između Njemačke i saveznika?",
     "answer": "Versajski ugovor",
-    "accept": ["Versajski mir", "Ugovor iz Versaillesa"],
+    "accept": [
+      "Versajski mir",
+      "Ugovor iz Versaillesa"
+    ],
     "note": "Potpisan je točno pet godina nakon atentata u Sarajevu.",
     "source": "Wikipedia (en): Treaty of Versailles",
-    "tags": ["Prvi svjetski rat", "mirovni ugovori"],
+    "tags": [
+      "Prvi svjetski rat",
+      "mirovni ugovori"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +224,16 @@
     "difficulty": 2,
     "question": "Kojeg je datuma 1991. Hrvatska proglasila neovisnost?",
     "answer": "25. lipnja",
-    "accept": ["25. lipnja 1991.", "25. 6. 1991."],
+    "accept": [
+      "25. lipnja 1991.",
+      "25. 6. 1991."
+    ],
     "note": "Zbog tromjesečnog moratorija odluka je na snagu stupila 8. listopada 1991.",
     "source": "Wikipedia (en): Croatia",
-    "tags": ["Hrvatska", "Domovinski rat"],
+    "tags": [
+      "Hrvatska",
+      "Domovinski rat"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +244,15 @@
     "difficulty": 2,
     "question": "Na kojem su polju u Lici Osmanlije 9. rujna 1493. porazile hrvatsku vojsku?",
     "answer": "Krbavsko polje",
-    "accept": ["Krbava"],
+    "accept": [
+      "Krbava"
+    ],
     "note": "Osmanskom vojskom zapovijedao je bosanski sandžak-beg Jakub-paša.",
     "source": "Wikipedia (en): Battle of Krbava Field",
-    "tags": ["Hrvatska", "bitke"],
+    "tags": [
+      "Hrvatska",
+      "bitke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +263,15 @@
     "difficulty": 2,
     "question": "Koji je njemački državnik predvodio ujedinjenje Njemačke i od 1871. bio njezin prvi kancelar?",
     "answer": "Otto von Bismarck",
-    "accept": ["Bismarck"],
+    "accept": [
+      "Bismarck"
+    ],
     "note": "Zbog čvrste vlasti prozvan je „Željeznim kancelarom”.",
     "source": "Wikipedia (en): Otto von Bismarck",
-    "tags": ["Njemačka", "državnici"],
+    "tags": [
+      "Njemačka",
+      "državnici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +282,15 @@
     "difficulty": 2,
     "question": "Koji je francuski kralj pogubljen giljotinom 21. siječnja 1793.?",
     "answer": "Luj XVI.",
-    "accept": ["Louis XVI."],
+    "accept": [
+      "Louis XVI."
+    ],
     "note": "Njegovom smrću završilo je više od tisuću godina neprekinute francuske monarhije.",
     "source": "Wikipedia (en): Louis XVI",
-    "tags": ["Francuska revolucija", "vladari"],
+    "tags": [
+      "Francuska revolucija",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +301,15 @@
     "difficulty": 2,
     "question": "Koji je narod sagradio grad Chichén Itzá na Yucatánu?",
     "answer": "Maje",
-    "accept": ["Maya"],
+    "accept": [
+      "Maya"
+    ],
     "note": "Lokalitet se nalazi između gradova Valladolida i Méride.",
     "source": "Wikipedia (en): Chichen Itza",
-    "tags": ["Amerika", "civilizacije"],
+    "tags": [
+      "Amerika",
+      "civilizacije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +323,10 @@
     "accept": [],
     "note": "Nakon deset tjedana na moru pristao je sa 102 putnika i tridesetak članova posade.",
     "source": "Wikipedia (en): Mayflower",
-    "tags": ["SAD", "brodovi"],
+    "tags": [
+      "SAD",
+      "brodovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +337,15 @@
     "difficulty": 2,
     "question": "U kojoj je pomorskoj bitki 7. listopada 1571. flota Svete lige porazila Osmanlije?",
     "answer": "Bitka kod Lepanta",
-    "accept": ["Lepanto"],
+    "accept": [
+      "Lepanto"
+    ],
     "note": "Ligu je okupio papa Pio V., a predvodile su je Španjolska i Venecija.",
     "source": "Wikipedia (en): Battle of Lepanto",
-    "tags": ["bitke", "Sredozemlje"],
+    "tags": [
+      "bitke",
+      "Sredozemlje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +356,15 @@
     "difficulty": 2,
     "question": "Kako se zove sporazum iz 1868. koji je uređivao položaj Hrvatske u ugarskom dijelu Austro-Ugarske?",
     "answer": "Hrvatsko-ugarska nagodba",
-    "accept": ["Nagodba"],
+    "accept": [
+      "Nagodba"
+    ],
     "note": "Vrijedila je do kraja Prvoga svjetskog rata.",
     "source": "Wikipedia (en): Croatian–Hungarian Settlement",
-    "tags": ["Hrvatska", "19. stoljeće"],
+    "tags": [
+      "Hrvatska",
+      "19. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +375,15 @@
     "difficulty": 2,
     "question": "Kako se zove vojna operacija koja je počela u zoru 4. kolovoza 1995.?",
     "answer": "Oluja",
-    "accept": ["Operacija Oluja"],
+    "accept": [
+      "Operacija Oluja"
+    ],
     "note": "Bila je najveća kopnena bitka u Europi od Drugoga svjetskog rata do ruske invazije na Ukrajinu 2022.",
     "source": "Wikipedia (en): Operation Storm",
-    "tags": ["Hrvatska", "Domovinski rat"],
+    "tags": [
+      "Hrvatska",
+      "Domovinski rat"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +394,15 @@
     "difficulty": 2,
     "question": "Kako se zove proglas kojim je Abraham Lincoln 1. siječnja 1863. promijenio pravni položaj robova?",
     "answer": "Proglas o emancipaciji",
-    "accept": ["Emancipacijski proglas"],
+    "accept": [
+      "Emancipacijski proglas"
+    ],
     "note": "Odnosio se na više od 3,5 milijuna porobljenih Afroamerikanaca.",
     "source": "Wikipedia (en): Emancipation Proclamation",
-    "tags": ["SAD", "ropstvo"],
+    "tags": [
+      "SAD",
+      "ropstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +413,16 @@
     "difficulty": 2,
     "question": "Koji je ugarsko-hrvatski kralj predvodio vojsku u bitki kod Mohača 1526.?",
     "answer": "Ludovik II.",
-    "accept": ["Ludovik II. Jagelović", "Louis II"],
+    "accept": [
+      "Ludovik II. Jagelović",
+      "Louis II"
+    ],
     "note": "Osmanlijama je zapovijedao Sulejman Veličanstveni.",
     "source": "Wikipedia (en): Battle of Mohács",
-    "tags": ["bitke", "vladari"],
+    "tags": [
+      "bitke",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +433,15 @@
     "difficulty": 3,
     "question": "U kojem su gradu 30. travnja 1671. pogubljeni Petar Zrinski i Fran Krsto Frankopan?",
     "answer": "Bečko Novo Mjesto",
-    "accept": ["Wiener Neustadt"],
+    "accept": [
+      "Wiener Neustadt"
+    ],
     "note": "Uhićeni su čim su stigli u Beč moliti cara za milost.",
     "source": "Wikipedia (en): Magnate conspiracy",
-    "tags": ["Hrvatska", "17. stoljeće"],
+    "tags": [
+      "Hrvatska",
+      "17. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +452,16 @@
     "difficulty": 3,
     "question": "Koji je car bio posljednji car Svetog Rimskog Carstva i prvi car Austrije?",
     "answer": "Franjo II.",
-    "accept": ["Franjo I.", "Franz II."],
+    "accept": [
+      "Franjo I.",
+      "Franz II."
+    ],
     "note": "Svetim Rimskim Carstvom vladao je od 1792. do 1806.",
     "source": "Wikipedia (en): Francis II, Holy Roman Emperor",
-    "tags": ["vladari", "Habsburgovci"],
+    "tags": [
+      "vladari",
+      "Habsburgovci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +472,15 @@
     "difficulty": 3,
     "question": "Koja je ruska carica rođena kao njemačka princeza Sofija od Anhalt-Zerbsta?",
     "answer": "Katarina Velika",
-    "accept": ["Katarina II."],
+    "accept": [
+      "Katarina II."
+    ],
     "note": "Rusijom je vladala od 1762. do smrti 1796.",
     "source": "Wikipedia (en): Catherine the Great",
-    "tags": ["Rusija", "vladari"],
+    "tags": [
+      "Rusija",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -359,7 +494,10 @@
     "accept": [],
     "note": "Bitkom je završio rat za hrvatsko nasljeđe.",
     "source": "Wikipedia (en): Battle of Gvozd Mountain",
-    "tags": ["Hrvatska", "bitke"],
+    "tags": [
+      "Hrvatska",
+      "bitke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +508,15 @@
     "difficulty": 3,
     "question": "Koje je godine posljednji hrvatski staleški sabor hrvatski proglasio službenim jezikom umjesto latinskog?",
     "answer": "1847.",
-    "accept": ["1847"],
+    "accept": [
+      "1847"
+    ],
     "note": "Sabor 1830. prihvatio je zakon o obveznom učenju mađarskog u hrvatskim školama.",
     "source": "Wikipedia (hr): Hrvatski sabor",
-    "tags": ["Hrvatska", "jezik"],
+    "tags": [
+      "Hrvatska",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +527,16 @@
     "difficulty": 3,
     "question": "Koja je engleska kraljica, kći Henrika VIII. i Katarine Aragonske, prozvana „Krvava Mary”?",
     "answer": "Marija I.",
-    "accept": ["Marija Tudor", "Mary I"],
+    "accept": [
+      "Marija Tudor",
+      "Mary I"
+    ],
     "note": "Za njezine vladavine na lomači je spaljeno više od 280 vjerskih neistomišljenika.",
     "source": "Wikipedia (en): Mary I of England",
-    "tags": ["Engleska", "vladari"],
+    "tags": [
+      "Engleska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -401,7 +550,10 @@
     "accept": [],
     "note": "U gradu su zasjedali Hrvatski sabor i Hrvatsko kraljevsko vijeće Marije Terezije.",
     "source": "Wikipedia (en): Varaždin",
-    "tags": ["Hrvatska", "gradovi"],
+    "tags": [
+      "Hrvatska",
+      "gradovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +564,15 @@
     "difficulty": 3,
     "question": "Kako se zove hrvatska vladarska dinastija koja je, s prekidima, vladala od 845. do 1091.?",
     "answer": "Trpimirovići",
-    "accept": ["Trpimirović"],
+    "accept": [
+      "Trpimirović"
+    ],
     "note": "Ime je dobila po osnivaču Trpimiru I.",
     "source": "Wikipedia (en): Trpimirović dynasty",
-    "tags": ["Hrvatska", "dinastije"],
+    "tags": [
+      "Hrvatska",
+      "dinastije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

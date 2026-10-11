@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Kako se zvala ovca, rođena 1996. u Škotskoj, prvi sisavac kloniran iz stanice odrasle životinje?",
     "answer": "Dolly",
-    "accept": ["ovca Dolly"],
+    "accept": [
+      "ovca Dolly"
+    ],
     "note": "Klonirana je iz stanice mliječne žlijezde; nije bila prva klonirana životinja, ali je bila prva klonirana iz odrasle stanice.",
     "source": "Wikipedia (en): Dolly (sheep)",
-    "tags": ["biologija", "kloniranje"],
+    "tags": [
+      "biologija",
+      "kloniranje"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Svjetlosna godina mjerna je jedinica za koju veličinu?",
     "answer": "Udaljenost",
-    "accept": ["duljina", "daljina"],
+    "accept": [
+      "duljina",
+      "daljina"
+    ],
     "note": "To je put koji svjetlost u vakuumu prijeđe za godinu dana, oko 9,46 bilijuna kilometara.",
     "source": "Wikipedia (en): Light-year",
-    "tags": ["astronomija", "mjerne jedinice"],
+    "tags": [
+      "astronomija",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0143",
@@ -37,7 +49,10 @@
     "accept": [],
     "note": "Osmislio ga je Christopher Latham Sholes za pisaći stroj koji je Remington prodavao od 1874.",
     "source": "Wikipedia (en): QWERTY",
-    "tags": ["tehnologija", "računala"],
+    "tags": [
+      "tehnologija",
+      "računala"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -48,10 +63,16 @@
     "difficulty": 1,
     "question": "Kako se zove pojava zbog koje sirena vozila koje prolazi pokraj nas zvuči sve niže?",
     "answer": "Dopplerov efekt",
-    "accept": ["Dopplerov učinak", "Doppler"],
+    "accept": [
+      "Dopplerov učinak",
+      "Doppler"
+    ],
     "note": "Dok se vozilo približava, ton je viši od stvarnog, a dok se udaljava, niži.",
     "source": "Wikipedia (en): Doppler effect",
-    "tags": ["fizika", "zvuk"],
+    "tags": [
+      "fizika",
+      "zvuk"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -65,7 +86,10 @@
     "accept": [],
     "note": "Nijedno mjesto na svijetu nije dalo više otkrića kemijskih elemenata; ime sela znači „vanjsko selo”.",
     "source": "Wikipedia (en): Ytterby",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Zbog upotrebe u cijevima od istog korijena dolazi i engleska riječ plumbing, vodoinstalacija.",
     "source": "Wikipedia (en): Lead",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -90,10 +117,15 @@
     "difficulty": 2,
     "question": "Kako se kemijski zove vitamin C?",
     "answer": "Askorbinska kiselina",
-    "accept": ["askorbat"],
+    "accept": [
+      "askorbat"
+    ],
     "note": "Albert Szent-Györgyi 1937. dobio je Nobelovu nagradu dijelom i zbog njegova otkrića.",
     "source": "Wikipedia (en): Vitamin C",
-    "tags": ["kemija", "zdravlje"],
+    "tags": [
+      "kemija",
+      "zdravlje"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -107,7 +139,10 @@
     "accept": [],
     "note": "Element je prvi put dobiven krajem 1940. i početkom 1941. na Kalifornijskom sveučilištu.",
     "source": "Wikipedia (en): Plutonium",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -121,7 +156,10 @@
     "accept": [],
     "note": "Za vodu je to oko 273,16 K, odnosno malo iznad 0 °C, pri vrlo niskom tlaku.",
     "source": "Wikipedia (en): Triple point",
-    "tags": ["fizika", "termodinamika"],
+    "tags": [
+      "fizika",
+      "termodinamika"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -132,10 +170,16 @@
     "difficulty": 2,
     "question": "Što je zapravo Velika crvena pjega na Jupiteru?",
     "answer": "Oluja",
-    "accept": ["anticiklona", "vrtlog"],
+    "accept": [
+      "anticiklona",
+      "vrtlog"
+    ],
     "note": "To je najveća anticiklonalna oluja u Sunčevu sustavu, široka oko 16 000 km.",
     "source": "Wikipedia (en): Great Red Spot",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -146,10 +190,15 @@
     "difficulty": 1,
     "question": "Koji je fizičar, po kojem se zove jedna temperaturna ljestvica, izradio prve uspješne živine termometre?",
     "answer": "Daniel Gabriel Fahrenheit",
-    "accept": ["Fahrenheit"],
+    "accept": [
+      "Fahrenheit"
+    ],
     "note": "Živini termometri bili su precizniji od tada uobičajenih termometara punjenih alkoholom.",
     "source": "Wikipedia (en): Daniel Gabriel Fahrenheit",
-    "tags": ["fizika", "izumi"],
+    "tags": [
+      "fizika",
+      "izumi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -160,10 +209,15 @@
     "difficulty": 2,
     "question": "Kako se zove test koji provjerava je li korisnik čovjek ili računalo, a ime mu je kratica u kojoj je i Turingovo ime?",
     "answer": "CAPTCHA",
-    "accept": ["Captcha"],
+    "accept": [
+      "Captcha"
+    ],
     "note": "Kratica znači „potpuno automatizirani javni Turingov test za razlikovanje računala i ljudi”; zovu ga i obrnutim Turingovim testom.",
     "source": "Wikipedia (en): CAPTCHA",
-    "tags": ["tehnologija", "internet"],
+    "tags": [
+      "tehnologija",
+      "internet"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -174,10 +228,15 @@
     "difficulty": 2,
     "question": "Koji je njemački fizičar 1927. postavio načelo neodređenosti?",
     "answer": "Werner Heisenberg",
-    "accept": ["Heisenberg"],
+    "accept": [
+      "Heisenberg"
+    ],
     "note": "Načelo kaže da se položaj i količina gibanja čestice ne mogu istodobno izmjeriti proizvoljno točno.",
     "source": "Wikipedia (en): Uncertainty principle",
-    "tags": ["fizika", "kvantna mehanika"],
+    "tags": [
+      "fizika",
+      "kvantna mehanika"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -191,7 +250,10 @@
     "accept": [],
     "note": "Prvu industrijsku proizvodnju pokrenuo je 1856. francuski kemičar Henri Sainte-Claire Deville.",
     "source": "Wikipedia (en): Aluminium",
-    "tags": ["kemija", "metali"],
+    "tags": [
+      "kemija",
+      "metali"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -202,10 +264,15 @@
     "difficulty": 2,
     "question": "Koji je plemeniti plin ime dobio po grčkoj riječi za „skriveni”, a isto ime nosi i Supermanov rodni planet?",
     "answer": "Kripton",
-    "accept": ["Krypton"],
+    "accept": [
+      "Krypton"
+    ],
     "note": "U atmosferi ga ima tek u tragovima.",
     "source": "Wikipedia (en): Krypton",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 2,
     "question": "Na kojoj visini, u kilometrima, prema definiciji Međunarodne zrakoplovne federacije počinje svemir?",
     "answer": "100 km",
-    "accept": ["100"],
+    "accept": [
+      "100"
+    ],
     "note": "Granica se zove Kármánova linija, po Theodoreu von Kármánu, iako nema poseban fizikalni značaj.",
     "source": "Wikipedia (en): Kármán line",
-    "tags": ["svemir", "atmosfera"],
+    "tags": [
+      "svemir",
+      "atmosfera"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Kako se zove prvi videozapis objavljen na YouTubeu, 23. travnja 2005.?",
     "answer": "Me at the zoo",
-    "accept": ["Me at the Zoo"],
+    "accept": [
+      "Me at the Zoo"
+    ],
     "note": "U 19 sekundi suosnivač YouTubea Jawed Karim stoji pred dva slona u zoološkom vrtu u San Diegu i komentira duljinu njihovih surli.",
     "source": "Wikipedia (en): Me at the Zoo",
-    "tags": ["tehnologija", "internet"],
+    "tags": [
+      "tehnologija",
+      "internet"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -244,10 +321,16 @@
     "difficulty": 3,
     "question": "Koji je astronom 1781. otkrio Uran, prvi planet otkriven nakon antike?",
     "answer": "William Herschel",
-    "accept": ["Herschel", "Friedrich Wilhelm Herschel"],
+    "accept": [
+      "Herschel",
+      "Friedrich Wilhelm Herschel"
+    ],
     "note": "Zbog tog otkrića kralj Juraj III. imenovao ga je dvorskim astronomom.",
     "source": "Wikipedia (en): William Herschel",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -261,7 +344,10 @@
     "accept": [],
     "note": "Tajna da se dobiva iz mokraće neko je vrijeme bila skrivena, dok je Johann Kunckel 1678. nije ponovio postupak.",
     "source": "Wikipedia (en): Phosphorus",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -272,10 +358,15 @@
     "difficulty": 3,
     "question": "Za koji je stroj Charlesa Babbagea, koji nikad nije dovršen, Ada Lovelace napisala ono što se smatra prvim računalnim programom?",
     "answer": "Analitički stroj",
-    "accept": ["Analytical Engine"],
+    "accept": [
+      "Analytical Engine"
+    ],
     "note": "Menabrea je članak o stroju napisao prema Babbageovim predavanjima u Torinu 1840., a Ada ga je 1843. prevela na engleski i opširno dopunila.",
     "source": "Wikipedia (en): Analytical Engine",
-    "tags": ["računala", "povijest tehnike"],
+    "tags": [
+      "računala",
+      "povijest tehnike"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   }

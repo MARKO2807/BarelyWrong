@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Koji je grčki bog svjetla, glazbe, poezije i streličarstva, Artemidin brat blizanac?",
     "answer": "Apolon",
-    "accept": ["Apollo", "Apolo"],
+    "accept": [
+      "Apollo",
+      "Apolo"
+    ],
     "note": "Sin je Zeusa i Leto.",
     "source": "Wikipedia (en): Apollo",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Koja je rimska božica ljubavi i ljepote?",
     "answer": "Venera",
-    "accept": ["Venus"],
+    "accept": [
+      "Venus"
+    ],
     "note": "Prema rimskoj mitologiji bila je pretkinja rimskog naroda.",
     "source": "Wikipedia (en): Venus (mythology)",
-    "tags": ["mitologija", "rimski bogovi"],
+    "tags": [
+      "mitologija",
+      "rimski bogovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0122",
@@ -37,7 +49,10 @@
     "accept": [],
     "note": "Jedan je od dvanaest olimpskih bogova, sin Zeusa i Here.",
     "source": "Wikipedia (en): Ares",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +63,15 @@
     "difficulty": 1,
     "question": "Kako se zove najpoznatija zagrebačka tržnica, u Gornjem gradu?",
     "answer": "Dolac",
-    "accept": ["Tržnica Dolac"],
+    "accept": [
+      "Tržnica Dolac"
+    ],
     "note": "Najposjećenija je tržnica u Zagrebu.",
     "source": "Wikipedia (en): Dolac Market",
-    "tags": ["Zagreb", "baština"],
+    "tags": [
+      "Zagreb",
+      "baština"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +82,15 @@
     "difficulty": 1,
     "question": "Kako se zove zagrebački trg na kojem stoji crkva sv. Marka?",
     "answer": "Markov trg",
-    "accept": ["Trg sv. Marka"],
+    "accept": [
+      "Trg sv. Marka"
+    ],
     "note": "Na trgu su i važne državne zgrade.",
     "source": "Wikipedia (en): St. Mark's Square (Zagreb)",
-    "tags": ["Zagreb", "arhitektura"],
+    "tags": [
+      "Zagreb",
+      "arhitektura"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +104,10 @@
     "accept": [],
     "note": "Hram na atenskoj Akropoli bio je posvećen božici Ateni.",
     "source": "Wikipedia (en): Parthenon",
-    "tags": ["arhitektura", "antika"],
+    "tags": [
+      "arhitektura",
+      "antika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,9 +121,13 @@
     "accept": [],
     "note": "Veći dio odraslog života proveo je u Francuskoj.",
     "source": "Wikipedia (en): Pablo Picasso",
-    "tags": ["slikarstvo", "slikari"],
+    "tags": [
+      "slikarstvo",
+      "slikari"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0127",
@@ -104,10 +136,16 @@
     "difficulty": 2,
     "question": "Koji je francuski slikar 1862. i 1863. naslikao „Doručak na travi”?",
     "answer": "Édouard Manet",
-    "accept": ["Manet", "Edouard Manet"],
+    "accept": [
+      "Manet",
+      "Edouard Manet"
+    ],
     "note": "Slika se izvorno zvala „Kupanje”.",
     "source": "Wikipedia (en): Le Déjeuner sur l'herbe",
-    "tags": ["slikarstvo", "Francuska"],
+    "tags": [
+      "slikarstvo",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +156,16 @@
     "difficulty": 2,
     "question": "Koji je španjolski dvorski slikar 1656. naslikao „Las Meninas”?",
     "answer": "Diego Velázquez",
-    "accept": ["Velázquez", "Velazquez"],
+    "accept": [
+      "Velázquez",
+      "Velazquez"
+    ],
     "note": "Slika se čuva u madridskom muzeju Prado.",
     "source": "Wikipedia (en): Las Meninas",
-    "tags": ["slikarstvo", "barok"],
+    "tags": [
+      "slikarstvo",
+      "barok"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +176,15 @@
     "difficulty": 2,
     "question": "Koja je staroegipatska božica, štovana i u grčko-rimskom svijetu, jedan od glavnih likova mita o Ozirisu?",
     "answer": "Izida",
-    "accept": ["Isis"],
+    "accept": [
+      "Isis"
+    ],
     "note": "Prvi put se spominje u doba Starog kraljevstva.",
     "source": "Wikipedia (en): Isis",
-    "tags": ["mitologija", "Egipat"],
+    "tags": [
+      "mitologija",
+      "Egipat"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +198,10 @@
     "accept": [],
     "note": "Jedan je od najčešće prikazivanih egipatskih bogova.",
     "source": "Wikipedia (en): Anubis",
-    "tags": ["mitologija", "Egipat"],
+    "tags": [
+      "mitologija",
+      "Egipat"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +215,10 @@
     "accept": [],
     "note": "Ime je dobio po dinastiji Flavijevaca: Vespazijanu, Titu i Domicijanu.",
     "source": "Wikipedia (en): Colosseum",
-    "tags": ["arhitektura", "Rim"],
+    "tags": [
+      "arhitektura",
+      "Rim"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Bio je kipar, slikar, arhitekt i pjesnik visoke renesanse.",
     "source": "Wikipedia (en): Michelangelo",
-    "tags": ["renesansa", "umjetnici"],
+    "tags": [
+      "renesansa",
+      "umjetnici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +249,10 @@
     "accept": [],
     "note": "Nalazi se u Poreču.",
     "source": "Wikipedia (en): Euphrasian Basilica",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +263,16 @@
     "difficulty": 2,
     "question": "Koje je godine dovršen Koloseum?",
     "answer": "80.",
-    "accept": ["80", "80. godine"],
+    "accept": [
+      "80",
+      "80. godine"
+    ],
     "note": "Gradnja je počela 72. pod Vespazijanom, a dovršena je pod Titom.",
     "source": "Wikipedia (en): Colosseum",
-    "tags": ["Rim", "godine"],
+    "tags": [
+      "Rim",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 3,
     "question": "Koji je barokni kipar izradio „Zanos svete Terezije” u rimskoj crkvi Santa Maria della Vittoria?",
     "answer": "Gian Lorenzo Bernini",
-    "accept": ["Bernini"],
+    "accept": [
+      "Bernini"
+    ],
     "note": "Djelo se nalazi u kapeli Cornaro.",
     "source": "Wikipedia (en): Ecstasy of Saint Teresa",
-    "tags": ["kiparstvo", "barok"],
+    "tags": [
+      "kiparstvo",
+      "barok"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Koji je kipar izradio kipove Medulića, Klovića, Gundulića i Šenoe na zagrebačkom Zrinjevcu?",
     "answer": "Ivan Rendić",
-    "accept": ["Rendić"],
+    "accept": [
+      "Rendić"
+    ],
     "note": "Njegovi spomenici slavnim Hrvatima nalaze se diljem Hrvatske.",
     "source": "Wikipedia (en): Ivan Rendić",
-    "tags": ["kiparstvo", "Hrvatska"],
+    "tags": [
+      "kiparstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +324,10 @@
     "accept": [],
     "note": "Ime bi moglo značiti „željena” ili „ljupka”.",
     "source": "Wikipedia (en): Erato",
-    "tags": ["mitologija", "muze"],
+    "tags": [
+      "mitologija",
+      "muze"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +341,10 @@
     "accept": [],
     "note": "Pronađena je 1820. na otoku Milu, a u pariškom je Louvreu od 1821.",
     "source": "Wikipedia (en): Venus de Milo",
-    "tags": ["kiparstvo", "muzeji"],
+    "tags": [
+      "kiparstvo",
+      "muzeji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +355,15 @@
     "difficulty": 3,
     "question": "Koliko je godina imao Pablo Picasso kad je umro?",
     "answer": "91",
-    "accept": ["Devedeset jednu"],
+    "accept": [
+      "Devedeset jednu"
+    ],
     "note": "Rođen je 25. listopada 1881., a umro 8. travnja 1973.",
     "source": "Wikipedia (en): Pablo Picasso",
-    "tags": ["slikari", "brojevi"],
+    "tags": [
+      "slikari",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

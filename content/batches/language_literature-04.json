@@ -6,12 +6,19 @@
     "difficulty": 1,
     "question": "Kako se zove interpunkcijski znak ; ?",
     "answer": "Točka sa zarezom",
-    "accept": ["Točka-zarez", "Točkazarez"],
+    "accept": [
+      "Točka-zarez",
+      "Točkazarez"
+    ],
     "note": "Najčešće povezuje dvije nezavisne rečenice u jednu.",
     "source": "Wikipedia (en): Semicolon",
-    "tags": ["jezik", "pravopis"],
+    "tags": [
+      "jezik",
+      "pravopis"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0097",
@@ -20,12 +27,18 @@
     "difficulty": 1,
     "question": "Kako se zove riječ suprotnog značenja, poput „visok” i „nizak”?",
     "answer": "Antonim",
-    "accept": ["Antonimi"],
+    "accept": [
+      "Antonimi"
+    ],
     "note": "Odnos između suprotnosti zove se opozicija.",
     "source": "Wikipedia (en): Opposite (semantics)",
-    "tags": ["jezik", "pojmovi"],
+    "tags": [
+      "jezik",
+      "pojmovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0098",
@@ -37,7 +50,10 @@
     "accept": [],
     "note": "Dorothy i Tota ciklon odnese iz Kansasa u zemlju Oz.",
     "source": "Wikipedia (en): The Wonderful Wizard of Oz",
-    "tags": ["dječja književnost", "likovi"],
+    "tags": [
+      "dječja književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +64,15 @@
     "difficulty": 1,
     "question": "Kako se zove otočna zemlja sićušnih ljudi u „Gulliverovim putovanjima”?",
     "answer": "Liliput",
-    "accept": ["Lilliput"],
+    "accept": [
+      "Lilliput"
+    ],
     "note": "Susjedni je otok Blefuscu.",
     "source": "Wikipedia (en): Lilliput and Blefuscu",
-    "tags": ["satira", "mjesta"],
+    "tags": [
+      "satira",
+      "mjesta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +86,10 @@
     "accept": [],
     "note": "Pravo mu je ime bilo Samuel Langhorne Clemens.",
     "source": "Wikipedia (en): Mark Twain",
-    "tags": ["američka književnost", "pseudonimi"],
+    "tags": [
+      "američka književnost",
+      "pseudonimi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "S 18 godina oženio je Anne Hathaway, s kojom je imao troje djece.",
     "source": "Wikipedia (en): William Shakespeare",
-    "tags": ["engleska književnost", "pisci"],
+    "tags": [
+      "engleska književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,9 +120,13 @@
     "accept": [],
     "note": "Ima 30 slova, među njima i tri dvoslova: dž, lj i nj.",
     "source": "Wikipedia (en): Gaj's Latin alphabet",
-    "tags": ["jezik", "pismo"],
+    "tags": [
+      "jezik",
+      "pismo"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0103",
@@ -104,10 +135,15 @@
     "difficulty": 1,
     "question": "Koje je godine u Velikoj Britaniji objavljena prva knjiga o Harryju Potteru?",
     "answer": "1997.",
-    "accept": ["1997"],
+    "accept": [
+      "1997"
+    ],
     "note": "Objavio ju je Bloomsbury 26. lipnja 1997.",
     "source": "Wikipedia (en): Harry Potter and the Philosopher's Stone",
-    "tags": ["fantastika", "godine"],
+    "tags": [
+      "fantastika",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +154,15 @@
     "difficulty": 2,
     "question": "Kako se zove Dumasov roman o mornaru Edmondu Dantèsu, lažno optuženom za izdaju?",
     "answer": "Grof Monte Cristo",
-    "accept": ["Monte Cristo"],
+    "accept": [
+      "Monte Cristo"
+    ],
     "note": "Dantès je zatvoren u tvrđavi If, gdje ga obrazuje opat Faria.",
     "source": "Wikipedia (en): The Count of Monte Cristo",
-    "tags": ["francuska književnost", "romani"],
+    "tags": [
+      "francuska književnost",
+      "romani"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +173,16 @@
     "difficulty": 2,
     "question": "Kako se zove junakinja romana „Ponos i predrasude” Jane Austen?",
     "answer": "Elizabeth Bennet",
-    "accept": ["Elizabeth", "Lizzy Bennet"],
+    "accept": [
+      "Elizabeth",
+      "Lizzy Bennet"
+    ],
     "note": "Druga je od pet kćeri obitelji Bennet.",
     "source": "Wikipedia (en): Elizabeth Bennet",
-    "tags": ["engleska književnost", "likovi"],
+    "tags": [
+      "engleska književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +193,16 @@
     "difficulty": 2,
     "question": "Koji je engleski pisac stvorio medvjedića Winnieja Pooha?",
     "answer": "A. A. Milne",
-    "accept": ["Milne", "Alan Alexander Milne"],
+    "accept": [
+      "Milne",
+      "Alan Alexander Milne"
+    ],
     "note": "Ilustracije je radio E. H. Shepard.",
     "source": "Wikipedia (en): Winnie-the-Pooh",
-    "tags": ["dječja književnost", "pisci"],
+    "tags": [
+      "dječja književnost",
+      "pisci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +213,16 @@
     "difficulty": 2,
     "question": "Kako se zove obitelj iz Krležine drame iz 1929., čije je ime u naslovu?",
     "answer": "Glembajevi",
-    "accept": ["Glembay", "Gospoda Glembajevi"],
+    "accept": [
+      "Glembay",
+      "Gospoda Glembajevi"
+    ],
     "note": "Drama je 1988. ekranizirana s Mustafom Nadarevićem i Enom Begović.",
     "source": "Wikipedia (en): The Glembays",
-    "tags": ["hrvatska književnost", "drama"],
+    "tags": [
+      "hrvatska književnost",
+      "drama"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +236,10 @@
     "accept": [],
     "note": "Prvi su put objavljeni engleski i francuski tekst u SAD-u, u travnju 1943.",
     "source": "Wikipedia (en): The Little Prince",
-    "tags": ["francuska književnost", "zablude"],
+    "tags": [
+      "francuska književnost",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +253,10 @@
     "accept": [],
     "note": "Napisao ju je na toskanskom, a djelo je pomoglo da toskanski postane temelj talijanskog standardnog jezika.",
     "source": "Wikipedia (en): Divine Comedy",
-    "tags": ["talijanska književnost", "jezik"],
+    "tags": [
+      "talijanska književnost",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +270,10 @@
     "accept": [],
     "note": "Rođen je u Vrgorcu.",
     "source": "Wikipedia (hr): Tin Ujević",
-    "tags": ["hrvatska književnost", "pjesnici"],
+    "tags": [
+      "hrvatska književnost",
+      "pjesnici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +287,10 @@
     "accept": [],
     "note": "Krug se zvao Inklings, a članovi su cijenili pripovijedanje i poticali pisanje fantastike.",
     "source": "Wikipedia (en): Inklings",
-    "tags": ["engleska književnost", "fantastika"],
+    "tags": [
+      "engleska književnost",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +304,10 @@
     "accept": [],
     "note": "Opis podmornice smatrao se ispred svog vremena.",
     "source": "Wikipedia (en): Twenty Thousand Leagues Under the Seas",
-    "tags": ["francuska književnost", "likovi"],
+    "tags": [
+      "francuska književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +318,15 @@
     "difficulty": 2,
     "question": "Koje je godine objavljen prvi dio „Don Quijotea”?",
     "answer": "1605.",
-    "accept": ["1605"],
+    "accept": [
+      "1605"
+    ],
     "note": "Drugi je dio objavljen 1615.",
     "source": "Wikipedia (en): Don Quixote",
-    "tags": ["španjolska književnost", "godine"],
+    "tags": [
+      "španjolska književnost",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +337,15 @@
     "difficulty": 2,
     "question": "Koje je godine umro William Shakespeare?",
     "answer": "1616.",
-    "accept": ["1616"],
+    "accept": [
+      "1616"
+    ],
     "note": "Smatra se najutjecajnijim piscem engleskog jezika.",
     "source": "Wikipedia (en): William Shakespeare",
-    "tags": ["engleska književnost", "godine"],
+    "tags": [
+      "engleska književnost",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +356,15 @@
     "difficulty": 3,
     "question": "Kako se zove Krležina zbirka balada na kajkavskom, nazvana po pučkom proroku?",
     "answer": "Balade Petrice Kerempuha",
-    "accept": ["Petrica Kerempuh"],
+    "accept": [
+      "Petrica Kerempuh"
+    ],
     "note": "Kerempuh je hrvatski pandan Tillu Eulenspiegelu.",
     "source": "Wikipedia (en): Ballads of Petrica Kerempuh",
-    "tags": ["hrvatska književnost", "kajkavski"],
+    "tags": [
+      "hrvatska književnost",
+      "kajkavski"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -289,7 +378,10 @@
     "accept": [],
     "note": "Najstarije je poznato slavensko pismo, nastalo u 9. stoljeću.",
     "source": "Wikipedia (en): Glagolitic script",
-    "tags": ["jezik", "pismo"],
+    "tags": [
+      "jezik",
+      "pismo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -303,7 +395,10 @@
     "accept": [],
     "note": "Ima tri čina, 28 prizora i 1696 stihova.",
     "source": "Wikipedia (en): Dubravka (play)",
-    "tags": ["hrvatska književnost", "drama"],
+    "tags": [
+      "hrvatska književnost",
+      "drama"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +409,15 @@
     "difficulty": 3,
     "question": "Koje je godine rođen Marko Marulić?",
     "answer": "1450.",
-    "accept": ["1450"],
+    "accept": [
+      "1450"
+    ],
     "note": "Smatra se ocem hrvatske književnosti i nacionalnim pjesnikom.",
     "source": "Wikipedia (en): Marko Marulić",
-    "tags": ["hrvatska književnost", "godine"],
+    "tags": [
+      "hrvatska književnost",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +428,16 @@
     "difficulty": 3,
     "question": "Koliko je djece imao William Shakespeare?",
     "answer": "3",
-    "accept": ["Troje", "Tri"],
+    "accept": [
+      "Troje",
+      "Tri"
+    ],
     "note": "Kći Susanna te blizanci Hamnet i Judith.",
     "source": "Wikipedia (en): William Shakespeare",
-    "tags": ["engleska književnost", "brojevi"],
+    "tags": [
+      "engleska književnost",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +448,15 @@
     "difficulty": 3,
     "question": "Na koliko je pjevanja podijeljena Homerova „Odiseja”?",
     "answer": "24",
-    "accept": ["Dvadeset četiri"],
+    "accept": [
+      "Dvadeset četiri"
+    ],
     "note": "Isto toliko pjevanja ima i „Ilijada”.",
     "source": "Wikipedia (en): Odyssey",
-    "tags": ["antička književnost", "brojevi"],
+    "tags": [
+      "antička književnost",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

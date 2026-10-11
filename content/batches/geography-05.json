@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Najveće je gradsko područje u nordijskim zemljama.",
     "source": "Wikipedia (en): Stockholm",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0122",
@@ -20,12 +24,18 @@
     "difficulty": 1,
     "question": "Koji je glavni grad Egipta?",
     "answer": "Kairo",
-    "accept": ["Cairo"],
+    "accept": [
+      "Cairo"
+    ],
     "note": "Dio je najveće gradske aglomeracije u Africi i arapskom svijetu.",
     "source": "Wikipedia (en): Cairo",
-    "tags": ["glavni gradovi", "Afrika"],
+    "tags": [
+      "glavni gradovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0123",
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "Koja rijeka teče kroz Pariz?",
     "answer": "Seina",
-    "accept": ["Seine"],
+    "accept": [
+      "Seine"
+    ],
     "note": "Duga je 777 kilometara.",
     "source": "Wikipedia (en): Seine",
-    "tags": ["rijeke", "Europa"],
+    "tags": [
+      "rijeke",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0124",
@@ -51,7 +67,10 @@
     "accept": [],
     "note": "Leži na jugozapadnoj obali Río de la Plate.",
     "source": "Wikipedia (en): Buenos Aires",
-    "tags": ["glavni gradovi", "Južna Amerika"],
+    "tags": [
+      "glavni gradovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +81,15 @@
     "difficulty": 1,
     "question": "Na kojem se otoku, kod Bola, nalazi plaža Zlatni rat?",
     "answer": "Brač",
-    "accept": ["Na Braču"],
+    "accept": [
+      "Na Braču"
+    ],
     "note": "Plaža je rt udaljen oko 2 km od luke u Bolu.",
     "source": "Wikipedia (en): Zlatni Rat",
-    "tags": ["otoci", "Hrvatska"],
+    "tags": [
+      "otoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Većina ih se nalazi uz istočnu obalu.",
     "source": "Wikipedia (en): Adriatic Sea",
-    "tags": ["mora", "otoci"],
+    "tags": [
+      "mora",
+      "otoci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +120,10 @@
     "accept": [],
     "note": "Kontinentalni Portugal graniči samo sa Španjolskom, na sjeveru i istoku.",
     "source": "Wikipedia (en): Portugal",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -107,7 +137,10 @@
     "accept": [],
     "note": "U Sredozemlju je peti po veličini, iza Sicilije, Sardinije, Cipra i Korzike.",
     "source": "Wikipedia (en): Crete",
-    "tags": ["otoci", "Europa"],
+    "tags": [
+      "otoci",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -121,7 +154,10 @@
     "accept": [],
     "note": "Drugi je najnaseljeniji grad u zemlji.",
     "source": "Wikipedia (en): Hanoi",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +171,10 @@
     "accept": [],
     "note": "Preko nje je u gradu sagrađeno mnogo mostova.",
     "source": "Wikipedia (en): Miljacka",
-    "tags": ["rijeke", "susjedstvo"],
+    "tags": [
+      "rijeke",
+      "susjedstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +188,10 @@
     "accept": [],
     "note": "Leži u pustinjskom pojasu središnje peruanske obale.",
     "source": "Wikipedia (en): Lima",
-    "tags": ["glavni gradovi", "Južna Amerika"],
+    "tags": [
+      "glavni gradovi",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +205,10 @@
     "accept": [],
     "note": "Duga je 101 km, a izvor joj je na 385 metara nadmorske visine.",
     "source": "Wikipedia (en): Cetina",
-    "tags": ["rijeke", "Hrvatska"],
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +219,16 @@
     "difficulty": 2,
     "question": "Koji je najdulji kontinentalni planinski lanac na svijetu?",
     "answer": "Ande",
-    "accept": ["Andi", "Andes"],
+    "accept": [
+      "Andi",
+      "Andes"
+    ],
     "note": "Proteže se uz cijeli zapadni rub Južne Amerike.",
     "source": "Wikipedia (en): Andes",
-    "tags": ["planine", "Južna Amerika"],
+    "tags": [
+      "planine",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +242,10 @@
     "accept": [],
     "note": "Kanada graniči s Aljaskom na sjeverozapadu i s ostatkom SAD-a na jugu.",
     "source": "Wikipedia (en): Canada–United States border",
-    "tags": ["granice", "Sjeverna Amerika"],
+    "tags": [
+      "granice",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +259,10 @@
     "accept": [],
     "note": "Rječina je duga oko 18 km, a zovu je i Fiumara.",
     "source": "Wikipedia (en): Rječina",
-    "tags": ["rijeke", "Hrvatska"],
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +273,15 @@
     "difficulty": 2,
     "question": "S koliko država Hrvatska graniči kopnom?",
     "answer": "5",
-    "accept": ["Pet"],
+    "accept": [
+      "Pet"
+    ],
     "note": "To su Slovenija, Mađarska, Srbija, Bosna i Hercegovina i Crna Gora, a s Italijom ima morsku granicu.",
     "source": "Wikipedia (en): Croatia",
-    "tags": ["Hrvatska", "granice"],
+    "tags": [
+      "Hrvatska",
+      "granice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +292,15 @@
     "difficulty": 3,
     "question": "Koja se obalna pustinja uz Atlantik, u južnoj Africi, smatra možda najstarijom na svijetu?",
     "answer": "Namib",
-    "accept": ["Pustinja Namib"],
+    "accept": [
+      "Pustinja Namib"
+    ],
     "note": "Sušna je ili polusušna već 55 do 80 milijuna godina.",
     "source": "Wikipedia (en): Namib",
-    "tags": ["pustinje", "Afrika"],
+    "tags": [
+      "pustinje",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +314,10 @@
     "accept": [],
     "note": "Nalazi se usred oceana prekrivenog pomičnim morskim ledom, a more je ondje duboko 4261 m.",
     "source": "Wikipedia (en): North Pole",
-    "tags": ["polovi", "zablude"],
+    "tags": [
+      "polovi",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +331,10 @@
     "accept": [],
     "note": "Sjeverni je bazen najplići, a južni najdublji.",
     "source": "Wikipedia (en): Adriatic Sea",
-    "tags": ["mora", "Hrvatska"],
+    "tags": [
+      "mora",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +345,16 @@
     "difficulty": 3,
     "question": "Koliko četvornih kilometara iznosi kopnena površina Hrvatske?",
     "answer": "56 594 km²",
-    "accept": ["56 594", "Oko 56 600 km²"],
+    "accept": [
+      "56 594",
+      "Oko 56 600 km²"
+    ],
     "note": "Hrvatska ima dvadeset županija.",
     "source": "Wikipedia (en): Croatia",
-    "tags": ["Hrvatska", "brojevi"],
+    "tags": [
+      "Hrvatska",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +365,15 @@
     "difficulty": 3,
     "question": "Koliko je metara dubok Jadran na najdubljem mjestu?",
     "answer": "1233 m",
-    "accept": ["1233"],
+    "accept": [
+      "1233"
+    ],
     "note": "Jadran se dijeli na tri bazena.",
     "source": "Wikipedia (en): Adriatic Sea",
-    "tags": ["mora", "brojevi"],
+    "tags": [
+      "mora",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

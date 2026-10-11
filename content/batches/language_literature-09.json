@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Napisao je i oko 200 kratkih priča.",
     "source": "Wikipedia (en): Stephen King",
-    "tags": ["roman", "horor"],
+    "tags": [
+      "roman",
+      "horor"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,15 @@
     "difficulty": 1,
     "question": "Koji je američki pisac 2003. objavio triler „Da Vincijev kod”, s profesorom Robertom Langdonom?",
     "answer": "Dan Brown",
-    "accept": ["Brown"],
+    "accept": [
+      "Brown"
+    ],
     "note": "Langdon je junak i romana „Anđeli i demoni”, „Izgubljeni simbol” i „Inferno”.",
     "source": "Wikipedia (en): Dan Brown",
-    "tags": ["roman", "triler"],
+    "tags": [
+      "roman",
+      "triler"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +42,15 @@
     "difficulty": 1,
     "question": "U koju čarobnu zemlju djevojčica Lucy ulazi kroz ormar u romanu C. S. Lewisa iz 1950.?",
     "answer": "Narnija",
-    "accept": ["Narnia"],
+    "accept": [
+      "Narnia"
+    ],
     "note": "Roman je prvi objavljeni od sedam romana o toj zemlji.",
     "source": "Wikipedia (en): The Lion, the Witch and the Wardrobe",
-    "tags": ["fantastika", "djeca"],
+    "tags": [
+      "fantastika",
+      "djeca"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,7 +64,10 @@
     "accept": [],
     "note": "Potiče slušatelja na usporedbu dviju obično nepovezanih stvari.",
     "source": "Wikipedia (en): Metaphor",
-    "tags": ["stilske figure", "teorija književnosti"],
+    "tags": [
+      "stilske figure",
+      "teorija književnosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,12 +78,18 @@
     "difficulty": 1,
     "question": "U kojoj bajci, objavljenoj 1812., brat i sestra napušteni u šumi nailaze na vješticu u kućici od kruha, kolača i šećera?",
     "answer": "Ivica i Marica",
-    "accept": ["Hansel i Gretel"],
+    "accept": [
+      "Hansel i Gretel"
+    ],
     "note": "Na kraju sestra spašava brata gurnuvši vješticu u peć.",
     "source": "Wikipedia (en): Hansel and Gretel",
-    "tags": ["bajke", "djeca"],
+    "tags": [
+      "bajke",
+      "djeca"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "language_literature-0209",
@@ -76,10 +98,15 @@
     "difficulty": 2,
     "question": "Koji je brazilski pisac 1988. objavio svjetski uspješnicu „Alkemičar”?",
     "answer": "Paulo Coelho",
-    "accept": ["Coelho"],
+    "accept": [
+      "Coelho"
+    ],
     "note": "Član je Brazilske akademije književnosti od 2002.",
     "source": "Wikipedia (en): Paulo Coelho",
-    "tags": ["roman", "Južna Amerika"],
+    "tags": [
+      "roman",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +120,10 @@
     "accept": [],
     "note": "U hrvatskom poseban oblik vokativa imaju samo imenice muškog i ženskog roda u jednini.",
     "source": "Wikipedia (en): Vocative case",
-    "tags": ["gramatika", "padeži"],
+    "tags": [
+      "gramatika",
+      "padeži"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +137,10 @@
     "accept": [],
     "note": "Često se koristi kad se govori o bolesti, smrti ili drugim osjetljivim temama.",
     "source": "Wikipedia (en): Euphemism",
-    "tags": ["stilske figure", "jezik"],
+    "tags": [
+      "stilske figure",
+      "jezik"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +154,10 @@
     "accept": [],
     "note": "Engleski primjer je „lean green meat”.",
     "source": "Wikipedia (en): Assonance",
-    "tags": ["stilske figure", "poezija"],
+    "tags": [
+      "stilske figure",
+      "poezija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +171,10 @@
     "accept": [],
     "note": "Podijeljena je u sedam poglavlja, za razliku od drugih piščevih priča.",
     "source": "Wikipedia (en): The Snow Queen",
-    "tags": ["bajke", "Danska"],
+    "tags": [
+      "bajke",
+      "Danska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +185,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski pjesnik, zvan „Bardom”, rođen u Rastušju kraj Slavonskog Broda i doživio 101 godinu?",
     "answer": "Dragutin Tadijanović",
-    "accept": ["Tadijanović"],
+    "accept": [
+      "Tadijanović"
+    ],
     "note": "Prvu pjesmu objavio je 1922.",
     "source": "Wikipedia (en): Dragutin Tadijanović",
-    "tags": ["poezija", "Hrvatska"],
+    "tags": [
+      "poezija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +204,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski pisac 1908. objavio pripovijest „Alkar”?",
     "answer": "Dinko Šimunović",
-    "accept": ["Šimunović"],
+    "accept": [
+      "Šimunović"
+    ],
     "note": "„Alkar” je preveden i na kineski jezik.",
     "source": "Wikipedia (en): Dinko Šimunović",
-    "tags": ["proza", "Hrvatska"],
+    "tags": [
+      "proza",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +223,16 @@
     "difficulty": 2,
     "question": "Koji je pjesnik iz Senja 1885. objavio zbirku „Bugarkinje”?",
     "answer": "Silvije Strahimir Kranjčević",
-    "accept": ["Kranjčević", "S. S. Kranjčević"],
+    "accept": [
+      "Kranjčević",
+      "S. S. Kranjčević"
+    ],
     "note": "U Sarajevu je uređivao časopis „Nada”.",
     "source": "Wikipedia (en): Silvije Strahimir Kranjčević",
-    "tags": ["poezija", "Hrvatska"],
+    "tags": [
+      "poezija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +243,15 @@
     "difficulty": 2,
     "question": "Kako se zove posinak obitelji Earnshaw, glavni junak „Orkanskih visova”?",
     "answer": "Heathcliff",
-    "accept": ["Hitklif"],
+    "accept": [
+      "Hitklif"
+    ],
     "note": "Radnja se zbiva na vrištinama zapadnog Yorkshirea.",
     "source": "Wikipedia (en): Wuthering Heights",
-    "tags": ["roman", "Engleska"],
+    "tags": [
+      "roman",
+      "Engleska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +262,15 @@
     "difficulty": 2,
     "question": "Kako se zove otac pripovjedačice u romanu „Ubiti pticu rugalicu”, kojeg sud imenuje braniteljem optuženog Toma Robinsona?",
     "answer": "Atticus Finch",
-    "accept": ["Atticus"],
+    "accept": [
+      "Atticus"
+    ],
     "note": "Mnogim je čitateljima uzor moralnosti i poštenja.",
     "source": "Wikipedia (en): To Kill a Mockingbird",
-    "tags": ["roman", "SAD"],
+    "tags": [
+      "roman",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +281,16 @@
     "difficulty": 3,
     "question": "Kako je pravo ime hrvatskog romanopisca Ksavera Šandora Gjalskog, rođenog u Gredicama kraj Zaboka?",
     "answer": "Ljubomil Babić",
-    "accept": ["Babić", "Ljubomil Tito Josip Franjo Babić"],
+    "accept": [
+      "Babić",
+      "Ljubomil Tito Josip Franjo Babić"
+    ],
     "note": "Bio je i državni službenik.",
     "source": "Wikipedia (en): Ksaver Šandor Gjalski",
-    "tags": ["proza", "pseudonimi"],
+    "tags": [
+      "proza",
+      "pseudonimi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +301,15 @@
     "difficulty": 3,
     "question": "Koji je slavonski pisac, po struci šumar, 1890. objavio roman „Mrtvi kapitali”?",
     "answer": "Josip Kozarac",
-    "accept": ["Kozarac"],
+    "accept": [
+      "Kozarac"
+    ],
     "note": "Šumarstvo je studirao u Beču.",
     "source": "Wikipedia (en): Josip Kozarac",
-    "tags": ["roman", "Hrvatska"],
+    "tags": [
+      "roman",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +323,10 @@
     "accept": [],
     "note": "Latinski se to zove pars pro toto i totum pro parte.",
     "source": "Wikipedia (en): Synecdoche",
-    "tags": ["stilske figure", "teorija književnosti"],
+    "tags": [
+      "stilske figure",
+      "teorija književnosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +337,17 @@
     "difficulty": 3,
     "question": "Kako se zove stilska figura u kojoj se usporedni dijelovi ponavljaju obrnutim, unakrsnim redom?",
     "answer": "Hijazam",
-    "accept": ["Kijazam", "Hiazam", "Kiazam"],
+    "accept": [
+      "Kijazam",
+      "Hiazam",
+      "Kiazam"
+    ],
     "note": "Bila je osobito omiljena u antičkoj književnosti.",
     "source": "Wikipedia (en): Chiasmus",
-    "tags": ["stilske figure", "teorija književnosti"],
+    "tags": [
+      "stilske figure",
+      "teorija književnosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +358,16 @@
     "difficulty": 3,
     "question": "Koja je austrijska pjesnikinja, unuka Petra Preradovića, napisala tekst austrijske himne?",
     "answer": "Paula von Preradović",
-    "accept": ["Paula Preradović", "Paula Molden"],
+    "accept": [
+      "Paula Preradović",
+      "Paula Molden"
+    ],
     "note": "Udajom je nosila prezime Molden.",
     "source": "Wikipedia (en): Paula von Preradović",
-    "tags": ["poezija", "himne"],
+    "tags": [
+      "poezija",
+      "himne"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Ime dolazi od grčke riječi phos, „svjetlost”; foton nema masu i giba se brzinom svjetlosti.",
     "source": "Wikipedia (en): Photon",
-    "tags": ["fizika", "čestice"],
+    "tags": [
+      "fizika",
+      "čestice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,17 @@
     "difficulty": 1,
     "question": "Što mjeri Richterova ljestvica?",
     "answer": "Jačinu potresa",
-    "accept": ["magnitudu potresa", "potrese", "snagu potresa"],
+    "accept": [
+      "magnitudu potresa",
+      "potrese",
+      "snagu potresa"
+    ],
     "note": "Charles Richter predstavio ju je 1935., razvivši je s Benom Gutenbergom.",
     "source": "Wikipedia (en): Richter scale",
-    "tags": ["geologija", "mjerenje"],
+    "tags": [
+      "geologija",
+      "mjerenje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,7 +47,10 @@
     "accept": [],
     "note": "U prirodi se javlja kao mineral halit.",
     "source": "Wikipedia (en): Sodium chloride",
-    "tags": ["kemija", "spojevi"],
+    "tags": [
+      "kemija",
+      "spojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,12 +61,18 @@
     "difficulty": 1,
     "question": "Koji je jedini paran prost broj?",
     "answer": "2",
-    "accept": ["dva"],
+    "accept": [
+      "dva"
+    ],
     "note": "Svaki drugi paran broj djeljiv je s 2, pa nije prost.",
     "source": "Wikipedia (en): Prime number",
-    "tags": ["matematika", "brojevi"],
+    "tags": [
+      "matematika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0165",
@@ -62,12 +81,18 @@
     "difficulty": 1,
     "question": "Koliko bitova najčešće čini jedan bajt?",
     "answer": "8",
-    "accept": ["osam"],
+    "accept": [
+      "osam"
+    ],
     "note": "Bajt je izvorno bio broj bitova potreban za zapis jednog znaka teksta.",
     "source": "Wikipedia (en): Byte",
-    "tags": ["računala", "mjerne jedinice"],
+    "tags": [
+      "računala",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0166",
@@ -79,7 +104,10 @@
     "accept": [],
     "note": "Zbog visoke cijene u vodičima se rijetko koristi.",
     "source": "Wikipedia (en): Silver",
-    "tags": ["kemija", "metali"],
+    "tags": [
+      "kemija",
+      "metali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +118,15 @@
     "difficulty": 2,
     "question": "Kako se zove broj 10 na stotu potenciju, jedinica sa sto nula?",
     "answer": "Googol",
-    "accept": ["gugol"],
+    "accept": [
+      "gugol"
+    ],
     "note": "Ime je smislio Milton Sirotta, nećak matematičara Edwarda Kasnera.",
     "source": "Wikipedia (en): Googol",
-    "tags": ["matematika", "brojevi"],
+    "tags": [
+      "matematika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +137,15 @@
     "difficulty": 2,
     "question": "Koji je liječnik 1847. u bečkoj bolnici uveo pranje ruku otopinom klornog vapna kako bi spriječio infekcije?",
     "answer": "Ignaz Semmelweis",
-    "accept": ["Semmelweis"],
+    "accept": [
+      "Semmelweis"
+    ],
     "note": "Medicinska struka tada je njegove ideje odbacila.",
     "source": "Wikipedia (en): Ignaz Semmelweis",
-    "tags": ["medicina", "higijena"],
+    "tags": [
+      "medicina",
+      "higijena"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +156,15 @@
     "difficulty": 2,
     "question": "Koji je engleski liječnik izradio cjepivo protiv velikih boginja, prvo cjepivo na svijetu?",
     "answer": "Edward Jenner",
-    "accept": ["Jenner"],
+    "accept": [
+      "Jenner"
+    ],
     "note": "Primijetio je da kravlje boginje štite od velikih; zovu ga ocem imunologije.",
     "source": "Wikipedia (en): Edward Jenner",
-    "tags": ["medicina", "cjepiva"],
+    "tags": [
+      "medicina",
+      "cjepiva"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +175,16 @@
     "difficulty": 2,
     "question": "Kako se zovu stijene nastale hlađenjem i skrućivanjem magme ili lave?",
     "answer": "Magmatske stijene",
-    "accept": ["eruptivne stijene", "magmatske"],
+    "accept": [
+      "eruptivne stijene",
+      "magmatske"
+    ],
     "note": "Druge su dvije glavne vrste stijena sedimentne i metamorfne.",
     "source": "Wikipedia (en): Igneous rock",
-    "tags": ["geologija", "stijene"],
+    "tags": [
+      "geologija",
+      "stijene"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +195,15 @@
     "difficulty": 2,
     "question": "Koji je njemački znanstvenik 1912. predložio da se kontinenti pomiču?",
     "answer": "Alfred Wegener",
-    "accept": ["Wegener"],
+    "accept": [
+      "Wegener"
+    ],
     "note": "Geolozi su njegovu hipotezu prihvatili tek 1960-ih.",
     "source": "Wikipedia (en): Alfred Wegener",
-    "tags": ["geologija", "znanstvenici"],
+    "tags": [
+      "geologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +214,16 @@
     "difficulty": 2,
     "question": "Kako se zove prasak koji nastaje kad letjelica leti brže od zvuka?",
     "answer": "Zvučni udar",
-    "accept": ["probijanje zvučnog zida", "zvučni prasak"],
+    "accept": [
+      "probijanje zvučnog zida",
+      "zvučni prasak"
+    ],
     "note": "Nastaje od udarnih valova i zvuči poput eksplozije.",
     "source": "Wikipedia (en): Sonic boom",
-    "tags": ["fizika", "zvuk"],
+    "tags": [
+      "fizika",
+      "zvuk"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +237,10 @@
     "accept": [],
     "note": "Određuje sadržaj i strukturu stranica koje prikazuje preglednik.",
     "source": "Wikipedia (en): HTML",
-    "tags": ["internet", "programiranje"],
+    "tags": [
+      "internet",
+      "programiranje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +251,15 @@
     "difficulty": 2,
     "question": "Kako se zove ljestvica tvrdoće minerala od 1 do 10, na čijem je vrhu dijamant?",
     "answer": "Mohsova ljestvica",
-    "accept": ["Mohs"],
+    "accept": [
+      "Mohs"
+    ],
     "note": "Ljestvica je samo poredak: dijamant je oko četiri puta tvrđi od korunda, koji je na 9. mjestu.",
     "source": "Wikipedia (en): Mohs scale",
-    "tags": ["geologija", "minerali"],
+    "tags": [
+      "geologija",
+      "minerali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +273,10 @@
     "accept": [],
     "note": "Svjetlost prolazi kroz nemirne slojeve atmosfere, pa se sjaj zvijezda prividno mijenja.",
     "source": "Wikipedia (en): Twinkling",
-    "tags": ["astronomija", "atmosfera"],
+    "tags": [
+      "astronomija",
+      "atmosfera"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +287,17 @@
     "difficulty": 3,
     "question": "Kako se zove najdublja rupa koju je čovjek izbušio, duboka 12 262 metra?",
     "answer": "Kolska supraduboka bušotina",
-    "accept": ["Kola", "bušotina Kola", "SG-3"],
+    "accept": [
+      "Kola",
+      "bušotina Kola",
+      "SG-3"
+    ],
     "note": "Tu je dubinu dosegnula 1989., na ruskom poluotoku Kola.",
     "source": "Wikipedia (en): Kola Superdeep Borehole",
-    "tags": ["geologija", "rekordi"],
+    "tags": [
+      "geologija",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +308,15 @@
     "difficulty": 3,
     "question": "Koji se metal tali na samo oko 29,8 °C, pa se može rastopiti na dlanu?",
     "answer": "Galij",
-    "accept": ["gallium"],
+    "accept": [
+      "gallium"
+    ],
     "note": "Talište galija koristi se kao referentna točka međunarodne temperaturne ljestvice.",
     "source": "Wikipedia (en): Gallium",
-    "tags": ["kemija", "metali"],
+    "tags": [
+      "kemija",
+      "metali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +327,17 @@
     "difficulty": 3,
     "question": "Koji je njemački fizičar 1895. u Würzburgu otkrio X-zrake, koje se u mnogim jezicima zovu po njemu?",
     "answer": "Wilhelm Conrad Röntgen",
-    "accept": ["Röntgen", "Rentgen", "Wilhelm Röntgen"],
+    "accept": [
+      "Röntgen",
+      "Rentgen",
+      "Wilhelm Röntgen"
+    ],
     "note": "Godine 1901. postao je prvi dobitnik Nobelove nagrade za fiziku.",
     "source": "Wikipedia (en): Wilhelm Röntgen",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +348,16 @@
     "difficulty": 3,
     "question": "Kako se zove element 118, nazvan 2016. po ruskom nuklearnom fizičaru?",
     "answer": "Oganeson",
-    "accept": ["oganesson", "Og"],
+    "accept": [
+      "oganesson",
+      "Og"
+    ],
     "note": "Fizičar Jurij Oganesjan vodio je tim koji ga je dobio u Dubni.",
     "source": "Wikipedia (en): Oganesson",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +368,16 @@
     "difficulty": 3,
     "question": "Kolika je temperatura Sunčeve površine, u kelvinima?",
     "answer": "5772 K",
-    "accept": ["5772", "oko 5800 K"],
+    "accept": [
+      "5772",
+      "oko 5800 K"
+    ],
     "note": "To je oko 5500 °C.",
     "source": "Wikipedia (en): Sun",
-    "tags": ["astronomija", "Sunce"],
+    "tags": [
+      "astronomija",
+      "Sunce"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

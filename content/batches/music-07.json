@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Kako se zove način pjevanja s brzim prelascima iz prsnog glasa u falset, kojim su se pastiri dozivali u Alpama?",
     "answer": "Jodlanje",
-    "accept": ["jodl", "jodlanje"],
+    "accept": [
+      "jodl",
+      "jodlanje"
+    ],
     "note": "Švicarsko jodlanje 2025. upisano je na UNESCO-ov popis nematerijalne baštine.",
     "source": "Wikipedia (en): Yodeling",
-    "tags": ["narodna glazba", "pjevanje"],
+    "tags": [
+      "narodna glazba",
+      "pjevanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Koliko žica ima standardna gitara?",
     "answer": "6",
-    "accept": ["šest"],
+    "accept": [
+      "šest"
+    ],
     "note": "Postoje i gitare s dvanaest žica, kod kojih su žice složene u šest parova.",
     "source": "Wikipedia (en): Guitar",
-    "tags": ["instrumenti", "žice"],
+    "tags": [
+      "instrumenti",
+      "žice"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0162",
@@ -37,7 +49,10 @@
     "accept": [],
     "note": "Osnovani su 1960. u Liverpoolu; prije slave svirali su po klubovima Liverpoola i Hamburga.",
     "source": "Wikipedia (en): The Beatles",
-    "tags": ["Beatles", "zablude"],
+    "tags": [
+      "Beatles",
+      "zablude"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +63,15 @@
     "difficulty": 1,
     "question": "Kako se zove zabava pjevanja uz glazbenu podlogu i tekst na ekranu, čije japansko ime znači „prazni orkestar”?",
     "answer": "Karaoke",
-    "accept": ["karaoka"],
+    "accept": [
+      "karaoka"
+    ],
     "note": "Prvi uređaji pojavili su se u Japanu i na Filipinima 1970-ih.",
     "source": "Wikipedia (en): Karaoke",
-    "tags": ["zabava", "Japan"],
+    "tags": [
+      "zabava",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +85,10 @@
     "accept": [],
     "note": "Sax ga je izumio početkom 1840-ih.",
     "source": "Wikipedia (en): Saxophone",
-    "tags": ["instrumenti", "izumi"],
+    "tags": [
+      "instrumenti",
+      "izumi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +99,16 @@
     "difficulty": 2,
     "question": "Koji je glazbeni žanr, poznat i kao rap, nastao početkom 1970-ih u New Yorku?",
     "answer": "Hip-hop",
-    "accept": ["hip hop", "rap"],
+    "accept": [
+      "hip hop",
+      "rap"
+    ],
     "note": "Uz glazbu je nastala i cijela supkultura istog imena.",
     "source": "Wikipedia (en): Hip-hop",
-    "tags": ["žanrovi", "SAD"],
+    "tags": [
+      "žanrovi",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +119,15 @@
     "difficulty": 2,
     "question": "Koji je reper rođen kao Marshall Bruce Mathers III.?",
     "answer": "Eminem",
-    "accept": ["Slim Shady"],
+    "accept": [
+      "Slim Shady"
+    ],
     "note": "Billboard ga je proglasio izvođačem desetljeća 2000-ih.",
     "source": "Wikipedia (en): Eminem",
-    "tags": ["hip-hop", "pravo ime"],
+    "tags": [
+      "hip-hop",
+      "pravo ime"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +138,15 @@
     "difficulty": 2,
     "question": "Kako se zove istodobno zvučanje dvaju ili više tonova, najčešće triju?",
     "answer": "Akord",
-    "accept": ["akordi"],
+    "accept": [
+      "akordi"
+    ],
     "note": "Akord od tri tona zove se trozvuk.",
     "source": "Wikipedia (en): Chord (music)",
-    "tags": ["glazbeni pojmovi", "harmonija"],
+    "tags": [
+      "glazbeni pojmovi",
+      "harmonija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +157,15 @@
     "difficulty": 2,
     "question": "Koji je francuski skladatelj autor klavirske skladbe „Mjesečina” (Clair de lune)?",
     "answer": "Claude Debussy",
-    "accept": ["Debussy"],
+    "accept": [
+      "Debussy"
+    ],
     "note": "Skladba je treći stavak njegove Suite bergamasque, objavljene 1905.",
     "source": "Wikipedia (en): Suite bergamasque",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +176,16 @@
     "difficulty": 2,
     "question": "U kojem je sastavu proslavio gitarist poznat kao Slash, s cilindrom na glavi?",
     "answer": "Guns N' Roses",
-    "accept": ["Guns and Roses", "GNR"],
+    "accept": [
+      "Guns and Roses",
+      "GNR"
+    ],
     "note": "Nadimak Slash dao mu je kao djetetu glumac Seymour Cassel.",
     "source": "Wikipedia (en): Slash (musician)",
-    "tags": ["rock", "gitaristi"],
+    "tags": [
+      "rock",
+      "gitaristi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +196,15 @@
     "difficulty": 2,
     "question": "Koji je američki rock-sastav poznat po licima obojenima bojom i upečatljivim kostimima?",
     "answer": "Kiss",
-    "accept": ["KISS"],
+    "accept": [
+      "KISS"
+    ],
     "note": "Osnivači su bili Paul Stanley, Gene Simmons, Ace Frehley i Peter Criss.",
     "source": "Wikipedia (en): Kiss (band)",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +215,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski glazbenik nosio nadimak „Kralj funka”?",
     "answer": "Dino Dvornik",
-    "accept": ["Dvornik"],
+    "accept": [
+      "Dvornik"
+    ],
     "note": "Rođen je 1964., a umro 2008.",
     "source": "Wikipedia (en): Dino Dvornik",
-    "tags": ["Hrvatska", "funk"],
+    "tags": [
+      "Hrvatska",
+      "funk"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +234,16 @@
     "difficulty": 2,
     "question": "Koji hrvatski pijanist iz Šibenika svira takozvani klasični crossover?",
     "answer": "Maksim Mrvica",
-    "accept": ["Mrvica", "Maksim"],
+    "accept": [
+      "Mrvica",
+      "Maksim"
+    ],
     "note": "Rođen je 1975. u Šibeniku.",
     "source": "Wikipedia (en): Maksim Mrvica",
-    "tags": ["Hrvatska", "pijanisti"],
+    "tags": [
+      "Hrvatska",
+      "pijanisti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +254,15 @@
     "difficulty": 2,
     "question": "Koje su godine Beatlesi objavili svoj prvi album, „Please Please Me”?",
     "answer": "1963.",
-    "accept": ["1963"],
+    "accept": [
+      "1963"
+    ],
     "note": "Producirao ga je George Martin.",
     "source": "Wikipedia (en): Please Please Me",
-    "tags": ["Beatles", "albumi"],
+    "tags": [
+      "Beatles",
+      "albumi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +273,15 @@
     "difficulty": 2,
     "question": "Kako se zove samostalna pjevačka točka za jedan glas, najčešće u operi?",
     "answer": "Arija",
-    "accept": ["arije"],
+    "accept": [
+      "arije"
+    ],
     "note": "Arije se pjevaju i u oratorijima i kantatama.",
     "source": "Wikipedia (en): Aria",
-    "tags": ["opera", "glazbeni pojmovi"],
+    "tags": [
+      "opera",
+      "glazbeni pojmovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +292,16 @@
     "difficulty": 3,
     "question": "Koji je armenski skladatelj autor „Plesa sa sabljama” iz baleta „Gajane”?",
     "answer": "Aram Hačaturjan",
-    "accept": ["Hačaturjan", "Khachaturian"],
+    "accept": [
+      "Hačaturjan",
+      "Khachaturian"
+    ],
     "note": "To mu je daleko najpoznatije djelo u svijetu.",
     "source": "Wikipedia (en): Sabre Dance",
-    "tags": ["klasična glazba", "balet"],
+    "tags": [
+      "klasična glazba",
+      "balet"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +312,17 @@
     "difficulty": 3,
     "question": "Kako se zove pjevačka tehnika kojom pjevač istodobno proizvodi više tonova, porijeklom iz Tuve i Mongolije?",
     "answer": "Grleno pjevanje",
-    "accept": ["alikvotno pjevanje", "khöömei", "overtone singing"],
+    "accept": [
+      "alikvotno pjevanje",
+      "khöömei",
+      "overtone singing"
+    ],
     "note": "Smatra se da je potekla iz srednje Azije: Tuve, Altaja i Mongolije.",
     "source": "Wikipedia (en): Overtone singing",
-    "tags": ["narodna glazba", "pjevanje"],
+    "tags": [
+      "narodna glazba",
+      "pjevanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +336,10 @@
     "accept": [],
     "note": "Sporija je od nje oznaka andante, u hodu.",
     "source": "Wikipedia (en): Tempo",
-    "tags": ["glazbeni pojmovi", "tempo"],
+    "tags": [
+      "glazbeni pojmovi",
+      "tempo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +350,15 @@
     "difficulty": 3,
     "question": "Koji je njemački barokni skladatelj autor slavnog „Kanona u D-duru”?",
     "answer": "Johann Pachelbel",
-    "accept": ["Pachelbel"],
+    "accept": [
+      "Pachelbel"
+    ],
     "note": "Izvorno je napisan za tri violine i basso continuo.",
     "source": "Wikipedia (en): Pachelbel's Canon",
-    "tags": ["barok", "skladatelji"],
+    "tags": [
+      "barok",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +369,16 @@
     "difficulty": 3,
     "question": "Koji je ruski skladatelj autor „Leta bumbara”, odlomka iz opere „Priča o caru Saltanu”?",
     "answer": "Nikolaj Rimski-Korsakov",
-    "accept": ["Rimski-Korsakov", "Rimsky-Korsakov"],
+    "accept": [
+      "Rimski-Korsakov",
+      "Rimsky-Korsakov"
+    ],
     "note": "Opera je nastala 1899. i 1900.",
     "source": "Wikipedia (en): Flight of the Bumblebee",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

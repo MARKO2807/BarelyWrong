@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Kako se zove sila koja se suprotstavlja klizanju jedne površine po drugoj?",
     "answer": "Trenje",
-    "accept": ["Sila trenja"],
+    "accept": [
+      "Sila trenja"
+    ],
     "note": "Trenje može biti suho, tekućinsko, podmazano i unutarnje.",
     "source": "Wikipedia (en): Friction",
-    "tags": ["fizika", "sile"],
+    "tags": [
+      "fizika",
+      "sile"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +25,15 @@
     "difficulty": 1,
     "question": "Koji je švedski kemičar 1867. patentirao dinamit?",
     "answer": "Alfred Nobel",
-    "accept": ["Nobel"],
+    "accept": [
+      "Nobel"
+    ],
     "note": "Dinamit je bio sigurnija zamjena za crni barut i nitroglicerin.",
     "source": "Wikipedia (en): Dynamite",
-    "tags": ["kemija", "izumi"],
+    "tags": [
+      "kemija",
+      "izumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "Kako se zove satelitski sustav za određivanje položaja koji koriste mobiteli i navigacije?",
     "answer": "GPS",
-    "accept": ["Global Positioning System"],
+    "accept": [
+      "Global Positioning System"
+    ],
     "note": "Sustav se temelji na mreži satelita u orbiti oko Zemlje.",
     "source": "Wikipedia (en): Global Positioning System",
-    "tags": ["tehnologija", "svemir"],
+    "tags": [
+      "tehnologija",
+      "svemir"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0099",
@@ -51,7 +67,10 @@
     "accept": [],
     "note": "Zvuku je potrebno sredstvo, a u vakuumu nema tvari koja bi prenosila titraje.",
     "source": "Wikipedia (en): Sound",
-    "tags": ["fizika", "zvuk"],
+    "tags": [
+      "fizika",
+      "zvuk"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +84,10 @@
     "accept": [],
     "note": "To je raširen mit; munja često udara u isto mjesto više puta.",
     "source": "Wikipedia (en): Lightning",
-    "tags": ["fizika", "zablude"],
+    "tags": [
+      "fizika",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +101,10 @@
     "accept": [],
     "note": "Gravitacija na površini Mjeseca iznosi otprilike šestinu Zemljine.",
     "source": "Wikipedia (en): Moon",
-    "tags": ["svemir", "zablude"],
+    "tags": [
+      "svemir",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +118,10 @@
     "accept": [],
     "note": "Atomi su mu raspoređeni u kristalnu strukturu zvanu dijamantna kubična rešetka.",
     "source": "Wikipedia (en): Diamond",
-    "tags": ["kemija", "minerali"],
+    "tags": [
+      "kemija",
+      "minerali"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +132,15 @@
     "difficulty": 1,
     "question": "Koji je atomski broj zlata?",
     "answer": "79",
-    "accept": ["Sedamdeset devet"],
+    "accept": [
+      "Sedamdeset devet"
+    ],
     "note": "Simbol Au dolazi od latinskog aurum.",
     "source": "Wikipedia (en): Gold",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +151,15 @@
     "difficulty": 2,
     "question": "Kako se zove jedinica SI za električni naboj?",
     "answer": "Kulon",
-    "accept": ["Coulomb"],
+    "accept": [
+      "Coulomb"
+    ],
     "note": "To je naboj koji struja od jednog ampera prenese u jednoj sekundi.",
     "source": "Wikipedia (en): Coulomb",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +170,16 @@
     "difficulty": 2,
     "question": "Kako se zove skretanje svjetlosti pri prelasku iz jednog sredstva u drugo?",
     "answer": "Lom svjetlosti",
-    "accept": ["Refrakcija", "Lom"],
+    "accept": [
+      "Refrakcija",
+      "Lom"
+    ],
     "note": "Uzrok je promjena brzine vala u novom sredstvu.",
     "source": "Wikipedia (en): Refraction",
-    "tags": ["fizika", "optika"],
+    "tags": [
+      "fizika",
+      "optika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +190,15 @@
     "difficulty": 2,
     "question": "Koji je fizičar 1935. smislio misaoni pokus s mačkom koja je istodobno živa i mrtva?",
     "answer": "Erwin Schrödinger",
-    "accept": ["Schrödinger"],
+    "accept": [
+      "Schrödinger"
+    ],
     "note": "Pokus je smislio u raspravi s Albertom Einsteinom.",
     "source": "Wikipedia (en): Schrödinger's cat",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +212,10 @@
     "accept": [],
     "note": "Tvrtku su osnovali Silvio Kutić i Izabel Jelenić.",
     "source": "Wikipedia (en): Infobip",
-    "tags": ["tehnologija", "Hrvatska"],
+    "tags": [
+      "tehnologija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +229,10 @@
     "accept": [],
     "note": "Deblje donje dijelove starih prozora objašnjava način izrade, a ne tečenje stakla.",
     "source": "Wikipedia (en): Glass",
-    "tags": ["fizika", "zablude"],
+    "tags": [
+      "fizika",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +246,10 @@
     "accept": [],
     "note": "Na 1905 m nadmorske visine vrije pri oko 93,4 °C.",
     "source": "Wikipedia (en): Boiling point",
-    "tags": ["fizika", "voda"],
+    "tags": [
+      "fizika",
+      "voda"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +263,10 @@
     "accept": [],
     "note": "Mrežna struja u kućanstvima je izmjenična.",
     "source": "Wikipedia (en): Mains electricity",
-    "tags": ["fizika", "struja"],
+    "tags": [
+      "fizika",
+      "struja"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +280,10 @@
     "accept": [],
     "note": "Perihel nastupa otprilike 14 dana nakon prosinačkog solsticija.",
     "source": "Wikipedia (en): Apsis",
-    "tags": ["astronomija", "Zemlja"],
+    "tags": [
+      "astronomija",
+      "Zemlja"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +294,15 @@
     "difficulty": 2,
     "question": "Koliko je zemaljskih dana dugačka jedna godina na Marsu?",
     "answer": "687",
-    "accept": ["687 dana"],
+    "accept": [
+      "687 dana"
+    ],
     "note": "Dan na Marsu traje 24,6 sati.",
     "source": "Wikipedia (en): Mars",
-    "tags": ["astronomija", "brojevi"],
+    "tags": [
+      "astronomija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +313,15 @@
     "difficulty": 2,
     "question": "Koliko metara u sekundi prevaljuje zvuk u zraku pri 20 °C?",
     "answer": "343 m/s",
-    "accept": ["343"],
+    "accept": [
+      "343"
+    ],
     "note": "Brzina zvuka uvelike ovisi o temperaturi i sredstvu.",
     "source": "Wikipedia (en): Speed of sound",
-    "tags": ["fizika", "brojevi"],
+    "tags": [
+      "fizika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +332,16 @@
     "difficulty": 2,
     "question": "Koliko je milijardi godina star svemir, prema najnovijim modelima?",
     "answer": "13,8",
-    "accept": ["13,8 milijardi", "13,8 milijardi godina"],
+    "accept": [
+      "13,8 milijardi",
+      "13,8 milijardi godina"
+    ],
     "note": "Procjena se temelji i na podacima satelita Planck.",
     "source": "Wikipedia (en): Age of the universe",
-    "tags": ["svemir", "brojevi"],
+    "tags": [
+      "svemir",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +352,16 @@
     "difficulty": 3,
     "question": "Koji kemijski element ima najviše talište od svih poznatih elemenata?",
     "answer": "Volfram",
-    "accept": ["W", "Tungsten"],
+    "accept": [
+      "W",
+      "Tungsten"
+    ],
     "note": "Tali se pri 3422 °C, a ima i najviše vrelište.",
     "source": "Wikipedia (en): Tungsten",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +372,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski astronom amater otkrio asteroide 10415 Mali Lošinj i 10645 Brač?",
     "answer": "Korado Korlević",
-    "accept": ["Korlević"],
+    "accept": [
+      "Korlević"
+    ],
     "note": "Rođen je u Poreču i ubraja se među 20 najvećih otkrivača malih planeta na svijetu.",
     "source": "Wikipedia (en): Korado Korlević",
-    "tags": ["astronomija", "Hrvatska"],
+    "tags": [
+      "astronomija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -303,7 +394,10 @@
     "accept": [],
     "note": "Radila je na računalima Mark II i Mark III na Harvardu.",
     "source": "Wikipedia (en): Software bug",
-    "tags": ["informatika", "povijest"],
+    "tags": [
+      "informatika",
+      "povijest"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +408,17 @@
     "difficulty": 3,
     "question": "Koliko je kilometara u prosjeku udaljen Mjesec od Zemlje?",
     "answer": "384 400 km",
-    "accept": ["384 399 km", "384 400", "Oko 384 000 km"],
+    "accept": [
+      "384 399 km",
+      "384 400",
+      "Oko 384 000 km"
+    ],
     "note": "Udaljenost se tijekom mjeseca mijenja jer je putanja eliptična.",
     "source": "Wikipedia (en): Lunar distance",
-    "tags": ["svemir", "brojevi"],
+    "tags": [
+      "svemir",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +429,16 @@
     "difficulty": 3,
     "question": "Za koliko se sati Jupiter jednom okrene oko svoje osi?",
     "answer": "10",
-    "accept": ["10 sati", "Oko 10 sati"],
+    "accept": [
+      "10 sati",
+      "Oko 10 sati"
+    ],
     "note": "Zbog brze vrtnje spljošten je, pa mu je ekvatorski polumjer oko 7 % veći od polarnog.",
     "source": "Wikipedia (en): Jupiter",
-    "tags": ["astronomija", "brojevi"],
+    "tags": [
+      "astronomija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -345,7 +452,10 @@
     "accept": [],
     "note": "Gravitacija na njegovoj površini otprilike je upola manja od one na Marsu.",
     "source": "Wikipedia (en): Moon",
-    "tags": ["svemir", "rekordi"],
+    "tags": [
+      "svemir",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

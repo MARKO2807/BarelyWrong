@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Istraživači smatraju da ga vjerojatno nisu štovali, ali u mitovima ima važnu ulogu.",
     "source": "Wikipedia (en): Loki",
-    "tags": ["mitologija", "nordijski bogovi"],
+    "tags": [
+      "mitologija",
+      "nordijski bogovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +23,15 @@
     "difficulty": 1,
     "question": "U kojem se gradu nalazi muzej Prado?",
     "answer": "Madrid",
-    "accept": ["u Madridu"],
+    "accept": [
+      "u Madridu"
+    ],
     "note": "S obližnjim muzejima Thyssen-Bornemisza i Reina Sofía čini „zlatni trokut umjetnosti”.",
     "source": "Wikipedia (en): Museo del Prado",
-    "tags": ["muzeji", "Španjolska"],
+    "tags": [
+      "muzeji",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,7 +45,10 @@
     "accept": [],
     "note": "Nalazi se na ravnici Salisbury u engleskoj grofoviji Wiltshire.",
     "source": "Wikipedia (en): Stonehenge",
-    "tags": ["prapovijest", "spomenici"],
+    "tags": [
+      "prapovijest",
+      "spomenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,12 +59,18 @@
     "difficulty": 1,
     "question": "U kojem se gradu nalaze Brandenburška vrata?",
     "answer": "Berlin",
-    "accept": ["u Berlinu"],
+    "accept": [
+      "u Berlinu"
+    ],
     "note": "Ime su dobila po cesti koja je odatle vodila prema gradu Brandenburgu na Havelu.",
     "source": "Wikipedia (en): Brandenburg Gate",
-    "tags": ["Njemačka", "spomenici"],
+    "tags": [
+      "Njemačka",
+      "spomenici"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0166",
@@ -65,7 +82,10 @@
     "accept": [],
     "note": "Bila je i zaštitnica obrta, trgovine i medicine.",
     "source": "Wikipedia (en): Minerva",
-    "tags": ["mitologija", "rimski bogovi"],
+    "tags": [
+      "mitologija",
+      "rimski bogovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +96,15 @@
     "difficulty": 2,
     "question": "U kojem se indijskom gradu, na rijeci Yamuni, nalazi Tadž Mahal?",
     "answer": "Agra",
-    "accept": ["u Agri"],
+    "accept": [
+      "u Agri"
+    ],
     "note": "Mauzolej je od bijelog mramora.",
     "source": "Wikipedia (en): Taj Mahal",
-    "tags": ["Indija", "građevine"],
+    "tags": [
+      "Indija",
+      "građevine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +115,16 @@
     "difficulty": 2,
     "question": "Koji je grčki junak ubio čudovište, pola čovjeka a pola bika, u labirintu na Kreti?",
     "answer": "Tezej",
-    "accept": ["Theseus", "Tezej"],
+    "accept": [
+      "Theseus",
+      "Tezej"
+    ],
     "note": "Kad je stigao u Atenu, njegov otac Egej bio je oženjen Medejom, koja mu je radila o glavi.",
     "source": "Wikipedia (en): Theseus",
-    "tags": ["mitologija", "junaci"],
+    "tags": [
+      "mitologija",
+      "junaci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +135,16 @@
     "difficulty": 2,
     "question": "Koji je arhitekt projektirao kuću Fallingwater, sagrađenu djelomično nad slapom u Pennsylvaniji?",
     "answer": "Frank Lloyd Wright",
-    "accept": ["Wright", "Lloyd Wright"],
+    "accept": [
+      "Wright",
+      "Lloyd Wright"
+    ],
     "note": "Kuća je dio UNESCO-ove svjetske baštine.",
     "source": "Wikipedia (en): Fallingwater",
-    "tags": ["arhitektura", "SAD"],
+    "tags": [
+      "arhitektura",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +155,15 @@
     "difficulty": 2,
     "question": "Koji je američki slikar 1930. naslikao „Američku gotiku”, farmera i njegovu kćer ispred kuće?",
     "answer": "Grant Wood",
-    "accept": ["Wood"],
+    "accept": [
+      "Wood"
+    ],
     "note": "Slika se čuva u Institutu za umjetnost u Chicagu.",
     "source": "Wikipedia (en): American Gothic",
-    "tags": ["slikarstvo", "SAD"],
+    "tags": [
+      "slikarstvo",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +174,15 @@
     "difficulty": 2,
     "question": "Koji je nizozemski slikar u apstraktnim slikama koristio samo crnu, bijelu, sivu i tri osnovne boje?",
     "answer": "Piet Mondrian",
-    "accept": ["Mondrian"],
+    "accept": [
+      "Mondrian"
+    ],
     "note": "Ograničio se na tri osnovne boje (crvenu, plavu i žutu) i dva smjera, vodoravni i okomiti.",
     "source": "Wikipedia (en): Piet Mondrian",
-    "tags": ["slikarstvo", "apstrakcija"],
+    "tags": [
+      "slikarstvo",
+      "apstrakcija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +193,15 @@
     "difficulty": 2,
     "question": "Kojim je otokom vladao Odisej, junak Homerove „Odiseje”?",
     "answer": "Itakom",
-    "accept": ["Itaka"],
+    "accept": [
+      "Itaka"
+    ],
     "note": "Rimljani su ga zvali Uliks.",
     "source": "Wikipedia (en): Odysseus",
-    "tags": ["mitologija", "Homer"],
+    "tags": [
+      "mitologija",
+      "Homer"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +212,15 @@
     "difficulty": 2,
     "question": "U kojem se španjolskom gradu nalazi Alhambra, palača i utvrda islamske Španjolske?",
     "answer": "Granada",
-    "accept": ["u Granadi"],
+    "accept": [
+      "u Granadi"
+    ],
     "note": "Gradnja je počela 1238.",
     "source": "Wikipedia (en): Alhambra",
-    "tags": ["Španjolska", "arhitektura"],
+    "tags": [
+      "Španjolska",
+      "arhitektura"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +231,16 @@
     "difficulty": 2,
     "question": "Kako se zove tvrđava na ulazu u kanal sv. Ante kod Šibenika, upisana 2017. na UNESCO-ov popis?",
     "answer": "Tvrđava sv. Nikole",
-    "accept": ["Sveti Nikola", "sv. Nikola"],
+    "accept": [
+      "Sveti Nikola",
+      "sv. Nikola"
+    ],
     "note": "Nakon dvogodišnje obnove otvorena je za posjetitelje u srpnju 2019.",
     "source": "Wikipedia (en): St. Nicholas Fortress",
-    "tags": ["Hrvatska", "utvrde"],
+    "tags": [
+      "Hrvatska",
+      "utvrde"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +254,10 @@
     "accept": [],
     "note": "Nalazi se 27 km zapadno od Splita.",
     "source": "Wikipedia (en): Trogir",
-    "tags": ["Hrvatska", "baština"],
+    "tags": [
+      "Hrvatska",
+      "baština"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +268,16 @@
     "difficulty": 2,
     "question": "Koliko je otprilike kamenih kipova moai na Uskršnjem otoku?",
     "answer": "Više od 900",
-    "accept": ["900", "oko 900"],
+    "accept": [
+      "900",
+      "oko 900"
+    ],
     "note": "Isklesao ih je narod Rapa Nui.",
     "source": "Wikipedia (en): Moai",
-    "tags": ["Oceanija", "kipovi"],
+    "tags": [
+      "Oceanija",
+      "kipovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +288,15 @@
     "difficulty": 3,
     "question": "Koja je američka slikarica, prozvana „majkom američkog modernizma”, poznata po krupnim prikazima cvijeća?",
     "answer": "Georgia O'Keeffe",
-    "accept": ["O'Keeffe"],
+    "accept": [
+      "O'Keeffe"
+    ],
     "note": "Slikala je i brda i pustinjske krajolike.",
     "source": "Wikipedia (en): Georgia O'Keeffe",
-    "tags": ["slikarstvo", "SAD"],
+    "tags": [
+      "slikarstvo",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +307,15 @@
     "difficulty": 3,
     "question": "Kako se zove most između Asgarda i svijeta ljudi u nordijskoj mitologiji, koji se poistovjećuje s dugom?",
     "answer": "Bifröst",
-    "accept": ["Bifrost"],
+    "accept": [
+      "Bifrost"
+    ],
     "note": "Prema predaji, srušit će se u Ragnaroku.",
     "source": "Wikipedia (en): Bifröst",
-    "tags": ["mitologija", "nordijska"],
+    "tags": [
+      "mitologija",
+      "nordijska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +326,15 @@
     "difficulty": 3,
     "question": "Kako se zove golemi jasen, drvo svijeta u nordijskoj mitologiji?",
     "answer": "Yggdrasil",
-    "accept": ["Igdrasil"],
+    "accept": [
+      "Igdrasil"
+    ],
     "note": "Oko njega se nalazi svih devet svjetova.",
     "source": "Wikipedia (en): Yggdrasil",
-    "tags": ["mitologija", "nordijska"],
+    "tags": [
+      "mitologija",
+      "nordijska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +345,15 @@
     "difficulty": 3,
     "question": "Koji je arhitekt autor zadarskih Morskih orgulja?",
     "answer": "Nikola Bašić",
-    "accept": ["Bašić"],
+    "accept": [
+      "Bašić"
+    ],
     "note": "Orgulje sviraju pomoću valova i cijevi ispod velikih mramornih stuba.",
     "source": "Wikipedia (en): Sea organ",
-    "tags": ["Hrvatska", "arhitektura"],
+    "tags": [
+      "Hrvatska",
+      "arhitektura"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 3,
     "question": "Kako se zove japanski likovni žanr drvoreza od 17. do 19. stoljeća, čije ime znači „slike prolaznog svijeta”?",
     "answer": "Ukiyo-e",
-    "accept": ["ukiyo e"],
+    "accept": [
+      "ukiyo e"
+    ],
     "note": "Prikazivali su ljepotice, glumce kabukija, hrvače i krajolike.",
     "source": "Wikipedia (en): Ukiyo-e",
-    "tags": ["Japan", "grafika"],
+    "tags": [
+      "Japan",
+      "grafika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

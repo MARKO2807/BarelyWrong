@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Tvrtka kaže da je to „sirena s dva repa, kako je zovu u grčkoj mitologiji”; na prvoj verziji logotipa bila je bez odjeće.",
     "source": "Wikipedia (en): Starbucks",
-    "tags": ["tvrtke", "logotipi"],
+    "tags": [
+      "tvrtke",
+      "logotipi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -23,7 +26,10 @@
     "accept": [],
     "note": "Mreža je 9 × 9 i podijeljena na devet kvadrata 3 × 3; igra se izvorno zvala Number Place.",
     "source": "Wikipedia (en): Sudoku",
-    "tags": ["igre", "brojevi"],
+    "tags": [
+      "igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -37,9 +43,13 @@
     "accept": [],
     "note": "List na zastavi ima 11 šiljaka, a sama se zastava popularno zove Maple Leaf.",
     "source": "Wikipedia (en): Flag of Canada",
-    "tags": ["zastave", "Sjeverna Amerika"],
+    "tags": [
+      "zastave",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-10",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0143",
@@ -51,7 +61,10 @@
     "accept": [],
     "note": "Bitan sastojak sushija je riža začinjena octom; sirova riba je česta, ali neki se sushi radi i s kuhanim sastojcima.",
     "source": "Wikipedia (en): Sushi",
-    "tags": ["hrana", "Japan"],
+    "tags": [
+      "hrana",
+      "Japan"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -65,7 +78,10 @@
     "accept": [],
     "note": "Zove se i kadō, „put cvijeća”.",
     "source": "Wikipedia (en): Ikebana",
-    "tags": ["Japan", "umjetnost"],
+    "tags": [
+      "Japan",
+      "umjetnost"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -76,10 +92,15 @@
     "difficulty": 2,
     "question": "Kako se zove znak ~, koji neformalno znači „otprilike”?",
     "answer": "Tilda",
-    "accept": ["tilde"],
+    "accept": [
+      "tilde"
+    ],
     "note": "Ime dolazi preko španjolskog od latinskog titulus, „natpis”.",
     "source": "Wikipedia (en): Tilde",
-    "tags": ["znakovi", "tipografija"],
+    "tags": [
+      "znakovi",
+      "tipografija"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -90,10 +111,15 @@
     "difficulty": 2,
     "question": "Što znače slova PIN u PIN-u za bankovnu karticu?",
     "answer": "Personal identification number",
-    "accept": ["osobni identifikacijski broj"],
+    "accept": [
+      "osobni identifikacijski broj"
+    ],
     "note": "Zato je „PIN broj” zapravo pleonazam, jer N već znači broj.",
     "source": "Wikipedia (en): Personal identification number",
-    "tags": ["kratice", "bankarstvo"],
+    "tags": [
+      "kratice",
+      "bankarstvo"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -104,10 +130,16 @@
     "difficulty": 2,
     "question": "Po kojoj je djevojčici, kćeri poduzetnika Emila Jellineka, nazvana jedna slavna marka automobila?",
     "answer": "Mercedes",
-    "accept": ["Mercédès Jellinek", "Mercedes Jellinek"],
+    "accept": [
+      "Mercédès Jellinek",
+      "Mercedes Jellinek"
+    ],
     "note": "Jellinek je 1902. registrirao zaštitni znak, nazvavši model iz 1901. po kćeri.",
     "source": "Wikipedia (en): Mercedes-Benz",
-    "tags": ["automobili", "imena"],
+    "tags": [
+      "automobili",
+      "imena"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -118,10 +150,15 @@
     "difficulty": 2,
     "question": "U kojoj društvenoj igri igrači otkrivaju tko je počinio ubojstvo, kojim oružjem i u kojoj prostoriji?",
     "answer": "Cluedo",
-    "accept": ["Clue"],
+    "accept": [
+      "Clue"
+    ],
     "note": "Osmislio ju je 1943. britanski dizajner Anthony E. Pratt; u Sjevernoj Americi zove se Clue.",
     "source": "Wikipedia (en): Cluedo",
-    "tags": ["društvene igre", "misteriji"],
+    "tags": [
+      "društvene igre",
+      "misteriji"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -132,10 +169,15 @@
     "difficulty": 2,
     "question": "Po kojem je venecijanskom slikaru, poznatom po crvenim i bijelim tonovima, nazvano jelo od tankih ploški sirovog mesa?",
     "answer": "Vittore Carpaccio",
-    "accept": ["Carpaccio"],
+    "accept": [
+      "Carpaccio"
+    ],
     "note": "Jelo je navodno pripremljeno za groficu Amaliju Nani Mocenigo, kojoj su liječnici preporučili sirovo meso.",
     "source": "Wikipedia (en): Carpaccio",
-    "tags": ["hrana", "eponimi"],
+    "tags": [
+      "hrana",
+      "eponimi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -146,10 +188,15 @@
     "difficulty": 2,
     "question": "Od koje se biljke radi tekila?",
     "answer": "Plava agava",
-    "accept": ["agava"],
+    "accept": [
+      "agava"
+    ],
     "note": "Proizvodi se najviše oko grada Tequile u meksičkoj saveznoj državi Jalisco.",
     "source": "Wikipedia (en): Tequila",
-    "tags": ["pića", "Meksiko"],
+    "tags": [
+      "pića",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -163,7 +210,10 @@
     "accept": [],
     "note": "Pravilni dodekaedar ima pravilne peterokute za plohe i jedno je od Platonovih tijela.",
     "source": "Wikipedia (en): Dodecahedron",
-    "tags": ["geometrija", "brojevi"],
+    "tags": [
+      "geometrija",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -177,7 +227,10 @@
     "accept": [],
     "note": "Peugeot se smatra najstarijom automobilskom tvrtkom na svijetu.",
     "source": "Wikipedia (en): Peugeot",
-    "tags": ["automobili", "logotipi"],
+    "tags": [
+      "automobili",
+      "logotipi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -188,10 +241,16 @@
     "difficulty": 2,
     "question": "Koja je službena valuta Švicarske i Lihtenštajna?",
     "answer": "Švicarski franak",
-    "accept": ["franak", "CHF"],
+    "accept": [
+      "franak",
+      "CHF"
+    ],
     "note": "Vrijedi i u talijanskoj enklavi Campione d'Italia.",
     "source": "Wikipedia (en): Swiss franc",
-    "tags": ["valute", "Europa"],
+    "tags": [
+      "valute",
+      "Europa"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -205,7 +264,10 @@
     "accept": [],
     "note": "To je 24 sata po 60 minuta.",
     "source": "Wikipedia (en): Day",
-    "tags": ["vrijeme", "brojevi"],
+    "tags": [
+      "vrijeme",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -216,10 +278,15 @@
     "difficulty": 3,
     "question": "Kako se zove japanska tehnika popravljanja razbijenog posuđa lakom pomiješanim sa zlatnim prahom?",
     "answer": "Kintsugi",
-    "accept": ["kintsukuroi"],
+    "accept": [
+      "kintsukuroi"
+    ],
     "note": "Ime znači „zlatno spajanje”; lom i popravak smatraju se dijelom povijesti predmeta, a ne nečim što treba sakriti.",
     "source": "Wikipedia (en): Kintsugi",
-    "tags": ["Japan", "obrt"],
+    "tags": [
+      "Japan",
+      "obrt"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -233,7 +300,10 @@
     "accept": [],
     "note": "Ploča ima mrežu od 19 × 19 linija; početnici igraju i na manjim pločama.",
     "source": "Wikipedia (en): Go (game)",
-    "tags": ["igre", "brojevi"],
+    "tags": [
+      "igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -244,10 +314,15 @@
     "difficulty": 3,
     "question": "Kako se zove strah od broja 13?",
     "answer": "Triskaidekafobija",
-    "accept": ["triskaidekaphobia"],
+    "accept": [
+      "triskaidekaphobia"
+    ],
     "note": "Strah od petka 13. ima vlastiti naziv: paraskevidekatriafobija.",
     "source": "Wikipedia (en): Triskaidekaphobia",
-    "tags": ["fobije", "brojevi"],
+    "tags": [
+      "fobije",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -261,7 +336,10 @@
     "accept": [],
     "note": "Smislio ga je 1962. Martin K. Speckter, šef jedne oglašivačke agencije.",
     "source": "Wikipedia (en): Interrobang",
-    "tags": ["znakovi", "tipografija"],
+    "tags": [
+      "znakovi",
+      "tipografija"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   },
@@ -272,10 +350,15 @@
     "difficulty": 3,
     "question": "Kako se zove najveći neobrađeni dijamant dragulj kakvoće ikad pronađen, 1905. u Južnoj Africi?",
     "answer": "Cullinan",
-    "accept": ["Cullinanov dijamant"],
+    "accept": [
+      "Cullinanov dijamant"
+    ],
     "note": "Imao je 3106 karata; najveći kamen izrezan iz njega nalazi se u britanskom kraljevskom žezlu.",
     "source": "Wikipedia (en): Cullinan Diamond",
-    "tags": ["dragulji", "rekordi"],
+    "tags": [
+      "dragulji",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-10",
     "status": "approved"
   }

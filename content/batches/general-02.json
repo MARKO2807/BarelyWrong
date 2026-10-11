@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koja se slavonska suhomesnata kobasica od svinjetine suši na dimu?",
     "answer": "Kulen",
-    "accept": ["Slavonski kulen"],
+    "accept": [
+      "Slavonski kulen"
+    ],
     "note": "Slavonskom kulenu u Hrvatskoj je zaštićena oznaka izvornosti.",
     "source": "Wikipedia (hr): Kulen",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +25,18 @@
     "difficulty": 1,
     "question": "Koliko isprepletenih krugova čini olimpijski simbol?",
     "answer": "5",
-    "accept": ["Pet"],
+    "accept": [
+      "Pet"
+    ],
     "note": "Krugovi su plave, žute, crne, zelene i crvene boje, na bijeloj podlozi.",
     "source": "Wikipedia (en): Olympic symbols",
-    "tags": ["simboli", "sport"],
+    "tags": [
+      "simboli",
+      "sport"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0038",
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Koji talijanski desert sadrži piškote natopljene kavom i kremu od mascarponea?",
     "answer": "Tiramisu",
-    "accept": ["Tiramisù"],
+    "accept": [
+      "Tiramisù"
+    ],
     "note": "Ime dolazi od talijanskog „tirami su”, što znači „podigni me” ili „razveseli me”.",
     "source": "Wikipedia (en): Tiramisu",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +64,16 @@
     "difficulty": 1,
     "question": "Koja je službena valuta Japana?",
     "answer": "Jen",
-    "accept": ["Yen", "Japanski jen"],
+    "accept": [
+      "Yen",
+      "Japanski jen"
+    ],
     "note": "Oznaka mu je ¥, a međunarodni kod JPY.",
     "source": "Wikipedia (en): Japanese yen",
-    "tags": ["valute", "Japan"],
+    "tags": [
+      "valute",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,12 +84,19 @@
     "difficulty": 1,
     "question": "U kojem se njemačkom gradu održava Oktoberfest?",
     "answer": "München",
-    "accept": ["Munich", "Minhen"],
+    "accept": [
+      "Munich",
+      "Minhen"
+    ],
     "note": "Održava se na livadi Theresienwiese i najveća je pučka svetkovina na svijetu.",
     "source": "Wikipedia (en): Oktoberfest",
-    "tags": ["festivali", "Njemačka"],
+    "tags": [
+      "festivali",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0041",
@@ -76,10 +105,16 @@
     "difficulty": 1,
     "question": "Koja se životinja nalazi na logotipu Ferrarija?",
     "answer": "Konj",
-    "accept": ["Propeti konj", "Konj u skoku"],
+    "accept": [
+      "Propeti konj",
+      "Konj u skoku"
+    ],
     "note": "Isti je znak na svoj avion slikao letački as Francesco Baracca.",
     "source": "Wikipedia (en): Ferrari",
-    "tags": ["logotipi", "automobili"],
+    "tags": [
+      "logotipi",
+      "automobili"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,9 +128,13 @@
     "accept": [],
     "note": "Riječ je složena od „ori” (savijati) i „kami” (papir).",
     "source": "Wikipedia (en): Origami",
-    "tags": ["Japan", "umjetnost"],
+    "tags": [
+      "Japan",
+      "umjetnost"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0043",
@@ -104,10 +143,16 @@
     "difficulty": 1,
     "question": "Od kojeg se mesa tradicionalno priprema bečki odrezak?",
     "answer": "Od teletine",
-    "accept": ["Teletina", "Teleće meso"],
+    "accept": [
+      "Teletina",
+      "Teleće meso"
+    ],
     "note": "Pohan i pržen na tavi, jedno je od nacionalnih jela Austrije.",
     "source": "Wikipedia (en): Wiener schnitzel",
-    "tags": ["hrana", "Austrija"],
+    "tags": [
+      "hrana",
+      "Austrija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +163,15 @@
     "difficulty": 1,
     "question": "Koliko crvenih i bijelih polja ima šahovnica u hrvatskom grbu?",
     "answer": "25",
-    "accept": ["Dvadeset pet"],
+    "accept": [
+      "Dvadeset pet"
+    ],
     "note": "Prvo polje u gornjem lijevom kutu je crveno, a iznad štita je kruna s pet manjih grbova.",
     "source": "Wikipedia (hr): Grb Republike Hrvatske",
-    "tags": ["simboli", "Hrvatska"],
+    "tags": [
+      "simboli",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +182,15 @@
     "difficulty": 2,
     "question": "Koja je švicarska planina nadahnula trokutasti oblik čokolade Toblerone?",
     "answer": "Matterhorn",
-    "accept": ["Cervino"],
+    "accept": [
+      "Cervino"
+    ],
     "note": "Ime je spoj prezimena Tobler i talijanske riječi torrone, odnosno nugat.",
     "source": "Wikipedia (en): Toblerone",
-    "tags": ["hrana", "Švicarska"],
+    "tags": [
+      "hrana",
+      "Švicarska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +201,15 @@
     "difficulty": 2,
     "question": "Kako se zove zvonolika posuda pod kojom se meso i povrće peku na ognjištu?",
     "answer": "Peka",
-    "accept": ["Pekva"],
+    "accept": [
+      "Pekva"
+    ],
     "note": "Može biti keramička ili željezna, a na vrhu ima jednu ili dvije ručke.",
     "source": "Wikipedia (hr): Peka",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +220,15 @@
     "difficulty": 2,
     "question": "Od kojih se dvaju pića radi klasični koktel martini?",
     "answer": "Gin i vermut",
-    "accept": ["Džin i vermut"],
+    "accept": [
+      "Džin i vermut"
+    ],
     "note": "Ukrašava se maslinom, korom limuna ili oboje.",
     "source": "Wikipedia (en): Martini (cocktail)",
-    "tags": ["pića", "kokteli"],
+    "tags": [
+      "pića",
+      "kokteli"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +239,16 @@
     "difficulty": 2,
     "question": "Po uzgoju kojih je školjaka posebno poznat Mali Ston?",
     "answer": "Kamenica",
-    "accept": ["Kamenice", "Oštrige"],
+    "accept": [
+      "Kamenice",
+      "Oštrige"
+    ],
     "note": "Uz kamenice ondje se uzgajaju i dagnje.",
     "source": "Wikipedia (hr): Mali Ston",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +262,10 @@
     "accept": [],
     "note": "Osmislila ju je Carolyn Davidson, studentica Državnog sveučilišta u Portlandu.",
     "source": "Wikipedia (en): Swoosh",
-    "tags": ["logotipi", "moda"],
+    "tags": [
+      "logotipi",
+      "moda"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +276,16 @@
     "difficulty": 2,
     "question": "Koja je francuska modna kreatorica 1921. predstavila parfem No. 5?",
     "answer": "Coco Chanel",
-    "accept": ["Chanel", "Gabrielle Chanel"],
+    "accept": [
+      "Chanel",
+      "Gabrielle Chanel"
+    ],
     "note": "Miris je složio francusko-ruski kemičar i parfumer Ernest Beaux.",
     "source": "Wikipedia (en): Chanel No. 5",
-    "tags": ["moda", "Francuska"],
+    "tags": [
+      "moda",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +296,16 @@
     "difficulty": 2,
     "question": "Koje dvije riječi kriju slova QR u nazivu QR koda?",
     "answer": "Quick response",
-    "accept": ["Brzi odgovor", "Quick-response"],
+    "accept": [
+      "Brzi odgovor",
+      "Quick-response"
+    ],
     "note": "Izumio ga je 1994. Masahiro Hara iz tvrtke Denso Wave, za označavanje dijelova automobila.",
     "source": "Wikipedia (en): QR code",
-    "tags": ["tehnologija", "kratice"],
+    "tags": [
+      "tehnologija",
+      "kratice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +316,16 @@
     "difficulty": 2,
     "question": "Po kojem je izumitelju nazvan bel, čija je desetina decibel?",
     "answer": "Alexander Graham Bell",
-    "accept": ["Bell", "Graham Bell"],
+    "accept": [
+      "Bell",
+      "Graham Bell"
+    ],
     "note": "Sam se bel rijetko koristi, pa se gotovo uvijek mjeri u decibelima.",
     "source": "Wikipedia (en): Decibel",
-    "tags": ["mjerne jedinice", "izumitelji"],
+    "tags": [
+      "mjerne jedinice",
+      "izumitelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +336,15 @@
     "difficulty": 2,
     "question": "Uz zagrebačku, po kojem je gradu nazvana najpoznatija hrvatska kremšnita?",
     "answer": "Samobor",
-    "accept": ["Samoborska"],
+    "accept": [
+      "Samoborska"
+    ],
     "note": "U Sloveniji je poznata bledska kremšnita.",
     "source": "Wikipedia (hr): Kremšnita",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +355,16 @@
     "difficulty": 2,
     "question": "U kojem je gradu rođen slastičar Franz Sacher, izumitelj torte Sacher?",
     "answer": "Beč",
-    "accept": ["Wien", "Vienna"],
+    "accept": [
+      "Wien",
+      "Vienna"
+    ],
     "note": "Torta ima čokoladni biskvit, džem od marelica i čokoladnu glazuru.",
     "source": "Wikipedia (en): Franz Sacher",
-    "tags": ["hrana", "Austrija"],
+    "tags": [
+      "hrana",
+      "Austrija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +375,16 @@
     "difficulty": 2,
     "question": "Koji se liker od višnje maraske od 18. stoljeća industrijski proizvodi u Zadru?",
     "answer": "Maraschino",
-    "accept": ["Maraskino", "Maraschino liker"],
+    "accept": [
+      "Maraskino",
+      "Maraschino liker"
+    ],
     "note": "Proizvodnju je 1759. pokrenuo venecijanski trgovac Francesco Drioli.",
     "source": "Wikipedia (en): Maraschino",
-    "tags": ["pića", "Hrvatska"],
+    "tags": [
+      "pića",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +395,16 @@
     "difficulty": 2,
     "question": "Po kojem je češkom gradu nazvano pivo pilsner?",
     "answer": "Plzeň",
-    "accept": ["Plzen", "Pilsen"],
+    "accept": [
+      "Plzen",
+      "Pilsen"
+    ],
     "note": "Ondje je 1842. proizvedeno prvo svijetlo pivo tipa lager na svijetu.",
     "source": "Wikipedia (en): Pilsner",
-    "tags": ["pića", "Češka"],
+    "tags": [
+      "pića",
+      "Češka"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +415,16 @@
     "difficulty": 2,
     "question": "Kako se zove pita s nadjevom od blitve i luka iz dalmatinskih Poljica?",
     "answer": "Soparnik",
-    "accept": ["Zeljanik", "Uljenjak"],
+    "accept": [
+      "Zeljanik",
+      "Uljenjak"
+    ],
     "note": "Tradicionalno se peče na užarenoj ploči otvorenog ognjišta.",
     "source": "Wikipedia (hr): Soparnik",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +435,15 @@
     "difficulty": 3,
     "question": "Na kojem se otoku tradicionalno peče spiralna torta od badema i maraskina?",
     "answer": "Rab",
-    "accept": ["Otok Rab"],
+    "accept": [
+      "Otok Rab"
+    ],
     "note": "Prema legendi, prvi put je poslužena 1177. papi Aleksandru III.",
     "source": "Wikipedia (en): Rab cake",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +454,15 @@
     "difficulty": 3,
     "question": "Koliko karata ima tarot špil poput francuskog Tarot Nouveau?",
     "answer": "78",
-    "accept": ["Sedamdeset osam"],
+    "accept": [
+      "Sedamdeset osam"
+    ],
     "note": "Prve takve karte, zvane tarocchi, pojavile su se u Ferrari i Milanu.",
     "source": "Wikipedia (en): Tarot",
-    "tags": ["igre", "karte"],
+    "tags": [
+      "igre",
+      "karte"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +473,18 @@
     "difficulty": 3,
     "question": "Koji se znak na engleskom, među ostalim nazivima, zove i „octothorpe”?",
     "answer": "#",
-    "accept": ["Ljestve", "Hash", "Hashtag", "Znak broja"],
+    "accept": [
+      "Ljestve",
+      "Hash",
+      "Hashtag",
+      "Znak broja"
+    ],
     "note": "U Unicodeu nosi službeni naziv NUMBER SIGN.",
     "source": "Wikipedia (en): Number sign",
-    "tags": ["znakovi", "jezik"],
+    "tags": [
+      "znakovi",
+      "jezik"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +495,18 @@
     "difficulty": 3,
     "question": "Što na talijanskom znači riječ macchiato u nazivu kave?",
     "answer": "Umrljan",
-    "accept": ["Zamrljan", "Uprljan", "Pjegav", "Označen"],
+    "accept": [
+      "Zamrljan",
+      "Uprljan",
+      "Pjegav",
+      "Označen"
+    ],
     "note": "To je espresso s malo mlijeka, najčešće zapjenjenog.",
     "source": "Wikipedia (en): Caffè macchiato",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +517,16 @@
     "difficulty": 3,
     "question": "U kojem je gradu djelovala kuća Fabergé, koja je izrađivala čuvena ukrašena jaja?",
     "answer": "Sankt Peterburg",
-    "accept": ["Sankt Petersburg", "Petrograd"],
+    "accept": [
+      "Sankt Petersburg",
+      "Petrograd"
+    ],
     "note": "U carsko doba izrađeno je do 69 jaja, a poznato je da ih je sačuvana 61.",
     "source": "Wikipedia (en): Fabergé egg",
-    "tags": ["umjetnost", "Rusija"],
+    "tags": [
+      "umjetnost",
+      "Rusija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +537,16 @@
     "difficulty": 3,
     "question": "Koliko miligrama iznosi jedan karat, mjera za drago kamenje?",
     "answer": "200 mg",
-    "accept": ["200", "0,2 g"],
+    "accept": [
+      "200",
+      "0,2 g"
+    ],
     "note": "Ta je definicija, takozvani metrički karat, usvojena 1907.",
     "source": "Wikipedia (en): Carat (mass)",
-    "tags": ["mjerne jedinice", "nakit"],
+    "tags": [
+      "mjerne jedinice",
+      "nakit"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +557,15 @@
     "difficulty": 3,
     "question": "U kojem je francuskom gradu prvi put proizvedena tkanina denim?",
     "answer": "Nîmes",
-    "accept": ["Nimes"],
+    "accept": [
+      "Nimes"
+    ],
     "note": "Ime dolazi od francuskog „de Nîmes”, odnosno „iz Nîmesa”.",
     "source": "Wikipedia (en): Denim",
-    "tags": ["moda", "Francuska"],
+    "tags": [
+      "moda",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +576,15 @@
     "difficulty": 3,
     "question": "U kojem je gradu 1924. nastala salata Cezar?",
     "answer": "Tijuana",
-    "accept": ["Tijuana, Meksiko"],
+    "accept": [
+      "Tijuana, Meksiko"
+    ],
     "note": "Smislio ju je Caesar Cardini kad je kuhinji ponestalo namirnica.",
     "source": "Wikipedia (en): Caesar salad",
-    "tags": ["hrana", "Meksiko"],
+    "tags": [
+      "hrana",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

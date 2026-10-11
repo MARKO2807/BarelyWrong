@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koliko rupa ima standardni teren za golf?",
     "answer": "18",
-    "accept": ["Osamnaest"],
+    "accept": [
+      "Osamnaest"
+    ],
     "note": "Postoje i manji tereni s 9 rupa.",
     "source": "Wikipedia (en): Golf course",
-    "tags": ["golf", "pravila"],
+    "tags": [
+      "golf",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0056",
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Na kojoj se podlozi igra Wimbledon?",
     "answer": "Na travi",
-    "accept": ["Trava"],
+    "accept": [
+      "Trava"
+    ],
     "note": "Održava se od 1877. i najstariji je teniski turnir na svijetu.",
     "source": "Wikipedia (en): Wimbledon Championships",
-    "tags": ["tenis", "turniri"],
+    "tags": [
+      "tenis",
+      "turniri"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0057",
@@ -34,12 +46,18 @@
     "difficulty": 1,
     "question": "Kako se zove domaći stadion zagrebačkog Dinama?",
     "answer": "Maksimir",
-    "accept": ["Stadion Maksimir"],
+    "accept": [
+      "Stadion Maksimir"
+    ],
     "note": "Ime je dobio po okolnoj zagrebačkoj četvrti.",
     "source": "Wikipedia (en): Stadion Maksimir",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0058",
@@ -48,12 +66,19 @@
     "difficulty": 1,
     "question": "Koliko minuta traje jedno poluvrijeme nogometne utakmice?",
     "answer": "45",
-    "accept": ["45 minuta", "Četrdeset pet"],
+    "accept": [
+      "45 minuta",
+      "Četrdeset pet"
+    ],
     "note": "Sat se ne zaustavlja kad lopta izađe iz igre.",
     "source": "Wikipedia (en): Association football",
-    "tags": ["nogomet", "pravila"],
+    "tags": [
+      "nogomet",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0059",
@@ -62,10 +87,15 @@
     "difficulty": 1,
     "question": "Koji je američki plivač na Igrama u Pekingu 2008. osvojio osam zlatnih medalja?",
     "answer": "Michael Phelps",
-    "accept": ["Phelps"],
+    "accept": [
+      "Phelps"
+    ],
     "note": "Time je srušio rekord Marka Spitza od sedam zlata na Igrama 1972.",
     "source": "Wikipedia (en): Michael Phelps",
-    "tags": ["plivanje", "Olimpijske igre"],
+    "tags": [
+      "plivanje",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,10 +106,15 @@
     "difficulty": 1,
     "question": "Koja hrvatska skakačica u vis drži državni rekord od 2,08 m?",
     "answer": "Blanka Vlašić",
-    "accept": ["Vlašić"],
+    "accept": [
+      "Vlašić"
+    ],
     "note": "Kći je hrvatskog rekordera u desetoboju Joška Vlašića.",
     "source": "Wikipedia (en): Blanka Vlašić",
-    "tags": ["atletika", "Hrvatska"],
+    "tags": [
+      "atletika",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +125,16 @@
     "difficulty": 1,
     "question": "Koje boje majicu nosi vodeći u ukupnom poretku Tour de Francea?",
     "answer": "Žutu",
-    "accept": ["Žuta", "Žuta majica"],
+    "accept": [
+      "Žuta",
+      "Žuta majica"
+    ],
     "note": "Vodeći je nosi od 1919.",
     "source": "Wikipedia (en): General classification in the Tour de France",
-    "tags": ["biciklizam", "utrke"],
+    "tags": [
+      "biciklizam",
+      "utrke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,12 +145,19 @@
     "difficulty": 1,
     "question": "Koliko je metara dug olimpijski bazen?",
     "answer": "50 m",
-    "accept": ["50", "Pedeset"],
+    "accept": [
+      "50",
+      "Pedeset"
+    ],
     "note": "Kratki bazen dug je 25 metara.",
     "source": "Wikipedia (en): Olympic-size swimming pool",
-    "tags": ["plivanje", "pravila"],
+    "tags": [
+      "plivanje",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0063",
@@ -118,12 +166,18 @@
     "difficulty": 1,
     "question": "Koliko polja ima šahovska ploča?",
     "answer": "64",
-    "accept": ["Šezdeset četiri"],
+    "accept": [
+      "Šezdeset četiri"
+    ],
     "note": "Polja su raspoređena u 8 redova i 8 stupaca.",
     "source": "Wikipedia (en): Chessboard",
-    "tags": ["šah", "igre"],
+    "tags": [
+      "šah",
+      "igre"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0064",
@@ -132,10 +186,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski rukometaš 2003. i 2006. proglašen najboljim rukometašem svijeta?",
     "answer": "Ivano Balić",
-    "accept": ["Balić"],
+    "accept": [
+      "Balić"
+    ],
     "note": "S reprezentacijom je osvojio Svjetsko prvenstvo 2003. i olimpijsko zlato 2004.",
     "source": "Wikipedia (en): Ivano Balić",
-    "tags": ["rukomet", "Hrvatska"],
+    "tags": [
+      "rukomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +205,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski košarkaš s Chicago Bullsima osvojio tri naslova NBA-a?",
     "answer": "Toni Kukoč",
-    "accept": ["Kukoč"],
+    "accept": [
+      "Kukoč"
+    ],
     "note": "Nadimci su mu bili „the Waiter” i „the Croatian Sensation”.",
     "source": "Wikipedia (en): Toni Kukoč",
-    "tags": ["košarka", "Hrvatska"],
+    "tags": [
+      "košarka",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +224,15 @@
     "difficulty": 2,
     "question": "Koja je hrvatska tenisačica 1997. osvojila Roland Garros?",
     "answer": "Iva Majoli",
-    "accept": ["Majoli"],
+    "accept": [
+      "Majoli"
+    ],
     "note": "U finalu je pobijedila prvu tenisačicu svijeta Martinu Hingis.",
     "source": "Wikipedia (en): Iva Majoli",
-    "tags": ["tenis", "Hrvatska"],
+    "tags": [
+      "tenis",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +243,15 @@
     "difficulty": 2,
     "question": "Koji je izbornik Hrvatsku doveo do finala Svjetskog prvenstva 2018.?",
     "answer": "Zlatko Dalić",
-    "accept": ["Dalić"],
+    "accept": [
+      "Dalić"
+    ],
     "note": "Na Svjetskom prvenstvu 2022. s Hrvatskom je osvojio treće mjesto.",
     "source": "Wikipedia (en): Zlatko Dalić",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +262,15 @@
     "difficulty": 2,
     "question": "Iz kojeg sporta potječe izraz „hat-trick”?",
     "answer": "Kriket",
-    "accept": ["Iz kriketa"],
+    "accept": [
+      "Iz kriketa"
+    ],
     "note": "Prvi je put upotrijebljen 1858., kad je H. H. Stephenson s tri uzastopna bacanja srušio tri wicketa.",
     "source": "Wikipedia (en): Hat-trick",
-    "tags": ["izrazi", "kriket"],
+    "tags": [
+      "izrazi",
+      "kriket"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +281,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski nogometaš sa šest golova bio najbolji strijelac Svjetskog prvenstva 1998.?",
     "answer": "Davor Šuker",
-    "accept": ["Šuker"],
+    "accept": [
+      "Šuker"
+    ],
     "note": "Dobio je i Srebrnu loptu, kao drugi najbolji igrač prvenstva, iza Ronalda.",
     "source": "Wikipedia (en): Davor Šuker",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +303,10 @@
     "accept": [],
     "note": "Staza je duga 3,337 km i vodi oko luke.",
     "source": "Wikipedia (en): Circuit de Monaco",
-    "tags": ["Formula 1", "staze"],
+    "tags": [
+      "Formula 1",
+      "staze"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +317,15 @@
     "difficulty": 2,
     "question": "U kojem se sportu Europa i SAD svake dvije godine sastaju u Ryder Cupu?",
     "answer": "Golf",
-    "accept": ["U golfu"],
+    "accept": [
+      "U golfu"
+    ],
     "note": "Kup je nazvan po engleskom poduzetniku Samuelu Ryderu.",
     "source": "Wikipedia (en): Ryder Cup",
-    "tags": ["golf", "natjecanja"],
+    "tags": [
+      "golf",
+      "natjecanja"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +336,15 @@
     "difficulty": 2,
     "question": "Iz koje zemlje potječe curling?",
     "answer": "Škotska",
-    "accept": ["Iz Škotske"],
+    "accept": [
+      "Iz Škotske"
+    ],
     "note": "Ondje je pronađen kamen za curling s urezanom godinom 1511.",
     "source": "Wikipedia (en): Curling",
-    "tags": ["zimski sportovi", "povijest sporta"],
+    "tags": [
+      "zimski sportovi",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +355,15 @@
     "difficulty": 2,
     "question": "Koji je američki atletičar na Olimpijskim igrama 1936. osvojio četiri zlatne medalje?",
     "answer": "Jesse Owens",
-    "accept": ["Owens"],
+    "accept": [
+      "Owens"
+    ],
     "note": "U svakoj je pojedinačnoj disciplini postavio olimpijski rekord.",
     "source": "Wikipedia (en): Jesse Owens",
-    "tags": ["atletika", "Olimpijske igre"],
+    "tags": [
+      "atletika",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +374,15 @@
     "difficulty": 2,
     "question": "U kojoj se atletskoj disciplini koristi tehnika „Fosbury flop”?",
     "answer": "Skok u vis",
-    "accept": ["U skoku u vis"],
+    "accept": [
+      "U skoku u vis"
+    ],
     "note": "Dick Fosbury s njom je osvojio zlato na Igrama 1968. u Mexico Cityju.",
     "source": "Wikipedia (en): Fosbury flop",
-    "tags": ["atletika", "tehnike"],
+    "tags": [
+      "atletika",
+      "tehnike"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +393,15 @@
     "difficulty": 2,
     "question": "Koja je hrvatska atletičarka 2016. postala olimpijska pobjednica u bacanju koplja?",
     "answer": "Sara Kolak",
-    "accept": ["Kolak"],
+    "accept": [
+      "Kolak"
+    ],
     "note": "Rođena je 1995. i europska je prvakinja.",
     "source": "Wikipedia (en): Sara Kolak",
-    "tags": ["atletika", "Hrvatska"],
+    "tags": [
+      "atletika",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -303,7 +415,10 @@
     "accept": [],
     "note": "Vjerojatno dolazi od izraza „playing for love”, odnosno igrati bez uloga.",
     "source": "Wikipedia (en): Tennis scoring system",
-    "tags": ["tenis", "izrazi"],
+    "tags": [
+      "tenis",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +429,15 @@
     "difficulty": 3,
     "question": "Koje je godine Hrvatska prvi put osvojila Davisov kup?",
     "answer": "2005.",
-    "accept": ["2005"],
+    "accept": [
+      "2005"
+    ],
     "note": "Drugi je naslov osvojila 2018.",
     "source": "Wikipedia (en): Croatia Davis Cup team",
-    "tags": ["tenis", "Hrvatska"],
+    "tags": [
+      "tenis",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +448,17 @@
     "difficulty": 3,
     "question": "Koji je splitski košarkaški klub od 1989. do 1991. tri puta zaredom osvojio Kup europskih prvaka?",
     "answer": "KK Split",
-    "accept": ["Jugoplastika", "Split", "POP 84"],
+    "accept": [
+      "Jugoplastika",
+      "Split",
+      "POP 84"
+    ],
     "note": "U jugoslavensko doba klub je nosio ime Jugoplastika.",
     "source": "Wikipedia (en): KK Split",
-    "tags": ["košarka", "Hrvatska"],
+    "tags": [
+      "košarka",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +469,16 @@
     "difficulty": 3,
     "question": "Protiv koje je reprezentacije Hrvatska igrala finale olimpijskog košarkaškog turnira 1992. u Barceloni?",
     "answer": "SAD",
-    "accept": ["Sjedinjene Američke Države", "Dream Team"],
+    "accept": [
+      "Sjedinjene Američke Države",
+      "Dream Team"
+    ],
     "note": "Olimpijsko srebro iz Barcelone najveći je uspjeh hrvatske košarkaške reprezentacije.",
     "source": "Wikipedia (en): Croatia men's national basketball team",
-    "tags": ["košarka", "Hrvatska"],
+    "tags": [
+      "košarka",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +489,16 @@
     "difficulty": 3,
     "question": "Po kojem je norveškom klizaču nazvan najstariji skok u umjetničkom klizanju?",
     "answer": "Axel Paulsen",
-    "accept": ["Paulsen", "Axel"],
+    "accept": [
+      "Paulsen",
+      "Axel"
+    ],
     "note": "Smatra se i najtežim skokom u tom sportu.",
     "source": "Wikipedia (en): Axel jump",
-    "tags": ["klizanje", "zimski sportovi"],
+    "tags": [
+      "klizanje",
+      "zimski sportovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +509,15 @@
     "difficulty": 3,
     "question": "Koji je belgijski biciklist imao nadimak „Kanibal”?",
     "answer": "Eddy Merckx",
-    "accept": ["Merckx"],
+    "accept": [
+      "Merckx"
+    ],
     "note": "Nadimak je predložila kći jednog suigrača, jer Merckx nikome nije dao pobijediti.",
     "source": "Wikipedia (en): Eddy Merckx",
-    "tags": ["biciklizam", "nadimci"],
+    "tags": [
+      "biciklizam",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +528,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski skijaš 2011. osvojio ukupni poredak Svjetskog kupa?",
     "answer": "Ivica Kostelić",
-    "accept": ["Kostelić"],
+    "accept": [
+      "Kostelić"
+    ],
     "note": "Na tri uzastopne Olimpijske igre osvojio je srebro u kombinaciji.",
     "source": "Wikipedia (en): Ivica Kostelić",
-    "tags": ["skijanje", "Hrvatska"],
+    "tags": [
+      "skijanje",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +547,15 @@
     "difficulty": 3,
     "question": "Pod kojim je imenom rođen boksač Muhammad Ali?",
     "answer": "Cassius Clay",
-    "accept": ["Cassius Marcellus Clay"],
+    "accept": [
+      "Cassius Marcellus Clay"
+    ],
     "note": "Bio je poznat i po nadimku „the Greatest”.",
     "source": "Wikipedia (en): Muhammad Ali",
-    "tags": ["boks", "imena"],
+    "tags": [
+      "boks",
+      "imena"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +566,15 @@
     "difficulty": 3,
     "question": "Koji je kanuist iz Belišća 1976. osvojio olimpijsko zlato u disciplini C-1 1000 m?",
     "answer": "Matija Ljubek",
-    "accept": ["Ljubek"],
+    "accept": [
+      "Ljubek"
+    ],
     "note": "Na četiri Olimpijske igre osvojio je četiri medalje, od toga dva zlata.",
     "source": "Wikipedia (en): Matija Ljubek",
-    "tags": ["kajak i kanu", "Hrvatska"],
+    "tags": [
+      "kajak i kanu",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

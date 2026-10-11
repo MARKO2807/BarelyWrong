@@ -6,12 +6,19 @@
     "difficulty": 1,
     "question": "Koja je ptica, najčešće bijela, simbol mira?",
     "answer": "Golub",
-    "accept": ["golubica", "bijeli golub"],
+    "accept": [
+      "golubica",
+      "bijeli golub"
+    ],
     "note": "U kršćanskoj simbolici golubica predstavlja i Duha Svetoga.",
     "source": "Wikipedia (en): Doves as symbols",
-    "tags": ["ptice", "simboli"],
+    "tags": [
+      "ptice",
+      "simboli"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0161",
@@ -20,10 +27,16 @@
     "difficulty": 1,
     "question": "Kako se zove stanje dubokog mirovanja u kojem neke životinje prespavaju zimu?",
     "answer": "Hibernacija",
-    "accept": ["zimski san", "hiberniranje"],
+    "accept": [
+      "zimski san",
+      "hiberniranje"
+    ],
     "note": "Tijelo pritom snižava temperaturu, usporava disanje i rad srca.",
     "source": "Wikipedia (en): Hibernation",
-    "tags": ["sisavci", "zima"],
+    "tags": [
+      "sisavci",
+      "zima"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,9 +50,13 @@
     "accept": [],
     "note": "Ženka je ovca, a mužjak ovan; domaća ovca vjerojatno potječe od divljeg muflona.",
     "source": "Wikipedia (en): Sheep",
-    "tags": ["mladunčad", "domaće životinje"],
+    "tags": [
+      "mladunčad",
+      "domaće životinje"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0163",
@@ -48,10 +65,16 @@
     "difficulty": 1,
     "question": "Kako se zovu kornjaši koji ljetnih noći svijetle?",
     "answer": "Krijesnice",
-    "accept": ["krijesnica", "svitci"],
+    "accept": [
+      "krijesnica",
+      "svitci"
+    ],
     "note": "Sve krijesnice svijetle već kao ličinke, čime upozoravaju grabežljivce.",
     "source": "Wikipedia (en): Firefly",
-    "tags": ["kukci", "svjetlost"],
+    "tags": [
+      "kukci",
+      "svjetlost"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +85,15 @@
     "difficulty": 1,
     "question": "Polja koje mirisne biljke prekrivaju dijelove Hvara, a nekad su opskrbljivala francusku industriju parfema?",
     "answer": "Lavande",
-    "accept": ["lavanda"],
+    "accept": [
+      "lavanda"
+    ],
     "note": "Uz lavandu, Hvar je za parfumere uzgajao i ružmarin.",
     "source": "Wikipedia (en): Hvar",
-    "tags": ["Hrvatska", "biljke"],
+    "tags": [
+      "Hrvatska",
+      "biljke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +104,15 @@
     "difficulty": 2,
     "question": "Koji su majmuni najveći živući primati?",
     "answer": "Gorile",
-    "accept": ["gorila"],
+    "accept": [
+      "gorila"
+    ],
     "note": "Uz bonobe i čimpanze, najbliži su živući srodnici čovjeka.",
     "source": "Wikipedia (en): Gorilla",
-    "tags": ["sisavci", "primati"],
+    "tags": [
+      "sisavci",
+      "primati"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +123,15 @@
     "difficulty": 2,
     "question": "Kako se zove mužjak medonosne pčele?",
     "answer": "Trut",
-    "accept": ["trutovi"],
+    "accept": [
+      "trutovi"
+    ],
     "note": "Nema žalac i ne skuplja pelud ni nektar; jedina mu je uloga parenje.",
     "source": "Wikipedia (en): Drone (bee)",
-    "tags": ["kukci", "pčele"],
+    "tags": [
+      "kukci",
+      "pčele"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +142,15 @@
     "difficulty": 2,
     "question": "Koja se riba nakon godina u moru radi mriješćenja vraća u potok u kojem se izlegla?",
     "answer": "Losos",
-    "accept": ["lososi"],
+    "accept": [
+      "lososi"
+    ],
     "note": "Atlantski losos u moru provede od jedne do četiri godine.",
     "source": "Wikipedia (en): Salmon",
-    "tags": ["ribe", "seobe"],
+    "tags": [
+      "ribe",
+      "seobe"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +164,10 @@
     "accept": [],
     "note": "Vjetar u tajfunu puše najmanje 119 km/h.",
     "source": "Wikipedia (en): Typhoon",
-    "tags": ["vrijeme", "oluje"],
+    "tags": [
+      "vrijeme",
+      "oluje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +178,16 @@
     "difficulty": 2,
     "question": "Koji golemi oblaci donose grmljavinu, tuču i munje?",
     "answer": "Kumulonimbus",
-    "accept": ["kumulonimbusi", "olujni oblak"],
+    "accept": [
+      "kumulonimbusi",
+      "olujni oblak"
+    ],
     "note": "Zbog njih se nevrijeme ponekad zove i „thunderhead”.",
     "source": "Wikipedia (en): Cumulonimbus cloud",
-    "tags": ["vrijeme", "oblaci"],
+    "tags": [
+      "vrijeme",
+      "oblaci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +198,15 @@
     "difficulty": 2,
     "question": "Koji je veliki glodavac prekriven oštrim bodljama koje ga štite od grabežljivaca?",
     "answer": "Dikobraz",
-    "accept": ["dikobrazi"],
+    "accept": [
+      "dikobrazi"
+    ],
     "note": "Naziv obuhvaća dvije porodice, dikobraze Staroga i Novoga svijeta.",
     "source": "Wikipedia (en): Porcupine",
-    "tags": ["sisavci", "glodavci"],
+    "tags": [
+      "sisavci",
+      "glodavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +217,15 @@
     "difficulty": 2,
     "question": "Mužjaci kojeg kita pjevaju složene pjesme koje traju od 4 do 33 minute?",
     "answer": "Grbavog kita",
-    "accept": ["grbavi kit"],
+    "accept": [
+      "grbavi kit"
+    ],
     "note": "Poznat je i po iskakanju iz vode, zbog čega ga promatrači kitova posebno vole.",
     "source": "Wikipedia (en): Humpback whale",
-    "tags": ["sisavci", "more"],
+    "tags": [
+      "sisavci",
+      "more"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +236,15 @@
     "difficulty": 2,
     "question": "Kako se zove organizam nastao zajedničkim životom gljive i alge?",
     "answer": "Lišaj",
-    "accept": ["lišajevi"],
+    "accept": [
+      "lišajevi"
+    ],
     "note": "Većinu lišaja čine isprepletene niti gljive koje okružuju algu.",
     "source": "Wikipedia (en): Lichen",
-    "tags": ["gljive", "simbioza"],
+    "tags": [
+      "gljive",
+      "simbioza"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +255,15 @@
     "difficulty": 2,
     "question": "Koliko tjedana, računajući od posljednje menstruacije, u prosjeku traje trudnoća?",
     "answer": "40",
-    "accept": ["40 tjedana"],
+    "accept": [
+      "40 tjedana"
+    ],
     "note": "To je oko 280 dana.",
     "source": "Wikipedia (en): Pregnancy",
-    "tags": ["ljudsko tijelo", "razmnožavanje"],
+    "tags": [
+      "ljudsko tijelo",
+      "razmnožavanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +274,16 @@
     "difficulty": 2,
     "question": "Koja morska životinja s pet ili više krakova može obnoviti izgubljeni krak?",
     "answer": "Morska zvijezda",
-    "accept": ["morske zvijezde", "zvjezdača"],
+    "accept": [
+      "morske zvijezde",
+      "zvjezdača"
+    ],
     "note": "Neke se vrste hrane tako da izvrnu želudac iz tijela.",
     "source": "Wikipedia (en): Starfish",
-    "tags": ["more", "beskralježnjaci"],
+    "tags": [
+      "more",
+      "beskralježnjaci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +294,16 @@
     "difficulty": 3,
     "question": "Koja se australska zmija smatra najotrovnijom zmijom na svijetu?",
     "answer": "Unutrašnji taipan",
-    "accept": ["taipan", "Oxyuranus microlepidotus"],
+    "accept": [
+      "taipan",
+      "Oxyuranus microlepidotus"
+    ],
     "note": "Vrsta je ponovno otkrivena tek 1972.",
     "source": "Wikipedia (en): Inland taipan",
-    "tags": ["gmazovi", "Australija"],
+    "tags": [
+      "gmazovi",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +314,16 @@
     "difficulty": 3,
     "question": "Iz koje se biljne porodice dobiva začin vanilija?",
     "answer": "Orhideja",
-    "accept": ["orhideje", "kaćunovke"],
+    "accept": [
+      "orhideje",
+      "kaćunovke"
+    ],
     "note": "Cvjetovi se oprašuju ručno, postupkom koji je 1841. otkrio dvanaestogodišnji rob Edmond Albius na otoku Réunionu.",
     "source": "Wikipedia (en): Vanilla",
-    "tags": ["biljke", "začini"],
+    "tags": [
+      "biljke",
+      "začini"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +334,15 @@
     "difficulty": 3,
     "question": "Kako se zove ljetni san, stanje mirovanja u koje neke životinje padaju za vrućih i sušnih razdoblja?",
     "answer": "Estivacija",
-    "accept": ["ljetni san"],
+    "accept": [
+      "ljetni san"
+    ],
     "note": "Ime dolazi od latinske riječi aestas, „ljeto”.",
     "source": "Wikipedia (en): Aestivation",
-    "tags": ["životinje", "prilagodbe"],
+    "tags": [
+      "životinje",
+      "prilagodbe"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +356,10 @@
     "accept": [],
     "note": "Otkriven je 1958. u epifizi krava, jer je posvjetljivao kožu žaba.",
     "source": "Wikipedia (en): Melatonin",
-    "tags": ["ljudsko tijelo", "hormoni"],
+    "tags": [
+      "ljudsko tijelo",
+      "hormoni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +370,16 @@
     "difficulty": 3,
     "question": "Kako se zove ženski rasplodni dio cvijeta, iz kojeg se razvija plod?",
     "answer": "Tučak",
-    "accept": ["tučkovi", "gineceji"],
+    "accept": [
+      "tučkovi",
+      "gineceji"
+    ],
     "note": "Nalazi se u samom središtu cvijeta, okružen prašnicima.",
     "source": "Wikipedia (en): Gynoecium",
-    "tags": ["biljke", "cvijet"],
+    "tags": [
+      "biljke",
+      "cvijet"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

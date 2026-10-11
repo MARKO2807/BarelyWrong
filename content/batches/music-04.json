@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji je glazbenik 1971. objavio pjesmu „Imagine”?",
     "answer": "John Lennon",
-    "accept": ["Lennon"],
+    "accept": [
+      "Lennon"
+    ],
     "note": "Pjesma poziva na zamišljanje svijeta mira, bez granica i vjerskih podjela.",
     "source": "Wikipedia (en): Imagine (John Lennon song)",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -23,7 +28,10 @@
     "accept": [],
     "note": "Film je izašao 2002.",
     "source": "Wikipedia (en): Lose Yourself",
-    "tags": ["rap", "pjevači"],
+    "tags": [
+      "rap",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,7 +45,10 @@
     "accept": [],
     "note": "Pjesmu je napisao gitarist Noel Gallagher.",
     "source": "Wikipedia (en): Wonderwall (song)",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,12 +59,18 @@
     "difficulty": 1,
     "question": "Kako se zove pjevački glas najvišeg opsega?",
     "answer": "Sopran",
-    "accept": ["Soprano"],
+    "accept": [
+      "Soprano"
+    ],
     "note": "U zborskoj glazbi opseg mu seže od srednjeg C do A5.",
     "source": "Wikipedia (en): Soprano",
-    "tags": ["glazbeni pojmovi", "pjevanje"],
+    "tags": [
+      "glazbeni pojmovi",
+      "pjevanje"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0098",
@@ -62,10 +79,15 @@
     "difficulty": 1,
     "question": "Koja je američka pjevačica 2008. objavila pjesmu „Halo”?",
     "answer": "Beyoncé",
-    "accept": ["Beyonce"],
+    "accept": [
+      "Beyonce"
+    ],
     "note": "Pjesma je s njezina trećeg albuma „I Am... Sasha Fierce”.",
     "source": "Wikipedia (en): Halo (Beyoncé song)",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +101,10 @@
     "accept": [],
     "note": "Rođen je u Salzburgu, a kao čudo od djeteta poučavao ga je otac Leopold.",
     "source": "Wikipedia (en): Wolfgang Amadeus Mozart",
-    "tags": ["skladatelji", "klasična glazba"],
+    "tags": [
+      "skladatelji",
+      "klasična glazba"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +115,15 @@
     "difficulty": 1,
     "question": "Koliko je simfonija napisao Ludwig van Beethoven?",
     "answer": "9",
-    "accept": ["Devet"],
+    "accept": [
+      "Devet"
+    ],
     "note": "Odatle potječe praznovjerje o „kletvi devete simfonije”.",
     "source": "Wikipedia (en): Ludwig van Beethoven",
-    "tags": ["skladatelji", "brojevi"],
+    "tags": [
+      "skladatelji",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -107,7 +137,10 @@
     "accept": [],
     "note": "Ima 52 bijele i 36 crnih tipki, ukupno 88.",
     "source": "Wikipedia (en): Piano",
-    "tags": ["instrumenti", "klavir"],
+    "tags": [
+      "instrumenti",
+      "klavir"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -121,7 +154,10 @@
     "accept": [],
     "note": "Iako se obično izrađuje od mjedi, saksofon je drveni puhački instrument s jednim jezičkom.",
     "source": "Wikipedia (en): Saxophone",
-    "tags": ["instrumenti", "jazz"],
+    "tags": [
+      "instrumenti",
+      "jazz"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +171,10 @@
     "accept": [],
     "note": "Radnja se odvija u Sevilli i okolnim brdima, oko 1820.",
     "source": "Wikipedia (en): Carmen",
-    "tags": ["opera", "klasična glazba"],
+    "tags": [
+      "opera",
+      "klasična glazba"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +188,10 @@
     "accept": [],
     "note": "Dobio je Nobelovu nagradu za književnost 2016.",
     "source": "Wikipedia (en): Bob Dylan",
-    "tags": ["kantautori", "nagrade"],
+    "tags": [
+      "kantautori",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +205,10 @@
     "accept": [],
     "note": "Rođen je 1946. u obitelji indijskih Parsa.",
     "source": "Wikipedia (en): Freddie Mercury",
-    "tags": ["rock", "pjevači"],
+    "tags": [
+      "rock",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +222,10 @@
     "accept": [],
     "note": "Zaređen je s 25 godina, ali je zbog zdravlja bio oslobođen služenja javnih misa.",
     "source": "Wikipedia (en): Antonio Vivaldi",
-    "tags": ["barok", "skladatelji"],
+    "tags": [
+      "barok",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +239,10 @@
     "accept": [],
     "note": "Riječ je o požaru iz 1971.; pjesmu je Deep Purple objavio na albumu „Machine Head”.",
     "source": "Wikipedia (en): Smoke on the Water",
-    "tags": ["rock", "pjesme"],
+    "tags": [
+      "rock",
+      "pjesme"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +253,15 @@
     "difficulty": 2,
     "question": "Koje je godine umro Elvis Presley?",
     "answer": "1977.",
-    "accept": ["1977"],
+    "accept": [
+      "1977"
+    ],
     "note": "Rođen je 8. siječnja 1935.",
     "source": "Wikipedia (en): Elvis Presley",
-    "tags": ["rock", "godine"],
+    "tags": [
+      "rock",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +272,15 @@
     "difficulty": 2,
     "question": "Koje je godine osnovan sastav The Rolling Stones?",
     "answer": "1962.",
-    "accept": ["1962"],
+    "accept": [
+      "1962"
+    ],
     "note": "Aktivni su više od šest desetljeća.",
     "source": "Wikipedia (en): The Rolling Stones",
-    "tags": ["rock", "godine"],
+    "tags": [
+      "rock",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +291,15 @@
     "difficulty": 2,
     "question": "Koje je godine Michael Jackson objavio album „Thriller”?",
     "answer": "1982.",
-    "accept": ["1982"],
+    "accept": [
+      "1982"
+    ],
     "note": "Album je producirao Quincy Jones.",
     "source": "Wikipedia (en): Thriller (album)",
-    "tags": ["pop", "godine"],
+    "tags": [
+      "pop",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +310,15 @@
     "difficulty": 2,
     "question": "Kako se zove predznak ♯ koji ton povisuje za polustepen?",
     "answer": "Povisilica",
-    "accept": ["Diez"],
+    "accept": [
+      "Diez"
+    ],
     "note": "Suprotan mu je snizilica, koja ton snizuje.",
     "source": "Wikipedia (en): Sharp (music)",
-    "tags": ["glazbeni pojmovi", "teorija"],
+    "tags": [
+      "glazbeni pojmovi",
+      "teorija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +332,10 @@
     "accept": [],
     "note": "Bio je jedan od najutjecajnijih sastava jugoslavenske rock-scene.",
     "source": "Wikipedia (en): Haustor",
-    "tags": ["rock", "Hrvatska"],
+    "tags": [
+      "rock",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +349,10 @@
     "accept": [],
     "note": "Skladao ga je njegov otac, Johann Strauss stariji, a prvi je put izveden 1848. u Beču.",
     "source": "Wikipedia (en): Radetzky March",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -289,7 +366,10 @@
     "accept": [],
     "note": "Album se smatra jednim od najboljih u povijesti jugoslavenske popularne glazbe.",
     "source": "Wikipedia (en): Josipa Lisac",
-    "tags": ["pop", "Hrvatska"],
+    "tags": [
+      "pop",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +380,15 @@
     "difficulty": 3,
     "question": "Koliko je godina imao Mozart kad je umro?",
     "answer": "35",
-    "accept": ["Trideset pet"],
+    "accept": [
+      "Trideset pet"
+    ],
     "note": "Bio je najmlađe od sedmero djece, od kojih je petero umrlo u djetinjstvu.",
     "source": "Wikipedia (en): Wolfgang Amadeus Mozart",
-    "tags": ["skladatelji", "brojevi"],
+    "tags": [
+      "skladatelji",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +399,16 @@
     "difficulty": 3,
     "question": "Koliko traje pjesma „Bohemian Rhapsody”?",
     "answer": "5 min 55 s",
-    "accept": ["5:55", "Oko 6 minuta"],
+    "accept": [
+      "5:55",
+      "Oko 6 minuta"
+    ],
     "note": "Izdavači su je smatrali predugom za singl i predviđali da neće postati hit.",
     "source": "Wikipedia (en): Bohemian Rhapsody",
-    "tags": ["rock", "brojevi"],
+    "tags": [
+      "rock",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +419,15 @@
     "difficulty": 3,
     "question": "Koji je dalmatinski skladatelj autor opereta „Mala Floramye” i „Splitski akvarel”?",
     "answer": "Ivo Tijardović",
-    "accept": ["Tijardović"],
+    "accept": [
+      "Tijardović"
+    ],
     "note": "Skladao je osam opereta, oslanjajući se na dalmatinski folklor.",
     "source": "Wikipedia (en): Ivo Tijardović",
-    "tags": ["opereta", "Hrvatska"],
+    "tags": [
+      "opereta",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +438,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski skladatelj autor opera „Oganj” i „Postolar od Delfta”?",
     "answer": "Blagoje Bersa",
-    "accept": ["Bersa"],
+    "accept": [
+      "Bersa"
+    ],
     "note": "Radio je kao profesor kompozicije na zagrebačkoj Muzičkoj akademiji.",
     "source": "Wikipedia (en): Blagoje Bersa",
-    "tags": ["opera", "Hrvatska"],
+    "tags": [
+      "opera",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Kako se zove modna lutka koju je tvrtka Mattel predstavila 1959.?",
     "answer": "Barbie",
-    "accept": ["Barbika"],
+    "accept": [
+      "Barbika"
+    ],
     "note": "Osmislila ju je Ruth Handler, prema njemačkoj lutki Bild Lilli.",
     "source": "Wikipedia (en): Barbie",
-    "tags": ["igračke", "marke"],
+    "tags": [
+      "igračke",
+      "marke"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0067",
@@ -20,12 +26,19 @@
     "difficulty": 1,
     "question": "Koji se grad od milja zove „Velika jabuka”?",
     "answer": "New York",
-    "accept": ["New York City", "NYC"],
+    "accept": [
+      "New York City",
+      "NYC"
+    ],
     "note": "Nadimak je 1920-ih popularizirao sportski novinar John J. Fitz Gerald.",
     "source": "Wikipedia (en): Big Apple",
-    "tags": ["gradovi", "nadimci"],
+    "tags": [
+      "gradovi",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0068",
@@ -34,12 +47,18 @@
     "difficulty": 1,
     "question": "Koji se europski glavni grad zove „Gradom svjetlosti”?",
     "answer": "Pariz",
-    "accept": ["Paris"],
+    "accept": [
+      "Paris"
+    ],
     "note": "Nadimak duguje uglavnom svojoj vodećoj ulozi u doba prosvjetiteljstva.",
     "source": "Wikipedia (en): Paris",
-    "tags": ["gradovi", "nadimci"],
+    "tags": [
+      "gradovi",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0069",
@@ -51,9 +70,13 @@
     "accept": [],
     "note": "Riječ doslovno znači „sadnja u posudi”.",
     "source": "Wikipedia (en): Bonsai",
-    "tags": ["Japan", "biljke"],
+    "tags": [
+      "Japan",
+      "biljke"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0070",
@@ -62,12 +85,18 @@
     "difficulty": 1,
     "question": "Koja se šahovska figura kreće u obliku slova L?",
     "answer": "Skakač",
-    "accept": ["Konj"],
+    "accept": [
+      "Konj"
+    ],
     "note": "Pri pomicanju može preskakati druge figure.",
     "source": "Wikipedia (en): Knight (chess)",
-    "tags": ["šah", "igre"],
+    "tags": [
+      "šah",
+      "igre"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0071",
@@ -76,10 +105,16 @@
     "difficulty": 1,
     "question": "Kojeg je datuma Hrvatska uvela euro?",
     "answer": "1. siječnja 2023.",
-    "accept": ["1. 1. 2023.", "2023."],
+    "accept": [
+      "1. 1. 2023.",
+      "2023."
+    ],
     "note": "Postala je 20. članica europodručja.",
     "source": "Wikipedia (en): Croatia and the euro",
-    "tags": ["novac", "Hrvatska"],
+    "tags": [
+      "novac",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,12 +125,18 @@
     "difficulty": 1,
     "question": "Koja je internetska vršna domena Hrvatske?",
     "answer": ".hr",
-    "accept": ["hr"],
+    "accept": [
+      "hr"
+    ],
     "note": "Domenom upravlja CARNET, Hrvatska akademska i istraživačka mreža.",
     "source": "Wikipedia (en): .hr",
-    "tags": ["internet", "Hrvatska"],
+    "tags": [
+      "internet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0073",
@@ -104,12 +145,19 @@
     "difficulty": 1,
     "question": "Koji je međunarodni pozivni broj Hrvatske?",
     "answer": "+385",
-    "accept": ["385", "00385"],
+    "accept": [
+      "385",
+      "00385"
+    ],
     "note": "Hrvatska ga je dobila nakon raspada SFRJ, čiji je pozivni broj bio +38.",
     "source": "Wikipedia (en): Telephone numbers in Croatia",
-    "tags": ["telefonija", "Hrvatska"],
+    "tags": [
+      "telefonija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0074",
@@ -121,7 +169,10 @@
     "accept": [],
     "note": "Nakon razlaza braće 1949. Adolf je osnovao Adidas, a Rudolf Pumu.",
     "source": "Wikipedia (en): Adidas",
-    "tags": ["marke", "sport"],
+    "tags": [
+      "marke",
+      "sport"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +186,10 @@
     "accept": [],
     "note": "Jedini je park koji je nastao pod izravnim nadzorom samog Walta Disneyja.",
     "source": "Wikipedia (en): Disneyland",
-    "tags": ["zabava", "SAD"],
+    "tags": [
+      "zabava",
+      "SAD"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +203,10 @@
     "accept": [],
     "note": "Igra se razvila iz „The Landlord's Game”, koju je 1903. osmislila Lizzie Magie.",
     "source": "Wikipedia (en): Monopoly (game)",
-    "tags": ["društvene igre", "SAD"],
+    "tags": [
+      "društvene igre",
+      "SAD"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +220,10 @@
     "accept": [],
     "note": "Padajući dijelovi sastavljeni od četiri kvadrata zovu se tetromini.",
     "source": "Wikipedia (en): Tetris",
-    "tags": ["videoigre", "izumi"],
+    "tags": [
+      "videoigre",
+      "izumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +237,10 @@
     "accept": [],
     "note": "Riječi se slažu kao u križaljci, vodoravno i okomito.",
     "source": "Wikipedia (en): Scrabble",
-    "tags": ["društvene igre", "riječi"],
+    "tags": [
+      "društvene igre",
+      "riječi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +254,10 @@
     "accept": [],
     "note": "Na kovanicama su još šahovnica, karta Hrvatske, Nikola Tesla i glagoljica.",
     "source": "Wikipedia (en): Croatian euro coins",
-    "tags": ["novac", "Hrvatska"],
+    "tags": [
+      "novac",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +271,10 @@
     "accept": [],
     "note": "Nastala je spajanjem nekoliko zagrebačkih proizvođača slatkiša.",
     "source": "Wikipedia (en): Kraš",
-    "tags": ["marke", "Hrvatska"],
+    "tags": [
+      "marke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +288,10 @@
     "accept": [],
     "note": "Papirići su izvorno bili mali žuti kvadrati.",
     "source": "Wikipedia (en): Post-it note",
-    "tags": ["izumi", "marke"],
+    "tags": [
+      "izumi",
+      "marke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +305,10 @@
     "accept": [],
     "note": "Pietro Ferrero imao je pekarnicu u Albi, gradiću poznatom po lješnjacima.",
     "source": "Wikipedia (en): Nutella",
-    "tags": ["hrana", "marke"],
+    "tags": [
+      "hrana",
+      "marke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +322,10 @@
     "accept": [],
     "note": "Najrašireniji je umjetni pomoćni jezik na svijetu.",
     "source": "Wikipedia (en): Esperanto",
-    "tags": ["jezici", "izumi"],
+    "tags": [
+      "jezici",
+      "izumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +336,15 @@
     "difficulty": 2,
     "question": "Koliko boja ima klasična Rubikova kocka?",
     "answer": "6",
-    "accept": ["Šest"],
+    "accept": [
+      "Šest"
+    ],
     "note": "Bijela, crvena, plava, narančasta, zelena i žuta, a svaka ploha ima devet naljepnica.",
     "source": "Wikipedia (en): Rubik's Cube",
-    "tags": ["igračke", "zagonetke"],
+    "tags": [
+      "igračke",
+      "zagonetke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +355,15 @@
     "difficulty": 2,
     "question": "Koji švedski proizvođač automobila ima sjedište u Göteborgu?",
     "answer": "Volvo",
-    "accept": ["Volvo Cars"],
+    "accept": [
+      "Volvo Cars"
+    ],
     "note": "Marketing mu se temelji na sigurnosti i švedskom podrijetlu.",
     "source": "Wikipedia (en): Volvo Cars",
-    "tags": ["automobili", "marke"],
+    "tags": [
+      "automobili",
+      "marke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +374,16 @@
     "difficulty": 2,
     "question": "U kojem se gradu nalazi sjedište FIFA-e?",
     "answer": "Zürich",
-    "accept": ["Zurich", "Cirih"],
+    "accept": [
+      "Zurich",
+      "Cirih"
+    ],
     "note": "Udruženje je osnovano prema švicarskom pravu.",
     "source": "Wikipedia (en): FIFA",
-    "tags": ["sport", "organizacije"],
+    "tags": [
+      "sport",
+      "organizacije"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +394,15 @@
     "difficulty": 2,
     "question": "U kojem je gradu 1868. postavljen prvi semafor?",
     "answer": "London",
-    "accept": ["Londonu"],
+    "accept": [
+      "Londonu"
+    ],
     "note": "Postavljen je na Parliament Squareu, kako bi se smanjila potreba za policajcima u prometu.",
     "source": "Wikipedia (en): Traffic light",
-    "tags": ["promet", "izumi"],
+    "tags": [
+      "promet",
+      "izumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +413,16 @@
     "difficulty": 2,
     "question": "Koju je društvenu igru 1907. i 1908. osmislio Nijemac Josef Friedrich Schmidt?",
     "answer": "Čovječe, ne ljuti se",
-    "accept": ["Mensch ärgere Dich nicht", "Ne ljuti se, čovječe"],
+    "accept": [
+      "Mensch ärgere Dich nicht",
+      "Ne ljuti se, čovječe"
+    ],
     "note": "Slična je indijskoj igri pachisi, a prodano je oko 70 milijuna primjeraka.",
     "source": "Wikipedia (en): Mensch ärgere Dich nicht",
-    "tags": ["društvene igre", "Njemačka"],
+    "tags": [
+      "društvene igre",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +433,16 @@
     "difficulty": 3,
     "question": "Koja je tvrtka, osnovana 1950., bila prva neovisna tvrtka za platne kartice na svijetu?",
     "answer": "Diners Club",
-    "accept": ["Diners Club International", "Diners"],
+    "accept": [
+      "Diners Club International",
+      "Diners"
+    ],
     "note": "Osnivači su bili Frank X. McNamara, Ralph Schneider, Matty Simmons i Alfred S. Bloomingdale.",
     "source": "Wikipedia (en): Diners Club International",
-    "tags": ["novac", "marke"],
+    "tags": [
+      "novac",
+      "marke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +453,16 @@
     "difficulty": 3,
     "question": "Kako se zove tipografski znak ¶, kojim se označava odlomak?",
     "answer": "Pilcrow",
-    "accept": ["Znak odlomka", "Paragraf"],
+    "accept": [
+      "Znak odlomka",
+      "Paragraf"
+    ],
     "note": "Zove se i „slijepo P”.",
     "source": "Wikipedia (en): Pilcrow",
-    "tags": ["znakovi", "tipografija"],
+    "tags": [
+      "znakovi",
+      "tipografija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +473,15 @@
     "difficulty": 3,
     "question": "Koji je japanski dizajner 1999. za NTT DoCoMo stvorio poznati skup emojija?",
     "answer": "Shigetaka Kurita",
-    "accept": ["Kurita"],
+    "accept": [
+      "Kurita"
+    ],
     "note": "Dugo se smatralo da je to bio prvi skup emojija, ali su poslije pronađeni i stariji.",
     "source": "Wikipedia (en): Emoji",
-    "tags": ["internet", "Japan"],
+    "tags": [
+      "internet",
+      "Japan"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +492,15 @@
     "difficulty": 3,
     "question": "Po kojem je košarkašu nazvana ptica s logotipa Twittera?",
     "answer": "Larry Bird",
-    "accept": ["Bird"],
+    "accept": [
+      "Bird"
+    ],
     "note": "Pticu „Larry the Bird” 2009. je nacrtao dizajner Philip Pascuzzo.",
     "source": "Wikipedia (en): Twitter",
-    "tags": ["logotipi", "internet"],
+    "tags": [
+      "logotipi",
+      "internet"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +511,16 @@
     "difficulty": 3,
     "question": "Koje su boje, unatoč nazivu, „crne kutije” u zrakoplovima?",
     "answer": "Narančaste",
-    "accept": ["Narančasta", "Žarko narančasta"],
+    "accept": [
+      "Narančasta",
+      "Žarko narančasta"
+    ],
     "note": "Žarka boja olakšava njihovo pronalaženje nakon nesreće.",
     "source": "Wikipedia (en): Flight recorder",
-    "tags": ["promet", "zrakoplovstvo"],
+    "tags": [
+      "promet",
+      "zrakoplovstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +531,16 @@
     "difficulty": 3,
     "question": "Tko je 1903. osmislio „The Landlord's Game”, preteču Monopolyja?",
     "answer": "Lizzie Magie",
-    "accept": ["Elizabeth Magie", "Magie"],
+    "accept": [
+      "Elizabeth Magie",
+      "Magie"
+    ],
     "note": "Igrom je htjela pokazati prednosti gospodarstva koje ne pogoduje monopolima.",
     "source": "Wikipedia (en): Monopoly (game)",
-    "tags": ["društvene igre", "izumitelji"],
+    "tags": [
+      "društvene igre",
+      "izumitelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +551,16 @@
     "difficulty": 3,
     "question": "Koliko je kuna vrijedio jedan euro prema fiksnom tečaju konverzije?",
     "answer": "7,5345 kn",
-    "accept": ["7,5345", "7,53"],
+    "accept": [
+      "7,5345",
+      "7,53"
+    ],
     "note": "Kuna je kao valuta uvedena 1994., a ime je dobila po životinji.",
     "source": "Wikipedia (en): Croatia and the euro",
-    "tags": ["novac", "Hrvatska"],
+    "tags": [
+      "novac",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

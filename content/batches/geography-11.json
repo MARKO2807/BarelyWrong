@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Tajlanda?",
     "answer": "Bangkok",
-    "accept": ["Krung Thep"],
+    "accept": [
+      "Krung Thep"
+    ],
     "note": "Na tajlandskom se zove Krung Thep Maha Nakhon.",
     "source": "Wikipedia (en): Bangkok",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0243",
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Južne Koreje?",
     "answer": "Seul",
-    "accept": ["Seoul"],
+    "accept": [
+      "Seoul"
+    ],
     "note": "Ujedno je najveći grad na cijelom Korejskom poluotoku.",
     "source": "Wikipedia (en): Seoul",
-    "tags": ["glavni gradovi", "Azija"],
+    "tags": [
+      "glavni gradovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0244",
@@ -34,10 +46,15 @@
     "difficulty": 1,
     "question": "Koja je druga najmanja suverena država na svijetu, ujedno i najgušće naseljena?",
     "answer": "Monako",
-    "accept": ["Monaco"],
+    "accept": [
+      "Monaco"
+    ],
     "note": "Ima najkraću morsku obalu od svih država, dugu 3,83 km.",
     "source": "Wikipedia (en): Monaco",
-    "tags": ["države", "Europa"],
+    "tags": [
+      "države",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +65,15 @@
     "difficulty": 1,
     "question": "Koji je slavni kanjon u Arizoni izdubila rijeka Colorado?",
     "answer": "Veliki kanjon",
-    "accept": ["Grand Canyon"],
+    "accept": [
+      "Grand Canyon"
+    ],
     "note": "Dug je 446 km, a dubok više od 1800 metara.",
     "source": "Wikipedia (en): Grand Canyon",
-    "tags": ["kanjoni", "Sjeverna Amerika"],
+    "tags": [
+      "kanjoni",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,12 +84,18 @@
     "difficulty": 1,
     "question": "Koji je glavni i najveći grad Finske?",
     "answer": "Helsinki",
-    "accept": ["Helsingfors"],
+    "accept": [
+      "Helsingfors"
+    ],
     "note": "Do oko 1930. na engleskom se zvao švedskim imenom Helsingfors.",
     "source": "Wikipedia (en): Helsinki",
-    "tags": ["glavni gradovi", "Europa"],
+    "tags": [
+      "glavni gradovi",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "geography-0247",
@@ -76,10 +104,15 @@
     "difficulty": 2,
     "question": "Koja je planinska skupina u sjeveroistočnoj Italiji 2009. upisana na UNESCO-ov popis svjetske baštine?",
     "answer": "Dolomiti",
-    "accept": ["Dolomites"],
+    "accept": [
+      "Dolomites"
+    ],
     "note": "U njima je i UNESCO-ov geopark Adamello-Brenta.",
     "source": "Wikipedia (en): Dolomites",
-    "tags": ["planine", "Europa"],
+    "tags": [
+      "planine",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +123,16 @@
     "difficulty": 2,
     "question": "Koje je gorje, najviše u Karpatima, prirodna granica Slovačke i Poljske?",
     "answer": "Tatre",
-    "accept": ["Visoke Tatre", "Tatra"],
+    "accept": [
+      "Visoke Tatre",
+      "Tatra"
+    ],
     "note": "Treba ih razlikovati od Niskih Tatri, zasebnog gorja u Slovačkoj.",
     "source": "Wikipedia (en): Tatra Mountains",
-    "tags": ["planine", "Europa"],
+    "tags": [
+      "planine",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +146,10 @@
     "accept": [],
     "note": "Dvanaesta je po duljini rijeka na svijetu.",
     "source": "Wikipedia (en): Mekong",
-    "tags": ["rijeke", "Azija"],
+    "tags": [
+      "rijeke",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +160,15 @@
     "difficulty": 2,
     "question": "Koja je najdulja rijeka zapadne Azije, jedna od dviju rijeka koje omeđuju Mezopotamiju?",
     "answer": "Eufrat",
-    "accept": ["Euphrates"],
+    "accept": [
+      "Euphrates"
+    ],
     "note": "Mezopotamija doslovno znači „zemlja između rijeka”.",
     "source": "Wikipedia (en): Euphrates",
-    "tags": ["rijeke", "Azija"],
+    "tags": [
+      "rijeke",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +179,15 @@
     "difficulty": 2,
     "question": "Na kojoj se afričkoj rijeci, četvrtoj po duljini na kontinentu, nalaze Viktorijini slapovi?",
     "answer": "Zambezi",
-    "accept": ["Zambezija"],
+    "accept": [
+      "Zambezija"
+    ],
     "note": "Najdulja je afrička rijeka koja teče prema istoku.",
     "source": "Wikipedia (en): Zambezi",
-    "tags": ["rijeke", "Afrika"],
+    "tags": [
+      "rijeke",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +198,15 @@
     "difficulty": 2,
     "question": "Koja se sibirska rijeka, peti riječni sustav na svijetu po duljini, ulijeva u Karsko more?",
     "answer": "Jenisej",
-    "accept": ["Yenisei"],
+    "accept": [
+      "Yenisei"
+    ],
     "note": "Na njoj je brana kod Krasnojarska.",
     "source": "Wikipedia (en): Yenisey",
-    "tags": ["rijeke", "Azija"],
+    "tags": [
+      "rijeke",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +217,16 @@
     "difficulty": 2,
     "question": "Koja je rijeka, poznata i kao Huang He, druga po duljini u Kini?",
     "answer": "Žuta rijeka",
-    "accept": ["Huang He", "Huanghe"],
+    "accept": [
+      "Huang He",
+      "Huanghe"
+    ],
     "note": "Šesta je po duljini na svijetu, duga oko 5464 km.",
     "source": "Wikipedia (en): Yellow River",
-    "tags": ["rijeke", "Azija"],
+    "tags": [
+      "rijeke",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +240,10 @@
     "accept": [],
     "note": "Telašćica je uvala duga oko 10 km.",
     "source": "Wikipedia (en): Telašćica",
-    "tags": ["otoci", "Hrvatska"],
+    "tags": [
+      "otoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +257,10 @@
     "accept": [],
     "note": "Glavna joj je pritoka Krupa, bogata sedrom.",
     "source": "Wikipedia (en): Zrmanja",
-    "tags": ["rijeke", "Hrvatska"],
+    "tags": [
+      "rijeke",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +271,15 @@
     "difficulty": 2,
     "question": "Koja rijeka čini prirodnu granicu ruskog Dalekog istoka i sjeveroistočne Kine?",
     "answer": "Amur",
-    "accept": ["Heilong"],
+    "accept": [
+      "Heilong"
+    ],
     "note": "Na kineskom se zove Heilong.",
     "source": "Wikipedia (en): Amur River",
-    "tags": ["rijeke", "Azija"],
+    "tags": [
+      "rijeke",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +290,15 @@
     "difficulty": 3,
     "question": "Koja je rijeka treća na svijetu po protoku, a porječje joj dijele Venezuela i Kolumbija?",
     "answer": "Orinoco",
-    "accept": ["Orinoko"],
+    "accept": [
+      "Orinoko"
+    ],
     "note": "Duga je oko 2140 km.",
     "source": "Wikipedia (en): Orinoco",
-    "tags": ["rijeke", "Južna Amerika"],
+    "tags": [
+      "rijeke",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +309,16 @@
     "difficulty": 3,
     "question": "Koje je umjetno jezero u Dalmatinskoj zagori, između Sinja i Vrlike, drugo po veličini u Hrvatskoj?",
     "answer": "Peruća",
-    "accept": ["Perućko jezero", "Peruča"],
+    "accept": [
+      "Perućko jezero",
+      "Peruča"
+    ],
     "note": "Omeđuju ga Svilaja na jugozapadu i Dinara na sjeveroistoku.",
     "source": "Wikipedia (en): Peruća",
-    "tags": ["jezera", "Hrvatska"],
+    "tags": [
+      "jezera",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +332,10 @@
     "accept": [],
     "note": "Latinski se zvao Solentium.",
     "source": "Wikipedia (en): Šolta",
-    "tags": ["otoci", "Hrvatska"],
+    "tags": [
+      "otoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +346,15 @@
     "difficulty": 3,
     "question": "Koja planina u sjevernoj Hrvatskoj ima istoimeni najviši vrh visok 1059 metara?",
     "answer": "Ivanščica",
-    "accept": ["Ivančica"],
+    "accept": [
+      "Ivančica"
+    ],
     "note": "Sa Strahinjščicom čini masiv Očura.",
     "source": "Wikipedia (en): Ivanščica",
-    "tags": ["planine", "Hrvatska"],
+    "tags": [
+      "planine",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +365,15 @@
     "difficulty": 3,
     "question": "Koji je nenaseljeni vulkanski otočić u Jadranu, zapadno od Visa?",
     "answer": "Jabuka",
-    "accept": ["otok Jabuka"],
+    "accept": [
+      "otok Jabuka"
+    ],
     "note": "Najbliži su mu otočići Svetac i Brusnik.",
     "source": "Wikipedia (en): Jabuka (island)",
-    "tags": ["otoci", "Hrvatska"],
+    "tags": [
+      "otoci",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Kojeg pjevača zovu „kraljem popa”?",
     "answer": "Michael Jackson",
-    "accept": ["Jackson"],
+    "accept": [
+      "Jackson"
+    ],
     "note": "Njegov album „Thriller” iz 1982. najprodavaniji je album u povijesti.",
     "source": "Wikipedia (en): Michael Jackson",
-    "tags": ["pop", "1980-e"],
+    "tags": [
+      "pop",
+      "1980-e"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0035",
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Koliko žica obično ima violina?",
     "answer": "4",
-    "accept": ["Četiri"],
+    "accept": [
+      "Četiri"
+    ],
     "note": "Žice se ugađaju u čistim kvintama: G, D, A i E.",
     "source": "Wikipedia (en): Violin",
-    "tags": ["instrumenti", "brojevi"],
+    "tags": [
+      "instrumenti",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0036",
@@ -34,10 +46,17 @@
     "difficulty": 1,
     "question": "Koji je ruski skladatelj napisao balet „Labuđe jezero”?",
     "answer": "Petar Iljič Čajkovski",
-    "accept": ["Čajkovski", "Tchaikovsky"],
+    "accept": [
+      "Čajkovski",
+      "Tchaikovsky"
+    ],
     "note": "Čajkovski je napisao i balete „Trnoružica” i „Orašar”.",
     "source": "Wikipedia (en): Swan Lake",
-    "tags": ["balet", "klasična glazba", "skladatelji"],
+    "tags": [
+      "balet",
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +70,11 @@
     "accept": [],
     "note": "Bio je to osmi studijski album sastava.",
     "source": "Wikipedia (en): The Dark Side of the Moon",
-    "tags": ["rock", "albumi", "1970-e"],
+    "tags": [
+      "rock",
+      "albumi",
+      "1970-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,12 +85,18 @@
     "difficulty": 1,
     "question": "Koliko crta obično ima notno crtovlje?",
     "answer": "5",
-    "accept": ["Pet"],
+    "accept": [
+      "Pet"
+    ],
     "note": "Crtovlje se zove i pentagram, a svaka crta i razmak označavaju drugu visinu tona.",
     "source": "Wikipedia (en): Staff (music)",
-    "tags": ["glazbeni pojmovi", "brojevi"],
+    "tags": [
+      "glazbeni pojmovi",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0039",
@@ -79,7 +108,10 @@
     "accept": [],
     "note": "Pepsi je zbog prosvjeda protiv spota otkazao Madonni sponzorski ugovor.",
     "source": "Wikipedia (en): Like a Prayer (song)",
-    "tags": ["pop", "1980-e"],
+    "tags": [
+      "pop",
+      "1980-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +122,16 @@
     "difficulty": 1,
     "question": "Tko je bio bubnjar Beatlesa?",
     "answer": "Ringo Starr",
-    "accept": ["Ringo", "Richard Starkey"],
+    "accept": [
+      "Ringo",
+      "Richard Starkey"
+    ],
     "note": "Pravim imenom Richard Starkey, katkad je i pjevao, obično po jednu pjesmu na albumu.",
     "source": "Wikipedia (en): Ringo Starr",
-    "tags": ["rock", "Beatles"],
+    "tags": [
+      "rock",
+      "Beatles"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -107,7 +145,11 @@
     "accept": [],
     "note": "Nirvana je bila predvodnik grunge zvuka iz Seattlea.",
     "source": "Wikipedia (en): Kurt Cobain",
-    "tags": ["rock", "grunge", "1990-e"],
+    "tags": [
+      "rock",
+      "grunge",
+      "1990-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -121,7 +163,10 @@
     "accept": [],
     "note": "Pjesma otvara njezin drugi album, nazvan „21”.",
     "source": "Wikipedia (en): Rolling in the Deep",
-    "tags": ["pop", "2010-e"],
+    "tags": [
+      "pop",
+      "2010-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +177,17 @@
     "difficulty": 2,
     "question": "Koji je austrijski skladatelj 1866. napisao valcer „Na lijepom plavom Dunavu”?",
     "answer": "Johann Strauss mlađi",
-    "accept": ["Johann Strauss", "Strauss"],
+    "accept": [
+      "Johann Strauss",
+      "Strauss"
+    ],
     "note": "Prvi put izveo ga je 1867. bečki muški pjevački zbor.",
     "source": "Wikipedia (en): The Blue Danube",
-    "tags": ["valcer", "klasična glazba", "skladatelji"],
+    "tags": [
+      "valcer",
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +198,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski rock-sastav 2021. pobijedio na Euroviziji s pjesmom „Zitti e buoni”?",
     "answer": "Måneskin",
-    "accept": ["Maneskin"],
+    "accept": [
+      "Maneskin"
+    ],
     "note": "Iste je godine pobijedio i na festivalu u Sanremu.",
     "source": "Wikipedia (en): Måneskin",
-    "tags": ["Eurovizija", "rock"],
+    "tags": [
+      "Eurovizija",
+      "rock"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +217,16 @@
     "difficulty": 2,
     "question": "Koji je skladatelj napisao „Ljubav i zlobu”, prvu hrvatsku operu?",
     "answer": "Vatroslav Lisinski",
-    "accept": ["Lisinski"],
+    "accept": [
+      "Lisinski"
+    ],
     "note": "Praizvedbom 1846. Hrvati su, nakon Nijemaca i Rusa, postali treći narod u Europi s nacionalnom operom.",
     "source": "Wikipedia (hr): Ljubav i zloba",
-    "tags": ["opera", "skladatelji", "Hrvatska"],
+    "tags": [
+      "opera",
+      "skladatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +237,15 @@
     "difficulty": 2,
     "question": "U kojoj je američkoj saveznoj državi 1969. održan festival Woodstock?",
     "answer": "New York",
-    "accept": ["Država New York"],
+    "accept": [
+      "Država New York"
+    ],
     "note": "Održan je na farmi Maxa Yasgura u Bethelu, oko 95 km od samog grada Woodstocka.",
     "source": "Wikipedia (en): Woodstock",
-    "tags": ["festivali", "1960-e"],
+    "tags": [
+      "festivali",
+      "1960-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +256,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski tenor, uz Plácida Dominga i Joséa Carrerasa, bio jedan od Tri tenora?",
     "answer": "Luciano Pavarotti",
-    "accept": ["Pavarotti"],
+    "accept": [
+      "Pavarotti"
+    ],
     "note": "Tri tenora prvi su put zajedno nastupila 1990. u Rimu, uoči finala Svjetskog prvenstva u nogometu.",
     "source": "Wikipedia (en): The Three Tenors",
-    "tags": ["opera", "pjevači"],
+    "tags": [
+      "opera",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +275,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski skladatelj napisao operu „Madama Butterfly”?",
     "answer": "Giacomo Puccini",
-    "accept": ["Puccini"],
+    "accept": [
+      "Puccini"
+    ],
     "note": "Libreto su napisali Luigi Illica i Giuseppe Giacosa.",
     "source": "Wikipedia (en): Madama Butterfly",
-    "tags": ["opera", "skladatelji"],
+    "tags": [
+      "opera",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +294,15 @@
     "difficulty": 2,
     "question": "Koji je francuski skladatelj napisao operu „Carmen”?",
     "answer": "Georges Bizet",
-    "accept": ["Bizet"],
+    "accept": [
+      "Bizet"
+    ],
     "note": "Opera se temelji na noveli Prospera Mériméea.",
     "source": "Wikipedia (en): Carmen",
-    "tags": ["opera", "skladatelji"],
+    "tags": [
+      "opera",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +313,16 @@
     "difficulty": 2,
     "question": "Koji je hrvatski skladatelj napisao operu „Ero s onoga svijeta”?",
     "answer": "Jakov Gotovac",
-    "accept": ["Gotovac"],
+    "accept": [
+      "Gotovac"
+    ],
     "note": "Na operi je radio od listopada 1932. do svibnja 1935.",
     "source": "Wikipedia (hr): Ero s onoga svijeta",
-    "tags": ["opera", "skladatelji", "Hrvatska"],
+    "tags": [
+      "opera",
+      "skladatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +333,15 @@
     "difficulty": 2,
     "question": "Kojeg američkog rock-glazbenika zovu „Boss”?",
     "answer": "Bruce Springsteen",
-    "accept": ["Springsteen"],
+    "accept": [
+      "Springsteen"
+    ],
     "note": "S pratećim sastavom E Street Band svira od 1972.",
     "source": "Wikipedia (en): Bruce Springsteen",
-    "tags": ["rock", "pjevači"],
+    "tags": [
+      "rock",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +352,16 @@
     "difficulty": 2,
     "question": "Koji je jamajčanski sastav 1974. snimio pjesmu „No Woman, No Cry”?",
     "answer": "Bob Marley and the Wailers",
-    "accept": ["Bob Marley", "The Wailers"],
+    "accept": [
+      "Bob Marley",
+      "The Wailers"
+    ],
     "note": "Najpoznatija je izvedba uživo s albuma „Live!” iz 1975.",
     "source": "Wikipedia (en): No Woman, No Cry",
-    "tags": ["reggae", "1970-e"],
+    "tags": [
+      "reggae",
+      "1970-e"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +372,15 @@
     "difficulty": 2,
     "question": "Koji je američki skladatelj 1924. napisao „Rapsodiju u plavom”?",
     "answer": "George Gershwin",
-    "accept": ["Gershwin"],
+    "accept": [
+      "Gershwin"
+    ],
     "note": "Skladbu je naručio vođa orkestra Paul Whiteman, a spaja klasičnu glazbu i jazz.",
     "source": "Wikipedia (en): Rhapsody in Blue",
-    "tags": ["jazz", "skladatelji"],
+    "tags": [
+      "jazz",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -289,7 +394,11 @@
     "accept": [],
     "note": "Album je producirao Piko Stančić.",
     "source": "Wikipedia (hr): Prljavo kazalište",
-    "tags": ["rock", "novi val", "Hrvatska"],
+    "tags": [
+      "rock",
+      "novi val",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +409,15 @@
     "difficulty": 2,
     "question": "Koju američku pjevačicu zovu „kraljicom soula”?",
     "answer": "Aretha Franklin",
-    "accept": ["Aretha"],
+    "accept": [
+      "Aretha"
+    ],
     "note": "Jedna od njezinih najpoznatijih pjesama je „Respect”.",
     "source": "Wikipedia (en): Aretha Franklin",
-    "tags": ["soul", "pjevači"],
+    "tags": [
+      "soul",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +428,15 @@
     "difficulty": 3,
     "question": "Koji je jazz-saksofonist bio poznat po nadimku „Bird”?",
     "answer": "Charlie Parker",
-    "accept": ["Parker"],
+    "accept": [
+      "Parker"
+    ],
     "note": "Bio je jedna od vodećih figura bebopa.",
     "source": "Wikipedia (en): Charlie Parker",
-    "tags": ["jazz", "instrumentalisti"],
+    "tags": [
+      "jazz",
+      "instrumentalisti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +447,15 @@
     "difficulty": 3,
     "question": "Koju je jazz-pjevačicu prijatelj Lester Young prozvao „Lady Day”?",
     "answer": "Billie Holiday",
-    "accept": ["Holiday"],
+    "accept": [
+      "Holiday"
+    ],
     "note": "Rođena je kao Eleanora Fagan.",
     "source": "Wikipedia (en): Billie Holiday",
-    "tags": ["jazz", "pjevači"],
+    "tags": [
+      "jazz",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +466,15 @@
     "difficulty": 3,
     "question": "Koji je engleski skladatelj napisao orkestralnu suitu „Planeti”?",
     "answer": "Gustav Holst",
-    "accept": ["Holst"],
+    "accept": [
+      "Holst"
+    ],
     "note": "Suita ima sedam stavaka, a u posljednjem orkestru se pridružuje ženski zbor bez riječi.",
     "source": "Wikipedia (en): The Planets",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -359,7 +488,10 @@
     "accept": [],
     "note": "Najveće orgulje imaju svirale „od 64 stope”.",
     "source": "Wikipedia (en): Organ (music)",
-    "tags": ["instrumenti", "klasična glazba"],
+    "tags": [
+      "instrumenti",
+      "klasična glazba"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +502,16 @@
     "difficulty": 3,
     "question": "Koji je šibenski skladatelj 1620. u Veneciji objavio zbirku moteta „Sacrae cantiones”?",
     "answer": "Ivan Lukačić",
-    "accept": ["Lukačić"],
+    "accept": [
+      "Lukačić"
+    ],
     "note": "Zbirka sadrži 27 moteta i donosi novi monodijski stil gotovo istodobno s Italijom.",
     "source": "Wikipedia (hr): Ivan Lukačić",
-    "tags": ["barok", "skladatelji", "Hrvatska"],
+    "tags": [
+      "barok",
+      "skladatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +522,16 @@
     "difficulty": 3,
     "question": "Koji se dubrovački skladatelj smatra prvim hrvatskim skladateljem simfonija?",
     "answer": "Luka Sorkočević",
-    "accept": ["Sorkočević"],
+    "accept": [
+      "Sorkočević"
+    ],
     "note": "Stvarao je pod snažnim utjecajem talijanske pretklasične simfonije.",
     "source": "Wikipedia (hr): Luka Sorkočević",
-    "tags": ["klasična glazba", "skladatelji", "Hrvatska"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +542,16 @@
     "difficulty": 3,
     "question": "Koja se tradicijska ljestvica od šest tonova uvijek pjeva dvoglasno, u netemperiranim intervalima?",
     "answer": "Istarska ljestvica",
-    "accept": ["Istarska"],
+    "accept": [
+      "Istarska"
+    ],
     "note": "Tonovi se nižu izmjenjujući polustupnjeve i cijele stupnjeve.",
     "source": "Wikipedia (hr): Istarska ljestvica",
-    "tags": ["tradicijska glazba", "Istra", "Hrvatska"],
+    "tags": [
+      "tradicijska glazba",
+      "Istra",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +562,17 @@
     "difficulty": 3,
     "question": "Koji je stari puhački instrument sličan oboi, u Istri poznat kao roženice?",
     "answer": "Sopile",
-    "accept": ["Roženice", "Sopila"],
+    "accept": [
+      "Roženice",
+      "Sopila"
+    ],
     "note": "Sačuvan je na Kvarneru, u Kastavštini, Vinodolu i na otoku Krku.",
     "source": "Wikipedia (hr): Sopile",
-    "tags": ["instrumenti", "tradicijska glazba", "Hrvatska"],
+    "tags": [
+      "instrumenti",
+      "tradicijska glazba",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

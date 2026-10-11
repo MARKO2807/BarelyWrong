@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Krugovi predstavljaju četiri udružene automobilske tvrtke, a ime je latinski prijevod prezimena osnivača Horcha.",
     "source": "Wikipedia (en): Audi",
-    "tags": ["automobili", "logotipi"],
+    "tags": [
+      "automobili",
+      "logotipi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -23,9 +26,13 @@
     "accept": [],
     "note": "Današnji stil mange razvio se krajem 19. stoljeća.",
     "source": "Wikipedia (en): Manga",
-    "tags": ["Japan", "stripovi"],
+    "tags": [
+      "Japan",
+      "stripovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0122",
@@ -37,9 +44,13 @@
     "accept": [],
     "note": "Sjedište joj je u zagrebačkom naselju Buzin.",
     "source": "Wikipedia (en): Croatia Airlines",
-    "tags": ["promet", "Hrvatska"],
+    "tags": [
+      "promet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0123",
@@ -48,10 +59,15 @@
     "difficulty": 1,
     "question": "Kako se zove talijanski sladoled, čije ime znači „smrznut”?",
     "answer": "Gelato",
-    "accept": ["Đelato"],
+    "accept": [
+      "Đelato"
+    ],
     "note": "Na talijanskom je gelato zajednički naziv za sve vrste sladoleda.",
     "source": "Wikipedia (en): Gelato",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +81,10 @@
     "accept": [],
     "note": "Plod kave zove se i trešnja kave, a obično sadrži dvije sjemenke.",
     "source": "Wikipedia (en): Coffee bean",
-    "tags": ["pića", "biljke"],
+    "tags": [
+      "pića",
+      "biljke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +98,10 @@
     "accept": [],
     "note": "Brončana fontana nalazi se u središtu Bruxellesa.",
     "source": "Wikipedia (en): Manneken Pis",
-    "tags": ["znamenitosti", "Europa"],
+    "tags": [
+      "znamenitosti",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,12 +112,18 @@
     "difficulty": 1,
     "question": "Koliko sati ima jedan tjedan?",
     "answer": "168",
-    "accept": ["Sto šezdeset osam"],
+    "accept": [
+      "Sto šezdeset osam"
+    ],
     "note": "Sedam dana po 24 sata.",
     "source": "Wikipedia (en): Week",
-    "tags": ["vrijeme", "brojevi"],
+    "tags": [
+      "vrijeme",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0127",
@@ -104,10 +132,15 @@
     "difficulty": 2,
     "question": "U kojem je njemačkom gradu sjedište proizvođača sportskih automobila Porsche?",
     "answer": "Stuttgart",
-    "accept": ["U Stuttgartu"],
+    "accept": [
+      "U Stuttgartu"
+    ],
     "note": "Tvrtka je u vlasništvu Volkswagena.",
     "source": "Wikipedia (en): Porsche",
-    "tags": ["automobili", "Njemačka"],
+    "tags": [
+      "automobili",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +151,15 @@
     "difficulty": 2,
     "question": "Na kojem se poluotoku nalazi vinogorje Dingač?",
     "answer": "Pelješac",
-    "accept": ["Na Pelješcu"],
+    "accept": [
+      "Na Pelješcu"
+    ],
     "note": "Vinogradi su na strmim padinama između Trstenika i Podobuča.",
     "source": "Wikipedia (en): Dingač",
-    "tags": ["vino", "Hrvatska"],
+    "tags": [
+      "vino",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +170,15 @@
     "difficulty": 2,
     "question": "Koje je najpoznatije pivo Zagrebačke pivovare?",
     "answer": "Ožujsko",
-    "accept": ["Ožujsko pivo"],
+    "accept": [
+      "Ožujsko pivo"
+    ],
     "note": "Pivovara je od 2013. dio tvrtke Molson Coors.",
     "source": "Wikipedia (en): Ožujsko",
-    "tags": ["pića", "Hrvatska"],
+    "tags": [
+      "pića",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -149,7 +192,10 @@
     "accept": [],
     "note": "Hrvatsko ime upućuje na to da bi sorta mogla potjecati s istoka Balkana.",
     "source": "Wikipedia (en): Graševina",
-    "tags": ["vino", "Hrvatska"],
+    "tags": [
+      "vino",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +206,17 @@
     "difficulty": 2,
     "question": "Od mlijeka koje se životinje radi mozzarella di bufala?",
     "answer": "Od bivoličjeg",
-    "accept": ["Bivolica", "Vodeni bivol", "Bivoličje mlijeko"],
+    "accept": [
+      "Bivolica",
+      "Vodeni bivol",
+      "Bivoličje mlijeko"
+    ],
     "note": "Ona iz Kampanije nosi zaštićenu oznaku podrijetla.",
     "source": "Wikipedia (en): Mozzarella di Bufala Campana",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +230,10 @@
     "accept": [],
     "note": "Radi se od kakaova maslaca, šećera i mliječnih krutina, bez nemasnih dijelova kakaa.",
     "source": "Wikipedia (en): White chocolate",
-    "tags": ["hrana", "zablude"],
+    "tags": [
+      "hrana",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +247,10 @@
     "accept": [],
     "note": "Kikiriki je mahunarka, a jestive sjemenke rastu u mahunama pod zemljom.",
     "source": "Wikipedia (en): Peanut",
-    "tags": ["hrana", "biljke"],
+    "tags": [
+      "hrana",
+      "biljke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +264,10 @@
     "accept": [],
     "note": "Zbog visoke koncentracije šećera i kiselosti mikroorganizmi u njemu teško rastu.",
     "source": "Wikipedia (en): Honey",
-    "tags": ["hrana", "znanost"],
+    "tags": [
+      "hrana",
+      "znanost"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +278,15 @@
     "difficulty": 2,
     "question": "Koliko ukupno točkica ima obična kocka za igru?",
     "answer": "21",
-    "accept": ["Dvadeset jedna"],
+    "accept": [
+      "Dvadeset jedna"
+    ],
     "note": "Točkice na suprotnim stranama zbrajaju se u sedam.",
     "source": "Wikipedia (en): Dice",
-    "tags": ["igre", "brojevi"],
+    "tags": [
+      "igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +297,15 @@
     "difficulty": 3,
     "question": "Koja je sorta grožđa nastala križanjem crljenka kaštelanskog i dobričića?",
     "answer": "Plavac mali",
-    "accept": ["Plavac"],
+    "accept": [
+      "Plavac"
+    ],
     "note": "Glavna je crna sorta uz dalmatinsku obalu.",
     "source": "Wikipedia (en): Plavac Mali",
-    "tags": ["vino", "Hrvatska"],
+    "tags": [
+      "vino",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +316,15 @@
     "difficulty": 3,
     "question": "Koji je dvorski eunuh dinastije Han oko 105. godine razvio izradu papira?",
     "answer": "Cai Lun",
-    "accept": ["Caj Lun"],
+    "accept": [
+      "Caj Lun"
+    ],
     "note": "Postoje i arheološki tragovi materijala nalik papiru iz 2. stoljeća pr. Kr.",
     "source": "Wikipedia (en): Paper",
-    "tags": ["izumi", "Kina"],
+    "tags": [
+      "izumi",
+      "Kina"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +338,10 @@
     "accept": [],
     "note": "Riječ potječe iz južnokineskih narječja hokkien.",
     "source": "Wikipedia (en): Ketchup",
-    "tags": ["hrana", "riječi"],
+    "tags": [
+      "hrana",
+      "riječi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +352,16 @@
     "difficulty": 3,
     "question": "Koliko je centimetara visok kip Manneken Pis?",
     "answer": "55,5 cm",
-    "accept": ["55,5", "56"],
+    "accept": [
+      "55,5",
+      "56"
+    ],
     "note": "Prikazuje nagog dječaka koji mokri u bazen fontane.",
     "source": "Wikipedia (en): Manneken Pis",
-    "tags": ["znamenitosti", "brojevi"],
+    "tags": [
+      "znamenitosti",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

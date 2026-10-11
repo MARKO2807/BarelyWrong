@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Pod kojim je nadimkom poznat brazilski nogometaš Edson Arantes do Nascimento?",
     "answer": "Pelé",
-    "accept": ["Pele"],
+    "accept": [
+      "Pele"
+    ],
     "note": "Jedini je igrač koji je osvojio tri svjetska prvenstva: 1958., 1962. i 1970.",
     "source": "Wikipedia (en): Pelé",
-    "tags": ["nogomet", "nadimci"],
+    "tags": [
+      "nogomet",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Kojim se nadimcima zove hrvatska nogometna reprezentacija?",
     "answer": "Vatreni",
-    "accept": ["Kockasti", "Vatreni i Kockasti"],
+    "accept": [
+      "Kockasti",
+      "Vatreni i Kockasti"
+    ],
     "note": "Boje dresova odražavaju šahovnicu i hrvatsku trobojnicu.",
     "source": "Wikipedia (en): Croatia national football team",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0117",
@@ -34,12 +46,18 @@
     "difficulty": 1,
     "question": "Kako se zove splitski stadion na kojem Hajduk igra od 1979.?",
     "answer": "Poljud",
-    "accept": ["Stadion Poljud"],
+    "accept": [
+      "Stadion Poljud"
+    ],
     "note": "Ime je dobio po splitskoj četvrti u kojoj se nalazi.",
     "source": "Wikipedia (en): Stadion Poljud",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0118",
@@ -48,10 +66,16 @@
     "difficulty": 1,
     "question": "Za koji je NBA klub Michael Jordan osvojio šest naslova prvaka?",
     "answer": "Chicago Bulls",
-    "accept": ["Bulls", "Chicago"],
+    "accept": [
+      "Bulls",
+      "Chicago"
+    ],
     "note": "U NBA ligi igrao je 15 sezona, između 1984. i 2003.",
     "source": "Wikipedia (en): Michael Jordan",
-    "tags": ["košarka", "klubovi"],
+    "tags": [
+      "košarka",
+      "klubovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +89,10 @@
     "accept": [],
     "note": "Plamen se pali u Olimpiji u Grčkoj, a tim obredom počinje štafeta s bakljom.",
     "source": "Wikipedia (en): Olympic flame",
-    "tags": ["Olimpijske igre", "zablude"],
+    "tags": [
+      "Olimpijske igre",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +106,10 @@
     "accept": [],
     "note": "Asovi se najčešće postižu prvim servisom, kad igrač udara punom snagom.",
     "source": "Wikipedia (en): Ace (tennis)",
-    "tags": ["tenis", "pravila"],
+    "tags": [
+      "tenis",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,12 +120,19 @@
     "difficulty": 1,
     "question": "Koliko minuta traje regularno vrijeme rukometne utakmice?",
     "answer": "60",
-    "accept": ["60 minuta", "2 × 30 minuta"],
+    "accept": [
+      "60 minuta",
+      "2 × 30 minuta"
+    ],
     "note": "Igra se na terenu dimenzija 40 × 20 metara.",
     "source": "Wikipedia (en): Handball",
-    "tags": ["rukomet", "pravila"],
+    "tags": [
+      "rukomet",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0122",
@@ -104,10 +141,16 @@
     "difficulty": 2,
     "question": "Kako se zvao trofej za pobjednika Svjetskog prvenstva u nogometu od 1930. do 1970.?",
     "answer": "Trofej Julesa Rimeta",
-    "accept": ["Jules Rimet", "Jules Rimet Trophy"],
+    "accept": [
+      "Jules Rimet",
+      "Jules Rimet Trophy"
+    ],
     "note": "Od 1974. dodjeljuje se novi trofej, FIFA World Cup Trophy.",
     "source": "Wikipedia (en): FIFA World Cup Trophy",
-    "tags": ["nogomet", "trofeji"],
+    "tags": [
+      "nogomet",
+      "trofeji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +161,16 @@
     "difficulty": 2,
     "question": "Iz koje zemlje potječe borilački sport muay thai?",
     "answer": "Tajland",
-    "accept": ["Iz Tajlanda", "Tajlanda"],
+    "accept": [
+      "Iz Tajlanda",
+      "Tajlanda"
+    ],
     "note": "Zove se i tajlandski boks.",
     "source": "Wikipedia (en): Muay Thai",
-    "tags": ["borilački sportovi", "Azija"],
+    "tags": [
+      "borilački sportovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +181,16 @@
     "difficulty": 2,
     "question": "Iz koje zemlje potječe taekwondo?",
     "answer": "Koreja",
-    "accept": ["Iz Koreje", "Južna Koreja"],
+    "accept": [
+      "Iz Koreje",
+      "Južna Koreja"
+    ],
     "note": "Temelji se ponajprije na udarcima nogom.",
     "source": "Wikipedia (en): Taekwondo",
-    "tags": ["borilački sportovi", "Azija"],
+    "tags": [
+      "borilački sportovi",
+      "Azija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +201,15 @@
     "difficulty": 2,
     "question": "Koji se talijanski nogometni klub zove „Stara dama”?",
     "answer": "Juventus",
-    "accept": ["Juve"],
+    "accept": [
+      "Juve"
+    ],
     "note": "Najuspješniji je klub talijanskog nogometa, a osnovali su ga studenti iz Torina.",
     "source": "Wikipedia (en): Juventus FC",
-    "tags": ["nogomet", "nadimci"],
+    "tags": [
+      "nogomet",
+      "nadimci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -163,7 +223,10 @@
     "accept": [],
     "note": "Taj se datum smatra rođendanom sporta, a iste je godine u Njemačkoj odigrana i prva službena utakmica.",
     "source": "Wikipedia (en): Handball",
-    "tags": ["rukomet", "povijest sporta"],
+    "tags": [
+      "rukomet",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +240,10 @@
     "accept": [],
     "note": "Pobijedio je domaćin Urugvaj, svladavši u finalu Argentinu 4:2.",
     "source": "Wikipedia (en): 1930 FIFA World Cup",
-    "tags": ["nogomet", "povijest sporta"],
+    "tags": [
+      "nogomet",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +257,10 @@
     "accept": [],
     "note": "Za Hrvatsku su zabili Perišić i Mandžukić.",
     "source": "Wikipedia (en): 2018 FIFA World Cup final",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +271,15 @@
     "difficulty": 2,
     "question": "Koliko igrača svake momčadi igra u ragbiju, u njegovu najčešćem obliku?",
     "answer": "15",
-    "accept": ["Petnaest"],
+    "accept": [
+      "Petnaest"
+    ],
     "note": "Igra se ovalnom loptom, a vrata imaju oblik slova H.",
     "source": "Wikipedia (en): Rugby union",
-    "tags": ["ragbi", "pravila"],
+    "tags": [
+      "ragbi",
+      "pravila"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +290,16 @@
     "difficulty": 2,
     "question": "Na kojem je svjetskom prvenstvu u nogometu Hrvatska prvi put nastupila kao samostalna država?",
     "answer": "1998.",
-    "accept": ["1998", "Francuska 1998."],
+    "accept": [
+      "1998",
+      "Francuska 1998."
+    ],
     "note": "U FIFA-u je primljena 1994., kao 125. reprezentacija na ljestvici.",
     "source": "Wikipedia (en): Croatia national football team",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +310,15 @@
     "difficulty": 3,
     "question": "Kako se zove srebrni pladanj koji dobiva pobjednica Wimbledona?",
     "answer": "Venus Rosewater Dish",
-    "accept": ["Rosewater Dish"],
+    "accept": [
+      "Rosewater Dish"
+    ],
     "note": "Pladanj ima promjer od oko 48 cm.",
     "source": "Wikipedia (en): Wimbledon Championships",
-    "tags": ["tenis", "trofeji"],
+    "tags": [
+      "tenis",
+      "trofeji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -247,7 +332,10 @@
     "accept": [],
     "note": "Trebale su se održati u Tokiju, a zatim u Helsinkiju.",
     "source": "Wikipedia (en): 1940 Summer Olympics",
-    "tags": ["Olimpijske igre", "povijest sporta"],
+    "tags": [
+      "Olimpijske igre",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +349,10 @@
     "accept": [],
     "note": "Prvi je put održan 1903., kako bi se povećala prodaja novina L'Auto.",
     "source": "Wikipedia (en): Tour de France",
-    "tags": ["biciklizam", "povijest sporta"],
+    "tags": [
+      "biciklizam",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +366,10 @@
     "accept": [],
     "note": "Stalni je olimpijski sport za muškarce od 1936.",
     "source": "Wikipedia (en): Basketball at the Summer Olympics",
-    "tags": ["košarka", "Olimpijske igre"],
+    "tags": [
+      "košarka",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +380,16 @@
     "difficulty": 3,
     "question": "Koliko kilograma teži muška kugla u atletici?",
     "answer": "7,26 kg",
-    "accept": ["7,26", "7,25"],
+    "accept": [
+      "7,26",
+      "7,25"
+    ],
     "note": "Ženska kugla teži 4 kilograma.",
     "source": "Wikipedia (en): Shot put",
-    "tags": ["atletika", "brojevi"],
+    "tags": [
+      "atletika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

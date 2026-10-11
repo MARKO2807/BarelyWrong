@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji dio biljke učvršćuje biljku u tlu i iz njega upija vodu i hranjive tvari?",
     "answer": "Korijen",
-    "accept": ["korijenje"],
+    "accept": [
+      "korijenje"
+    ],
     "note": "Neki korijeni, poput mrkve, služe i kao spremište hrane.",
     "source": "Wikipedia (en): Root",
-    "tags": ["biljke", "građa"],
+    "tags": [
+      "biljke",
+      "građa"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0181",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji dio oka određuje boju očiju?",
     "answer": "Šarenica",
-    "accept": ["iris"],
+    "accept": [
+      "iris"
+    ],
     "note": "Ime iris dolazi od grčke riječi za dugu.",
     "source": "Wikipedia (en): Iris (anatomy)",
-    "tags": ["ljudsko tijelo", "oko"],
+    "tags": [
+      "ljudsko tijelo",
+      "oko"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,7 +48,10 @@
     "accept": [],
     "note": "U njoj je oko 80 % ukupne mase atmosfere.",
     "source": "Wikipedia (en): Troposphere",
-    "tags": ["atmosfera", "vrijeme"],
+    "tags": [
+      "atmosfera",
+      "vrijeme"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,7 +65,10 @@
     "accept": [],
     "note": "Najbliži mu je srodnik bio također izumrli pustinjak s otoka Rodriguesa, ptica koja nije letjela.",
     "source": "Wikipedia (en): Dodo",
-    "tags": ["ptice", "izumrle vrste"],
+    "tags": [
+      "ptice",
+      "izumrle vrste"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +79,15 @@
     "difficulty": 1,
     "question": "Koji je glodavac najveći na svijetu?",
     "answer": "Kapibara",
-    "accept": ["kapibare"],
+    "accept": [
+      "kapibare"
+    ],
     "note": "Napola je vodena životinja i biljojed.",
     "source": "Wikipedia (en): Capybara",
-    "tags": ["sisavci", "glodavci"],
+    "tags": [
+      "sisavci",
+      "glodavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +98,16 @@
     "difficulty": 2,
     "question": "Koji je mišić najveći u ljudskom tijelu?",
     "answer": "Veliki stražnjični mišić",
-    "accept": ["gluteus maximus", "stražnjični mišić"],
+    "accept": [
+      "gluteus maximus",
+      "stražnjični mišić"
+    ],
     "note": "Glavni je ispružač kuka.",
     "source": "Wikipedia (en): Gluteus maximus",
-    "tags": ["ljudsko tijelo", "mišići"],
+    "tags": [
+      "ljudsko tijelo",
+      "mišići"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +118,15 @@
     "difficulty": 2,
     "question": "Koja je najdulja otrovna zmija na svijetu?",
     "answer": "Kraljevska kobra",
-    "accept": ["kobra"],
+    "accept": [
+      "kobra"
+    ],
     "note": "Rekordni primjerak bio je dug 5,85 m.",
     "source": "Wikipedia (en): King cobra",
-    "tags": ["gmazovi", "rekordi"],
+    "tags": [
+      "gmazovi",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +137,15 @@
     "difficulty": 2,
     "question": "Koja je vrsta javora glavni izvor javorova sirupa?",
     "answer": "Šećerni javor",
-    "accept": ["Acer saccharum"],
+    "accept": [
+      "Acer saccharum"
+    ],
     "note": "Raste u šumama istočnog dijela Sjeverne Amerike.",
     "source": "Wikipedia (en): Acer saccharum",
-    "tags": ["drveće", "Sjeverna Amerika"],
+    "tags": [
+      "drveće",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +159,10 @@
     "accept": [],
     "note": "Takav se oblik zove batesovska mimikrija.",
     "source": "Wikipedia (en): Mimicry",
-    "tags": ["životinje", "prilagodbe"],
+    "tags": [
+      "životinje",
+      "prilagodbe"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Kako se zove ljestvica jačine vjetra od 0 do 12?",
     "answer": "Beaufortova ljestvica",
-    "accept": ["Beaufort"],
+    "accept": [
+      "Beaufort"
+    ],
     "note": "Izvorno nije sadržavala brzine vjetra, nego opise stanja na moru.",
     "source": "Wikipedia (en): Beaufort scale",
-    "tags": ["vrijeme", "vjetrovi"],
+    "tags": [
+      "vrijeme",
+      "vjetrovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +192,15 @@
     "difficulty": 2,
     "question": "Koja je zmija najteža na svijetu?",
     "answer": "Zelena anakonda",
-    "accept": ["anakonda"],
+    "accept": [
+      "anakonda"
+    ],
     "note": "Živi na sjeveru Južne Amerike.",
     "source": "Wikipedia (en): Green anaconda",
-    "tags": ["gmazovi", "rekordi"],
+    "tags": [
+      "gmazovi",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +211,15 @@
     "difficulty": 2,
     "question": "Koja je vrsta jelena najviša i najteža na svijetu?",
     "answer": "Los",
-    "accept": ["sjeverni los"],
+    "accept": [
+      "sjeverni los"
+    ],
     "note": "Jedina je živuća vrsta svog roda.",
     "source": "Wikipedia (en): Moose",
-    "tags": ["sisavci", "rekordi"],
+    "tags": [
+      "sisavci",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +230,16 @@
     "difficulty": 2,
     "question": "Kako se zove biljka „ne diraj me” čiji se listovi pri dodiru brzo sklope i spuste?",
     "answer": "Mimoza",
-    "accept": ["Mimosa pudica", "stidljiva mimoza"],
+    "accept": [
+      "Mimosa pudica",
+      "stidljiva mimoza"
+    ],
     "note": "Uzgaja se ponajviše iz znatiželje, zbog te neobične reakcije.",
     "source": "Wikipedia (en): Mimosa pudica",
-    "tags": ["biljke", "pokreti"],
+    "tags": [
+      "biljke",
+      "pokreti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +253,10 @@
     "accept": [],
     "note": "Psi svih pasmina imaju jednak broj kostiju, osim u repu.",
     "source": "Wikipedia (en): Dog",
-    "tags": ["sisavci", "psi"],
+    "tags": [
+      "sisavci",
+      "psi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +267,15 @@
     "difficulty": 2,
     "question": "Ženka kojeg kukca ponekad pojede mužjaka nakon ili tijekom parenja?",
     "answer": "Bogomoljke",
-    "accept": ["bogomoljka"],
+    "accept": [
+      "bogomoljka"
+    ],
     "note": "Kod hladnije klime odrasle jedinke ujesen polažu jaja i ugibaju.",
     "source": "Wikipedia (en): Mantis",
-    "tags": ["kukci", "razmnožavanje"],
+    "tags": [
+      "kukci",
+      "razmnožavanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +286,15 @@
     "difficulty": 3,
     "question": "Koliko otprilike kostiju ima novorođenče?",
     "answer": "270",
-    "accept": ["oko 270"],
+    "accept": [
+      "oko 270"
+    ],
     "note": "Neke kosti kasnije srastu, pa odrasla osoba ima oko 206 kostiju.",
     "source": "Wikipedia (en): Human skeleton",
-    "tags": ["ljudsko tijelo", "kosti"],
+    "tags": [
+      "ljudsko tijelo",
+      "kosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +305,16 @@
     "difficulty": 3,
     "question": "Kako se zvala kornjača s otoka Pinte, posljednja poznata jedinka svoje podvrste, uginula 2012.?",
     "answer": "Usamljeni George",
-    "accept": ["Lonesome George", "George"],
+    "accept": [
+      "Lonesome George",
+      "George"
+    ],
     "note": "Postala je simbol zaštite prirode na Galapagosu i u svijetu.",
     "source": "Wikipedia (en): Lonesome George",
-    "tags": ["gmazovi", "izumrle vrste"],
+    "tags": [
+      "gmazovi",
+      "izumrle vrste"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +328,10 @@
     "accept": [],
     "note": "Važan je i za prostorno pamćenje i snalaženje.",
     "source": "Wikipedia (en): Hippocampus",
-    "tags": ["ljudsko tijelo", "mozak"],
+    "tags": [
+      "ljudsko tijelo",
+      "mozak"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +345,10 @@
     "accept": [],
     "note": "Isprva se mislilo da je stara 405 godina.",
     "source": "Wikipedia (en): Ming (clam)",
-    "tags": ["more", "rekordi"],
+    "tags": [
+      "more",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +362,10 @@
     "accept": [],
     "note": "Ime dolazi od grčkih riječi za gljivu i korijen.",
     "source": "Wikipedia (en): Mycorrhiza",
-    "tags": ["gljive", "simbioza"],
+    "tags": [
+      "gljive",
+      "simbioza"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

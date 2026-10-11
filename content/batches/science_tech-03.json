@@ -9,7 +9,10 @@
     "accept": [],
     "note": "Simbol dolazi od latinskog argentum; srebro najbolje od svih metala provodi struju i toplinu.",
     "source": "Wikipedia (en): Silver",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +23,18 @@
     "difficulty": 1,
     "question": "Pri kojoj temperaturi, u stupnjevima Celzija, voda vrije na razini mora?",
     "answer": "100 °C",
-    "accept": ["100"],
+    "accept": [
+      "100"
+    ],
     "note": "Na nižem tlaku vrije pri nižoj temperaturi.",
     "source": "Wikipedia (en): Boiling point",
-    "tags": ["fizika", "voda"],
+    "tags": [
+      "fizika",
+      "voda"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0068",
@@ -34,12 +43,18 @@
     "difficulty": 1,
     "question": "Tko je 1975. s Paulom Allenom osnovao Microsoft?",
     "answer": "Bill Gates",
-    "accept": ["Gates"],
+    "accept": [
+      "Gates"
+    ],
     "note": "Tvrtka je osnovana da bi prodavala interpretere za BASIC za računalo Altair 8800.",
     "source": "Wikipedia (en): Microsoft",
-    "tags": ["tehnologija", "tvrtke"],
+    "tags": [
+      "tehnologija",
+      "tvrtke"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0069",
@@ -48,12 +63,18 @@
     "difficulty": 1,
     "question": "Tko je 2004. s kolegama s Harvarda osnovao Facebook?",
     "answer": "Mark Zuckerberg",
-    "accept": ["Zuckerberg"],
+    "accept": [
+      "Zuckerberg"
+    ],
     "note": "Suosnivači su bili i Eduardo Saverin, Andrew McCollum i Dustin Moskovitz.",
     "source": "Wikipedia (en): Facebook",
-    "tags": ["tehnologija", "internet"],
+    "tags": [
+      "tehnologija",
+      "internet"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0070",
@@ -65,9 +86,13 @@
     "accept": [],
     "note": "Ima i najveću toplinsku vodljivost od svih prirodnih materijala.",
     "source": "Wikipedia (en): Diamond",
-    "tags": ["kemija", "minerali"],
+    "tags": [
+      "kemija",
+      "minerali"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0071",
@@ -79,7 +104,10 @@
     "accept": [],
     "note": "Ima 17 puta veću masu od Zemlje.",
     "source": "Wikipedia (en): Neptune",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +121,10 @@
     "accept": [],
     "note": "Android se temelji na izmijenjenoj inačici jezgre Linuxa.",
     "source": "Wikipedia (en): Android (operating system)",
-    "tags": ["tehnologija", "mobiteli"],
+    "tags": [
+      "tehnologija",
+      "mobiteli"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +135,16 @@
     "difficulty": 1,
     "question": "Kako se zove galaksija u kojoj se nalazi Sunčev sustav?",
     "answer": "Mliječna staza",
-    "accept": ["Mliječni put", "Kumova slama"],
+    "accept": [
+      "Mliječni put",
+      "Kumova slama"
+    ],
     "note": "Ime opisuje maglovitu svjetlosnu prugu koju na noćnom nebu tvore zvijezde.",
     "source": "Wikipedia (en): Milky Way",
-    "tags": ["astronomija", "svemir"],
+    "tags": [
+      "astronomija",
+      "svemir"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +155,15 @@
     "difficulty": 1,
     "question": "Kako se zvala sovjetska kuja koja je 1957. prva od životinja kružila oko Zemlje?",
     "answer": "Lajka",
-    "accept": ["Laika"],
+    "accept": [
+      "Laika"
+    ],
     "note": "Bila je lutalica s moskovskih ulica, a letjela je u letjelici Sputnjik 2.",
     "source": "Wikipedia (en): Laika",
-    "tags": ["svemir", "životinje"],
+    "tags": [
+      "svemir",
+      "životinje"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +177,10 @@
     "accept": [],
     "note": "Simbol dolazi od novolatinskog natrium.",
     "source": "Wikipedia (en): Sodium",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +191,15 @@
     "difficulty": 2,
     "question": "Kako se zove mjerna jedinica za silu u sustavu SI?",
     "answer": "Njutn",
-    "accept": ["Newton"],
+    "accept": [
+      "Newton"
+    ],
     "note": "Nazvana je po Isaacu Newtonu, u čast njegova drugog zakona gibanja.",
     "source": "Wikipedia (en): Newton (unit)",
-    "tags": ["fizika", "mjerne jedinice"],
+    "tags": [
+      "fizika",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +210,15 @@
     "difficulty": 2,
     "question": "Koji je znanstvenik s Francisom Crickom 1953. predložio strukturu dvostruke uzvojnice DNK?",
     "answer": "James Watson",
-    "accept": ["Watson"],
+    "accept": [
+      "Watson"
+    ],
     "note": "Rad se oslanjao na istraživanja Rosalind Franklin i Raymonda Goslinga.",
     "source": "Wikipedia (en): James Watson",
-    "tags": ["biologija", "znanstvenici"],
+    "tags": [
+      "biologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Masa mu je nešto veća od mase protona.",
     "source": "Wikipedia (en): Neutron",
-    "tags": ["fizika", "čestice"],
+    "tags": [
+      "fizika",
+      "čestice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +246,16 @@
     "difficulty": 2,
     "question": "Koji je svemirski teleskop lansiran 25. prosinca 2021. raketom Ariane 5?",
     "answer": "James Webb",
-    "accept": ["Svemirski teleskop James Webb", "JWST"],
+    "accept": [
+      "Svemirski teleskop James Webb",
+      "JWST"
+    ],
     "note": "Lansiran je iz Kouroua u Francuskoj Gijani.",
     "source": "Wikipedia (en): James Webb Space Telescope",
-    "tags": ["svemir", "teleskopi"],
+    "tags": [
+      "svemir",
+      "teleskopi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +266,15 @@
     "difficulty": 2,
     "question": "Koji je fizičar 1913. predstavio model atoma s kvantiziranim orbitama elektrona?",
     "answer": "Niels Bohr",
-    "accept": ["Bohr"],
+    "accept": [
+      "Bohr"
+    ],
     "note": "U radu se pozvao na Johna Nicholsona.",
     "source": "Wikipedia (en): Bohr model",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +285,16 @@
     "difficulty": 2,
     "question": "Koja je engleska matematičarka pisala o Babbageovu analitičkom stroju i uočila da može više od računanja?",
     "answer": "Ada Lovelace",
-    "accept": ["Lovelace", "Augusta Ada King"],
+    "accept": [
+      "Lovelace",
+      "Augusta Ada King"
+    ],
     "note": "Često je smatraju prvom računalnom programerkom, a bila je jedino zakonito dijete pjesnika Lorda Byrona.",
     "source": "Wikipedia (en): Ada Lovelace",
-    "tags": ["informatika", "znanstvenici"],
+    "tags": [
+      "informatika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +305,15 @@
     "difficulty": 2,
     "question": "Kako se zove osnovna jedinica SI za količinu tvari?",
     "answer": "Mol",
-    "accept": ["Mol (mol)"],
+    "accept": [
+      "Mol (mol)"
+    ],
     "note": "Jedan mol sadrži točno 6,02214076 × 10²³ jedinki.",
     "source": "Wikipedia (en): Mole (unit)",
-    "tags": ["kemija", "mjerne jedinice"],
+    "tags": [
+      "kemija",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +324,15 @@
     "difficulty": 2,
     "question": "Koje je nebesko tijelo 2006. preimenovano iz planeta u patuljasti planet?",
     "answer": "Pluton",
-    "accept": ["Pluto"],
+    "accept": [
+      "Pluto"
+    ],
     "note": "Do toga je došlo nakon otkrića masivnijeg tijela Eride 2005.",
     "source": "Wikipedia (en): Pluto",
-    "tags": ["astronomija", "planeti"],
+    "tags": [
+      "astronomija",
+      "planeti"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +343,16 @@
     "difficulty": 2,
     "question": "Koji je kemičar 1869. predstavio periodni sustav elemenata?",
     "answer": "Dmitrij Mendeljejev",
-    "accept": ["Mendeljejev", "Mendelejev"],
+    "accept": [
+      "Mendeljejev",
+      "Mendelejev"
+    ],
     "note": "Predstavio ga je Ruskom kemijskom društvu 6. ožujka 1869.",
     "source": "Wikipedia (en): Dmitri Mendeleev",
-    "tags": ["kemija", "znanstvenici"],
+    "tags": [
+      "kemija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +366,10 @@
     "accept": [],
     "note": "Krater je odabran zbog drevne riječne delte koja bi mogla čuvati tragove mikrobnog života.",
     "source": "Wikipedia (en): Perseverance (rover)",
-    "tags": ["svemir", "Mars"],
+    "tags": [
+      "svemir",
+      "Mars"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +380,16 @@
     "difficulty": 2,
     "question": "Koja je država 1377. prva uvela tridesetodnevnu izolaciju brodova zbog kuge?",
     "answer": "Dubrovačka Republika",
-    "accept": ["Dubrovnik", "Republika Ragusa"],
+    "accept": [
+      "Dubrovnik",
+      "Republika Ragusa"
+    ],
     "note": "Iz tog je „trentina” poslije nastala karantena.",
     "source": "Wikipedia (en): Quarantine",
-    "tags": ["medicina", "Hrvatska"],
+    "tags": [
+      "medicina",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +400,15 @@
     "difficulty": 2,
     "question": "Što znače slova USB?",
     "answer": "Universal Serial Bus",
-    "accept": ["Univerzalna serijska sabirnica"],
+    "accept": [
+      "Univerzalna serijska sabirnica"
+    ],
     "note": "Standard služi i za prijenos podataka i za napajanje uređaja.",
     "source": "Wikipedia (en): USB",
-    "tags": ["tehnologija", "kratice"],
+    "tags": [
+      "tehnologija",
+      "kratice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +419,16 @@
     "difficulty": 3,
     "question": "Koji je sintetički kemijski element s atomskim brojem 99 nazvan po Albertu Einsteinu?",
     "answer": "Einsteinij",
-    "accept": ["Einsteinium", "Es"],
+    "accept": [
+      "Einsteinium",
+      "Es"
+    ],
     "note": "Sedmi je transuranski element.",
     "source": "Wikipedia (en): Einsteinium",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +439,15 @@
     "difficulty": 3,
     "question": "Po kojem su znanstveniku nazvane jednadžbe koje opisuju nastanak električnih i magnetskih polja?",
     "answer": "James Clerk Maxwell",
-    "accept": ["Maxwell"],
+    "accept": [
+      "Maxwell"
+    ],
     "note": "Zovu se Maxwellove jednadžbe.",
     "source": "Wikipedia (en): Maxwell's equations",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -345,7 +461,10 @@
     "accept": [],
     "note": "Strožu je definiciju 1958. uveo David Finkelstein.",
     "source": "Wikipedia (en): Event horizon",
-    "tags": ["astronomija", "fizika"],
+    "tags": [
+      "astronomija",
+      "fizika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +475,15 @@
     "difficulty": 3,
     "question": "Koji je fizičar vodio pokus u kojem je 2. prosinca 1942. pokrenuta prva samoodrživa nuklearna lančana reakcija?",
     "answer": "Enrico Fermi",
-    "accept": ["Fermi"],
+    "accept": [
+      "Fermi"
+    ],
     "note": "Reaktor Chicago Pile-1 bio je prvo veliko tehničko postignuće projekta Manhattan.",
     "source": "Wikipedia (en): Chicago Pile-1",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -373,7 +497,10 @@
     "accept": [],
     "note": "Kratica znači Electronic Numerical Integrator and Computer.",
     "source": "Wikipedia (en): ENIAC",
-    "tags": ["informatika", "povijest"],
+    "tags": [
+      "informatika",
+      "povijest"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -387,7 +514,10 @@
     "accept": [],
     "note": "Svjetlost emitira optičkim pojačanjem, na temelju stimulirane emisije elektromagnetskog zračenja.",
     "source": "Wikipedia (en): Laser",
-    "tags": ["fizika", "kratice"],
+    "tags": [
+      "fizika",
+      "kratice"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +528,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski liječnik 1948. izabran za prvog predsjednika Svjetske zdravstvene skupštine?",
     "answer": "Andrija Štampar",
-    "accept": ["Štampar"],
+    "accept": [
+      "Štampar"
+    ],
     "note": "Imao je važnu ulogu i u osnivanju medicinskog fakulteta u Rijeci 1955.",
     "source": "Wikipedia (en): Andrija Štampar",
-    "tags": ["medicina", "Hrvatska"],
+    "tags": [
+      "medicina",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -412,10 +547,15 @@
     "difficulty": 3,
     "question": "Koji je fizičar 1950. zagovarao gradnju Instituta Ruđer Bošković i bio jedan od njegovih osnivača?",
     "answer": "Ivan Supek",
-    "accept": ["Supek"],
+    "accept": [
+      "Supek"
+    ],
     "note": "Iz instituta je isključen 1958. zbog neslaganja sa Saveznom komisijom za nuklearnu energiju.",
     "source": "Wikipedia (en): Ivan Supek",
-    "tags": ["fizika", "Hrvatska"],
+    "tags": [
+      "fizika",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }
