@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Kod kojeg su mjesta Atenjani, uz pomoć Plateje, 490. pr. Kr. porazili perzijsku vojsku?",
     "answer": "Maraton",
-    "accept": ["Bitka kod Maratona"],
+    "accept": [
+      "Bitka kod Maratona"
+    ],
     "note": "Bitka se odigrala tijekom prve perzijske invazije na Grčku.",
     "source": "Wikipedia (en): Battle of Marathon",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ista činjenica kao sport-0149 (bitka kod Maratona 490. pr. Kr.)."
   },
   {
     "id": "history-0284",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koja se bitka Američkog građanskog rata, od 1. do 3. srpnja 1863., smatra njegovom prekretnicom?",
     "answer": "Bitka kod Gettysburga",
-    "accept": ["Gettysburg"],
+    "accept": [
+      "Gettysburg"
+    ],
     "note": "Vodila se u Pennsylvaniji, a pobijedila je Unija.",
     "source": "Wikipedia (en): Battle of Gettysburg",
-    "tags": ["SAD", "bitke"],
+    "tags": [
+      "SAD",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,16 @@
     "difficulty": 1,
     "question": "Kako se zove bitka od 15. lipnja 1389. između vojske kneza Lazara i osmanske vojske sultana Murata I.?",
     "answer": "Kosovska bitka",
-    "accept": ["Bitka na Kosovu", "Kosovo"],
+    "accept": [
+      "Bitka na Kosovu",
+      "Kosovo"
+    ],
     "note": "Bila je jedna od najvećih bitaka kasnog srednjeg vijeka.",
     "source": "Wikipedia (en): Battle of Kosovo",
-    "tags": ["srednji vijek", "bitke"],
+    "tags": [
+      "srednji vijek",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +65,15 @@
     "difficulty": 1,
     "question": "Koju je misiju u Teksasu 1836., nakon 13-dnevne opsade, zauzela meksička vojska generala Santa Anne?",
     "answer": "Alamo",
-    "accept": ["Bitka za Alamo"],
+    "accept": [
+      "Bitka za Alamo"
+    ],
     "note": "Bio je to ključni događaj Teksaške revolucije.",
     "source": "Wikipedia (en): Battle of the Alamo",
-    "tags": ["SAD", "bitke"],
+    "tags": [
+      "SAD",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,15 @@
     "difficulty": 1,
     "question": "Koja je bitka, od 21. veljače do 18. prosinca 1916., bila najdulja bitka Prvog svjetskog rata?",
     "answer": "Bitka kod Verduna",
-    "accept": ["Verdun"],
+    "accept": [
+      "Verdun"
+    ],
     "note": "Vodila se na brdima sjeverno od istoimenog francuskog grada.",
     "source": "Wikipedia (en): Battle of Verdun",
-    "tags": ["Prvi svjetski rat", "bitke"],
+    "tags": [
+      "Prvi svjetski rat",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +103,16 @@
     "difficulty": 2,
     "question": "U kojoj je bitci 2. kolovoza 216. pr. Kr. kartaška vojska opkolila i uništila rimsku?",
     "answer": "Bitka kod Kane",
-    "accept": ["Kana", "Cannae"],
+    "accept": [
+      "Kana",
+      "Cannae"
+    ],
     "note": "Bila je ključna bitka Drugog punskog rata.",
     "source": "Wikipedia (en): Battle of Cannae",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +123,15 @@
     "difficulty": 2,
     "question": "U kojoj je bitci 202. pr. Kr. Scipion Afrički u sjevernoj Africi porazio Kartažane?",
     "answer": "Bitka kod Zame",
-    "accept": ["Zama"],
+    "accept": [
+      "Zama"
+    ],
     "note": "Bila je dio Drugog punskog rata.",
     "source": "Wikipedia (en): Battle of Zama",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +142,16 @@
     "difficulty": 2,
     "question": "U kojoj su pomorskoj bitci 2. rujna 31. pr. Kr. Oktavijanove flote porazile Marka Antonija?",
     "answer": "Bitka kod Akcija",
-    "accept": ["Akcij", "Actium"],
+    "accept": [
+      "Akcij",
+      "Actium"
+    ],
     "note": "Oktavijanovom flotom zapovijedao je Marko Agripa.",
     "source": "Wikipedia (en): Battle of Actium",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +162,16 @@
     "difficulty": 2,
     "question": "U kojoj su šumi germanska plemena 9. godine uništila tri rimske legije?",
     "answer": "Teutoburška šuma",
-    "accept": ["Teutoburg", "Bitka u Teutoburškoj šumi"],
+    "accept": [
+      "Teutoburg",
+      "Bitka u Teutoburškoj šumi"
+    ],
     "note": "Rimski povjesničari tu su bitku zvali Varovim porazom.",
     "source": "Wikipedia (en): Battle of the Teutoburg Forest",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +182,15 @@
     "difficulty": 2,
     "question": "U kojoj je bitci 8. srpnja 1709. ruska vojska cara Petra I. porazila Šveđane?",
     "answer": "Bitka kod Poltave",
-    "accept": ["Poltava"],
+    "accept": [
+      "Poltava"
+    ],
     "note": "Bila je odlučujuća i najveća bitka Velikog sjevernog rata.",
     "source": "Wikipedia (en): Battle of Poltava",
-    "tags": ["Rusija", "bitke"],
+    "tags": [
+      "Rusija",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +201,15 @@
     "difficulty": 2,
     "question": "Koja se bitka od 16. do 19. listopada 1813. naziva i „Bitkom naroda”?",
     "answer": "Bitka kod Leipziga",
-    "accept": ["Leipzig"],
+    "accept": [
+      "Leipzig"
+    ],
     "note": "Koalicijske vojske Austrije, Pruske, Švedske i Rusije vodio je i car Aleksandar I.",
     "source": "Wikipedia (en): Battle of Leipzig",
-    "tags": ["Napoleonski ratovi", "bitke"],
+    "tags": [
+      "Napoleonski ratovi",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +220,16 @@
     "difficulty": 2,
     "question": "Kako se zove neuspjeli savezenički pohod na Dardanele od veljače 1915. do siječnja 1916.?",
     "answer": "Galipolje",
-    "accept": ["Galipoljska bitka", "Gallipoli"],
+    "accept": [
+      "Galipoljska bitka",
+      "Gallipoli"
+    ],
     "note": "Britanija, Francuska i Rusija pokušale su izbaciti Osmansko Carstvo iz rata.",
     "source": "Wikipedia (en): Gallipoli campaign",
-    "tags": ["Prvi svjetski rat", "bitke"],
+    "tags": [
+      "Prvi svjetski rat",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +240,15 @@
     "difficulty": 2,
     "question": "Kako se zove bitka iz 1876., poznata kao „Custerova posljednja bitka”?",
     "answer": "Bitka kod Little Bighorna",
-    "accept": ["Little Bighorn"],
+    "accept": [
+      "Little Bighorn"
+    ],
     "note": "Lakote je zovu bitkom kod Greasy Grassa.",
     "source": "Wikipedia (en): Battle of the Little Bighorn",
-    "tags": ["SAD", "bitke"],
+    "tags": [
+      "SAD",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +259,16 @@
     "difficulty": 2,
     "question": "U kojoj su bitci 15. srpnja 1410. Poljska i Litva porazile Teutonske vitezove?",
     "answer": "Bitka kod Grunwalda",
-    "accept": ["Grunwald", "Tannenberg"],
+    "accept": [
+      "Grunwald",
+      "Tannenberg"
+    ],
     "note": "Zove se i Prva bitka kod Tannenberga.",
     "source": "Wikipedia (en): Battle of Grunwald",
-    "tags": ["srednji vijek", "bitke"],
+    "tags": [
+      "srednji vijek",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +279,15 @@
     "difficulty": 2,
     "question": "Kako se zvala operacija Hrvatske vojske iz siječnja 1993. u sjevernoj Dalmaciji i Lici?",
     "answer": "Maslenica",
-    "accept": ["Operacija Maslenica"],
+    "accept": [
+      "Operacija Maslenica"
+    ],
     "note": "Cilj je bio odbaciti neprijatelja od prilaza Karlobagu.",
     "source": "Wikipedia (en): Operation Maslenica",
-    "tags": ["Hrvatska", "Domovinski rat"],
+    "tags": [
+      "Hrvatska",
+      "Domovinski rat"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +298,16 @@
     "difficulty": 3,
     "question": "U kojoj je bitci 331. pr. Kr. makedonska vojska porazila perzijskog kralja Darija III.?",
     "answer": "Bitka kod Gaugamele",
-    "accept": ["Gaugamela", "Arbela"],
+    "accept": [
+      "Gaugamela",
+      "Arbela"
+    ],
     "note": "Ime mjesta znači „Devina kuća”.",
     "source": "Wikipedia (en): Battle of Gaugamela",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +318,17 @@
     "difficulty": 3,
     "question": "U kojoj su bitci 9. kolovoza 378. Goti porazili istočnorimsku vojsku i ubili cara Valensa?",
     "answer": "Bitka kod Adrijanopola",
-    "accept": ["Adrijanopol", "Hadrijanopol", "Edirne"],
+    "accept": [
+      "Adrijanopol",
+      "Hadrijanopol",
+      "Edirne"
+    ],
     "note": "Adrijanopol je današnji Edirne u europskom dijelu Turske.",
     "source": "Wikipedia (en): Battle of Adrianople",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +339,16 @@
     "difficulty": 3,
     "question": "U kojoj su bitci 26. kolovoza 1071. Seldžuci porazili Bizant i zarobili cara Romana IV.?",
     "answer": "Bitka kod Manzikerta",
-    "accept": ["Manzikert", "Malazgirt"],
+    "accept": [
+      "Manzikert",
+      "Malazgirt"
+    ],
     "note": "Mjesto je u istočnoj Turskoj.",
     "source": "Wikipedia (en): Battle of Manzikert",
-    "tags": ["Bizant", "bitke"],
+    "tags": [
+      "Bizant",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +359,15 @@
     "difficulty": 3,
     "question": "U kojoj je bitci 1314. škotski kralj Robert Bruce porazio vojsku Edvarda II.?",
     "answer": "Bitka kod Bannockburna",
-    "accept": ["Bannockburn"],
+    "accept": [
+      "Bannockburn"
+    ],
     "note": "Vodila se u Prvom ratu za škotsku neovisnost.",
     "source": "Wikipedia (en): Battle of Bannockburn",
-    "tags": ["Škotska", "bitke"],
+    "tags": [
+      "Škotska",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +378,16 @@
     "difficulty": 3,
     "question": "U kojoj je bitci 26. kolovoza 1346. engleska vojska Edvarda III. porazila francusku vojsku Filipa VI.?",
     "answer": "Bitka kod Crécyja",
-    "accept": ["Crécy", "Crecy"],
+    "accept": [
+      "Crécy",
+      "Crecy"
+    ],
     "note": "Vodila se u sjevernoj Francuskoj.",
     "source": "Wikipedia (en): Battle of Crécy",
-    "tags": ["srednji vijek", "bitke"],
+    "tags": [
+      "srednji vijek",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }
