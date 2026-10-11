@@ -147,7 +147,7 @@
     "question": "Koliko u Africi ima priznatih suverenih država?",
     "answer": "54",
     "accept": ["Pedeset četiri"],
-    "note": "Kontinent obuhvaća i Madagaskar te brojna otočja.",
+    "note": "Kontinentu se pribrajaju i brojna okolna otočja.",
     "source": "Wikipedia (en): Africa",
     "tags": ["Afrika", "brojevi"],
     "checkedAt": "2026-10-06",
