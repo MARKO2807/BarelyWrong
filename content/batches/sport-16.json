@@ -6,10 +6,16 @@
     "difficulty": 3,
     "question": "Koji engleski klub, osnovan u listopadu 1857., FIFA smatra najstarijim neovisnim nogometnim klubom na svijetu koji još igra?",
     "answer": "Sheffield FC",
-    "accept": ["Sheffield F.C.", "Sheffield"],
+    "accept": [
+      "Sheffield F.C.",
+      "Sheffield"
+    ],
     "note": "U početku su igrali međusobno, po vlastitim pravilima iz Sheffielda.",
     "source": "Wikipedia (en): Sheffield F.C.",
-    "tags": ["nogomet", "povijest sporta"],
+    "tags": [
+      "nogomet",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +26,16 @@
     "difficulty": 3,
     "question": "Koji je turski napadač 2002. zabio najbrži gol u povijesti svjetskih prvenstava?",
     "answer": "Hakan Şükür",
-    "accept": ["Şükür", "Hakan Sukur"],
+    "accept": [
+      "Şükür",
+      "Hakan Sukur"
+    ],
     "note": "U klupskoj karijeri zabio je 383 gola.",
     "source": "Wikipedia (en): Hakan Şükür",
-    "tags": ["nogomet", "rekordi"],
+    "tags": [
+      "nogomet",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +46,15 @@
     "difficulty": 3,
     "question": "Kako se u tenisu kolokvijalno zove set dobiven ili izgubljen 6 : 0, po pecivu oblika nule?",
     "answer": "Bagel",
-    "accept": ["bejgl"],
+    "accept": [
+      "bejgl"
+    ],
     "note": "Set dobiven 6 : 1 zove se „breadstick”, štapić kruha.",
     "source": "Wikipedia (en): Glossary of tennis terms",
-    "tags": ["tenis", "izrazi"],
+    "tags": [
+      "tenis",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +65,15 @@
     "difficulty": 3,
     "question": "Kako se u kriketu zove kad udarač bude izbačen bez ijednog osvojenog runa?",
     "answer": "Duck",
-    "accept": ["patka"],
+    "accept": [
+      "patka"
+    ],
     "note": "Izbacivanje već pri prvoj lopti zove se „golden duck”.",
     "source": "Wikipedia (en): Duck (cricket)",
-    "tags": ["kriket", "izrazi"],
+    "tags": [
+      "kriket",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,15 @@
     "difficulty": 3,
     "question": "Kako se u golfu neslužbeno zove rezultat od četiri udarca ispod para na jednoj rupi?",
     "answer": "Condor",
-    "accept": ["kondor"],
+    "accept": [
+      "kondor"
+    ],
     "note": "Zove se i dvostruki albatros; to je najniži rezultat na rupi ikad postignut.",
     "source": "Wikipedia (en): Condor (golf)",
-    "tags": ["golf", "izrazi"],
+    "tags": [
+      "golf",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +103,15 @@
     "difficulty": 3,
     "question": "Kako se u kuglanju zove niz od tri uzastopna strikea?",
     "answer": "Turkey",
-    "accept": ["puran"],
+    "accept": [
+      "puran"
+    ],
     "note": "Dva uzastopna strikea zovu se „double”.",
     "source": "Wikipedia (en): Strike (bowling)",
-    "tags": ["kuglanje", "izrazi"],
+    "tags": [
+      "kuglanje",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +122,16 @@
     "difficulty": 3,
     "question": "Koji je grčki raznosač vode 1896. pobijedio na prvom olimpijskom maratonu modernog doba?",
     "answer": "Spiridon Louis",
-    "accept": ["Spyridon Louis", "Louis"],
+    "accept": [
+      "Spyridon Louis",
+      "Louis"
+    ],
     "note": "Nakon pobjede slavljen je kao nacionalni junak.",
     "source": "Wikipedia (en): Spyridon Louis",
-    "tags": ["atletika", "Olimpijske igre"],
+    "tags": [
+      "atletika",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +142,15 @@
     "difficulty": 3,
     "question": "Kako se zove slavna šahovska partija koju su 1851. u Londonu odigrali Adolf Anderssen i Lionel Kieseritzky?",
     "answer": "Besmrtna partija",
-    "accept": ["Immortal Game"],
+    "accept": [
+      "Immortal Game"
+    ],
     "note": "Partija je bila prijateljska, a ne dio turnira.",
     "source": "Wikipedia (en): Immortal Game",
-    "tags": ["šah", "povijest sporta"],
+    "tags": [
+      "šah",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +161,16 @@
     "difficulty": 2,
     "question": "Kako se zove sustav izračuna relativne snage igrača, izvorno osmišljen za šah, a nazvan po svom izumitelju?",
     "answer": "Elo",
-    "accept": ["Elo rejting", "Elo sustav"],
+    "accept": [
+      "Elo rejting",
+      "Elo sustav"
+    ],
     "note": "Zamijenio je raniji Harknessov sustav ocjenjivanja.",
     "source": "Wikipedia (en): Elo rating system",
-    "tags": ["šah", "zanimljivosti"],
+    "tags": [
+      "šah",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +181,15 @@
     "difficulty": 3,
     "question": "Koji je američki sumo-hrvač 1993. postao prvi yokozuna rođen izvan Japana?",
     "answer": "Akebono",
-    "accept": ["Akebono Tarō"],
+    "accept": [
+      "Akebono Tarō"
+    ],
     "note": "Bio je jedan od najviših i najtežih hrvača u povijesti sumoa.",
     "source": "Wikipedia (en): Akebono Tarō",
-    "tags": ["sumo", "rekordi"],
+    "tags": [
+      "sumo",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +200,15 @@
     "difficulty": 2,
     "question": "Po kojem se izumitelju stroj za glačanje leda na klizalištima popularno zove?",
     "answer": "Frank Zamboni",
-    "accept": ["Zamboni"],
+    "accept": [
+      "Zamboni"
+    ],
     "note": "Prvi takav stroj izradio je 1949. u Kaliforniji.",
     "source": "Wikipedia (en): Ice resurfacer",
-    "tags": ["hokej na ledu", "izumi"],
+    "tags": [
+      "hokej na ledu",
+      "izumi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +219,15 @@
     "difficulty": 3,
     "question": "Kako se zove posljednjeplasirani biciklist na Tour de Franceu, nazvan po crvenoj svjetiljci na kraju vlaka?",
     "answer": "Lanterne rouge",
-    "accept": ["crvena lanterna"],
+    "accept": [
+      "crvena lanterna"
+    ],
     "note": "Izraz na francuskom znači „crvena svjetiljka”.",
     "source": "Wikipedia (en): Lanterne rouge",
-    "tags": ["biciklizam", "izrazi"],
+    "tags": [
+      "biciklizam",
+      "izrazi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +238,15 @@
     "difficulty": 3,
     "question": "Kojeg je švedskog braniča Johan Cruyff na SP-u 1974. prevario potezom koji je dobio njegovo ime?",
     "answer": "Jan Olsson",
-    "accept": ["Olsson"],
+    "accept": [
+      "Olsson"
+    ],
     "note": "Potez je izveden u 22. minuti utakmice skupine.",
     "source": "Wikipedia (en): Cruyff Turn",
-    "tags": ["nogomet", "zanimljivosti"],
+    "tags": [
+      "nogomet",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,12 +257,18 @@
     "difficulty": 2,
     "question": "Kojim se sportom Michael Jordan profesionalno bavio nakon prvog povlačenja iz NBA lige 1993.?",
     "answer": "Bejzbol",
-    "accept": ["baseball"],
+    "accept": [
+      "baseball"
+    ],
     "note": "U Chicago Bullse vratio se 1995. i osvojio još tri naslova.",
     "source": "Wikipedia (en): Michael Jordan",
-    "tags": ["košarka", "zanimljivosti"],
+    "tags": [
+      "košarka",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ista činjenica kao postojeće T/N pitanje o Jordanu i bejzbolu."
   },
   {
     "id": "sport-0357",
@@ -202,10 +277,15 @@
     "difficulty": 3,
     "question": "Kako se zove 20,8 km duga sjeverna petlja staze Nürburgring u gorju Eifel?",
     "answer": "Nordschleife",
-    "accept": ["Sjeverna petlja"],
+    "accept": [
+      "Sjeverna petlja"
+    ],
     "note": "Sagrađena je 1920-ih oko srednjovjekovnog dvorca Nürburg.",
     "source": "Wikipedia (en): Nürburgring",
-    "tags": ["automobilizam", "Njemačka"],
+    "tags": [
+      "automobilizam",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +296,17 @@
     "difficulty": 2,
     "question": "Gdje se od 1978. do 2022. svake godine održavalo Svjetsko prvenstvo u Ironmanu?",
     "answer": "Na Havajima",
-    "accept": ["Havaji", "Hawaii", "Kona"],
+    "accept": [
+      "Havaji",
+      "Hawaii",
+      "Kona"
+    ],
     "note": "Natjecanje organizira World Triathlon Corporation.",
     "source": "Wikipedia (en): Ironman World Championship",
-    "tags": ["triatlon", "SAD"],
+    "tags": [
+      "triatlon",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +317,15 @@
     "difficulty": 2,
     "question": "Kako se zvala američka košarkaška reprezentacija na Igrama 1992., prva olimpijska momčad SAD-a s aktivnim NBA profesionalcima?",
     "answer": "Dream Team",
-    "accept": ["Momčad snova"],
+    "accept": [
+      "Momčad snova"
+    ],
     "note": "Protivnike je pobjeđivala u prosjeku s 44 koša razlike.",
     "source": "Wikipedia (en): 1992 United States men's Olympic basketball team",
-    "tags": ["košarka", "Olimpijske igre"],
+    "tags": [
+      "košarka",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +336,15 @@
     "difficulty": 3,
     "question": "Kako se zove utakmica hokeja na ledu na Igrama 1980. u Lake Placidu, kad je momčad SAD-a pobijedila Sovjetski Savez?",
     "answer": "Čudo na ledu",
-    "accept": ["Miracle on Ice"],
+    "accept": [
+      "Miracle on Ice"
+    ],
     "note": "Odigrana je 22. veljače 1980.",
     "source": "Wikipedia (en): Miracle on Ice",
-    "tags": ["hokej na ledu", "Olimpijske igre"],
+    "tags": [
+      "hokej na ledu",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +355,15 @@
     "difficulty": 3,
     "question": "Koji hrvatski vratar drži rekord od 10 nastupa na svjetskim prvenstvima među hrvatskim vratarima?",
     "answer": "Dominik Livaković",
-    "accept": ["Livaković"],
+    "accept": [
+      "Livaković"
+    ],
     "note": "Osvojio je srebro 2018. i broncu 2022.",
     "source": "Wikipedia (en): Dominik Livaković",
-    "tags": ["nogomet", "Hrvatska"],
+    "tags": [
+      "nogomet",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }
