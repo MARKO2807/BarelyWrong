@@ -16,7 +16,7 @@ describe('t', () => {
 })
 
 describe('tList', () => {
-  it('returns all nine rules', () => {
-    expect(tList('howToPlay.steps')).toHaveLength(9)
+  it('returns all ten rules', () => {
+    expect(tList('howToPlay.steps')).toHaveLength(10)
   })
 })

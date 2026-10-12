@@ -45,7 +45,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 ### 4.1 Postavljanje partije
 
 - 2–4 tima. Ime je obavezno (do 20 znakova), a dva tima ne mogu imati isto ime (bez obzira na velika i mala slova). Svaki tim bira jednu od deset boja; dva tima ne mogu imati istu. Oznaka tima je kvadrat u njegovoj boji s početnim slovom imena, a boja tima jako je naglašena tijekom igre (najava tima, oznaka iznad pitanja, kartica s bodovima).
-- Duljina: Puna (12 rundi) ili Kratka (6 rundi).
+- Duljina: Duga (12 rundi) ili Kratka (6 rundi).
 - Vrijeme po pitanju: 30, 45, 60, 75 ili 90 sekundi; zadano 60.
 - Najbrži prst: uključen ili isključen; zadano uključen.
 - Prikazuje se procjena trajanja: broj timova × broj rundi × (vrijeme po pitanju + 30 s).
@@ -54,7 +54,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 ### 4.2 Runde
 
 - Postoji 12 vrsta rundi: 10 tema, Točno/netočno i Procjena.
-- Puna partija ima svih 12 vrsta nasumičnim redom; kratka ima 6 nasumičnih.
+- Duga partija ima svih 12 vrsta nasumičnim redom; kratka ima 6 nasumičnih.
 - U rundi svaki tim dobiva po jedno pitanje. U tematskoj rundi to su otvorena pitanja iz te teme; u rundama Točno/netočno i Procjena to su pitanja tog formata iz bilo koje teme.
 - Težine pitanja u istoj rundi smiju se razlikovati najviše za jedan stupanj (lako i teško nikad zajedno).
 - Prvi tim bira se nasumično, a timovi zatim igraju naizmjence istim redoslijedom kroz cijelu partiju (A, B, A, B…), pa nijedan tim ne igra dvaput zaredom.
@@ -62,7 +62,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 ### 4.3 Potez
 
 1. Najava tima (ime, boja, ikona) i gumb Kreni.
-2. Pitanje i timer. U zadnjih 10 sekundi timer pocrveni i otkucava. Moguća je pauza.
+2. Pitanje i timer. U zadnjih 10 sekundi timer pocrveni, pulsira i otkucava, a rubovi ekrana blago crvene sve jače. Moguća je pauza; dok je izbornik partije otvoren, vrijeme stoji.
 3. Odgovor se otkriva klikom na "Otvori odgovor" ili automatski kad istekne vrijeme, uz efekt.
 4. Prikazuju se odgovor i zanimljivost. Drugi prihvatljivi oblici (`accept`) ne prikazuju se u igri: je li odgovor dovoljno točan, timovi odlučuju zajedno.
 5. Točno (1 bod) ili Netočno (0). "Poništi" radi dok se ne prijeđe na sljedeći potez.
@@ -108,9 +108,9 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 
 ## 5. Ekrani
 
-- **Početna:** hero slika prema temi, logo, podnaslov „Kviz za one koji skoro sve znaju.” i gumb "Igraj" u sredini. Zaglavlje: logo, "Pravila" i "Postavke". Hero se sastoji od pozadine teme i zasebnih likova (lovac, čudovište Brainly i mozak pred ciljem) koji se lagano miču. Ako postoji nedovršena partija, prikazuje se "Nastavi partiju". U tamnoj temi iza teksta je mekani tamni sjaj, a u svijetloj mekani bijeli sjaj i tamni podnaslov.
+- **Početna:** hero slika prema temi, logo, podnaslov „Kviz za one koji (skoro) sve znaju.” i gumb "Igraj" u sredini. Zaglavlje: logo, "Pravila" i "Postavke". Hero se sastoji od pozadine teme i zasebnih likova (lovac, čudovište Brainly i mozak pred ciljem) koji se lagano miču. Ako postoji nedovršena partija, prikazuje se "Nastavi partiju". U tamnoj temi iza teksta je mekani tamni sjaj, a u svijetloj mekani bijeli sjaj i tamni podnaslov.
 - **Postavljanje partije** prema 4.1.
-- **Igra:** najava runde, potez, otkrivanje, Najbrži prst, ljestvica nakon runde, neriješeno i kraj. Na vrhu: runda (npr. 3/12), tema s ikonom, značka Double trouble kad vrijedi. U sredini: pitanje i timer. Dolje: bodovi svih timova i kontrole.
+- **Igra:** najava runde, potez, otkrivanje, Najbrži prst, ljestvica nakon runde, neriješeno i kraj. Na vrhu: runda (npr. 3/12), tema s ikonom, značka Double trouble kad vrijedi, te veliki gumbi za cijeli zaslon i izbornik. Izbornik nudi i promjenu teme (tamna/svijetla) iznad zvuka. U sredini: pitanje i timer. Dolje: bodovi svih timova i kontrole.
 - **Popup "Pravila"** s tekstom iz priloga A. Nije zasebna ruta.
 - **Popup Postavke:** zvuk (zadano isključen), tema (Tamna ili Svijetla; zadano Tamna) i "Vrati odigrana pitanja" (uz potvrdu).
 - **Urednik** na ruti `/admin`, samo uz prijavu (poglavlje 9). Rute su na engleskom: `/`, `/new-game`, `/game`, `/admin`.
@@ -133,7 +133,7 @@ Google Fonts, self-hostani preko `@fontsource`, uključujući latin-ext (č, ć,
 
 - **Rubik ExtraBold:** naslovi, gumbi, poveznice, nazivi tema, oznake.
 - **Chakra Petch:** tekst pitanja i sav ostali tekst.
-- **VT323:** podnaslov na početnoj, timer, bodovi i terminalski natpisi.
+- **VT323:** podnaslov na početnoj, bodovi i terminalski natpisi. Timer koristi isti font kao pitanje.
 
 Pikselni fontovi nikad se ne koriste za tekst pitanja.
 
@@ -359,13 +359,14 @@ Bez prepravljanja postojećeg moraju se moći dodati: engleski jezik, izbor tež
 
 Izvor istine je `src/i18n/hr.ts` (`howToPlay.steps`).
 
-1. Igraju 2–4 tima. Svaka runda je jedna tema, a svaki tim u njoj dobiva jedno pitanje. Timovi igraju naizmjence, istim redoslijedom kroz cijelu partiju.
-2. Pitanje se pročita naglas i krene vrijeme, koje se može pauzirati. Tim se dogovori i kaže odgovor naglas; ništa se ne upisuje.
-3. Kad ste spremni, otvorite odgovor; kad vrijeme istekne, otvori se sam. Je li odgovor dovoljno točan, odlučujete zajedno. Točan odgovor donosi 1 bod.
-4. U rundi Točno ili netočno tim kaže je li tvrdnja istinita.
-5. U rundi Procjena tim kaže broj, a sljedeći tim kaže je li točan odgovor veći ili manji. Bod dobiva tko je u pravu, a ako je broj pogođen točno, tim koji je procjenjivao.
-6. Double trouble: u jednoj rundi, nikad prvoj, sva pitanja vrijede duplo.
-7. Najbrži prst: jednom u partiji, između dviju rundi, pitanje je za sve timove. Tko se prvi javi, odgovara: točno +2, netočno −1. Ako se nitko ne javi u 30 sekundi, bodova nema.
-8. Nakon svake runde slijedi ljestvica. Pobjeđuje tim s najviše bodova; kod neriješenog odlučuje jedno pitanje procjene, a pobjeđuje tko je najbliže.
-9. Krivi klik? „Poništi” vraća zadnju odluku dok se ne krene dalje, a bodovi se mogu ispraviti i u izborniku igre.
+1. Igraju 2–4 tima na jednom ekranu. Jedna osoba vodi igru: čita pitanja naglas i klikće. Krivi klik? „Poništi” vraća zadnju odluku.
+2. Duga partija ima 12 rundi, a kratka 6. Svaka runda je jedna tema, a svaki tim u njoj dobiva po jedno pitanje. Timovi igraju naizmjence, uvijek istim redom.
+3. Kad se pitanje pročita, kreće vrijeme, koje se može pauzirati. Tim se dogovori i kaže odgovor naglas; ništa se ne upisuje.
+4. Kad ste spremni, otvorite odgovor; kad vrijeme istekne, otvori se sam. Je li odgovor dovoljno točan, odlučujete zajedno.
+5. Točan odgovor donosi 1 bod, a netočan ništa. Ispod odgovora je i zanimljivost, a bodovi se mogu ispraviti u izborniku igre.
+6. U rundi Točno ili netočno tim kaže je li tvrdnja istinita.
+7. U rundi Procjena tim kaže broj, a sljedeći tim kaže je li točan odgovor veći ili manji. Bod dobiva tko je u pravu, a točno pogođen broj donosi bod timu koji je procjenjivao.
+8. Double trouble: u jednoj rundi, nikad prvoj, sva pitanja vrijede duplo. Najavljuje se na početku runde.
+9. Najbrži prst: jednom u partiji, između dviju rundi, pitanje je za sve timove. Tko se prvi javi, odgovara: točno +2, netočno −1. Ako se nitko ne javi u 30 sekundi, bodova nema.
+10. Nakon svake runde slijedi ljestvica. Pobjeđuje tim s najviše bodova; kod neriješenog odlučuje jedno pitanje procjene, a pobjeđuje tko je najbliže.
 

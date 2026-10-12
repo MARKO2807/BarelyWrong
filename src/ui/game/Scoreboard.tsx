@@ -30,7 +30,7 @@ export function Scoreboard({ game, activeTeamIds, bubble }: ScoreboardProps) {
       className="grid grid-cols-2 gap-3 lg:grid-cols-(--teams)"
       style={{ '--teams': `repeat(${game.teams.length}, minmax(0, 1fr))` } as CSSProperties}
     >
-      {game.teams.map((team, index) => {
+      {game.teams.map((team) => {
         const active = activeTeamIds.includes(team.id)
         return (
           <li
@@ -48,12 +48,6 @@ export function Scoreboard({ game, activeTeamIds, bubble }: ScoreboardProps) {
             />
             <span className="min-w-0 flex-1 truncate font-display text-lg font-extrabold lg:text-xl">
               {team.name}
-            </span>
-            <span
-              className={`kbd-hint max-lg:hidden ${active ? 'text-(--on-team-color)' : 'text-text-muted'}`}
-              aria-hidden="true"
-            >
-              {index + 1}
             </span>
             <span className="font-display text-4xl leading-none font-extrabold tabular-nums">
               {scores[team.id]}

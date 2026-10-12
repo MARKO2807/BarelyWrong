@@ -304,7 +304,72 @@
 
   .timer-urgent {
     color: var(--wrong);
-    animation: urgent-pulse 1s steps(2) infinite;
+    animation: timer-heartbeat 1s var(--ease-out) infinite;
+  }
+
+  /* Last ten seconds: the screen edges glow red and pulse with the clock, a little stronger every second. */
+  .urgent-vignette {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 55%,
+      color-mix(in srgb, var(--wrong) 30%, transparent) 100%
+    );
+    box-shadow: inset 0 0 6vh color-mix(in srgb, var(--wrong) 35%, transparent);
+    opacity: var(--intensity, 0.5);
+    animation: vignette-pulse 1s ease-in-out infinite;
+  }
+
+  .timer-bar-urgent {
+    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--wrong) 70%, transparent);
+  }
+
+  /* Full screen and menu on the game screen: big frosted buttons, easy to find on a TV. */
+  .game-top-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45em;
+    min-width: var(--game-top-btn-size);
+    height: var(--game-top-btn-size);
+    padding: 0 0.7em;
+    border: 0.125rem solid color-mix(in srgb, var(--text) 35%, transparent);
+    border-radius: var(--radius-full);
+    background-color: color-mix(in srgb, var(--surface) 80%, transparent);
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: var(--game-top-btn-font);
+    font-weight: 800;
+    cursor: pointer;
+    transition:
+      background-color var(--duration-fast) var(--ease-out),
+      border-color var(--duration-fast) var(--ease-out);
+  }
+
+  .game-top-btn:hover {
+    border-color: var(--primary);
+    background-color: color-mix(in srgb, var(--primary) 18%, var(--surface));
+  }
+
+  .game-top-btn .ui-icon {
+    font-size: 1.35em;
+  }
+
+  /* Pager arrows in the rules popup. */
+  .pager-btn {
+    border: 0.125rem solid var(--border);
+  }
+
+  .pager-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .rules-page {
+    animation: fade-in var(--duration-base) var(--ease-out) both;
   }
 
   /* Leaderboard table; points per topic drop out on narrow screens (see Standings.tsx). */
@@ -372,9 +437,22 @@
   }
 }
 
-@keyframes urgent-pulse {
+@keyframes timer-heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.14);
+  }
+  30% {
+    transform: scale(1);
+  }
+}
+
+@keyframes vignette-pulse {
   50% {
-    opacity: 0.55;
+    opacity: calc(var(--intensity, 0.5) * 0.45);
   }
 }
 

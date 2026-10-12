@@ -1,6 +1,5 @@
 import { getCurrentRoundIndex, type GameState, type ScoreColumn } from '../../engine'
 import { t } from '../../i18n'
-import { IconButton } from '../IconButton'
 import { ExitFullscreenIcon, FullscreenIcon, KIND_ICONS, MenuIcon } from '../icons'
 import { DoubleTroubleBadge } from './stages'
 
@@ -20,7 +19,7 @@ function currentKind(game: GameState): ScoreColumn | null {
   return null
 }
 
-/** Round (3/12), topic with its icon and the Double trouble badge; full screen and menu on the right. */
+/** Round (3/12), topic with its icon and the Double trouble badge; big full screen and menu buttons on the right. */
 export function TopBar({ game, isFullscreen, onFullscreen, onMenu }: TopBarProps) {
   const roundIndex = getCurrentRoundIndex(game)
   const kind = currentKind(game)
@@ -43,16 +42,20 @@ export function TopBar({ game, isFullscreen, onFullscreen, onMenu }: TopBarProps
         )}
         {doubled && <DoubleTroubleBadge />}
       </div>
-      <div className="flex shrink-0 items-center gap-1">
-        <IconButton
-          label={isFullscreen ? t('game.exitFullscreen') : t('game.fullscreen')}
+      <div className="flex shrink-0 items-center gap-3">
+        <button
+          type="button"
+          className="game-top-btn"
+          aria-label={isFullscreen ? t('game.exitFullscreen') : t('game.fullscreen')}
+          title={isFullscreen ? t('game.exitFullscreen') : t('game.fullscreen')}
           onClick={onFullscreen}
         >
           {isFullscreen ? <ExitFullscreenIcon /> : <FullscreenIcon />}
-        </IconButton>
-        <IconButton label={t('game.menu')} onClick={onMenu}>
+        </button>
+        <button type="button" className="game-top-btn" title={t('game.menu')} onClick={onMenu}>
           <MenuIcon />
-        </IconButton>
+          <span className="max-md:sr-only">{t('game.menu')}</span>
+        </button>
       </div>
     </header>
   )

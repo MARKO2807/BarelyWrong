@@ -81,9 +81,9 @@ export function SetupScreen() {
   const loading = status === 'loading'
 
   return (
-    <PageShell>
+    <PageShell fit>
       <form
-        className="flex w-full max-w-6xl flex-col gap-6 text-left"
+        className="flex w-full max-w-6xl flex-col gap-5 text-left"
         onSubmit={(event) => {
           event.preventDefault()
           if (problems.length === 0) void start(setup)
@@ -93,7 +93,7 @@ export function SetupScreen() {
         <h1 className="text-center font-display text-4xl font-extrabold">{t('setup.title')}</h1>
 
         <fieldset className="grid min-w-0 grid-cols-1 gap-4 lg:grid-cols-2">
-          <legend className="mb-3 font-display text-2xl font-extrabold">{t('setup.teams')}</legend>
+          <legend className="mb-2 font-display text-2xl font-extrabold">{t('setup.teams')}</legend>
           {setup.teams.map((team, index) => (
             <TeamRow
               key={team.id}
@@ -170,7 +170,7 @@ export function SetupScreen() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3">
+        <div className="flex flex-col items-center gap-3 lg:flex-row lg:justify-center lg:gap-8">
           <p className="text-xl text-text-muted">{t('setup.duration', { minutes })}</p>
           <Button type="submit" size="header" disabled={problems.length > 0 || loading}>
             {loading ? t('setup.starting') : t('setup.start')}
@@ -217,7 +217,7 @@ function TeamRow({
   const errorId = useId()
   return (
     <div
-      className="flex flex-col gap-3 rounded-lg border-2 border-border bg-surface p-4"
+      className="flex flex-col gap-3 rounded-lg border-2 border-border bg-surface p-3.5"
       style={teamStyle(team.color)}
     >
       <div className="flex items-center gap-3">
@@ -283,7 +283,7 @@ function TeamRow({
                 className="sr-only"
               />
               <span className="sr-only">{t(`teamColors.${color}`)}</span>
-              <TeamChip color={color} name={team.name} className="size-11 text-2xl" />
+              <TeamChip color={color} name={team.name} className="size-10 text-2xl" />
             </label>
           )
         })}

@@ -107,6 +107,8 @@
   --icon-hero: min(8rem, 14vh);
   --team-name-size: min(5rem, 10vh);
   --timer-size: min(5.5rem, 10vh);
+  --game-top-btn-size: min(4rem, 7.5vh);
+  --game-top-btn-font: min(1.5rem, 3vh);
   --answer-size: min(4rem, 8vh);
   --rank-gap: 0.75rem;
   --button-padding: 0.65em 1.15em;

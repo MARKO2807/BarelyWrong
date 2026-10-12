@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, type CSSProperties } from 'react'
 import { isTimerRunning, remainingMs, type Timer } from '../../engine'
 import { t } from '../../i18n'
 import { useNow } from '../hooks'
@@ -12,7 +12,7 @@ interface GameTimerProps {
   onExpire: () => void
 }
 
-/** Big countdown with a bar; turns red and ticks in the last ten seconds. */
+/** Big countdown with a bar; in the last ten seconds it turns red, ticks and the screen edges pulse. */
 export function GameTimer({ timer, onExpire }: GameTimerProps) {
   const running = isTimerRunning(timer)
   const now = useNow(running, 100)
@@ -40,16 +40,29 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
       className="flex w-full max-w-4xl shrink-0 items-center gap-6"
     >
       <span
-        className={`w-[2ch] text-right font-terminal text-(length:--timer-size) leading-none tabular-nums ${urgent ? 'timer-urgent' : ''}`}
+        className={`w-[2ch] text-right font-body text-(length:--timer-size) leading-none font-semibold tabular-nums ${urgent ? 'timer-urgent' : ''}`}
       >
         {seconds}
       </span>
-      <div className="h-4 flex-1 overflow-hidden rounded-full bg-surface">
+      <div
+        className={`h-4 flex-1 overflow-hidden rounded-full bg-surface ${urgent ? 'timer-bar-urgent' : ''}`}
+      >
         <div
           className={`h-full rounded-full transition-[width] duration-150 ease-linear ${urgent ? 'bg-wrong' : 'bg-secondary'}`}
           style={{ width: `${(remaining / timer.durationMs) * 100}%` }}
         />
       </div>
+      {running && urgent && remaining > 0 && (
+        <div
+          aria-hidden="true"
+          className="urgent-vignette"
+          style={
+            {
+              '--intensity': 0.35 + (0.65 * (URGENT_SECONDS - seconds)) / (URGENT_SECONDS - 1),
+            } as CSSProperties
+          }
+        />
+      )}
       {!running && remaining > 0 && (
         <span className="font-display text-2xl font-extrabold text-text-muted">
           {t('game.paused')}

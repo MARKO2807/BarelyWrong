@@ -1,11 +1,6 @@
 import logo from '../../assets/logo.png?logo'
 import { t } from '../i18n'
-
-/** Rendered widths, so the browser picks the right file from the srcset. */
-const SIZES = {
-  hero: '(orientation: portrait) 84vw, 34vw',
-  header: '(orientation: portrait) 24vw, 10vw',
-} as const
+import { LOGO_SIZES as SIZES } from './logoSizes'
 
 interface LogoProps {
   variant: keyof typeof SIZES

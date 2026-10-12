@@ -7,15 +7,21 @@ import '@fontsource/vt323/latin-400.css'
 import '@fontsource/vt323/latin-ext-400.css'
 import './styles/index.css'
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { App } from './app/App'
+import logo from '../assets/logo.png?logo'
+import { ROUTES } from './app/routes'
+import { LOGO_SIZES } from './ui/logoSizes'
 
-const container = document.getElementById('root')
-if (!container) throw new Error('Missing #root element in index.html')
+// The big home-page logo is the largest thing on first paint: start downloading it now, while the
+// app code is still on its way, instead of after React has rendered the <img>.
+if (location.pathname === ROUTES.home && logo.sources.avif) {
+  const link = document.createElement('link')
+  link.rel = 'preload'
+  link.as = 'image'
+  link.type = 'image/avif'
+  link.fetchPriority = 'high'
+  link.setAttribute('imagesrcset', logo.sources.avif)
+  link.setAttribute('imagesizes', LOGO_SIZES.hero)
+  document.head.append(link)
+}
 
-createRoot(container).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+void import('./boot')

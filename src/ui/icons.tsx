@@ -2,6 +2,8 @@ import {
   Atom,
   BookOpen,
   CheckCheck,
+  ChevronLeft,
+  ChevronRight,
   Clapperboard,
   Flag,
   Globe,
@@ -12,14 +14,18 @@ import {
   Menu,
   Minimize,
   Minus,
+  Moon,
   Music,
   Palette,
   PencilLine,
   Plus,
   ScrollText,
   Settings,
+  Sun,
   Target,
   Trophy,
+  Volume2,
+  VolumeX,
   X,
   Zap,
   type LucideIcon,
@@ -56,6 +62,12 @@ export const BoltIcon = icon(Zap)
 export const PlusIcon = icon(Plus)
 export const MinusIcon = icon(Minus)
 export const CorrectionIcon = icon(PencilLine)
+export const ArrowLeftIcon = icon(ChevronLeft)
+export const ArrowRightIcon = icon(ChevronRight)
+export const SunIcon = icon(Sun)
+export const MoonIcon = icon(Moon)
+export const SoundOnIcon = icon(Volume2)
+export const SoundOffIcon = icon(VolumeX)
 
 /** Round kinds and the extra score-table columns (spec 6.5). */
 export const KIND_ICONS: Record<ScoreColumn, IconComponent> = {

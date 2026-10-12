@@ -3,7 +3,7 @@ import { useBlocker, useNavigate } from 'react-router'
 import { useGameSession } from '../app/GameSession'
 import { ROUTES } from '../app/routes'
 import { useStartGame } from '../app/useStartGame'
-import { getCurrentTurn, type GameState } from '../engine'
+import { getCurrentTurn, getTimer, isTimerRunning, type GameState } from '../engine'
 import { t } from '../i18n'
 import { loadGame } from '../storage'
 import { Button, ButtonLink } from '../ui/Button'
@@ -51,6 +51,8 @@ export function GameScreen() {
   const navigate = useNavigate()
   const { start, status, shortage, restoreAndStart, dismissShortage } = useStartGame()
   const [menuOpen, setMenuOpen] = useState(false)
+  // The clock stops while the menu is open and runs on when it closes.
+  const pausedByMenu = useRef(false)
   const [hasSaved] = useState(() => loadGame() !== null)
   const triedResume = useRef(false)
   const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
@@ -65,6 +67,23 @@ export function GameScreen() {
       resume()
     }
   }, [game, resume])
+
+  const openMenu = useCallback(() => {
+    const timer = game ? getTimer(game) : null
+    if (timer && isTimerRunning(timer)) {
+      pausedByMenu.current = true
+      dispatch({ type: 'pause', now: Date.now() })
+    }
+    setMenuOpen(true)
+  }, [game, dispatch])
+
+  const closeMenu = useCallback(() => {
+    setMenuOpen(false)
+    if (pausedByMenu.current) {
+      pausedByMenu.current = false
+      dispatch({ type: 'resume', now: Date.now() })
+    }
+  }, [dispatch])
 
   useGameSounds(game)
   useWakeLock(inProgress)
@@ -95,11 +114,11 @@ export function GameScreen() {
       if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
       if (command.type === 'action') dispatch(command.action)
       else if (command.type === 'fullscreen') toggleFullscreen()
-      else setMenuOpen(true)
+      else openMenu()
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [game, dispatch, toggleFullscreen])
+  }, [game, dispatch, toggleFullscreen, openMenu])
 
   const reveal = useCallback(() => dispatch({ type: 'reveal' }), [dispatch])
 
@@ -152,7 +171,7 @@ export function GameScreen() {
         game={game}
         isFullscreen={isFullscreen}
         onFullscreen={toggleFullscreen}
-        onMenu={() => setMenuOpen(true)}
+        onMenu={openMenu}
       />
       <main className="flex min-h-0 items-center justify-center">{stage}</main>
       <footer className="flex flex-col gap-4">
@@ -173,10 +192,11 @@ export function GameScreen() {
         game={game}
         dispatch={dispatch}
         open={menuOpen}
-        onClose={() => setMenuOpen(false)}
+        onClose={closeMenu}
         isFullscreen={isFullscreen}
         onFullscreen={toggleFullscreen}
         onAbort={() => {
+          pausedByMenu.current = false
           setMenuOpen(false)
           abandon()
           goTo(ROUTES.home)

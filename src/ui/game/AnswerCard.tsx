@@ -12,7 +12,7 @@ export function AnswerCard({ question, verdict }: { question: Question; verdict:
   const border = verdict ? (verdict.correct ? 'border-correct' : 'border-wrong') : 'border-primary'
   return (
     <div
-      className={`reveal-in relative w-full max-w-5xl shrink-0 rounded-lg border-2 bg-surface px-8 py-5 text-center shadow-(--glow-primary) transition-colors ${border}`}
+      className={`reveal-in relative w-full max-w-5xl shrink-0 rounded-lg border-2 bg-surface px-8 py-[min(1.25rem,2vh)] text-center shadow-(--glow-primary) transition-colors ${border}`}
     >
       {verdict && (
         <span
@@ -32,7 +32,7 @@ export function AnswerCard({ question, verdict }: { question: Question; verdict:
       </p>
       {/* Other accepted forms stay off screen: the teams decide together whether an answer counts. */}
       {question.note && (
-        <p className="mt-3 text-xl text-pretty">
+        <p className="mt-[min(0.75rem,1.2vh)] text-xl text-pretty">
           <span className="font-display font-extrabold text-secondary-text">
             {t('game.note')}:{' '}
           </span>

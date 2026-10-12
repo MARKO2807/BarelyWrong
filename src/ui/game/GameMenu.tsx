@@ -4,7 +4,16 @@ import { canAdjustScores, getScores, type GameAction, type GameState } from '../
 import { t } from '../../i18n'
 import { Button } from '../Button'
 import { IconButton } from '../IconButton'
-import { MinusIcon, PlusIcon } from '../icons'
+import {
+  ExitFullscreenIcon,
+  FullscreenIcon,
+  MinusIcon,
+  MoonIcon,
+  PlusIcon,
+  SoundOffIcon,
+  SoundOnIcon,
+  SunIcon,
+} from '../icons'
 import { Modal } from '../Modal'
 import { TeamChip } from './team'
 
@@ -19,7 +28,7 @@ interface GameMenuProps {
   onAbort: () => void
 }
 
-/** Esc menu: continue, full screen, sound, score corrections and abandoning the game (asks twice). */
+/** Esc menu: continue, full screen, theme, sound, score corrections and abandoning the game (asks twice). */
 export function GameMenu({ open, onClose, ...props }: GameMenuProps) {
   return (
     <Modal open={open} onClose={onClose} title={t('game.menu')}>
@@ -46,13 +55,23 @@ function MenuContent({
         {t('game.continue')}
       </Button>
       <Button variant="secondary" size="lg" onClick={onFullscreen}>
+        {isFullscreen ? <ExitFullscreenIcon /> : <FullscreenIcon />}
         {isFullscreen ? t('game.exitFullscreen') : t('game.fullscreen')}
+      </Button>
+      <Button
+        variant="secondary"
+        size="lg"
+        onClick={() => updateSettings({ theme: settings.theme === 'dark' ? 'light' : 'dark' })}
+      >
+        {settings.theme === 'dark' ? <MoonIcon /> : <SunIcon />}
+        {settings.theme === 'dark' ? t('game.themeDark') : t('game.themeLight')}
       </Button>
       <Button
         variant="secondary"
         size="lg"
         onClick={() => updateSettings({ sound: !settings.sound })}
       >
+        {settings.sound ? <SoundOnIcon /> : <SoundOffIcon />}
         {settings.sound ? t('game.soundOn') : t('game.soundOff')}
       </Button>
       {canAdjustScores(game) &&
