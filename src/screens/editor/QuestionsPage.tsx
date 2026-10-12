@@ -130,22 +130,23 @@ export function QuestionsPage() {
         <p className="text-lg text-text-muted">{t('editor.list.empty')}</p>
       ) : (
         <div className="overflow-x-auto rounded-lg border-2 border-border">
-          <table className="w-full border-collapse text-left">
+          {/* Fixed layout: the table always fits its box; only the question column grows. */}
+          <table className="w-full table-fixed border-collapse text-left">
             <thead className="bg-surface font-display text-sm font-extrabold">
               <tr>
-                <th scope="col" className="px-3 py-2 max-md:hidden">
+                <th scope="col" className="w-48 px-3 py-2 max-md:hidden">
                   {t('editor.fields.id')}
                 </th>
-                <th scope="col" className="w-full px-3 py-2">
+                <th scope="col" className="px-3 py-2">
                   {t('editor.fields.question')}
                 </th>
-                <th scope="col" className="px-3 py-2 max-lg:hidden">
+                <th scope="col" className="w-44 px-3 py-2 max-lg:hidden">
                   {t('editor.fields.topic')}
                 </th>
-                <th scope="col" className="px-3 py-2 max-sm:hidden">
+                <th scope="col" className="w-32 px-3 py-2 max-sm:hidden">
                   {t('editor.fields.status')}
                 </th>
-                <th scope="col" className="px-3 py-2 text-right max-md:hidden">
+                <th scope="col" className="w-28 px-3 py-2 text-right max-md:hidden">
                   {t('editor.fields.stats')}
                 </th>
               </tr>
@@ -155,10 +156,10 @@ export function QuestionsPage() {
                 const similarIds = similar.get(q.id)?.map((s) => s.id) ?? []
                 return (
                   <tr key={q.id} className="border-t-2 border-border align-top hover:bg-surface">
-                    <td className="px-3 py-2 font-terminal text-lg whitespace-nowrap max-md:hidden">
+                    <td className="px-3 py-2 font-terminal text-lg break-all max-md:hidden">
                       {q.id}
                     </td>
-                    <td className="min-w-64 px-3 py-2 break-words">
+                    <td className="px-3 py-2 break-words">
                       <Link
                         to={EDITOR_ROUTES.question(q.id)}
                         className="block rounded-sm font-semibold hover:text-primary-text"
@@ -186,13 +187,11 @@ export function QuestionsPage() {
                         )}
                       </p>
                     </td>
-                    <td className="px-3 py-2 whitespace-nowrap max-lg:hidden">
-                      {t(`topics.${q.topic}`)}
-                    </td>
+                    <td className="px-3 py-2 max-lg:hidden">{t(`topics.${q.topic}`)}</td>
                     <td className="px-3 py-2 whitespace-nowrap max-sm:hidden">
                       <StatusBadge status={q.status} />
                     </td>
-                    <td className="px-3 py-2 text-right font-terminal text-lg whitespace-nowrap max-md:hidden">
+                    <td className="px-3 py-2 text-right font-terminal text-lg max-md:hidden">
                       {q.shown === 0
                         ? '—'
                         : t('editor.list.stats', {
