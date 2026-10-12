@@ -6,10 +6,17 @@
     "difficulty": 3,
     "question": "Kako se zove švedska poštanska marka iz 1855., otisnuta greškom u pogrešnoj boji, od koje je poznat samo jedan primjerak?",
     "answer": "Treskilling Yellow",
-    "accept": ["Žuta marka od tri skillinga", "Gul tre skilling banco", "Treskilling"],
+    "accept": [
+      "Žuta marka od tri skillinga",
+      "Gul tre skilling banco",
+      "Treskilling"
+    ],
     "note": "Marka od tri skillinga inače se tiskala plavozelenom bojom, a ona od osam žutonarančastom.",
     "source": "Wikipedia (en): Treskilling Yellow",
-    "tags": ["marke", "zanimljivosti"],
+    "tags": [
+      "marke",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +27,17 @@
     "difficulty": 3,
     "question": "Koju je hranu programer Laszlo Hanyecz 22. svibnja 2010. kupio za 10 000 bitcoina, u prvoj poznatoj kupnji tom valutom?",
     "answer": "Dvije pizze",
-    "accept": ["pizza", "pizze", "dvije pizze Papa John's"],
+    "accept": [
+      "pizza",
+      "pizze",
+      "dvije pizze Papa John's"
+    ],
     "note": "Taj se dan slavi kao Bitcoin Pizza Day.",
     "source": "Wikipedia (en): Bitcoin",
-    "tags": ["novac", "zanimljivosti"],
+    "tags": [
+      "novac",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +48,16 @@
     "difficulty": 3,
     "question": "Kako glasi puno ime lutke Barbie prema njezinu izmišljenom životopisu?",
     "answer": "Barbara Millicent Roberts",
-    "accept": ["Barbara Roberts", "Barbara Millicent"],
+    "accept": [
+      "Barbara Roberts",
+      "Barbara Millicent"
+    ],
     "note": "Lutku je osmislila Ruth Handler, a Mattel ju je predstavio 9. ožujka 1959.",
     "source": "Wikipedia (en): Barbie",
-    "tags": ["igračke", "zanimljivosti"],
+    "tags": [
+      "igračke",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +68,16 @@
     "difficulty": 3,
     "question": "Koja je igračka, tvar koja polako teče, a pri naglom udarcu odskače, nastala iz istraživanja zamjene za gumu u Drugom svjetskom ratu?",
     "answer": "Silly Putty",
-    "accept": ["plastelin koji odskače", "pametni plastelin"],
+    "accept": [
+      "plastelin koji odskače",
+      "pametni plastelin"
+    ],
     "note": "Ime je zaštićeni znak tvrtke Crayola.",
     "source": "Wikipedia (en): Silly Putty",
-    "tags": ["igračke", "zanimljivosti"],
+    "tags": [
+      "igračke",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -60,12 +86,18 @@
     "topic": "general",
     "format": "open",
     "difficulty": 3,
-    "question": "Po kojoj je tvrtki iz Connecticuta, čije su prazne limenke studenti Yalea bacali jedni drugima, nazvan leteći disk Frisbee?",
+    "question": "Po kojoj je tvrtki iz Connecticuta, čije su prazne limene kalupe za pite studenti Yalea bacali jedni drugima, nazvan leteći disk Frisbee?",
     "answer": "Frisbie Pie Company",
-    "accept": ["Frisbie", "Frisbie Pie"],
+    "accept": [
+      "Frisbie",
+      "Frisbie Pie"
+    ],
     "note": "Ime „Frisbee” disku su 1957. dali osnivači tvrtke Wham-O.",
     "source": "Wikipedia (en): Frisbee",
-    "tags": ["igračke", "brendovi"],
+    "tags": [
+      "igračke",
+      "brendovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +108,15 @@
     "difficulty": 3,
     "question": "Po kojem su studentu MIT-a, kojeg su kolege 1958. polagali na Harvardski most, nazvali šaljivu jedinicu za duljinu?",
     "answer": "Oliver Smoot",
-    "accept": ["Smoot"],
+    "accept": [
+      "Smoot"
+    ],
     "note": "Most je dug 364,4 smoota „± 1 uho”.",
     "source": "Wikipedia (en): Smoot",
-    "tags": ["mjere", "zanimljivosti"],
+    "tags": [
+      "mjere",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +127,16 @@
     "difficulty": 3,
     "question": "Kako se zove znak ÷, koji se koristi za dijeljenje, a ime mu dolazi od grčke riječi za naoštreni štapić?",
     "answer": "Obelus",
-    "accept": ["obel", "obelos"],
+    "accept": [
+      "obel",
+      "obelos"
+    ],
     "note": "Isti se naziv koristi i za križić †.",
     "source": "Wikipedia (en): Obelus",
-    "tags": ["simboli", "zanimljivosti"],
+    "tags": [
+      "simboli",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +147,17 @@
     "difficulty": 3,
     "question": "Kako se zove najviša kategorija španjolske šunke iberijske svinje, koja se u hrastovim šumama hrani samo žirom?",
     "answer": "Jamón ibérico de bellota",
-    "accept": ["de bellota", "bellota", "iberijska šunka od žira"],
+    "accept": [
+      "de bellota",
+      "bellota",
+      "iberijska šunka od žira"
+    ],
     "note": "Riječ „bellota” na španjolskom znači „žir”.",
     "source": "Wikipedia (en): Jamón ibérico",
-    "tags": ["hrana", "Španjolska"],
+    "tags": [
+      "hrana",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +168,15 @@
     "difficulty": 3,
     "question": "Koje je tropsko voće zbog snažnog i dugotrajnog mirisa zabranjeno u nekim hotelima i javnom prijevozu jugoistočne Azije?",
     "answer": "Durian",
-    "accept": ["durijan"],
+    "accept": [
+      "durijan"
+    ],
     "note": "Mnogima je miris odbojan, a drugi mu pripisuju ugodnu aromu.",
     "source": "Wikipedia (en): Durian",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +187,17 @@
     "difficulty": 3,
     "question": "Kako se zove kineska delikatesa od jajeta konzerviranog tjednima ili mjesecima u smjesi gline, pepela, soli i živog vapna?",
     "answer": "Stoljetno jaje",
-    "accept": ["Century egg", "Tisućljetno jaje", "jaje od sto godina"],
+    "accept": [
+      "Century egg",
+      "Tisućljetno jaje",
+      "jaje od sto godina"
+    ],
     "note": "Žumanjak pritom postaje tamnozelen do siv.",
     "source": "Wikipedia (en): Century egg",
-    "tags": ["hrana", "Kina"],
+    "tags": [
+      "hrana",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +208,16 @@
     "difficulty": 3,
     "question": "Kako se zove fermentirano piće od kobiljeg mlijeka, tradicionalno u narodima srednjoazijskih stepa?",
     "answer": "Kumis",
-    "accept": ["kumiz", "airag"],
+    "accept": [
+      "kumiz",
+      "airag"
+    ],
     "note": "Važno je Kazasima, Kirgizima i Mongolima.",
     "source": "Wikipedia (en): Kumis",
-    "tags": ["piće", "Azija"],
+    "tags": [
+      "piće",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }
