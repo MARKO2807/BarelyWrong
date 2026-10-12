@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Kako se zove talijansko jelo od riže kuhane u temeljcu dok ne postane kremasto?",
     "answer": "Rižoto",
-    "accept": ["risotto"],
+    "accept": [
+      "risotto"
+    ],
     "note": "Ime dolazi od talijanske riječi riso, „riža”.",
     "source": "Wikipedia (en): Risotto",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0181",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Kako se zove talijanska tjestenina u obliku leptirića?",
     "answer": "Farfalle",
-    "accept": ["farfale"],
+    "accept": [
+      "farfale"
+    ],
     "note": "U Emiliji-Romagni zovu je strichetti, „leptir-mašnice”.",
     "source": "Wikipedia (en): Farfalle",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,16 @@
     "difficulty": 1,
     "question": "Od koje se mahunarke, uz sezamovu pastu tahini, radi humus?",
     "answer": "Slanutak",
-    "accept": ["leblebija", "naut"],
+    "accept": [
+      "leblebija",
+      "naut"
+    ],
     "note": "Ime hummus na arapskom i znači „slanutak”.",
     "source": "Wikipedia (en): Hummus",
-    "tags": ["hrana", "Bliski istok"],
+    "tags": [
+      "hrana",
+      "Bliski istok"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,9 +68,13 @@
     "accept": [],
     "note": "Rezanci su pšenični i, po kineskom uzoru, alkalni.",
     "source": "Wikipedia (en): Ramen",
-    "tags": ["hrana", "Japan"],
+    "tags": [
+      "hrana",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0184",
@@ -62,10 +83,15 @@
     "difficulty": 1,
     "question": "Kako se zove jelo od heljdina, kukuruznog ili pšeničnog brašna koje se smatra nacionalnim jelom Slovenije?",
     "answer": "Žganci",
-    "accept": ["žganjci"],
+    "accept": [
+      "žganjci"
+    ],
     "note": "U Hrvatskoj se najčešće rade od kukuruznog brašna.",
     "source": "Wikipedia (en): Žganci",
-    "tags": ["hrana", "Slovenija"],
+    "tags": [
+      "hrana",
+      "Slovenija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -79,7 +105,10 @@
     "accept": [],
     "note": "Osnovao ju je Jeff Bezos u Bellevueu, u saveznoj državi Washington.",
     "source": "Wikipedia (en): Amazon (company)",
-    "tags": ["tvrtke", "internet"],
+    "tags": [
+      "tvrtke",
+      "internet"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +122,10 @@
     "accept": [],
     "note": "YouTube su 2005. osnovala trojica bivših zaposlenika PayPala.",
     "source": "Wikipedia (en): YouTube",
-    "tags": ["tvrtke", "internet"],
+    "tags": [
+      "tvrtke",
+      "internet"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +136,16 @@
     "difficulty": 2,
     "question": "Kako glasi puni naziv kratice FIFA?",
     "answer": "Fédération Internationale de Football Association",
-    "accept": ["Međunarodni nogometni savez", "Međunarodna federacija nogometnih saveza"],
+    "accept": [
+      "Međunarodni nogometni savez",
+      "Međunarodna federacija nogometnih saveza"
+    ],
     "note": "Službeni je naziv na francuskom.",
     "source": "Wikipedia (en): FIFA",
-    "tags": ["kratice", "nogomet"],
+    "tags": [
+      "kratice",
+      "nogomet"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +156,16 @@
     "difficulty": 2,
     "question": "Od koje se biljke dobiva rum?",
     "answer": "Šećerna trska",
-    "accept": ["šećerne trske", "melasa"],
+    "accept": [
+      "šećerne trske",
+      "melasa"
+    ],
     "note": "Radi se od melase ili soka šećerne trske, a potječe s Kariba.",
     "source": "Wikipedia (en): Rum",
-    "tags": ["pića", "Karibi"],
+    "tags": [
+      "pića",
+      "Karibi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +176,15 @@
     "difficulty": 2,
     "question": "Iz koje kuhinje potječe kimči, fermentirano povrće, najčešće kineski kupus?",
     "answer": "Korejske",
-    "accept": ["korejska"],
+    "accept": [
+      "korejska"
+    ],
     "note": "Poslužuje se kao prilog uz glavno jelo.",
     "source": "Wikipedia (en): Kimchi",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +198,10 @@
     "accept": [],
     "note": "Jedna je od najčešćih specifičnih fobija.",
     "source": "Wikipedia (en): Arachnophobia",
-    "tags": ["fobije", "životinje"],
+    "tags": [
+      "fobije",
+      "životinje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +212,16 @@
     "difficulty": 2,
     "question": "Kako se zove interpunkcijski znak od tri točke?",
     "answer": "Trotočje",
-    "accept": ["tri točke", "elipsa"],
+    "accept": [
+      "tri točke",
+      "elipsa"
+    ],
     "note": "Označava izostavljenu riječ ili dio teksta.",
     "source": "Wikipedia (en): Ellipsis",
-    "tags": ["znakovi", "pravopis"],
+    "tags": [
+      "znakovi",
+      "pravopis"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +235,10 @@
     "accept": [],
     "note": "Lijevom stranom vozi se i u Indoneziji, Nepalu i Tajlandu, iako nisu bili britanske kolonije.",
     "source": "Wikipedia (en): Left- and right-hand traffic",
-    "tags": ["promet", "Japan"],
+    "tags": [
+      "promet",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +249,15 @@
     "difficulty": 2,
     "question": "Koliko je centimetara duga jedna stopa?",
     "answer": "30,48",
-    "accept": ["30,48 cm"],
+    "accept": [
+      "30,48 cm"
+    ],
     "note": "Stopa ima 12 inča, a točna je duljina dogovorena 1959.",
     "source": "Wikipedia (en): Foot (unit)",
-    "tags": ["mjerne jedinice", "brojevi"],
+    "tags": [
+      "mjerne jedinice",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +268,15 @@
     "difficulty": 2,
     "question": "Koji žuti začin daje boju curry prahu?",
     "answer": "Kurkuma",
-    "accept": ["kurkuma u prahu"],
+    "accept": [
+      "kurkuma u prahu"
+    ],
     "note": "Glavni su joj djelatni sastojci kurkuminoidi, među njima kurkumin.",
     "source": "Wikipedia (en): Turmeric",
-    "tags": ["začini", "Indija"],
+    "tags": [
+      "začini",
+      "Indija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +287,15 @@
     "difficulty": 3,
     "question": "Kako se zove meksičko žestoko piće koje se, za razliku od tekile, smije raditi od bilo koje vrste agave?",
     "answer": "Mezcal",
-    "accept": ["meskal"],
+    "accept": [
+      "meskal"
+    ],
     "note": "Agave rastu samo u Americi.",
     "source": "Wikipedia (en): Mezcal",
-    "tags": ["pića", "Meksiko"],
+    "tags": [
+      "pića",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -233,7 +309,10 @@
     "accept": [],
     "note": "Uvijek su dvostruko dulje nego šire.",
     "source": "Wikipedia (en): Tatami",
-    "tags": ["Japan", "stanovanje"],
+    "tags": [
+      "Japan",
+      "stanovanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +326,10 @@
     "accept": [],
     "note": "Svaka od šest ploha ima devet naljepnica.",
     "source": "Wikipedia (en): Rubik's Cube",
-    "tags": ["igre", "brojevi"],
+    "tags": [
+      "igre",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +340,15 @@
     "difficulty": 3,
     "question": "Kako se zove fermentirani zaslađeni čaj, koji se radi pomoću „majke”, kulture bakterija i kvasaca?",
     "answer": "Kombucha",
-    "accept": ["kombuča"],
+    "accept": [
+      "kombuča"
+    ],
     "note": "Ta se kultura naziva i „gljiva”.",
     "source": "Wikipedia (en): Kombucha",
-    "tags": ["pića", "fermentacija"],
+    "tags": [
+      "pića",
+      "fermentacija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +362,10 @@
     "accept": [],
     "note": "Plavoj inačici dodaje se plijesan Penicillium roqueforti.",
     "source": "Wikipedia (en): Stilton cheese",
-    "tags": ["hrana", "Engleska"],
+    "tags": [
+      "hrana",
+      "Engleska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

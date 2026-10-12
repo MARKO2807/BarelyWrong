@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koja je engleska kantautorica 2006. objavila album „Back to Black”?",
     "answer": "Amy Winehouse",
-    "accept": ["Winehouse"],
+    "accept": [
+      "Winehouse"
+    ],
     "note": "Bio je to njezin drugi i posljednji studijski album.",
     "source": "Wikipedia (en): Back to Black",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Koja je kanadska pjevačica otpjevala „My Heart Will Go On” iz filma „Titanic”?",
     "answer": "Celine Dion",
-    "accept": ["Céline Dion", "Dion"],
+    "accept": [
+      "Céline Dion",
+      "Dion"
+    ],
     "note": "Glazbu je skladao James Horner, a tekst napisao Will Jennings.",
     "source": "Wikipedia (en): My Heart Will Go On",
-    "tags": ["pop", "filmska glazba"],
+    "tags": [
+      "pop",
+      "filmska glazba"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0121",
@@ -34,10 +46,16 @@
     "difficulty": 1,
     "question": "Kako se zove ples u tročetvrtinskoj mjeri čije ime dolazi od njemačke riječi za okretanje?",
     "answer": "Valcer",
-    "accept": ["Walzer", "Waltz"],
+    "accept": [
+      "Walzer",
+      "Waltz"
+    ],
     "note": "Nastao je u zemljama njemačkog govornog područja.",
     "source": "Wikipedia (en): Waltz",
-    "tags": ["ples", "glazbeni pojmovi"],
+    "tags": [
+      "ples",
+      "glazbeni pojmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +69,10 @@
     "accept": [],
     "note": "Pjesma se zove i „Rocket Man (I Think It's Going to Be a Long, Long Time)”.",
     "source": "Wikipedia (en): Rocket Man (song)",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +86,10 @@
     "accept": [],
     "note": "Bio je čudo od djeteta, a u početku ga je strogo poučavao otac.",
     "source": "Wikipedia (en): Ludwig van Beethoven",
-    "tags": ["skladatelji", "klasična glazba"],
+    "tags": [
+      "skladatelji",
+      "klasična glazba"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "„Četiri godišnja doba” skladao je Antonio Vivaldi.",
     "source": "Wikipedia (en): The Four Seasons (Vivaldi)",
-    "tags": ["skladatelji", "zablude"],
+    "tags": [
+      "skladatelji",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +120,10 @@
     "accept": [],
     "note": "AC/DC je australski sastav, osnovan 1973. u Sydneyu.",
     "source": "Wikipedia (en): AC/DC",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +134,15 @@
     "difficulty": 2,
     "question": "Koji talijanski glazbeni izraz označava postupno pojačavanje glasnoće?",
     "answer": "Crescendo",
-    "accept": ["Kreščendo"],
+    "accept": [
+      "Kreščendo"
+    ],
     "note": "Doslovno znači „rastući”.",
     "source": "Wikipedia (en): Dynamics (music)",
-    "tags": ["glazbeni pojmovi", "talijanski"],
+    "tags": [
+      "glazbeni pojmovi",
+      "talijanski"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +153,16 @@
     "difficulty": 2,
     "question": "Kako se zove najdublji ženski klasični pjevački glas?",
     "answer": "Alt",
-    "accept": ["Kontraalt", "Contralto"],
+    "accept": [
+      "Kontraalt",
+      "Contralto"
+    ],
     "note": "Prilično je rijedak.",
     "source": "Wikipedia (en): Contralto",
-    "tags": ["pjevanje", "glazbeni pojmovi"],
+    "tags": [
+      "pjevanje",
+      "glazbeni pojmovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Koji je američki jazz-glazbenik 1959. objavio album „Kind of Blue”?",
     "answer": "Miles Davis",
-    "accept": ["Davis"],
+    "accept": [
+      "Davis"
+    ],
     "note": "U njegovu su sekstetu svirali i saksofonisti John Coltrane i Cannonball Adderley.",
     "source": "Wikipedia (en): Kind of Blue",
-    "tags": ["jazz", "albumi"],
+    "tags": [
+      "jazz",
+      "albumi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +192,15 @@
     "difficulty": 2,
     "question": "Koji je švedski DJ autor pjesme „Levels”?",
     "answer": "Avicii",
-    "accept": ["Tim Bergling"],
+    "accept": [
+      "Tim Bergling"
+    ],
     "note": "Pjesma je prvi put puštena 2010. na BBC Radiju 1.",
     "source": "Wikipedia (en): Levels (Avicii song)",
-    "tags": ["elektronička glazba", "pjevači"],
+    "tags": [
+      "elektronička glazba",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +211,15 @@
     "difficulty": 2,
     "question": "Tko je 2024. s pjesmom „Rim Tim Tagi Dim” Hrvatskoj donio drugo mjesto na Euroviziji?",
     "answer": "Baby Lasagna",
-    "accept": ["Marko Purišić"],
+    "accept": [
+      "Marko Purišić"
+    ],
     "note": "Bio je jedan od osnivača sastava Manntra.",
     "source": "Wikipedia (en): Baby Lasagna",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +233,10 @@
     "accept": [],
     "note": "Spaja različite glazbene stilove, što je za pop-singl vrlo neobično.",
     "source": "Wikipedia (en): Bohemian Rhapsody",
-    "tags": ["rock", "pjesme"],
+    "tags": [
+      "rock",
+      "pjesme"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +250,10 @@
     "accept": [],
     "note": "Pjesmu je napisao i 1965. objavio Bob Dylan.",
     "source": "Wikipedia (en): Like a Rolling Stone",
-    "tags": ["rock", "zablude"],
+    "tags": [
+      "rock",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +264,15 @@
     "difficulty": 2,
     "question": "Koje je godine u Londonu osnovan sastav Queen?",
     "answer": "1970.",
-    "accept": ["1970"],
+    "accept": [
+      "1970"
+    ],
     "note": "Osnovali su ga Freddie Mercury, Brian May i Roger Taylor, a poslije im se pridružio John Deacon.",
     "source": "Wikipedia (en): Queen (band)",
-    "tags": ["rock", "godine"],
+    "tags": [
+      "rock",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 2,
     "question": "Koje je godine umro Freddie Mercury?",
     "answer": "1991.",
-    "accept": ["1991"],
+    "accept": [
+      "1991"
+    ],
     "note": "Rođen je kao Farrokh Bulsara.",
     "source": "Wikipedia (en): Freddie Mercury",
-    "tags": ["rock", "godine"],
+    "tags": [
+      "rock",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +302,15 @@
     "difficulty": 3,
     "question": "Zbog izbacivanja kojeg je pijanista 1980. s Chopinova natjecanja Martha Argerich napustila žiri?",
     "answer": "Ivo Pogorelić",
-    "accept": ["Pogorelić"],
+    "accept": [
+      "Pogorelić"
+    ],
     "note": "Argerich ga je pritom nazvala „genijem”.",
     "source": "Wikipedia (en): Ivo Pogorelić",
-    "tags": ["klasična glazba", "Hrvatska"],
+    "tags": [
+      "klasična glazba",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +321,15 @@
     "difficulty": 3,
     "question": "Koji je engleski skladatelj autor koračnica „Pomp and Circumstance”?",
     "answer": "Edward Elgar",
-    "accept": ["Elgar"],
+    "accept": [
+      "Elgar"
+    ],
     "note": "Pet koračnica nastalo je od 1901. do 1930., a šestu je 2006. dovršio Anthony Payne.",
     "source": "Wikipedia (en): Pomp and Circumstance Marches",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +343,10 @@
     "accept": [],
     "note": "Četvorica njegovih sinova također su postali skladatelji.",
     "source": "Wikipedia (en): Johann Sebastian Bach",
-    "tags": ["barok", "skladatelji"],
+    "tags": [
+      "barok",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +357,15 @@
     "difficulty": 3,
     "question": "Koliko je godina imao Beethoven kad je umro 1827.?",
     "answer": "56",
-    "accept": ["Pedeset šest"],
+    "accept": [
+      "Pedeset šest"
+    ],
     "note": "Kršten je 17. prosinca 1770., a umro je 26. ožujka 1827.",
     "source": "Wikipedia (en): Ludwig van Beethoven",
-    "tags": ["skladatelji", "brojevi"],
+    "tags": [
+      "skladatelji",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

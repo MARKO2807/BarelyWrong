@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Kako se zove alkoholni punč od crnog vina i nasjeckanog voća, podrijetlom iz Španjolske i Portugala?",
     "answer": "Sangria",
-    "accept": ["sangrija", "sangría"],
+    "accept": [
+      "sangrija",
+      "sangría"
+    ],
     "note": "Prema pravilima EU-a, samo Španjolska i Portugal mogu svoj proizvod prodavati pod tim imenom.",
     "source": "Wikipedia (en): Sangria",
-    "tags": ["pića", "Španjolska"],
+    "tags": [
+      "pića",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -23,9 +29,13 @@
     "accept": [],
     "note": "Zbog osvježavajućeg okusa popularno je ljetno piće.",
     "source": "Wikipedia (en): Mojito",
-    "tags": ["pića", "kokteli"],
+    "tags": [
+      "pića",
+      "kokteli"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0282",
@@ -34,12 +44,19 @@
     "difficulty": 1,
     "question": "Kako se zove dugi, tanki francuski kruh hrskave kore?",
     "answer": "Baguette",
-    "accept": ["baget", "bageta"],
+    "accept": [
+      "baget",
+      "bageta"
+    ],
     "note": "Tijesto i dimenzije tradicionalnog takvog kruha propisani su francuskim zakonom.",
     "source": "Wikipedia (en): Baguette",
-    "tags": ["hrana", "Francuska"],
+    "tags": [
+      "hrana",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0283",
@@ -48,10 +65,16 @@
     "difficulty": 1,
     "question": "Kako se zovu mali predjelci ili zalogaji u španjolskoj kuhinji, koji se mogu složiti u cijeli obrok?",
     "answer": "Tapas",
-    "accept": ["tapasi", "tapa"],
+    "accept": [
+      "tapasi",
+      "tapa"
+    ],
     "note": "Riječ dolazi od španjolskog glagola tapar, „pokriti”.",
     "source": "Wikipedia (en): Tapas",
-    "tags": ["hrana", "Španjolska"],
+    "tags": [
+      "hrana",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +88,10 @@
     "accept": [],
     "note": "To je najprodavanije pivo u Irskoj i Ujedinjenom Kraljevstvu.",
     "source": "Wikipedia (en): Guinness",
-    "tags": ["pića", "Irska"],
+    "tags": [
+      "pića",
+      "Irska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +102,15 @@
     "difficulty": 2,
     "question": "Koji je koktel nastao u Portoriku, a ime na španjolskom znači „procijeđeni” plod jedne tropske biljke?",
     "answer": "Piña colada",
-    "accept": ["pina colada"],
+    "accept": [
+      "pina colada"
+    ],
     "note": "Radi se od ruma, kokosove kreme i soka, a poslužuje miješan ili protresen s ledom.",
     "source": "Wikipedia (en): Piña colada",
-    "tags": ["pića", "kokteli"],
+    "tags": [
+      "pića",
+      "kokteli"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +124,10 @@
     "accept": [],
     "note": "Izmišljen je negdje između 1934. i 1948.",
     "source": "Wikipedia (en): Bellini (cocktail)",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +141,10 @@
     "accept": [],
     "note": "Ime dolazi od francuske žargonske riječi apero, „aperitiv”.",
     "source": "Wikipedia (en): Aperol",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +158,10 @@
     "accept": [],
     "note": "Izvorno je bio obojen karminom, bojom dobivenom od kukaca košenila.",
     "source": "Wikipedia (en): Campari",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +172,15 @@
     "difficulty": 2,
     "question": "Kako se zove talijansko žestoko piće dobiveno destilacijom komine, ostataka grožđa nakon prešanja?",
     "answer": "Grappa",
-    "accept": ["grapa"],
+    "accept": [
+      "grapa"
+    ],
     "note": "Ime je zaštićeno u Europskoj uniji.",
     "source": "Wikipedia (en): Grappa",
-    "tags": ["pića", "Italija"],
+    "tags": [
+      "pića",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +194,10 @@
     "accept": [],
     "note": "Može se raditi od kravljeg, kozjeg ili ovčjeg mlijeka.",
     "source": "Wikipedia (en): Kefir",
-    "tags": ["hrana", "pića"],
+    "tags": [
+      "hrana",
+      "pića"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +208,16 @@
     "difficulty": 2,
     "question": "Kako se zove talijansko predjelo od na žaru pečenog kruha premazanog češnjakom, maslinovim uljem i solju?",
     "answer": "Bruschetta",
-    "accept": ["bruskete", "brusketa"],
+    "accept": [
+      "bruskete",
+      "brusketa"
+    ],
     "note": "Najčešće se poslužuje s rajčicom, povrćem, grahom, suhomesnatim ili sirom.",
     "source": "Wikipedia (en): Bruschetta",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +228,15 @@
     "difficulty": 2,
     "question": "Kako se zove talijanski plosnati kruh od dizanog tijesta pečen u pećnici, čije ime dolazi od latinske riječi za ognjište?",
     "answer": "Focaccia",
-    "accept": ["fokača"],
+    "accept": [
+      "fokača"
+    ],
     "note": "U antičkom Rimu panis focacius bio je kruh pečen na ognjištu.",
     "source": "Wikipedia (en): Focaccia",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +250,10 @@
     "accept": [],
     "note": "U njezinu je laboratoriju kemičar Søren Sørensen uveo pojam pH.",
     "source": "Wikipedia (en): Carlsberg Group",
-    "tags": ["pića", "robne marke"],
+    "tags": [
+      "pića",
+      "robne marke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +267,10 @@
     "accept": [],
     "note": "Osnivač Ferruccio Lamborghini 1948. osnovao je i tvrtku za traktore.",
     "source": "Wikipedia (en): Lamborghini",
-    "tags": ["automobili", "Italija"],
+    "tags": [
+      "automobili",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +281,16 @@
     "difficulty": 3,
     "question": "Koje se jako alkoholno piće s okusom anisa, od pelina, u starim tekstovima zove „zelena vila”?",
     "answer": "Apsint",
-    "accept": ["absint", "absinthe"],
+    "accept": [
+      "absint",
+      "absinthe"
+    ],
     "note": "Ne zaslađuje se, pa nije pravi liker.",
     "source": "Wikipedia (en): Absinthe",
-    "tags": ["pića", "Europa"],
+    "tags": [
+      "pića",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +301,15 @@
     "difficulty": 3,
     "question": "Kako se zove fermentirano, slabo alkoholno piće od raženog kruha ili brašna i slada, podrijetlom iz sjeveroistočne Europe?",
     "answer": "Kvas",
-    "accept": ["kvass"],
+    "accept": [
+      "kvass"
+    ],
     "note": "Prvi se put spominje u opisu proslave krštenja Vladimira Velikog 988.",
     "source": "Wikipedia (en): Kvass",
-    "tags": ["pića", "Europa"],
+    "tags": [
+      "pića",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +323,10 @@
     "accept": [],
     "note": "Uz obrok s čajem veže se kantonski izraz yum cha.",
     "source": "Wikipedia (en): Dim sum",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +340,10 @@
     "accept": [],
     "note": "Ideja je nastala u San Franciscu 2007., kad su cimeri tražili novac za stanarinu.",
     "source": "Wikipedia (en): Airbnb",
-    "tags": ["tvrtke", "SAD"],
+    "tags": [
+      "tvrtke",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +357,10 @@
     "accept": [],
     "note": "Tvrtka se 1960. podijelila na dvije zasebne skupine, sjevernu i južnu.",
     "source": "Wikipedia (en): Aldi",
-    "tags": ["tvrtke", "Njemačka"],
+    "tags": [
+      "tvrtke",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

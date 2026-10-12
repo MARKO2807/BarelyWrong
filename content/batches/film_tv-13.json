@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koja je glumica Oscara za najbolju glumicu dobila za ulogu u filmu „BUtterfield 8” (1960.)?",
     "answer": "Elizabeth Taylor",
-    "accept": ["Liz Taylor"],
+    "accept": [
+      "Liz Taylor"
+    ],
     "note": "To joj je bio posljednji film za studio MGM.",
     "source": "Wikipedia (en): Elizabeth Taylor",
-    "tags": ["glumci", "klasici"],
+    "tags": [
+      "glumci",
+      "klasici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Kako se zovu mala plava bića koja žive u kućicama od gljiva, a stvorio ih je belgijski crtač Peyo 1958.?",
     "answer": "Štrumpfovi",
-    "accept": ["Smurfovi", "Štrumfovi"],
+    "accept": [
+      "Smurfovi",
+      "Štrumfovi"
+    ],
     "note": "Na francuskom se zovu Les Schtroumpfs.",
     "source": "Wikipedia (en): The Smurfs",
-    "tags": ["crtani filmovi", "likovi"],
+    "tags": [
+      "crtani filmovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0283",
@@ -37,7 +49,10 @@
     "accept": [],
     "note": "Hergé je pseudonim Georgesa Remija.",
     "source": "Wikipedia (en): The Adventures of Tintin",
-    "tags": ["stripovi", "likovi"],
+    "tags": [
+      "stripovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,9 +66,13 @@
     "accept": [],
     "note": "Strip se isprva, lokalno, zvao „Jon”.",
     "source": "Wikipedia (en): Garfield",
-    "tags": ["stripovi", "likovi"],
+    "tags": [
+      "stripovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0285",
@@ -62,12 +81,18 @@
     "difficulty": 1,
     "question": "Kako se zove medvjedić iz Perua, junak knjiga britanskog pisca Michaela Bonda?",
     "answer": "Medvjedić Paddington",
-    "accept": ["Paddington"],
+    "accept": [
+      "Paddington"
+    ],
     "note": "Prvi put pojavio se 13. listopada 1958.",
     "source": "Wikipedia (en): Paddington Bear",
-    "tags": ["dječja književnost", "likovi"],
+    "tags": [
+      "dječja književnost",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0286",
@@ -76,10 +101,15 @@
     "difficulty": 2,
     "question": "Koja je švedska glumica, rođena kao Greta Gustafsson, bila zvijezda nijemog i ranog zvučnog Hollywooda?",
     "answer": "Greta Garbo",
-    "accept": ["Garbo"],
+    "accept": [
+      "Garbo"
+    ],
     "note": "Smatra se jednom od najvećih filmskih glumica svih vremena.",
     "source": "Wikipedia (en): Greta Garbo",
-    "tags": ["glumci", "klasici"],
+    "tags": [
+      "glumci",
+      "klasici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +120,15 @@
     "difficulty": 2,
     "question": "Koja je glumica međunarodnu slavu stekla kao Lola Lola u filmu „Plavi anđeo” (1930.)?",
     "answer": "Marlene Dietrich",
-    "accept": ["Dietrich"],
+    "accept": [
+      "Dietrich"
+    ],
     "note": "Film je režirao Josef von Sternberg.",
     "source": "Wikipedia (en): Marlene Dietrich",
-    "tags": ["glumci", "klasici"],
+    "tags": [
+      "glumci",
+      "klasici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +139,15 @@
     "difficulty": 2,
     "question": "Koja se francuska glumica proslavila filmom „I Bog stvori ženu” (1956.)?",
     "answer": "Brigitte Bardot",
-    "accept": ["Bardot"],
+    "accept": [
+      "Bardot"
+    ],
     "note": "Kao dijete željela je postati balerina.",
     "source": "Wikipedia (en): Brigitte Bardot",
-    "tags": ["glumci", "Francuska"],
+    "tags": [
+      "glumci",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +158,15 @@
     "difficulty": 2,
     "question": "Koja je glumica 1950-ih glumila caricu Elizabetu u trilogiji „Sissi”?",
     "answer": "Romy Schneider",
-    "accept": ["Schneider"],
+    "accept": [
+      "Schneider"
+    ],
     "note": "Istu je ulogu ponovila u Viscontijevu „Ludwigu” (1973.).",
     "source": "Wikipedia (en): Romy Schneider",
-    "tags": ["glumci", "Austrija"],
+    "tags": [
+      "glumci",
+      "Austrija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +180,10 @@
     "accept": [],
     "note": "Snimio je i film „Hulk” (2003.).",
     "source": "Wikipedia (en): Ang Lee",
-    "tags": ["redatelji", "Azija"],
+    "tags": [
+      "redatelji",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +194,15 @@
     "difficulty": 2,
     "question": "Koji je češki redatelj Oscare dobio za filmove „Let iznad kukavičjeg gnijezda” i „Amadeus”?",
     "answer": "Miloš Forman",
-    "accept": ["Forman"],
+    "accept": [
+      "Forman"
+    ],
     "note": "Iz Čehoslovačke je otišao u SAD.",
     "source": "Wikipedia (en): Miloš Forman",
-    "tags": ["redatelji", "Oscar"],
+    "tags": [
+      "redatelji",
+      "Oscar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +213,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj Oscara za strani film dobio za „Ničiju zemlju” (2001.)?",
     "answer": "Danis Tanović",
-    "accept": ["Tanović"],
+    "accept": [
+      "Tanović"
+    ],
     "note": "Za isti je film dobio i Zlatni globus.",
     "source": "Wikipedia (en): Danis Tanović",
-    "tags": ["redatelji", "Oscar"],
+    "tags": [
+      "redatelji",
+      "Oscar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +232,15 @@
     "difficulty": 2,
     "question": "Koju su britansku humorističnu seriju o neuspješnom hotelu napisali John Cleese i Connie Booth?",
     "answer": "Fawlty Towers",
-    "accept": ["Hotel Fawlty"],
+    "accept": [
+      "Hotel Fawlty"
+    ],
     "note": "Snimljene su samo dvije sezone po šest epizoda.",
     "source": "Wikipedia (en): Fawlty Towers",
-    "tags": ["serije", "komedija"],
+    "tags": [
+      "serije",
+      "komedija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +251,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj dvaput osvojio Zlatnu palmu, za „Otac na službenom putu” i „Podzemlje”?",
     "answer": "Emir Kusturica",
-    "accept": ["Kusturica"],
+    "accept": [
+      "Kusturica"
+    ],
     "note": "U Cannesu je nagrađen i za najbolju režiju.",
     "source": "Wikipedia (en): Emir Kusturica",
-    "tags": ["redatelji", "nagrade"],
+    "tags": [
+      "redatelji",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +270,15 @@
     "difficulty": 2,
     "question": "Koji je njemački redatelj Zlatnu palmu dobio za film „Paris, Texas” (1984.)?",
     "answer": "Wim Wenders",
-    "accept": ["Wenders"],
+    "accept": [
+      "Wenders"
+    ],
     "note": "Za „Nebo nad Berlinom” (1987.) nagrađen je u Cannesu za režiju.",
     "source": "Wikipedia (en): Wim Wenders",
-    "tags": ["redatelji", "nagrade"],
+    "tags": [
+      "redatelji",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +289,16 @@
     "difficulty": 3,
     "question": "Koji je poljski redatelj snimio „Dekalog” i trilogiju „Tri boje”?",
     "answer": "Krzysztof Kieślowski",
-    "accept": ["Kieślowski", "Kieslowski"],
+    "accept": [
+      "Kieślowski",
+      "Kieslowski"
+    ],
     "note": "Snimio je i „Dvostruki život Veronike” (1991.).",
     "source": "Wikipedia (en): Krzysztof Kieślowski",
-    "tags": ["redatelji", "Poljska"],
+    "tags": [
+      "redatelji",
+      "Poljska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +309,16 @@
     "difficulty": 3,
     "question": "Koji je danski redatelj s Thomasom Vinterbergom pokrenuo filmski pokret Dogme 95?",
     "answer": "Lars von Trier",
-    "accept": ["von Trier", "Trier"],
+    "accept": [
+      "von Trier",
+      "Trier"
+    ],
     "note": "Suosnivač je produkcijske kuće Zentropa.",
     "source": "Wikipedia (en): Lars von Trier",
-    "tags": ["redatelji", "Danska"],
+    "tags": [
+      "redatelji",
+      "Danska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +329,16 @@
     "difficulty": 3,
     "question": "Koji je njemački film iz 1998. o djevojci koja u 20 minuta mora nabaviti 100 000 maraka?",
     "answer": "Trči, Lola, trči",
-    "accept": ["Lola rennt", "Run Lola Run"],
+    "accept": [
+      "Lola rennt",
+      "Run Lola Run"
+    ],
     "note": "Glavnu ulogu igra Franka Potente.",
     "source": "Wikipedia (en): Run Lola Run",
-    "tags": ["film", "Njemačka"],
+    "tags": [
+      "film",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +349,15 @@
     "difficulty": 3,
     "question": "Koji je češki redatelj snimio „Strogo kontrolirane vlakove” (1966.), jedan od najpoznatijih filmova čehoslovačkog novog vala?",
     "answer": "Jiří Menzel",
-    "accept": ["Menzel"],
+    "accept": [
+      "Menzel"
+    ],
     "note": "Film je 1968. dobio Oscara za najbolji strani film.",
     "source": "Wikipedia (en): Closely Watched Trains",
-    "tags": ["redatelji", "Češka"],
+    "tags": [
+      "redatelji",
+      "Češka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +368,15 @@
     "difficulty": 3,
     "question": "Koji je talijanski redatelj Oscara za strani film dobio za „Cinema Paradiso” (1988.)?",
     "answer": "Giuseppe Tornatore",
-    "accept": ["Tornatore"],
+    "accept": [
+      "Tornatore"
+    ],
     "note": "Dugo je surađivao sa skladateljem Enniom Morriconeom.",
     "source": "Wikipedia (en): Giuseppe Tornatore",
-    "tags": ["redatelji", "Italija"],
+    "tags": [
+      "redatelji",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

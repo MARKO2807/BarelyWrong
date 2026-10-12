@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji se grčki matematičar, autor „Elemenata”, naziva „ocem geometrije”?",
     "answer": "Euklid",
-    "accept": ["Euclid"],
+    "accept": [
+      "Euclid"
+    ],
     "note": "Djelovao je oko 300. pr. Kr.",
     "source": "Wikipedia (en): Euclid",
-    "tags": ["matematika", "antika"],
+    "tags": [
+      "matematika",
+      "antika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +25,15 @@
     "difficulty": 1,
     "question": "Koji se starogrčki liječnik tradicionalno naziva „ocem medicine”?",
     "answer": "Hipokrat",
-    "accept": ["Hippocrates"],
+    "accept": [
+      "Hippocrates"
+    ],
     "note": "Uveo je prognozu i kliničko promatranje te sustavno razvrstavanje bolesti.",
     "source": "Wikipedia (en): Hippocrates",
-    "tags": ["medicina", "antika"],
+    "tags": [
+      "medicina",
+      "antika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,9 +47,13 @@
     "accept": [],
     "note": "Kao valuta počeo se koristiti 2009., kad je objavljena njegova implementacija otvorenog koda.",
     "source": "Wikipedia (en): Bitcoin",
-    "tags": ["internet", "novac"],
+    "tags": [
+      "internet",
+      "novac"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "science_tech-0224",
@@ -48,10 +62,15 @@
     "difficulty": 1,
     "question": "Koji je britanski fizičar, paraliziran zbog bolesti motoričkih neurona, napisao „Kratku povijest vremena”?",
     "answer": "Stephen Hawking",
-    "accept": ["Hawking"],
+    "accept": [
+      "Hawking"
+    ],
     "note": "Knjiga je rekordnih 237 tjedana bila na popisu najprodavanijih Sunday Timesa.",
     "source": "Wikipedia (en): Stephen Hawking",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +84,10 @@
     "accept": [],
     "note": "Koristi se i u niskonaponskim tinjalicama.",
     "source": "Wikipedia (en): Neon",
-    "tags": ["kemija", "elementi"],
+    "tags": [
+      "kemija",
+      "elementi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +98,15 @@
     "difficulty": 2,
     "question": "Koji je augustinski redovnik pokusima s graškom postavio zakone nasljeđivanja?",
     "answer": "Gregor Mendel",
-    "accept": ["Mendel"],
+    "accept": [
+      "Mendel"
+    ],
     "note": "Bio je opat samostana sv. Tome u Brnu.",
     "source": "Wikipedia (en): Gregor Mendel",
-    "tags": ["biologija", "znanstvenici"],
+    "tags": [
+      "biologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +117,17 @@
     "difficulty": 2,
     "question": "Koji je švedski biolog uveo dvojno nazivlje vrsta i zove se „ocem moderne taksonomije”?",
     "answer": "Carl Linné",
-    "accept": ["Linné", "Linnaeus", "Carl Linnaeus"],
+    "accept": [
+      "Linné",
+      "Linnaeus",
+      "Carl Linnaeus"
+    ],
     "note": "Plemićko ime von Linné dobio je 1761.",
     "source": "Wikipedia (en): Carl Linnaeus",
-    "tags": ["biologija", "znanstvenici"],
+    "tags": [
+      "biologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +138,15 @@
     "difficulty": 2,
     "question": "Koji je engleski znanstvenik u knjizi „Micrographia” iz 1665. uveo pojam stanice?",
     "answer": "Robert Hooke",
-    "accept": ["Hooke"],
+    "accept": [
+      "Hooke"
+    ],
     "note": "Godine 1664. utvrdio je rotaciju Marsa i Jupitera.",
     "source": "Wikipedia (en): Robert Hooke",
-    "tags": ["biologija", "znanstvenici"],
+    "tags": [
+      "biologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +157,16 @@
     "difficulty": 2,
     "question": "Koji se nizozemski samouki istraživač mikroskopom smatra „ocem mikrobiologije”?",
     "answer": "Antonie van Leeuwenhoek",
-    "accept": ["Leeuwenhoek", "van Leeuwenhoek"],
+    "accept": [
+      "Leeuwenhoek",
+      "van Leeuwenhoek"
+    ],
     "note": "Živio je od 1632. do 1723.",
     "source": "Wikipedia (en): Antonie van Leeuwenhoek",
-    "tags": ["biologija", "znanstvenici"],
+    "tags": [
+      "biologija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +177,15 @@
     "difficulty": 2,
     "question": "Koji se njemački fizičar smatra začetnikom kvantne teorije, a po njemu je nazvana jedna temeljna konstanta?",
     "answer": "Max Planck",
-    "accept": ["Planck"],
+    "accept": [
+      "Planck"
+    ],
     "note": "Smatra se jednim od utemeljitelja moderne fizike.",
     "source": "Wikipedia (en): Max Planck",
-    "tags": ["fizika", "znanstvenici"],
+    "tags": [
+      "fizika",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +199,10 @@
     "accept": [],
     "note": "Površina mu je prekrivena sumporom i sumporovim dioksidom.",
     "source": "Wikipedia (en): Io (moon)",
-    "tags": ["svemir", "mjeseci"],
+    "tags": [
+      "svemir",
+      "mjeseci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +213,15 @@
     "difficulty": 2,
     "question": "Kako se zove pojas ledenih tijela iza putanje osmog planeta, izvor kratkoperiodičnih kometa?",
     "answer": "Kuiperov pojas",
-    "accept": ["Kuiper"],
+    "accept": [
+      "Kuiper"
+    ],
     "note": "Njegovo postojanje izravno je predvidio Julio Ángel Fernández 1980.",
     "source": "Wikipedia (en): Kuiper belt",
-    "tags": ["svemir", "Sunčev sustav"],
+    "tags": [
+      "svemir",
+      "Sunčev sustav"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +232,16 @@
     "difficulty": 2,
     "question": "Prijelazom u atomima kojeg se elementa od 1967. definira sekunda?",
     "answer": "Cezij",
-    "accept": ["cezij-133", "Caesium"],
+    "accept": [
+      "cezij-133",
+      "Caesium"
+    ],
     "note": "Koristi se u vrlo preciznim atomskim satovima.",
     "source": "Wikipedia (en): Caesium",
-    "tags": ["kemija", "mjerne jedinice"],
+    "tags": [
+      "kemija",
+      "mjerne jedinice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +255,10 @@
     "accept": [],
     "note": "Ima tanku, maglovitu atmosferu.",
     "source": "Wikipedia (en): Triton (moon)",
-    "tags": ["svemir", "mjeseci"],
+    "tags": [
+      "svemir",
+      "mjeseci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +269,15 @@
     "difficulty": 2,
     "question": "Koji je engleski kemičar postavio temelje moderne atomske teorije, a po njemu se zove i sljepoća za boje?",
     "answer": "John Dalton",
-    "accept": ["Dalton"],
+    "accept": [
+      "Dalton"
+    ],
     "note": "Prvi je znanstveno opisao sljepoću za boje, istražujući vlastitu.",
     "source": "Wikipedia (en): John Dalton",
-    "tags": ["kemija", "znanstvenici"],
+    "tags": [
+      "kemija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +288,15 @@
     "difficulty": 3,
     "question": "Koji je američki informatičar s Kenom Thompsonom stvorio Unix i programski jezik C?",
     "answer": "Dennis Ritchie",
-    "accept": ["Ritchie"],
+    "accept": [
+      "Ritchie"
+    ],
     "note": "Otac mu je bio dugogodišnji znanstvenik u Bell Labsu.",
     "source": "Wikipedia (en): Dennis Ritchie",
-    "tags": ["računala", "programiranje"],
+    "tags": [
+      "računala",
+      "programiranje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +307,16 @@
     "difficulty": 3,
     "question": "Koji je danski astronom 1566. u dvoboju izgubio dio nosa i do kraja života nosio protezu?",
     "answer": "Tycho Brahe",
-    "accept": ["Brahe", "Tycho"],
+    "accept": [
+      "Brahe",
+      "Tycho"
+    ],
     "note": "Dvoboj je vodio sa svojim rođakom Manderupom Parsbergom.",
     "source": "Wikipedia (en): Tycho Brahe",
-    "tags": ["astronomija", "znanstvenici"],
+    "tags": [
+      "astronomija",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +327,15 @@
     "difficulty": 3,
     "question": "Koji je američki programer stvorio JavaScript i suosnivač je projekta Mozilla?",
     "answer": "Brendan Eich",
-    "accept": ["Eich"],
+    "accept": [
+      "Eich"
+    ],
     "note": "Rođen je 4. srpnja 1961.",
     "source": "Wikipedia (en): Brendan Eich",
-    "tags": ["računala", "programiranje"],
+    "tags": [
+      "računala",
+      "programiranje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +349,10 @@
     "accept": [],
     "note": "Lansirana je 2. ožujka 2004.",
     "source": "Wikipedia (en): Rosetta (spacecraft)",
-    "tags": ["svemir", "letjelice"],
+    "tags": [
+      "svemir",
+      "letjelice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +363,15 @@
     "difficulty": 3,
     "question": "Koja je austrijsko-američka filmska zvijezda u Drugom svjetskom ratu suizumila sustav radijskog navođenja?",
     "answer": "Hedy Lamarr",
-    "accept": ["Lamarr"],
+    "accept": [
+      "Lamarr"
+    ],
     "note": "Rođena je kao Hedwig Eva Maria Kiesler.",
     "source": "Wikipedia (en): Hedy Lamarr",
-    "tags": ["izumi", "izumiteljice"],
+    "tags": [
+      "izumi",
+      "izumiteljice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

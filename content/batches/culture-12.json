@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji je kralj iz grčkog mita sve što bi dotaknuo pretvarao u čisto zlato?",
     "answer": "Midas",
-    "accept": ["Mida"],
+    "accept": [
+      "Mida"
+    ],
     "note": "Ta se moć zove i „Midin dodir”.",
     "source": "Wikipedia (en): Midas",
-    "tags": ["mitologija", "Grčka"],
+    "tags": [
+      "mitologija",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +25,19 @@
     "difficulty": 1,
     "question": "Kako se zovu blizanci iz rimske legende koje je kao dojenčad dojila vučica?",
     "answer": "Romul i Rem",
-    "accept": ["Romulus i Remus", "Romul"],
+    "accept": [
+      "Romulus i Remus",
+      "Romul"
+    ],
     "note": "Romul je, prema legendi, ubio brata i osnovao Rim.",
     "source": "Wikipedia (en): Romulus and Remus",
-    "tags": ["mitologija", "Rim"],
+    "tags": [
+      "mitologija",
+      "Rim"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0264",
@@ -34,10 +46,16 @@
     "difficulty": 1,
     "question": "Koji je arhitektonski stil, nastao iz romanike, obilježen šiljastim lukovima, rebrastim svodovima i letećim potpornjima?",
     "answer": "Gotika",
-    "accept": ["gotički stil", "gotička arhitektura"],
+    "accept": [
+      "gotički stil",
+      "gotička arhitektura"
+    ],
     "note": "Poznata je i po velikim vitrajima.",
     "source": "Wikipedia (en): Gothic architecture",
-    "tags": ["arhitektura", "srednji vijek"],
+    "tags": [
+      "arhitektura",
+      "srednji vijek"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,7 +69,10 @@
     "accept": [],
     "note": "Ime znači „kuća gradnje”, a djelovala je do 1933.",
     "source": "Wikipedia (en): Bauhaus",
-    "tags": ["arhitektura", "Njemačka"],
+    "tags": [
+      "arhitektura",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +83,16 @@
     "difficulty": 1,
     "question": "Kako se zove nimfa s gore Kiteron čije ime na grčkom znači „zvuk”?",
     "answer": "Eho",
-    "accept": ["Jeka", "Echo"],
+    "accept": [
+      "Jeka",
+      "Echo"
+    ],
     "note": "Pripadala je oreadama, planinskim nimfama.",
     "source": "Wikipedia (en): Echo (mythology)",
-    "tags": ["mitologija", "Grčka"],
+    "tags": [
+      "mitologija",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +103,15 @@
     "difficulty": 2,
     "question": "Po kojoj je junakinji nazvana Sofoklova tragedija u kojoj kći kralja pokopava brata Polinika?",
     "answer": "Antigona",
-    "accept": ["Antigone"],
+    "accept": [
+      "Antigone"
+    ],
     "note": "Radnja se nastavlja na Eshilovu dramu „Sedmorica protiv Tebe”.",
     "source": "Wikipedia (en): Antigone (Sophocles play)",
-    "tags": ["drama", "Grčka"],
+    "tags": [
+      "drama",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +122,15 @@
     "difficulty": 2,
     "question": "Koji je lik iz grčkog mita kažnjen tako da stoji u vodi pod voćkom, a voće i voda mu uvijek izmiču?",
     "answer": "Tantal",
-    "accept": ["Tantalus"],
+    "accept": [
+      "Tantalus"
+    ],
     "note": "Kažnjen je, prema raznim predajama, zbog odavanja tajni bogova ili krađe ambrozije.",
     "source": "Wikipedia (en): Tantalus",
-    "tags": ["mitologija", "Grčka"],
+    "tags": [
+      "mitologija",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +144,10 @@
     "accept": [],
     "note": "Bio je brat spartanskog kralja Menelaja.",
     "source": "Wikipedia (en): Agamemnon",
-    "tags": ["mitologija", "Grčka"],
+    "tags": [
+      "mitologija",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +161,10 @@
     "accept": [],
     "note": "Spominje se i u „Poetskoj” i u „Proznoj Eddi”.",
     "source": "Wikipedia (en): Sleipnir",
-    "tags": ["mitologija", "Skandinavija"],
+    "tags": [
+      "mitologija",
+      "Skandinavija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +175,16 @@
     "difficulty": 2,
     "question": "Koji je arhitekt, poznat po izreci „manje je više”, gradio modernim materijalima poput čelika i stakla?",
     "answer": "Ludwig Mies van der Rohe",
-    "accept": ["Mies van der Rohe", "Mies"],
+    "accept": [
+      "Mies van der Rohe",
+      "Mies"
+    ],
     "note": "Pripisuje mu se i izreka „Bog je u detaljima”.",
     "source": "Wikipedia (en): Ludwig Mies van der Rohe",
-    "tags": ["arhitektura", "modernizam"],
+    "tags": [
+      "arhitektura",
+      "modernizam"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +195,15 @@
     "difficulty": 2,
     "question": "Koji je britanski arhitekt projektirao staklenu kupolu Reichstaga i londonski neboder „The Gherkin”?",
     "answer": "Norman Foster",
-    "accept": ["Foster"],
+    "accept": [
+      "Foster"
+    ],
     "note": "Projektirao je i Veliko dvorište kraljice Elizabete II. u Britanskom muzeju.",
     "source": "Wikipedia (en): Norman Foster",
-    "tags": ["arhitektura", "Velika Britanija"],
+    "tags": [
+      "arhitektura",
+      "Velika Britanija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +217,10 @@
     "accept": [],
     "note": "Slavio je i zrakoplov i industrijski grad.",
     "source": "Wikipedia (en): Futurism",
-    "tags": ["umjetnost", "avangarda"],
+    "tags": [
+      "umjetnost",
+      "avangarda"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +231,15 @@
     "difficulty": 2,
     "question": "Koje je od sedam svjetskih čuda bila grobnica sagrađena 353.–351. pr. Kr. za karijskog satrapa?",
     "answer": "Mauzolej u Halikarnasu",
-    "accept": ["Mauzolej"],
+    "accept": [
+      "Mauzolej"
+    ],
     "note": "Halikarnas je današnji Bodrum u Turskoj.",
     "source": "Wikipedia (en): Mausoleum at Halicarnassus",
-    "tags": ["antika", "sedam svjetskih čuda"],
+    "tags": [
+      "antika",
+      "sedam svjetskih čuda"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +253,10 @@
     "accept": [],
     "note": "Sagrađen je u doba Ptolemejskog Kraljevstva.",
     "source": "Wikipedia (en): Lighthouse of Alexandria",
-    "tags": ["antika", "sedam svjetskih čuda"],
+    "tags": [
+      "antika",
+      "sedam svjetskih čuda"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +267,15 @@
     "difficulty": 2,
     "question": "Koji se američki umjetnik krajem 1970-ih proslavio kao dio grafitnog dvojca SAMO?",
     "answer": "Jean-Michel Basquiat",
-    "accept": ["Basquiat"],
+    "accept": [
+      "Basquiat"
+    ],
     "note": "Uspjeh je postigao 1980-ih kao predstavnik neoekspresionizma.",
     "source": "Wikipedia (en): Jean-Michel Basquiat",
-    "tags": ["suvremena umjetnost", "SAD"],
+    "tags": [
+      "suvremena umjetnost",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +286,15 @@
     "difficulty": 3,
     "question": "Koji nordijski bog, sin devet sestara, iz svog doma Himinbjörga stražari pred napadačima?",
     "answer": "Heimdall",
-    "accept": ["Heimdal"],
+    "accept": [
+      "Heimdal"
+    ],
     "note": "Ima predznanje i vrlo izoštrena osjetila.",
     "source": "Wikipedia (en): Heimdall",
-    "tags": ["mitologija", "Skandinavija"],
+    "tags": [
+      "mitologija",
+      "Skandinavija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +305,15 @@
     "difficulty": 3,
     "question": "Koji je austrijski umjetnik i arhitekt, zagovornik prirode u gradnji, autor bečke kuće koja nosi njegovo ime?",
     "answer": "Friedensreich Hundertwasser",
-    "accept": ["Hundertwasser"],
+    "accept": [
+      "Hundertwasser"
+    ],
     "note": "Bio je i glasni zagovornik zaštite okoliša.",
     "source": "Wikipedia (en): Friedensreich Hundertwasser",
-    "tags": ["arhitektura", "Austrija"],
+    "tags": [
+      "arhitektura",
+      "Austrija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +324,15 @@
     "difficulty": 3,
     "question": "Koji je britanski slikar, nakon preseljenja u Los Angeles 1964., slikao seriju slika bazena?",
     "answer": "David Hockney",
-    "accept": ["Hockney"],
+    "accept": [
+      "Hockney"
+    ],
     "note": "Bazene je slikao novom akrilnom tehnikom, živim bojama.",
     "source": "Wikipedia (en): David Hockney",
-    "tags": ["slikarstvo", "Velika Britanija"],
+    "tags": [
+      "slikarstvo",
+      "Velika Britanija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +343,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski slikar, kipar i dizajner bio jedan od osnivača grupe EXAT 51?",
     "answer": "Ivan Picelj",
-    "accept": ["Picelj"],
+    "accept": [
+      "Picelj"
+    ],
     "note": "Razvio je osebujnu inačicu geometrijske apstrakcije.",
     "source": "Wikipedia (en): Ivan Picelj",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +362,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski naivni slikar iz Đelekovca bio jedan od trojice najistaknutijih slikara prve generacije Hlebinske škole?",
     "answer": "Mirko Virius",
-    "accept": ["Virius"],
+    "accept": [
+      "Virius"
+    ],
     "note": "Živio je od 1889. do 1943.",
     "source": "Wikipedia (en): Mirko Virius",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -6,10 +6,17 @@
     "difficulty": 1,
     "question": "Što deva zapravo skladišti u svojoj grbi?",
     "answer": "Masno tkivo",
-    "accept": ["mast", "salo", "masnoću"],
+    "accept": [
+      "mast",
+      "salo",
+      "masnoću"
+    ],
     "note": "Uvriježen je mit da u grbi skladišti vodu.",
     "source": "Wikipedia (en): Camel",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +27,15 @@
     "difficulty": 1,
     "question": "Koji je zubati kit najveći pripadnik porodice oceanskih dupina?",
     "answer": "Orka",
-    "accept": ["kit ubojica"],
+    "accept": [
+      "kit ubojica"
+    ],
     "note": "Orke su grabežljivci na vrhu hranidbenog lanca; neke se populacije hrane i tuljanima i kitovima.",
     "source": "Wikipedia (en): Orca",
-    "tags": ["životinje", "more"],
+    "tags": [
+      "životinje",
+      "more"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,7 +49,10 @@
     "accept": [],
     "note": "Postoji sedam današnjih vrsta, u rodovima dvoprstih i troprstih ljenivaca.",
     "source": "Wikipedia (en): Sloth",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +63,15 @@
     "difficulty": 1,
     "question": "Koji veliki majmun iz kišnih šuma Indonezije i Malezije ima ime koje na malajskom znači „čovjek iz šume”?",
     "answer": "Orangutan",
-    "accept": ["orang-utan"],
+    "accept": [
+      "orang-utan"
+    ],
     "note": "U pleistocenu je živio diljem jugoistočne Azije i južne Kine.",
     "source": "Wikipedia (en): Orangutan",
-    "tags": ["životinje", "majmuni"],
+    "tags": [
+      "životinje",
+      "majmuni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,9 +85,13 @@
     "accept": [],
     "note": "Bodlje mu nisu ni otrovne ni kukaste.",
     "source": "Wikipedia (en): Hedgehog",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0205",
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Kljovu ima mužjak, a duga je od 1,5 do 3 metra.",
     "source": "Wikipedia (en): Narwhal",
-    "tags": ["životinje", "more"],
+    "tags": [
+      "životinje",
+      "more"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +120,10 @@
     "accept": [],
     "note": "Prvi su ga putopisci opisali kao vrstu magarca koju su domoroci zvali atti.",
     "source": "Wikipedia (en): Okapi",
-    "tags": ["životinje", "Afrika"],
+    "tags": [
+      "životinje",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +134,17 @@
     "difficulty": 2,
     "question": "Koje se drvo lepezastih listova smatra „živim fosilom”, a šest njegovih stabala preživjelo je atomsku bombu na Hirošimu?",
     "answer": "Ginko",
-    "accept": ["Ginkgo", "Ginkgo biloba", "Ginko biloba"],
+    "accept": [
+      "Ginkgo",
+      "Ginkgo biloba",
+      "Ginko biloba"
+    ],
     "note": "Neki primjerci stari su više od 1600 godina.",
     "source": "Wikipedia (en): Ginkgo biloba",
-    "tags": ["biljke", "drveće"],
+    "tags": [
+      "biljke",
+      "drveće"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +155,15 @@
     "difficulty": 2,
     "question": "Koji je tobolčar veličine malog psa najveći tobolčar mesožder na svijetu?",
     "answer": "Tasmanijski vrag",
-    "accept": ["Tasmanijski đavao"],
+    "accept": [
+      "Tasmanijski đavao"
+    ],
     "note": "Na australskom kopnu izumro je prije oko 3500 godina.",
     "source": "Wikipedia (en): Tasmanian devil",
-    "tags": ["životinje", "Australija"],
+    "tags": [
+      "životinje",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +174,15 @@
     "difficulty": 2,
     "question": "Koja je životinja, poznata po borbama sa zmijama, zahvaljujući mutaciji otporna na zmijski neurotoksin?",
     "answer": "Mungos",
-    "accept": ["Mungo"],
+    "accept": [
+      "Mungo"
+    ],
     "note": "Ime potječe od indijskih naziva, poput hindskog muṅgūs.",
     "source": "Wikipedia (en): Mongoose",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +193,15 @@
     "difficulty": 2,
     "question": "Koji biljojedni morski sisavac iz reda sirena živi u Indo-Pacifiku i hrani se morskim cvjetnicama?",
     "answer": "Dugong",
-    "accept": ["dugonga"],
+    "accept": [
+      "dugonga"
+    ],
     "note": "Na Filipinima, u Maleziji i Indoneziji vjerovalo se da su dugonzi izvorno bili ljudi.",
     "source": "Wikipedia (en): Dugong",
-    "tags": ["životinje", "more"],
+    "tags": [
+      "životinje",
+      "more"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +212,15 @@
     "difficulty": 2,
     "question": "Koja južnoamerička životinja nema zube, a mrave i termite skuplja dugim ljepljivim jezikom?",
     "answer": "Divovski mravojed",
-    "accept": ["mravojed"],
+    "accept": [
+      "mravojed"
+    ],
     "note": "Usta otvara i zatvara okretanjem dviju polovica donje čeljusti.",
     "source": "Wikipedia (en): Giant anteater",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +234,10 @@
     "accept": [],
     "note": "Od čimpanze ga je vjerojatno odvojio nastanak velike rijeke, a ni jedna ni druga vrsta ne pliva dobro.",
     "source": "Wikipedia (en): Bonobo",
-    "tags": ["životinje", "majmuni"],
+    "tags": [
+      "životinje",
+      "majmuni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +248,15 @@
     "difficulty": 2,
     "question": "Kako se zove izumrli tobolčar mesožder, zbog pruga na leđima prozvan tasmanijskim tigrom?",
     "answer": "Tilacin",
-    "accept": ["tasmanijski tigar"],
+    "accept": [
+      "tasmanijski tigar"
+    ],
     "note": "Posljednji poznati primjerak uginuo je 7. rujna 1936. u zoološkom vrtu u Hobartu.",
     "source": "Wikipedia (en): Thylacine",
-    "tags": ["životinje", "izumrle vrste"],
+    "tags": [
+      "životinje",
+      "izumrle vrste"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +270,10 @@
     "accept": [],
     "note": "Ime roda odaje počast francuskom prirodoslovcu Michelu Adansonu.",
     "source": "Wikipedia (en): Adansonia",
-    "tags": ["biljke", "drveće"],
+    "tags": [
+      "biljke",
+      "drveće"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +284,15 @@
     "difficulty": 3,
     "question": "Koja južnoamerička ptica ima mladunce s pandžama na dva prsta krila?",
     "answer": "Hoacin",
-    "accept": ["Hoatzin"],
+    "accept": [
+      "Hoatzin"
+    ],
     "note": "Probavni sustav joj podupire fermentaciju biljne hrane, što je jedinstveno među pticama.",
     "source": "Wikipedia (en): Hoatzin",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +303,15 @@
     "difficulty": 3,
     "question": "Koja pustinjska biljka iz Angole i Namibije cijeli život ima samo dva lista, koji neprestano rastu?",
     "answer": "Velvičija",
-    "accept": ["Welwitschia"],
+    "accept": [
+      "Welwitschia"
+    ],
     "note": "Neki primjerci stari su tisućama godina.",
     "source": "Wikipedia (en): Welwitschia",
-    "tags": ["biljke", "pustinje"],
+    "tags": [
+      "biljke",
+      "pustinje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +322,15 @@
     "difficulty": 3,
     "question": "Kako se zove kalifornijsko stablo vrste Sequoiadendron giganteum, najveće poznato živo stablo po volumenu?",
     "answer": "General Sherman",
-    "accept": ["Sherman"],
+    "accept": [
+      "Sherman"
+    ],
     "note": "Nazvano je po generalu Williamu Tecumsehu Shermanu iz Američkog građanskog rata.",
     "source": "Wikipedia (en): General Sherman (tree)",
-    "tags": ["biljke", "rekordi"],
+    "tags": [
+      "biljke",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +341,15 @@
     "difficulty": 3,
     "question": "Koji je golemi morski sisavac, opisan 1741. u Beringovu moru, istrijebljen lovom unutar 27 godina od otkrića?",
     "answer": "Stellerova morska krava",
-    "accept": ["Stellerova krava"],
+    "accept": [
+      "Stellerova krava"
+    ],
     "note": "Odrasle jedinke u 18. stoljeću težile su i 8 do 10 tona.",
     "source": "Wikipedia (en): Steller's sea cow",
-    "tags": ["životinje", "izumrle vrste"],
+    "tags": [
+      "životinje",
+      "izumrle vrste"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +360,15 @@
     "difficulty": 3,
     "question": "Koja se pseća zvijer, čija bi populacija na dalmatinskoj obali mogla biti stara 6000 godina, od 19. stoljeća širi Europom?",
     "answer": "Čagalj",
-    "accept": ["zlatni čagalj"],
+    "accept": [
+      "zlatni čagalj"
+    ],
     "note": "Do 19. stoljeća nije ga bilo u većem dijelu Europe.",
     "source": "Wikipedia (en): Golden jackal",
-    "tags": ["životinje", "Hrvatska"],
+    "tags": [
+      "životinje",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

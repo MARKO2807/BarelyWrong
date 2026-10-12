@@ -6,12 +6,19 @@
     "difficulty": 1,
     "question": "Kako se zove talijanska tjestenina u širokim plosnatim listovima, najčešće pečena u slojevima kao složenac?",
     "answer": "Lazanje",
-    "accept": ["lasagne", "lasagna"],
+    "accept": [
+      "lasagne",
+      "lasagna"
+    ],
     "note": "Između slojeva tjestenine stavljaju se umaci i nadjevi.",
     "source": "Wikipedia (en): Lasagna",
-    "tags": ["hrana", "Italija"],
+    "tags": [
+      "hrana",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0261",
@@ -20,12 +27,19 @@
     "difficulty": 1,
     "question": "Kako se zove grčko jelo od mesa pečenog na okomitom ražnju, posluženo u pita kruhu?",
     "answer": "Giros",
-    "accept": ["gyros", "gyro"],
+    "accept": [
+      "gyros",
+      "gyro"
+    ],
     "note": "Ime na grčkom znači „okret”.",
     "source": "Wikipedia (en): Gyros",
-    "tags": ["hrana", "Grčka"],
+    "tags": [
+      "hrana",
+      "Grčka"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0262",
@@ -34,12 +48,18 @@
     "difficulty": 1,
     "question": "Kako se zovu prženi kolačići s rumom, limunovom koricom i grožđicama, koji se u Hrvatskoj rade osobito za Božić?",
     "answer": "Fritule",
-    "accept": ["fritula"],
+    "accept": [
+      "fritula"
+    ],
     "note": "Talijani ih zovu frittelle.",
     "source": "Wikipedia (en): Fritule",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "general-0263",
@@ -48,10 +68,15 @@
     "difficulty": 1,
     "question": "Kako se zovu tradicionalni hrvatski kolačići s medom i crnim paprom?",
     "answer": "Paprenjaci",
-    "accept": ["paprenjak"],
+    "accept": [
+      "paprenjak"
+    ],
     "note": "Sadrže i orahe ili lješnjake te razne začine.",
     "source": "Wikipedia (en): Paprenjak",
-    "tags": ["hrana", "Hrvatska"],
+    "tags": [
+      "hrana",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +87,16 @@
     "difficulty": 1,
     "question": "Kako se zove slastica od gela škroba i šećera, poznata i kao „turski užitak”?",
     "answer": "Lokum",
-    "accept": ["rahat-lokum", "rahatlokum"],
+    "accept": [
+      "rahat-lokum",
+      "rahatlokum"
+    ],
     "note": "Bolje vrste sadrže datulje, pistacije, lješnjake ili orahe.",
     "source": "Wikipedia (en): Turkish delight",
-    "tags": ["hrana", "slastice"],
+    "tags": [
+      "hrana",
+      "slastice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +107,15 @@
     "difficulty": 2,
     "question": "Koja je organizacija država izvoznica nafte osnovana 14. rujna 1960. u Bagdadu?",
     "answer": "OPEC",
-    "accept": ["Organizacija zemalja izvoznica nafte"],
+    "accept": [
+      "Organizacija zemalja izvoznica nafte"
+    ],
     "note": "Osnivači su bili Iran, Irak, Kuvajt, Saudijska Arabija i Venezuela.",
     "source": "Wikipedia (en): OPEC",
-    "tags": ["organizacije", "kratice"],
+    "tags": [
+      "organizacije",
+      "kratice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +129,10 @@
     "accept": [],
     "note": "Osnovana je nakon dogovora talijanskog, francuskog i belgijskog saveza.",
     "source": "Wikipedia (en): UEFA",
-    "tags": ["nogomet", "organizacije"],
+    "tags": [
+      "nogomet",
+      "organizacije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +146,10 @@
     "accept": [],
     "note": "Tvrtka se izvorno zvala Telegraphen Bau-Anstalt von Siemens & Halske.",
     "source": "Wikipedia (en): Siemens",
-    "tags": ["tvrtke", "Njemačka"],
+    "tags": [
+      "tvrtke",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +163,10 @@
     "accept": [],
     "note": "Koristi se u umacima, namazima i juhama.",
     "source": "Wikipedia (en): Miso",
-    "tags": ["hrana", "Japan"],
+    "tags": [
+      "hrana",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +177,15 @@
     "difficulty": 2,
     "question": "Kako se zove dizani somun koji se može peći u peći tandoor?",
     "answer": "Naan",
-    "accept": ["nan"],
+    "accept": [
+      "nan"
+    ],
     "note": "Mekan je i prozračan, sa zlatnosmeđim mrljama od pečenja.",
     "source": "Wikipedia (en): Naan",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +196,16 @@
     "difficulty": 2,
     "question": "Koja se slastica, poznata od sjeverne Afrike do južne Azije, radi i od paste tahini?",
     "answer": "Halva",
-    "accept": ["alva", "halvah"],
+    "accept": [
+      "alva",
+      "halvah"
+    ],
     "note": "Naziv obuhvaća velik broj različitih recepata.",
     "source": "Wikipedia (en): Halva",
-    "tags": ["hrana", "slastice"],
+    "tags": [
+      "hrana",
+      "slastice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +216,15 @@
     "difficulty": 2,
     "question": "Koje meksičko jelo s tortiljom ime duguje regionalnom nazivu iz saveznih država poput Guanajuata i Guerrera?",
     "answer": "Burrito",
-    "accept": ["burro"],
+    "accept": [
+      "burro"
+    ],
     "note": "Zove se i burro.",
     "source": "Wikipedia (en): Burrito",
-    "tags": ["hrana", "Meksiko"],
+    "tags": [
+      "hrana",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +235,16 @@
     "difficulty": 2,
     "question": "Koje je tajlandsko ulično jelo od prženih rižinih rezanaca?",
     "answer": "Pad thai",
-    "accept": ["phat thai", "pad tai"],
+    "accept": [
+      "phat thai",
+      "pad tai"
+    ],
     "note": "Dio je tajlandske kuhinje.",
     "source": "Wikipedia (en): Pad thai",
-    "tags": ["hrana", "Azija"],
+    "tags": [
+      "hrana",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +258,10 @@
     "accept": [],
     "note": "Ima 196 država članica.",
     "source": "Wikipedia (en): Interpol",
-    "tags": ["organizacije", "kratice"],
+    "tags": [
+      "organizacije",
+      "kratice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +272,15 @@
     "difficulty": 2,
     "question": "Kako se zajedničkim imenom zovu voćne rakije popularne u jugoistočnoj Europi?",
     "answer": "Rakija",
-    "accept": ["rakije"],
+    "accept": [
+      "rakije"
+    ],
     "note": "Obično imaju oko 40 % alkohola, a domaće mogu biti i jače.",
     "source": "Wikipedia (en): Rakija",
-    "tags": ["pića", "Balkan"],
+    "tags": [
+      "pića",
+      "Balkan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -219,7 +294,10 @@
     "accept": [],
     "note": "Nešto se uzgaja i na Pelješcu.",
     "source": "Wikipedia (en): Pošip",
-    "tags": ["vino", "Hrvatska"],
+    "tags": [
+      "vino",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +308,15 @@
     "difficulty": 3,
     "question": "Koja je talijanska automobilska marka osnovana 1910. u Milanu pod imenom A.L.F.A.?",
     "answer": "Alfa Romeo",
-    "accept": ["Alfa"],
+    "accept": [
+      "Alfa"
+    ],
     "note": "A.L.F.A. je kratica za Anonima Lombarda Fabbrica Automobili.",
     "source": "Wikipedia (en): Alfa Romeo",
-    "tags": ["automobili", "Italija"],
+    "tags": [
+      "automobili",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -247,7 +330,10 @@
     "accept": [],
     "note": "Plejade se zovu i „Sedam sestara”.",
     "source": "Wikipedia (en): Subaru",
-    "tags": ["automobili", "Japan"],
+    "tags": [
+      "automobili",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +344,16 @@
     "difficulty": 3,
     "question": "Koji se francuski automobil, proizvođen od 1948. do 1990., zove „dva konja”?",
     "answer": "Citroën 2CV",
-    "accept": ["2CV", "Citroen 2CV"],
+    "accept": [
+      "2CV",
+      "Citroen 2CV"
+    ],
     "note": "Ime se odnosi na dvije porezne konjske snage.",
     "source": "Wikipedia (en): Citroën 2CV",
-    "tags": ["automobili", "Francuska"],
+    "tags": [
+      "automobili",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 3,
     "question": "Koja se talijanska kartaška igra igra i u Istri i Dalmaciji, a u švicarskom kantonu Ticino s francuskim kartama?",
     "answer": "Trešeta",
-    "accept": ["Tressette"],
+    "accept": [
+      "Tressette"
+    ],
     "note": "Popularna je i u Albaniji, Crnoj Gori i slovenskom primorju.",
     "source": "Wikipedia (en): Tressette",
-    "tags": ["igre", "karte"],
+    "tags": [
+      "igre",
+      "karte"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

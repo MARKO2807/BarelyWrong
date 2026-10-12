@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Prvi se put pojavio kao krvosljednik; za razliku od većine Disneyjevih likova, ne ponaša se kao čovjek.",
     "source": "Wikipedia (en): Pluto (Disney)",
-    "tags": ["animirani film", "Disney"],
+    "tags": [
+      "animirani film",
+      "Disney"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0162",
@@ -20,10 +24,15 @@
     "difficulty": 1,
     "question": "Kako se zove ravnatelj škole čarobnjaštva u većem dijelu serijala o Harryju Potteru?",
     "answer": "Albus Dumbledore",
-    "accept": ["Dumbledore"],
+    "accept": [
+      "Dumbledore"
+    ],
     "note": "Lucius Malfoy jednom je postigao da ga privremeno smijene s položaja.",
     "source": "Wikipedia (en): Albus Dumbledore",
-    "tags": ["fantastika", "likovi"],
+    "tags": [
+      "fantastika",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +43,15 @@
     "difficulty": 1,
     "question": "Koje se divovsko čudovište prvi put pojavilo u istoimenom japanskom filmu iz 1954.?",
     "answer": "Godzilla",
-    "accept": ["Godzila"],
+    "accept": [
+      "Godzila"
+    ],
     "note": "Prozvali su ga „kraljem čudovišta”.",
     "source": "Wikipedia (en): Godzilla",
-    "tags": ["Japan", "čudovišta"],
+    "tags": [
+      "Japan",
+      "čudovišta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,9 +65,13 @@
     "accept": [],
     "note": "Bila joj je to prva profesionalna glumačka uloga.",
     "source": "Wikipedia (en): Emma Watson",
-    "tags": ["glumci", "fantastika"],
+    "tags": [
+      "glumci",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0165",
@@ -62,12 +80,18 @@
     "difficulty": 1,
     "question": "Iz koje je zemlje Netflixova serija „Igra lignje”?",
     "answer": "Južna Koreja",
-    "accept": ["Južne Koreje"],
+    "accept": [
+      "Južne Koreje"
+    ],
     "note": "Seriju je napisao i režirao Hwang Dong-hyuk.",
     "source": "Wikipedia (en): Squid Game",
-    "tags": ["serije", "Azija"],
+    "tags": [
+      "serije",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0166",
@@ -76,10 +100,15 @@
     "difficulty": 2,
     "question": "Koji je glumac utjelovio agenta 007 u najviše službenih filmova, njih sedam?",
     "answer": "Roger Moore",
-    "accept": ["Moore"],
+    "accept": [
+      "Moore"
+    ],
     "note": "Bio je treći glumac u toj ulozi; posljednji put glumio je Bonda 1985.",
     "source": "Wikipedia (en): Roger Moore",
-    "tags": ["James Bond", "glumci"],
+    "tags": [
+      "James Bond",
+      "glumci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +122,10 @@
     "accept": [],
     "note": "Radnja je smještena u 1980-e.",
     "source": "Wikipedia (en): Stranger Things",
-    "tags": ["serije", "znanstvena fantastika"],
+    "tags": [
+      "serije",
+      "znanstvena fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +136,15 @@
     "difficulty": 2,
     "question": "Koji je glumac utjelovio Jokera u Burtonovu „Batmanu” iz 1989.?",
     "answer": "Jack Nicholson",
-    "accept": ["Nicholson"],
+    "accept": [
+      "Nicholson"
+    ],
     "note": "Za tu je ulogu lobirao i Robin Williams.",
     "source": "Wikipedia (en): Batman (1989 film)",
-    "tags": ["glumci", "negativci"],
+    "tags": [
+      "glumci",
+      "negativci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +155,16 @@
     "difficulty": 2,
     "question": "Kako se zove računalo koje u filmu „2001.: Odiseja u svemiru” preuzima kontrolu nad brodom?",
     "answer": "HAL 9000",
-    "accept": ["HAL", "Hal"],
+    "accept": [
+      "HAL",
+      "Hal"
+    ],
     "note": "Ime je kratica za „heuristički programirano algoritamsko računalo”.",
     "source": "Wikipedia (en): HAL 9000",
-    "tags": ["znanstvena fantastika", "računala"],
+    "tags": [
+      "znanstvena fantastika",
+      "računala"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +178,10 @@
     "accept": [],
     "note": "Rečenica se veže uz film, ali je nitko u njemu ne izgovara.",
     "source": "Wikipedia (en): Casablanca (film)",
-    "tags": ["klasici", "zablude"],
+    "tags": [
+      "klasici",
+      "zablude"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +195,10 @@
     "accept": [],
     "note": "Prva epizoda prikazana je 17. travnja 2011.",
     "source": "Wikipedia (en): Game of Thrones",
-    "tags": ["serije", "brojevi"],
+    "tags": [
+      "serije",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -163,7 +212,10 @@
     "accept": [],
     "note": "Glavnu ulogu igra Bob Odenkirk.",
     "source": "Wikipedia (en): Better Call Saul",
-    "tags": ["serije", "spin-off"],
+    "tags": [
+      "serije",
+      "spin-off"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +226,15 @@
     "difficulty": 2,
     "question": "Kako se zove junakinja trilogije „Igre gladi”, koju je u filmovima glumila Jennifer Lawrence?",
     "answer": "Katniss Everdeen",
-    "accept": ["Katniss"],
+    "accept": [
+      "Katniss"
+    ],
     "note": "Autorica knjiga je Suzanne Collins.",
     "source": "Wikipedia (en): Katniss Everdeen",
-    "tags": ["fantastika", "likovi"],
+    "tags": [
+      "fantastika",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +245,15 @@
     "difficulty": 2,
     "question": "Kako se zove kraljevstvo princeze Anne iz Disneyjeva „Snježnog kraljevstva” iz 2013.?",
     "answer": "Arendelle",
-    "accept": ["Arendel"],
+    "accept": [
+      "Arendel"
+    ],
     "note": "U izvornoj verziji Anni je glas posudila Kristen Bell.",
     "source": "Wikipedia (en): Frozen (2013 film)",
-    "tags": ["animirani film", "Disney"],
+    "tags": [
+      "animirani film",
+      "Disney"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +264,15 @@
     "difficulty": 2,
     "question": "Koji je britanski voditelj s Andyjem Wilmanom osmislio novi „Top Gear”, koji se emitira od 2002.?",
     "answer": "Jeremy Clarkson",
-    "accept": ["Clarkson"],
+    "accept": [
+      "Clarkson"
+    ],
     "note": "U prvoj sezoni vodio ju je s Richardom Hammondom i Jasonom Daweom.",
     "source": "Wikipedia (en): Top Gear (2002 TV series)",
-    "tags": ["televizija", "automobili"],
+    "tags": [
+      "televizija",
+      "automobili"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +283,15 @@
     "difficulty": 3,
     "question": "Kako se zove gotovo neuništivi izmišljeni metal kojim su obloženi Wolverineov kostur i kandže?",
     "answer": "Adamantij",
-    "accept": ["adamantium"],
+    "accept": [
+      "adamantium"
+    ],
     "note": "Pojavljuje se u Marvelovim stripovima, a od njega je i Ultronov oklop.",
     "source": "Wikipedia (en): Adamantium",
-    "tags": ["stripovi", "Marvel"],
+    "tags": [
+      "stripovi",
+      "Marvel"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -233,7 +305,10 @@
     "accept": [],
     "note": "Da bi putovao kroz vrijeme, DeLorean mora postići 88 milja na sat.",
     "source": "Wikipedia (en): Back to the Future",
-    "tags": ["znanstvena fantastika", "mjesta"],
+    "tags": [
+      "znanstvena fantastika",
+      "mjesta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +319,16 @@
     "difficulty": 3,
     "question": "Kako se zove stolna svjetiljka iz Pixarova kratkog filma iz 1986., koja je postala maskota tog studija?",
     "answer": "Luxo Jr.",
-    "accept": ["Luxo", "Luxo Junior"],
+    "accept": [
+      "Luxo",
+      "Luxo Junior"
+    ],
     "note": "Film je režirao John Lasseter; u njemu mala svjetiljka probuši loptu.",
     "source": "Wikipedia (en): Luxo Jr.",
-    "tags": ["animirani film", "Pixar"],
+    "tags": [
+      "animirani film",
+      "Pixar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +339,15 @@
     "difficulty": 3,
     "question": "Kako se zove meteorolog kojeg Bill Murray glumi u „Beskrajnom danu”?",
     "answer": "Phil Connors",
-    "accept": ["Phil"],
+    "accept": [
+      "Phil"
+    ],
     "note": "Isti dan proživljava u gradiću Punxsutawneyju.",
     "source": "Wikipedia (en): Groundhog Day (film)",
-    "tags": ["komedije", "likovi"],
+    "tags": [
+      "komedije",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +361,10 @@
     "accept": [],
     "note": "Na povratku na Zemlju brodsko računalo „Majka” hvata signal s obližnjeg mjeseca.",
     "source": "Wikipedia (en): Alien (film)",
-    "tags": ["znanstvena fantastika", "brodovi"],
+    "tags": [
+      "znanstvena fantastika",
+      "brodovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

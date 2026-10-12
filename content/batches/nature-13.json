@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koja mala životinja malih očiju i snažnih prednjih šapa živi pod zemljom i kopa hodnike?",
     "answer": "Krtica",
-    "accept": ["krtice"],
+    "accept": [
+      "krtice"
+    ],
     "note": "Pripada porodici Talpidae, nazvanoj po latinskoj riječi za krticu, talpa.",
     "source": "Wikipedia (en): Mole (animal)",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0281",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Kako se zovu glodavci iz porodice Sciuridae, među kojima su i prerijski psi?",
     "answer": "Vjeverice",
-    "accept": ["vjeverica"],
+    "accept": [
+      "vjeverica"
+    ],
     "note": "Porodica obuhvaća i vjeverice koje žive na tlu.",
     "source": "Wikipedia (en): Squirrel",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Koje zimzeleno stablo ima znanstveno ime Olea europaea?",
     "answer": "Maslina",
-    "accept": ["maslinovo stablo"],
+    "accept": [
+      "maslinovo stablo"
+    ],
     "note": "Pripada porodici Oleaceae.",
     "source": "Wikipedia (en): Olive",
-    "tags": ["biljke", "drveće"],
+    "tags": [
+      "biljke",
+      "drveće"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +64,15 @@
     "difficulty": 1,
     "question": "Koji je glavni mišić disanja, koji odvaja prsnu šupljinu od trbušne?",
     "answer": "Ošit",
-    "accept": ["dijafragma"],
+    "accept": [
+      "dijafragma"
+    ],
     "note": "U prsnoj su šupljini srce i pluća.",
     "source": "Wikipedia (en): Thoracic diaphragm",
-    "tags": ["ljudsko tijelo", "disanje"],
+    "tags": [
+      "ljudsko tijelo",
+      "disanje"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,9 +86,13 @@
     "accept": [],
     "note": "Uzgaja se od tropskih do umjerenih područja.",
     "source": "Wikipedia (en): Watermelon",
-    "tags": ["biljke", "voće"],
+    "tags": [
+      "biljke",
+      "voće"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0285",
@@ -76,10 +101,15 @@
     "difficulty": 2,
     "question": "Koji rod krokodila ima dvije živuće vrste, američku i kinesku?",
     "answer": "Aligator",
-    "accept": ["aligatori"],
+    "accept": [
+      "aligatori"
+    ],
     "note": "Pripada porodici Alligatoridae.",
     "source": "Wikipedia (en): Alligator",
-    "tags": ["životinje", "gmazovi"],
+    "tags": [
+      "životinje",
+      "gmazovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +120,15 @@
     "difficulty": 2,
     "question": "Koji eusocijalni kukci jedu raspadnuto biljno gradivo, ponajviše drvo?",
     "answer": "Termiti",
-    "accept": ["termit"],
+    "accept": [
+      "termit"
+    ],
     "note": "Prepoznaju se po zrnatim ticalima.",
     "source": "Wikipedia (en): Termite",
-    "tags": ["životinje", "kukci"],
+    "tags": [
+      "životinje",
+      "kukci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +142,10 @@
     "accept": [],
     "note": "Biljke pripadaju porodici sljezova.",
     "source": "Wikipedia (en): Cotton",
-    "tags": ["biljke", "materijali"],
+    "tags": [
+      "biljke",
+      "materijali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +159,10 @@
     "accept": [],
     "note": "Potječe iz sjeveroistoka južne Azije, a ondje se uzgaja od davnina.",
     "source": "Wikipedia (en): Mango",
-    "tags": ["biljke", "voće"],
+    "tags": [
+      "biljke",
+      "voće"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Kako se zove prozirni prednji dio očne jabučice, zaslužan za oko dvije trećine optičke snage oka?",
     "answer": "Rožnica",
-    "accept": ["kornea"],
+    "accept": [
+      "kornea"
+    ],
     "note": "Svjetlost lomi zajedno s prednjom očnom sobicom i lećom.",
     "source": "Wikipedia (en): Cornea",
-    "tags": ["ljudsko tijelo", "vid"],
+    "tags": [
+      "ljudsko tijelo",
+      "vid"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +192,15 @@
     "difficulty": 2,
     "question": "Kako se zove endokrina žlijezda na dnu mozga, ispod hipotalamusa?",
     "answer": "Hipofiza",
-    "accept": ["hipofiza cerebri"],
+    "accept": [
+      "hipofiza cerebri"
+    ],
     "note": "Nalazi se u svih kralježnjaka.",
     "source": "Wikipedia (en): Pituitary gland",
-    "tags": ["ljudsko tijelo", "žlijezde"],
+    "tags": [
+      "ljudsko tijelo",
+      "žlijezde"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +211,15 @@
     "difficulty": 2,
     "question": "Koji dijelovi krvi, nazvani po grčkoj riječi za ugrušak, reagiraju na krvarenje iz žila?",
     "answer": "Trombociti",
-    "accept": ["krvne pločice"],
+    "accept": [
+      "krvne pločice"
+    ],
     "note": "Djeluju zajedno s čimbenicima zgrušavanja.",
     "source": "Wikipedia (en): Platelet",
-    "tags": ["ljudsko tijelo", "krv"],
+    "tags": [
+      "ljudsko tijelo",
+      "krv"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +233,10 @@
     "accept": [],
     "note": "Glavna je strukturna bjelančevina vezivnih tkiva.",
     "source": "Wikipedia (en): Collagen",
-    "tags": ["ljudsko tijelo", "biologija"],
+    "tags": [
+      "ljudsko tijelo",
+      "biologija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +247,15 @@
     "difficulty": 2,
     "question": "Mužjaci kojih tropskih morskih ptica u sezoni parenja napuhuju crvenu grlenu vreću?",
     "answer": "Fregate",
-    "accept": ["fregata"],
+    "accept": [
+      "fregata"
+    ],
     "note": "Imaju dug, duboko račvast rep i dug zakrivljen kljun.",
     "source": "Wikipedia (en): Frigatebird",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +266,15 @@
     "difficulty": 2,
     "question": "Koja je koza iz roda Capra, poznata i kao steinbock, živi u Alpama?",
     "answer": "Alpski kozorog",
-    "accept": ["kozorog"],
+    "accept": [
+      "kozorog"
+    ],
     "note": "Najbliži joj je srodnik iberski kozorog.",
     "source": "Wikipedia (en): Alpine ibex",
-    "tags": ["životinje", "planine"],
+    "tags": [
+      "životinje",
+      "planine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +285,15 @@
     "difficulty": 3,
     "question": "Kako se zovu noćni glodavci iz porodice Gliridae, nazvani po dugom zimskom snu od šest mjeseci i više?",
     "answer": "Puhovi",
-    "accept": ["puh"],
+    "accept": [
+      "puh"
+    ],
     "note": "Žive u Africi, Aziji i Europi.",
     "source": "Wikipedia (en): Dormouse",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +304,15 @@
     "difficulty": 3,
     "question": "Koja je divlja koza-antilopa, znanstvenim imenom Rupicapra rupicapra, rasprostranjena od Pireneja do Alpa i Apenina?",
     "answer": "Divokoza",
-    "accept": ["Rupicapra"],
+    "accept": [
+      "Rupicapra"
+    ],
     "note": "Živi u planinskim dijelovima Europe i zapadne Azije.",
     "source": "Wikipedia (en): Chamois",
-    "tags": ["životinje", "planine"],
+    "tags": [
+      "životinje",
+      "planine"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +323,15 @@
     "difficulty": 3,
     "question": "Koja se afrička roda, česta oko odlagališta otpada, zove i „ptica grobar” zbog izgleda odostraga?",
     "answer": "Marabu",
-    "accept": ["afrički marabu"],
+    "accept": [
+      "afrički marabu"
+    ],
     "note": "Živi u Africi južno od Sahare.",
     "source": "Wikipedia (en): Marabou stork",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +342,16 @@
     "difficulty": 3,
     "question": "Koje ptice s plovnim kožicama između sva četiri prsta love ribu roneći s površine?",
     "answer": "Kormorani",
-    "accept": ["kormoran", "vranac"],
+    "accept": [
+      "kormoran",
+      "vranac"
+    ],
     "note": "Pod vodom se pokreću nogama, uz pomoć krila.",
     "source": "Wikipedia (en): Cormorant",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +362,16 @@
     "difficulty": 3,
     "question": "Koja je europska ptica iz porodice vrana jedna od rijetkih ptica koje prolaze test zrcala?",
     "answer": "Svraka",
-    "accept": ["svrake", "euroazijska svraka"],
+    "accept": [
+      "svrake",
+      "euroazijska svraka"
+    ],
     "note": "Ubraja se među najinteligentnije ptice.",
     "source": "Wikipedia (en): Eurasian magpie",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

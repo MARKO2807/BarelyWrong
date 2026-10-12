@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koje se tri discipline, ovim redom, nadovezuju u triatlonu?",
     "answer": "Plivanje, biciklizam i trčanje",
-    "accept": ["plivanje, vožnja bicikla i trčanje"],
+    "accept": [
+      "plivanje, vožnja bicikla i trčanje"
+    ],
     "note": "Prijelazi između disciplina također se mjere u ukupno vrijeme.",
     "source": "Wikipedia (en): Triathlon",
-    "tags": ["triatlon", "pravila"],
+    "tags": [
+      "triatlon",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0179",
@@ -23,9 +29,13 @@
     "accept": [],
     "note": "Smatra se najstarijom navijačkom skupinom u Europi; osnovali su je mornari s Korčule.",
     "source": "Wikipedia (en): Torcida Split",
-    "tags": ["Hrvatska", "navijači"],
+    "tags": [
+      "Hrvatska",
+      "navijači"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0180",
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "U kojem se gradu igra teniski turnir US Open?",
     "answer": "New York",
-    "accept": ["u New Yorku"],
+    "accept": [
+      "u New Yorku"
+    ],
     "note": "Od 1978. igra se na tvrdoj podlozi u Flushing Meadowsu, u četvrti Queens.",
     "source": "Wikipedia (en): US Open (tennis)",
-    "tags": ["tenis", "Grand Slam"],
+    "tags": [
+      "tenis",
+      "Grand Slam"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0181",
@@ -48,12 +64,18 @@
     "difficulty": 1,
     "question": "U kojem je sportu igrao Wayne Gretzky, prozvan „Veliki”?",
     "answer": "Hokej na ledu",
-    "accept": ["hokej"],
+    "accept": [
+      "hokej"
+    ],
     "note": "Igrao je 20 sezona u NHL-u, od 1979. do 1999.",
     "source": "Wikipedia (en): Wayne Gretzky",
-    "tags": ["hokej", "Kanada"],
+    "tags": [
+      "hokej",
+      "Kanada"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "sport-0182",
@@ -65,7 +87,10 @@
     "accept": [],
     "note": "Postiže se kad sve tri strelice pogode trostruku dvadeseticu.",
     "source": "Wikipedia (en): Darts",
-    "tags": ["pikado", "brojevi"],
+    "tags": [
+      "pikado",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +101,15 @@
     "difficulty": 2,
     "question": "U kojem se sportu natječe za America's Cup, najstarije međunarodno sportsko natjecanje koje se još održava?",
     "answer": "Jedrenje",
-    "accept": ["jedriličarstvo"],
+    "accept": [
+      "jedriličarstvo"
+    ],
     "note": "Utrke se vode između dviju jahti, branitelja i izazivača.",
     "source": "Wikipedia (en): America's Cup",
-    "tags": ["jedrenje", "trofeji"],
+    "tags": [
+      "jedrenje",
+      "trofeji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +120,15 @@
     "difficulty": 2,
     "question": "Koliko bodova vrijedi touchdown?",
     "answer": "6",
-    "accept": ["šest"],
+    "accept": [
+      "šest"
+    ],
     "note": "Nakon touchdowna momčad ima priliku za dodatni bod.",
     "source": "Wikipedia (en): Touchdown",
-    "tags": ["američki nogomet", "pravila"],
+    "tags": [
+      "američki nogomet",
+      "pravila"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +139,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski boksač 1972. osvojio olimpijsko zlato?",
     "answer": "Mate Parlov",
-    "accept": ["Parlov"],
+    "accept": [
+      "Parlov"
+    ],
     "note": "Dvije godine kasnije postao je i prvi amaterski svjetski prvak, u Havani.",
     "source": "Wikipedia (en): Mate Parlov",
-    "tags": ["Hrvatska", "boks"],
+    "tags": [
+      "Hrvatska",
+      "boks"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +158,15 @@
     "difficulty": 2,
     "question": "Koji je američki atletičar osvojio devet olimpijskih zlata u sprintu i skoku u dalj?",
     "answer": "Carl Lewis",
-    "accept": ["Lewis"],
+    "accept": [
+      "Lewis"
+    ],
     "note": "Uz to je osvojio i deset medalja na svjetskim prvenstvima.",
     "source": "Wikipedia (en): Carl Lewis",
-    "tags": ["atletika", "Olimpijske igre"],
+    "tags": [
+      "atletika",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +177,16 @@
     "difficulty": 2,
     "question": "Na kojoj se pariškoj aveniji od 1975. tradicionalno završava Tour de France?",
     "answer": "Champs-Élysées",
-    "accept": ["Elizejske poljane", "Champs Elysees"],
+    "accept": [
+      "Elizejske poljane",
+      "Champs Elysees"
+    ],
     "note": "Iznimka je bila 2024., kad Tour nije završio u Parizu.",
     "source": "Wikipedia (en): Tour de France",
-    "tags": ["biciklizam", "Pariz"],
+    "tags": [
+      "biciklizam",
+      "Pariz"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +197,15 @@
     "difficulty": 2,
     "question": "Koji je norveški šahist 2013. postao svjetski prvak, pobijedivši Viswanathana Ananda?",
     "answer": "Magnus Carlsen",
-    "accept": ["Carlsen"],
+    "accept": [
+      "Carlsen"
+    ],
     "note": "S 19 godina postao je najmlađi broj jedan na FIDE-inoj ljestvici.",
     "source": "Wikipedia (en): Magnus Carlsen",
-    "tags": ["šah", "prvaci"],
+    "tags": [
+      "šah",
+      "prvaci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +216,15 @@
     "difficulty": 2,
     "question": "Koji je britanski atletičar 1954. prvi istrčao milju za manje od četiri minute?",
     "answer": "Roger Bannister",
-    "accept": ["Bannister"],
+    "accept": [
+      "Bannister"
+    ],
     "note": "Uspjelo mu je 6. svibnja na stazi Iffley Road u Oxfordu.",
     "source": "Wikipedia (en): Roger Bannister",
-    "tags": ["atletika", "rekordi"],
+    "tags": [
+      "atletika",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +235,15 @@
     "difficulty": 2,
     "question": "Koliko kilograma teži standardna muška šipka u dizanju utega?",
     "answer": "20 kg",
-    "accept": ["20"],
+    "accept": [
+      "20"
+    ],
     "note": "Šipka s pripadajućim zatvaračima teži 25 kg.",
     "source": "Wikipedia (en): Barbell",
-    "tags": ["dizanje utega", "oprema"],
+    "tags": [
+      "dizanje utega",
+      "oprema"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +257,10 @@
     "accept": [],
     "note": "Ta je igra preteča rukometa i svih sportova s reketom.",
     "source": "Wikipedia (en): Real tennis",
-    "tags": ["tenis", "povijest sporta"],
+    "tags": [
+      "tenis",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +271,15 @@
     "difficulty": 3,
     "question": "Koji je timski sport sa štapom s mrežicom najstariji organizirani sport u Sjevernoj Americi?",
     "answer": "Lacrosse",
-    "accept": ["lakros"],
+    "accept": [
+      "lakros"
+    ],
     "note": "Potječe od starosjedilačkih naroda Sjeverne Amerike.",
     "source": "Wikipedia (en): Lacrosse",
-    "tags": ["povijest sporta", "Sjeverna Amerika"],
+    "tags": [
+      "povijest sporta",
+      "Sjeverna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +290,15 @@
     "difficulty": 3,
     "question": "Koji je engleski nogometaš 1956. dobio prvu Zlatnu loptu?",
     "answer": "Stanley Matthews",
-    "accept": ["Matthews"],
+    "accept": [
+      "Matthews"
+    ],
     "note": "Nagradu dodjeljuje francuski časopis France Football.",
     "source": "Wikipedia (en): Ballon d'Or",
-    "tags": ["nogomet", "nagrade"],
+    "tags": [
+      "nogomet",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +309,15 @@
     "difficulty": 3,
     "question": "Koji je francuski napadač na SP-u 1958. zabio rekordnih 13 golova na jednom prvenstvu?",
     "answer": "Just Fontaine",
-    "accept": ["Fontaine"],
+    "accept": [
+      "Fontaine"
+    ],
     "note": "Golove je zabio u samo šest utakmica.",
     "source": "Wikipedia (en): Just Fontaine",
-    "tags": ["nogomet", "rekordi"],
+    "tags": [
+      "nogomet",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +328,16 @@
     "difficulty": 3,
     "question": "Koji je sovjetski vratar 1963. postao jedini vratar dobitnik Zlatne lopte?",
     "answer": "Lav Jašin",
-    "accept": ["Jašin", "Lev Yashin"],
+    "accept": [
+      "Jašin",
+      "Lev Yashin"
+    ],
     "note": "Bio je poznat po akrobatskim obranama i iznimnim refleksima.",
     "source": "Wikipedia (en): Lev Yashin",
-    "tags": ["nogomet", "vratari"],
+    "tags": [
+      "nogomet",
+      "vratari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +348,15 @@
     "difficulty": 3,
     "question": "Koje boje majicu nosi vodeći u ukupnom poretku biciklističke Vuelte?",
     "answer": "Crvenu",
-    "accept": ["crvena"],
+    "accept": [
+      "crvena"
+    ],
     "note": "Vodi biciklist s najmanjim ukupnim vremenom.",
     "source": "Wikipedia (en): Vuelta a España",
-    "tags": ["biciklizam", "Španjolska"],
+    "tags": [
+      "biciklizam",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +370,10 @@
     "accept": [],
     "note": "Igralo je 12 članova veslačkog kluba, a golove su označavale zastavice u moru kraj gata.",
     "source": "Wikipedia (en): Water polo",
-    "tags": ["vaterpolo", "povijest sporta"],
+    "tags": [
+      "vaterpolo",
+      "povijest sporta"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

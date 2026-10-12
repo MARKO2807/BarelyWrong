@@ -9,9 +9,13 @@
     "accept": [],
     "note": "Hrani se korom drveća i vodenim biljem.",
     "source": "Wikipedia (en): Beaver",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0241",
@@ -20,12 +24,18 @@
     "difficulty": 1,
     "question": "Mužjak koje ptice pri udvaranju raširi raskošan rep s pjegama nalik očima?",
     "answer": "Paun",
-    "accept": ["paunica"],
+    "accept": [
+      "paunica"
+    ],
     "note": "Paunovi su poznati i po prodornom glasanju.",
     "source": "Wikipedia (en): Peafowl",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0242",
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "Kako se zove porodica malih kornjaša, najčešće crvenih s crnim točkama?",
     "answer": "Bubamare",
-    "accept": ["bubamara"],
+    "accept": [
+      "bubamara"
+    ],
     "note": "Engleski naziv ladybird odnosi se na Djevicu Mariju.",
     "source": "Wikipedia (en): Coccinellidae",
-    "tags": ["životinje", "kukci"],
+    "tags": [
+      "životinje",
+      "kukci"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "nature-0243",
@@ -48,10 +64,15 @@
     "difficulty": 1,
     "question": "Koja je palma jedina živuća vrsta roda Cocos?",
     "answer": "Kokosova palma",
-    "accept": ["kokos"],
+    "accept": [
+      "kokos"
+    ],
     "note": "Riječ kokos može značiti i cijelo stablo i njegov plod.",
     "source": "Wikipedia (en): Coconut",
-    "tags": ["biljke", "drveće"],
+    "tags": [
+      "biljke",
+      "drveće"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +83,15 @@
     "difficulty": 1,
     "question": "Koje su šarene tropske ptice Srednje i Južne Amerike poznate po golemom, često šarenom kljunu?",
     "answer": "Tukani",
-    "accept": ["tukan"],
+    "accept": [
+      "tukan"
+    ],
     "note": "Porodica ima pet rodova i više od 40 vrsta.",
     "source": "Wikipedia (en): Toucan",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +102,15 @@
     "difficulty": 2,
     "question": "Koji su mali južnoamerički glodavci, srodnici viskača, ime dobili po narodu Chincha?",
     "answer": "Činčila",
-    "accept": ["činčile"],
+    "accept": [
+      "činčile"
+    ],
     "note": "Srodnik im je i činčilin štakor.",
     "source": "Wikipedia (en): Chinchilla",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +121,16 @@
     "difficulty": 2,
     "question": "Koja je životinja nacionalni sisavac Sjedinjenih Američkih Država?",
     "answer": "Američki bizon",
-    "accept": ["bizon", "bivol"],
+    "accept": [
+      "bizon",
+      "bivol"
+    ],
     "note": "U američkom engleskom ispravni su i naziv buffalo i naziv bison.",
     "source": "Wikipedia (en): American bison",
-    "tags": ["životinje", "SAD"],
+    "tags": [
+      "životinje",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +141,15 @@
     "difficulty": 2,
     "question": "Koja se ptica neletačica iz prašuma Nove Gvineje i sjeveroistočne Australije često naziva najopasnijom pticom na svijetu?",
     "answer": "Kazuar",
-    "accept": ["kazuari"],
+    "accept": [
+      "kazuari"
+    ],
     "note": "Može nanijeti teške, pa i smrtonosne ozljede.",
     "source": "Wikipedia (en): Cassowary",
-    "tags": ["životinje", "ptice"],
+    "tags": [
+      "životinje",
+      "ptice"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +160,15 @@
     "difficulty": 2,
     "question": "Koji su primati, šiljaste njuške i dugog repa, endemi Madagaskara?",
     "answer": "Lemuri",
-    "accept": ["lemur"],
+    "accept": [
+      "lemur"
+    ],
     "note": "Postoji oko 100 današnjih vrsta.",
     "source": "Wikipedia (en): Lemur",
-    "tags": ["životinje", "majmuni"],
+    "tags": [
+      "životinje",
+      "majmuni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +179,15 @@
     "difficulty": 2,
     "question": "Kako se zove unutarnji sloj oka osjetljiv na svjetlost?",
     "answer": "Mrežnica",
-    "accept": ["retina"],
+    "accept": [
+      "retina"
+    ],
     "note": "Ime dolazi od latinske riječi rete, mreža.",
     "source": "Wikipedia (en): Retina",
-    "tags": ["ljudsko tijelo", "vid"],
+    "tags": [
+      "ljudsko tijelo",
+      "vid"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +198,15 @@
     "difficulty": 2,
     "question": "Koji se mali kruškoliki organ ispod jetre brine za skladištenje i zgušnjavanje žuči?",
     "answer": "Žučni mjehur",
-    "accept": ["žučnjak"],
+    "accept": [
+      "žučnjak"
+    ],
     "note": "Žuč se iz njega otpušta u tanko crijevo.",
     "source": "Wikipedia (en): Gallbladder",
-    "tags": ["ljudsko tijelo", "organi"],
+    "tags": [
+      "ljudsko tijelo",
+      "organi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +217,15 @@
     "difficulty": 2,
     "question": "Koja se afrička zvijer, jedini živući pripadnik roda Crocuta, naziva i „smijućom”?",
     "answer": "Pjegava hijena",
-    "accept": ["hijena"],
+    "accept": [
+      "hijena"
+    ],
     "note": "Živi u Africi južno od Sahare.",
     "source": "Wikipedia (en): Spotted hyena",
-    "tags": ["životinje", "Afrika"],
+    "tags": [
+      "životinje",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +236,15 @@
     "difficulty": 2,
     "question": "Koja se pripitomljena južnoamerička deva tradicionalno uzgajala u stadima na visoravnima Anda?",
     "answer": "Alpaka",
-    "accept": ["alpaca"],
+    "accept": [
+      "alpaca"
+    ],
     "note": "Znanstveno joj je ime Lama pacos.",
     "source": "Wikipedia (en): Alpaca",
-    "tags": ["životinje", "Južna Amerika"],
+    "tags": [
+      "životinje",
+      "Južna Amerika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +255,15 @@
     "difficulty": 2,
     "question": "Koji su veliki biljojedi, oblikom nalik svinji, poznati po kratkoj savitljivoj surli?",
     "answer": "Tapiri",
-    "accept": ["tapir"],
+    "accept": [
+      "tapir"
+    ],
     "note": "Žive u Južnoj i Srednjoj Americi te u jugoistočnoj Aziji.",
     "source": "Wikipedia (en): Tapir",
-    "tags": ["životinje", "sisavci"],
+    "tags": [
+      "životinje",
+      "sisavci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +277,10 @@
     "accept": [],
     "note": "Unutar Australije je nomad, a seli se ovisno o klimi.",
     "source": "Wikipedia (en): Black swan",
-    "tags": ["životinje", "Australija"],
+    "tags": [
+      "životinje",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +291,16 @@
     "difficulty": 3,
     "question": "Koji kukci istočne Sjeverne Amerike izlaze iz zemlje svakih 13 ili 17 godina?",
     "answer": "Periodične cikade",
-    "accept": ["cikade", "Magicicada"],
+    "accept": [
+      "cikade",
+      "Magicicada"
+    ],
     "note": "Gotovo sve jedinke jedne populacije izlaze iste godine.",
     "source": "Wikipedia (en): Periodical cicadas",
-    "tags": ["životinje", "kukci"],
+    "tags": [
+      "životinje",
+      "kukci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -233,7 +314,10 @@
     "accept": [],
     "note": "Vlakna se sastoje ponajviše od celuloze i lignina.",
     "source": "Wikipedia (en): Jute",
-    "tags": ["biljke", "materijali"],
+    "tags": [
+      "biljke",
+      "materijali"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +328,15 @@
     "difficulty": 3,
     "question": "Koja je kritično ugrožena antilopa poznata i kao tatarska stepska antilopa?",
     "answer": "Sajga",
-    "accept": ["Saiga"],
+    "accept": [
+      "Saiga"
+    ],
     "note": "Znanstveno joj je ime Saiga tatarica.",
     "source": "Wikipedia (en): Saiga antelope",
-    "tags": ["životinje", "Azija"],
+    "tags": [
+      "životinje",
+      "Azija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +347,15 @@
     "difficulty": 3,
     "question": "Koji mali tobolčar jugozapadne Australije živi osobito na otoku Rottnest kraj Pertha?",
     "answer": "Quokka",
-    "accept": ["kvoka"],
+    "accept": [
+      "kvoka"
+    ],
     "note": "Uglavnom je noćna životinja.",
     "source": "Wikipedia (en): Quokka",
-    "tags": ["životinje", "Australija"],
+    "tags": [
+      "životinje",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +366,16 @@
     "difficulty": 3,
     "question": "Koja je najmanja vrsta lisice, poznata po neobično velikim ušima, iz pustinja sjeverne Afrike?",
     "answer": "Fenek",
-    "accept": ["pustinjska lisica", "fennec"],
+    "accept": [
+      "pustinjska lisica",
+      "fennec"
+    ],
     "note": "Velike uši služe joj za odavanje topline i osluškivanje plijena pod zemljom.",
     "source": "Wikipedia (en): Fennec fox",
-    "tags": ["životinje", "Afrika"],
+    "tags": [
+      "životinje",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

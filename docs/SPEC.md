@@ -275,7 +275,7 @@ Granični slučajevi: odlučuje znanje potrebno za odgovor. Pjesma iz filma ide 
 - **2 Srednje:** zna netko tko prati temu.
 - **3 Teško:** traži specifično znanje, ali ne natjecateljsko.
 
-Ciljana raspodjela u svakoj temi i formatu: oko 30 % lako, 45 % srednje, 25 % teško.
+Ciljana raspodjela u svakoj temi i formatu: najviše 20 % lako, oko 45 % srednje, oko 35 % teško. Kviz je za odrasle i ne smije biti dječji; prelagana pitanja se arhiviraju.
 
 Natjecateljski teška pitanja ne ulaze u igru; mogu se spremiti sa statusom `archived` za budući ekspertni način.
 

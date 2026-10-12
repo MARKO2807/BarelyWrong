@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je nacistički vođa, rođen u Austriji, 1933. postao njemački kancelar?",
     "answer": "Adolf Hitler",
-    "accept": ["Hitler"],
+    "accept": [
+      "Hitler"
+    ],
     "note": "Rođen je 20. travnja 1889.",
     "source": "Wikipedia (en): Adolf Hitler",
-    "tags": ["20. stoljeće", "Njemačka"],
+    "tags": [
+      "20. stoljeće",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0304",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji je američki pilot 20. i 21. svibnja 1927. prvi sam i bez slijetanja preletio Atlantik?",
     "answer": "Charles Lindbergh",
-    "accept": ["Lindbergh"],
+    "accept": [
+      "Lindbergh"
+    ],
     "note": "Zrakoplovom Spirit of St. Louis letio je više od 33 sata.",
     "source": "Wikipedia (en): Charles Lindbergh",
-    "tags": ["20. stoljeće", "zrakoplovstvo"],
+    "tags": [
+      "20. stoljeće",
+      "zrakoplovstvo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,16 @@
     "difficulty": 1,
     "question": "Koji je američki predsjednik jedini služio više od dva mandata?",
     "answer": "Franklin D. Roosevelt",
-    "accept": ["Franklin Delano Roosevelt", "FDR"],
+    "accept": [
+      "Franklin Delano Roosevelt",
+      "FDR"
+    ],
     "note": "Bio je 32. predsjednik SAD-a, od 1933. do smrti 1945.",
     "source": "Wikipedia (en): Franklin D. Roosevelt",
-    "tags": ["20. stoljeće", "SAD"],
+    "tags": [
+      "20. stoljeće",
+      "SAD"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +65,15 @@
     "difficulty": 1,
     "question": "Koja je američka pilotkinja, pionirka zrakoplovstva, nestala 2. srpnja 1937.?",
     "answer": "Amelia Earhart",
-    "accept": ["Earhart"],
+    "accept": [
+      "Earhart"
+    ],
     "note": "Godine 1928. bila je prva žena koja je zrakoplovom, kao putnica, preletjela Atlantik.",
     "source": "Wikipedia (en): Amelia Earhart",
-    "tags": ["20. stoljeće", "zrakoplovstvo"],
+    "tags": [
+      "20. stoljeće",
+      "zrakoplovstvo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,15 @@
     "difficulty": 1,
     "question": "Kako se zove zračna kampanja iz 1940. u kojoj su RAF i mornaričko zrakoplovstvo obranili Ujedinjeno Kraljevstvo od Luftwaffea?",
     "answer": "Bitka za Britaniju",
-    "accept": ["Battle of Britain"],
+    "accept": [
+      "Battle of Britain"
+    ],
     "note": "Bila je prva velika vojna kampanja koju su vodile isključivo zračne snage.",
     "source": "Wikipedia (en): Battle of Britain",
-    "tags": ["Drugi svjetski rat", "bitke"],
+    "tags": [
+      "Drugi svjetski rat",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -79,7 +106,10 @@
     "accept": [],
     "note": "Ubijena je 31. listopada 1984.",
     "source": "Wikipedia (en): Indira Gandhi",
-    "tags": ["20. stoljeće", "Indija"],
+    "tags": [
+      "20. stoljeće",
+      "Indija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +120,15 @@
     "difficulty": 2,
     "question": "Kako se zove društveno-politički pokret koji je kineski komunistički vođa pokrenuo 1966., a trajao je do njegove smrti 1976.?",
     "answer": "Kulturna revolucija",
-    "accept": ["Velika proleterska kulturna revolucija"],
+    "accept": [
+      "Velika proleterska kulturna revolucija"
+    ],
     "note": "Cilj mu je bio iz kineskog društva ukloniti ostatke kapitalizma i tradicije.",
     "source": "Wikipedia (en): Cultural Revolution",
-    "tags": ["20. stoljeće", "Kina"],
+    "tags": [
+      "20. stoljeće",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +139,15 @@
     "difficulty": 2,
     "question": "Kako se zovu dva rata sredinom 19. stoljeća između Kine i zapadnih sila, povezana sa zabranom trgovine jednom drogom?",
     "answer": "Opijumski ratovi",
-    "accept": ["Opijumski rat"],
+    "accept": [
+      "Opijumski rat"
+    ],
     "note": "Prvi se vodio od 1839. do 1842. između Kine i Britanskog Carstva.",
     "source": "Wikipedia (en): Opium Wars",
-    "tags": ["19. stoljeće", "Kina"],
+    "tags": [
+      "19. stoljeće",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -121,7 +161,10 @@
     "accept": [],
     "note": "U njemu su sudjelovale brojne velike sile.",
     "source": "Wikipedia (en): Seven Years' War",
-    "tags": ["18. stoljeće", "ratovi"],
+    "tags": [
+      "18. stoljeće",
+      "ratovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +175,15 @@
     "difficulty": 2,
     "question": "Koji se rat od 1899. do 1902. vodio između Britanskog Carstva i burskih republika?",
     "answer": "Drugi burski rat",
-    "accept": ["Burski rat"],
+    "accept": [
+      "Burski rat"
+    ],
     "note": "Povod je bilo otkriće zlata u Transvaalu.",
     "source": "Wikipedia (en): Second Boer War",
-    "tags": ["ratovi", "Afrika"],
+    "tags": [
+      "ratovi",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +194,16 @@
     "difficulty": 2,
     "question": "Kako se zvao srednjovjekovni savez trgovačkih ceha i gradova srednje i sjeverne Europe, nastao oko Lübecka?",
     "answer": "Hanza",
-    "accept": ["Hanzeatski savez", "Hansa"],
+    "accept": [
+      "Hanzeatski savez",
+      "Hansa"
+    ],
     "note": "Imao je trgovačke postaje, kontore, i u Bruggeu, Bergenu i Novgorodu.",
     "source": "Wikipedia (en): Hanseatic League",
-    "tags": ["srednji vijek", "trgovina"],
+    "tags": [
+      "srednji vijek",
+      "trgovina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +214,16 @@
     "difficulty": 2,
     "question": "Koji je vojni red, osnovan za zaštitu hodočasnika na putu u Jeruzalem, papa Klement V. raspustio 1312.?",
     "answer": "Templari",
-    "accept": ["Vitezovi templari", "templari"],
+    "accept": [
+      "Vitezovi templari",
+      "templari"
+    ],
     "note": "Sjedište su imali na Brdu hrama u Jeruzalemu.",
     "source": "Wikipedia (en): Knights Templar",
-    "tags": ["srednji vijek", "križarski ratovi"],
+    "tags": [
+      "srednji vijek",
+      "križarski ratovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +234,15 @@
     "difficulty": 2,
     "question": "Kako se zove višestoljetno kršćansko ponovno osvajanje Pirenejskog poluotoka od muslimanskih vladara?",
     "answer": "Rekonkvista",
-    "accept": ["Reconquista"],
+    "accept": [
+      "Reconquista"
+    ],
     "note": "Početak joj se tradicionalno računa od bitke kod Covadonge.",
     "source": "Wikipedia (en): Reconquista",
-    "tags": ["srednji vijek", "Španjolska"],
+    "tags": [
+      "srednji vijek",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +253,16 @@
     "difficulty": 2,
     "question": "Koji je habsburški vojskovođa, rođen u Parizu, 1697. kod Sente odlučno porazio Osmanlije?",
     "answer": "Eugen Savojski",
-    "accept": ["Princ Eugen", "Eugen"],
+    "accept": [
+      "Princ Eugen",
+      "Eugen"
+    ],
     "note": "Šest je desetljeća služio trojici careva.",
     "source": "Wikipedia (en): Prince Eugene of Savoy",
-    "tags": ["17. stoljeće", "Habsburgovci"],
+    "tags": [
+      "17. stoljeće",
+      "Habsburgovci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +273,16 @@
     "difficulty": 2,
     "question": "Koji se bosanski ban iz dinastije Kotromanića 1377. okrunio za kralja?",
     "answer": "Tvrtko I.",
-    "accept": ["Stjepan Tvrtko I.", "Tvrtko"],
+    "accept": [
+      "Stjepan Tvrtko I.",
+      "Tvrtko"
+    ],
     "note": "Bosanski ban postao je 1353., kao maloljetnik.",
     "source": "Wikipedia (en): Tvrtko I of Bosnia",
-    "tags": ["srednji vijek", "Bosna"],
+    "tags": [
+      "srednji vijek",
+      "Bosna"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +293,16 @@
     "difficulty": 3,
     "question": "Kojim je ugovorom 1842., prvim od „nejednakih ugovora”, Kina Britaniji prepustila otok Hong Kong?",
     "answer": "Nankinški ugovor",
-    "accept": ["Ugovor iz Nankinga", "Treaty of Nanking"],
+    "accept": [
+      "Ugovor iz Nankinga",
+      "Treaty of Nanking"
+    ],
     "note": "Pet kineskih gradova, među njima Šangaj, otvoreno je zapadnim trgovcima.",
     "source": "Wikipedia (en): Opium Wars",
-    "tags": ["19. stoljeće", "Kina"],
+    "tags": [
+      "19. stoljeće",
+      "Kina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +313,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski knez od oko 810. do 821., vazal Franačkog Carstva, u franačkim analima nazvan knezom Guduščana?",
     "answer": "Borna",
-    "accept": ["Knez Borna"],
+    "accept": [
+      "Knez Borna"
+    ],
     "note": "Spominje se u Kraljevskim franačkim analima za razdoblje 818.–821.",
     "source": "Wikipedia (en): Borna (duke)",
-    "tags": ["srednji vijek", "Hrvatska"],
+    "tags": [
+      "srednji vijek",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +332,15 @@
     "difficulty": 3,
     "question": "Čije se ime nalazi na latinskom natpisu krstionice, simbola pokrštavanja Hrvata iz 9. stoljeća?",
     "answer": "Višeslav",
-    "accept": ["Knez Višeslav"],
+    "accept": [
+      "Knez Višeslav"
+    ],
     "note": "Natpis spominje i svećenika Ivana koji je krstio ljude.",
     "source": "Wikipedia (en): Višeslav of Croatia",
-    "tags": ["srednji vijek", "Hrvatska"],
+    "tags": [
+      "srednji vijek",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +351,16 @@
     "difficulty": 3,
     "question": "Koji je bosanski velikaš 1403. dobio naslov splitskog hercega?",
     "answer": "Hrvoje Vukčić Hrvatinić",
-    "accept": ["Hrvoje Vukčić", "Hrvoje"],
+    "accept": [
+      "Hrvoje Vukčić",
+      "Hrvoje"
+    ],
     "note": "Bio je veliki vojvoda bosanski pod četvoricom kraljeva.",
     "source": "Wikipedia (en): Hrvoje Vukčić Hrvatinić",
-    "tags": ["srednji vijek", "Bosna"],
+    "tags": [
+      "srednji vijek",
+      "Bosna"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +371,16 @@
     "difficulty": 3,
     "question": "Koji je barun u ratu za austrijsko nasljeđe zapovijedao pandurima?",
     "answer": "Franjo Trenk",
-    "accept": ["Franz von der Trenck", "Trenk"],
+    "accept": [
+      "Franz von der Trenck",
+      "Trenk"
+    ],
     "note": "Rođen je 1711. u Reggio di Calabriji.",
     "source": "Wikipedia (en): Franz von der Trenck",
-    "tags": ["18. stoljeće", "Hrvatska"],
+    "tags": [
+      "18. stoljeće",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

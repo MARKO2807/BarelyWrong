@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Koji je sovjetski vođa vladao Sovjetskim Savezom od 1922. do smrti 1953.?",
     "answer": "Josif Staljin",
-    "accept": ["Staljin", "Stalin"],
+    "accept": [
+      "Staljin",
+      "Stalin"
+    ],
     "note": "Rođen je kao Ioseb Džugašvili.",
     "source": "Wikipedia (en): Joseph Stalin",
-    "tags": ["Sovjetski Savez", "državnici"],
+    "tags": [
+      "Sovjetski Savez",
+      "državnici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,12 +26,18 @@
     "difficulty": 1,
     "question": "Koji je teolog 1517. napisao 95 teza o oprostima?",
     "answer": "Martin Luther",
-    "accept": ["Luther"],
+    "accept": [
+      "Luther"
+    ],
     "note": "Tada je bio profesor moralne teologije na sveučilištu u Wittenbergu.",
     "source": "Wikipedia (en): Ninety-five Theses",
-    "tags": ["reformacija", "vjera"],
+    "tags": [
+      "reformacija",
+      "vjera"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0123",
@@ -34,10 +46,16 @@
     "difficulty": 1,
     "question": "Koji je hunski vladar bio poznat kao „Bič Božji”?",
     "answer": "Atila",
-    "accept": ["Attila", "Atila Hun"],
+    "accept": [
+      "Attila",
+      "Atila Hun"
+    ],
     "note": "Hunima je vladao od 434. do smrti 453.",
     "source": "Wikipedia (en): Attila",
-    "tags": ["seoba naroda", "vladari"],
+    "tags": [
+      "seoba naroda",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -48,10 +66,15 @@
     "difficulty": 1,
     "question": "Kako se zvao brod na kojem je Charles Darwin putovao oko svijeta?",
     "answer": "Beagle",
-    "accept": ["HMS Beagle"],
+    "accept": [
+      "HMS Beagle"
+    ],
     "note": "Bilo je to drugo istraživačko putovanje tog broda.",
     "source": "Wikipedia (en): HMS Beagle",
-    "tags": ["znanost", "brodovi"],
+    "tags": [
+      "znanost",
+      "brodovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -65,7 +88,10 @@
     "accept": [],
     "note": "Bio je talijanski moreplovac iz Genovske Republike, a ploveći je za španjolske katoličke vladare.",
     "source": "Wikipedia (en): Christopher Columbus",
-    "tags": ["istraživači", "zablude"],
+    "tags": [
+      "istraživači",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -79,7 +105,10 @@
     "accept": [],
     "note": "Cijena je bila 7,2 milijuna dolara.",
     "source": "Wikipedia (en): Alaska Purchase",
-    "tags": ["SAD", "Rusija"],
+    "tags": [
+      "SAD",
+      "Rusija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -90,10 +119,15 @@
     "difficulty": 1,
     "question": "Koje je godine sagrađen Berlinski zid?",
     "answer": "1961.",
-    "accept": ["1961"],
+    "accept": [
+      "1961"
+    ],
     "note": "Okruživao je Zapadni Berlin do 1989.",
     "source": "Wikipedia (en): Berlin Wall",
-    "tags": ["hladni rat", "godine"],
+    "tags": [
+      "hladni rat",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +138,16 @@
     "difficulty": 2,
     "question": "Kojeg je franačkog kralja papa Lav III. 800. u Rimu okrunio za cara?",
     "answer": "Karla Velikog",
-    "accept": ["Karlo Veliki", "Charlemagne"],
+    "accept": [
+      "Karlo Veliki",
+      "Charlemagne"
+    ],
     "note": "Ujedinio je velik dio zapadne i srednje Europe.",
     "source": "Wikipedia (en): Charlemagne",
-    "tags": ["srednji vijek", "vladari"],
+    "tags": [
+      "srednji vijek",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +158,16 @@
     "difficulty": 2,
     "question": "Koji je britanski admiral poginuo u pobjedničkoj bitki kod Trafalgara 1805.?",
     "answer": "Horatio Nelson",
-    "accept": ["Nelson", "Lord Nelson"],
+    "accept": [
+      "Nelson",
+      "Lord Nelson"
+    ],
     "note": "Zapovijedao je s broda HMS Victory.",
     "source": "Wikipedia (en): Horatio Nelson",
-    "tags": ["Napoleonski ratovi", "bitke"],
+    "tags": [
+      "Napoleonski ratovi",
+      "bitke"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -132,10 +178,16 @@
     "difficulty": 2,
     "question": "Koji je rimski car osnovao Konstantinopol i učinio ga prijestolnicom Carstva?",
     "answer": "Konstantin Veliki",
-    "accept": ["Konstantin", "Konstantin I."],
+    "accept": [
+      "Konstantin",
+      "Konstantin I."
+    ],
     "note": "Prekinuo je progone kršćana.",
     "source": "Wikipedia (en): Constantine the Great",
-    "tags": ["Rim", "vladari"],
+    "tags": [
+      "Rim",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +198,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski knez 879. dobio priznanje pape Ivana VIII.?",
     "answer": "Branimir",
-    "accept": ["Knez Branimir"],
+    "accept": [
+      "Knez Branimir"
+    ],
     "note": "Papa je priznanje uputio 7. lipnja 879.",
     "source": "Wikipedia (en): Branimir of Croatia",
-    "tags": ["Hrvatska", "vladari"],
+    "tags": [
+      "Hrvatska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +217,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski političar 1928. ranjen u beogradskoj skupštini i ubrzo umro?",
     "answer": "Stjepan Radić",
-    "accept": ["Radić"],
+    "accept": [
+      "Radić"
+    ],
     "note": "Bio je suosnivač Hrvatske pučke seljačke stranke.",
     "source": "Wikipedia (en): Stjepan Radić",
-    "tags": ["Hrvatska", "20. stoljeće"],
+    "tags": [
+      "Hrvatska",
+      "20. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +236,16 @@
     "difficulty": 2,
     "question": "Koji je đakovački biskup bio jedan od ključnih osnivača Jugoslavenske akademije, današnje HAZU?",
     "answer": "Josip Juraj Strossmayer",
-    "accept": ["Strossmayer", "Štrosmajer"],
+    "accept": [
+      "Strossmayer",
+      "Štrosmajer"
+    ],
     "note": "Bio je bosanski (đakovački) i srijemski biskup od 1849. do smrti.",
     "source": "Wikipedia (en): Josip Juraj Strossmayer",
-    "tags": ["Hrvatska", "19. stoljeće"],
+    "tags": [
+      "Hrvatska",
+      "19. stoljeće"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +256,16 @@
     "difficulty": 2,
     "question": "Tko je bio posljednji ruski car?",
     "answer": "Nikola II.",
-    "accept": ["Nikolaj II.", "Nikola II"],
+    "accept": [
+      "Nikolaj II.",
+      "Nikola II"
+    ],
     "note": "Abdicirao je 1917., tijekom Ruske revolucije.",
     "source": "Wikipedia (en): Nicholas II",
-    "tags": ["Rusija", "vladari"],
+    "tags": [
+      "Rusija",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +279,10 @@
     "accept": [],
     "note": "S Elbe je pobjegao nakon deset mjeseci, a umro je 1821. na Svetoj Heleni.",
     "source": "Wikipedia (en): Napoleon",
-    "tags": ["Napoleon", "zablude"],
+    "tags": [
+      "Napoleon",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +296,10 @@
     "accept": [],
     "note": "Okrunjen je 1547. za cara i velikog kneza cijele Rusije.",
     "source": "Wikipedia (en): Ivan the Terrible",
-    "tags": ["Rusija", "vladari"],
+    "tags": [
+      "Rusija",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +310,15 @@
     "difficulty": 2,
     "question": "Koje je godine umro Josip Broz Tito?",
     "answer": "1980.",
-    "accept": ["1980"],
+    "accept": [
+      "1980"
+    ],
     "note": "Jugoslavijom je kao predsjednik vladao od 1953. do smrti.",
     "source": "Wikipedia (en): Josip Broz Tito",
-    "tags": ["Jugoslavija", "godine"],
+    "tags": [
+      "Jugoslavija",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +329,16 @@
     "difficulty": 3,
     "question": "Pod kojim je hrvatskim kraljem, posljednjim iz krešimirovićkog ogranka Trpimirovića, kraljevstvo doseglo najveći opseg?",
     "answer": "Petar Krešimir IV.",
-    "accept": ["Petar Krešimir IV", "Krešimir IV."],
+    "accept": [
+      "Petar Krešimir IV",
+      "Krešimir IV."
+    ],
     "note": "Vladao je od 1058. do 1074., a sjedišta su mu bila Nin i Biograd na Moru.",
     "source": "Wikipedia (en): Peter Krešimir IV of Croatia",
-    "tags": ["Hrvatska", "vladari"],
+    "tags": [
+      "Hrvatska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +352,10 @@
     "accept": [],
     "note": "Bio je najstarije od njezinih 42 unučadi.",
     "source": "Wikipedia (en): Wilhelm II",
-    "tags": ["vladari", "Europa"],
+    "tags": [
+      "vladari",
+      "Europa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -275,7 +369,10 @@
     "accept": [],
     "note": "Bio je Novozelanđanin, a na vrh su se popeli 29. svibnja 1953.",
     "source": "Wikipedia (en): Edmund Hillary",
-    "tags": ["istraživači", "zablude"],
+    "tags": [
+      "istraživači",
+      "zablude"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +383,15 @@
     "difficulty": 3,
     "question": "Koliko je godina, zaokruženo, vladala kraljica Elizabeta II.?",
     "answer": "70",
-    "accept": ["70 godina"],
+    "accept": [
+      "70 godina"
+    ],
     "note": "Najdulje je vladala od svih britanskih monarha.",
     "source": "Wikipedia (en): Elizabeth II",
-    "tags": ["Ujedinjeno Kraljevstvo", "brojevi"],
+    "tags": [
+      "Ujedinjeno Kraljevstvo",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

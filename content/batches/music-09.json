@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koji je američki pjevač imao nadimke „Ol' Blue Eyes” i „Chairman of the Board”?",
     "answer": "Frank Sinatra",
-    "accept": ["Sinatra"],
+    "accept": [
+      "Sinatra"
+    ],
     "note": "Rođen je u Hobokenu u New Jerseyju, u obitelji talijanskih useljenika.",
     "source": "Wikipedia (en): Frank Sinatra",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -23,9 +28,13 @@
     "accept": [],
     "note": "Karijeru je 2005. počela kao country pjevačica.",
     "source": "Wikipedia (en): Taylor Swift",
-    "tags": ["pop", "rekordi"],
+    "tags": [
+      "pop",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0202",
@@ -37,7 +46,10 @@
     "accept": [],
     "note": "Većinu karijere sastav je djelovao iz San Francisca.",
     "source": "Wikipedia (en): Metallica",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -51,7 +63,10 @@
     "accept": [],
     "note": "Ime dolazi od grčkih riječi metron (mjera) i nomos (zakon).",
     "source": "Wikipedia (en): Metronome",
-    "tags": ["glazbena teorija", "uređaji"],
+    "tags": [
+      "glazbena teorija",
+      "uređaji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +77,15 @@
     "difficulty": 1,
     "question": "Koji je američki glazbenik, slijep od ranog djetinjstva, s 11 godina kao čudo od djeteta potpisao ugovor s Motownom?",
     "answer": "Stevie Wonder",
-    "accept": ["Wonder"],
+    "accept": [
+      "Wonder"
+    ],
     "note": "Ondje je dobio umjetničko ime Little Stevie Wonder.",
     "source": "Wikipedia (en): Stevie Wonder",
-    "tags": ["soul", "pjevači"],
+    "tags": [
+      "soul",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +96,15 @@
     "difficulty": 2,
     "question": "Koji je američki country pjevač zbog crne odjeće na pozornici prozvan „Man in Black”?",
     "answer": "Johnny Cash",
-    "accept": ["Cash"],
+    "accept": [
+      "Cash"
+    ],
     "note": "Odrastao je u obitelji siromašnih uzgajivača pamuka u Arkansasu.",
     "source": "Wikipedia (en): Johnny Cash",
-    "tags": ["country", "pjevači"],
+    "tags": [
+      "country",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +115,15 @@
     "difficulty": 2,
     "question": "Koja je pjevačica, rođena kao Anna Mae Bullock, prozvana „kraljicom rock and rolla”?",
     "answer": "Tina Turner",
-    "accept": ["Turner"],
+    "accept": [
+      "Turner"
+    ],
     "note": "Rušila je rasne i rodne barijere u rock-glazbi.",
     "source": "Wikipedia (en): Tina Turner",
-    "tags": ["rock", "pjevači"],
+    "tags": [
+      "rock",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +134,15 @@
     "difficulty": 2,
     "question": "Koji je finski skladatelj autor skladbe „Finlandia”?",
     "answer": "Jean Sibelius",
-    "accept": ["Sibelius"],
+    "accept": [
+      "Sibelius"
+    ],
     "note": "Napisao je i „Valse triste” i suitu „Karelia”.",
     "source": "Wikipedia (en): Jean Sibelius",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +153,15 @@
     "difficulty": 2,
     "question": "Koji je češki skladatelj autor simfonijskog ciklusa „Moja domovina” i opere „Prodana nevjesta”?",
     "answer": "Bedřich Smetana",
-    "accept": ["Smetana"],
+    "accept": [
+      "Smetana"
+    ],
     "note": "U domovini ga smatraju ocem češke glazbe.",
     "source": "Wikipedia (en): Bedřich Smetana",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +172,15 @@
     "difficulty": 2,
     "question": "Koji je američki dirigent i skladatelj 1957. napisao mjuzikl „West Side Story”?",
     "answer": "Leonard Bernstein",
-    "accept": ["Bernstein"],
+    "accept": [
+      "Bernstein"
+    ],
     "note": "Mjuzikl je dvaput ekraniziran, 1961. i 2021.",
     "source": "Wikipedia (en): Leonard Bernstein",
-    "tags": ["mjuzikli", "skladatelji"],
+    "tags": [
+      "mjuzikli",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +191,15 @@
     "difficulty": 2,
     "question": "Koji je britanski skladatelj napisao mjuzikle „Mačke” i „Fantom iz opere”?",
     "answer": "Andrew Lloyd Webber",
-    "accept": ["Lloyd Webber"],
+    "accept": [
+      "Lloyd Webber"
+    ],
     "note": "Iz njegove „Evite” je pjesma „Don't Cry for Me Argentina”.",
     "source": "Wikipedia (en): Andrew Lloyd Webber",
-    "tags": ["mjuzikli", "skladatelji"],
+    "tags": [
+      "mjuzikli",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +210,15 @@
     "difficulty": 2,
     "question": "Koji je sastav 2023. predstavljao Hrvatsku na Euroviziji pjesmom „Mama ŠČ!”?",
     "answer": "Let 3",
-    "accept": ["Let3"],
+    "accept": [
+      "Let3"
+    ],
     "note": "Osnovan je krajem 1980-ih i poznat po provokativnim nastupima.",
     "source": "Wikipedia (en): Let 3",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Sviranje na njemu uvijek prati pjevanje.",
     "source": "Wikipedia (en): Gusle",
-    "tags": ["narodna glazba", "glazbala"],
+    "tags": [
+      "narodna glazba",
+      "glazbala"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +246,15 @@
     "difficulty": 2,
     "question": "Koji je hrvatski pjevač nastupio na Euroviziji 1963. s pjesmom „Brodovi” i 1965. sa „Čežnjom”?",
     "answer": "Vice Vukov",
-    "accept": ["Vukov"],
+    "accept": [
+      "Vukov"
+    ],
     "note": "Debitirao je pjesmom „Mirno teku rijeke”.",
     "source": "Wikipedia (en): Vice Vukov",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +265,15 @@
     "difficulty": 2,
     "question": "Koji je sastav, osnovan 1974. u Sarajevu, bio najpopularniji i najprodavaniji u bivšoj Jugoslaviji?",
     "answer": "Bijelo dugme",
-    "accept": ["Bijelo Dugme"],
+    "accept": [
+      "Bijelo Dugme"
+    ],
     "note": "Gitarist u postavi sastava bio je Goran Bregović, a pjevač Željko Bebek.",
     "source": "Wikipedia (en): Bijelo Dugme",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +284,16 @@
     "difficulty": 3,
     "question": "Koji je skladatelj autor Sedme, „Lenjingradske” simfonije, dovršene u prosincu 1941.?",
     "answer": "Dmitrij Šostakovič",
-    "accept": ["Šostakovič", "Shostakovich"],
+    "accept": [
+      "Šostakovič",
+      "Shostakovich"
+    ],
     "note": "Praizvedena je 5. ožujka 1942. u Kujbiševu, gradu koji se sada zove Samara.",
     "source": "Wikipedia (en): Symphony No. 7 (Shostakovich)",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +304,17 @@
     "difficulty": 3,
     "question": "Koji je ruski skladatelj nakon neuspjeha Prve simfonije pao u depresiju, a 1901. dovršio slavni Drugi klavirski koncert?",
     "answer": "Sergej Rahmanjinov",
-    "accept": ["Rahmanjinov", "Rachmaninoff", "Rahmanjinoff"],
+    "accept": [
+      "Rahmanjinov",
+      "Rachmaninoff",
+      "Rahmanjinoff"
+    ],
     "note": "Od 1904. do 1906. bio je dirigent Boljšoj teatra.",
     "source": "Wikipedia (en): Sergei Rachmaninoff",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +325,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski skladatelj grčkog podrijetla, sin pjevačice Maje Strozzi-Pečić, napisao oko 460 djela?",
     "answer": "Boris Papandopulo",
-    "accept": ["Papandopulo"],
+    "accept": [
+      "Papandopulo"
+    ],
     "note": "Bio je i dirigent, glazbeni pisac, kritičar i pijanist.",
     "source": "Wikipedia (en): Boris Papandopulo",
-    "tags": ["klasična glazba", "Hrvatska"],
+    "tags": [
+      "klasična glazba",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +344,16 @@
     "difficulty": 3,
     "question": "Koji je zagrebački rock-sastav, osnovan 1982., poznat po energičnim nastupima i zvuku pod utjecajem Ramonesa?",
     "answer": "Psihomodo pop",
-    "accept": ["Psihomodo Pop", "Psihomodo"],
+    "accept": [
+      "Psihomodo Pop",
+      "Psihomodo"
+    ],
     "note": "Pozornost su privukli i imidžem s preoblačenjem.",
     "source": "Wikipedia (en): Psihomodo Pop",
-    "tags": ["rock", "Hrvatska"],
+    "tags": [
+      "rock",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +364,15 @@
     "difficulty": 3,
     "question": "Koji je skladatelj, ravnatelj Bečke dvorske opere od 1897., izbjegao numerirati „Pjesmu o zemlji” iz straha od „prokletstva devete simfonije”?",
     "answer": "Gustav Mahler",
-    "accept": ["Mahler"],
+    "accept": [
+      "Mahler"
+    ],
     "note": "Da bi dobio mjesto u Beču, prešao je na katoličanstvo.",
     "source": "Wikipedia (en): Gustav Mahler",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

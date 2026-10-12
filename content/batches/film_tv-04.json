@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je glumac utjelovio kiborga ubojicu u filmu „Terminator” iz 1984.?",
     "answer": "Arnold Schwarzenegger",
-    "accept": ["Schwarzenegger"],
+    "accept": [
+      "Schwarzenegger"
+    ],
     "note": "Film je režirao James Cameron.",
     "source": "Wikipedia (en): The Terminator",
-    "tags": ["glumci", "znanstvena fantastika"],
+    "tags": [
+      "glumci",
+      "znanstvena fantastika"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0095",
@@ -23,7 +29,10 @@
     "accept": [],
     "note": "Tolkien je ime preuzeo iz staronordijskog popisa patuljaka.",
     "source": "Wikipedia (en): Gandalf",
-    "tags": ["fantastika", "likovi"],
+    "tags": [
+      "fantastika",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -37,9 +46,13 @@
     "accept": [],
     "note": "Zaljubljuje se u princa Erica.",
     "source": "Wikipedia (en): The Little Mermaid (1989 film)",
-    "tags": ["animirani film", "Disney"],
+    "tags": [
+      "animirani film",
+      "Disney"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0097",
@@ -48,12 +61,18 @@
     "difficulty": 1,
     "question": "U kojoj seriji fizičari Sheldon Cooper i Leonard Hofstadter dijele stan u Pasadeni?",
     "answer": "Teorija velikog praska",
-    "accept": ["The Big Bang Theory"],
+    "accept": [
+      "The Big Bang Theory"
+    ],
     "note": "Serija je trajala 12 sezona i imala 279 epizoda.",
     "source": "Wikipedia (en): The Big Bang Theory",
-    "tags": ["serije", "humor"],
+    "tags": [
+      "serije",
+      "humor"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0098",
@@ -62,12 +81,18 @@
     "difficulty": 1,
     "question": "Kako se zove dječja serija s Muppetima Jima Hensona, prvi put prikazana 1969.?",
     "answer": "Ulica Sezam",
-    "accept": ["Sesame Street"],
+    "accept": [
+      "Sesame Street"
+    ],
     "note": "Premijerno je prikazana 10. studenoga 1969.",
     "source": "Wikipedia (en): Sesame Street",
-    "tags": ["serije", "djeca"],
+    "tags": [
+      "serije",
+      "djeca"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0099",
@@ -79,7 +104,10 @@
     "accept": [],
     "note": "Shreku glas posuđuje Mike Myers, a Eddie Murphy glumi Magarca.",
     "source": "Wikipedia (en): Shrek",
-    "tags": ["animirani film", "glasovi"],
+    "tags": [
+      "animirani film",
+      "glasovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -93,7 +121,10 @@
     "accept": [],
     "note": "Snimljen je crno-bijelo, s malim budžetom i ekipom njegove televizijske serije.",
     "source": "Wikipedia (en): Psycho (1960 film)",
-    "tags": ["klasici", "triler"],
+    "tags": [
+      "klasici",
+      "triler"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -107,7 +138,10 @@
     "accept": [],
     "note": "Izašao je 1962., a Bonda je glumio Sean Connery.",
     "source": "Wikipedia (en): Dr. No (film)",
-    "tags": ["James Bond", "klasici"],
+    "tags": [
+      "James Bond",
+      "klasici"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,10 +152,15 @@
     "difficulty": 2,
     "question": "Koji je glumac prvi put utjelovio Jamesa Bonda u filmu „Casino Royale” iz 2006.?",
     "answer": "Daniel Craig",
-    "accept": ["Craig"],
+    "accept": [
+      "Craig"
+    ],
     "note": "Film je režirao Martin Campbell.",
     "source": "Wikipedia (en): Casino Royale (2006 film)",
-    "tags": ["James Bond", "glumci"],
+    "tags": [
+      "James Bond",
+      "glumci"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -135,7 +174,10 @@
     "accept": [],
     "note": "Roman je objavljen 1986.",
     "source": "Wikipedia (en): It (character)",
-    "tags": ["horor", "likovi"],
+    "tags": [
+      "horor",
+      "likovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +188,15 @@
     "difficulty": 2,
     "question": "Koji je redatelj 2010. snimio film „Početak”, s Leonardom DiCapriom?",
     "answer": "Christopher Nolan",
-    "accept": ["Nolan"],
+    "accept": [
+      "Nolan"
+    ],
     "note": "Producirao ga je sa suprugom Emmom Thomas.",
     "source": "Wikipedia (en): Inception",
-    "tags": ["redatelji", "znanstvena fantastika"],
+    "tags": [
+      "redatelji",
+      "znanstvena fantastika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +207,15 @@
     "difficulty": 2,
     "question": "Kako se zove međunarodni festival dokumentarnog filma koji se od 2005. održava u Zagrebu?",
     "answer": "ZagrebDox",
-    "accept": ["Zagreb Dox"],
+    "accept": [
+      "Zagreb Dox"
+    ],
     "note": "Prikazuje kreativne dokumentarce iz cijelog svijeta.",
     "source": "Wikipedia (en): ZagrebDox",
-    "tags": ["festivali", "Hrvatska"],
+    "tags": [
+      "festivali",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -177,7 +229,10 @@
     "accept": [],
     "note": "Prava rečenica glasi „Ne, ja sam tvoj otac”; glumcu je na snimanju dan lažni tekst „Obi-Wan je ubio tvog oca”.",
     "source": "Wikipedia (en): Darth Vader",
-    "tags": ["Ratovi zvijezda", "citati"],
+    "tags": [
+      "Ratovi zvijezda",
+      "citati"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -191,7 +246,10 @@
     "accept": [],
     "note": "Prizori u Kansasu snimljeni su crno-bijelo i obojeni sepija tonom.",
     "source": "Wikipedia (en): The Wizard of Oz (1939 film)",
-    "tags": ["klasici", "mjuzikli"],
+    "tags": [
+      "klasici",
+      "mjuzikli"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -205,7 +263,10 @@
     "accept": [],
     "note": "Prva je epizoda emitirana 17. prosinca 1989.",
     "source": "Wikipedia (en): The Simpsons",
-    "tags": ["serije", "animacija"],
+    "tags": [
+      "serije",
+      "animacija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +280,10 @@
     "accept": [],
     "note": "Film je izašao 1959. i bio je velik uspjeh kod kritike i publike.",
     "source": "Wikipedia (en): Marilyn Monroe",
-    "tags": ["glumci", "nagrade"],
+    "tags": [
+      "glumci",
+      "nagrade"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -233,7 +297,10 @@
     "accept": [],
     "note": "Glazbu je skladao, orkestrirao, dirigirao i producirao Howard Shore.",
     "source": "Wikipedia (en): The Lord of the Rings (film series)",
-    "tags": ["filmska glazba", "fantastika"],
+    "tags": [
+      "filmska glazba",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +311,15 @@
     "difficulty": 2,
     "question": "Koje je godine izašao prvi film „Ratovi zvijezda”?",
     "answer": "1977.",
-    "accept": ["1977"],
+    "accept": [
+      "1977"
+    ],
     "note": "Napisao ga je i režirao George Lucas.",
     "source": "Wikipedia (en): Star Wars (film)",
-    "tags": ["Ratovi zvijezda", "godine"],
+    "tags": [
+      "Ratovi zvijezda",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -261,7 +333,10 @@
     "accept": [],
     "note": "Okupljanje glumaca prikazano je kao poseban, nescenarizirani specijal.",
     "source": "Wikipedia (en): Friends",
-    "tags": ["serije", "brojevi"],
+    "tags": [
+      "serije",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +347,15 @@
     "difficulty": 2,
     "question": "Koje je godine održana prva dodjela Oscara?",
     "answer": "1929.",
-    "accept": ["1929"],
+    "accept": [
+      "1929"
+    ],
     "note": "Održana je 16. svibnja 1929. na privatnoj večeri u hotelu Hollywood Roosevelt, a ulaznica je stajala 5 dolara.",
     "source": "Wikipedia (en): 1st Academy Awards",
-    "tags": ["Oscari", "godine"],
+    "tags": [
+      "Oscari",
+      "godine"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +366,15 @@
     "difficulty": 3,
     "question": "Koji je redatelj snimio „Kuda idu divlje svinje”, prvu hrvatsku igranu seriju?",
     "answer": "Ivan Hetrich",
-    "accept": ["Hetrich"],
+    "accept": [
+      "Hetrich"
+    ],
     "note": "Scenarij je napisao Ivo Štivičić, a serija je snimljena 1971.",
     "source": "Wikipedia (hr): Kuda idu divlje svinje",
-    "tags": ["serije", "Hrvatska"],
+    "tags": [
+      "serije",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -303,7 +388,10 @@
     "accept": [],
     "note": "Bio je Saruman u „Gospodaru prstenova” i grof Dooku u „Ratovima zvijezda”.",
     "source": "Wikipedia (en): Christopher Lee",
-    "tags": ["glumci", "fantastika"],
+    "tags": [
+      "glumci",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -317,7 +405,10 @@
     "accept": [],
     "note": "Snimljena je isključivo za televiziju, a premijerno je prikazana od 28. travnja.",
     "source": "Wikipedia (hr): Kuda idu divlje svinje",
-    "tags": ["serije", "Hrvatska"],
+    "tags": [
+      "serije",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +419,16 @@
     "difficulty": 3,
     "question": "Koliko su metara visoka slova natpisa Hollywood, postavljenog 1978.?",
     "answer": "13,7 m",
-    "accept": ["13,7", "14 m"],
+    "accept": [
+      "13,7",
+      "14 m"
+    ],
     "note": "Izvorni natpis „HOLLYWOODLAND” iz 1923. imao je slova visoka 15,2 m.",
     "source": "Wikipedia (en): Hollywood Sign",
-    "tags": ["znamenitosti", "brojevi"],
+    "tags": [
+      "znamenitosti",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +439,16 @@
     "difficulty": 3,
     "question": "Koliko minuta traje produžena inačica cijele filmske trilogije „Gospodar prstenova”?",
     "answer": "686 minuta",
-    "accept": ["686", "11 sati i 26 minuta"],
+    "accept": [
+      "686",
+      "11 sati i 26 minuta"
+    ],
     "note": "Montirana je od 1828 km snimljene filmske vrpce.",
     "source": "Wikipedia (en): The Lord of the Rings (film series)",
-    "tags": ["fantastika", "brojevi"],
+    "tags": [
+      "fantastika",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -359,7 +462,10 @@
     "accept": [],
     "note": "Počeo je to raditi tijekom snimanja filma „Stanar”.",
     "source": "Wikipedia (en): List of Alfred Hitchcock cameo appearances",
-    "tags": ["redatelji", "brojevi"],
+    "tags": [
+      "redatelji",
+      "brojevi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

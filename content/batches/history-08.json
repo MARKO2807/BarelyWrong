@@ -6,12 +6,19 @@
     "difficulty": 1,
     "question": "Koji je indijski pravnik nenasilnim otporom predvodio borbu za neovisnost Indije od Britanije?",
     "answer": "Mahatma Gandhi",
-    "accept": ["Gandhi", "Mohandas Gandhi"],
+    "accept": [
+      "Gandhi",
+      "Mohandas Gandhi"
+    ],
     "note": "Nenasilni otpor prvi je put primijenio u Južnoj Africi, gdje je živio 21 godinu.",
     "source": "Wikipedia (en): Mahatma Gandhi",
-    "tags": ["Indija", "državnici"],
+    "tags": [
+      "Indija",
+      "državnici"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0184",
@@ -20,12 +27,19 @@
     "difficulty": 1,
     "question": "Koji je borac za građanska prava 1963. u Washingtonu održao govor „I Have a Dream”?",
     "answer": "Martin Luther King Jr.",
-    "accept": ["Martin Luther King", "King"],
+    "accept": [
+      "Martin Luther King",
+      "King"
+    ],
     "note": "Govor je održan na Maršu na Washington za posao i slobodu.",
     "source": "Wikipedia (en): I Have a Dream",
-    "tags": ["SAD", "građanska prava"],
+    "tags": [
+      "SAD",
+      "građanska prava"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0185",
@@ -34,10 +48,17 @@
     "difficulty": 1,
     "question": "Koji je argentinski marksistički revolucionar, poznat po nadimku „Che”, bio jedan od vođa Kubanske revolucije?",
     "answer": "Ernesto Guevara",
-    "accept": ["Che Guevara", "Che", "Guevara"],
+    "accept": [
+      "Che Guevara",
+      "Che",
+      "Guevara"
+    ],
     "note": "Živio je od 1928. do 1967.; njegova fotografija „Guerrillero Heroico” Alberta Korde postala je jedna od najpoznatijih na svijetu.",
     "source": "Wikipedia (en): Che Guevara",
-    "tags": ["Kuba", "revolucije"],
+    "tags": [
+      "Kuba",
+      "revolucije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +69,15 @@
     "difficulty": 1,
     "question": "Koji je rimski car za veliki požar Rima 64. godine okrivio kršćane?",
     "answer": "Neron",
-    "accept": ["Nero"],
+    "accept": [
+      "Nero"
+    ],
     "note": "Požar je uništio gotovo tri četvrtine grada, a uslijedio je prvi progon kršćana u Carstvu.",
     "source": "Wikipedia (en): Great Fire of Rome",
-    "tags": ["Rim", "vladari"],
+    "tags": [
+      "Rim",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +91,10 @@
     "accept": [],
     "note": "Kraticu za Geheime Staatspolizei skovao je jedan poštanski službenik za žig.",
     "source": "Wikipedia (en): Gestapo",
-    "tags": ["Drugi svjetski rat", "Njemačka"],
+    "tags": [
+      "Drugi svjetski rat",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +105,16 @@
     "difficulty": 2,
     "question": "Koji je kamen s istim tekstom na grčkom i egipatskom omogućio Champollionu da dešifrira hijeroglife?",
     "answer": "Kamen iz Rosette",
-    "accept": ["Rosetta", "kamen iz Rosette"],
+    "accept": [
+      "Rosetta",
+      "kamen iz Rosette"
+    ],
     "note": "Čuva se u Britanskom muzeju, koji je napustio samo jednom u miru, na mjesec dana 1972.",
     "source": "Wikipedia (en): Rosetta Stone",
-    "tags": ["Egipat", "arheologija"],
+    "tags": [
+      "Egipat",
+      "arheologija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +125,15 @@
     "difficulty": 2,
     "question": "Koji je narod osnovao Kartagu, prema legendi pod vodstvom kraljice Didone?",
     "answer": "Feničani",
-    "accept": ["Fenićani"],
+    "accept": [
+      "Fenićani"
+    ],
     "note": "Grad je bio na području današnjeg Tunisa.",
     "source": "Wikipedia (en): Carthage",
-    "tags": ["antika", "Afrika"],
+    "tags": [
+      "antika",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +144,15 @@
     "difficulty": 2,
     "question": "U kojem je kazalištu u Washingtonu 1865. ubijen Abraham Lincoln?",
     "answer": "Fordovo kazalište",
-    "accept": ["Ford's Theatre"],
+    "accept": [
+      "Ford's Theatre"
+    ],
     "note": "Ubio ga je glumac John Wilkes Booth, pet dana nakon predaje generala Leeja.",
     "source": "Wikipedia (en): Ford's Theatre",
-    "tags": ["SAD", "atentati"],
+    "tags": [
+      "SAD",
+      "atentati"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +163,15 @@
     "difficulty": 2,
     "question": "Kako se zvala atomska bomba bačena na Nagasaki 9. kolovoza 1945.?",
     "answer": "Fat Man",
-    "accept": ["Debeli"],
+    "accept": [
+      "Debeli"
+    ],
     "note": "To je najsnažnija nuklearna bomba ikad upotrijebljena u ratu.",
     "source": "Wikipedia (en): Fat Man",
-    "tags": ["Drugi svjetski rat", "Japan"],
+    "tags": [
+      "Drugi svjetski rat",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +182,15 @@
     "difficulty": 2,
     "question": "Kako se zvao američki program obnove Europe nakon Drugog svjetskog rata, nazvan po državnom tajniku?",
     "answer": "Marshallov plan",
-    "accept": ["Marshall"],
+    "accept": [
+      "Marshall"
+    ],
     "note": "George Marshall prije toga bio je general.",
     "source": "Wikipedia (en): Marshall Plan",
-    "tags": ["hladni rat", "Europa"],
+    "tags": [
+      "hladni rat",
+      "Europa"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +201,16 @@
     "difficulty": 2,
     "question": "Kako se zove dokument o pravima koji je 1789. donijela francuska Ustavotvorna skupština?",
     "answer": "Deklaracija o pravima čovjeka i građanina",
-    "accept": ["Deklaracija prava čovjeka i građanina", "Deklaracija o pravima čovjeka"],
+    "accept": [
+      "Deklaracija prava čovjeka i građanina",
+      "Deklaracija o pravima čovjeka"
+    ],
     "note": "Jedan je od temeljnih dokumenata Francuske revolucije.",
     "source": "Wikipedia (en): Declaration of the Rights of Man and of the Citizen",
-    "tags": ["Francuska", "revolucije"],
+    "tags": [
+      "Francuska",
+      "revolucije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +221,15 @@
     "difficulty": 2,
     "question": "Koja je sovjetska kozmonautkinja 1963. postala prva žena u svemiru?",
     "answer": "Valentina Tereškova",
-    "accept": ["Tereškova"],
+    "accept": [
+      "Tereškova"
+    ],
     "note": "Imala je samo 26 godina i letjela je sama, u letjelici Vostok 6.",
     "source": "Wikipedia (en): Valentina Tereshkova",
-    "tags": ["svemir", "Sovjetski Savez"],
+    "tags": [
+      "svemir",
+      "Sovjetski Savez"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +243,10 @@
     "accept": [],
     "note": "Opsada je trajala od kolovoza do studenoga 1991.",
     "source": "Wikipedia (en): Battle of Vukovar",
-    "tags": ["Hrvatska", "Domovinski rat"],
+    "tags": [
+      "Hrvatska",
+      "Domovinski rat"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +260,10 @@
     "accept": [],
     "note": "Prve zidine potječu iz 7. stoljeća pr. Kr.; povezane su za dinastije Qin, a proširivale su ih i kasnije dinastije.",
     "source": "Wikipedia (en): Great Wall of China",
-    "tags": ["Kina", "zablude"],
+    "tags": [
+      "Kina",
+      "zablude"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +274,16 @@
     "difficulty": 2,
     "question": "Koji je britanski istraživač 1770. s brodom Endeavour prvi od Europljana stigao do istočne obale Australije?",
     "answer": "James Cook",
-    "accept": ["Cook", "kapetan Cook"],
+    "accept": [
+      "Cook",
+      "kapetan Cook"
+    ],
     "note": "Prvo kopno koje su ugledali bio je rt Point Hicks.",
     "source": "Wikipedia (en): James Cook",
-    "tags": ["istraživanja", "Australija"],
+    "tags": [
+      "istraživanja",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +294,16 @@
     "difficulty": 3,
     "question": "Koja je država proglašena 29. listopada 1918., kad se Austro-Ugarska raspadala?",
     "answer": "Država Slovenaca, Hrvata i Srba",
-    "accept": ["Država SHS", "SHS"],
+    "accept": [
+      "Država SHS",
+      "SHS"
+    ],
     "note": "Prvi joj je predsjednik bio Slovenac Anton Korošec.",
     "source": "Wikipedia (en): State of Slovenes, Croats and Serbs",
-    "tags": ["Hrvatska", "Prvi svjetski rat"],
+    "tags": [
+      "Hrvatska",
+      "Prvi svjetski rat"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +314,15 @@
     "difficulty": 3,
     "question": "Kod kojeg su se sela blizu Moskve 7. rujna 1812. sukobile francuska Velika armija i ruska vojska?",
     "answer": "Borodino",
-    "accept": ["bitka kod Borodina"],
+    "accept": [
+      "bitka kod Borodina"
+    ],
     "note": "Bitka se zove i bitkom na Moskvi.",
     "source": "Wikipedia (en): Battle of Borodino",
-    "tags": ["Rusija", "bitke"],
+    "tags": [
+      "Rusija",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +333,15 @@
     "difficulty": 3,
     "question": "Koji je vladar Malijskog Carstva postao slavan diljem sjeverne Afrike hodočašćem u Meku 1324.?",
     "answer": "Mansa Musa",
-    "accept": ["Musa"],
+    "accept": [
+      "Musa"
+    ],
     "note": "Bio je deveti mansa, a carstvo je pod njim doseglo najveći opseg.",
     "source": "Wikipedia (en): Mansa Musa",
-    "tags": ["Afrika", "vladari"],
+    "tags": [
+      "Afrika",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +352,15 @@
     "difficulty": 3,
     "question": "Koji je babilonski kralj oko 1753. pr. Kr. dao zapisati jedan od najstarijih sačuvanih zakonika?",
     "answer": "Hamurabi",
-    "accept": ["Hammurabi"],
+    "accept": [
+      "Hammurabi"
+    ],
     "note": "Zakonik je uklesan na stelu od bazalta visoku 2,25 m.",
     "source": "Wikipedia (en): Code of Hammurabi",
-    "tags": ["Mezopotamija", "zakoni"],
+    "tags": [
+      "Mezopotamija",
+      "zakoni"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +371,16 @@
     "difficulty": 3,
     "question": "Koji je perzijski kralj 480. pr. Kr. predvodio drugu perzijsku invaziju na Grčku?",
     "answer": "Kserkso",
-    "accept": ["Kserks", "Xerxes"],
+    "accept": [
+      "Kserks",
+      "Xerxes"
+    ],
     "note": "Vladao je Ahemenidskim Perzijskim Carstvom.",
     "source": "Wikipedia (en): Battle of Thermopylae",
-    "tags": ["antika", "vladari"],
+    "tags": [
+      "antika",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

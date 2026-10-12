@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Koja je pjevačica, rođena 1988. na Barbadosu, 2021. proglašena nacionalnom junakinjom te države?",
     "answer": "Rihanna",
-    "accept": ["Robyn Rihanna Fenty"],
+    "accept": [
+      "Robyn Rihanna Fenty"
+    ],
     "note": "Osnovala je i kozmetičku marku Fenty Beauty.",
     "source": "Wikipedia (en): Rihanna",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,12 +25,18 @@
     "difficulty": 1,
     "question": "Koji je engleski kantautor 2017. objavio album „÷” i pjesmu „Shape of You”?",
     "answer": "Ed Sheeran",
-    "accept": ["Sheeran"],
+    "accept": [
+      "Sheeran"
+    ],
     "note": "Pjesme je počeo pisati s otprilike jedanaest godina.",
     "source": "Wikipedia (en): Ed Sheeran",
-    "tags": ["pop", "pjevači"],
+    "tags": [
+      "pop",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0222",
@@ -34,10 +45,15 @@
     "difficulty": 1,
     "question": "Koji je kanadski kantautor i pjesnik 1984. objavio svoju najpoznatiju pjesmu, „Hallelujah”?",
     "answer": "Leonard Cohen",
-    "accept": ["Cohen"],
+    "accept": [
+      "Cohen"
+    ],
     "note": "Pjesma je izašla na njegovu sedmom albumu, „Various Positions”.",
     "source": "Wikipedia (en): Leonard Cohen",
-    "tags": ["kantautori", "pjevači"],
+    "tags": [
+      "kantautori",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +64,15 @@
     "difficulty": 1,
     "question": "Koje rusko žičano glazbalo ima trokutasto drveno tijelo i tri žice?",
     "answer": "Balalajka",
-    "accept": ["balalaika"],
+    "accept": [
+      "balalaika"
+    ],
     "note": "Dvije žice obično su ugođene na isti ton.",
     "source": "Wikipedia (en): Balalaika",
-    "tags": ["glazbala", "Rusija"],
+    "tags": [
+      "glazbala",
+      "Rusija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +86,10 @@
     "accept": [],
     "note": "Može se svirati sjedeći ili stojeći.",
     "source": "Wikipedia (en): Harp",
-    "tags": ["glazbala", "žičana glazbala"],
+    "tags": [
+      "glazbala",
+      "žičana glazbala"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -79,7 +103,10 @@
     "accept": [],
     "note": "Uz Marka svirao je i njegov brat David Knopfler.",
     "source": "Wikipedia (en): Dire Straits",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +120,10 @@
     "accept": [],
     "note": "Osnivači su bili i gitarist Tony Iommi, bubnjar Bill Ward i basist Geezer Butler.",
     "source": "Wikipedia (en): Black Sabbath",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +137,10 @@
     "accept": [],
     "note": "Prvo razdoblje njihove karijere trajalo je samo dvije i pol godine.",
     "source": "Wikipedia (en): Sex Pistols",
-    "tags": ["punk", "sastavi"],
+    "tags": [
+      "punk",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +151,15 @@
     "difficulty": 2,
     "question": "Koji je engleski sastav, osnovan 1977., činio trio Sting, Andy Summers i Stewart Copeland?",
     "answer": "The Police",
-    "accept": ["Police"],
+    "accept": [
+      "Police"
+    ],
     "note": "Svjetsku slavu imali su od kasnih 1970-ih do sredine 1980-ih.",
     "source": "Wikipedia (en): The Police",
-    "tags": ["rock", "sastavi"],
+    "tags": [
+      "rock",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +170,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski violinist bio najslavniji violinski virtuoz svog doba i autor 24 kaprica za violinu solo?",
     "answer": "Niccolò Paganini",
-    "accept": ["Paganini"],
+    "accept": [
+      "Paganini"
+    ],
     "note": "Bio je i gitarist.",
     "source": "Wikipedia (en): Niccolò Paganini",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +189,16 @@
     "difficulty": 2,
     "question": "Koji je ruski skladatelj autor klavirske suite „Slike s izložbe” i opere „Boris Godunov”?",
     "answer": "Modest Musorgski",
-    "accept": ["Musorgski", "Mussorgsky"],
+    "accept": [
+      "Musorgski",
+      "Mussorgsky"
+    ],
     "note": "Napisao je i simfonijsku pjesmu „Noć na Ćelavoj gori”.",
     "source": "Wikipedia (en): Modest Mussorgsky",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +209,15 @@
     "difficulty": 2,
     "question": "Koji je talijanski skladatelj, jedan od najplodnijih autora filmske glazbe, osvojio dva Oscara?",
     "answer": "Ennio Morricone",
-    "accept": ["Morricone"],
+    "accept": [
+      "Morricone"
+    ],
     "note": "Dobio je i počasnog Zlatnog lava.",
     "source": "Wikipedia (en): Ennio Morricone",
-    "tags": ["filmska glazba", "skladatelji"],
+    "tags": [
+      "filmska glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +228,16 @@
     "difficulty": 2,
     "question": "Pod kojim se latiniziranim imenom poznaju gudačka glazbala graditelja Antonija Stradivarija?",
     "answer": "Stradivarius",
-    "accept": ["Strad", "Stradivari"],
+    "accept": [
+      "Strad",
+      "Stradivari"
+    ],
     "note": "Izrađivao je violine, violončela, gitare, viole i harfe.",
     "source": "Wikipedia (en): Antonio Stradivari",
-    "tags": ["glazbala", "Italija"],
+    "tags": [
+      "glazbala",
+      "Italija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +248,15 @@
     "difficulty": 2,
     "question": "Koje su puhaće glazbalo razvili australski Aboridžini, a svira se kružnim disanjem?",
     "answer": "Didžeridu",
-    "accept": ["Didgeridoo"],
+    "accept": [
+      "Didgeridoo"
+    ],
     "note": "Razvijen je na sjeveru Australije prije najmanje 1000 godina.",
     "source": "Wikipedia (en): Didgeridoo",
-    "tags": ["glazbala", "Australija"],
+    "tags": [
+      "glazbala",
+      "Australija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -205,7 +270,10 @@
     "accept": [],
     "note": "Ime sastava znači „elektrana”.",
     "source": "Wikipedia (en): Kraftwerk",
-    "tags": ["elektronička glazba", "sastavi"],
+    "tags": [
+      "elektronička glazba",
+      "sastavi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +284,16 @@
     "difficulty": 3,
     "question": "Koja je njemačka benediktinska opatica iz 12. stoljeća, zvana „Sibila s Rajne”, jedna od najpoznatijih skladateljica sakralne monodije?",
     "answer": "Hildegarda iz Bingena",
-    "accept": ["Hildegard von Bingen", "Hildegarda"],
+    "accept": [
+      "Hildegard von Bingen",
+      "Hildegarda"
+    ],
     "note": "Bila je i spisateljica, filozofkinja i mističarka.",
     "source": "Wikipedia (en): Hildegard of Bingen",
-    "tags": ["srednji vijek", "skladatelji"],
+    "tags": [
+      "srednji vijek",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +304,15 @@
     "difficulty": 3,
     "question": "Koji je talijanski skladatelj iz Cremone, pionir opere, prijelazna figura između renesanse i baroka?",
     "answer": "Claudio Monteverdi",
-    "accept": ["Monteverdi"],
+    "accept": [
+      "Monteverdi"
+    ],
     "note": "Pisao je i svjetovnu i sakralnu glazbu.",
     "source": "Wikipedia (en): Claudio Monteverdi",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +323,16 @@
     "difficulty": 3,
     "question": "Koji je mađarski skladatelj i pijanist bio i etnomuzikolog?",
     "answer": "Béla Bartók",
-    "accept": ["Bartók", "Bartok"],
+    "accept": [
+      "Bartók",
+      "Bartok"
+    ],
     "note": "Smatra se jednim od najvažnijih skladatelja 20. stoljeća.",
     "source": "Wikipedia (en): Béla Bartók",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -261,7 +346,10 @@
     "accept": [],
     "note": "Osim u narodnoj glazbi, svira se i u suvremenoj glazbi tog kraja.",
     "source": "Wikipedia (en): Lijerica",
-    "tags": ["glazbala", "Hrvatska"],
+    "tags": [
+      "glazbala",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +360,15 @@
     "difficulty": 3,
     "question": "Koji je dubrovački sastav na Euroviziji 1968. s pjesmom „Jedan dan” zauzeo sedmo mjesto?",
     "answer": "Dubrovački trubaduri",
-    "accept": ["Trubaduri"],
+    "accept": [
+      "Trubaduri"
+    ],
     "note": "Pjevali su Luciano „Lući” Capurso i Hamo Hajdarhodžić.",
     "source": "Wikipedia (en): Dubrovački trubaduri",
-    "tags": ["Eurovizija", "Hrvatska"],
+    "tags": [
+      "Eurovizija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

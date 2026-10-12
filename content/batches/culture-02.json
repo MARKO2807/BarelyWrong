@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Koja je grčka božica mudrosti, rata i obrta?",
     "answer": "Atena",
-    "accept": ["Atena Palada", "Athena"],
+    "accept": [
+      "Atena Palada",
+      "Athena"
+    ],
     "note": "Njezini su glavni simboli sova i maslina; ime je najvjerojatnije dobila po gradu Ateni, čija je bila zaštitnica.",
     "source": "Wikipedia (en): Athena",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -20,10 +26,16 @@
     "difficulty": 1,
     "question": "Koji je slikar 1931. naslikao „Postojanost pamćenja”, sliku s rastopljenim satovima?",
     "answer": "Salvador Dalí",
-    "accept": ["Dalí", "Dali"],
+    "accept": [
+      "Dalí",
+      "Dali"
+    ],
     "note": "Rođen je u Figueresu u Kataloniji i bio je jedan od vodećih nadrealista.",
     "source": "Wikipedia (en): The Persistence of Memory",
-    "tags": ["slikarstvo", "nadrealizam"],
+    "tags": [
+      "slikarstvo",
+      "nadrealizam"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -34,10 +46,15 @@
     "difficulty": 1,
     "question": "Kako se zove Michelangelov mramorni kip biblijskog junaka, izložen u Firenci?",
     "answer": "David",
-    "accept": ["Michelangelov David"],
+    "accept": [
+      "Michelangelov David"
+    ],
     "note": "Visok je 5,17 m, a 1873. premješten je s Piazze della Signoria u Galleriju dell'Accademia.",
     "source": "Wikipedia (en): David (Michelangelo)",
-    "tags": ["kiparstvo", "renesansa"],
+    "tags": [
+      "kiparstvo",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -51,7 +68,10 @@
     "accept": [],
     "note": "Prate ga gavrani Huginn i Muninn te vukovi Geri i Freki.",
     "source": "Wikipedia (en): Odin",
-    "tags": ["mitologija", "nordijski bogovi"],
+    "tags": [
+      "mitologija",
+      "nordijski bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -62,10 +82,15 @@
     "difficulty": 1,
     "question": "Koji je američki umjetnik naslikao seriju slika limenki Campbellove juhe?",
     "answer": "Andy Warhol",
-    "accept": ["Warhol"],
+    "accept": [
+      "Warhol"
+    ],
     "note": "Serija ima 32 slike, a nastala je 1961. i 1962.",
     "source": "Wikipedia (en): Campbell's Soup Cans",
-    "tags": ["slikarstvo", "pop-art"],
+    "tags": [
+      "slikarstvo",
+      "pop-art"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -76,12 +101,18 @@
     "difficulty": 1,
     "question": "Koja je grčka božica ljubavi i ljepote?",
     "answer": "Afrodita",
-    "accept": ["Aphrodite"],
+    "accept": [
+      "Aphrodite"
+    ],
     "note": "U Ateni joj je u čast svake godine održavan festival Afrodizija.",
     "source": "Wikipedia (en): Aphrodite",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0040",
@@ -90,10 +121,16 @@
     "difficulty": 1,
     "question": "Kako se zove golemi kameni kip s tijelom lava i ljudskom glavom u Gizi?",
     "answer": "Velika sfinga",
-    "accept": ["Sfinga", "Sfinga u Gizi"],
+    "accept": [
+      "Sfinga",
+      "Sfinga u Gizi"
+    ],
     "note": "Nastala je u doba Starog kraljevstva, za vladavine Keopsa ili Kefrena.",
     "source": "Wikipedia (en): Great Sphinx of Giza",
-    "tags": ["Egipat", "kiparstvo"],
+    "tags": [
+      "Egipat",
+      "kiparstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -104,10 +141,15 @@
     "difficulty": 1,
     "question": "Kako se zove čudovište s bikovom glavom zatvoreno u Labirintu na Kreti?",
     "answer": "Minotaur",
-    "accept": ["Minotaurus"],
+    "accept": [
+      "Minotaurus"
+    ],
     "note": "Labirint je, prema mitu, za kralja Minosa projektirao Dedal.",
     "source": "Wikipedia (en): Minotaur",
-    "tags": ["mitologija", "čudovišta"],
+    "tags": [
+      "mitologija",
+      "čudovišta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -118,12 +160,18 @@
     "difficulty": 1,
     "question": "U kojem se pariškom muzeju nalaze Mona Lisa i Venera Milska?",
     "answer": "Louvre",
-    "accept": ["Muzej Louvre"],
+    "accept": [
+      "Muzej Louvre"
+    ],
     "note": "Muzej je smješten u palači čiji je prvi dio izgrađen krajem 12. i u 13. stoljeću.",
     "source": "Wikipedia (en): Louvre",
-    "tags": ["muzeji", "Francuska"],
+    "tags": [
+      "muzeji",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-06",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "culture-0043",
@@ -132,10 +180,15 @@
     "difficulty": 2,
     "question": "Koji je nizozemski slikar 1642. naslikao „Noćnu stražu”?",
     "answer": "Rembrandt",
-    "accept": ["Rembrandt van Rijn"],
+    "accept": [
+      "Rembrandt van Rijn"
+    ],
     "note": "Slika je izložena u amsterdamskom Rijksmuseumu kao njegovo najpoznatije djelo.",
     "source": "Wikipedia (en): The Night Watch",
-    "tags": ["slikarstvo", "barok"],
+    "tags": [
+      "slikarstvo",
+      "barok"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -146,10 +199,15 @@
     "difficulty": 2,
     "question": "Koji je austrijski slikar u svom „zlatnom razdoblju” naslikao „Poljubac”?",
     "answer": "Gustav Klimt",
-    "accept": ["Klimt"],
+    "accept": [
+      "Klimt"
+    ],
     "note": "Na slici je, uz uljane boje, korišten listić zlata, srebra i platine.",
     "source": "Wikipedia (en): The Kiss (Klimt)",
-    "tags": ["slikarstvo", "secesija"],
+    "tags": [
+      "slikarstvo",
+      "secesija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -160,10 +218,15 @@
     "difficulty": 2,
     "question": "Koji je arhitekt projektirao Guggenheimov muzej u Bilbau?",
     "answer": "Frank Gehry",
-    "accept": ["Gehry"],
+    "accept": [
+      "Gehry"
+    ],
     "note": "Muzej je izgrađen uz rijeku Nervión i jedan je od najvećih u Španjolskoj.",
     "source": "Wikipedia (en): Guggenheim Museum Bilbao",
-    "tags": ["arhitektura", "Španjolska"],
+    "tags": [
+      "arhitektura",
+      "Španjolska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -174,10 +237,16 @@
     "difficulty": 2,
     "question": "Kako se zove troglavi pas koji čuva ulaz u podzemni svijet?",
     "answer": "Kerber",
-    "accept": ["Cerber", "Kerberos"],
+    "accept": [
+      "Cerber",
+      "Kerberos"
+    ],
     "note": "Uhvatiti ga je bio posljednji od Heraklovih dvanaest zadataka.",
     "source": "Wikipedia (en): Cerberus",
-    "tags": ["mitologija", "čudovišta"],
+    "tags": [
+      "mitologija",
+      "čudovišta"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -188,10 +257,15 @@
     "difficulty": 2,
     "question": "Koji je slikar rođen u Cavtatu naslikao zastor za zgradu HNK-a u Zagrebu 1895.?",
     "answer": "Vlaho Bukovac",
-    "accept": ["Bukovac"],
+    "accept": [
+      "Bukovac"
+    ],
     "note": "Rođen je kao Biagio Faggioni.",
     "source": "Wikipedia (en): Vlaho Bukovac",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -202,10 +276,17 @@
     "difficulty": 2,
     "question": "Kojem se svecu, zaštitniku Dubrovnika, svake godine 3. veljače održava festa?",
     "answer": "Svetom Vlahu",
-    "accept": ["Sveti Vlaho", "Sv. Vlaho", "Sveti Blaž"],
+    "accept": [
+      "Sveti Vlaho",
+      "Sv. Vlaho",
+      "Sveti Blaž"
+    ],
     "note": "Festa se održava neprekidno od 972., a 2009. upisana je na UNESCO-ov popis nematerijalne baštine.",
     "source": "Wikipedia (en): Festivity of Saint Blaise",
-    "tags": ["tradicija", "Hrvatska"],
+    "tags": [
+      "tradicija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -219,7 +300,10 @@
     "accept": [],
     "note": "UNESCO je 2009. čipkarstvo u Hrvatskoj upisao na popis nematerijalne baštine čovječanstva.",
     "source": "Wikipedia (en): Lacemaking in Croatia",
-    "tags": ["tradicija", "Hrvatska"],
+    "tags": [
+      "tradicija",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -230,10 +314,16 @@
     "difficulty": 2,
     "question": "Koji je grčki bog kovača, vatre i vulkana?",
     "answer": "Hefest",
-    "accept": ["Hefaist", "Hephaestus"],
+    "accept": [
+      "Hefaist",
+      "Hephaestus"
+    ],
     "note": "Za bogove je izradio prijestolja na Olimpu i Hermesovu krilatu kacigu i sandale.",
     "source": "Wikipedia (en): Hephaestus",
-    "tags": ["mitologija", "grčki bogovi"],
+    "tags": [
+      "mitologija",
+      "grčki bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -244,10 +334,16 @@
     "difficulty": 2,
     "question": "Kako se zove čekić nordijskog boga Thora?",
     "answer": "Mjölnir",
-    "accept": ["Mjolnir", "Mjöllnir"],
+    "accept": [
+      "Mjolnir",
+      "Mjöllnir"
+    ],
     "note": "U mitovima je bio i oružje i sredstvo za blagoslov.",
     "source": "Wikipedia (en): Mjölnir",
-    "tags": ["mitologija", "nordijski bogovi"],
+    "tags": [
+      "mitologija",
+      "nordijski bogovi"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -258,10 +354,16 @@
     "difficulty": 2,
     "question": "Kojem je grčkom bogu bio posvećen Kolos s Roda?",
     "answer": "Heliju",
-    "accept": ["Helios", "Helij"],
+    "accept": [
+      "Helios",
+      "Helij"
+    ],
     "note": "Kip je 280. pr. Kr. podigao Hares iz Linda, a ubraja se u sedam svjetskih čuda.",
     "source": "Wikipedia (en): Colossus of Rhodes",
-    "tags": ["antika", "svjetska čuda"],
+    "tags": [
+      "antika",
+      "svjetska čuda"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -272,10 +374,15 @@
     "difficulty": 2,
     "question": "Koji se ljetni festival od 1950. održava na otvorenim pozornicama jednog hrvatskog grada, od 10. srpnja do 25. kolovoza?",
     "answer": "Dubrovačke ljetne igre",
-    "accept": ["Dubrovački ljetni festival"],
+    "accept": [
+      "Dubrovački ljetni festival"
+    ],
     "note": "Predstave se izvode na više od 70 lokacija na otvorenom.",
     "source": "Wikipedia (en): Dubrovnik Summer Festival",
-    "tags": ["festivali", "Hrvatska"],
+    "tags": [
+      "festivali",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -286,10 +393,16 @@
     "difficulty": 2,
     "question": "Koji je bavarski kralj dao sagraditi dvorac Neuschwanstein?",
     "answer": "Ludwig II.",
-    "accept": ["Ludvig II.", "Ludwig II"],
+    "accept": [
+      "Ludvig II.",
+      "Ludwig II"
+    ],
     "note": "Dvorac je zamislio kao utočište, ali i u čast skladatelja Richarda Wagnera.",
     "source": "Wikipedia (en): Neuschwanstein Castle",
-    "tags": ["arhitektura", "Njemačka"],
+    "tags": [
+      "arhitektura",
+      "Njemačka"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -300,10 +413,15 @@
     "difficulty": 2,
     "question": "Kako se zove Leonardov crtež nagog čovjeka upisanog u krug i kvadrat?",
     "answer": "Vitruvijev čovjek",
-    "accept": ["Vitruvijski čovjek"],
+    "accept": [
+      "Vitruvijski čovjek"
+    ],
     "note": "Nadahnut je rimskim arhitektom Vitruvijem, a nastao je oko 1490.",
     "source": "Wikipedia (en): Vitruvian Man",
-    "tags": ["crtež", "renesansa"],
+    "tags": [
+      "crtež",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -314,10 +432,15 @@
     "difficulty": 3,
     "question": "Koji je nizozemski slikar autor triptiha „Vrt zemaljskih užitaka”?",
     "answer": "Hieronymus Bosch",
-    "accept": ["Bosch"],
+    "accept": [
+      "Bosch"
+    ],
     "note": "Nastao je između 1490. i 1510.",
     "source": "Wikipedia (en): The Garden of Earthly Delights",
-    "tags": ["slikarstvo", "renesansa"],
+    "tags": [
+      "slikarstvo",
+      "renesansa"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -328,10 +451,15 @@
     "difficulty": 3,
     "question": "Koji je umjetnik 1917. kao skulpturu izložio pisoar nazvan „Fontana”?",
     "answer": "Marcel Duchamp",
-    "accept": ["Duchamp"],
+    "accept": [
+      "Duchamp"
+    ],
     "note": "Pisoar je potpisan pseudonimom „R. Mutt”.",
     "source": "Wikipedia (en): Fountain (Duchamp)",
-    "tags": ["avangarda", "kiparstvo"],
+    "tags": [
+      "avangarda",
+      "kiparstvo"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -342,10 +470,16 @@
     "difficulty": 3,
     "question": "Koji je danski arhitekt projektirao Operu u Sydneyu?",
     "answer": "Jørn Utzon",
-    "accept": ["Utzon", "Jorn Utzon"],
+    "accept": [
+      "Utzon",
+      "Jorn Utzon"
+    ],
     "note": "Zgradu je 20. listopada 1973. otvorila kraljica Elizabeta II.",
     "source": "Wikipedia (en): Sydney Opera House",
-    "tags": ["arhitektura", "Australija"],
+    "tags": [
+      "arhitektura",
+      "Australija"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -356,10 +490,15 @@
     "difficulty": 3,
     "question": "Za kojeg se meksičkog slikara 1929. udala Frida Kahlo?",
     "answer": "Diego Rivera",
-    "accept": ["Rivera"],
+    "accept": [
+      "Rivera"
+    ],
     "note": "Prvi ga je put vidjela dok je oslikavao mural u dvorani njezine škole.",
     "source": "Wikipedia (en): Frida Kahlo",
-    "tags": ["slikarstvo", "Meksiko"],
+    "tags": [
+      "slikarstvo",
+      "Meksiko"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -370,10 +509,16 @@
     "difficulty": 3,
     "question": "Koja je grčka muza zaštitnica povijesti?",
     "answer": "Klio",
-    "accept": ["Klija", "Clio"],
+    "accept": [
+      "Klija",
+      "Clio"
+    ],
     "note": "Ime joj dolazi od grčkog korijena sa značenjem „pripovijedati”.",
     "source": "Wikipedia (en): Clio",
-    "tags": ["mitologija", "muze"],
+    "tags": [
+      "mitologija",
+      "muze"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -384,10 +529,15 @@
     "difficulty": 3,
     "question": "Koja se gluha hrvatska slikarica smatra najvećom hrvatskom akvarelisticom svog doba?",
     "answer": "Slava Raškaj",
-    "accept": ["Raškaj"],
+    "accept": [
+      "Raškaj"
+    ],
     "note": "Školovala se u Beču i Zagrebu, a mentor joj je bio Bela Čikoš Sesija.",
     "source": "Wikipedia (en): Slava Raškaj",
-    "tags": ["slikarstvo", "Hrvatska"],
+    "tags": [
+      "slikarstvo",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -398,10 +548,16 @@
     "difficulty": 3,
     "question": "Koji je arhitekt nakon potresa 1880. vodio obnovu zagrebačke katedrale u neogotičkom stilu?",
     "answer": "Hermann Bollé",
-    "accept": ["Bollé", "Herman Bolle"],
+    "accept": [
+      "Bollé",
+      "Herman Bolle"
+    ],
     "note": "Oba zvonika katedrale viša su od 108 metara.",
     "source": "Wikipedia (en): Zagreb Cathedral",
-    "tags": ["arhitektura", "Hrvatska"],
+    "tags": [
+      "arhitektura",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   },
@@ -415,7 +571,10 @@
     "accept": [],
     "note": "Izgrađeno je kao nadogradnja nad arsenalom, spremištem za brodove.",
     "source": "Wikipedia (hr): Hvarsko kazalište",
-    "tags": ["kazalište", "Hrvatska"],
+    "tags": [
+      "kazalište",
+      "Hrvatska"
+    ],
     "checkedAt": "2026-10-06",
     "status": "approved"
   }

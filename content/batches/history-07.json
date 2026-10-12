@@ -6,10 +6,15 @@
     "difficulty": 1,
     "question": "Čiji je portret od 1914. na novčanici od 100 američkih dolara, iako nikad nije bio predsjednik?",
     "answer": "Benjamin Franklin",
-    "accept": ["Franklin"],
+    "accept": [
+      "Franklin"
+    ],
     "note": "Zbog njega se te novčanice u žargonu zovu „Benjamins”.",
     "source": "Wikipedia (en): United States one-hundred-dollar bill",
-    "tags": ["SAD", "novac"],
+    "tags": [
+      "SAD",
+      "novac"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +25,15 @@
     "difficulty": 1,
     "question": "Koji je talijanski fašistički vođa došao na vlast nakon Marša na Rim u listopadu 1922.?",
     "answer": "Benito Mussolini",
-    "accept": ["Mussolini"],
+    "accept": [
+      "Mussolini"
+    ],
     "note": "Kralj Viktor Emanuel III. imenovao ga je premijerom 30. listopada, bez oružanog sukoba.",
     "source": "Wikipedia (en): March on Rome",
-    "tags": ["Italija", "fašizam"],
+    "tags": [
+      "Italija",
+      "fašizam"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,12 +44,18 @@
     "difficulty": 1,
     "question": "Koji je borac protiv apartheida 1994. postao prvi crni predsjednik Južnoafričke Republike?",
     "answer": "Nelson Mandela",
-    "accept": ["Mandela"],
+    "accept": [
+      "Mandela"
+    ],
     "note": "Iz zatvora ga je 1990. pustio predsjednik F. W. de Klerk, s kojim je pregovorima okončao apartheid.",
     "source": "Wikipedia (en): Nelson Mandela",
-    "tags": ["Afrika", "državnici"],
+    "tags": [
+      "Afrika",
+      "državnici"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "history-0166",
@@ -48,10 +64,16 @@
     "difficulty": 1,
     "question": "Koji je engleski kralj, jedan od vođa Trećeg križarskog rata, nazvan Lavljeg Srca?",
     "answer": "Rikard I.",
-    "accept": ["Rikard Lavljeg Srca", "Richard I."],
+    "accept": [
+      "Rikard Lavljeg Srca",
+      "Richard I."
+    ],
     "note": "Nadimak je dobio zbog ugleda velikog vojskovođe i ratnika.",
     "source": "Wikipedia (en): Richard I of England",
-    "tags": ["srednji vijek", "vladari"],
+    "tags": [
+      "srednji vijek",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,15 @@
     "difficulty": 1,
     "question": "Koja je bolest kao „Crna smrt” od 1346. do 1353. poharala Europu?",
     "answer": "Kuga",
-    "accept": ["bubonska kuga"],
+    "accept": [
+      "bubonska kuga"
+    ],
     "note": "Bila je jedna od najsmrtonosnijih pandemija u povijesti; usmrtila je do 50 milijuna ljudi.",
     "source": "Wikipedia (en): Black Death",
-    "tags": ["srednji vijek", "bolesti"],
+    "tags": [
+      "srednji vijek",
+      "bolesti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +103,15 @@
     "difficulty": 2,
     "question": "Koji je sovjetski vođa uveo politike glasnosti i perestrojke?",
     "answer": "Mihail Gorbačov",
-    "accept": ["Gorbačov"],
+    "accept": [
+      "Gorbačov"
+    ],
     "note": "Glasnost znači „otvorenost”, a perestrojka „preustroj”.",
     "source": "Wikipedia (en): Mikhail Gorbachev",
-    "tags": ["Sovjetski Savez", "državnici"],
+    "tags": [
+      "Sovjetski Savez",
+      "državnici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -93,7 +125,10 @@
     "accept": [],
     "note": "Zvonimir je ondje stalno boravio od oko 1080., pa se grad zove i „Zvonimirov grad”.",
     "source": "Wikipedia (en): Knin",
-    "tags": ["Hrvatska", "srednji vijek"],
+    "tags": [
+      "Hrvatska",
+      "srednji vijek"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +139,16 @@
     "difficulty": 2,
     "question": "Po kojem je ilirskom plemenu nazvana Dalmacija?",
     "answer": "Delmati",
-    "accept": ["Dalmati", "Delmate"],
+    "accept": [
+      "Dalmati",
+      "Delmate"
+    ],
     "note": "U povijesnim se izvorima prvi put spominju 181. pr. Kr.",
     "source": "Wikipedia (en): Dalmatae",
-    "tags": ["Hrvatska", "antika"],
+    "tags": [
+      "Hrvatska",
+      "antika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +159,16 @@
     "difficulty": 2,
     "question": "Kod kojeg su klanca 480. pr. Kr. kralj Leonida i 300 Spartanaca zaustavljali perzijsku vojsku?",
     "answer": "Termopile",
-    "accept": ["Termopili", "Thermopylae"],
+    "accept": [
+      "Termopili",
+      "Thermopylae"
+    ],
     "note": "Perzijancima je put iza grčkih linija otkrio mještanin Efijalt.",
     "source": "Wikipedia (en): Battle of Thermopylae",
-    "tags": ["antika", "bitke"],
+    "tags": [
+      "antika",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -135,7 +182,10 @@
     "accept": [],
     "note": "Poznat je kao pakt Molotov–Ribbentrop, a imao je i tajni protokol.",
     "source": "Wikipedia (en): Molotov–Ribbentrop Pact",
-    "tags": ["Drugi svjetski rat", "diplomacija"],
+    "tags": [
+      "Drugi svjetski rat",
+      "diplomacija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +196,16 @@
     "difficulty": 2,
     "question": "Koji se britanski kralj 1936. odrekao prijestolja da bi se mogao oženiti Wallis Simpson?",
     "answer": "Eduard VIII.",
-    "accept": ["Edward VIII.", "Edvard VIII."],
+    "accept": [
+      "Edward VIII.",
+      "Edvard VIII."
+    ],
     "note": "Vladao je samo 326 dana, a naslijedio ga je mlađi brat Juraj VI.",
     "source": "Wikipedia (en): Edward VIII",
-    "tags": ["Ujedinjeno Kraljevstvo", "vladari"],
+    "tags": [
+      "Ujedinjeno Kraljevstvo",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +216,16 @@
     "difficulty": 2,
     "question": "Koji je fizičar u Drugom svjetskom ratu vodio laboratorij u Los Alamosu, gdje su razvijene prve atomske bombe?",
     "answer": "J. Robert Oppenheimer",
-    "accept": ["Oppenheimer", "Robert Oppenheimer"],
+    "accept": [
+      "Oppenheimer",
+      "Robert Oppenheimer"
+    ],
     "note": "Cijelim je projektom zapovijedao general Leslie Groves.",
     "source": "Wikipedia (en): Manhattan Project",
-    "tags": ["Drugi svjetski rat", "znanstvenici"],
+    "tags": [
+      "Drugi svjetski rat",
+      "znanstvenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +236,16 @@
     "difficulty": 2,
     "question": "Koji je kineski vođa 1958. pokrenuo „Veliki skok naprijed”?",
     "answer": "Mao Zedong",
-    "accept": ["Mao", "Mao Ce-tung"],
+    "accept": [
+      "Mao",
+      "Mao Ce-tung"
+    ],
     "note": "Kampanja je izazvala jednu od najvećih gladi u povijesti čovječanstva.",
     "source": "Wikipedia (en): Great Leap Forward",
-    "tags": ["Kina", "državnici"],
+    "tags": [
+      "Kina",
+      "državnici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +256,15 @@
     "difficulty": 2,
     "question": "Koje je godine potpisan Erdutski sporazum o mirnoj reintegraciji istočne Slavonije?",
     "answer": "1995.",
-    "accept": ["1995"],
+    "accept": [
+      "1995"
+    ],
     "note": "Potpisan je 12. studenoga.",
     "source": "Wikipedia (en): Erdut Agreement",
-    "tags": ["Hrvatska", "Domovinski rat"],
+    "tags": [
+      "Hrvatska",
+      "Domovinski rat"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +275,16 @@
     "difficulty": 2,
     "question": "Koja je engleska kraljica vladala kad je 1588. Španjolska armada krenula na Englesku?",
     "answer": "Elizabeta I.",
-    "accept": ["Elizabeta Prva", "Elizabeth I."],
+    "accept": [
+      "Elizabeta Prva",
+      "Elizabeth I."
+    ],
     "note": "Armada je isplovila iz Lisabona s ciljem da je svrgne i vrati katolicizam u Englesku.",
     "source": "Wikipedia (en): Spanish Armada",
-    "tags": ["Engleska", "vladari"],
+    "tags": [
+      "Engleska",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +295,16 @@
     "difficulty": 3,
     "question": "Kojim su ugovorom 1494. Portugal i Kastilja podijelili novootkrivene zemlje izvan Europe?",
     "answer": "Ugovor iz Tordesillasa",
-    "accept": ["Tordesillas", "Sporazum iz Tordesillasa"],
+    "accept": [
+      "Tordesillas",
+      "Sporazum iz Tordesillasa"
+    ],
     "note": "Zemlje istočno od dogovorenog meridijana pripale su Portugalu, a zapadno Kastilji.",
     "source": "Wikipedia (en): Treaty of Tordesillas",
-    "tags": ["istraživanja", "diplomacija"],
+    "tags": [
+      "istraživanja",
+      "diplomacija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +315,16 @@
     "difficulty": 3,
     "question": "Kod kojeg su mjesta u sjevernoj Francuskoj Englezi 1415., u Stogodišnjem ratu, neočekivano pobijedili francusku vojsku?",
     "answer": "Azincourt",
-    "accept": ["Agincourt", "bitka kod Azincourta"],
+    "accept": [
+      "Agincourt",
+      "bitka kod Azincourta"
+    ],
     "note": "Bitka je vođena 25. listopada, na blagdan sv. Krispina.",
     "source": "Wikipedia (en): Battle of Agincourt",
-    "tags": ["srednji vijek", "bitke"],
+    "tags": [
+      "srednji vijek",
+      "bitke"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +335,16 @@
     "difficulty": 3,
     "question": "Koji je bio posljednji bizantski car, poginuo pri padu Carigrada 1453.?",
     "answer": "Konstantin XI.",
-    "accept": ["Konstantin XI. Paleolog", "Konstantin Paleolog"],
+    "accept": [
+      "Konstantin XI. Paleolog",
+      "Konstantin Paleolog"
+    ],
     "note": "Njegova smrt označila je konačan kraj Istočnog Rimskog Carstva.",
     "source": "Wikipedia (en): Constantine XI Palaiologos",
-    "tags": ["Bizant", "vladari"],
+    "tags": [
+      "Bizant",
+      "vladari"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +355,16 @@
     "difficulty": 3,
     "question": "Koji je mongolski vladar 1271. osnovao kinesku dinastiju Yuan?",
     "answer": "Kublaj-kan",
-    "accept": ["Kublaj", "Kublai"],
+    "accept": [
+      "Kublaj",
+      "Kublai"
+    ],
     "note": "Kinom je vladao do smrti 1294.",
     "source": "Wikipedia (en): Kublai Khan",
-    "tags": ["Kina", "Mongoli"],
+    "tags": [
+      "Kina",
+      "Mongoli"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +375,15 @@
     "difficulty": 3,
     "question": "Koliko je sekundi trajao prvi let braće Wright 1903.?",
     "answer": "12 s",
-    "accept": ["12"],
+    "accept": [
+      "12"
+    ],
     "note": "Orville je preletio 37 metara, manje od raspona krila Boeinga 747.",
     "source": "Wikipedia (en): Wright Flyer",
-    "tags": ["izumi", "zrakoplovstvo"],
+    "tags": [
+      "izumi",
+      "zrakoplovstvo"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

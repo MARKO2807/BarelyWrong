@@ -6,10 +6,16 @@
     "difficulty": 1,
     "question": "Na kojem instrumentu svira kineski glazbenik Lang Lang?",
     "answer": "Na klaviru",
-    "accept": ["klavir", "glasovir"],
+    "accept": [
+      "klavir",
+      "glasovir"
+    ],
     "note": "Rođen je 1982. i nastupao je s vodećim svjetskim orkestrima.",
     "source": "Wikipedia (en): Lang Lang",
-    "tags": ["instrumenti", "glazbenici"],
+    "tags": [
+      "instrumenti",
+      "glazbenici"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji je puhački instrument s mijehom za zrak najpoznatiji škotski instrument?",
     "answer": "Gajde",
-    "accept": ["škotske gajde"],
+    "accept": [
+      "škotske gajde"
+    ],
     "note": "Najpoznatije su velike škotske gajde, Great Highland bagpipe.",
     "source": "Wikipedia (en): Bagpipes",
-    "tags": ["instrumenti", "Škotska"],
+    "tags": [
+      "instrumenti",
+      "Škotska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -37,9 +48,13 @@
     "accept": [],
     "note": "Pjesmu je snimila s južnoafričkim sastavom Freshlyground.",
     "source": "Wikipedia (en): Waka Waka (This Time for Africa)",
-    "tags": ["pop", "Svjetsko prvenstvo"],
+    "tags": [
+      "pop",
+      "Svjetsko prvenstvo"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "music-0183",
@@ -51,7 +66,10 @@
     "accept": [],
     "note": "Samba je zajednički naziv za mnoge brazilske ritmove.",
     "source": "Wikipedia (en): Samba",
-    "tags": ["ples", "Brazil"],
+    "tags": [
+      "ples",
+      "Brazil"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -65,7 +83,10 @@
     "accept": [],
     "note": "To je najčešći muški glas.",
     "source": "Wikipedia (en): Baritone",
-    "tags": ["pjevanje", "glasovi"],
+    "tags": [
+      "pjevanje",
+      "glasovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +97,16 @@
     "difficulty": 2,
     "question": "Koji je skladatelj autor „Svadbene koračnice” iz glazbe za Shakespeareov „San ivanjske noći”?",
     "answer": "Felix Mendelssohn",
-    "accept": ["Mendelssohn", "Felix Mendelssohn Bartholdy"],
+    "accept": [
+      "Mendelssohn",
+      "Felix Mendelssohn Bartholdy"
+    ],
     "note": "Koračnicu je napisao 1842.",
     "source": "Wikipedia (en): Wedding March (Mendelssohn)",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +117,15 @@
     "difficulty": 2,
     "question": "Kako se zove pjevač i pijanist britanskog sastava Coldplay?",
     "answer": "Chris Martin",
-    "accept": ["Martin"],
+    "accept": [
+      "Martin"
+    ],
     "note": "Sastav je osnovan 1997. u Londonu.",
     "source": "Wikipedia (en): Coldplay",
-    "tags": ["rock", "pjevači"],
+    "tags": [
+      "rock",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -107,7 +139,10 @@
     "accept": [],
     "note": "Album je producirao Nigel Godrich.",
     "source": "Wikipedia (en): OK Computer",
-    "tags": ["rock", "albumi"],
+    "tags": [
+      "rock",
+      "albumi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +153,16 @@
     "difficulty": 2,
     "question": "Koji je pjevač iz Šibenika najprodavaniji izvođač iz Hrvatske i bivše Jugoslavije, s više od 20 milijuna nosača zvuka?",
     "answer": "Mišo Kovač",
-    "accept": ["Mišo", "Kovač"],
+    "accept": [
+      "Mišo",
+      "Kovač"
+    ],
     "note": "Rođen je 1941. u Šibeniku.",
     "source": "Wikipedia (en): Mišo Kovač",
-    "tags": ["Hrvatska", "pjevači"],
+    "tags": [
+      "Hrvatska",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +173,15 @@
     "difficulty": 2,
     "question": "Koja je pjevačica predstavljala Hrvatsku na Euroviziji 2022. s pjesmom „Guilty Pleasure”?",
     "answer": "Mia Dimšić",
-    "accept": ["Dimšić"],
+    "accept": [
+      "Dimšić"
+    ],
     "note": "Pjesma nije prošla u finale.",
     "source": "Wikipedia (en): Mia Dimšić",
-    "tags": ["Hrvatska", "Eurovizija"],
+    "tags": [
+      "Hrvatska",
+      "Eurovizija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -149,7 +195,10 @@
     "accept": [],
     "note": "Jedan je od najpopularnijih rock-sastava u Hrvatskoj.",
     "source": "Wikipedia (en): Hladno Pivo",
-    "tags": ["Hrvatska", "rock"],
+    "tags": [
+      "Hrvatska",
+      "rock"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +209,16 @@
     "difficulty": 2,
     "question": "Koji je ruski skladatelj 1936. napisao „Petra i vuka”, glazbenu bajku za djecu?",
     "answer": "Sergej Prokofjev",
-    "accept": ["Prokofjev", "Prokofiev"],
+    "accept": [
+      "Prokofjev",
+      "Prokofiev"
+    ],
     "note": "Svaki lik u priči predstavlja drugi instrument.",
     "source": "Wikipedia (en): Peter and the Wolf",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Tvrtka Warner Chappell ubirala je naknade sve dok njezino pravo 2015. nije proglašeno nevaljanim.",
     "source": "Wikipedia (en): Happy Birthday to You",
-    "tags": ["pop", "zanimljivosti"],
+    "tags": [
+      "pop",
+      "zanimljivosti"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -191,7 +249,10 @@
     "accept": [],
     "note": "Među poznatim izvođačima su i Carlos do Carmo i Mariza.",
     "source": "Wikipedia (en): Fado",
-    "tags": ["žanrovi", "Portugal"],
+    "tags": [
+      "žanrovi",
+      "Portugal"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +263,15 @@
     "difficulty": 2,
     "question": "Kako se zove barokni instrument s tipkama kojem žice trzaju male trzalice od pera?",
     "answer": "Čembalo",
-    "accept": ["harpsikord"],
+    "accept": [
+      "harpsikord"
+    ],
     "note": "Pritiskom na tipku podiže se drvena letvica s trzalicom.",
     "source": "Wikipedia (en): Harpsichord",
-    "tags": ["instrumenti", "barok"],
+    "tags": [
+      "instrumenti",
+      "barok"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +282,15 @@
     "difficulty": 3,
     "question": "Koja je pjevačica 1973. napisala i prva snimila pjesmu „I Will Always Love You”, koju je kasnije proslavila Whitney Houston?",
     "answer": "Dolly Parton",
-    "accept": ["Parton"],
+    "accept": [
+      "Parton"
+    ],
     "note": "Napisala ju je kao oproštaj od svog poslovnog partnera i mentora.",
     "source": "Wikipedia (en): I Will Always Love You",
-    "tags": ["country", "pjesme"],
+    "tags": [
+      "country",
+      "pjesme"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +301,17 @@
     "difficulty": 3,
     "question": "Kako se zove starogrčki natpis na kojem je sačuvana najstarija potpuna skladba s notnim zapisom?",
     "answer": "Seikilov epitaf",
-    "accept": ["Seikilos", "Seikilosov epitaf", "Pjesma Seikilosa"],
+    "accept": [
+      "Seikilos",
+      "Seikilosov epitaf",
+      "Pjesma Seikilosa"
+    ],
     "note": "Natpis se obično datira u 1. ili 2. stoljeće poslije Krista.",
     "source": "Wikipedia (en): Song of Seikilos",
-    "tags": ["povijest glazbe", "antika"],
+    "tags": [
+      "povijest glazbe",
+      "antika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +322,15 @@
     "difficulty": 3,
     "question": "Koji je austrijski skladatelj prozvan „ocem simfonije” i „ocem gudačkog kvarteta”?",
     "answer": "Joseph Haydn",
-    "accept": ["Haydn"],
+    "accept": [
+      "Haydn"
+    ],
     "note": "Zovu ga i „ocem sonatnog oblika”.",
     "source": "Wikipedia (en): Joseph Haydn",
-    "tags": ["klasična glazba", "skladatelji"],
+    "tags": [
+      "klasična glazba",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +341,16 @@
     "difficulty": 3,
     "question": "Koji je austrougarski skladatelj autor operete „Vesela udovica”?",
     "answer": "Franz Lehár",
-    "accept": ["Lehár", "Lehar"],
+    "accept": [
+      "Lehár",
+      "Lehar"
+    ],
     "note": "Libreto su napisali Viktor Léon i Leo Stein.",
     "source": "Wikipedia (en): The Merry Widow",
-    "tags": ["opereta", "skladatelji"],
+    "tags": [
+      "opereta",
+      "skladatelji"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -275,7 +364,10 @@
     "accept": [],
     "note": "Nadimak La Môme Piaf na pariškom slengu znači „mali vrabac”.",
     "source": "Wikipedia (en): Édith Piaf",
-    "tags": ["šansona", "pjevači"],
+    "tags": [
+      "šansona",
+      "pjevači"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }

@@ -6,12 +6,18 @@
     "difficulty": 1,
     "question": "Koji je crtani zec poznat po uzrečici „Eh... What's up, doc?”",
     "answer": "Bugs Bunny",
-    "accept": ["Bugs"],
+    "accept": [
+      "Bugs"
+    ],
     "note": "Često nadmudruje Elmera Fudda i Yosemite Sama.",
     "source": "Wikipedia (en): Bugs Bunny",
-    "tags": ["crtani filmovi", "likovi"],
+    "tags": [
+      "crtani filmovi",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Prejednostavno za kviz (drugi pregled težine, listopad 2026.)."
   },
   {
     "id": "film_tv-0222",
@@ -20,10 +26,15 @@
     "difficulty": 1,
     "question": "Koji je američki redatelj snimio „Beetlejuice” (1988.) i „Edwarda Škaroruka” (1990.)?",
     "answer": "Tim Burton",
-    "accept": ["Burton"],
+    "accept": [
+      "Burton"
+    ],
     "note": "Režijski je debitirao komedijom „Pee-wee's Big Adventure” 1985.",
     "source": "Wikipedia (en): Tim Burton",
-    "tags": ["redatelji", "fantastika"],
+    "tags": [
+      "redatelji",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -34,10 +45,16 @@
     "difficulty": 1,
     "question": "Kako se zove komičarski dvojac Engleza Stana i Amerikanca Olivera, aktivan od 1927. do 1955.?",
     "answer": "Laurel i Hardy",
-    "accept": ["Stanlio i Olio", "Laurel and Hardy"],
+    "accept": [
+      "Stanlio i Olio",
+      "Laurel and Hardy"
+    ],
     "note": "Lako su prešli iz nijemog u zvučni film.",
     "source": "Wikipedia (en): Laurel and Hardy",
-    "tags": ["komedija", "glumci"],
+    "tags": [
+      "komedija",
+      "glumci"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -48,10 +65,15 @@
     "difficulty": 1,
     "question": "Koji se junak istoimene serije iz 1985. izvlači iz nevolja švicarskim nožićem i ljepljivom trakom?",
     "answer": "MacGyver",
-    "accept": ["MekGajver"],
+    "accept": [
+      "MekGajver"
+    ],
     "note": "Izbjegava vatreno oružje jer mu je u djetinjstvu prijatelj slučajno ustrijeljen.",
     "source": "Wikipedia (en): MacGyver (1985 TV series)",
-    "tags": ["serije", "likovi"],
+    "tags": [
+      "serije",
+      "likovi"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -62,10 +84,17 @@
     "difficulty": 1,
     "question": "Kako se zove neobični liječnik dijagnostičar kojeg je u istoimenoj seriji od 2004. do 2012. glumio Hugh Laurie?",
     "answer": "Dr. House",
-    "accept": ["House", "Gregory House", "Doktor House"],
+    "accept": [
+      "House",
+      "Gregory House",
+      "Doktor House"
+    ],
     "note": "Serija se prikazivala osam sezona na mreži Fox.",
     "source": "Wikipedia (en): House (TV series)",
-    "tags": ["serije", "medicina"],
+    "tags": [
+      "serije",
+      "medicina"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -76,10 +105,15 @@
     "difficulty": 2,
     "question": "Koji je britanski redatelj snimio „Aliena” (1979.) i „Gladijatora” (2000.)?",
     "answer": "Ridley Scott",
-    "accept": ["Scott"],
+    "accept": [
+      "Scott"
+    ],
     "note": "Debitirao je filmom „The Duellists” 1977.",
     "source": "Wikipedia (en): Ridley Scott",
-    "tags": ["redatelji", "znanstvena fantastika"],
+    "tags": [
+      "redatelji",
+      "znanstvena fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -90,10 +124,15 @@
     "difficulty": 2,
     "question": "Koji je meksički redatelj snimio „Panov labirint” (2006.) i „Hellboya” (2004.)?",
     "answer": "Guillermo del Toro",
-    "accept": ["del Toro"],
+    "accept": [
+      "del Toro"
+    ],
     "note": "Snima filmove i na španjolskom i na engleskom jeziku.",
     "source": "Wikipedia (en): Guillermo del Toro",
-    "tags": ["redatelji", "fantastika"],
+    "tags": [
+      "redatelji",
+      "fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -104,10 +143,16 @@
     "difficulty": 2,
     "question": "Koji je španjolski redatelj Oscare dobio za filmove „Sve o mojoj majci” (1999.) i „Pričaj s njom” (2002.)?",
     "answer": "Pedro Almodóvar",
-    "accept": ["Almodóvar", "Almodovar"],
+    "accept": [
+      "Almodóvar",
+      "Almodovar"
+    ],
     "note": "Često je surađivao s Antoniom Banderasom i Penélope Cruz.",
     "source": "Wikipedia (en): Pedro Almodóvar",
-    "tags": ["redatelji", "Oscar"],
+    "tags": [
+      "redatelji",
+      "Oscar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -118,10 +163,16 @@
     "difficulty": 2,
     "question": "U kojoj seriji agenti FBI-ja Fox Mulder i Dana Scully istražuju paranormalne slučajeve?",
     "answer": "Dosjei X",
-    "accept": ["The X-Files", "X-Files"],
+    "accept": [
+      "The X-Files",
+      "X-Files"
+    ],
     "note": "Agente su glumili David Duchovny i Gillian Anderson.",
     "source": "Wikipedia (en): The X-Files",
-    "tags": ["serije", "znanstvena fantastika"],
+    "tags": [
+      "serije",
+      "znanstvena fantastika"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -132,10 +183,15 @@
     "difficulty": 2,
     "question": "Koji je britanski komičar slavu stekao kao inspektor Clouseau u filmovima o Pink Pantheru?",
     "answer": "Peter Sellers",
-    "accept": ["Sellers"],
+    "accept": [
+      "Sellers"
+    ],
     "note": "Prije filma proslavio se radijskom serijom „The Goon Show”.",
     "source": "Wikipedia (en): Peter Sellers",
-    "tags": ["glumci", "komedija"],
+    "tags": [
+      "glumci",
+      "komedija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -146,10 +202,15 @@
     "difficulty": 2,
     "question": "U kojoj seriji iz 1980-ih David Hasselhoff kao Michael Knight vozi inteligentni automobil KITT?",
     "answer": "Knight Rider",
-    "accept": ["Nightrider"],
+    "accept": [
+      "Nightrider"
+    ],
     "note": "Serija se na NBC-ju prikazivala od 1982. do 1986.",
     "source": "Wikipedia (en): Knight Rider (1982 TV series)",
-    "tags": ["serije", "automobili"],
+    "tags": [
+      "serije",
+      "automobili"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -160,10 +221,15 @@
     "difficulty": 2,
     "question": "Kako se zove poručnik odjela za ubojstva policije Los Angelesa kojeg je u istoimenoj seriji glumio Peter Falk?",
     "answer": "Columbo",
-    "accept": ["Kolumbo"],
+    "accept": [
+      "Kolumbo"
+    ],
     "note": "Serija se na NBC-ju prikazivala od 1971. do 1978.",
     "source": "Wikipedia (en): Columbo",
-    "tags": ["serije", "krimići"],
+    "tags": [
+      "serije",
+      "krimići"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -174,10 +240,15 @@
     "difficulty": 2,
     "question": "Koji je najskuplji film snimljen u SFRJ, nominiran za Oscara za najbolji strani film?",
     "answer": "Bitka na Neretvi",
-    "accept": ["Neretva"],
+    "accept": [
+      "Neretva"
+    ],
     "note": "Sergej Bondarčuk, koji u filmu glumi Martina, godinu ranije dobio je Oscara za „Rat i mir”.",
     "source": "Wikipedia (en): The Battle of Neretva",
-    "tags": ["jugoslavenski film", "Oscar"],
+    "tags": [
+      "jugoslavenski film",
+      "Oscar"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -188,10 +259,15 @@
     "difficulty": 2,
     "question": "Koji je britanski glumac od 2010. do 2017. glumio Sherlocka Holmesa u seriji „Sherlock”?",
     "answer": "Benedict Cumberbatch",
-    "accept": ["Cumberbatch"],
+    "accept": [
+      "Cumberbatch"
+    ],
     "note": "Za tu je ulogu dobio Emmyja.",
     "source": "Wikipedia (en): Benedict Cumberbatch",
-    "tags": ["glumci", "serije"],
+    "tags": [
+      "glumci",
+      "serije"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -202,10 +278,15 @@
     "difficulty": 2,
     "question": "Koji je francuski redatelj snimio „400 udaraca” (1959.), ključni film francuskog novog vala?",
     "answer": "François Truffaut",
-    "accept": ["Truffaut"],
+    "accept": [
+      "Truffaut"
+    ],
     "note": "Kao mladić pisao je za časopis Cahiers du Cinéma.",
     "source": "Wikipedia (en): François Truffaut",
-    "tags": ["redatelji", "Francuska"],
+    "tags": [
+      "redatelji",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -216,10 +297,15 @@
     "difficulty": 3,
     "question": "Koji je francusko-švicarski redatelj svjetsku slavu stekao filmom „À bout de souffle” (1960.)?",
     "answer": "Jean-Luc Godard",
-    "accept": ["Godard"],
+    "accept": [
+      "Godard"
+    ],
     "note": "Film se smatra prekretnicom francuskog novog vala.",
     "source": "Wikipedia (en): Jean-Luc Godard",
-    "tags": ["redatelji", "Francuska"],
+    "tags": [
+      "redatelji",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -230,10 +316,15 @@
     "difficulty": 3,
     "question": "Koji je indijski redatelj debitirao filmom „Pather Panchali” (1955.), nagrađenim u Cannesu?",
     "answer": "Satyajit Ray",
-    "accept": ["Ray"],
+    "accept": [
+      "Ray"
+    ],
     "note": "Ukupno je režirao 36 filmova.",
     "source": "Wikipedia (en): Satyajit Ray",
-    "tags": ["redatelji", "Indija"],
+    "tags": [
+      "redatelji",
+      "Indija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -244,10 +335,16 @@
     "difficulty": 3,
     "question": "Koji je sovjetski redatelj snimio „Solaris” (1972.) i „Stalker” (1979.)?",
     "answer": "Andrej Tarkovski",
-    "accept": ["Tarkovski", "Tarkovsky"],
+    "accept": [
+      "Tarkovski",
+      "Tarkovsky"
+    ],
     "note": "Nakon sukoba s državnim filmskim vlastima napustio je zemlju 1979.",
     "source": "Wikipedia (en): Andrei Tarkovsky",
-    "tags": ["redatelji", "Rusija"],
+    "tags": [
+      "redatelji",
+      "Rusija"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -258,10 +355,15 @@
     "difficulty": 3,
     "question": "Koji je japanski redatelj snimio „Tokijsku priču” (1953.)?",
     "answer": "Yasujirō Ozu",
-    "accept": ["Ozu"],
+    "accept": [
+      "Ozu"
+    ],
     "note": "Glavne su mu teme obitelj, brak i odnosi među naraštajima.",
     "source": "Wikipedia (en): Yasujirō Ozu",
-    "tags": ["redatelji", "Japan"],
+    "tags": [
+      "redatelji",
+      "Japan"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   },
@@ -272,10 +374,15 @@
     "difficulty": 3,
     "question": "Koja je francuska redateljica snimila „Cléo od 5 do 7” (1962.)?",
     "answer": "Agnès Varda",
-    "accept": ["Varda"],
+    "accept": [
+      "Varda"
+    ],
     "note": "Debitirala je filmom „La Pointe Courte” 1955.",
     "source": "Wikipedia (en): Agnès Varda",
-    "tags": ["redatelji", "Francuska"],
+    "tags": [
+      "redatelji",
+      "Francuska"
+    ],
     "checkedAt": "2026-10-11",
     "status": "approved"
   }
