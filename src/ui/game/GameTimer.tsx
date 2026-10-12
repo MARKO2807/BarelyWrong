@@ -40,7 +40,7 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
       className="flex w-full max-w-4xl shrink-0 items-center gap-6"
     >
       <span
-        className={`w-[2ch] text-right font-body text-(length:--timer-size) leading-none font-semibold tabular-nums ${urgent ? 'timer-urgent' : ''}`}
+        className={`w-[2ch] text-right font-body text-(length:--timer-size) leading-[1.15] font-semibold tabular-nums ${urgent ? 'timer-urgent' : ''}`}
       >
         {seconds}
       </span>
