@@ -93,7 +93,7 @@ export function Controls({ game, dispatch, onRematch, onNewGame, onHome, busy }:
       </Button>
     ))
   const prompt = (text: string) => (
-    <span className="w-full text-center text-2xl font-semibold md:w-auto">{text}</span>
+    <span className="w-full text-center text-xl font-semibold sm:text-2xl md:w-auto">{text}</span>
   )
 
   let content: ReactNode

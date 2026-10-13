@@ -122,7 +122,7 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 ### 6.1 Raspored
 
 - TV na prvom mjestu: osnovni raspored je 16:9 za velik ekran, a tekst se mora čitati s kauča. Važni elementi drže se oko 5% podalje od rubova, jer neki TV-i odrežu rub slike.
-- Potpuno responzivno na svim veličinama, do mobitela uspravno.
+- Potpuno responzivno na svim veličinama, do mobitela uspravno. Na mobitelu je partija sažeta: manji naslovi, timer i bodovi; predugo pitanje se pomiče umjesto da se odreže; na položenom mobitelu bodovi su u jednom redu; na malim ekranima ljestvica nakon runde skriva donje bodove; na dodirnim ekranima nema oznaka tipki.
 - Gumb za cijeli zaslon.
 - Tekst pitanja je što veći može biti, a da stane bez pomicanja; dulja pitanja automatski dobivaju manji font.
 - Početna je u retro 8-bit i neon stilu; ostali ekrani su minimalistički i pregledni.

@@ -130,6 +130,15 @@
     --tagline-font-size: 2.25rem;
     --play-font-size: 2.25rem;
     --hero-lift: 6vh;
+
+    /* Game screen on a phone: smaller fixed sizes, so the question gets the room. */
+    --game-gap: 1.5vh;
+    --icon-hero: 4.5rem;
+    --team-name-size: 3rem;
+    --timer-size: 2.75rem;
+    --game-top-btn-size: 2.75rem;
+    --game-top-btn-font: 1rem;
+    --answer-size: 2rem;
   }
 }
 

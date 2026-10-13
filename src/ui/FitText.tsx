@@ -8,7 +8,10 @@ interface FitTextProps {
   className?: string
 }
 
-/** Fills the available space: short questions get huge type, long ones shrink to fit. */
+/**
+ * Fills the available space: short questions get huge type, long ones shrink to fit. If even the
+ * smallest size does not fit (a long question on a small phone), the box scrolls.
+ */
 export function FitText({ text, minRem, maxRem, className }: FitTextProps) {
   const box = useRef<HTMLDivElement>(null)
   const inner = useRef<HTMLParagraphElement>(null)
@@ -42,7 +45,7 @@ export function FitText({ text, minRem, maxRem, className }: FitTextProps) {
   return (
     <div
       ref={box}
-      className="flex min-h-0 w-full flex-1 items-center justify-center overflow-hidden"
+      className="flex min-h-0 w-full flex-1 items-center-safe justify-center overflow-x-hidden overflow-y-auto [scrollbar-width:none]"
     >
       <p ref={inner} className={className}>
         {text}

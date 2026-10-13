@@ -173,7 +173,10 @@ export function GameScreen() {
         onFullscreen={toggleFullscreen}
         onMenu={openMenu}
       />
-      <main className="flex min-h-0 items-center justify-center">{stage}</main>
+      {/* Safe centring: on a small phone a tall stage scrolls instead of sliding under the bars. */}
+      <main className="flex min-h-0 items-center-safe justify-center overflow-y-auto [scrollbar-width:none]">
+        {stage}
+      </main>
       <footer className="flex flex-col gap-4">
         <Controls
           game={game}
@@ -184,7 +187,10 @@ export function GameScreen() {
           onHome={() => goTo(ROUTES.home)}
         />
         {step.type !== 'finished' && (
-          <Scoreboard game={game} activeTeamIds={activeTeams(game)} bubble={scoreBubble(game)} />
+          // The leaderboard already shows every score; small screens need that room for it.
+          <div className={step.type === 'leaderboard' ? 'max-lg:hidden short:hidden' : undefined}>
+            <Scoreboard game={game} activeTeamIds={activeTeams(game)} bubble={scoreBubble(game)} />
+          </div>
         )}
       </footer>
 

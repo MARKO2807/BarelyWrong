@@ -41,18 +41,18 @@ export function RoundIntro({ game, roundIndex }: { game: GameState; roundIndex: 
       : null
   return (
     <div key={roundIndex} className="pop-in flex flex-col items-center gap-5 text-center">
-      <span className="font-terminal text-4xl text-text-muted">
+      <span className="font-terminal text-3xl text-text-muted sm:text-4xl">
         {t('game.roundNumber', { number: roundIndex + 1 })}
       </span>
       <Icon className="text-(length:--icon-hero) text-primary-text" />
-      <h1 className="font-display text-5xl font-extrabold text-balance">
+      <h1 className="font-display text-4xl font-extrabold text-balance sm:text-5xl">
         {t(`topics.${round.kind}`)}
       </h1>
-      {hint && <p className="max-w-3xl text-2xl text-balance text-text-muted">{hint}</p>}
+      {hint && <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">{hint}</p>}
       {round.doubled && (
         <div className="mt-2 flex flex-col items-center gap-3">
           <DoubleTroubleBadge large />
-          <p className="text-2xl font-semibold">{t('game.doubleTroubleText')}</p>
+          <p className="text-xl font-semibold sm:text-2xl">{t('game.doubleTroubleText')}</p>
         </div>
       )}
     </div>
@@ -67,12 +67,12 @@ export function TeamIntro({ game }: { game: GameState }) {
       style={teamStyle(turn.team.color)}
       className="team-spotlight pop-in flex flex-col items-center gap-6 text-center"
     >
-      <span className="text-3xl text-text-muted">{t('game.onTurn')}</span>
+      <span className="text-2xl text-text-muted sm:text-3xl">{t('game.onTurn')}</span>
       <h1 className="team-banner font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance">
         {turn.team.name}
       </h1>
       {turn.challenger && (
-        <p className="max-w-3xl text-2xl text-balance text-text-muted">
+        <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
           {t('game.estimates', { team: turn.team.name })}{' '}
           {t('game.challenges', { team: turn.challenger.name })}
         </p>
@@ -95,12 +95,12 @@ function QuestionLabel({ game }: { game: GameState }) {
   const turn = getCurrentTurn(game)
   if (turn) {
     return (
-      <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-4 gap-y-1 text-2xl">
+      <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xl sm:text-2xl short:text-base">
         <span style={teamStyle(turn.team.color)} className="team-pill font-display font-extrabold">
           {turn.team.name}
         </span>
         {turn.challenger && (
-          <span className="text-xl text-text-muted">
+          <span className="text-lg text-text-muted sm:text-xl">
             {t('game.challenges', { team: turn.challenger.name })}
           </span>
         )}
@@ -111,7 +111,7 @@ function QuestionLabel({ game }: { game: GameState }) {
     const teamId = 'teamId' in step ? step.teamId : null
     const team = teamId ? getTeam(game, teamId) : null
     return (
-      <div className="flex shrink-0 flex-wrap items-center justify-center gap-4 text-2xl">
+      <div className="flex shrink-0 flex-wrap items-center justify-center gap-4 text-xl sm:text-2xl short:text-base">
         <span className="flex items-center gap-2 font-display font-extrabold text-secondary-text">
           <BoltIcon /> {t('game.forEveryone')}
         </span>
@@ -125,7 +125,7 @@ function QuestionLabel({ game }: { game: GameState }) {
   }
   const tied = (game.tiebreak?.teamIds ?? []).map((id) => getTeam(game, id))
   return (
-    <p className="shrink-0 font-display text-2xl font-extrabold">
+    <p className="shrink-0 text-center font-display text-xl font-extrabold sm:text-2xl">
       {t('game.tiebreak')} <span className="text-text-muted">{joinNames(tied, t('game.and'))}</span>
     </p>
   )
@@ -160,7 +160,7 @@ export function QuestionStage({ game, onExpire }: { game: GameState; onExpire: (
       <FitText
         key={question.id}
         text={question.question}
-        minRem={1.5}
+        minRem={1.1}
         maxRem={revealed ? 3.25 : 5.5}
         className="max-w-[40ch] text-center leading-tight font-semibold text-balance"
       />
@@ -169,7 +169,7 @@ export function QuestionStage({ game, onExpire }: { game: GameState; onExpire: (
       )}
       {revealed && <AnswerCard question={question} verdict={verdictFor(game)} />}
       {step.type === 'fastestFingerAnswer' && step.teamId === null && (
-        <p className="shrink-0 text-2xl text-text-muted">{t('game.nobodyAnswered')}</p>
+        <p className="shrink-0 text-xl text-text-muted sm:text-2xl">{t('game.nobodyAnswered')}</p>
       )}
     </div>
   )
@@ -179,8 +179,10 @@ export function FastestFingerIntro() {
   return (
     <div className="pop-in flex flex-col items-center gap-5 text-center">
       <BoltIcon className="text-(length:--icon-hero) text-secondary-text" />
-      <h1 className="font-display text-5xl font-extrabold">{t('game.fastestFinger')}</h1>
-      <p className="max-w-3xl text-2xl text-balance text-text-muted">
+      <h1 className="font-display text-4xl font-extrabold sm:text-5xl">
+        {t('game.fastestFinger')}
+      </h1>
+      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
         {t('game.fastestFingerText')}
       </p>
     </div>
@@ -197,12 +199,12 @@ export function TiebreakIntro({ game }: { game: GameState }) {
             key={team.id}
             color={team.color}
             name={team.name}
-            className="size-20 text-5xl"
+            className="size-16 text-4xl sm:size-20 sm:text-5xl"
           />
         ))}
       </div>
-      <h1 className="font-display text-5xl font-extrabold">{t('game.tiebreak')}</h1>
-      <p className="max-w-3xl text-2xl text-balance text-text-muted">
+      <h1 className="font-display text-4xl font-extrabold sm:text-5xl">{t('game.tiebreak')}</h1>
+      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
         {t('game.tiebreakText', { teams: joinNames(tied, t('game.and')) })}
       </p>
     </div>
@@ -269,8 +271,12 @@ export function EndStage({ game }: { game: GameState }) {
         className="pop-in flex flex-col items-center gap-3 text-center"
         style={teamStyle(winner.color)}
       >
-        <TeamChip color={winner.color} name={winner.name} className="size-24 text-5xl" />
-        <h1 className="font-display text-4xl font-extrabold text-balance">
+        <TeamChip
+          color={winner.color}
+          name={winner.name}
+          className="size-20 text-4xl sm:size-24 sm:text-5xl"
+        />
+        <h1 className="font-display text-3xl font-extrabold text-balance sm:text-4xl">
           {t('game.winner', { team: winner.name })}
         </h1>
       </div>

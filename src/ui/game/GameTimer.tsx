@@ -52,7 +52,7 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
       role="timer"
       aria-label={t('game.secondsLeft')}
       data-urgent={urgent ? (running && remaining > 0 ? 'running' : 'still') : undefined}
-      className="timer flex w-full max-w-4xl shrink-0 items-center gap-6"
+      className="timer flex w-full max-w-4xl shrink-0 items-center gap-3 sm:gap-6"
       style={{ '--intensity': intensity } as CSSProperties}
     >
       <span
@@ -60,14 +60,14 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
       >
         {seconds}
       </span>
-      <div className="timer-track h-4 flex-1 overflow-hidden rounded-full bg-surface">
+      <div className="timer-track h-3 min-w-0 flex-1 overflow-hidden sm:h-4 rounded-full bg-surface">
         <div
           className={`h-full rounded-full transition-[width] duration-150 ease-linear ${urgent ? 'bg-wrong' : 'bg-secondary'}`}
           style={{ width: `${(remaining / timer.durationMs) * 100}%` }}
         />
       </div>
       {!running && remaining > 0 && (
-        <span className="font-display text-2xl font-extrabold text-text-muted">
+        <span className="font-display text-lg font-extrabold text-text-muted sm:text-2xl">
           {t('game.paused')}
         </span>
       )}
