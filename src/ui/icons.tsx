@@ -2,8 +2,6 @@ import {
   Atom,
   BookOpen,
   CheckCheck,
-  ChevronLeft,
-  ChevronRight,
   Clapperboard,
   Flag,
   Globe,
@@ -62,8 +60,6 @@ export const BoltIcon = icon(Zap)
 export const PlusIcon = icon(Plus)
 export const MinusIcon = icon(Minus)
 export const CorrectionIcon = icon(PencilLine)
-export const ArrowLeftIcon = icon(ChevronLeft)
-export const ArrowRightIcon = icon(ChevronRight)
 export const SunIcon = icon(Sun)
 export const MoonIcon = icon(Moon)
 export const SoundOnIcon = icon(Volume2)

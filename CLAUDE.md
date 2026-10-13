@@ -33,6 +33,7 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - `npm run import -- <datoteka> [--dry-run] [--allow-similar]` (uvoz serije; dodijeljene id-jeve upisuje natrag u datoteku)
 - `npm run export` (sigurnosna kopija baze u `backups/`)
 - `npm run embed` (embeddingi za pitanja koja ih nemaju; model se prvi put preuzme u `.cache/`)
+- `npm run brand` (favikone i slika za pregled linka u `public/`, iz `assets/logo.png`)
 - Skripte za bazu čitaju `.env.local`; `import`, `export` i `embed` prijavljuju se uredničkim računom (`BW_EDITOR_EMAIL`, `BW_EDITOR_PASSWORD`).
 
 ## Pravila rada

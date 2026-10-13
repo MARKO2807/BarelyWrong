@@ -359,21 +359,6 @@
     font-size: 1.35em;
   }
 
-  /* Pager arrows in the rules popup. */
-  .pager-btn {
-    border: 0.125rem solid var(--border);
-  }
-
-  .pager-btn:disabled {
-    opacity: 0.35;
-    cursor: default;
-  }
-
-  .rules-page {
-    animation: fade-in var(--duration-base) var(--ease-out) both;
-  }
-
-  /* Leaderboard table; points per topic drop out on narrow screens (see Standings.tsx). */
   .standings-grid {
     display: grid;
     grid-template-columns:

@@ -13,7 +13,10 @@ interface SegmentedControlProps<T extends string> {
   labelledBy: string
 }
 
-/** One-of-many choice built on native radios, so arrow keys work out of the box. */
+/**
+ * One-of-many choice built on native radios, so arrow keys work out of the box. The options
+ * always stay on one line; on narrow screens the text gets smaller instead.
+ */
 export function SegmentedControl<T extends string>({
   name,
   value,
@@ -25,12 +28,12 @@ export function SegmentedControl<T extends string>({
     <div
       role="radiogroup"
       aria-labelledby={labelledBy}
-      className="inline-flex flex-wrap gap-1 rounded-md bg-bg p-1"
+      className="flex w-fit max-w-full gap-1 rounded-md bg-bg p-1"
     >
       {options.map((option) => (
         <label
           key={option.value}
-          className="has-focus-ring cursor-pointer rounded-sm px-4 py-2 font-display text-lg font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
+          className="has-focus-ring min-w-0 flex-1 cursor-pointer rounded-sm px-[clamp(0.4rem,2vw,1rem)] py-2 text-center font-display text-[length:clamp(0.8rem,4.2vw,1.125rem)] whitespace-nowrap font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
         >
           <input
             type="radio"

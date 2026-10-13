@@ -39,9 +39,6 @@ export const hr = {
       'Nakon svake runde slijedi ljestvica. Pobjeđuje tim s najviše bodova; kod neriješenog odlučuje jedno pitanje procjene, a pobjeđuje tko je najbliže.',
     ],
     confirm: 'Jasno!',
-    next: 'Dalje',
-    previous: 'Natrag',
-    page: 'Stranica {current} od {total}',
   },
   settings: {
     title: 'Postavke',

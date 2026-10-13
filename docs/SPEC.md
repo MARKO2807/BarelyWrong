@@ -108,7 +108,7 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 
 ## 5. Ekrani
 
-- **Početna:** hero slika prema temi, logo, podnaslov „Kviz za one koji (skoro) sve znaju.” i gumb "Igraj" u sredini. Zaglavlje: logo, "Pravila" i "Postavke". Hero se sastoji od pozadine teme i zasebnih likova (lovac, čudovište Brainly i mozak pred ciljem) koji se lagano miču. Ako postoji nedovršena partija, prikazuje se "Nastavi partiju". U tamnoj temi iza teksta je mekani tamni sjaj, a u svijetloj mekani bijeli sjaj i tamni podnaslov.
+- **Početna:** hero slika prema temi, logo, podnaslov „Kviz za one koji (skoro) sve znaju.” i gumb "Igraj" u sredini. Zaglavlje: logo, "Pravila" i "Postavke". Hero se sastoji od pozadine teme i zasebnih likova (lovac, čudovište Brainly i mozak pred ciljem) koji se lagano miču. Na uspravnim ekranima (mobitel) umjesto toga je uspravna slika teme s već nacrtanim likovima, bez dodataka. Ako postoji nedovršena partija, prikazuje se "Nastavi partiju". U tamnoj temi iza teksta je mekani tamni sjaj, a u svijetloj mekani bijeli sjaj i tamni podnaslov.
 - **Postavljanje partije** prema 4.1.
 - **Igra:** najava runde, potez, otkrivanje, Najbrži prst, ljestvica nakon runde, neriješeno i kraj. Na vrhu: runda (npr. 3/12), tema s ikonom, značka Double trouble kad vrijedi, te veliki gumbi za cijeli zaslon i izbornik. Izbornik nudi i promjenu teme (tamna/svijetla) iznad zvuka. U sredini: pitanje i timer. Dolje: bodovi svih timova i kontrole.
 - **Popup "Pravila"** s tekstom iz priloga A. Nije zasebna ruta.
@@ -179,7 +179,7 @@ Tamna ili Svijetla; zadano je Tamna, a izbor se pamti. Hero slika i boje mijenja
 - `assets/hero-dark.png`: hero za tamnu temu (noćni grad).
 - `assets/hero-light.png`: hero za svijetlu temu (dnevni grad).
 
-Hero slike optimizirati u WebP/AVIF u više veličina (srcset). Na velikom TV-u trebaju biti što veće razlučivosti.
+Hero slike optimizirati u WebP/AVIF u više veličina (srcset). Na velikom TV-u trebaju biti što veće razlučivosti. Favikona i slika za pregled linka (Open Graph, npr. WhatsApp) rade se iz loga naredbom `npm run brand`.
 
 ## 7. Podaci (Supabase)
 
@@ -332,7 +332,7 @@ Natjecateljski teška pitanja ne ulaze u igru; mogu se spremiti sa statusom `arc
 
 ### 9.3 Urednik (`/admin`)
 
-Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu desno, okrenutim prema čudovištu ispod balkona lijevo; oba se lagano miču, a obrazac za prijavu stoji na tamnom zidu desno, a na mobitelu u sredini.
+Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu desno, okrenutim prema čudovištu ispod balkona lijevo; oba se lagano miču, a obrazac za prijavu stoji na tamnom zidu desno, a na mobitelu u sredini, preko uspravne slike ulice bez likova.
 
 - Prijava jednim uredničkim računom (kreira se ručno u Supabaseu).
 - Popis pitanja s filtrima (status, tema, format, težina, tekst) i statistikom (koliko je puta prikazano, postotak točnih).

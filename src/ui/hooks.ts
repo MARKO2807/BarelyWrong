@@ -59,3 +59,20 @@ export function useWakeLock(active: boolean) {
     }
   }, [active])
 }
+
+/** Phones and other tall screens, which get the portrait backgrounds. */
+const PORTRAIT = '(max-aspect-ratio: 1/1)'
+
+function subscribePortrait(onChange: () => void) {
+  const query = window.matchMedia(PORTRAIT)
+  query.addEventListener('change', onChange)
+  return () => query.removeEventListener('change', onChange)
+}
+
+export function usePortrait(): boolean {
+  return useSyncExternalStore(
+    subscribePortrait,
+    () => window.matchMedia(PORTRAIT).matches,
+    () => false,
+  )
+}
