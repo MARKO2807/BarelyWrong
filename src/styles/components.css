@@ -681,7 +681,7 @@
     --scene-height: max(100cqh, 100cqw * 941 / 1672);
     position: absolute;
     top: calc((100cqh - var(--scene-height)) * 0.85);
-    left: calc((100cqw - var(--scene-width)) * 0.55);
+    left: calc((100cqw - var(--scene-width)) * 0.45);
     width: var(--scene-width);
     height: var(--scene-height);
   }

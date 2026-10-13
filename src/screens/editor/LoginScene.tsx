@@ -11,9 +11,9 @@ interface Placement {
   bottom: number
 }
 
-// The hunter stands close on the left; the creature waits further down the walkway.
-const HUNTER: Placement = { left: 8, width: 23, bottom: 1 }
-const CREATURE: Placement = { left: 38, width: 6.4, bottom: 19.5 }
+// The hunter stands close on the right, looking left at the creature waiting under the balcony.
+const HUNTER: Placement = { left: 42, width: 23, bottom: 1 }
+const CREATURE: Placement = { left: 12, width: 8, bottom: 20 }
 
 function placementStyle({ left, width, bottom }: Placement): CSSProperties {
   return { left: `${left}%`, width: `${width}%`, bottom: `${bottom}%` }

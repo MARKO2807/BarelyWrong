@@ -332,7 +332,7 @@ Natjecateljski teška pitanja ne ulaze u igru; mogu se spremiti sa statusom `arc
 
 ### 9.3 Urednik (`/admin`)
 
-Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu i čudovištem dalje na stazi, koji se lagano miču; obrazac za prijavu stoji na tamnom zidu desno, a na mobitelu u sredini.
+Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu desno, okrenutim prema čudovištu ispod balkona lijevo; oba se lagano miču, a obrazac za prijavu stoji na tamnom zidu desno, a na mobitelu u sredini.
 
 - Prijava jednim uredničkim računom (kreira se ručno u Supabaseu).
 - Popis pitanja s filtrima (status, tema, format, težina, tekst) i statistikom (koliko je puta prikazano, postotak točnih).
