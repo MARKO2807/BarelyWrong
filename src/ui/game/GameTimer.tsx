@@ -7,21 +7,10 @@ import { useSound } from '../sound/useSound'
 
 const URGENT_SECONDS = 10
 
-/** How tense the countdown is: last ten seconds, last five, last three. */
-type Phase = 'calm' | 'urgent' | 'critical' | 'final'
-
-function phaseFor(seconds: number): Phase {
-  if (seconds > URGENT_SECONDS) return 'calm'
-  if (seconds > 5) return 'urgent'
-  if (seconds > 3) return 'critical'
-  return 'final'
-}
-
-function tickSound(seconds: number): SoundName {
-  if (seconds === 3) return 'final3'
-  if (seconds === 2) return 'final2'
-  if (seconds === 1) return 'final1'
-  return seconds <= 5 ? 'heartbeat' : 'tick'
+/** A warning when the last ten seconds start, then a tick for each of the last three. */
+function tickSound(seconds: number): SoundName | null {
+  if (seconds === URGENT_SECONDS) return 'warning'
+  return seconds <= 3 ? 'tick' : null
 }
 
 interface GameTimerProps {
@@ -31,25 +20,23 @@ interface GameTimerProps {
 }
 
 /**
- * Big countdown with a bar. In the last ten seconds it turns red and ticks; from five the
- * heartbeat joins and the screen edges beat harder, and the last three are the most intense.
- * Every beat restarts on the second, so sound and picture stay in step.
+ * Big countdown with a bar. In the last ten seconds it turns red, glows and shakes, a little
+ * more every second.
  */
 export function GameTimer({ timer, onExpire }: GameTimerProps) {
   const running = isTimerRunning(timer)
   const now = useNow(running, 100)
   const remaining = remainingMs(timer, now)
   const seconds = Math.ceil(remaining / 1000)
-  const phase = phaseFor(seconds)
-  const urgent = phase !== 'calm'
-  const beating = running && urgent && remaining > 0
+  const urgent = seconds <= URGENT_SECONDS
   const play = useSound()
   const lastTick = useRef<number | null>(null)
 
   useEffect(() => {
     if (running && urgent && seconds > 0 && lastTick.current !== seconds) {
       lastTick.current = seconds
-      play(tickSound(seconds))
+      const sound = tickSound(seconds)
+      if (sound) play(sound)
     }
   }, [running, urgent, seconds, play])
 
@@ -64,11 +51,11 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
     <div
       role="timer"
       aria-label={t('game.secondsLeft')}
-      data-phase={beating ? phase : undefined}
+      data-urgent={urgent ? (running && remaining > 0 ? 'running' : 'still') : undefined}
       className="timer flex w-full max-w-4xl shrink-0 items-center gap-6"
+      style={{ '--intensity': intensity } as CSSProperties}
     >
       <span
-        key={beating ? seconds : 'still'}
         className={`timer-digits w-[2ch] text-right font-body text-(length:--timer-size) leading-[1.15] font-semibold tabular-nums ${urgent ? 'text-wrong' : ''}`}
       >
         {seconds}
@@ -79,15 +66,6 @@ export function GameTimer({ timer, onExpire }: GameTimerProps) {
           style={{ width: `${(remaining / timer.durationMs) * 100}%` }}
         />
       </div>
-      {beating && (
-        <div
-          key={seconds}
-          aria-hidden="true"
-          data-phase={phase}
-          className="urgent-vignette"
-          style={{ '--intensity': 0.4 + 0.6 * intensity } as CSSProperties}
-        />
-      )}
       {!running && remaining > 0 && (
         <span className="font-display text-2xl font-extrabold text-text-muted">
           {t('game.paused')}

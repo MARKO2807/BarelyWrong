@@ -308,86 +308,24 @@
   }
 
   /*
-   * Countdown (GameTimer): the digits and the screen edges beat once per second, because both
-   * elements restart every second. Ten to six: a light beat. Five and four: stronger, darker
-   * edges. Three to one: the digits shake, the screen flashes red and the edges close in.
+   * Countdown (GameTimer): in the last ten seconds the digits and the bar glow redder and shake,
+   * a little more every second (--intensity goes from 0 to 1).
    */
-  .timer[data-phase] .timer-digits {
-    --beat: 1.12;
-    animation: timer-beat 1s var(--ease-out) both;
+  .timer[data-urgent] {
+    --glow: calc(0.4rem + 1.6rem * var(--intensity, 0));
   }
 
-  .timer[data-phase='critical'] .timer-digits {
-    --beat: 1.3;
+  .timer[data-urgent] .timer-digits {
+    text-shadow: 0 0 var(--glow) color-mix(in srgb, var(--wrong) 70%, transparent);
   }
 
-  .timer[data-phase='final'] .timer-digits {
-    animation: timer-beat-final 1s var(--ease-out) both;
+  .timer[data-urgent] .timer-track {
+    box-shadow: 0 0 var(--glow) color-mix(in srgb, var(--wrong) 60%, transparent);
   }
 
-  .timer[data-phase] .timer-track {
-    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--wrong) 60%, transparent);
-  }
-
-  .timer[data-phase='critical'] .timer-track,
-  .timer[data-phase='final'] .timer-track {
-    animation: track-glow 1s ease-out both;
-  }
-
-  .urgent-vignette {
-    --edge: 55%;
-    position: fixed;
-    inset: 0;
-    z-index: 1;
-    pointer-events: none;
-    background: radial-gradient(
-      ellipse at center,
-      transparent var(--edge),
-      color-mix(in srgb, var(--wrong) 32%, transparent) 100%
-    );
-    box-shadow: inset 0 0 6vh color-mix(in srgb, var(--wrong) 35%, transparent);
-    animation: vignette-beat 1s ease-out both;
-  }
-
-  .urgent-vignette[data-phase='critical'] {
-    --edge: 42%;
-    background:
-      radial-gradient(
-        ellipse at center,
-        transparent 50%,
-        color-mix(in srgb, var(--shade) 35%, transparent) 100%
-      ),
-      radial-gradient(
-        ellipse at center,
-        transparent var(--edge),
-        color-mix(in srgb, var(--wrong) 42%, transparent) 100%
-      );
-    box-shadow: inset 0 0 9vh color-mix(in srgb, var(--wrong) 50%, transparent);
-  }
-
-  .urgent-vignette[data-phase='final'] {
-    --edge: 30%;
-    background:
-      radial-gradient(
-        ellipse at center,
-        transparent 40%,
-        color-mix(in srgb, var(--shade) 50%, transparent) 100%
-      ),
-      radial-gradient(
-        ellipse at center,
-        transparent var(--edge),
-        color-mix(in srgb, var(--wrong) 55%, transparent) 100%
-      );
-    box-shadow: inset 0 0 12vh color-mix(in srgb, var(--wrong) 65%, transparent);
-  }
-
-  /* One short red flash across the whole screen on each of the last three seconds. */
-  .urgent-vignette[data-phase='final']::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: color-mix(in srgb, var(--wrong) 16%, transparent);
-    animation: final-flash 0.45s ease-out both;
+  .timer[data-urgent='running'] {
+    --shake: calc(1px + 5px * var(--intensity, 0));
+    animation: timer-shake 0.35s linear infinite;
   }
 
   /* Full screen and menu on the game screen: big frosted buttons, easy to find on a TV. */
@@ -500,61 +438,19 @@
   }
 }
 
-@keyframes timer-beat {
-  0% {
-    transform: scale(var(--beat));
-  }
-  30%,
+@keyframes timer-shake {
+  0%,
   100% {
-    transform: scale(1);
+    transform: translate(0, 0);
   }
-}
-
-@keyframes timer-beat-final {
-  0% {
-    transform: scale(1.55);
-    text-shadow: 0 0 1.5rem var(--wrong);
+  25% {
+    transform: translate(calc(var(--shake) * -1), calc(var(--shake) * 0.4));
   }
-  8% {
-    transform: scale(1.45) translateX(-0.06em);
+  50% {
+    transform: translate(var(--shake), calc(var(--shake) * -0.3));
   }
-  16% {
-    transform: scale(1.35) translateX(0.06em);
-  }
-  24% {
-    transform: scale(1.2) translateX(-0.04em);
-  }
-  40%,
-  100% {
-    transform: scale(1);
-    text-shadow: 0 0 0.5rem color-mix(in srgb, var(--wrong) 50%, transparent);
-  }
-}
-
-@keyframes track-glow {
-  0% {
-    box-shadow: 0 0 2.5rem var(--wrong);
-  }
-  100% {
-    box-shadow: 0 0 1rem color-mix(in srgb, var(--wrong) 50%, transparent);
-  }
-}
-
-@keyframes vignette-beat {
-  0% {
-    opacity: var(--intensity, 0.5);
-  }
-  100% {
-    opacity: calc(var(--intensity, 0.5) * 0.45);
-  }
-}
-
-@keyframes final-flash {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+  75% {
+    transform: translate(calc(var(--shake) * -0.6), calc(var(--shake) * -0.4));
   }
 }
 

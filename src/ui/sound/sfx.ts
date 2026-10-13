@@ -48,31 +48,18 @@ function run(freqs: readonly number[], step: number, extra: Partial<Note> = {}):
   return freqs.map((freq, i) => ({ freq, at: i * step, duration: step * 0.9, ...extra }))
 }
 
-function finalBeat(freq: number) {
-  play([
-    { freq, at: 0, duration: 0.16, type: 'square', volume: 0.09 },
-    { freq: freq * 2, at: 0, duration: 0.08, type: 'triangle', volume: 0.05 },
-    { freq: 80, at: 0, duration: 0.16, type: 'sine', volume: 0.4, slideTo: 45 },
-    { freq: 70, at: 0.22, duration: 0.16, type: 'sine', volume: 0.32, slideTo: 40 },
-  ])
-}
-
 const later = (notes: Note[], seconds: number) => notes.map((n) => ({ ...n, at: n.at + seconds }))
 
 export const SOUNDS = {
-  /** Seconds 10 to 6 of the countdown: a light tick. */
-  tick: () => play([{ freq: 1250, at: 0, duration: 0.04, volume: 0.07 }]),
-  /** Seconds 5 and 4: a low heartbeat under a sharper tick. */
-  heartbeat: () =>
+  /** Ten seconds left: one low two-note warning. */
+  warning: () =>
     play([
-      { freq: 1400, at: 0, duration: 0.045, volume: 0.08 },
-      { freq: 70, at: 0, duration: 0.12, type: 'sine', volume: 0.35, slideTo: 45 },
-      { freq: 65, at: 0.2, duration: 0.14, type: 'sine', volume: 0.3, slideTo: 40 },
+      { freq: 523, at: 0, duration: 0.12, type: 'triangle', volume: 0.12 },
+      { freq: 392, at: 0.14, duration: 0.2, type: 'triangle', volume: 0.12 },
+      { freq: 70, at: 0, duration: 0.16, type: 'sine', volume: 0.3, slideTo: 45 },
     ]),
-  /** Seconds 3, 2 and 1: a rising alarm tone over the heartbeat, higher each second. */
-  final3: () => finalBeat(880),
-  final2: () => finalBeat(988),
-  final1: () => finalBeat(1175),
+  /** Each of the last three seconds: a short tick. */
+  tick: () => play([{ freq: 1250, at: 0, duration: 0.05, volume: 0.09 }]),
   start: () => play(run([523, 784], 0.07)),
   reveal: () => play(run([392, 523, 659, 784, 1047], 0.055)),
   correct: () => play(run([659, 880, 1319], 0.08)),
