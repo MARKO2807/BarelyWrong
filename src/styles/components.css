@@ -705,7 +705,7 @@
   @media (orientation: landscape) and (min-width: 48rem) {
     .login-form-layer {
       place-items: center end;
-      padding: 1rem max(1rem, 3.5vw);
+      padding: 1rem max(1rem, 7.5vw);
     }
 
     .login-form-layer > * {
@@ -871,7 +871,7 @@
       transform: scale(1, 1) rotate(0deg);
     }
     50% {
-      transform: scale(1.008, 0.988) rotate(-0.4deg);
+      transform: scale(1.004, 0.994) rotate(-0.2deg);
     }
   }
 
@@ -881,10 +881,10 @@
       transform: translateY(0) rotate(0deg) scale(1, 1);
     }
     30% {
-      transform: translateY(-1.2%) rotate(-1.2deg) scale(1.01, 0.99);
+      transform: translateY(-0.4%) rotate(-0.4deg) scale(1.004, 0.996);
     }
     65% {
-      transform: translateY(-0.4%) rotate(0.9deg) scale(1, 1.01);
+      transform: translateY(-0.15%) rotate(0.3deg) scale(1, 1.004);
     }
   }
 

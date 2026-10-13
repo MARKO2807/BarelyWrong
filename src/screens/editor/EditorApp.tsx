@@ -100,9 +100,7 @@ function LoginForm({ db }: { db: SupabaseClient }) {
         <div className="flex justify-center">
           <Logo variant="header" className="h-14 w-auto" />
         </div>
-        <h1 className="text-center font-display text-3xl font-extrabold">
-          {t('editor.login.title')}
-        </h1>
+        <h1 className="sr-only">{t('editor.login.title')}</h1>
         <TextInput
           label={t('editor.login.email')}
           type="email"
