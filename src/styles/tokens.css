@@ -76,6 +76,8 @@
   --on-primary: #14071f;
   --accent: #ffb547;
   --on-accent: #14183d;
+  /* Pure black for shadows and the countdown vignette, in both themes. */
+  --shade: #000;
 
   --team-pink: #fb1f92;
   --team-cyan: #03e1fd;
@@ -95,7 +97,7 @@
 
   /* Home page sizes also follow the screen height, so everything fits on short laptop and landscape phone screens. */
   --logo-hero-width: min(32vw, 56vh);
-  --logo-header-height: min(5rem, 9vh);
+  --logo-header-height: min(5.75rem, 10.35vh);
   --header-font-size: min(2.25rem, 4vh);
   --header-icon-size: max(3rem, calc(var(--header-font-size) * 2));
   --tagline-font-size: min(4rem, 6.5vh);
@@ -123,7 +125,7 @@
 @media (orientation: portrait) {
   :root {
     --logo-hero-width: min(84vw, 42vh);
-    --logo-header-height: 2.75rem;
+    --logo-header-height: 3.1625rem;
     --header-font-size: 1.5rem;
     --tagline-font-size: 2.25rem;
     --play-font-size: 2.25rem;
@@ -132,7 +134,9 @@
 }
 
 :root,
-:root[data-theme='dark'] {
+:root[data-theme='dark'],
+/* A night scene (the editor sign-in) keeps dark colours in either theme. */
+[data-scheme='dark'] {
   color-scheme: dark;
 
   --bg: #070b30;

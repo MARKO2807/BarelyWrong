@@ -40,7 +40,7 @@ export function Controls({ game, dispatch, onRematch, onNewGame, onHome, busy }:
   const act = (action: GameAction) => () => dispatch(action)
 
   const next = (
-    <Button size="lg" onClick={act({ type: 'next' })}>
+    <Button size="lg" className="btn-next" onClick={act({ type: 'next' })}>
       {t('game.next')} <Key>{t('game.keys.space')}</Key>
     </Button>
   )

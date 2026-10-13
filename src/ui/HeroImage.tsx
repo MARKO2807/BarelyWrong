@@ -8,6 +8,7 @@ import brain from '../../assets/hero-brain.webp?sprite'
 import brainly from '../../assets/hero-brainly.webp?sprite'
 import hunter from '../../assets/hero-hunter.webp?sprite'
 import type { Theme } from '../storage'
+import { Picture } from './Picture'
 
 /** Where a character stands, in % of the 1672 × 941 background: left edge, width, feet. */
 interface Placement {
@@ -108,37 +109,5 @@ function Character({
     <div className="absolute" style={placementStyle(place)}>
       <Picture picture={picture} sizes="25vw" className={`${motion} h-auto w-full`} />
     </div>
-  )
-}
-
-function Picture({
-  picture,
-  sizes,
-  className,
-  priority = false,
-  onLoad,
-}: {
-  picture: ResponsivePicture
-  sizes: string
-  className?: string
-  priority?: boolean
-  onLoad?: () => void
-}) {
-  return (
-    <picture>
-      {Object.entries(picture.sources).map(([format, srcSet]) => (
-        <source key={format} type={`image/${format}`} srcSet={srcSet} sizes={sizes} />
-      ))}
-      <img
-        src={picture.img.src}
-        width={picture.img.w}
-        height={picture.img.h}
-        alt=""
-        fetchPriority={priority ? 'high' : 'auto'}
-        draggable={false}
-        onLoad={onLoad}
-        className={`block ${className ?? ''}`}
-      />
-    </picture>
   )
 }

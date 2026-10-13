@@ -62,7 +62,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 ### 4.3 Potez
 
 1. Najava tima (ime, boja, ikona) i gumb Kreni.
-2. Pitanje i timer. U zadnjih 10 sekundi timer pocrveni, pulsira i otkucava, a rubovi ekrana blago crvene sve jače. Moguća je pauza; dok je izbornik partije otvoren, vrijeme stoji.
+2. Pitanje i timer. Zadnjih 10 sekundi pojačava se u tri koraka, a slika i zvuk otkucavaju svake sekunde: od 10 do 6 timer pocrveni, lagano otkucava, a rubovi ekrana crvene; na 5 i 4 pridružuju se otkucaji srca i tamniji rubovi; zadnje 3 sekunde brojka se trese, ekran kratko bljesne crveno, a ton otkucaja raste. Moguća je pauza; dok je izbornik partije otvoren, vrijeme stoji.
 3. Odgovor se otkriva klikom na "Otvori odgovor" ili automatski kad istekne vrijeme, uz efekt.
 4. Prikazuju se odgovor i zanimljivost. Drugi prihvatljivi oblici (`accept`) ne prikazuju se u igri: je li odgovor dovoljno točan, timovi odlučuju zajedno.
 5. Točno (1 bod) ili Netočno (0). "Poništi" radi dok se ne prijeđe na sljedeći potez.
@@ -170,7 +170,7 @@ Tamna ili Svijetla; zadano je Tamna, a izbor se pamti. Hero slika i boje mijenja
 - Na početnoj mozak lebdi gore-dolje, Brainly „diše”, a lovac samo jedva primjetno diše na mjestu. Veliki logo lagano lebdi uz neonski sjaj, logo u zaglavlju pulsira sjajem, a gumb "Igraj" lagano pulsira.
 - Bodovi u igri pišu se istim fontom kao odgovor (Rubik ExtraBold).
 - Animacije: otkrivanje odgovora, najava runde, najava Double trouble i Najbržeg prsta, pomicanje na ljestvici, slavlje na kraju. Poštuje se postavka sustava za smanjene animacije.
-- Zvukovi: 8-bitni efekti generirani preko Web Audio API-ja (otkucaji u zadnjih 10 s, otkrivanje, točno, netočno, najave, pobjeda). Po zadanom su isključeni i uključuju se u Postavkama.
+- Zvukovi: 8-bitni efekti generirani preko Web Audio API-ja (otkucaji i otkucaji srca u zadnjih 10 s, otkrivanje, točno, blagi dvotonski zvuk za netočno, najave, pobjeda). Po zadanom su isključeni i uključuju se u Postavkama.
 - Ton tekstova: zaigran, kratak, na hrvatskom, u duhu „Error 404: IQ not found.”
 
 ### 6.6 Slike od korisnika
@@ -331,6 +331,8 @@ Natjecateljski teška pitanja ne ulaze u igru; mogu se spremiti sa statusom `arc
 `npm run import -- <datoteka> [--dry-run]`, `npm run export` (izvoz cijele baze u JSON kao sigurnosna kopija), `npm run embed` (izračun embeddinga za pitanja koja ga nemaju).
 
 ### 9.3 Urednik (`/admin`)
+
+Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu i čudovištem dalje na stazi, koji se lagano miču; obrazac za prijavu stoji na tamnom zidu desno, a na mobitelu u sredini.
 
 - Prijava jednim uredničkim računom (kreira se ručno u Supabaseu).
 - Popis pitanja s filtrima (status, tema, format, težina, tekst) i statistikom (koliko je puta prikazano, postotak točnih).

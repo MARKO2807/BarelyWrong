@@ -8,6 +8,8 @@ import { TextInput } from '../../ui/editor/fields'
 import { useDocumentTitle } from '../../ui/useDocumentTitle'
 import { EditorDataProvider } from './EditorData'
 import { EditorLayout, EditorRoutes } from './EditorLayout'
+import { LoginScene } from './LoginScene'
+import { Logo } from '../../ui/Logo'
 
 /** /admin (spec 9.3): loaded on its own, so the game never downloads it. */
 export function EditorApp() {
@@ -82,9 +84,9 @@ function LoginForm({ db }: { db: SupabaseClient }) {
   const [failed, setFailed] = useState(false)
 
   return (
-    <Notice>
+    <LoginScene>
       <form
-        className="flex w-full max-w-sm flex-col gap-4 rounded-lg border-2 border-border bg-surface p-6 text-left text-lg"
+        className="login-panel flex flex-col gap-4 rounded-lg p-6 text-left text-lg sm:p-8"
         onSubmit={(event) => {
           event.preventDefault()
           setBusy(true)
@@ -95,7 +97,12 @@ function LoginForm({ db }: { db: SupabaseClient }) {
           })
         }}
       >
-        <h1 className="font-display text-3xl font-extrabold">{t('editor.login.title')}</h1>
+        <div className="flex justify-center">
+          <Logo variant="header" className="h-14 w-auto" />
+        </div>
+        <h1 className="text-center font-display text-3xl font-extrabold">
+          {t('editor.login.title')}
+        </h1>
         <TextInput
           label={t('editor.login.email')}
           type="email"
@@ -120,7 +127,10 @@ function LoginForm({ db }: { db: SupabaseClient }) {
         <Button type="submit" disabled={busy}>
           {busy ? t('editor.login.submitting') : t('editor.login.submit')}
         </Button>
+        <ButtonLink variant="ghost" size="md" to={ROUTES.home}>
+          {t('editor.nav.home')}
+        </ButtonLink>
       </form>
-    </Notice>
+    </LoginScene>
   )
 }
