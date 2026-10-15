@@ -22,23 +22,13 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 
 ## 3. Arhitektura
 
-| Mapa | Sadržaj |
-|---|---|
-| `src/engine/` | Pravila igre kao čisti TypeScript bez Reacta: stanje, akcije, reducer, selektori. Redoslijed rundi, Double trouble, Najbrži prst, rotacija timova, bodovanje i odabir pitanja žive samo ovdje i pokriveni su testovima. |
-| `src/storage/` | Jedino mjesto koje dira local storage. |
-| `src/data/` | Dohvat pitanja iz Supabasea, slanje statistike i prijava. |
-| `src/i18n/hr.ts` | Svi tekstovi sučelja na jednom mjestu, uz jednostavan `t()` helper. |
-| `src/screens/`, `src/ui/` | Ekrani i komponente. Bez logike igre. |
-| `supabase/migrations/` | Shema, pogledi i RLS. |
-| `scripts/` | Uvoz, izvoz, izračun embeddinga i provjera duplikata. |
-| `content/` | Pravilnici i serije pitanja (JSON) prije uvoza. |
-| `assets/` | Logo i hero slike od korisnika. |
+Mape, moduli i tok podataka u kodu opisani su u `docs/ARCHITECTURE.md`. Ovdje su pravila koja kod mora poštovati.
 
 **Tok podataka u partiji.** Na početku partije aplikacija dohvati sva odobrena pitanja, filtrira ona koja su već odigrana na ovom uređaju i odmah odabere sva pitanja za cijelu partiju (sve runde, Najbrži prst i jedno rezervno pitanje procjene za neriješeno). Odabrana pitanja spremaju se u stanje partije. Pitanje se smatra odigranim kad se prikaže na ekranu; neiskorišteno rezervno pitanje i pitanja iz prekinute partije ostaju za sljedeći put. Partija se zatim vodi i sprema lokalno nakon svake akcije, pa kratki prekid interneta ne smeta, a nastavak nakon zatvaranja preglednika radi bez mreže.
 
 **Statistika i prijave** šalju se u pozadini. Ako nema mreže, čuvaju se u lokalnom redu i šalju kasnije. Statistika za potez šalje se tek kad se prijeđe na sljedeći potez, kako "Poništi" ne bi kvario podatke.
 
-**Storage sloj** izlaže funkcije poput `loadGame`, `saveGame`, `clearGame`, `getPlayedIds`, `markPlayed`, `resetPlayed`, `loadSettings`, `saveSettings`, `loadLastTeams`, `saveLastTeams`. Ključevi imaju prefiks `bw:` i broj verzije sheme; kad se verzija promijeni, postoji migracija starih podataka.
+**Storage sloj** izlaže funkcije poput `loadGame`, `saveGame`, `clearGame`, `getPlayedIds`, `markPlayed`, `resetPlayed`, `unmarkPlayed`, `loadSettings`, `saveSettings`, `loadLastSetup`, `saveLastSetup`, a red za slanje `enqueue`, `readOutbox`, `removeFromOutbox`. Ključevi imaju prefiks `bw:` i broj verzije sheme; kad se verzija promijeni, postoji migracija starih podataka.
 
 ## 4. Pravila igre
 
@@ -343,7 +333,7 @@ Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu 
 
 ## 10. Faze rada
 
-Na početku svake faze predloži plan i pričekaj potvrdu.
+Faze 1–7 su završene i aplikacija je objavljena (listopad 2026.). Daljnji rad ide po `docs/ROADMAP.md`. Na početku svakog koraka predloži plan i pričekaj potvrdu.
 
 1. **Temelj:** Vite, React, TypeScript, Tailwind, tokeni, fontovi, teme, Netlify konfiguracija. Početna s hero slikama i logom, popupi "Pravila" i Postavke.
 2. **Pravila igre i spremanje:** `src/engine` i `src/storage`, s testovima za redoslijed rundi, rotaciju timova, Double trouble, Najbrži prst, procjenu, bodovanje, Poništi, neriješeno i odabir pitanja.

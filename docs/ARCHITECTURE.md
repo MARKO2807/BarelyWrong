@@ -152,4 +152,4 @@ Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.t
 - `src/i18n/i18n.test.ts`: tekstovi;
 - `src/data/content.test.ts`: sve serije pitanja.
 
-Prije commita treba proći `npx tsc -b`, `npm run lint`, `npm run test` i `npx prettier --write`.
+Prije commita mora proći `npm run check` (tsc, eslint, vitest). Prettier pokreće hook `.claude/hooks/format.mjs` nakon svake izmjene datoteke koju napravi Claude Code (`.claude/settings.json`); datoteke iz `.prettierignore` (`docs`, `content`, `CLAUDE.md`) se ne formatiraju.

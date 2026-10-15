@@ -1,46 +1,53 @@
-# Barely Wrong — smjer razvoja
+# Barely Wrong — plan razvoja
 
-Dogovoreni smjer nakon prvog izdanja (listopad 2026.). Ovo nije specifikacija: prije svakog koraka predloži detaljan plan i pričekaj potvrdu, a kad se nešto dogovori, upiši to u `docs/SPEC.md`.
+Ovo nije specifikacija. Prije svakog koraka predloži detaljan plan i pričekaj potvrdu (skill `sljedeci-korak`); dogovoreno ponašanje upiši u `docs/SPEC.md`. Kad je korak gotov, označi ga s `[x]`, dodaj datum i pomakni „Sljedeći korak”.
 
 ## Stanje (15. 10. 2026.)
 
-- Aplikacija je objavljena na barelywrong.com (Netlify). Partija, urednik, statistika i prijave rade.
-- Oko 3.500 odobrenih pitanja na hrvatskom, u deset tema i tri formata. Korisnik je zasad rekao da ne dodajemo nova pitanja.
-- Dorađeno je za TV, laptop i mobitel (uspravno i položeno).
+- **Objava:** barelywrong.com (Netlify). Partija, urednik, statistika i prijave rade.
+- **Pitanja:** oko 3.500 odobrenih na hrvatskom, u 10 tema i 3 formata. Nova pitanja ne dodajemo dok korisnik ne kaže drukčije.
+- **Uređaji:** dorađeno za TV, laptop i mobitel (uspravno i položeno).
 
-## 1. Pitanja za partiju bira server (prvo)
+**Sljedeći korak:** 1 — pitanja za partiju bira server.
 
-Igra danas na početku svake partije učita sva odobrena pitanja (`src/data/questions.ts`). S desecima tisuća pitanja na više jezika to će biti sporo.
+## Koraci
+
+### [ ] 1. Pitanja za partiju bira server
+
+Igra na početku svake partije učita sva odobrena pitanja (`src/data/questions.ts`). S desecima tisuća pitanja na više jezika to postaje sporo.
 
 - Funkcija u bazi (RPC) prima jezik, potrebne vrste rundi i količine te id-jeve odigranih pitanja, a vraća samo pitanja za partiju.
 - `selectQuestions` u engineu ostaje i dalje radi raspored po rundama.
 - Lokalni izvor (`content/batches`) ostaje za razvoj.
 
-## 2. Engleski jezik (must)
+### [ ] 2. Engleski jezik (must)
 
-- **Sučelje:** `src/i18n/en.ts` s istim ključevima kao `hr.ts` (test da se ključevi podudaraju), izbor jezika, adrese `/en/...`, `hreflang`, naslov i opis te OG slika po jeziku.
+- **Sučelje:**
+  - `src/i18n/en.ts` s istim ključevima kao `hr.ts` (test da se podudaraju);
+  - izbor jezika;
+  - adrese `/en/...` i `hreflang`;
+  - naslov, opis i OG slika po jeziku.
 - **Pitanja:** svako pitanje dobiva oznaku dosega:
-  - `universal` se može prevesti, kao novi redak u `question_texts` s `lang = 'en'` i istim id-jem;
+  - `universal` se može prevesti (novi redak u `question_texts`, `lang = 'en'`, isti id);
   - `local` (hrvatski kut) ostaje samo na hrvatskom.
-- **Prijevod:** AI nacrt uz pregled urednika, s istim pravilima kao u SPEC 8.4 (zanimljivost, provjera izvora).
-- **Pitanja samo na engleskom:** dodaju se postupno.
-- **Statistika:** `answer_events` dobiva jezik, jer težina ovisi o publici.
-- **Pogled:** `game_questions` i nova funkcija iz koraka 1 filtriraju po jeziku.
+- **Prijevod:** AI nacrt uz pregled urednika, s istim pravilima kao SPEC 8.4. Pitanja samo na engleskom dodaju se postupno.
+- **Statistika:** `answer_events` dobiva jezik.
+- **Filtriranje po jeziku:** `game_questions` i funkcija iz koraka 1.
 
-## 3. Stalni dotok pitanja
+### [ ] 3. Stalni dotok pitanja
 
-- **Alat za serije:** izvor, pa nacrt pitanja, pa automatska provjera da se citirani dio zaista nalazi u izvoru, pa duplikati, pa `review` u Uredniku. Ručni postupak koji smo koristili pretvara se u skriptu.
-- **Prijedlozi igrača:** obrazac „Predloži pitanje” (s obaveznim izvorom) sprema pitanje sa statusom `review`. Prijedlog može nositi potpis predlagatelja.
-- **Suradnje:** organizatori pub kvizova i kviz klubovi, uz potpis ili licencu. Pitanja HKS-a se i dalje nikad ne kopiraju doslovno.
-- **Paketi** preko `tags`: blagdani, desetljeća, sportska natjecanja, gradovi, firme. Mogućnost naplate.
+- **Skripta za serije:** izvor → nacrt → automatska provjera da se citirani dio nalazi u izvoru → duplikati → `review` u Uredniku.
+- **Prijedlozi igrača:** obrazac „Predloži pitanje” s obaveznim izvorom sprema pitanje sa statusom `review`, uz mogući potpis.
+- **Suradnje:** pub kvizovi i kviz klubovi, uz potpis ili licencu. Pitanja HKS-a se i dalje ne kopiraju doslovno.
+- **Paketi** preko `tags`: blagdani, desetljeća, natjecanja, gradovi, firme. Mogućnost naplate.
 - **Cilj:** 10.000+ pitanja po jeziku. Jedna partija troši oko 50 pitanja.
 
-## 4. Kvaliteta iz podataka
+### [ ] 4. Kvaliteta iz podataka
 
-- Težina se podešava prema postotku točnih odgovora iz `answer_events` (po jeziku).
-- Pitanja koja se često prijavljuju i pitanja na koja svi odgovore točno automatski idu na pregled.
+- Težina se podešava prema postotku točnih odgovora (po jeziku).
+- Pitanja koja se često prijavljuju i ona na koja svi odgovore točno automatski idu na pregled.
 
-## 5. Kasnije
+### [ ] 5. Kasnije
 
 - Igra na više mobitela: svaki tim se javlja sa svog uređaja (Supabase Realtime).
-- Ostalo iz SPEC 11: izbor težine, pitanja sa slikom i zvukom (`media`), Najbrži prst s drugim pokušajem.
+- Iz SPEC 11: izbor težine, pitanja sa slikom i zvukom (`media`), Najbrži prst s drugim pokušajem.
