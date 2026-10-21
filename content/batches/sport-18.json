@@ -9,7 +9,10 @@
     "accept": [],
     "note": "U finalu u Parizu pobijedio je Reims 4:3.",
     "source": "Wikipedia (en): 1956 European Cup final",
-    "tags": ["nogomet", "Kup prvaka"],
+    "tags": [
+      "nogomet",
+      "Kup prvaka"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -20,10 +23,15 @@
     "difficulty": 3,
     "question": "Koji japanski igrač bejzbola u MLB-u nastupa i kao vrhunski bacač i kao vrhunski udarač?",
     "answer": "Shohei Ohtani",
-    "accept": ["Ohtani"],
+    "accept": [
+      "Ohtani"
+    ],
     "note": "Takav igrač na engleskom se zove „two-way player”.",
     "source": "Wikipedia (en): Shohei Ohtani",
-    "tags": ["bejzbol", "Japan"],
+    "tags": [
+      "bejzbol",
+      "Japan"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -37,7 +45,10 @@
     "accept": [],
     "note": "Igra se u kazalištu Crucible, u koje stane manje od tisuću gledatelja.",
     "source": "Wikipedia (en): World Snooker Championship",
-    "tags": ["snooker", "Engleska"],
+    "tags": [
+      "snooker",
+      "Engleska"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -48,10 +59,15 @@
     "difficulty": 3,
     "question": "Koja je zemlja 1987. osvojila prvo Svjetsko prvenstvo u ragbiju?",
     "answer": "Novi Zeland",
-    "accept": ["New Zealand"],
+    "accept": [
+      "New Zealand"
+    ],
     "note": "Prvenstvo su zajedno organizirali Novi Zeland i Australija.",
     "source": "Wikipedia (en): 1987 Rugby World Cup",
-    "tags": ["ragbi", "svjetska prvenstva"],
+    "tags": [
+      "ragbi",
+      "svjetska prvenstva"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -62,12 +78,18 @@
     "difficulty": 3,
     "question": "Kako se zove jedriličarski trofej koji se smatra najstarijim trofejem u međunarodnom sportu?",
     "answer": "America's Cup",
-    "accept": ["Americas Cup"],
+    "accept": [
+      "Americas Cup"
+    ],
     "note": "Ime nosi po jahti America, koja je 1851. pobijedila u utrci oko otoka Wighta.",
     "source": "Wikipedia (en): America's Cup",
-    "tags": ["jedrenje", "trofeji"],
+    "tags": [
+      "jedrenje",
+      "trofeji"
+    ],
     "checkedAt": "2026-10-21",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ponavlja postojeće pitanje (sport-0259 / sport-0183)."
   },
   {
     "id": "sport-0397",
@@ -79,7 +101,10 @@
     "accept": [],
     "note": "Nakon toga igrač mora osvojiti dva poena zaredom da bi dobio gem.",
     "source": "Wikipedia (en): Tennis scoring system",
-    "tags": ["tenis", "nazivi"],
+    "tags": [
+      "tenis",
+      "nazivi"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -90,10 +115,15 @@
     "difficulty": 3,
     "question": "Koji je nogometaš prvi postigao gol na pet različitih svjetskih prvenstava?",
     "answer": "Cristiano Ronaldo",
-    "accept": ["Ronaldo"],
+    "accept": [
+      "Ronaldo"
+    ],
     "note": "Zabijao je na svjetskim prvenstvima od 2006. do 2022.",
     "source": "Wikipedia (en): Cristiano Ronaldo",
-    "tags": ["nogomet", "rekordi"],
+    "tags": [
+      "nogomet",
+      "rekordi"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -104,10 +134,15 @@
     "difficulty": 3,
     "question": "Koji je francuski biciklist prvi pet puta osvojio Tour de France?",
     "answer": "Jacques Anquetil",
-    "accept": ["Anquetil"],
+    "accept": [
+      "Anquetil"
+    ],
     "note": "Pobijedio je 1957. te četiri godine zaredom od 1961. do 1964.",
     "source": "Wikipedia (en): Jacques Anquetil",
-    "tags": ["biciklizam", "Tour de France"],
+    "tags": [
+      "biciklizam",
+      "Tour de France"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -118,10 +153,15 @@
     "difficulty": 2,
     "question": "Koji je nogometaš jedini osvojio tri svjetska prvenstva kao igrač?",
     "answer": "Pelé",
-    "accept": ["Pele"],
+    "accept": [
+      "Pele"
+    ],
     "note": "Prvo je osvojio 1958. sa 17 godina.",
     "source": "Wikipedia (en): Pelé",
-    "tags": ["nogomet", "Brazil"],
+    "tags": [
+      "nogomet",
+      "Brazil"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -132,10 +172,15 @@
     "difficulty": 3,
     "question": "Koji je talijanski alpski skijaš imao nadimak „La Bomba”?",
     "answer": "Alberto Tomba",
-    "accept": ["Tomba"],
+    "accept": [
+      "Tomba"
+    ],
     "note": "Osvojio je tri olimpijska zlata, na Igrama 1988. i 1992.",
     "source": "Wikipedia (en): Alberto Tomba",
-    "tags": ["skijanje", "Italija"],
+    "tags": [
+      "skijanje",
+      "Italija"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -146,10 +191,15 @@
     "difficulty": 2,
     "question": "Koja je hrvatska skakačica u vis bila svjetska prvakinja 2007. i 2009.?",
     "answer": "Blanka Vlašić",
-    "accept": ["Vlašić"],
+    "accept": [
+      "Vlašić"
+    ],
     "note": "Ime je dobila po Casablanci, gdje je otac nastupio na Mediteranskim igrama.",
     "source": "Wikipedia (en): Blanka Vlašić",
-    "tags": ["atletika", "svjetska prvenstva"],
+    "tags": [
+      "atletika",
+      "svjetska prvenstva"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -160,10 +210,15 @@
     "difficulty": 3,
     "question": "Koji je hrvatski plivač na Olimpijskim igrama 2004. u Ateni osvojio srebro na 50 m slobodno?",
     "answer": "Duje Draganja",
-    "accept": ["Draganja"],
+    "accept": [
+      "Draganja"
+    ],
     "note": "Godinu kasnije u Montrealu bio je i svjetski viceprvak na istoj dionici.",
     "source": "Wikipedia (en): Duje Draganja",
-    "tags": ["plivanje", "Olimpijske igre"],
+    "tags": [
+      "plivanje",
+      "Olimpijske igre"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -177,7 +232,10 @@
     "accept": [],
     "note": "Meč je počeo u četiri ujutro, da bi ga Amerikanci gledali u udarnom terminu.",
     "source": "Wikipedia (en): The Rumble in the Jungle",
-    "tags": ["boks", "Afrika"],
+    "tags": [
+      "boks",
+      "Afrika"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -188,10 +246,16 @@
     "difficulty": 3,
     "question": "Koji je talijanski vozač 1950. postao prvi svjetski prvak Formule 1?",
     "answer": "Giuseppe Farina",
-    "accept": ["Nino Farina", "Farina"],
+    "accept": [
+      "Nino Farina",
+      "Farina"
+    ],
     "note": "Naslov je osvojio u Alfa Romeu.",
     "source": "Wikipedia (en): Nino Farina",
-    "tags": ["Formula 1", "Italija"],
+    "tags": [
+      "Formula 1",
+      "Italija"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   },
@@ -202,12 +266,19 @@
     "difficulty": 3,
     "question": "Koji je švedski tenisač pet godina zaredom, od 1976. do 1980., osvajao Wimbledon?",
     "answer": "Björn Borg",
-    "accept": ["Borg", "Bjorn Borg"],
+    "accept": [
+      "Borg",
+      "Bjorn Borg"
+    ],
     "note": "Šest puta je osvojio i Roland Garros, a karijeru je prekinuo s 25 godina.",
     "source": "Wikipedia (en): Björn Borg",
-    "tags": ["tenis", "Wimbledon"],
+    "tags": [
+      "tenis",
+      "Wimbledon"
+    ],
     "checkedAt": "2026-10-21",
-    "status": "approved"
+    "status": "archived",
+    "editorNote": "Ponavlja postojeće pitanje (sport-0259 / sport-0183)."
   },
   {
     "id": "sport-0407",
@@ -216,10 +287,16 @@
     "difficulty": 2,
     "question": "Koji je košarkaš NBA-a zbog veličine, brzine i snage dobio nadimak „Greek Freak”?",
     "answer": "Giannis Antetokounmpo",
-    "accept": ["Antetokounmpo", "Janis Adetokunbo"],
+    "accept": [
+      "Antetokounmpo",
+      "Janis Adetokunbo"
+    ],
     "note": "Rođen je i odrastao u Ateni u obitelji nigerijskih doseljenika.",
     "source": "Wikipedia (en): Giannis Antetokounmpo",
-    "tags": ["košarka", "NBA"],
+    "tags": [
+      "košarka",
+      "NBA"
+    ],
     "checkedAt": "2026-10-21",
     "status": "approved"
   }
