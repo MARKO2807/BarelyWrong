@@ -25,6 +25,9 @@ Važne odluke i razlozi, da se ne otvaraju ponovno bez novog razloga. Nova odluk
 
 ## Tehnika
 
+- **Razvoj u Claude Codeu, ne u Projektu na claude.ai** (listopad 2026.). Code radi izravno u repozitoriju: upute (`CLAUDE.md`), dokumentacija, skillovi, hook i memorija uvijek odgovaraju stvarnom kodu. Projekt na claude.ai ima samo uploadane kopije i ne može pokretati naredbe. (ARCHITECTURE 14)
+- **Alati za pitanja su u repozitoriju** (`npm run q`), ne u privremenim mapama sesija, da svaka sesija nastavlja bez učenja ispočetka.
+
 - **Logika igre je čisti TypeScript** (`src/engine`) s testovima. Vrijeme i slučajnost dolaze izvana, pa su testovi deterministički.
 - **Svi tekstovi su u `hr.ts`, a sve boje su tokeni.** Engleski i nove teme se dodaju bez diranja komponenti; to provjeravaju testovi.
 - **Slike preko vite-imagetools** (WebP/AVIF u više širina) i lazy rute. Mobilni Lighthouse je oko 90, a desktop 100.

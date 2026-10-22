@@ -34,9 +34,10 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - `npm run check` (tsc + eslint + vitest; prije svakog commita), `npm run test`, `npm run test:watch`, `npm run lint`, `npm run format`
 - `npm run db:push` (migracije na Supabase, pokreće korisnik), `npm run db:check` (provjera pravila pristupa)
 - `npm run import -- <datoteka> [--dry-run] [--allow-similar]` (uvoz serije; dodijeljene id-jeve upisuje natrag u datoteku)
+- `npm run q -- <naredba>` (alati za pisanje i ispravak pitanja; popis: `npm run q`)
 - `npm run export` (sigurnosna kopija baze u `backups/`), `npm run embed` (embeddingi; model se prvi put preuzme u `.cache/`)
 - `npm run brand` (favikone i slika za pregled linka u `public/`, iz `assets/logo.png`)
-- Skripte za bazu čitaju `.env.local`; `import`, `export` i `embed` prijavljuju se uredničkim računom (`BW_EDITOR_EMAIL`, `BW_EDITOR_PASSWORD`).
+- Skripte za bazu čitaju `.env.local`; `import`, `export`, `embed` i `q` prijavljuju se uredničkim računom (`BW_EDITOR_EMAIL`, `BW_EDITOR_PASSWORD`).
 
 ## Pravila rada
 

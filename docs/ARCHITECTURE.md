@@ -36,7 +36,8 @@ main.tsx ──► boot.tsx ──► App (SettingsProvider, GameSessionProvider
 | `src/i18n/` | `hr.ts` sa svim tekstovima i helperi `t()` i `tList()`. | Tekst za korisnika nikad izravno u komponenti. |
 | `src/styles/` | `tokens.css` (boje, veličine, teme, Tailwind `@theme`), `base.css`, `components.css` (klase komponenti, animacije). | Hex boje samo u `tokens.css` (provjerava test). |
 | `supabase/migrations/` | Shema, pogledi, RLS, funkcije za uvoz i duplikate. | Migracije pokreće korisnik (`npm run db:push`). |
-| `scripts/` | Uvoz, izvoz, embeddingi, provjera pravila pristupa, slike za brand. | Čitaju `.env.local`. |
+| `scripts/` | Uvoz, izvoz, embeddingi, provjera pravila pristupa, alati za pisanje pitanja (`questions.ts`), slike za brand. | Čitaju `.env.local`. |
+| `content/drafts/` | Nacrti serija za `npm run q` (nisu u gitu). | |
 | `content/batches/` | Serije pitanja u JSON formatu (SPEC 9.1). Nakon uvoza nose `id` iz baze. | Lokalni izvor pitanja kad je `VITE_QUESTIONS_SOURCE=local`. |
 | `assets/` | Logo, hero pozadine i likovi, slike za prijavu urednika (WebP). | Slike od korisnika; izvornici su u `Desktop/final new/`. |
 | `public/` | `robots.txt`, favikone, `og-image.jpg`. | Favikone i OG slika rade se naredbom `npm run brand`. |
@@ -127,11 +128,13 @@ Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.t
 
 ## 10. Uvoz pitanja (postupak)
 
-1. Serija se piše u `content/batches/<tema>-NN.json` prema SPEC 8 i 9.1. Svaka činjenica ima izvor, a svako pitanje zanimljivost (`note`).
-2. `npm run test` (test `src/data/content.test.ts` provjerava format, jedinstvene id-jeve, `note` i oblik točno/netočno).
-3. `npm run import -- content/batches/<datoteka>.json --dry-run`: Zod provjera, normalizacija, duplikati (tekst, odgovor, značenje) i preklapanja odgovora. Izvještaj se pregleda.
-4. `npm run import -- …` upisuje seriju u jednoj transakciji i zapisuje dodijeljene id-jeve natrag u datoteku. Ta izmjena datoteke ide u commit.
-5. `npm run embed` za nova pitanja (ako ih uvoz već nije izračunao) i pregled u Uredniku.
+Korak po korak vodi skill `serija-pitanja`; alati su u `scripts/questions.ts` (`npm run q`).
+
+1. Nacrt se piše u `content/drafts/<tema>-NN.json` (nije u gitu): pitanje, odgovor, zanimljivost, članak Wikipedije kao izvor i „igle”, izrazi koji se moraju naći u članku. `npm run q -- check` dohvati članke (spremaju se u `.cache/wiki/`) i provjeri igle.
+2. `npm run q -- review` iz nacrta napravi `content/batches/<tema>-NN.json` prema SPEC 9.1 i pokrene `npm run import -- … --dry-run`: Zod provjera, normalizacija, duplikati (tekst, odgovor, značenje) i preklapanja odgovora. Stavke s greškom izbaci iz nacrta, a upozorenja ispiše.
+3. `npm run q -- import … --force` (ili `npm run import -- …`) upisuje seriju u jednoj transakciji i zapisuje dodijeljene id-jeve natrag u datoteku. Ta izmjena datoteke ide u commit. Serija s id-jevima ne može se ponovno izgraditi iz nacrta.
+4. `npm run test` (test `src/data/content.test.ts` provjerava format, jedinstvene id-jeve, `note` i oblik točno/netočno) i `npm run embed` za nova pitanja ako ih uvoz nije izračunao.
+5. Ispravci već uvezenih pitanja: `npm run q -- set <id> note|source "…"` i `npm run q -- archive "razlog" <id>…` mijenjaju bazu i datoteku serije zajedno.
 
 ## 11. Izgled
 
@@ -157,3 +160,19 @@ Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.t
 - `src/data/content.test.ts`: sve serije pitanja.
 
 Prije commita mora proći `npm run check` (tsc, eslint, vitest). Prettier pokreće hook `.claude/hooks/format.mjs` nakon svake izmjene datoteke koju napravi Claude Code (`.claude/settings.json`); datoteke iz `.prettierignore` (`docs`, `content`, `CLAUDE.md`) se ne formatiraju.
+
+## 14. Rad s Claude Codeom
+
+Projekt se razvija u Claude Codeu (desktop aplikacija, kartica Code), u ovoj mapi. Svaka nova sesija automatski dobije sve što treba; ništa se ne kopira ručno.
+
+| Što | Gdje | Kako se koristi |
+|---|---|---|
+| Upute projekta | `CLAUDE.md` | Učitava se u svaku sesiju; uvozi `docs/ROADMAP.md` i ovaj dokument. |
+| Znanje o projektu | `docs/` | SPEC, DECISIONS i ostalo čitaju se po potrebi. |
+| Postupci | `.claude/skills/` | `sljedeci-korak`, `provjera`, `objava`, `serija-pitanja`, `dokumentacija`; pokreću se sami kad zadatak odgovara opisu. |
+| Automatika | `.claude/settings.json`, `.claude/hooks/` | Prettier nakon svake izmjene; dopuštenja za sigurne naredbe (testovi, git status, alati za čitanje pitanja) bez pitanja korisnika. |
+| Dev server | `.claude/launch.json` | `dev` i `preview` za pregled u pregledniku. |
+| Memorija | izvan repozitorija, u mapi Claude Codea | Kratke napomene između sesija (npr. podsjetnici korisnika). |
+
+Projekt na claude.ai (Projects) ne može čitati ni mijenjati kod; za razgovor bez koda u njega se mogu uploadati datoteke iz `docs/`, ali izvor istine ostaje ovdje.
+

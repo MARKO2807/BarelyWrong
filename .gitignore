@@ -15,6 +15,9 @@ Thumbs.db
 .idea
 .claude/settings.local.json
 
+# Question drafts (npm run q); the batches in content/batches are what counts
+content/drafts
+
 # Embedding model (npm run embed / import) and database backups (npm run export)
 .cache
 backups

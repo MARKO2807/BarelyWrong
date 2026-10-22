@@ -1,4 +1,24 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(npm run check)",
+      "Bash(npm run test)",
+      "Bash(npm run test:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run build)",
+      "Bash(npm run q)",
+      "Bash(npm run q -- find:*)",
+      "Bash(npm run q -- search:*)",
+      "Bash(npm run q -- show:*)",
+      "Bash(npm run q -- wiki:*)",
+      "Bash(npm run q -- check:*)",
+      "Bash(npm run q -- review:*)",
+      "Bash(npm run q -- count)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
