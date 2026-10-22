@@ -2,10 +2,10 @@
 
 Ovo nije specifikacija. Prije svakog koraka predloži detaljan plan i pričekaj potvrdu (skill `sljedeci-korak`); dogovoreno ponašanje upiši u `docs/SPEC.md`. Kad je korak gotov, označi ga s `[x]` u popisu i u naslovu koraka, dodaj datum i pomakni „Sljedeći korak”.
 
-## Stanje (18. 10. 2026.)
+## Stanje (22. 10. 2026.)
 
 - **Objava:** barelywrong.com (Netlify). Partija, urednik, statistika i prijave rade.
-- **Pitanja:** oko 3.500 odobrenih na hrvatskom, u 10 tema i 3 formata. Nova pitanja ne dodajemo dok korisnik ne kaže drukčije.
+- **Pitanja:** oko 5.000 odobrenih na hrvatskom, u 10 tema i 3 formata. Daljnji rast tek nakon koraka 1 (igra ih još učitava sva na startu).
 - **Uređaji:** dorađeno za TV, laptop i mobitel (uspravno i položeno).
 
 **Sljedeći korak:** 1 — pitanja za partiju bira server. Korisnik odlučuje kada se kreće; nijedan korak još nije započet.
