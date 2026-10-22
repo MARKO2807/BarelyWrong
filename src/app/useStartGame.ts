@@ -1,13 +1,7 @@
 import { useCallback, useState } from 'react'
 import { useNavigate } from 'react-router'
-import { fetchQuestions } from '../data/questions'
-import {
-  createGame,
-  questionFitsKind,
-  type GameSetup,
-  type Shortage,
-  type ShortageKind,
-} from '../engine'
+import { fetchCandidates, fetchIdsOfKinds } from '../data/questions'
+import { createGame, type GameSetup, type Shortage, type ShortageKind } from '../engine'
 import { getPlayedIds, saveLastSetup, unmarkPlayed } from '../storage'
 import { useGameSession } from './GameSession'
 import { ROUTES } from './routes'
@@ -30,13 +24,10 @@ export function useStartGame() {
     async (setup: GameSetup, restore: readonly ShortageKind[] = []) => {
       setStatus('loading')
       try {
-        const pool = await fetchQuestions()
-        if (restore.length > 0) {
-          unmarkPlayed(
-            pool.filter((q) => restore.some((kind) => questionFitsKind(q, kind))).map((q) => q.id),
-          )
-        }
-        const result = createGame({ ...setup, pool, playedIds: getPlayedIds(), rng: Math.random })
+        if (restore.length > 0) unmarkPlayed(await fetchIdsOfKinds(getPlayedIds(), restore))
+        const playedIds = getPlayedIds()
+        const pool = await fetchCandidates({ teamCount: setup.teams.length, playedIds })
+        const result = createGame({ ...setup, pool, playedIds, rng: Math.random })
         setStatus('idle')
         if (!result.ok) {
           setShortage({ setup, shortages: result.shortages, afterRestore: restore.length > 0 })

@@ -65,7 +65,7 @@ roundIntro → turnIntro → question → answer → judged → (sljedeći tim: 
 ## 4. Tok partije u aplikaciji
 
 1. **Nova partija** (`SetupScreen`): timovi (2–4, ime, boja), duljina (12 ili 6 rundi), Najbrži prst, vrijeme po pitanju. `validateSetup` je u engineu. Zadnje postavke pamte se lokalno (`lastSetup`).
-2. **Start** (`useStartGame`): `fetchQuestions()` → `createGame` → `GameSession.begin` → `/game`.
+2. **Start** (`useStartGame`): `fetchCandidates()` → `createGame` → `GameSession.begin` → `/game`.
 3. **Igra** (`GameScreen`): `GameSession.dispatch(action)` pokrene `gameReducer`, spremi stanje (`saveGame`), označi prikazano pitanje kao odigrano (`markPlayed`) i preda konačne odgovore redu za slanje (`submit`). Prečaci s tipkovnice su u `ui/game/keyboard.ts` (`commandForKey`). Gumbi su u `ui/game/Controls.tsx`, a prikaz po koraku u `ui/game/stages.tsx`.
 4. **Prekid i nastavak.** Pri zatvaranju kartice partija se sprema s pauziranim timerom (`pagehide`). Otvaranje `/game` nastavlja spremljenu partiju (`resume`). Izlazak usred partije traži potvrdu (`useBlocker` i `beforeunload`).
 5. **Zvuk** (`ui/sound/sfx.ts`): 8-bitni efekti sintetizirani Web Audio API-jem, bez audio datoteka. Isključeni su po zadanom. `useGameSounds` ih pušta prema promjenama koraka; `GameTimer` pušta upozorenje na 10 s i otkucaje u zadnje 3 s.
@@ -75,8 +75,12 @@ roundIntro → turnIntro → question → answer → judged → (sljedeći tim: 
 
 `src/data/questions.ts`, prema varijabli `VITE_QUESTIONS_SOURCE`:
 
-- `supabase` (produkcija na Netlifyju): čita pogled `game_questions` (samo `approved`, jezik `hr`) u stranicama po 1.000 redaka (`readAll`). **Učitava sva odobrena pitanja na početku svake partije**; s puno više pitanja to treba zamijeniti funkcijom u bazi koja vrati samo pitanja za partiju (vidi `docs/ROADMAP.md`).
-- `local` (zadano u razvoju): učita sve datoteke iz `content/batches/*.json`, preskoči `rejected` i `archived`. Pitanjima koja još nisu uvezena dodijeli privremeni id (`batchIds.ts`).
+`fetchCandidates({ teamCount, playedIds })` vraća samo kandidate za jednu partiju: za svaku vrstu runde (tema otvorenih pitanja, točno/netočno, procjena) i težinu najviše `candidatesPerDifficulty(teamCount)` = 2 × broj timova (najmanje 4) nasumičnih neodigranih pitanja, ukupno najviše oko 290. Engine (`selectQuestions`) iz njih slaže partiju kao prije; test `src/engine/candidates.test.ts` provjerava da kandidati daju partiju (ili iste manjkove) kad god bi je dala sva pitanja.
+
+- `supabase` (produkcija na Netlifyju): poziva funkciju `game_candidates(p_lang, p_per_difficulty, p_exclude)` jednim upitom i šalje joj sve odigrane id-jeve. Kad neke vrste ponestane, `fetchIdsOfKinds` preko funkcije `question_kinds` doznaje koji su odigrani id-jevi te vrste, pa ih `useStartGame` vrati (`unmarkPlayed`).
+- `local` (zadano u razvoju): učita sve datoteke iz `content/batches/*.json`, preskoči `rejected` i `archived`, a kandidate bira `pickCandidates` po istom pravilu kao baza. Pitanjima koja još nisu uvezena dodijeli privremeni id (`batchIds.ts`).
+
+Pogled `game_questions` i dalje postoji (provjera pristupa, urednik), ali ga igra više ne čita.
 
 **Id pitanja** je `<tema>-<četiri znamenke>` (npr. `sport-0042`). Dodjeljuje ga baza pri uvozu (`import_questions`), a skripta za uvoz upisuje ga natrag u JSON datoteku. Id se nikad ne mijenja i ne koristi ponovno. Pitanja se ne brišu: dobivaju status `rejected` ili `archived`, a brisanje je u bazi zabranjeno.
 
@@ -92,7 +96,7 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 
 **Pristup** (`…_access.sql`, `…_editor.sql`, `…_editor_grants.sql`):
 
-- **Anon (igrač):** smije samo `select` na `game_questions`, `insert` u `answer_events` i `question_reports` (samo navedeni stupci).
+- **Anon (igrač):** smije samo `select` na `game_questions`, pozvati `game_candidates` i `question_kinds`, `insert` u `answer_events` i `question_reports` (samo navedeni stupci).
 - **Urednik:** račun s `app_metadata.role = 'editor'` (funkcija `is_editor()`). Smije čitati i uređivati pitanja, pogled `editor_questions` (sa statistikom), funkcije `import_questions`, `match_questions` i `similar_pairs`. `delete` na `questions` je oduzet svima.
 - `npm run db:check` provjerava ta pravila iz perspektive igrača i urednika.
 

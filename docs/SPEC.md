@@ -24,7 +24,7 @@ Prioriteti, ovim redom: pitanja su točna i zanimljiva; partija se postavlja jed
 
 Mape, moduli i tok podataka u kodu opisani su u `docs/ARCHITECTURE.md`. Ovdje su pravila koja kod mora poštovati.
 
-**Tok podataka u partiji.** Na početku partije aplikacija dohvati sva odobrena pitanja, filtrira ona koja su već odigrana na ovom uređaju i odmah odabere sva pitanja za cijelu partiju (sve runde, Najbrži prst i jedno rezervno pitanje procjene za neriješeno). Odabrana pitanja spremaju se u stanje partije. Pitanje se smatra odigranim kad se prikaže na ekranu; neiskorišteno rezervno pitanje i pitanja iz prekinute partije ostaju za sljedeći put. Partija se zatim vodi i sprema lokalno nakon svake akcije, pa kratki prekid interneta ne smeta, a nastavak nakon zatvaranja preglednika radi bez mreže.
+**Tok podataka u partiji.** Na početku partije aplikacija pošalje serveru popis pitanja odigranih na ovom uređaju, a server vrati nasumične neodigrane kandidate: za svaku vrstu runde i težinu najviše dvostruko više od broja timova (najmanje 4). Iz njih aplikacija odmah odabere sva pitanja za cijelu partiju (sve runde, Najbrži prst i jedno rezervno pitanje procjene za neriješeno). Odabrana pitanja spremaju se u stanje partije. Pitanje se smatra odigranim kad se prikaže na ekranu; neiskorišteno rezervno pitanje i pitanja iz prekinute partije ostaju za sljedeći put. Partija se zatim vodi i sprema lokalno nakon svake akcije, pa kratki prekid interneta ne smeta, a nastavak nakon zatvaranja preglednika radi bez mreže.
 
 **Statistika i prijave** šalju se u pozadini. Ako nema mreže, čuvaju se u lokalnom redu i šalju kasnije. Statistika za potez šalje se tek kad se prijeđe na sljedeći potez, kako "Poništi" ne bi kvario podatke.
 

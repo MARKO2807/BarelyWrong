@@ -7,7 +7,10 @@ export { createSeededRng, type Rng } from './random'
 export { canAdjustScores, gameReducer, type GameAction } from './reducer'
 export * from './schema'
 export {
+  candidatesPerDifficulty,
+  pickCandidates,
   questionFitsKind,
+  roundKindOf,
   selectQuestions,
   type QuestionPlan,
   type SelectionInput,

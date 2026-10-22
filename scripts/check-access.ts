@@ -96,6 +96,58 @@ refused(
   PERMISSION,
 )
 
+// Questions for a new game (migration _game_candidates.sql).
+type Candidate = { id: string; topic: string; format: string; difficulty: number }
+const PER_DIFFICULTY = 4
+const candidates = async (exclude: string[]) =>
+  db.rpc('game_candidates', { p_lang: 'hr', p_per_difficulty: PER_DIFFICULTY, p_exclude: exclude })
+const first = await candidates([])
+allowed('players can ask for game candidates', first)
+const rows = (first.data ?? []) as Candidate[]
+console.log(`     game_candidates returned ${rows.length} question(s)`)
+const groups = new Map<string, number>()
+for (const q of rows) {
+  const key = `${q.format === 'open' ? q.topic : q.format}:${q.difficulty}`
+  groups.set(key, (groups.get(key) ?? 0) + 1)
+}
+check(
+  'candidates cover every round kind',
+  new Set([...groups.keys()].map((key) => key.split(':')[0])).size === 12,
+  `${groups.size} kind/difficulty groups`,
+)
+check(
+  `at most ${PER_DIFFICULTY} candidates per round kind and difficulty`,
+  [...groups.values()].every((count) => count <= PER_DIFFICULTY),
+)
+const excluded = rows.slice(0, 20).map((q) => q.id)
+const second = await candidates(excluded)
+const secondIds = ((second.data ?? []) as Candidate[]).map((q) => q.id)
+check(
+  'candidates leave out played questions',
+  !second.error && excluded.every((id) => !secondIds.includes(id)),
+)
+const third = ((await candidates([])).data ?? []) as Candidate[]
+check(
+  'candidates are random (two draws differ)',
+  third
+    .map((q) => q.id)
+    .sort()
+    .join() !==
+    rows
+      .map((q) => q.id)
+      .sort()
+      .join(),
+)
+const english = await db.rpc('game_candidates', {
+  p_lang: 'en',
+  p_per_difficulty: PER_DIFFICULTY,
+  p_exclude: [],
+})
+check('candidates are filtered by language', !english.error && english.data?.length === 0)
+const kinds = await db.rpc('question_kinds', { p_ids: excluded })
+allowed('players can ask for the kinds of played questions', kinds)
+check('question_kinds answers for every known question', kinds.data?.length === excluded.length)
+
 // The editor's tools (migration _editor.sql).
 refused(
   'players cannot read editor_questions',

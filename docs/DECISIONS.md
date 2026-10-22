@@ -20,6 +20,7 @@ Važne odluke i razlozi, da se ne otvaraju ponovno bez novog razloga. Nova odluk
 - **Pragovi sličnosti 0,96 i 0,93** (multilingual-e5-small). Izmjereno na pilotu; prvotni 0,92 i 0,85 davali su tisuće lažnih uzbuna. (SPEC 8.5)
 - **Embeddingi se računaju lokalno** (transformers.js): nema API ključa ni troška.
 - **Pitanja HKS-a se ne kopiraju doslovno.** Uzima se činjenica i piše novo pitanje; za javno izdanje treba dopuštenje HKS-a.
+- **Pitanja za partiju bira server** (`game_candidates`, listopad 2026.): najviše 2 × broj timova (najmanje 4) nasumičnih neodigranih pitanja po vrsti runde i težini, umjesto učitavanja svih 5.000. Engine i dalje sam slaže partiju; test provjerava da su kandidati uvijek dovoljni kad bi bila dovoljna i sva pitanja. Šalju se svi odigrani id-jevi.
 - **Engleski kao redak u `question_texts`** s istim id-jem pitanja; lokalna (hrvatska) pitanja se ne prevode. (ROADMAP 2)
 
 ## Tehnika

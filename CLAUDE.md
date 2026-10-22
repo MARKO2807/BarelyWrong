@@ -62,7 +62,7 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - Hex boje izvan `tokens.css` ruše `src/conventions.test.ts`; za prozirnost koristi `color-mix` s tokenom.
 - Tailwind varijanta `short:` (položeni mobitel) definirana je s `@custom-variant` u `src/styles/components.css`.
 - Likovi na početnoj i prijavi postavljeni su u postocima pozadine 1672×941; uspravni ekrani dobivaju zasebne `*-mobile.webp` pozadine bez likova.
-- Igra učitava sva odobrena pitanja na startu partije; ne povećavaj bitno njihov broj prije koraka 1 iz ROADMAP-a.
+- Pitanja za partiju bira funkcija `game_candidates` u bazi, a lokalni izvor isto pravilo (`pickCandidates` u engineu); kad mijenjaš jedno, mijenjaj i drugo.
 - Novi vanjski servis (API, font, slika s CDN-a) blokira CSP iz `vite.config.ts` dok ga ondje ne dodaš.
 - Na Windowsu: Node skripte koje trebaju `sharp` ili `prettier` pokreći iz mape projekta.
 - Probna partija u pregledniku ostaje u local storageu (`bw:game:v3`); obriši je nakon provjere.

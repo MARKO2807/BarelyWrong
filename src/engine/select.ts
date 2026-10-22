@@ -28,7 +28,7 @@ export type SelectionResult =
   { ok: true; plan: QuestionPlan } | { ok: false; shortages: Shortage[] }
 
 export interface SelectionInput {
-  /** All approved questions. */
+  /** Approved questions to choose from: all of them, or the candidates the server sent. */
   pool: readonly Question[]
   /** Questions already played on this device; never picked. */
   playedIds: ReadonlySet<string>
@@ -39,7 +39,10 @@ export interface SelectionInput {
 }
 
 /** Which questions can be used for a kind; also tells the app which played ones to bring back. */
-export function questionFitsKind(question: Question, kind: ShortageKind): boolean {
+export function questionFitsKind(
+  question: Pick<Question, 'format' | 'topic'>,
+  kind: ShortageKind,
+): boolean {
   if (kind === 'true_false' || kind === 'estimate') return question.format === kind
   if (kind === 'fastest_finger') return question.format === 'open'
   return question.format === 'open' && question.topic === kind
@@ -62,6 +65,43 @@ function usableForRound(kind: RoundKind, questions: readonly Question[]): number
   const widestBand = Math.max(...bands(questions).map((band) => band.length))
   const reserved = kind === 'estimate' ? TIEBREAK_QUESTIONS : 0
   return Math.max(0, Math.min(widestBand, questions.length - reserved))
+}
+
+/**
+ * How many unplayed questions of each round kind and difficulty the server sends for one game
+ * (spec 3, "Tok podataka u partiji"). Two per team in each difficulty is enough for any round
+ * band that the whole pool could fill, and leaves room for the tiebreak and Najbrži prst.
+ */
+export function candidatesPerDifficulty(teamCount: number): number {
+  return Math.max(4, 2 * teamCount)
+}
+
+/** A question's round kind: its topic for open questions, otherwise its format. */
+export function roundKindOf(question: Pick<Question, 'format' | 'topic'>): RoundKind {
+  return question.format === 'open' ? question.topic : question.format
+}
+
+/**
+ * The candidates for one game: up to `perDifficulty` random unplayed questions of every round
+ * kind and difficulty. The database function `game_candidates` does the same; the local source
+ * uses this one. `selectQuestions` gives the same answer (a game or the same shortages) for the
+ * candidates as for the whole pool.
+ */
+export function pickCandidates(
+  pool: readonly Question[],
+  playedIds: ReadonlySet<string>,
+  perDifficulty: number,
+  rng: Rng,
+): Question[] {
+  const groups = new Map<string, Question[]>()
+  for (const question of pool) {
+    if (playedIds.has(question.id)) continue
+    const key = `${roundKindOf(question)}:${question.difficulty}`
+    const group = groups.get(key)
+    if (group) group.push(question)
+    else groups.set(key, [question])
+  }
+  return [...groups.values()].flatMap((group) => shuffle(rng, group).slice(0, perDifficulty))
 }
 
 /** Prefers questions from topics not yet picked, so mixed rounds cover more ground. */

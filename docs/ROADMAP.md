@@ -5,14 +5,14 @@ Ovo nije specifikacija. Prije svakog koraka predloži detaljan plan i pričekaj 
 ## Stanje (22. 10. 2026.)
 
 - **Objava:** barelywrong.com (Netlify). Partija, urednik, statistika i prijave rade.
-- **Pitanja:** oko 5.000 odobrenih na hrvatskom, u 10 tema i 3 formata. Daljnji rast tek nakon koraka 1 (igra ih još učitava sva na startu).
+- **Pitanja:** oko 5.000 odobrenih na hrvatskom, u 10 tema i 3 formata. Partija ih više ne učitava sva (korak 1), pa broj može rasti.
 - **Uređaji:** dorađeno za TV, laptop i mobitel (uspravno i položeno).
 
-**Sljedeći korak:** 1 — pitanja za partiju bira server. Korisnik odlučuje kada se kreće; nijedan korak još nije započet.
+**Sljedeći korak:** 2 — engleski jezik. Korisnik odlučuje kada se kreće.
 
 ## Popis zadataka
 
-- [ ] **1. Server bira pitanja za partiju** — preduvjet za puno pitanja i više jezika.
+- [x] **1. Server bira pitanja za partiju** (22. 10. 2026.) — preduvjet za puno pitanja i više jezika.
 - [ ] **2. Engleski jezik** (must) — sučelje, prijevod univerzalnih pitanja, statistika po jeziku.
 - [ ] **3. Stalni dotok pitanja** — skripta za serije, prijedlozi igrača, suradnje, paketi.
 - [ ] **4. Kvaliteta iz podataka** — težina i pregled pitanja prema statistici.
@@ -23,13 +23,14 @@ Redoslijed nije obavezan: korak 5 ne ovisi o ostalima i može se napraviti bilo 
 
 ## Koraci
 
-### [ ] 1. Pitanja za partiju bira server
+### [x] 1. Pitanja za partiju bira server (22. 10. 2026.)
 
-Igra na početku svake partije učita sva odobrena pitanja (`src/data/questions.ts`). S desecima tisuća pitanja na više jezika to postaje sporo.
+Prije je igra na početku svake partije učitala sva odobrena pitanja: 6 upita, 1,4 MB i oko 4,8 s do početka partije. Sada:
 
-- Funkcija u bazi (RPC) prima jezik, potrebne vrste rundi i količine te id-jeve odigranih pitanja, a vraća samo pitanja za partiju.
-- `selectQuestions` u engineu ostaje i dalje radi raspored po rundama.
-- Lokalni izvor (`content/batches`) ostaje za razvoj.
+- Funkcija `game_candidates` u bazi prima jezik, broj pitanja po vrsti runde i težini (2 × broj timova, najmanje 4) i id-jeve odigranih pitanja, a vraća samo nasumične neodigrane kandidate (najviše oko 290). Jedan upit, oko 0,45 s.
+- `selectQuestions` u engineu i dalje slaže partiju; test provjerava da kandidati daju partiju kad god bi je dala sva pitanja.
+- Vraćanje odigranih pitanja kad vrste ponestane ide preko funkcije `question_kinds`.
+- Lokalni izvor (`content/batches`) ostaje za razvoj i bira kandidate po istom pravilu (`pickCandidates`).
 
 ### [ ] 2. Engleski jezik (must)
 
