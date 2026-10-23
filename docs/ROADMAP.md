@@ -58,7 +58,12 @@ Prije je igra na početku svake partije učitala sva odobrena pitanja: 6 upita, 
 
 - Težina se podešava prema postotku točnih odgovora (po jeziku).
 - Pitanja koja se često prijavljuju i ona na koja svi odgovore točno automatski idu na pregled. Prijave šalje anonimni igrač, pa prag mora brojati različite partije, a ne samo prijave (lažne prijave s javnim ključem).
-- Ponovna provjera izvora (`npm run q -- recheck`) redovito, npr. jednom mjesečno; igle za oko 2.000 najstarijih pitanja još nedostaju.
+- Ponovna provjera izvora (`npm run q -- recheck`) redovito, npr. jednom mjesečno.
+- **Igle za oko 2.000 najstarijih pitanja** (dogovoreno 23. 10. 2026., odgođeno): ta pitanja imaju samo zapisan izvor, pa ih `recheck` ne pokriva. Plan u dva koraka:
+  1. automatski prolaz: alat u članku traži odgovor i brojeve iz zanimljivosti i ono što nađe spremi kao igle u `content/checks/` (procjena: otprilike polovica pitanja);
+  2. ručni pregled ostatka, prvo procjene, teška pitanja i rekordi.
+  
+  Ništa se u bazi ne mijenja bez odobrenja korisnika.
 
 ### [ ] 5. Aktivnost u Uredniku
 
