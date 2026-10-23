@@ -414,9 +414,17 @@ export const hr = {
     games: {
       title: 'Games',
       refresh: 'Osvježi',
+      refreshing: 'Osvježavam…',
       loading: 'Učitavam partije…',
       live: 'Uživo',
+      liveBadge: 'Uživo',
+      liveStarted: 'počela {ago}',
+      liveLastMove: 'zadnji potez {ago}',
+      liveWhere: 'runda {round}/{rounds} · pitanje {question}/{questions}',
       noLive: 'Nitko trenutno ne igra.',
+      lastGame: 'Zadnja partija počela je {ago}.',
+      noGames: 'Još nitko nije zaigrao.',
+      refreshedAt: 'Osvježeno u {time}',
       numbers: 'Brojke',
       period: 'Razdoblje',
       periods: {

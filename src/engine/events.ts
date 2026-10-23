@@ -52,17 +52,27 @@ export function getCommittedAnswerEvents(previous: GameState, next: GameState): 
 
 /** Matches the `game_progress` table: rounds are numbered from 1. */
 export interface ProgressEvent {
-  event: 'round' | 'finished'
+  event: 'turn' | 'round' | 'finished'
   round: number
+  /** Question number in the round (from 1) for 'turn'; 0 otherwise. */
+  turn: number
 }
 
-/** A round or the whole game that ended with this change (for the editor's activity page). */
+/**
+ * A question, a round or the whole game that ended with this change (for the editor's activity
+ * page). A question counts once the game moves on from its judgement, like the statistics.
+ */
 export function getProgressEvents(previous: GameState, next: GameState): ProgressEvent[] {
   const { step } = next
   if (step.type === previous.step.type) return []
-  if (step.type === 'leaderboard') return [{ event: 'round', round: step.round + 1 }]
-  if (step.type === 'finished') return [{ event: 'finished', round: next.rounds.length }]
-  return []
+  const events: ProgressEvent[] = []
+  const before = previous.step
+  if (before.type === 'judged' && (step.type === 'turnIntro' || step.type === 'leaderboard'))
+    events.push({ event: 'turn', round: before.round + 1, turn: before.turn + 1 })
+  if (step.type === 'leaderboard') events.push({ event: 'round', round: step.round + 1, turn: 0 })
+  if (step.type === 'finished')
+    events.push({ event: 'finished', round: next.rounds.length, turn: 0 })
+  return events
 }
 
 /** How many rounds are over: what Prekini partiju reports as the round the game got to. */

@@ -95,7 +95,7 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 - `question_texts`: tekst po jeziku, s ključem `(question_id, lang)`. Danas postoji samo `hr`; engleski dolazi kao novi redak.
 - `answer_events`: statistika odgovora.
 - `question_reports`: prijave iz igre.
-- `visits`, `game_starts`, `game_progress` (`…_activity.sql`, veličina prozora i jezik iz `…_activity_window_language.sql`): aktivnost. Pogled `editor_games` daje jedan red po partiji (dosegnuta runda, status, događaji), a funkcija `activity_visits` posjete po danu, ekranu, izvoru i jeziku.
+- `visits`, `game_starts`, `game_progress` (`…_activity.sql`, veličina prozora i jezik iz `…_activity_window_language.sql`, napredak po pitanju iz `…_activity_turns.sql`): aktivnost. Pogled `editor_games` daje jedan red po partiji (dosegnuta runda, status, događaji), a funkcija `activity_visits` posjete po danu, ekranu, izvoru i jeziku.
 
 **Pristup** (`…_access.sql`, `…_editor.sql`, `…_editor_grants.sql`):
 
@@ -107,9 +107,9 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 
 ## 7. Statistika, prijave i aktivnost (red za slanje)
 
-`src/data/sync.ts` i `src/storage/outbox.ts`: `submit()` doda stavke u lokalni red i odmah pokuša poslati. Vrste stavki: odgovor, prijava, posjet, početak partije i napredak partije. Napredak partije čeka dok njezin početak ne stigne u bazu (inače bi ga baza zauvijek odbila). Red se prazni pri startu, kad se veza vrati (`online`) i svake minute. Ako server odbije skupinu, stavke se šalju jedna po jedna, pa jedna loša stavka ne blokira ostale. Procjena i Najbrži prst bez javljanja ne bilježe se.
+`src/data/sync.ts` i `src/storage/outbox.ts`: `submit()` doda stavke u lokalni red i odmah pokuša poslati. Vrste stavki: odgovor, prijava, posjet, početak partije i napredak partije. Napredak partije čeka dok njezin početak ne stigne u bazu (inače bi ga baza zauvijek odbila). Ako `flushOutbox` već šalje, novi poziv samo traži još jedan krug odmah nakon njega (`again`), pa ništa ne čeka minutu; red se prazni i na `pagehide` i kad kartica ode u pozadinu. Red se prazni pri startu, kad se veza vrati (`online`) i svake minute. Ako server odbije skupinu, stavke se šalju jedna po jedna, pa jedna loša stavka ne blokira ostale. Procjena i Najbrži prst bez javljanja ne bilježe se.
 
-**Aktivnost** (`src/data/activity.ts`, SPEC 9.4): `recordVisit` pri pokretanju (`boot.tsx`), a `GameSession` zove `recordGameStart` (u `begin`, uz oznaku revanša), `recordProgress` i `recordAbandon` (`getCompletedRounds`). Id partije je `crypto.randomUUID()` i sprema se uz partiju (`bw:game:v4`), pa se nastavljena partija bilježi pod istim id-jem. Ništa se ne bilježi kad je `import.meta.env.DEV` ili kad uređaj ima sesiju urednika (`hasEditorSession`). `recordGameStart` usput pošalje skriveni Netlify obrazac „partija” iz `index.html` (POST na `/`), a Netlify vlasniku pošalje mail.
+**Aktivnost** (`src/data/activity.ts`, SPEC 9.4): `recordVisit` pri pokretanju (`boot.tsx`), a `GameSession` zove `recordGameStart` (u `begin`, uz oznaku revanša), `recordProgress` (`getProgressEvents`: `turn` nakon svakog pitanja, `round`, `finished`) i `recordAbandon` (`getCompletedRounds`). Urednik iz toga računa „runda · pitanje” (`liveProgress` u `activityStats.ts`). Id partije je `crypto.randomUUID()` i sprema se uz partiju (`bw:game:v4`), pa se nastavljena partija bilježi pod istim id-jem. Ništa se ne bilježi kad je `import.meta.env.DEV` ili kad uređaj ima sesiju urednika (`hasEditorSession`). `recordGameStart` usput pošalje skriveni Netlify obrazac „partija” iz `index.html` (POST na `/`), a Netlify vlasniku pošalje mail.
 
 ## 8. Local storage
 
@@ -121,7 +121,7 @@ Ključevi su `bw:<ime>:v<verzija>` (`src/storage/keys.ts`):
 | `played` | 2 | id-jevi odigranih pitanja na ovom uređaju |
 | `game` | 4 | partija u tijeku, njezin id za aktivnost i vrijeme spremanja |
 | `lastSetup` | 2 | zadnji timovi i opcije |
-| `outbox` | 3 | statistika, prijave i aktivnost (s veličinom prozora i jezikom) koji čekaju slanje |
+| `outbox` | 4 | statistika, prijave i aktivnost (s veličinom prozora, jezikom i napretkom po pitanju) koji čekaju slanje |
 | `auth` | 1 | Supabase sesija urednika |
 
 Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.ts`). Stari podaci se ne smiju samo baciti.

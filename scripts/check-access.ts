@@ -188,6 +188,14 @@ refused(
 const round = { game_id: testGameId, event: 'round', round: 1 }
 allowed('players can add game progress', await db.from('game_progress').insert(round))
 refused('a round cannot be reported twice', await db.from('game_progress').insert(round), ['23505'])
+const question = { game_id: testGameId, event: 'turn', round: 1, turn: 1 }
+allowed(
+  'players can add progress after a question',
+  await db.from('game_progress').insert(question),
+)
+refused('a question cannot be reported twice', await db.from('game_progress').insert(question), [
+  '23505',
+])
 refused(
   'progress needs a known game',
   await db.from('game_progress').insert({ ...round, game_id: crypto.randomUUID() }),

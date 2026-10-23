@@ -121,6 +121,12 @@ describe('older saves', () => {
     ])
   })
 
+  it('gives v3 game progress a question number of 0', () => {
+    const progress = { type: 'gameProgress', id: 'p', gameId: 'g', event: 'round', round: 2 }
+    localStorage.setItem('bw:outbox:v3', JSON.stringify([progress]))
+    expect(readOutbox()).toEqual([{ ...progress, turn: 0 }])
+  })
+
   it('gives a v3 game an id', () => {
     const game = newGame()
     localStorage.setItem('bw:game:v3', JSON.stringify({ savedAt: 5, game }))

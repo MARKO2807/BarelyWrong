@@ -13,7 +13,8 @@ export const STORED = {
   // v2: same shape (briefly held team icons).
   lastSetup: { name: 'lastSetup', version: 2 },
   // v2: also visits and games for the editor's activity page. v3: window size and language.
-  outbox: { name: 'outbox', version: 3 },
+  // v4: game progress after every question.
+  outbox: { name: 'outbox', version: 4 },
   // The editor's Supabase session (src/storage/auth.ts).
   auth: { name: 'auth', version: 1 },
 } as const

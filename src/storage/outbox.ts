@@ -60,8 +60,10 @@ const outboxItemSchema = z.discriminatedUnion('type', [
     type: z.literal('gameProgress'),
     id: z.string(),
     gameId: z.string(),
-    event: z.enum(['round', 'finished', 'abandoned']),
+    event: z.enum(['turn', 'round', 'finished', 'abandoned']),
     round: z.number().int().min(0).max(12),
+    /** Question number in the round for 'turn'; 0 otherwise. */
+    turn: z.number().int().min(0).max(8),
   }),
 ])
 export type OutboxItem = z.infer<typeof outboxItemSchema>
@@ -88,6 +90,11 @@ const stored: StoredValue<OutboxItem[]> = {
         item.type === 'visit' || item.type === 'gameStart'
           ? { windowWidth: null, windowHeight: null, language: null, ...item }
           : item,
+      ),
+    // v3 → v4: game progress also after every question ('turn').
+    3: (data) =>
+      (data as { type: string }[]).map((item) =>
+        item.type === 'gameProgress' ? { turn: 0, ...item } : item,
       ),
   },
 }

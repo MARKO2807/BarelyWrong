@@ -4,6 +4,7 @@ import {
   distributions,
   durationMinutes,
   gameState,
+  liveProgress,
   periodStats,
 } from './activityStats'
 import type { EditorGame, VisitCount } from './editorApi'
@@ -43,11 +44,39 @@ const visit = (day: string, visits: number, referrer: string | null = null): Vis
 })
 
 describe('gameState', () => {
-  it('tells live games from unfinished ones', () => {
+  it('tells live games from unfinished ones by their last move', () => {
     expect(gameState(game({ created_at: minutesAgo(10) }), NOW)).toBe('live')
     expect(gameState(game({ created_at: minutesAgo(45) }), NOW)).toBe('unfinished')
+    expect(gameState(game({ created_at: minutesAgo(50), last_event_at: minutesAgo(2) }), NOW)).toBe(
+      'live',
+    )
     expect(gameState(game({ status: 'finished' }), NOW)).toBe('finished')
     expect(gameState(game({ status: 'abandoned' }), NOW)).toBe('abandoned')
+  })
+})
+
+describe('liveProgress', () => {
+  const turn = (round: number, n: number) => ({ event: 'turn' as const, round, turn: n, at: '' })
+
+  it('shows the round after the finished ones and the question after the judged ones', () => {
+    expect(liveProgress(game({ team_count: 3 }))).toEqual({
+      round: 1,
+      rounds: 3,
+      question: 1,
+      questions: 3,
+      kind: 'sport',
+    })
+    const later = game({
+      team_count: 3,
+      rounds_done: 1,
+      events: [turn(1, 1), turn(1, 2), turn(1, 3), turn(2, 1)],
+    })
+    expect(liveProgress(later)).toMatchObject({ round: 2, question: 2, kind: 'music' })
+  })
+
+  it('stays on the last round and question at the end', () => {
+    const end = game({ team_count: 2, rounds_done: 3, events: [turn(3, 1), turn(3, 2)] })
+    expect(liveProgress(end)).toMatchObject({ round: 3, question: 2 })
   })
 })
 

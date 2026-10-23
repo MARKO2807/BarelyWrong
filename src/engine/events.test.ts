@@ -138,25 +138,44 @@ describe('getProgressEvents', () => {
     return events
   }
 
-  it('reports each round once and then the end of the game', () => {
+  it('reports every question, then each round once, then the end of the game', () => {
     const game = newGame({ teams: 2 })
     const rounds = game.rounds.length
     expect(progressOf(game)).toEqual([
-      ...Array.from({ length: rounds }, (_, i) => ({ event: 'round', round: i + 1 })),
-      { event: 'finished', round: rounds },
+      ...Array.from({ length: rounds }, (_, i) => [
+        { event: 'turn', round: i + 1, turn: 1 },
+        { event: 'turn', round: i + 1, turn: 2 },
+        { event: 'round', round: i + 1, turn: 0 },
+      ]).flat(),
+      { event: 'finished', round: rounds, turn: 0 },
     ])
   })
 
   it('counts rounds of a short game', () => {
     const events = progressOf(newGame({ options: { length: 'short', fastestFinger: false } }))
-    expect(events.at(-1)).toEqual({ event: 'finished', round: 6 })
+    expect(events.at(-1)).toEqual({ event: 'finished', round: 6, turn: 0 })
+  })
+
+  it('reports a question only when the game moves on, not after an undo', () => {
+    const judged = run(
+      newGame({ teams: 3 }),
+      next,
+      start,
+      { type: 'reveal' },
+      {
+        type: 'judge',
+        correct: true,
+      },
+    )
+    expect(getProgressEvents(...step(judged, { type: 'undo', now: NOW }))).toEqual([])
+    expect(getProgressEvents(...step(judged, next))).toEqual([{ event: 'turn', round: 1, turn: 1 }])
   })
 
   it('reports the end after a tiebreak, and again after an undo of the winner', () => {
     const last = playUntil(newGame(), (g) => g.step.type === 'leaderboard' && g.step.round === 11)
     const tied = run(withScores(last, { t1: 1, t2: 1, t3: 0 }), next, start, { type: 'reveal' })
     const [answer, finished] = step(tied, { type: 'award', teamId: 't1' })
-    expect(getProgressEvents(answer, finished)).toEqual([{ event: 'finished', round: 12 }])
+    expect(getProgressEvents(answer, finished)).toEqual([{ event: 'finished', round: 12, turn: 0 }])
     const [, undone] = step(finished, { type: 'undo', now: NOW })
     expect(getProgressEvents(finished, undone)).toEqual([])
   })

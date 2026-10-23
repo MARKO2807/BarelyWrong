@@ -100,7 +100,7 @@ export function recordProgress(gameId: string, events: readonly ProgressEvent[])
 /** Prekini partiju, after `completedRounds` rounds. */
 export function recordAbandon(gameId: string, completedRounds: number) {
   if (!enabled()) return
-  submit([{ type: 'gameProgress', gameId, event: 'abandoned', round: completedRounds }])
+  submit([{ type: 'gameProgress', gameId, event: 'abandoned', round: completedRounds, turn: 0 }])
 }
 
 /** What the e-mail for a new game says, by field (the labels are the form's field names). */

@@ -5,6 +5,8 @@ import {
   distributions,
   durationMinutes,
   gameState,
+  lastActivity,
+  liveProgress,
   periodStats,
   type GameState,
   type PeriodStats,
@@ -20,6 +22,7 @@ import {
 import { SCREENS } from '../../data/screens'
 import { t, type MessageKey } from '../../i18n'
 import { Button } from '../../ui/Button'
+import { KIND_ICONS } from '../../ui/icons'
 import { Modal } from '../../ui/Modal'
 import { SegmentedControl } from '../../ui/SegmentedControl'
 import { Checkbox, Select } from '../../ui/editor/fields'
@@ -57,6 +60,19 @@ const formatTime = (iso: string) =>
 
 const kindName = (kind: string) => t(`topics.${kind}` as MessageKey)
 
+const relative = new Intl.RelativeTimeFormat('hr', { numeric: 'auto' })
+
+/** "prije 14 minuta", from the moment the page was refreshed. */
+function formatAgo(time: number, now: number): string {
+  const seconds = Math.round((time - now) / 1000)
+  if (seconds > -60) return relative.format(Math.min(seconds, 0), 'second')
+  const minutes = Math.round(seconds / 60)
+  if (minutes > -60) return relative.format(minutes, 'minute')
+  const hours = Math.round(minutes / 60)
+  if (hours > -48) return relative.format(hours, 'hour')
+  return relative.format(Math.round(hours / 24), 'day')
+}
+
 /** "sub, 18. 10. 18:40 · veliki ekran · duga · 3 tima · 52 min · završena · revanš" */
 function gameLine(game: EditorGame, now: number): string {
   const state = gameState(game, now)
@@ -85,16 +101,27 @@ export function GamesPage() {
   const [screenFilter, setScreenFilter] = useState<string>(ALL)
   const [selected, setSelected] = useState<ReadonlySet<string>>(new Set())
   const [toDelete, setToDelete] = useState<string[] | null>(null)
+  const [refreshing, setRefreshing] = useState(false)
   const headingId = useId()
 
-  const load = useCallback(() => {
-    Promise.all([fetchGames(db), fetchVisitCounts(db)]).then(
-      ([games, visits]) => setState({ games, visits, now: Date.now() }),
-      (error: unknown) => setState({ status: 'error', message: errorMessage(error) }),
-    )
-  }, [db])
+  const fetchAll = useCallback(
+    () =>
+      Promise.all([fetchGames(db), fetchVisitCounts(db)]).then(
+        ([games, visits]) => setState({ games, visits, now: Date.now() }),
+        (error: unknown) => setState({ status: 'error', message: errorMessage(error) }),
+      ),
+    [db],
+  )
 
-  useEffect(load, [load])
+  useEffect(() => {
+    void fetchAll()
+  }, [fetchAll])
+
+  /** Osvježi: the page stays on screen while the new numbers load. */
+  const load = () => {
+    setRefreshing(true)
+    void fetchAll().finally(() => setRefreshing(false))
+  }
 
   const removeGames = useCallback((ids: readonly string[]) => {
     const gone = new Set(ids)
@@ -108,16 +135,18 @@ export function GamesPage() {
         <h1 id={headingId} className="font-display text-4xl font-extrabold">
           {t('editor.games.title')}
         </h1>
-        <Button
-          variant="secondary"
-          size="sm"
-          onClick={() => {
-            setState({ status: 'loading' })
-            load()
-          }}
-        >
-          {t('editor.games.refresh')}
-        </Button>
+        <div className="flex flex-wrap items-center gap-3">
+          {'games' in state && (
+            <span role="status" className="text-sm text-text-muted">
+              {t('editor.games.refreshedAt', {
+                time: formatTime(new Date(state.now).toISOString()),
+              })}
+            </span>
+          )}
+          <Button variant="secondary" size="sm" disabled={refreshing} onClick={load}>
+            {refreshing ? t('editor.games.refreshing') : t('editor.games.refresh')}
+          </Button>
+        </div>
       </div>
 
       {'games' in state ? (
@@ -197,13 +226,11 @@ function GamesContent({
       <div className="flex flex-col gap-3">
         <SectionTitle>{t('editor.games.live')}</SectionTitle>
         {live.length === 0 ? (
-          <p className="text-text-muted">{t('editor.games.noLive')}</p>
+          <NoLiveGame latest={games[0]} now={now} />
         ) : (
-          <ul className="flex flex-col gap-2">
+          <ul className="grid gap-4 xl:grid-cols-2">
             {live.map((g) => (
-              <li key={g.id} className="rounded-lg border-2 border-primary px-4 py-2">
-                {gameLine(g, now)}
-              </li>
+              <LiveGame key={g.id} game={g} now={now} />
             ))}
           </ul>
         )}
@@ -349,6 +376,80 @@ function GamesContent({
         )}
       </div>
     </>
+  )
+}
+
+/** One game being played: where it is, a bar of its rounds, and how fresh the news is. */
+function LiveGame({ game, now }: { game: EditorGame; now: number }) {
+  const where = liveProgress(game)
+  const whereText = t('editor.games.liveWhere', {
+    round: where.round,
+    rounds: where.rounds,
+    question: where.question,
+    questions: where.questions,
+  })
+  const Icon = where.kind ? KIND_ICONS[where.kind] : null
+  const details = [
+    t('editor.games.teams', { count: game.team_count }),
+    t(`activity.screens.${game.screen}`),
+    t(`activity.lengths.${game.length}`),
+    game.rematch ? t('editor.games.rematch') : null,
+  ].filter(Boolean)
+  return (
+    <li className="flex flex-col gap-3 rounded-lg border-2 border-primary bg-surface p-4 shadow-(--glow-primary)">
+      <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+        <span className="flex items-center gap-2 font-display text-sm font-extrabold tracking-widest text-wrong uppercase">
+          <span className="relative flex size-3" aria-hidden="true">
+            <span className="absolute inline-flex size-full animate-ping rounded-full bg-wrong opacity-75" />
+            <span className="relative inline-flex size-3 rounded-full bg-wrong" />
+          </span>
+          {t('editor.games.liveBadge')}
+        </span>
+        <span className="text-sm text-text-muted">
+          {t('editor.games.liveStarted', { ago: formatAgo(Date.parse(game.created_at), now) })}
+          {' · '}
+          {t('editor.games.liveLastMove', { ago: formatAgo(lastActivity(game), now) })}
+        </span>
+      </div>
+      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <span className="flex items-center gap-2 font-display text-2xl font-extrabold">
+          {Icon && <Icon className="text-primary-text" />}
+          {where.kind && kindName(where.kind)}
+        </span>
+        <span className="font-terminal text-2xl text-text-muted">{whereText}</span>
+      </div>
+      <div className="flex gap-1" role="img" aria-label={whereText}>
+        {game.rounds.map((kind, i) => (
+          <span
+            key={i}
+            title={kindName(kind)}
+            className={`h-2.5 flex-1 rounded-full ${
+              i < game.rounds_done
+                ? 'bg-primary'
+                : i === where.round - 1
+                  ? 'animate-pulse bg-primary'
+                  : 'bg-border'
+            }`}
+          />
+        ))}
+      </div>
+      <p className="text-sm text-text-muted">{details.join(' · ')}</p>
+    </li>
+  )
+}
+
+/** Nobody is playing: a calm card that says when somebody last did. */
+function NoLiveGame({ latest, now }: { latest: EditorGame | undefined; now: number }) {
+  return (
+    <div className="flex items-center gap-3 rounded-lg border-2 border-dashed border-border px-4 py-3 text-text-muted">
+      <span className="size-3 shrink-0 rounded-full bg-border" aria-hidden="true" />
+      <p>
+        {t('editor.games.noLive')}{' '}
+        {latest
+          ? t('editor.games.lastGame', { ago: formatAgo(Date.parse(latest.created_at), now) })
+          : t('editor.games.noGames')}
+      </p>
+    </div>
   )
 }
 

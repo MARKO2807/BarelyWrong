@@ -1,3 +1,4 @@
+import type { RoundKind } from '../engine'
 import type { EditorGame, VisitCount } from './editorApi'
 import { todayInCroatia } from './import'
 
@@ -5,17 +6,43 @@ import { todayInCroatia } from './import'
 
 const MINUTE = 60_000
 const DAY = 24 * 60 * MINUTE
-/** A game started this recently and not over yet is being played right now. */
+/** A game not over yet with a move this recent is being played right now. */
 export const LIVE_MINUTES = 30
 
 export type GameState = 'live' | 'finished' | 'abandoned' | 'unfinished'
 
+/** The last thing that happened in a game: its last question, round or end, or its start. */
+export const lastActivity = (game: EditorGame) => Date.parse(game.last_event_at ?? game.created_at)
+
 export function gameState(game: EditorGame, now: number): GameState {
   if (game.status !== 'open') return game.status
-  return now - Date.parse(game.created_at) < LIVE_MINUTES * MINUTE ? 'live' : 'unfinished'
+  return now - lastActivity(game) < LIVE_MINUTES * MINUTE ? 'live' : 'unfinished'
 }
 
-/** From the start to the last finished round (or the end); null before the first round ends. */
+export interface LiveProgress {
+  /** The round being played and the question in it, both from 1. */
+  round: number
+  rounds: number
+  question: number
+  questions: number
+  kind: RoundKind | null
+}
+
+/** Where a game is: the round after the finished ones, the question after the judged ones. */
+export function liveProgress(game: EditorGame): LiveProgress {
+  const rounds = game.rounds.length
+  const round = Math.min(game.rounds_done + 1, rounds)
+  const asked = game.events.filter((e) => e.event === 'turn' && e.round === round).length
+  return {
+    round,
+    rounds,
+    question: Math.min(asked + 1, game.team_count),
+    questions: game.team_count,
+    kind: game.rounds[round - 1] ?? null,
+  }
+}
+
+/** From the start to the last question, round or end; null before the first question is judged. */
 export function durationMinutes(game: EditorGame): number | null {
   if (!game.last_event_at) return null
   return Math.round((Date.parse(game.last_event_at) - Date.parse(game.created_at)) / MINUTE)

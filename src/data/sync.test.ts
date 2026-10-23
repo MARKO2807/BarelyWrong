@@ -42,6 +42,7 @@ const progress = (gameId: string, round: number): OutboxItem => ({
   gameId,
   event: 'round',
   round,
+  turn: 0,
 })
 const visit: OutboxItem = {
   type: 'visit',
@@ -120,6 +121,33 @@ describe('activity', () => {
     const s = sender((ids) => (ids.includes('s-g') ? 'failed' : 'sent'))
     const done = await sendOutbox([start('g'), progress('g', 1), progress('h', 2)], s)
     expect(done).toEqual(['p-h-2'])
+  })
+})
+
+describe('flushOutbox', () => {
+  it('sends items queued during a send right after it, not a minute later', async () => {
+    enqueue([{ type: 'answer', questionId: 'a', kind: 'turn', correct: true }])
+    let release: () => void = () => {}
+    const sent: string[][] = []
+    const sender: Sender = {
+      answer: async (items) => {
+        sent.push(items.map((i) => i.questionId))
+        if (sent.length === 1) await new Promise<void>((resolve) => (release = resolve))
+        return 'sent'
+      },
+      report: async () => 'sent',
+      visit: async () => 'sent',
+      gameStart: async () => 'sent',
+      gameProgress: async () => 'sent',
+    }
+    const first = flushOutbox(sender)
+    await new Promise((r) => setTimeout(r, 0))
+    enqueue([{ type: 'answer', questionId: 'b', kind: 'turn', correct: true }])
+    const second = flushOutbox(sender)
+    release()
+    await Promise.all([first, second])
+    expect(sent).toEqual([['a'], ['b']])
+    expect(readOutbox()).toEqual([])
   })
 })
 

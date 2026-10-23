@@ -191,8 +191,10 @@ export const editorGameSchema = z.object({
   last_event_at: z.string().nullable(),
   events: z.array(
     z.object({
-      event: z.enum(['round', 'finished', 'abandoned']),
+      event: z.enum(['turn', 'round', 'finished', 'abandoned']),
       round: z.number(),
+      /** Question number in the round for 'turn' (since _activity_turns.sql). */
+      turn: z.number().default(0),
       at: z.string(),
     }),
   ),

@@ -68,7 +68,7 @@ const supabaseSender: Sender = {
   gameProgress: (items) =>
     insert(
       'game_progress',
-      items.map((i) => ({ game_id: i.gameId, event: i.event, round: i.round })),
+      items.map((i) => ({ game_id: i.gameId, event: i.event, round: i.round, turn: i.turn })),
     ),
   answer: (items) =>
     insert(
@@ -125,15 +125,24 @@ export async function sendOutbox(items: readonly OutboxItem[], sender: Sender): 
 }
 
 let running: Promise<void> | null = null
+/** Items were queued while a send was running: send again right after it. */
+let again = false
 
 /** Flushes the queue in the background; safe to call often. */
 export function flushOutbox(sender: Sender = supabaseSender): Promise<void> {
   if (!supabase && sender === supabaseSender) return Promise.resolve()
-  running ??= (async () => {
+  if (running) {
+    again = true
+    return running
+  }
+  running = (async () => {
     try {
-      const items = readOutbox()
-      if (items.length > 0 && navigator.onLine !== false)
-        removeFromOutbox(await sendOutbox(items, sender))
+      do {
+        again = false
+        const items = readOutbox()
+        if (items.length > 0 && navigator.onLine !== false)
+          removeFromOutbox(await sendOutbox(items, sender))
+      } while (again)
     } finally {
       running = null
     }
@@ -148,14 +157,24 @@ export function submit(items: readonly NewOutboxItem[]) {
   void flushOutbox()
 }
 
-/** Sends the queue now and whenever the connection comes back. Returns a cleanup function. */
+/**
+ * Sends the queue now, whenever the connection comes back, every minute and when the page is
+ * hidden or closed (a private window loses what it did not send). Returns a cleanup function.
+ */
 export function startOutboxSync(): () => void {
   const flush = () => void flushOutbox()
+  const flushWhenHidden = () => {
+    if (document.visibilityState === 'hidden') flush()
+  }
   flush()
   window.addEventListener('online', flush)
+  window.addEventListener('pagehide', flush)
+  document.addEventListener('visibilitychange', flushWhenHidden)
   const timer = window.setInterval(flush, 60_000)
   return () => {
     window.removeEventListener('online', flush)
+    window.removeEventListener('pagehide', flush)
+    document.removeEventListener('visibilitychange', flushWhenHidden)
     window.clearInterval(timer)
   }
 }
