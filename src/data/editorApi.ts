@@ -196,6 +196,10 @@ export const editorGameSchema = z.object({
       at: z.string(),
     }),
   ),
+  // Since migration _activity_window_language.sql; older games have nulls.
+  window_width: z.number().nullish(),
+  window_height: z.number().nullish(),
+  language: z.string().nullish(),
 })
 export type EditorGame = z.infer<typeof editorGameSchema>
 
@@ -203,6 +207,8 @@ export const visitCountSchema = z.object({
   day: z.string(),
   screen: z.enum(SCREENS),
   referrer: z.string().nullable(),
+  /** Only the language, e.g. 'hr'; null for older visits. */
+  language: z.string().nullish(),
   visits: z.number(),
 })
 export type VisitCount = z.infer<typeof visitCountSchema>

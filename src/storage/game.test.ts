@@ -106,6 +106,21 @@ describe('older saves', () => {
     expect(localStorage.getItem('bw:outbox:v1')).toBeNull()
   })
 
+  it('gives v2 visits and game starts an unknown window size and language', () => {
+    const visit = {
+      type: 'visit',
+      id: 'v',
+      path: '/',
+      screen: 'phone',
+      referrer: null,
+      timeZone: null,
+    }
+    localStorage.setItem('bw:outbox:v2', JSON.stringify([visit]))
+    expect(readOutbox()).toEqual([
+      { ...visit, windowWidth: null, windowHeight: null, language: null },
+    ])
+  })
+
   it('gives a v3 game an id', () => {
     const game = newGame()
     localStorage.setItem('bw:game:v3', JSON.stringify({ savedAt: 5, game }))

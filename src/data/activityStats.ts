@@ -121,6 +121,8 @@ export interface Distributions {
   stopRounds: Share[]
   /** Round kinds that were played to the end. */
   topics: Share[]
+  /** Browser languages of visits ('' when unknown). */
+  languages: Share[]
 }
 
 export function distributions(
@@ -141,5 +143,10 @@ export function distributions(
       (a, b) => Number(a.key) - Number(b.key),
     ),
     topics: countBy(games, (g) => g.rounds.slice(0, g.rounds_done)),
+    languages: countBy(
+      visits,
+      (v) => [v.language ?? ''],
+      (v) => v.visits,
+    ),
   }
 }

@@ -7,7 +7,7 @@ import {
 } from '../storage'
 import { supabase } from './supabase'
 
-type ItemOf<K extends OutboxItem['type']> = Extract<OutboxItem, { type: K }>
+export type ItemOf<K extends OutboxItem['type']> = Extract<OutboxItem, { type: K }>
 
 /** `sent`; `rejected` when the server refused the data (it will never succeed); `failed` otherwise. */
 export type SendResult = 'sent' | 'rejected' | 'failed'
@@ -29,6 +29,12 @@ async function insert(table: string, rows: object[]): Promise<SendResult> {
   return resultOf(error)
 }
 
+const deviceColumns = (i: ItemOf<'visit' | 'gameStart'>) => ({
+  window_width: i.windowWidth,
+  window_height: i.windowHeight,
+  language: i.language,
+})
+
 const supabaseSender: Sender = {
   visit: (items) =>
     insert(
@@ -38,6 +44,7 @@ const supabaseSender: Sender = {
         screen: i.screen,
         referrer: i.referrer,
         time_zone: i.timeZone,
+        ...deviceColumns(i),
       })),
     ),
   gameStart: (items) =>
@@ -55,6 +62,7 @@ const supabaseSender: Sender = {
         time_zone: i.timeZone,
         theme: i.theme,
         sound: i.sound,
+        ...deviceColumns(i),
       })),
     ),
   gameProgress: (items) =>

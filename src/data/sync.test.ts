@@ -32,6 +32,9 @@ const start = (gameId: string): OutboxItem => ({
   timeZone: 'Europe/Zagreb',
   theme: 'dark',
   sound: false,
+  windowWidth: 1920,
+  windowHeight: 1080,
+  language: 'hr-HR',
 })
 const progress = (gameId: string, round: number): OutboxItem => ({
   type: 'gameProgress',
@@ -47,6 +50,9 @@ const visit: OutboxItem = {
   screen: 'phone',
   referrer: null,
   timeZone: null,
+  windowWidth: null,
+  windowHeight: null,
+  language: null,
 }
 
 function sender(behaviour: (ids: string[]) => 'sent' | 'rejected' | 'failed'): Sender & {

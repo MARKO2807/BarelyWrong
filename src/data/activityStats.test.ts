@@ -130,5 +130,6 @@ describe('distributions', () => {
       { key: '2', count: 1 },
     ])
     expect(d.topics[0]).toEqual({ key: 'sport', count: 4 })
+    expect(d.languages).toEqual([{ key: '', count: 8 }])
   })
 })

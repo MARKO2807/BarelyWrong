@@ -74,7 +74,14 @@ function htmlPlugin(): Plugin {
         html: html
           .replaceAll('%BW_TITLE%', escapeHtml(hr.meta.title))
           .replaceAll('%BW_DESCRIPTION%', escapeHtml(hr.meta.description))
-          .replaceAll('%BW_NOSCRIPT%', escapeHtml(hr.meta.noscript)),
+          .replaceAll('%BW_NOSCRIPT%', escapeHtml(hr.meta.noscript))
+          // The hidden Netlify form for the new-game e-mail (src/data/activity.ts).
+          .replaceAll(
+            '%BW_GAME_FORM_FIELDS%',
+            Object.values(hr.activity.mailFields)
+              .map((name) => `<input type="text" name="${escapeHtml(name)}" />`)
+              .join(''),
+          ),
         tags: [{ tag: 'script', children: themeBootScript, injectTo: 'head' }],
       }
     },

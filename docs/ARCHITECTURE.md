@@ -95,7 +95,7 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 - `question_texts`: tekst po jeziku, s ključem `(question_id, lang)`. Danas postoji samo `hr`; engleski dolazi kao novi redak.
 - `answer_events`: statistika odgovora.
 - `question_reports`: prijave iz igre.
-- `visits`, `game_starts`, `game_progress` (`…_activity.sql`): aktivnost. Pogled `editor_games` daje jedan red po partiji (dosegnuta runda, status, događaji), a funkcija `activity_visits` posjete po danu, ekranu i izvoru.
+- `visits`, `game_starts`, `game_progress` (`…_activity.sql`, veličina prozora i jezik iz `…_activity_window_language.sql`): aktivnost. Pogled `editor_games` daje jedan red po partiji (dosegnuta runda, status, događaji), a funkcija `activity_visits` posjete po danu, ekranu, izvoru i jeziku.
 
 **Pristup** (`…_access.sql`, `…_editor.sql`, `…_editor_grants.sql`):
 
@@ -121,7 +121,7 @@ Ključevi su `bw:<ime>:v<verzija>` (`src/storage/keys.ts`):
 | `played` | 2 | id-jevi odigranih pitanja na ovom uređaju |
 | `game` | 4 | partija u tijeku, njezin id za aktivnost i vrijeme spremanja |
 | `lastSetup` | 2 | zadnji timovi i opcije |
-| `outbox` | 2 | statistika, prijave i aktivnost koji čekaju slanje |
+| `outbox` | 3 | statistika, prijave i aktivnost (s veličinom prozora i jezikom) koji čekaju slanje |
 | `auth` | 1 | Supabase sesija urednika |
 
 Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.ts`). Stari podaci se ne smiju samo baciti.
@@ -153,7 +153,7 @@ Korak po korak vodi skill `serija-pitanja`; alati su u `scripts/questions.ts` (`
 - `npm run build` = `tsc -b` + `vite build`. Vite plugin `htmlPlugin` ubacuje naslov i opis iz `hr.ts` i skriptu za temu u `index.html`. Plugin `headersPlugin` generira `dist/_headers` s Content-Security-Policy (inline skripta je dopuštena po hashu, a mreža samo prema `*.supabase.co`).
 - `netlify.toml`: SPA preusmjeravanje, trajni cache za `/assets/*` i sigurnosna zaglavlja.
 - **Varijable na Netlifyju:** `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_QUESTIONS_SOURCE=supabase`. `BW_EDITOR_*` nikad ne ide na Netlify.
-- **Netlify Forms:** skriveni obrazac „partija” u `index.html` (mail pri novoj partiji). U Netlifyju treba uključiti Forms → Enable form detection i obavijest mailom za taj obrazac.
+- **Netlify Forms:** skriveni obrazac „partija” u `index.html` (mail pri novoj partiji). Polja su nazivi iz `hr.activity.mailFields`; `htmlPlugin` ih upiše umjesto `%BW_GAME_FORM_FIELDS%`, a `mailFields` u `src/data/activity.ts` šalje iste nazive. Netlify sprema samo polja koja postoje u objavljenom obrascu. U Netlifyju treba uključiti Forms → Enable form detection i obavijest mailom za taj obrazac.
 - **`index.html`:** favikone, Open Graph i Twitter oznake. Slika za pregled linka je `https://barelywrong.com/og-image.jpg` (1200×630).
 
 ## 13. Testovi i provjere

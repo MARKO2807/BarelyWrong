@@ -175,6 +175,9 @@ const testGame = {
   time_zone: 'Europe/Zagreb',
   theme: 'dark',
   sound: false,
+  window_width: 1280,
+  window_height: 720,
+  language: 'hr-HR',
 }
 allowed('players can add a game', await db.from('game_starts').insert(testGame))
 refused(

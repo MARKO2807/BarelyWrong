@@ -9,6 +9,13 @@ import { readStored, writeStored, type StoredValue } from './versioned'
 // Statistics, reports and the activity log wait here until they reach the server, so nothing is
 // lost offline.
 
+/** Window size and browser language of visits and games (null when unknown). */
+const device = {
+  windowWidth: z.number().int().min(1).max(20000).nullable(),
+  windowHeight: z.number().int().min(1).max(20000).nullable(),
+  language: z.string().min(1).max(35).nullable(),
+}
+
 const outboxItemSchema = z.discriminatedUnion('type', [
   z.object({
     type: z.literal('answer'),
@@ -31,6 +38,7 @@ const outboxItemSchema = z.discriminatedUnion('type', [
     screen: z.enum(SCREENS),
     referrer: z.string().min(1).max(200).nullable(),
     timeZone: z.string().min(1).max(64).nullable(),
+    ...device,
   }),
   z.object({
     type: z.literal('gameStart'),
@@ -46,6 +54,7 @@ const outboxItemSchema = z.discriminatedUnion('type', [
     timeZone: z.string().min(1).max(64).nullable(),
     theme: z.enum(THEMES),
     sound: z.boolean(),
+    ...device,
   }),
   z.object({
     type: z.literal('gameProgress'),
@@ -70,8 +79,17 @@ const MAX_ITEMS = 2000
 const stored: StoredValue<OutboxItem[]> = {
   ...STORED.outbox,
   schema: z.array(outboxItemSchema),
-  // v1 → v2: new kinds of items; the old ones keep their shape.
-  migrations: { 1: (data) => data },
+  migrations: {
+    // v1 → v2: new kinds of items; the old ones keep their shape.
+    1: (data) => data,
+    // v2 → v3: visits and game starts carry the window size and the browser language.
+    2: (data) =>
+      (data as { type: string }[]).map((item) =>
+        item.type === 'visit' || item.type === 'gameStart'
+          ? { windowWidth: null, windowHeight: null, language: null, ...item }
+          : item,
+      ),
+  },
 }
 
 export function readOutbox(): OutboxItem[] {

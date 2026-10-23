@@ -272,6 +272,11 @@ function GamesContent({
             shares={shares.topics}
             label={kindName}
           />
+          <ShareList
+            title={t('editor.games.shareTitles.languages')}
+            shares={shares.languages}
+            label={(key) => key || t('editor.games.unknownLanguage')}
+          />
         </div>
       </div>
 
@@ -522,6 +527,14 @@ function GameRow({
               theme: t(`settings.theme.${game.theme === 'light' ? 'light' : 'dark'}`),
               sound: yesNo(game.sound),
               timeZone: game.time_zone ?? '?',
+              window:
+                game.window_width && game.window_height
+                  ? t('editor.games.windowSize', {
+                      width: game.window_width,
+                      height: game.window_height,
+                    })
+                  : '?',
+              language: game.language ?? '?',
             })}
           </p>
           <ol className="grid gap-x-6 sm:grid-cols-2">
