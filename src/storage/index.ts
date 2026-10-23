@@ -1,7 +1,14 @@
 // The only module that touches local storage (see CLAUDE.md).
 
 export { authStorage, hasEditorSession } from './auth'
-export { clearGame, hasUnfinishedGame, loadGame, saveGame, type SavedGame } from './game'
+export {
+  clearGame,
+  hasUnfinishedGame,
+  loadGame,
+  saveGame,
+  type GameLog,
+  type SavedGame,
+} from './game'
 export { KEYS } from './keys'
 export { loadLastSetup, saveLastSetup } from './lastSetup'
 export {

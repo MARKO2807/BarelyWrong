@@ -27,6 +27,7 @@ export function referrerHost(referrer: string, ownHost: string): string | null {
   }
 }
 
+/** Visits and new games are recorded outside development and off the editor's device. */
 function enabled(): boolean {
   return !import.meta.env.DEV && !hasEditorSession()
 }
@@ -70,8 +71,12 @@ export function recordVisit() {
   ])
 }
 
-export function recordGameStart(gameId: string, game: GameState, rematch: boolean) {
-  if (!enabled()) return
+/**
+ * Returns whether the game is in the activity log. That is decided here, once: the rest of the
+ * game follows it, so signing in to the editor during a game doesn't cut its progress off.
+ */
+export function recordGameStart(gameId: string, game: GameState, rematch: boolean): boolean {
+  if (!enabled()) return false
   const { theme, sound } = loadSettings()
   const start = {
     type: 'gameStart' as const,
@@ -90,16 +95,17 @@ export function recordGameStart(gameId: string, game: GameState, rematch: boolea
   }
   submit([start])
   void notifyByMail(start)
+  return true
 }
 
+/** For a game whose start was recorded (see recordGameStart). */
 export function recordProgress(gameId: string, events: readonly ProgressEvent[]) {
-  if (!enabled() || events.length === 0) return
+  if (events.length === 0) return
   submit(events.map((e) => ({ type: 'gameProgress' as const, gameId, ...e })))
 }
 
-/** Prekini partiju, after `completedRounds` rounds. */
+/** Prekini partiju, after `completedRounds` rounds; for a game whose start was recorded. */
 export function recordAbandon(gameId: string, completedRounds: number) {
-  if (!enabled()) return
   submit([{ type: 'gameProgress', gameId, event: 'abandoned', round: completedRounds, turn: 0 }])
 }
 

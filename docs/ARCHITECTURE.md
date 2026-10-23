@@ -109,7 +109,7 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 
 `src/data/sync.ts` i `src/storage/outbox.ts`: `submit()` doda stavke u lokalni red i odmah pokuša poslati. Vrste stavki: odgovor, prijava, posjet, početak partije i napredak partije. Napredak partije čeka dok njezin početak ne stigne u bazu (inače bi ga baza zauvijek odbila). Ako `flushOutbox` već šalje, novi poziv samo traži još jedan krug odmah nakon njega (`again`), pa ništa ne čeka minutu; red se prazni i na `pagehide` i kad kartica ode u pozadinu. Red se prazni pri startu, kad se veza vrati (`online`) i svake minute. Ako server odbije skupinu, stavke se šalju jedna po jedna, pa jedna loša stavka ne blokira ostale. Procjena i Najbrži prst bez javljanja ne bilježe se.
 
-**Aktivnost** (`src/data/activity.ts`, SPEC 9.4): `recordVisit` pri pokretanju (`boot.tsx`), a `GameSession` zove `recordGameStart` (u `begin`, uz oznaku revanša), `recordProgress` (`getProgressEvents`: `turn` nakon svakog pitanja, `round`, `finished`) i `recordAbandon` (`getCompletedRounds`). Urednik iz toga računa „runda · pitanje” (`liveProgress` u `activityStats.ts`). Id partije je `crypto.randomUUID()` i sprema se uz partiju (`bw:game:v4`), pa se nastavljena partija bilježi pod istim id-jem. Ništa se ne bilježi kad je `import.meta.env.DEV` ili kad uređaj ima sesiju urednika (`hasEditorSession`). `recordGameStart` usput pošalje skriveni Netlify obrazac „partija” iz `index.html` (POST na `/`), a Netlify vlasniku pošalje mail.
+**Aktivnost** (`src/data/activity.ts`, SPEC 9.4): `recordVisit` pri pokretanju (`boot.tsx`), a `GameSession` zove `recordGameStart` (u `begin`, uz oznaku revanša), `recordProgress` (`getProgressEvents`: `turn` nakon svakog pitanja, `round`, `finished`) i `recordAbandon` (`getCompletedRounds`). Urednik iz toga računa „runda · pitanje” (`liveProgress` u `activityStats.ts`). Id partije je `crypto.randomUUID()` i sprema se uz partiju (`bw:game:v4`), pa se nastavljena partija bilježi pod istim id-jem. Posjeti i početci partija ne bilježe se kad je `import.meta.env.DEV` ili kad uređaj ima sesiju urednika (`hasEditorSession`). `recordGameStart` vraća je li partija u dnevniku (`tracked`), a `GameSession` to sprema uz partiju i šalje napredak samo za takve partije, pa kasnija prijava u Urednik ne prekida bilježenje. `recordGameStart` usput pošalje skriveni Netlify obrazac „partija” iz `index.html` (POST na `/`), a Netlify vlasniku pošalje mail.
 
 ## 8. Local storage
 
@@ -119,7 +119,7 @@ Ključevi su `bw:<ime>:v<verzija>` (`src/storage/keys.ts`):
 |---|---|---|
 | `settings` | 1 | tema, zvuk |
 | `played` | 2 | id-jevi odigranih pitanja na ovom uređaju |
-| `game` | 4 | partija u tijeku, njezin id za aktivnost i vrijeme spremanja |
+| `game` | 5 | partija u tijeku, njezin id za aktivnost, bilježi li se (`tracked`) i vrijeme spremanja |
 | `lastSetup` | 2 | zadnji timovi i opcije |
 | `outbox` | 4 | statistika, prijave i aktivnost (s veličinom prozora, jezikom i napretkom po pitanju) koji čekaju slanje |
 | `auth` | 1 | Supabase sesija urednika |

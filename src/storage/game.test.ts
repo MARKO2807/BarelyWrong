@@ -24,21 +24,24 @@ beforeEach(() => {
 describe('game in progress', () => {
   it('saves and loads with the time it was saved', () => {
     const game = gameReducer(newGame(), { type: 'next' })
-    expect(saveGame(game, 'g1', 1234)).toBe(true)
-    expect(loadGame()).toEqual({ savedAt: 1234, id: 'g1', game })
+    expect(saveGame(game, { id: 'g1', tracked: true }, 1234)).toBe(true)
+    expect(loadGame()).toEqual({ savedAt: 1234, id: 'g1', tracked: true, game })
     expect(hasUnfinishedGame()).toBe(true)
   })
 
   it('has nothing to continue when no game or a finished game is saved', () => {
     expect(loadGame()).toBeNull()
     expect(hasUnfinishedGame()).toBe(false)
-    saveGame(playToEnd(newGame({ teams: 2 })), 'g1')
+    saveGame(playToEnd(newGame({ teams: 2 })), { id: 'g1', tracked: false })
     expect(hasUnfinishedGame()).toBe(false)
   })
 
   it('throws away a damaged save', () => {
     const game = newGame()
-    saveGame({ ...game, step: { type: 'judged', round: 0 } } as unknown as typeof game, 'g1')
+    saveGame({ ...game, step: { type: 'judged', round: 0 } } as unknown as typeof game, {
+      id: 'g1',
+      tracked: false,
+    })
     expect(loadGame()).toBeNull()
     expect(localStorage.getItem(KEYS.game)).toBeNull()
 
@@ -47,7 +50,7 @@ describe('game in progress', () => {
   })
 
   it('is cleared when a game is abandoned', () => {
-    saveGame(newGame(), 'g1')
+    saveGame(newGame(), { id: 'g1', tracked: false })
     clearGame()
     expect(loadGame()).toBeNull()
   })
@@ -125,6 +128,12 @@ describe('older saves', () => {
     const progress = { type: 'gameProgress', id: 'p', gameId: 'g', event: 'round', round: 2 }
     localStorage.setItem('bw:outbox:v3', JSON.stringify([progress]))
     expect(readOutbox()).toEqual([{ ...progress, turn: 0 }])
+  })
+
+  it('counts a v4 game as tracked', () => {
+    const game = newGame()
+    localStorage.setItem('bw:game:v4', JSON.stringify({ savedAt: 5, id: 'g', game }))
+    expect(loadGame()).toEqual({ savedAt: 5, id: 'g', tracked: true, game })
   })
 
   it('gives a v3 game an id', () => {

@@ -9,7 +9,8 @@ export const STORED = {
   // v2: question ids changed from file-based (sport-pilot-3) to database ids (sport-0003).
   played: { name: 'played', version: 2 },
   // v3: games keep the host's score corrections. v4: games have an id (activity log).
-  game: { name: 'game', version: 4 },
+  // v5: and remember whether they are in the activity log.
+  game: { name: 'game', version: 5 },
   // v2: same shape (briefly held team icons).
   lastSetup: { name: 'lastSetup', version: 2 },
   // v2: also visits and games for the editor's activity page. v3: window size and language.

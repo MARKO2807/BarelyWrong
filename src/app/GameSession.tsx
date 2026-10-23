@@ -19,7 +19,7 @@ import {
   type GameAction,
   type GameState,
 } from '../engine'
-import { clearGame, loadGame, markPlayed, saveGame } from '../storage'
+import { clearGame, loadGame, markPlayed, saveGame, type GameLog } from '../storage'
 
 interface GameSessionValue {
   game: GameState | null
@@ -44,12 +44,13 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
   const [game, setGame] = useState<GameState | null>(null)
   const current = useRef<GameState | null>(null)
   /** Id of the current game in the activity log; saved with the game. */
-  const gameId = useRef('')
+  /** This game's place in the activity log; saved with the game. */
+  const log = useRef<GameLog>({ id: '', tracked: false })
 
   const apply = useCallback((next: GameState | null) => {
     current.current = next
     setGame(next)
-    if (next) saveGame(next, gameId.current)
+    if (next) saveGame(next, log.current)
   }, [])
 
   const dispatch = useCallback(
@@ -66,7 +67,7 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
           ...event,
         })),
       )
-      recordProgress(gameId.current, getProgressEvents(previous, next))
+      if (log.current.tracked) recordProgress(log.current.id, getProgressEvents(previous, next))
       apply(next)
     },
     [apply],
@@ -74,8 +75,8 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
 
   const begin = useCallback(
     (next: GameState, rematch: boolean) => {
-      gameId.current = crypto.randomUUID()
-      recordGameStart(gameId.current, next, rematch)
+      const id = crypto.randomUUID()
+      log.current = { id, tracked: recordGameStart(id, next, rematch) }
       apply(next)
     },
     [apply],
@@ -84,7 +85,7 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
   const resume = useCallback(() => {
     const saved = loadGame()
     if (!saved) return false
-    gameId.current = saved.id
+    log.current = { id: saved.id, tracked: saved.tracked }
     apply(gameReducer(saved.game, { type: 'pause', now: saved.savedAt }))
     return true
   }, [apply])
@@ -92,7 +93,7 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
   const abandon = useCallback(() => {
     const latest = current.current
     if (latest && latest.step.type !== 'finished')
-      recordAbandon(gameId.current, getCompletedRounds(latest))
+      if (log.current.tracked) recordAbandon(log.current.id, getCompletedRounds(latest))
     current.current = null
     setGame(null)
     clearGame()
@@ -103,7 +104,7 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const saveOnLeave = () => {
       const latest = current.current
-      if (latest) saveGame(gameReducer(latest, { type: 'pause', now: Date.now() }), gameId.current)
+      if (latest) saveGame(gameReducer(latest, { type: 'pause', now: Date.now() }), log.current)
     }
     window.addEventListener('pagehide', saveOnLeave)
     return () => window.removeEventListener('pagehide', saveOnLeave)

@@ -10,6 +10,8 @@ const savedGameSchema = z.object({
   savedAt: z.number(),
   /** Random id of this game in the editor's activity log (game_starts.id). */
   id: z.string(),
+  /** Its start was recorded, so its progress is too (even if the editor signs in later). */
+  tracked: z.boolean(),
   game: gameStateSchema,
 })
 export type SavedGame = z.infer<typeof savedGameSchema>
@@ -28,11 +30,17 @@ const stored: StoredValue<SavedGame> = {
     },
     // v3 → v4: games get an id for the activity log.
     3: (data) => ({ ...(data as object), id: crypto.randomUUID() }),
+    // v4 → v5: games remember whether they are in the activity log. Older ones say yes; if their
+    // start was never recorded, the database refuses their progress, which costs nothing.
+    4: (data) => ({ ...(data as object), tracked: true }),
   },
 }
 
-export function saveGame(game: GameState, id: string, now: number = Date.now()): boolean {
-  return writeStored(stored, { savedAt: now, id, game })
+/** The game's place in the activity log, saved with it. */
+export type GameLog = Pick<SavedGame, 'id' | 'tracked'>
+
+export function saveGame(game: GameState, log: GameLog, now: number = Date.now()): boolean {
+  return writeStored(stored, { savedAt: now, ...log, game })
 }
 
 /** The saved game, or null. A damaged save is thrown away. */

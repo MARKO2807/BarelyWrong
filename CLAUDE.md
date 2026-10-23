@@ -66,7 +66,7 @@ Ažuriraj ovaj popis kad se naredbe promijene.
 - Pitanja za partiju bira funkcija `game_candidates` u bazi, a lokalni izvor isto pravilo (`pickCandidates` u engineu); kad mijenjaš jedno, mijenjaj i drugo.
 - Novi vanjski servis (API, font, slika s CDN-a) blokira CSP iz `vite.config.ts` dok ga ondje ne dodaš.
 - Na Windowsu: Node skripte koje trebaju `sharp` ili `prettier` pokreći iz mape projekta.
-- Probna partija u pregledniku ostaje u local storageu (`bw:game:v4`); obriši je nakon provjere.
+- Probna partija u pregledniku ostaje u local storageu (`bw:game:v5`); obriši je nakon provjere.
 
 ## Pitanja
 
