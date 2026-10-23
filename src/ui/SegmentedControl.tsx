@@ -28,12 +28,14 @@ export function SegmentedControl<T extends string>({
     <div
       role="radiogroup"
       aria-labelledby={labelledBy}
-      className="flex w-fit max-w-full gap-1 rounded-md bg-bg p-1"
+      // Equal columns as wide as the longest label (a flex row split the total evenly, cutting a
+      // long label next to a short one); on a narrow screen they shrink together.
+      className="grid w-fit max-w-full auto-cols-[minmax(0,1fr)] grid-flow-col gap-1 rounded-md bg-bg p-1"
     >
       {options.map((option) => (
         <label
           key={option.value}
-          className="has-focus-ring min-w-0 flex-1 cursor-pointer rounded-sm px-[clamp(0.4rem,2vw,1rem)] py-2 text-center font-display text-[length:clamp(0.8rem,4.2vw,1.125rem)] whitespace-nowrap font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
+          className="has-focus-ring min-w-0 cursor-pointer rounded-sm px-[clamp(0.4rem,2vw,1rem)] py-2 text-center font-display text-[length:clamp(0.8rem,4.2vw,1.125rem)] whitespace-nowrap font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
         >
           <input
             type="radio"
