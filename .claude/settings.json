@@ -11,6 +11,7 @@
       "Bash(npm run q -- search:*)",
       "Bash(npm run q -- show:*)",
       "Bash(npm run q -- wiki:*)",
+      "Bash(npm run q -- he:*)",
       "Bash(npm run q -- check:*)",
       "Bash(npm run q -- review:*)",
       "Bash(npm run q -- count)",

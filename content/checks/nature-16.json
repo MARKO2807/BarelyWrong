@@ -1,0 +1,96 @@
+[
+  {
+    "id": "nature-0344",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Naked mole-rat",
+        "needles": [
+          "queen",
+          "Africa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0345",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ophiocordyceps unilateralis",
+        "needles": [
+          "zombie-ant fungus",
+          "discovered by the British naturalist Alfred Russel Wallace in 1859",
+          "use their mandibles to attach themselves to a major vein on the underside of a leaf, where the host remains after its eventual death"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0346",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bombardier beetle",
+        "needles": [
+          "eject a hot, noxious chemical spray",
+          "with a popping sound",
+          "reaction between hydroquinone and hydrogen peroxide"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0347",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Phineas Gage",
+        "needles": [
+          "tamping iron",
+          "left frontal lobe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0348",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Capgras delusion",
+        "needles": [
+          "replaced by an identical impostor",
+          "named after Joseph Capgras (1873–1950), the French psychiatrist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0349",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bar-tailed godwit",
+        "needles": [
+          "across the Pacific Ocean from Alaska to New Zealand is the longest known non-stop flight of any bird",
+          "round-trip migration for this subspecies is over 29,000 km"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0350",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Aye-aye",
+        "needles": [
+          "native to Madagascar with rodent-like teeth that perpetually grow",
+          "special thin middle finger that they can use to catch grubs and larvae out of tree trunks",
+          "world's largest nocturnal primate"
+        ]
+      }
+    ]
+  }
+]

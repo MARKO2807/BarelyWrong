@@ -1,0 +1,402 @@
+[
+  {
+    "id": "language_literature-0372",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Anna Karenina",
+        "needles": [
+          "Vronsky",
+          "1875",
+          "1877"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0373",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Madame Bovary",
+        "needles": [
+          "Emma",
+          "1856",
+          "trial"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0374",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Great Gatsby",
+        "needles": [
+          "Jay Gatsby",
+          "1925",
+          "Nick Carraway"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0375",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Holden Caulfield",
+        "needles": [
+          "The Catcher in the Rye",
+          "Pencey",
+          "16-year-old Holden Caulfield"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0376",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jean Valjean",
+        "needles": [
+          "Javert",
+          "bread"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0377",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Quasimodo",
+        "needles": [
+          "bell-ringer",
+          "Esmeralda"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0378",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dulcinea",
+        "needles": [
+          "Don Quixote",
+          "El Toboso"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0379",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fitzwilliam Darcy",
+        "needles": [
+          "Pride and Prejudice",
+          "Pemberley"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0380",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ebenezer Scrooge",
+        "needles": [
+          "A Christmas Carol",
+          "1843",
+          "Bah! Humbug"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0381",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Miss Havisham",
+        "needles": [
+          "Great Expectations",
+          "wedding dress",
+          "clocks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0382",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Suze sina razmetnoga",
+        "needles": [
+          "1622",
+          "plač"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0383",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dundo Maroje",
+        "needles": [
+          "Pomet",
+          "1551"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0384",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Novela od Stanca",
+        "needles": [
+          "1550",
+          "Martolice Džamanjića"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0385",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Zlatarovo zlato",
+        "needles": [
+          "Dora",
+          "1871",
+          "prvi hrvatski povijesni roman"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0386",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Čuvaj se senjske ruke",
+        "needles": [
+          "1876",
+          "grada Sen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0387",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kiklop",
+        "needles": [
+          "Melkior Tresić",
+          "1965"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0388",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tin Ujević",
+        "needles": [
+          "Kolajna",
+          "Lelek sebra"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0389",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Antun Branko Šimić",
+        "needles": [
+          "Preobraženja",
+          "1920",
+          "tuberculosis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0390",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Vlak u snijegu",
+        "needles": [
+          "Djeca velikog sela",
+          "1931",
+          "mladi učitelj",
+          "stvarnim događajima"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0391",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dubravka Ugrešić",
+        "needles": [
+          "Steffie Speck in the Jaws of Life",
+          "directed by Rajko Grlić"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0392",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Bridge on the Drina",
+        "needles": [
+          "Višegrad",
+          "1945",
+          "spans about four centuries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0393",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Master and Margarita",
+        "needles": [
+          "Woland",
+          "Behemoth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Little Prince",
+        "needles": [
+          "B-612",
+          "rose"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lord of the Flies",
+        "needles": [
+          "Piggy",
+          "glasses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Catch-22",
+        "needles": [
+          "Yossarian",
+          "1961"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Name of the Rose",
+        "needles": [
+          "William of Baskerville",
+          "Adso of Melk"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0398",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Perfume (novel)",
+        "needles": [
+          "Jean-Baptiste Grenouille",
+          "1985"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Aslan",
+        "needles": [
+          "first mentioned in The Lion, the Witch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0400",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Neverland",
+        "needles": [
+          "Lost Boys",
+          "Captain Hook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Snoopy",
+        "needles": [
+          "Charlie Brown",
+          "Charles M. Schulz"
+        ]
+      }
+    ]
+  }
+]

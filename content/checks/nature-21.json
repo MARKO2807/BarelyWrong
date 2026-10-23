@@ -1,0 +1,334 @@
+[
+  {
+    "id": "nature-0505",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fire salamander",
+        "needles": [
+          "Salamandra salamandra",
+          "black with yellow spots"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0506",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Grass snake",
+        "needles": [
+          "Natrix natrix",
+          "yellow or white collar",
+          "never take dead prey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0507",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vipera berus",
+        "needles": [
+          "Arctic Circle",
+          "folklore in Britain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Green iguana",
+        "needles": [
+          "parietal eye",
+          "photosensory organ",
+          "herbivorous"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Caiman",
+        "needles": [
+          "black caiman (Melanosuchus niger)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Moray eel",
+        "needles": [
+          "pharyngeal jaws",
+          "shelters"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wels catfish",
+        "needles": [
+          "Silurus glanis",
+          "one of the largest freshwat",
+          "at least 70 years old"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Northern pike",
+        "needles": [
+          "Esox lucius",
+          "ambush predators",
+          "cold, clear, rocky waters"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Zander",
+        "needles": [
+          "Sander lucioperca",
+          "two long canines"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Swordfish",
+        "needles": [
+          "Xiphias gladius",
+          "popular image of the swordfish skewering its prey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0515",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Barracuda",
+        "needles": [
+          "genus Sphyraena",
+          "only genus in the family Sphyraenidae"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0516",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lungfish",
+        "needles": [
+          "lungs",
+          "surviving seasonal drying out"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0517",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pterois",
+        "needles": [
+          "invasive species in the we",
+          "P. volitans"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0518",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Atlantic cod",
+        "needles": [
+          "Gadus morhua",
+          "cod moratorium"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0519",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:European pilchard",
+        "needles": [
+          "Sardina pilchardus",
+          "herring-like",
+          "50,000–60,000 eggs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0520",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:European anchovy",
+        "needles": [
+          "Engraulis encrasicolus",
+          "somewhat related to the herring"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0521",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Atlantic mackerel",
+        "needles": [
+          "Scomber scombrus",
+          "absence of a swim bladder"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0522",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gilt-head bream",
+        "needles": [
+          "Sparus aurata",
+          "protandrous",
+          "feeds mainly on shellfish"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0523",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:European seabass",
+        "needles": [
+          "Dicentrarchus labrax",
+          "estuaries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0524",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dusky grouper",
+        "needles": [
+          "Epinephelus marginatus",
+          "protogynous hermaph",
+          "five years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0525",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Scorpaena scrofa",
+        "needles": [
+          "Scorpaena scrofa",
+          "venomous"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0526",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nephrops norvegicus",
+        "needles": [
+          "Nephrops norvegicus",
+          "Norway lobster",
+          "langoustine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0527",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Amphipod",
+        "needles": [
+          "Amphipoda",
+          "10,700 species"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0528",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Daphnia",
+        "needles": [
+          "Daphnia",
+          "parthenogenesis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Brown trout",
+        "needles": [
+          "Salmo trutta",
+          "sea trout"
+        ]
+      }
+    ]
+  }
+]

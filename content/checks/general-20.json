@@ -1,0 +1,358 @@
+[
+  {
+    "id": "general-0441",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Renminbi",
+        "needles": [
+          "people's currency",
+          "yuan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0442",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hungarian forint",
+        "needles": [
+          "Florence",
+          "fiorino"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0443",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Romanian leu",
+        "needles": [
+          "lion",
+          "Dutch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0444",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bulgarian lev",
+        "needles": [
+          "lion",
+          "1 February 2026 the euro became the sole legal tender"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0445",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:South Korean won",
+        "needles": [
+          "yuan",
+          "yen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0446",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Israeli new shekel",
+        "needles": [
+          "1986",
+          "weight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0447",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Saudi riyal",
+        "needles": [
+          "In June 1986, the riyal was officially pegged"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0448",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dirham",
+        "needles": [
+          "400 dirhem equal one oka",
+          "Morocc"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0449",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kazakhstani tenge",
+        "needles": [
+          "1993"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0450",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Portuguese escudo",
+        "needles": [
+          "shield",
+          "2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0451",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Spanish peseta",
+        "needles": [
+          "1868",
+          "2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0452",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Drachma",
+        "needles": [
+          "Ancient drachma",
+          "from 1833 until replaced by the euro in 2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0453",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dutch guilder",
+        "needles": [
+          "golden",
+          "2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0454",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Austrian schilling",
+        "needles": [
+          "from 1925 to 1938 and from 1945 to 2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0455",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ukrainian hryvnia",
+        "needles": [
+          "1996",
+          "Kievan Rus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0456",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Polish złoty",
+        "needles": [
+          "golden"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0457",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:South African rand",
+        "needles": [
+          "Witwatersrand",
+          "1961"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0458",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Brazilian real",
+        "needles": [
+          "1994"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0459",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Thai baht",
+        "needles": [
+          "weight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0460",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vietnamese đồng",
+        "needles": [
+          "sign: ₫",
+          "currency of Vietnam"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0461",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Malaysian ringgit",
+        "needles": [
+          "jagged"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0462",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Georgian lari",
+        "needles": [
+          "1995"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0463",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Armenian dram",
+        "needles": [
+          "money",
+          "1993"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0464",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hiragana",
+        "needles": [
+          "syllabary",
+          "katakana",
+          "kanji"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0465",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Devanagari",
+        "needles": [
+          "Hindi",
+          "Sanskrit",
+          "written from left to right"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0466",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tautology (language)",
+        "needles": [
+          "saying the same thing twice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0467",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Neologism",
+        "needles": [
+          "newly formed word"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0468",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Archaism",
+        "needles": [
+          "historical epoch beyond living memory",
+          "survived in a few"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "history-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Theodoric the Great",
+        "needles": [
+          "493",
+          "Ravenna",
+          "princeps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alfred the Great",
+        "needles": [
+          "wheaten cakes",
+          "King of the West Saxons from 871"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0515",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peter the Great",
+        "needles": [
+          "incognito",
+          "18-month",
+          "Grand Embassy",
+          "shipbuilding in Pereslavl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0516",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Empress Elisabeth of Austria",
+        "needles": [
+          "Geneva",
+          "1898",
+          "Luigi Lucheni"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0517",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ibn Battuta",
+        "needles": [
+          "117,000 km",
+          "Morocco",
+          "dictated an account of his journeys"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0518",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bartolomeu Dias",
+        "needles": [
+          "1488",
+          "King John II later renamed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0519",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Abel Tasman",
+        "needles": [
+          "1642",
+          "first European to reach New Zealand",
+          "Staten Landt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0520",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Robert Falcon Scott",
+        "needles": [
+          "Terra Nova",
+          "1912"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0521",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ernest Shackleton",
+        "needles": [
+          "Endurance",
+          "Weddell Sea",
+          "21 November 1915",
+          "wreck of Endurance was discovered"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0522",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:David Livingstone",
+        "needles": [
+          "first European to see the Mosi-oa-Tunya",
+          "the smoke th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0523",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Henry Morton Stanley",
+        "needles": [
+          "Dr. Livingstone, I presume",
+          "John Rowlands"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0524",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tenzing Norgay",
+        "needles": [
+          "Sherpa",
+          "Edmund Hillary",
+          "1953"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0525",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Solon",
+        "needles": [
+          "debt",
+          "Seven Sages"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0526",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Darius the Great",
+        "needles": [
+          "Persepolis",
+          "satrap",
+          "became centralized and unified"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0527",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Leon Trotsky",
+        "needles": [
+          "Red Army",
+          "Mexico",
+          "ice axe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0528",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fran Krsto Frankopan",
+        "needles": [
+          "1671",
+          "Gartlic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Caligula",
+        "needles": [
+          "third Roman emperor",
+          "AD 37",
+          "Gaius Julius Caesar Augustus Germanicus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0530",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nikita Khrushchev",
+        "needles": [
+          "Secret Speech",
+          "1956",
+          "20th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0531",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Willy Brandt",
+        "needles": [
+          "Ostpolitik",
+          "Nobel Peace Prize in 1971"
+        ]
+      }
+    ]
+  }
+]

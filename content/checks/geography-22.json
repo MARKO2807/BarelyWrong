@@ -1,0 +1,300 @@
+[
+  {
+    "id": "geography-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Irrawaddy River",
+        "needles": [
+          "principal river of Myanmar",
+          "Andaman Sea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ob (river)",
+        "needles": [
+          "Novosibirsk",
+          "third-largest city in Russia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dniester",
+        "needles": [
+          "Moldova",
+          "Black Sea",
+          "Scythian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Main (river)",
+        "needles": [
+          "Frankfurt",
+          "Mainz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0515",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Po (river)",
+        "needles": [
+          "longest river in Italy",
+          "Cottian Alps",
+          "652 km"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0516",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Douro",
+        "needles": [
+          "Porto",
+          "Duero",
+          "port wine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0517",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Guadalquivir",
+        "needles": [
+          "Seville",
+          "Córdoba",
+          "great river"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0518",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Colorado River",
+        "needles": [
+          "Grand Canyon",
+          "Hoover Dam"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0519",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mackenzie River",
+        "needles": [
+          "longest river",
+          "Alexander Mackenzie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0520",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bosut",
+        "needles": [
+          "Vinkovci",
+          "Sava"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0521",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hindu Kush",
+        "needles": [
+          "Afghanistan",
+          "Tirich Mir",
+          "7,708"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0522",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Drakensberg",
+        "needles": [
+          "Dragons' Mountains",
+          "uKhahlamba"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0523",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rwenzori Mountains",
+        "needles": [
+          "Mountains of the Moon",
+          "Uganda",
+          "glaciers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0524",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Appalachian Mountains",
+        "needles": [
+          "Newfoundland",
+          "Alabama",
+          "Appalachian Trail"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0525",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rocky Mountains",
+        "needles": [
+          "New Mexico",
+          "Continental Divide",
+          "Mount Elbert"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0526",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sierra Nevada",
+        "needles": [
+          "Mount Whitney",
+          "Yosemite",
+          "highest point in the cont"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0527",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Great Dividing Range",
+        "needles": [
+          "Mount Kosciuszko",
+          "eastern"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0528",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Moselle",
+        "needles": [
+          "Metz",
+          "Koblenz",
+          "Riesling"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Garonne",
+        "needles": [
+          "Toulouse",
+          "Bordeaux",
+          "Gironde estuary"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0530",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Murray River",
+        "needles": [
+          "Australia's longest river",
+          "Millewa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0531",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Mirna",
+        "needles": [
+          "3 km istočno od Novigrada",
+          "Buzeta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0532",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pamir Mountains",
+        "needles": [
+          "Tajikistan",
+          "Alay Valley",
+          "Kongur Tagh"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "id": "science_tech-0539",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pioneer 10",
+        "needles": [
+          "asteroid belt",
+          "Jupiter",
+          "plaque"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0540",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Curiosity (rover)",
+        "needles": [
+          "Gale crater",
+          "2012",
+          "sky crane"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0541",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Opportunity (rover)",
+        "needles": [
+          "90",
+          "dust storm",
+          "2018"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0542",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chandrayaan-3",
+        "needles": [
+          "south pole",
+          "2023"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0543",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hayabusa",
+        "needles": [
+          "2010",
+          "Itokawa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0544",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chandra X-ray Observatory",
+        "needles": [
+          "1999",
+          "X-ray"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0545",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Spitzer Space Telescope",
+        "needles": [
+          "infrared",
+          "2003",
+          "2020"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0546",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Space Shuttle",
+        "needles": [
+          "STS-1",
+          "1981",
+          "2011"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0547",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Falcon 9",
+        "needles": [
+          "first stage",
+          "reusable",
+          "2015"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0548",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Baikonur Cosmodrome",
+        "needles": [
+          "Sputnik",
+          "Gagarin",
+          "lease"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0549",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Makemake",
+        "needles": [
+          "Rapa Nui",
+          "creator of humanity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0550",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Haumea",
+        "needles": [
+          "rotat",
+          "ring",
+          "Hawaiian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0551",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sedna (dwarf planet)",
+        "needles": [
+          "Inuit",
+          "2003",
+          "11,"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0552",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Comet Shoemaker–Levy 9",
+        "needles": [
+          "1994",
+          "Jupiter",
+          "first direct observation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0553",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chelyabinsk meteor",
+        "needles": [
+          "1,491 people were injured"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0554",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Aldebaran",
+        "needles": [
+          "Taurus",
+          "follower",
+          "Pleiades"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0555",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Canopus",
+        "needles": [
+          "Carina",
+          "second-brightest",
+          "mythological Canopus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0556",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Orion Nebula",
+        "needles": [
+          "star formation",
+          "Messier 42"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0557",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Crab Nebula",
+        "needles": [
+          "1054",
+          "supernova",
+          "pulsar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0558",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Juno (spacecraft)",
+        "needles": [
+          "2016",
+          "Jupiter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0559",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Venera 7",
+        "needles": [
+          "1970",
+          "surface",
+          "23"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0560",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mariner 4",
+        "needles": [
+          "1965",
+          "about three years in solar orbit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0561",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chang'e 4",
+        "needles": [
+          "far side",
+          "2019"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0562",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Europa (moon)",
+        "needles": [
+          "ocean",
+          "ice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0563",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Arcturus",
+        "needles": [
+          "Boötes",
+          "brightest star in the northern"
+        ]
+      }
+    ]
+  }
+]

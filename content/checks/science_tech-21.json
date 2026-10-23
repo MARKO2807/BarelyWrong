@@ -1,0 +1,460 @@
+[
+  {
+    "id": "science_tech-0505",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:James Watt",
+        "needles": [
+          "separate condenser",
+          "inventor, engineer and chemist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0506",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Robert Fulton",
+        "needles": [
+          "Clermont",
+          "Hudson",
+          "commissioned by Napoleon Bonaparte"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0507",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gottlieb Daimler",
+        "needles": [
+          "Wilhelm Maybach",
+          "Daimler-Motoren-Gesellschaft"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wernher von Braun",
+        "needles": [
+          "V-2",
+          "Saturn V",
+          "Operation Paperclip"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sergei Korolev",
+        "needles": [
+          "Sputnik",
+          "Gagarin",
+          "1966"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Robert H. Goddard",
+        "needles": [
+          "liquid-fueled rocket",
+          "1926",
+          "Goddard Space Flight Center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Thomas Newcomen",
+        "needles": [
+          "1712",
+          "Cornwall"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Eli Whitney",
+        "needles": [
+          "cotton gin",
+          "1793"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Elisha Otis",
+        "needles": [
+          "In 1853, he invented a safety device",
+          "Otis Elevator Company"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Isaac Singer",
+        "needles": [
+          "sewing machine",
+          "installments"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0515",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:King C. Gillette",
+        "needles": [
+          "safety razor",
+          "Production began in 1903"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0516",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Willis Carrier",
+        "needles": [
+          "air conditioning",
+          "July 17, 1902",
+          "Brooklyn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0517",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Philo Farnsworth",
+        "needles": [
+          "all-electronic",
+          "September 7, 1927"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0518",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Steve Jobs",
+        "needles": [
+          "iPhone",
+          "1985",
+          "1997"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0519",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Larry Page",
+        "needles": [
+          "PageRank",
+          "Sergey Brin",
+          "1998"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0520",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sergey Brin",
+        "needles": [
+          "Moscow",
+          "Stanford"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0521",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ethernet",
+        "needles": [
+          "Xerox PARC",
+          "Robert Metcalfe and David Boggs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0522",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:USB",
+        "needles": [
+          "Universal Serial Bus",
+          "1996"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0523",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Radio-frequency identification",
+        "needles": [
+          "radio waves",
+          "tags"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0524",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Light-emitting diode",
+        "needles": [
+          "semiconductor",
+          "blue LED",
+          "Nobel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0525",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Blu-ray",
+        "needles": [
+          "blue laser",
+          "DVD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0526",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:iPod",
+        "needles": [
+          "from 2001 to 2022"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0527",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Macintosh 128K",
+        "needles": [
+          "1984",
+          "Super Bowl",
+          "single-button mouse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0528",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:ZX Spectrum",
+        "needles": [
+          "Sinclair",
+          "1982",
+          "rubber"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:PlayStation (console)",
+        "needles": [
+          "100 million",
+          "CD-ROM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0530",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Instagram",
+        "needles": [
+          "Kevin Systrom",
+          "Mike Krieger",
+          "1 billion in June 2018"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0531",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:WhatsApp",
+        "needles": [
+          "Jan Koum",
+          "Brian Acton",
+          "2014"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0532",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:eBay",
+        "needles": [
+          "Pierre Omidyar",
+          "AuctionWeb",
+          "1995"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0533",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alibaba Group",
+        "needles": [
+          "Jack Ma",
+          "Hangzhou",
+          "largest IPO in world history"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0534",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nvidia",
+        "needles": [
+          "1993",
+          "Jensen Huang",
+          "graphics processing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0535",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:IBM",
+        "needles": [
+          "Big Blue",
+          "IBM Personal Computer",
+          "System/360 was the first family"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0536",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:C++",
+        "needles": [
+          "Bjarne Stroustrup",
+          "C with Classes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0537",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fortran",
+        "needles": [
+          "Formula Translation",
+          "IBM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0538",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Floppy disk",
+        "needles": [
+          "IBM",
+          "1971",
+          "save icons"
+        ]
+      }
+    ]
+  }
+]

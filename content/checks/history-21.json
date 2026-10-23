@@ -1,0 +1,259 @@
+[
+  {
+    "id": "history-0487",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peace of Utrecht",
+        "needles": [
+          "War of the Spanish Succession",
+          "Gibraltar",
+          "Menorca"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0488",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Treaty of Paris (1856)",
+        "needles": [
+          "Crimean War",
+          "Black Sea",
+          "neutral"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0489",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pragmatic Sanction of 1713",
+        "needles": [
+          "Maria Theresa",
+          "Croatia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0490",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Austro-Hungarian Compromise of 1867",
+        "needles": [
+          "1867",
+          "dual monarchy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0491",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Treaty of London (1915)",
+        "needles": [
+          "Triple Entente",
+          "Dalmatia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0492",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Sisak",
+        "needles": [
+          "1593",
+          "Kupa",
+          "Sava"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0493",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Krbava Field",
+        "needles": [
+          "1493",
+          "Emerik Derenčin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0494",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Agincourt",
+        "needles": [
+          "Henry V",
+          "longbow",
+          "Saint Crispin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0495",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Nicopolis",
+        "needles": [
+          "1396",
+          "Sigismund"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0496",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Varna",
+        "needles": [
+          "1444",
+          "Władysław III",
+          "Murad II"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0497",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Austerlitz",
+        "needles": [
+          "Battle of the Three Emperors",
+          "1805"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0498",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Sedan",
+        "needles": [
+          "Napoleon III",
+          "1870",
+          "Second French Empire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0499",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of the Somme",
+        "needles": [
+          "57,470",
+          "19,240",
+          "worst in the history of the British Army"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0500",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Kursk",
+        "needles": [
+          "Prokhorovka",
+          "1943"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0501",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Battle of Salamis",
+        "needles": [
+          "Themistocles",
+          "480 BC",
+          "straits between the mainland and Salamis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0502",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:House of Tudor",
+        "needles": [
+          "1485",
+          "1603",
+          "Elizabeth I"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0503",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:House of Stuart",
+        "needles": [
+          "1603",
+          "James VI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0504",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Árpád dynasty",
+        "needles": [
+          "Andrew III",
+          "1301"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0505",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:House of Valois",
+        "needles": [
+          "1328",
+          "1589",
+          "Bourbon"
+        ]
+      }
+    ]
+  }
+]

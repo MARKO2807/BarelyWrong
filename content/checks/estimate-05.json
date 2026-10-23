@@ -1,0 +1,119 @@
+[
+  {
+    "id": "science_tech-0355",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Liquid nitrogen",
+        "needles": [
+          "boiling point of about −196 °C",
+          "fractional distillation of liquid air"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0357",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:IPv6",
+        "needles": [
+          "It uses 128-bit addresses",
+          "approximately four billion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0364",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Geostationary orbit",
+        "needles": [
+          "35,786 km (22,236 mi) in altitude above Earth's equator, 42,164 km"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0357",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rotokas alphabet",
+        "needles": []
+      },
+      {
+        "page": "en:Rotokas language",
+        "needles": [
+          "Bougainville Island in Papua New Guinea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0358",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hangul",
+        "needles": [
+          "24 basic letters, which are called jamo",
+          "14 consonants"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0362",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Grimms' Fairy Tales",
+        "needles": [
+          "1812"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0363",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Osman (ep)",
+        "needles": [
+          "Osman se sastoji od 20 pjevanja (14. i 15. nedostaju)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0364",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Asterix",
+        "needles": [
+          "29 October 1959",
+          "Pilote"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0365",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Iliad",
+        "needles": [
+          "divided into 24 books and was written in dactylic hexameter",
+          "15,693 lines in its standard edition"
+        ]
+      }
+    ]
+  }
+]

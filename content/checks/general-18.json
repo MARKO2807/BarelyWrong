@@ -1,0 +1,364 @@
+[
+  {
+    "id": "general-0385",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Moussaka",
+        "needles": [
+          "eggplant",
+          "béchamel",
+          "Tselementes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0386",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Goulash",
+        "needles": [
+          "herdsman",
+          "paprika"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0387",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Falafel",
+        "needles": [
+          "chickpeas",
+          "fava beans",
+          "Egypt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0388",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cannoli",
+        "needles": [
+          "Sicily",
+          "ricotta",
+          "Carnival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0389",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ratatouille",
+        "needles": [
+          "Provençal",
+          "Nice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0390",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sachertorte",
+        "needles": [
+          "Franz Sacher",
+          "1832",
+          "16"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0391",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Malvasia Istriana",
+        "needles": [
+          "Istria",
+          "Slovenia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0392",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gorgonzola cheese",
+        "needles": [
+          "Lombardy",
+          "Piedmont",
+          "blue"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0393",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Roquefort",
+        "needles": [
+          "Combalou",
+          "sheep",
+          "1925"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Camembert",
+        "needles": [
+          "Normandy",
+          "Marie Harel",
+          "wooden box"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Halloumi",
+        "needles": [
+          "Cyprus",
+          "high melting point"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lego",
+        "needles": [
+          "leg godt",
+          "Billund"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Inch",
+        "needles": [
+          "25.4 mm",
+          "Roman uncia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0398",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Barrel (unit)",
+        "needles": [
+          "42 US gallons",
+          "159",
+          "unit symbol bbl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pint",
+        "needles": [
+          "568",
+          "473"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0400",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fathom",
+        "needles": [
+          "6 feet",
+          "depth of water"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Asterisk",
+        "needles": [
+          "little star",
+          "footnote"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0402",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Yin and yang",
+        "needles": [
+          "Chinese philosophy",
+          "taijitu"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0403",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:International Red Cross and Red Crescent Movement",
+        "needles": [
+          "Red Crescent",
+          "Red Crystal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0404",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:SOS",
+        "needles": [
+          "Morse",
+          "not an abbreviation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0405",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:International Bank Account Number",
+        "needles": [
+          "International Bank Account Number",
+          "34",
+          "country code; two check digits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0406",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Risk (game)",
+        "needles": [
+          "Albert Lamorisse",
+          "1957",
+          "one of the most popular board games"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0407",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Teddy bear",
+        "needles": [
+          "Theodore Roosevelt",
+          "refused"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0408",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Yo-yo",
+        "needles": [
+          "Pedro Flores",
+          "Ilocano"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0409",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Frisbee",
+        "needles": [
+          "Frisbie Pie Company",
+          "pie tins"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0410",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tamagotchi",
+        "needles": [
+          "Bandai",
+          "1996",
+          "Egg Watch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Furby",
+        "needles": [
+          "Tiger Electronics",
+          "1998"
+        ]
+      }
+    ]
+  }
+]

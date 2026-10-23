@@ -1,0 +1,88 @@
+[
+  {
+    "id": "general-0376",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Coca-Cola",
+        "needles": [
+          "coca leaves and kola nuts (a source of caffeine)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0409",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Myth of the flat Earth",
+        "needles": [
+          "In 1828, Washington Irving's highly romanticized bio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0367",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Drop (liquid)",
+        "needles": [
+          "more or less spherical for drops less than 2 mm in diameter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0383",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alaska",
+        "needles": [
+          "one of the two non-contiguous U.S. states, alongside Hawaii"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0391",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Shooting at the 1900 Summer Olympics",
+        "needles": [
+          "kill as many live pigeons as possible",
+          "not considered as \"Olympic\" by IOC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0385",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Holy See and the United Nations",
+        "needles": [
+          "permanent observer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lifeboats of the Titanic",
+        "needles": [
+          "20 lifeboats",
+          "1,178 people, a little over half of the 2,207 on board"
+        ]
+      }
+    ]
+  }
+]

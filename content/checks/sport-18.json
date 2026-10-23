@@ -1,0 +1,158 @@
+[
+  {
+    "id": "sport-0392",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:1956 European Cup final",
+        "needles": [
+          "Real Madrid",
+          "Reims",
+          "4–3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0393",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Shohei Ohtani",
+        "needles": [
+          "two-way player"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:World Snooker Championship",
+        "needles": [
+          "Crucible Theatre in Sheffield",
+          "1977"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:1987 Rugby World Cup",
+        "needles": [
+          "New Zealand",
+          "Australia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:America's Cup",
+        "needles": [
+          "oldest international",
+          "1851",
+          "Isle of Wight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tennis scoring system",
+        "needles": [
+          "deuce",
+          "two consecutive points"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jacques Anquetil",
+        "needles": [
+          "first cyclist to win the Tour de France five times"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alberto Tomba",
+        "needles": [
+          "La Bomba",
+          "three Olympic gold medals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0403",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Duje Draganja",
+        "needles": [
+          "silver medal in men's 50 metres freestyle race at the 2004 Summer Olympics",
+          "2005 World Aquatics Championships held in Montreal in 50 m freestyle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0404",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Rumble in the Jungle",
+        "needles": [
+          "Kinshasa",
+          "scheduled for 4 am local time"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0405",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nino Farina",
+        "needles": [
+          "1950 World Drivers' Champion",
+          "Farina returned to Alfa Romeo for the inaugural FIA World Championship of Drivers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0407",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Giannis Antetokounmpo",
+        "needles": [
+          "Greek Freak",
+          "Born and raised in Athens to Nigerian parents"
+        ]
+      }
+    ]
+  }
+]

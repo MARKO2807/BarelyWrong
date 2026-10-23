@@ -1,0 +1,418 @@
+[
+  {
+    "id": "sport-0418",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Anfield",
+        "needles": [
+          "Liverpool",
+          "Everton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0419",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Old Trafford",
+        "needles": [
+          "Theatre of Dreams",
+          "1910"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0420",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:San Siro",
+        "needles": [
+          "Giuseppe Meazza",
+          "Inter",
+          "La Scala del calcio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0421",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Allianz Arena",
+        "needles": [
+          "Bayern",
+          "ETFE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0422",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Westfalenstadion",
+        "needles": [
+          "Yellow Wall",
+          "Borussia Dortmund",
+          "81,365"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0423",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Arena Zagreb",
+        "needles": [
+          "2009 World Men's Handball Championship",
+          "Lanište"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0424",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:USTA Billie Jean King National Tennis Center",
+        "needles": [
+          "Flushing Meadows",
+          "Billie Jean King National Tennis Center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0425",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Silverstone Circuit",
+        "needles": [
+          "1950",
+          "airfield"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0426",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Circuit de Spa-Francorchamps",
+        "needles": [
+          "Eau Rouge",
+          "Belgian Grand Prix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0427",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Daytona 500",
+        "needles": [
+          "NASCAR",
+          "Great American Race"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0428",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Holmenkollbakken",
+        "needles": [
+          "1892",
+          "1952"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0429",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kitzbühel",
+        "needles": [
+          "Hahnenkamm Races",
+          "hardest ski race",
+          "exclusive ski resorts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0430",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kenenisa Bekele",
+        "needles": [
+          "from 2004 until 2020",
+          "gold medal in both the 5,000 m and 10,000 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0431",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Armand Duplantis",
+        "needles": [
+          "pole vault",
+          "world record",
+          "Swedish and American pole vaulter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0432",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Marcel Hirscher",
+        "needles": [
+          "eight consecutive",
+          "Netherlands"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ole Einar Bjørndalen",
+        "needles": [
+          "King of Biathlon",
+          "14 Winter Olympic Games medals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mark Spitz",
+        "needles": [
+          "seven gold medals",
+          "1972",
+          "world record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0435",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Larisa Latynina",
+        "needles": [
+          "14 individual Olympic medals and four team medals",
+          "most Olympic gold medals by a female gymn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0436",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kristin Otto",
+        "needles": [
+          "six gold medals",
+          "1988",
+          "first woman to win six gold medals at a single O"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0437",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cathy Freeman",
+        "needles": [
+          "had lit the Olympic Flame",
+          "400 metres",
+          "first female Indig"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0438",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mario Lemieux",
+        "needles": [
+          "Pittsburgh Penguins",
+          "Super Mario",
+          "Hodgkin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0439",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lionel Messi",
+        "needles": [
+          "Ballon d'Or",
+          "2022 FIFA World Cup"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0440",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kylian Mbappé",
+        "needles": [
+          "hat-trick",
+          "2022",
+          "1966"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0441",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Erling Haaland",
+        "needles": [
+          "36",
+          "Alf-Inge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0442",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ivan Rakitić",
+        "needles": [
+          "Rheinfelden",
+          "Barcelona"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0443",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Darijo Srna",
+        "needles": [
+          "Shakhtar Donetsk",
+          "134"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0444",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nikola Karabatić",
+        "needles": [
+          "Branko",
+          "Luka"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0445",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ivica Zubac",
+        "needles": [
+          "Los Angeles Clippers",
+          "Mostar",
+          "Lakers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0446",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Barbara Matić",
+        "needles": [
+          "World Championships",
+          "2021",
+          "Brigita"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0447",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tonči Stipanović",
+        "needles": [
+          "Laser",
+          "silver",
+          "Croatia's first ever sailing Olymp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0448",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Damir Martin",
+        "needles": [
+          "single sculls",
+          "silver",
+          "Vukovar"
+        ]
+      }
+    ]
+  }
+]

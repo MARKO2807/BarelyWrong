@@ -1,0 +1,554 @@
+[
+  {
+    "id": "science_tech-0398",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Weber (unit)",
+        "needles": [
+          "magnetic flux",
+          "Wilhelm Eduard Weber",
+          "volt-second"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Siemens (unit)",
+        "needles": [
+          "electric conductance",
+          "Werner von Siemens",
+          "reciprocals of resistance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0400",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Becquerel",
+        "needles": [
+          "radioactivity",
+          "Henri Becquerel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sievert",
+        "needles": [
+          "Rolf Maximilian Sievert",
+          "Swedish medical physicist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0402",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gray (unit)",
+        "needles": [
+          "absorbed dose",
+          "Louis Harold Gray",
+          "one joule"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0403",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lux",
+        "needles": [
+          "illuminance",
+          "lumen per square metre"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0404",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Candela",
+        "needles": [
+          "luminous intensity",
+          "candle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0405",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ohm's law",
+        "needles": [
+          "Georg Ohm",
+          "1827"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0406",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hooke's law",
+        "needles": [
+          "Robert Hooke",
+          "ut tensio, sic vis",
+          "anagram"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0407",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Boyle's law",
+        "needles": [
+          "Robert Boyle",
+          "1662"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0408",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Archimedes' principle",
+        "needles": [
+          "buoyant force",
+          "weight of the fluid",
+          "Eureka"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0409",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bernoulli's principle",
+        "needles": [
+          "Daniel Bernoulli",
+          "Hydrodynamica",
+          "1738"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0410",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:LIGO",
+        "needles": [
+          "gravitational waves",
+          "2015",
+          "Nobel Prize in Physics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:László Bíró",
+        "needles": [
+          "ballpoint pen",
+          "birome"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0412",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Oort cloud",
+        "needles": [
+          "long-period comets",
+          "Jan Oort"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0413",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:4 Vesta",
+        "needles": [
+          "Dawn",
+          "brightest asteroid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ingenuity (helicopter)",
+        "needles": [
+          "first flight on 19 April 2021",
+          "Mars 2020",
+          "Ginny"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0415",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Copper",
+        "needles": [
+          "Cyprus",
+          "cuprum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0416",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lise Meitner",
+        "needles": [
+          "nuclear fission",
+          "meitnerium",
+          "Otto Hahn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0417",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Neutrino",
+        "needles": [
+          "Wolfgang Pauli",
+          "1930",
+          "1956"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0418",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Twin paradox",
+        "needles": [
+          "special relativity",
+          "twin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0419",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Parsec",
+        "needles": [
+          "3.26 light-years",
+          "parallax"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0420",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:White dwarf",
+        "needles": [
+          "Sun",
+          "97%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0421",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jocelyn Bell Burnell",
+        "needles": [
+          "1967",
+          "pulsars",
+          "Antony Hewish"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0422",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Quasar",
+        "needles": [
+          "quasi-stellar",
+          "supermassive black hole"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0423",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Polaris",
+        "needles": [
+          "Ursa Minor",
+          "north celestial pole"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0424",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vega",
+        "needles": [
+          "Lyra",
+          "northern pole star around 12000 BCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0425",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cassiopeia (constellation)",
+        "needles": [
+          "W",
+          "Andromeda"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0426",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Avogadro constant",
+        "needles": [
+          "6.02214076",
+          "Amedeo Avogadro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0427",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Allotropy",
+        "needles": [
+          "diamond",
+          "graphite",
+          "proposed in 1840"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0428",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ozone",
+        "needles": [
+          "ozone layer",
+          "ozein"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0429",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Methane",
+        "needles": [
+          "natural gas",
+          "greenhouse gas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0430",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Benzene",
+        "needles": [
+          "Kekulé",
+          "ring",
+          "In 1865, the German chemist Friedrich August Kekulé published"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0431",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Polyethylene",
+        "needles": [
+          "most commonly produced plastic",
+          "packaging"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0432",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:HTTP",
+        "needles": [
+          "Hypertext Transfer Protocol",
+          "CERN",
+          "1989"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Satoshi Nakamoto",
+        "needles": [
+          "Bitcoin",
+          "pseudonym"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Intel 4004",
+        "needles": [
+          "Busicom",
+          "1971",
+          "Computer History Museum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0435",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Steve Wozniak",
+        "needles": [
+          "Apple I",
+          "Apple II",
+          "Woz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0436",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Commodore 64",
+        "needles": [
+          "best-selling",
+          "1982",
+          "64 KB"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0437",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nokia 3310",
+        "needles": [
+          "2000",
+          "Snake II",
+          "126 million"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0438",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alexey Pajitnov",
+        "needles": [
+          "Tetris",
+          "Dorodnitsyn Computing Centre",
+          "Russian and American"
+        ]
+      }
+    ]
+  }
+]

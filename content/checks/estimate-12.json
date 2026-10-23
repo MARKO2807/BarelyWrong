@@ -1,0 +1,136 @@
+[
+  {
+    "id": "sport-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wayne Gretzky",
+        "needles": [
+          "2,857",
+          "99 across the entire league"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0557",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lake Baikal",
+        "needles": [
+          "23,615.39 km3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0558",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sierra Nevada",
+        "needles": [
+          "4,421 m",
+          "14,505 ft"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0559",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rocky Mountains",
+        "needles": [
+          "4,401"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0560",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Appalachian Mountains",
+        "needles": [
+          "2,175-mile (3,500 km"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0483",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Marx Brothers",
+        "needles": [
+          "13 motion pictures"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Atomium",
+        "needles": [
+          "18-metre-diameter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0564",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:CN Tower",
+        "needles": [
+          "Completed in 1976"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0565",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Opportunity (rover)",
+        "needles": [
+          "5111 sols"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "music-0614",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lynyrd Skynyrd",
+        "needles": [
+          "formed in Jacksonville, Florida, in 1964"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0530",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Giacomo Agostini",
+        "needles": [
+          "seven consecutive 500cc World Championships"
+        ]
+      }
+    ]
+  }
+]

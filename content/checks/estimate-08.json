@@ -1,0 +1,392 @@
+[
+  {
+    "id": "culture-0391",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Zagreb Cathedral",
+        "needles": [
+          "over 108 metres",
+          "Neo-Gothic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0427",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cetina",
+        "needles": [
+          "101 km",
+          "1,463 km2",
+          "Omiš"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0428",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mount Fuji",
+        "needles": [
+          "3,776",
+          "active stratovolcano"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0429",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mount Olympus",
+        "needles": [
+          "2,917.727 metres",
+          "meaning \"nose\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0430",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Matterhorn",
+        "needles": [
+          "4,478 metres",
+          "Pennine Alps",
+          "1865"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0431",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Denali",
+        "needles": [
+          "6,190 m",
+          "Mount McKinley"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0432",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Victoria Falls",
+        "needles": [
+          "1,708 m",
+          "largest waterfalls"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0392",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Brooklyn Bridge",
+        "needles": [
+          "Opened on May 24, 1883",
+          "East River"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0393",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tower Bridge",
+        "needles": [
+          "built between 1886 and 1894"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0412",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Shanghai Tower",
+        "needles": [
+          "632-meter",
+          "128-story"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0413",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Taipei 101",
+        "needles": [
+          "508-meter",
+          "101-story"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:CN Tower",
+        "needles": [
+          "553.3-metre",
+          "Completed in 1976"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0440",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Moon",
+        "needles": [
+          "3,474 km",
+          "1.2%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0441",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Venus",
+        "needles": [
+          "464 °C",
+          "sulfuric acid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0413",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Super Bowl I",
+        "needles": [
+          "January 15, 1967",
+          "Los Angeles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Stanley Cup",
+        "needles": [
+          "commissioned in 1892",
+          "Dominion Hock"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0415",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Davis Cup",
+        "needles": [
+          "began in 1900",
+          "World Cup of Tennis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "music-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Abbey Road",
+        "needles": [
+          "26 September 1969",
+          "last album the group recorded"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "music-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Woodstock",
+        "needles": [
+          "August 15 to 18, 1969",
+          "3 Days of Peace & Music"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0416",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wimbledon Championships",
+        "needles": [
+          "since 1877",
+          "oldest tennis tournament"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0415",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Member state of the European Union",
+        "needles": [
+          "27 member states",
+          "founding treaties"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Zagreb",
+        "needles": [
+          "767,131",
+          "158 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cantons of Switzerland",
+        "needles": [
+          "26 cantons",
+          "Swiss Confederation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0435",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:States of Germany",
+        "needles": [
+          "sixteen",
+          "13 are so-called \"area-states\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0436",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Counties of Croatia",
+        "needles": [
+          "20 counties",
+          "re-established in 1992"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0480",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Charlemagne",
+        "needles": [
+          "from 800",
+          "King of the Franks from 768"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0442",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Penicillin",
+        "needles": [
+          "discovered in 1928",
+          "1945 Nobel Prize"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0417",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Brazil national football team",
+        "needles": [
+          "five times: 1958, 1962, 1970, 1994 and 2002"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0416",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Flag of Europe",
+        "needles": [
+          "twelve golden stars",
+          "adopted in 1955 by the Council of Europe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0404",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Decameron",
+        "needles": [
+          "100 tales",
+          "seven young women and three"
+        ]
+      }
+    ]
+  }
+]

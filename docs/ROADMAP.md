@@ -57,7 +57,8 @@ Prije je igra na početku svake partije učitala sva odobrena pitanja: 6 upita, 
 ### [ ] 4. Kvaliteta iz podataka
 
 - Težina se podešava prema postotku točnih odgovora (po jeziku).
-- Pitanja koja se često prijavljuju i ona na koja svi odgovore točno automatski idu na pregled.
+- Pitanja koja se često prijavljuju i ona na koja svi odgovore točno automatski idu na pregled. Prijave šalje anonimni igrač, pa prag mora brojati različite partije, a ne samo prijave (lažne prijave s javnim ključem).
+- Ponovna provjera izvora (`npm run q -- recheck`) redovito, npr. jednom mjesečno; igle za oko 2.000 najstarijih pitanja još nedostaju.
 
 ### [ ] 5. Aktivnost u Uredniku
 

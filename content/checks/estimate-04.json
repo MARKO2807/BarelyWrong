@@ -1,0 +1,93 @@
+[
+  {
+    "id": "history-0387",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Siege of Leningrad",
+        "needles": [
+          "872 days, but never captured",
+          "most destructive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0390",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Signing of the United States Declaration of Independence",
+        "needles": [
+          "August 2, 1776",
+          "The 56 delegates",
+          "Philadelphia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0351",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bamboo",
+        "needles": [
+          "can grow 91 centimeters (36 inches) within a 24-hour period",
+          "fastest-growing plants"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0352",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Human brain",
+        "needles": [
+          "more than 86 billion neurons",
+          "glial cells"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0353",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vertebral column",
+        "needles": [
+          "normally 33 vertebrae",
+          "upper 24 pre-sacral vertebrae are articulating"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0354",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Human genome",
+        "needles": [
+          "approximately 3.1 billion base pairs",
+          "22 autosomes plus one copy of the X chromosome and one copy of the Y chromosome"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0359",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Eumillipes persephone",
+        "needles": [
+          "1,000 legs"
+        ]
+      }
+    ]
+  }
+]

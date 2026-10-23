@@ -1,0 +1,30 @@
+[
+  {
+    "id": "history-0055",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Magna Carta",
+        "needles": [
+          "sealed by King John of England at Runnymede",
+          "15 June 1215",
+          "Stephen Langton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0064",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peace of Westphalia",
+        "needles": [
+          "signed in October 1648",
+          "Osnabrück and Münster",
+          "Thirty Years' War"
+        ]
+      }
+    ]
+  }
+]

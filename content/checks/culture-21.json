@@ -1,0 +1,187 @@
+[
+  {
+    "id": "culture-0500",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rhea (mythology)",
+        "needles": [
+          "Cronus a stone",
+          "cavern on the island of Crete"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0501",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nemesis",
+        "needles": [
+          "retribution for the sin of hubris",
+          "Rhamnusia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0502",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Epimetheus",
+        "needles": [
+          "Iapetus",
+          "hindsight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0503",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Scylla",
+        "needles": [
+          "Charybdis",
+          "six dog heads"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0504",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Polyphemus",
+        "needles": [
+          "Poseidon",
+          "Nobody"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0505",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Set (deity)",
+        "needles": [
+          "Osiris",
+          "Set animal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0506",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dazhbog",
+        "needles": [
+          "sun",
+          "The Tale of Igor's Campaign"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0507",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jarilo",
+        "needles": [
+          "spring",
+          "fertility",
+          "vegetation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Svarog",
+        "needles": [
+          "only source that mentions Svarog",
+          "John Malalas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Herzog & de Meuron",
+        "needles": [
+          "Beijing National Stadium",
+          "In 2001, Herzog & de Meuron recei"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Historicism (art)",
+        "needles": [
+          "historic styles",
+          "Revival architecture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Saint Sophia Cathedral, Kyiv",
+        "needles": [
+          "Kyivan Rus",
+          "first heritage site"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Museum of Contemporary Art, Zagreb",
+        "needles": [
+          "2009",
+          "Novi Zagreb",
+          "Igor Franić"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vesta (mythology)",
+        "needles": [
+          "hearth",
+          "Vestal Virgins",
+          "sacred fire"
+        ]
+      }
+    ]
+  }
+]

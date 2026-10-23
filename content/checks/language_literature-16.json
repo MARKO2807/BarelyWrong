@@ -1,0 +1,96 @@
+[
+  {
+    "id": "language_literature-0350",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hapax legomenon",
+        "needles": [
+          "pl. hapax legomena",
+          "word or an expression that occurs only once within a context: either in the written record of an entire language, in the works of an author, or in a single text"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0351",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Silhouette",
+        "needles": [
+          "derived from the name of Étienne de Silhouette, a French finance minister who, in 1759",
+          "Seven Years' War to impose severe economic demands",
+          "profile, from black card"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0352",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bartleby, the Scrivener",
+        "needles": [
+          "short story by American writer Herman Melville",
+          "November and December 1853",
+          "\"I would prefer not to\"",
+          "A Story of Wall Street"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0353",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alice Liddell",
+        "needles": [
+          "dean",
+          "Oxford"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0354",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:J. M. Barrie",
+        "needles": [
+          "In April 1929, Barrie gave the copyright of the Peter Pan works to Great Ormond Street Hospital",
+          "continues to benefit from them"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0355",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Yoknapatawpha County",
+        "needles": [
+          "fictional Mississippi county created by the American author William Faulkner",
+          "Lafayette County, Mississippi, and its county seat of Oxford (which Faulkner renamed \"Jefferson\")"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0356",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Shangri-La",
+        "needles": [
+          "fictional place in Tibet's Kunlun Mountains, described in the 1933 novel Lost Horizon by the British author James Hilton",
+          "mystical, harmonious valley, gently guided from a lamasery"
+        ]
+      }
+    ]
+  }
+]

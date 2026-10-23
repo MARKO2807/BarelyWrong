@@ -16,13 +16,15 @@ Pravila sadržaja su u `docs/SPEC.md` (poglavlje 8), a postupak uvoza u `docs/AR
    - `free`: slobodno.
    - Kad je tema zasićena, idi na „drugu razinu”: djela, likovi, pojmovi, mjesta, procjene.
 3. **Nacrt** u `content/drafts/<tema>-NN.json` (nije u gitu; ime je sljedeći broj serije). Stavka:
-   `[težina, pitanje, odgovor, [prihvatljivi oblici], zanimljivost, "en:Naslov članka", [oznake], [igle], {"topic": "…"}?]`
+   `[težina, pitanje, odgovor, [prihvatljivi oblici], zanimljivost, "en:Naslov članka", [oznake], [igle], {"topic": "…", "also": [["hr:Naslov", [igle]]]}?]`
+   - **Izvori:** `en:Naslov`, `hr:Naslov` (Wikipedia) ili `he:slug` (Hrvatska enciklopedija; slug: `npm run q -- he "pojam"`).
    - **Igle** su kratki doslovni izrazi iz članka koji dokazuju i pitanje i zanimljivost (godine, brojevi, imena, ključne riječi). Zanimljivost bez igle nije provjerena.
+   - **Drugi izvor** (`also`) je obavezan za procjene, teška pitanja, rekorde („najveći”, „prvi”, „jedini”…) i hrvatske teme. Mora biti s drugog mjesta ili na drugom jeziku: `en:` + `hr:`, ili Wikipedia + `he:`. Igle drugog izvora potvrđuju istu ključnu činjenicu (godinu, broj, ime). Ako se izvori ne slažu, pitanje se izbacuje ili preformulira tako da vrijedi u oba.
    - `{"topic"}` treba za točno/netočno i procjene, jer su pitanja iz više tema.
-4. **Provjera činjenica:** `npm run q -- check <nacrt>`. Za svaki `FAIL` pogledaj članak: `npm run q -- wiki "en:Naslov" "regex"`. Popravi tvrdnju prema izvoru, promijeni iglu ili izbaci pitanje; nikad ne pretpostavljaj.
+4. **Provjera činjenica:** `npm run q -- check <nacrt>`. Za svaki `FAIL` pogledaj članak: `npm run q -- wiki "en:Naslov" "regex"` (radi i za `hr:` i `he:`). Popravi tvrdnju prema izvoru, promijeni iglu, dodaj drugi izvor ili izbaci pitanje; nikad ne pretpostavljaj.
 5. **Pregled duplikata:** `npm run q -- review <nacrt> <tema> <format>`. Izgradi seriju, pokrene probni uvoz, iz nacrta izbaci stavke s greškom i ispiše upozorenja s pitanjima na koja se odnose. Upozorenja riješi (vidi pravila dolje), pa ponovi `check` i `review`.
-6. **Uvoz:** `npm run q -- import <nacrt> <tema> <format> --force` (`--force` tek kad su upozorenja pregledana). Upisuje u produkcijsku bazu i id-jeve u `content/batches/<ime>.json`.
-7. **Commit** serije (`Content: <ime> (N questions, approved after checks)`) i, kad korisnik tako želi, push.
+6. **Uvoz:** `npm run q -- import <nacrt> <tema> <format> --force` (`--force` tek kad su upozorenja pregledana). Upisuje u produkcijsku bazu, id-jeve u `content/batches/<ime>.json` i igle u `content/checks/<ime>.json`.
+7. **Commit** serije i njenih igala (`Content: <ime> (N questions, approved after checks)`) i, kad korisnik tako želi, push.
 8. **Izvještaj korisniku:** koliko je dodano, težina i format, što je izbačeno i zašto.
 
 ## Pravila naučena na ~1.500 pitanja
@@ -34,5 +36,9 @@ Pravila sadržaja su u `docs/SPEC.md` (poglavlje 8), a postupak uvoza u `docs/AR
 - **Vremenski osjetljivo:** rekordi, „najviša zgrada”, valuta države koja mijenja valutu. Provjeri datum u članku ili formuliraj povijesno.
 - **Disambiguacijske stranice** (npr. „en:Fez”, „en:Blue Mosque”) nemaju činjenice: uzmi točan naslov članka.
 - **Uvezena serija** se ne gradi ponovno: alat to odbija, a ispravci idu preko `npm run q -- set <id> note|source "…"` (baza i datoteka zajedno) ili `npm run q -- archive "razlog" <id>…`.
+
+## Ponovna provjera uvezenih pitanja
+
+`npm run q -- recheck [serija…]` ponovno dohvati izvore i ispiše pitanja čije igle više nisu u članku (samo čita). Za svako pogledaj članak: često je samo preformulirana rečenica (tada osvježi iglu u `content/checks/`), a ponekad se činjenica promijenila. Tek uz odobrenje korisnika: `npm run q -- recheck <serija…> --review` stavlja neuspjela pitanja na pregled u Urednik.
 
 Skripte čitaju `.env.local` (urednički račun). Nikad ne ispisuj te vrijednosti.

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "culture-0387",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Eiffel Tower",
+        "needles": [
+          "330 metres",
+          "125 metres"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0382",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ben-Hur (1959 film)",
+        "needles": [
+          "eleven Academy Awards",
+          "highest-grossing film of 1959"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hyperion (tree)",
+        "needles": [
+          "116.22 metres",
+          "Chris Atkins and Michael Taylor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Carbon-14",
+        "needles": [
+          "half-life of 5700±30 years",
+          "radiocarbon dating"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Periodic table",
+        "needles": [
+          "the first 118 elements were known",
+          "atomic number 94"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Balance beam",
+        "needles": [
+          "Height: 125 centimetres",
+          "Length: 500 centimetres",
+          "Width: 10 centimetres"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0388",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Angel Falls",
+        "needles": [
+          "979 metres",
+          "plunge of 807 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0389",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sava",
+        "needles": [
+          "990 kilometres",
+          "largest tributary of the Danube",
+          "Belgrade"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0458",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Spirit of St. Louis",
+        "needles": [
+          "33 hours, 30 minutes",
+          "$25,000 Orteig Prize"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0388",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Colossus of Rhodes",
+        "needles": [
+          "70 cubits, or 33 metres"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0390",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sahara",
+        "needles": [
+          "9,200,000 square kilometres",
+          "largest hot desert in the world"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0389",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Leaning Tower of Pisa",
+        "needles": [
+          "55.86 metres",
+          "56.67 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0384",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Golden Gate Bridge",
+        "needles": [
+          "(1,280 m)",
+          "1964 Verrazzano–Narrows Bridge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Channel Tunnel",
+        "needles": [
+          "37.9 km",
+          "75 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0412",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:2026 FIFA World Cup",
+        "needles": [
+          "first to include 48 teams",
+          "first FIFA World Cup to be hosted by three countries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sun",
+        "needles": [
+          "approximately 4.6 billion years ago",
+          "large molecular cloud"
+        ]
+      }
+    ]
+  }
+]

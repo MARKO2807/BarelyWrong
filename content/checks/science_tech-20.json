@@ -1,0 +1,278 @@
+[
+  {
+    "id": "science_tech-0481",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Claude Shannon",
+        "needles": [
+          "father of information theory",
+          "1948",
+          "formally introduced the term \"bit\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0482",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Edwin Hubble",
+        "needles": [
+          "red-shifted",
+          "Hubble Space Telescope"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0483",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Subrahmanyan Chandrasekhar",
+        "needles": [
+          "Chandrasekhar limit",
+          "white dwarf",
+          "1983"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0484",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vera Rubin",
+        "needles": [
+          "dark matter",
+          "rotation",
+          "Gold Medal of the Royal Astronomical Society"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0485",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Henrietta Swan Leavitt",
+        "needles": [
+          "Cepheid",
+          "period",
+          "Harvard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0486",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cecilia Payne-Gaposchkin",
+        "needles": [
+          "hydrogen",
+          "helium",
+          "1925",
+          "Annie Jump Cannon Award"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0487",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Christiaan Huygens",
+        "needles": [
+          "Titan",
+          "pendulum clock",
+          "rings of Saturn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0488",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ole Rømer",
+        "needles": [
+          "speed of light",
+          "1676",
+          "Io"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0489",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Edmond Halley",
+        "needles": [
+          "periodicity",
+          "1758",
+          "did not live to see"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0490",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Barbara McClintock",
+        "needles": [
+          "1983",
+          "genetic transposition",
+          "only woman who has received an unshar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0491",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peter Higgs",
+        "needles": [
+          "2012",
+          "CERN",
+          "Englert"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0492",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Leonhard Euler",
+        "needles": [
+          "Königsberg",
+          "graph theory",
+          "most prolific contributor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0493",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Riemann hypothesis",
+        "needles": [
+          "Bernhard Riemann",
+          "Millennium Prize"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0494",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hilbert's problems",
+        "needles": [
+          "23",
+          "1900",
+          "Paris"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0495",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Emmy Noether",
+        "needles": [
+          "Noether's theorem",
+          "one of the most important mathematical theorems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0496",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Srinivasa Ramanujan",
+        "needles": [
+          "Hardy",
+          "Cambridge",
+          "1729"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0497",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rosalind Franklin",
+        "needles": [
+          "Photo 51",
+          "1958"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0498",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Otto Hahn",
+        "needles": [
+          "nuclear fission",
+          "1944",
+          "father of nuclear chemistry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0499",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Grace Hopper",
+        "needles": [
+          "compiler",
+          "COBOL",
+          "rear admiral"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0500",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Linus Torvalds",
+        "needles": [
+          "Git",
+          "2005"
+        ]
+      }
+    ]
+  }
+]

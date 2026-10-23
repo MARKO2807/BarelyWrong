@@ -1,0 +1,15 @@
+[
+  {
+    "id": "science_tech-0043",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:IPhone (1st generation)",
+        "needles": [
+          "2007",
+          "2G"
+        ]
+      }
+    ]
+  }
+]

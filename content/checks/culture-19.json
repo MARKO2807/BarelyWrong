@@ -1,0 +1,421 @@
+[
+  {
+    "id": "culture-0438",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hans Holbein the Younger",
+        "needles": [
+          "anamorphic (distorted) skull",
+          "1533",
+          "Henry VIII"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0439",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lucas Cranach the Elder",
+        "needles": [
+          "Martin Luther",
+          "Saxony"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0440",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tintoretto",
+        "needles": [
+          "Il Furioso",
+          "Paradise",
+          "dyer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0441",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Giotto",
+        "needles": [
+          "Scrovegni",
+          "campanile"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0442",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fra Angelico",
+        "needles": [
+          "San Marco",
+          "beatified",
+          "1982",
+          "1984"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0443",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Masaccio",
+        "needles": [
+          "Brancacci",
+          "26"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0444",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Piero della Francesca",
+        "needles": [
+          "Flagellation",
+          "mathematician",
+          "geometry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0445",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Andrea Mantegna",
+        "needles": [
+          "Camera degli Sposi",
+          "Lamentation",
+          "Gonzaga"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0446",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Correggio",
+        "needles": [
+          "Cathedral of Parma",
+          "Assumption of the Virgin",
+          "San Giovanni Evangelista"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0447",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Parmigianino",
+        "needles": [
+          "Madonna with the Long Neck",
+          "Convex Mirror"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0448",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bartolomé Esteban Murillo",
+        "needles": [
+          "Immaculate Conception",
+          "street urchins",
+          "flower girls"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0449",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Francisco de Zurbarán",
+        "needles": [
+          "monks, nuns, and martyrs",
+          "Popular myth has Zurbarán dying in poverty"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0450",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Anthony van Dyck",
+        "needles": [
+          "Charles I",
+          "main court painter",
+          "Archduchess Isabella"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0451",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Frans Hals",
+        "needles": [
+          "Laughing Cavalier",
+          "Haarlem",
+          "looser, more painterly style"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0452",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Swing (Fragonard)",
+        "needles": [
+          "Fragonard",
+          "Wallace Collection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0453",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:François Boucher",
+        "needles": [
+          "Madame de Pompadour",
+          "Louis XV"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0454",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jean-Siméon Chardin",
+        "needles": [
+          "master of still life",
+          "genre paintings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0455",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Théodore Géricault",
+        "needles": [
+          "The Raft of the Medusa",
+          "26 September 1791",
+          "26 January 1824"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0456",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gustave Courbet",
+        "needles": [
+          "A Burial at Ornans",
+          "The Origin of the World",
+          "exile in Switzerland"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0457",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jean-Baptiste-Camille Corot",
+        "needles": [
+          "Barbizon",
+          "Impressionists"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0458",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Camille Pissarro",
+        "needles": [
+          "all eight Paris Impressionist exhibitions",
+          "Saint Thomas",
+          "father figure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0459",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alfred Sisley",
+        "needles": [
+          "almost entirely landscapes",
+          "Marly-le-Roi in 1875",
+          "Hampton Court"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0460",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Berthe Morisot",
+        "needles": [
+          "1874",
+          "all but one"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0461",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Oskar Kokoschka",
+        "needles": [
+          "Bride of the Wind",
+          "Alma Mahler"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0462",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Max Ernst",
+        "needles": [
+          "frottage",
+          "Dada"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0463",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Francis Bacon (artist)",
+        "needles": [
+          "screaming popes",
+          "28 October 1909",
+          "Irish-born"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0464",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lucian Freud",
+        "needles": [
+          "8 December 1922",
+          "foremost 20th-century English portraitists"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0465",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:John Constable",
+        "needles": [
+          "The Hay Wain",
+          "Dedham Vale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0466",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Thomas Gainsborough",
+        "needles": [
+          "The Blue Boy",
+          "Royal Academy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0467",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:William Hogarth",
+        "needles": [
+          "A Harlot's Progress",
+          "A Rake's Progress",
+          "Hogarthian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0468",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:William Blake",
+        "needles": [
+          "Songs of Innocence and of Experience",
+          "unrecognised"
+        ]
+      }
+    ]
+  }
+]

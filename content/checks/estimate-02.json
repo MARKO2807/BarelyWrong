@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sport-0363",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Backboard (basketball)",
+        "needles": [
+          "18 in"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0364",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ten-pin bowling",
+        "needles": [
+          "60 feet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0365",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:AS Adema 149–0 SO l'Emyrne",
+        "needles": [
+          "31 October 2002",
+          "highest scoreline in football history",
+          "own goal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0366",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chess opening",
+        "needles": [
+          "In the initial position, White has twenty legal moves",
+          "Black has twenty legal responses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0368",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hockey puck",
+        "needles": [
+          "3 inches (76 mm) in diameter",
+          "1 inch (25 mm) thick"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0369",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Javelin throw",
+        "needles": [
+          "800 g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0356",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Walt Disney",
+        "needles": [
+          "most Academy Awards won (22)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0364",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Super Mario Bros.",
+        "needles": [
+          "Koji Kondo"
+        ]
+      }
+    ]
+  }
+]

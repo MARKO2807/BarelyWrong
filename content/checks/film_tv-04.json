@@ -1,0 +1,15 @@
+[
+  {
+    "id": "film_tv-0098",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sesame Street",
+        "needles": [
+          "features Jim Henson's Muppets",
+          "created by Joan Ganz Cooney and Lloyd Morrisett"
+        ]
+      }
+    ]
+  }
+]

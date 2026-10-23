@@ -1,0 +1,164 @@
+[
+  {
+    "id": "science_tech-0501",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Taipei 101",
+        "needles": [
+          "101-story",
+          "Taipei World Financial Center"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0502",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Petronas Towers",
+        "needles": [
+          "88-storey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0475",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pantheon, Rome",
+        "needles": [
+          "height to the oculus and the diameter of the interior circle are the same"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lake Baikal",
+        "needles": [
+          "more than all of the North American Great Lakes combined"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0476",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Atomium",
+        "needles": [
+          "nine 18-metre-diameter",
+          "stainless-steel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kyushu",
+        "needles": [
+          "nine provinces",
+          "third-largest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gulf of Trieste",
+        "needles": [
+          "part of the Gulf of Venice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0533",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ernest Shackleton",
+        "needles": [
+          "buried in Grytviken",
+          "heart attack"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature-0504",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Amanita phalloides",
+        "needles": [
+          "half a mushroom contains enough toxin to kill an adult"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0503",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rosalind Franklin",
+        "needles": [
+          "16 April 1958",
+          "could not be awarded posthumously"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0504",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Edwin Hubble",
+        "needles": [
+          "During Hubble's life the Nobel Prize in Physics did not cover astronomy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0463",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Woody Allen",
+        "needles": [
+          "Best Director",
+          "four Academy Awards"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "music-0467",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Domenico Scarlatti",
+        "needles": [
+          "born in Naples"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "film_tv-0405",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Deer Hunter",
+        "needles": [
+          "Michael Cimino",
+          "Best Picture",
+          "Pennsylvania"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0406",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Goodfellas",
+        "needles": [
+          "Henry Hill",
+          "1990",
+          "Nicholas Pileggi"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0407",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fight Club",
+        "needles": [
+          "Chuck Palahniuk",
+          "David Fincher",
+          "Edward Norton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0408",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Memento (film)",
+        "needles": [
+          "anterograde amnesia",
+          "2000",
+          "tattoo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0409",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mulholland Drive (film)",
+        "needles": [
+          "David Lynch",
+          "2001",
+          "Best Director"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0410",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Barry Lyndon",
+        "needles": [
+          "Stanley Kubrick",
+          "candle",
+          "Thackeray"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Cabinet of Dr. Caligari",
+        "needles": [
+          "1920",
+          "Expressionist",
+          "Robert Wiene"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0412",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:M (1931 film)",
+        "needles": [
+          "Fritz Lang",
+          "Peter Lorre",
+          "first sound film"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0413",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wild Strawberries (film)",
+        "needles": [
+          "Ingmar Bergman",
+          "1957",
+          "Victor Sjöström"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:8½",
+        "needles": [
+          "Federico Fellini",
+          "1963",
+          "Marcello Mastroianni"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0415",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rome, Open City",
+        "needles": [
+          "Roberto Rossellini",
+          "1945",
+          "neorealis",
+          "Set in Rome in 1944",
+          "Federico Fellini"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0416",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Breathless (1960 film)",
+        "needles": [
+          "Jean-Luc Godard",
+          "1960",
+          "Jean Seberg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0417",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jules and Jim",
+        "needles": [
+          "François Truffaut",
+          "1962",
+          "Jeanne Moreau"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0418",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:La Haine",
+        "needles": [
+          "Mathieu Kassovitz",
+          "1995",
+          "Best Director"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0419",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Trainspotting (film)",
+        "needles": [
+          "Danny Boyle",
+          "Irvine Welsh",
+          "Ewan McGregor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0420",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lock, Stock and Two Smoking Barrels",
+        "needles": [
+          "Guy Ritchie",
+          "1998",
+          "Vinnie Jones"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0421",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Four Weddings and a Funeral",
+        "needles": [
+          "Richard Curtis",
+          "Hugh Grant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0422",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Billy Elliot",
+        "needles": [
+          "miners' strike",
+          "ballet",
+          "Elton John"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0423",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Braveheart",
+        "needles": [
+          "William Wallace",
+          "Mel Gibson",
+          "Best Director"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0424",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Saving Private Ryan",
+        "needles": [
+          "Omaha Beach",
+          "Tom Hanks",
+          "John Miller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0425",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Shawshank Redemption",
+        "needles": [
+          "Stephen King",
+          "Andy Dufresne",
+          "box office"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0426",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Green Mile (film)",
+        "needles": [
+          "John Coffey",
+          "Paul Edgecomb"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0427",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mad Max: Fury Road",
+        "needles": [
+          "George Miller",
+          "nominated for ten awards",
+          "highest-grossing Mad Max film",
+          "Charlize Theron"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0428",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Oldboy (2003 film)",
+        "needles": [
+          "Park Chan-wook",
+          "Grand Prix",
+          "15 years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0429",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Crouching Tiger, Hidden Dragon",
+        "needles": [
+          "Ang Lee",
+          "Best Foreign Language Film",
+          "grossing $213.5 million"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0430",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:My Neighbor Totoro",
+        "needles": [
+          "1988",
+          "Studio Ghibli",
+          "logo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0431",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Akira (1988 film)",
+        "needles": [
+          "Katsuhiro Otomo",
+          "Neo-Tokyo",
+          "manga"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0432",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ghost in the Shell (1995 film)",
+        "needles": [
+          "Mamoru Oshii",
+          "Motoko Kusanagi",
+          "Masamune Shirow",
+          "The Matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Finding Nemo",
+        "needles": [
+          "2003",
+          "Great Barrier Reef",
+          "Best Animated Feature"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Up (2009 film)",
+        "needles": [
+          "balloons",
+          "Cannes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0435",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Zootopia",
+        "needles": [
+          "Judy Hopps",
+          "2016",
+          "Best Animated Feature"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0436",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Aladdin (1992 Disney film)",
+        "needles": [
+          "Robin Williams",
+          "Genie",
+          "A Whole New World"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0437",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Beauty and the Beast (1991 film)",
+        "needles": [
+          "first animated film",
+          "Best Picture",
+          "18th-century France"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0438",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fantasia (1940 film)",
+        "needles": [
+          "1940",
+          "Leopold Stokowski"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0439",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Singin' in the Rain",
+        "needles": [
+          "Gene Kelly",
+          "1952",
+          "sound"
+        ]
+      }
+    ]
+  }
+]

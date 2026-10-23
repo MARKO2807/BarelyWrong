@@ -1,0 +1,209 @@
+[
+  {
+    "id": "history-0506",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Harvard University",
+        "needles": [
+          "1636",
+          "oldest institution of higher learning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0452",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:FIFA",
+        "needles": [
+          "1904",
+          "Paris"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0507",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Magellan expedition",
+        "needles": [
+          "1519",
+          "1522",
+          "Victoria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0420",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rubik's Cube",
+        "needles": [
+          "43,252,003,274,489,856,000",
+          "20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0455",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mariana Trench",
+        "needles": [
+          "10,935"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gutenberg Bible",
+        "needles": [
+          "1454",
+          "1455",
+          "movable"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Roman Catholic Archdiocese of Zagreb",
+        "needles": [
+          "1094",
+          "1852"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0434",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:British Museum",
+        "needles": [
+          "1759",
+          "first public national museum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0435",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Museo del Prado",
+        "needles": [
+          "1819"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0436",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sydney Opera House",
+        "needles": [
+          "1973",
+          "2007"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0453",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Giro d'Italia",
+        "needles": [
+          "1909",
+          "La Gazzetta dello Sport"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0454",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:FC Barcelona",
+        "needles": [
+          "1899",
+          "Joan Gamper"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0437",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Taj Mahal",
+        "needles": [
+          "1653",
+          "32 million"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Exposition Universelle (1855)",
+        "needles": [
+          "1855",
+          "Champs-Élysées"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:London Underground",
+        "needles": [
+          "1863",
+          "Metropolitan Railway"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Paris Métro",
+        "needles": [
+          "1900"
+        ]
+      }
+    ]
+  }
+]

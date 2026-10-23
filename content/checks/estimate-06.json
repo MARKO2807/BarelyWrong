@@ -1,0 +1,114 @@
+[
+  {
+    "id": "culture-0371",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Buckingham Palace",
+        "needles": [
+          "The palace has 775 rooms, and the garden is the largest private garden in London"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0373",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vincent van Gogh",
+        "needles": [
+          "about 2,100 artworks, including around 860 oil paintings, most of them in the last two years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0375",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Walls of Dubrovnik",
+        "needles": [
+          "approximately 1,940 metres",
+          "13th–17th centuries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0377",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Spanish Steps",
+        "needles": [
+          "135 steps",
+          "Piazza di Spagna",
+          "Trinità dei Monti church"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0380",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Motherland Calls",
+        "needles": [
+          "sword",
+          "Volgograd"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0366",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:ISO/IEC 7810",
+        "needles": [
+          "85.60 by 53.98 millimetres"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0368",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:International Article Number",
+        "needles": [
+          "13-digit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0373",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fineness",
+        "needles": [
+          "18 karat = 18⁄24 = 75% gold and 24 karat gold is considered 100% gold"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "general-0374",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Braille",
+        "needles": [
+          "combination of six raised dots arranged in a 3 × 2 matrix, called the braille cell"
+        ]
+      }
+    ]
+  }
+]

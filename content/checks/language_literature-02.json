@@ -1,0 +1,16 @@
+[
+  {
+    "id": "language_literature-0053",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Hrvatski jezik",
+        "needles": [
+          "čakavsko",
+          "kajkavsko",
+          "štokavsko"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "culture-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nighthawks (Hopper)",
+        "needles": [
+          "1942",
+          "diner",
+          "Art Institute of Chicago"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Donatello",
+        "needles": [
+          "David",
+          "bronze",
+          "Florence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Joan Miró",
+        "needles": [
+          "Catalan",
+          "surrealism",
+          "Barcelona",
+          "1893"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Emanuel Vidović",
+        "needles": [
+          "Split",
+          "1870",
+          "plein air landscapes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0398",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Vojin Bakić",
+        "needles": [
+          "Petrova Gora",
+          "abstract"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dušan Džamonja",
+        "needles": [
+          "Vrsar",
+          "1970",
+          "1954"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0400",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Renzo Piano",
+        "needles": [
+          "The Shard",
+          "Centre Georges Pompidou",
+          "Richard Rogers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mont-Saint-Michel",
+        "needles": [
+          "Normandy",
+          "tidal island",
+          "UNESCO"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0402",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sainte-Chapelle",
+        "needles": [
+          "Louis IX",
+          "Crown of Thorns",
+          "stained glass"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0403",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Stonehenge",
+        "needles": [
+          "Salisbury Plain",
+          "Wiltshire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0404",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Brandenburg Gate",
+        "needles": [
+          "Quadriga",
+          "1791"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0405",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Charles Bridge",
+        "needles": [
+          "1357",
+          "30 statues",
+          "1841"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0406",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sirtaki",
+        "needles": [
+          "Zorba the Greek",
+          "1964",
+          "Giorgos Provias"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0407",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mokosh",
+        "needles": [
+          "spinning",
+          "\"wet\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0408",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Samhain",
+        "needles": [
+          "Gaelic",
+          "Halloween",
+          "31 October"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0409",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Diwali",
+        "needles": [
+          "festival of lights",
+          "diyas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0410",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hanukkah",
+        "needles": [
+          "eight nights",
+          "Second Temple"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0411",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Oktoberfest",
+        "needles": [
+          "Munich",
+          "1810",
+          "wedding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0412",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:La Tomatina",
+        "needles": [
+          "Buñol",
+          "last Wednesday of August"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0413",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chiaroscuro",
+        "needles": [
+          "light and dark",
+          "Italian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0414",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Trompe-l'œil",
+        "needles": [
+          "deceive the eye",
+          "three-dimensional space"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0415",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fauvism",
+        "needles": [
+          "wild beasts",
+          "Henri Matisse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0416",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dada",
+        "needles": [
+          "Cabaret Voltaire",
+          "Zürich",
+          "World War I"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0417",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rococo",
+        "needles": [
+          "rocaille",
+          "Baroque"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0418",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mannerism",
+        "needles": [
+          "Late Renaissance",
+          "maniera"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0419",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fountain (Duchamp)",
+        "needles": [
+          "urinal",
+          "R. Mutt",
+          "inaugural exhibition of the Society of Independent Artists"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0420",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Etching",
+        "needles": [
+          "acid",
+          "Rembrandt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0421",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Caryatid",
+        "needles": [
+          "Erechtheion",
+          "Atlas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0422",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peristyle",
+        "needles": [
+          "colonnade",
+          "ancient Egyptian palace architecture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0423",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Contrapposto",
+        "needles": [
+          "weight",
+          "one foot",
+          "Ancient Greek"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0424",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Marina Bay Sands",
+        "needles": [
+          "SkyPark",
+          "2010"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0425",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:30 St Mary Axe",
+        "needles": [
+          "Gherkin",
+          "Foster",
+          "completed in December 2003"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0426",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Palais Garnier",
+        "needles": [
+          "Phantom of the Opera",
+          "Charles Garnier"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0427",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Musée d'Orsay",
+        "needles": [
+          "railway station",
+          "1900"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0428",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hermitage Museum",
+        "needles": [
+          "Winter Palace",
+          "1764",
+          "Catherine the Great"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0429",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tate Modern",
+        "needles": [
+          "Bankside Power Station",
+          "2000"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0430",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Stari Grad Plain",
+        "needles": [
+          "Hvar",
+          "UNESCO",
+          "4th century BC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0431",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Grožnjan",
+        "needles": [
+          "artists",
+          "International Music Youth Federation in 1969"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0432",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Mirogoj Cemetery",
+        "needles": [
+          "Hermann Bollé",
+          "arcades",
+          "1876"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0433",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "hr:Pozdrav Suncu",
+        "needles": [
+          "tri stotine solarnih panela",
+          "promjera 22 metra"
+        ]
+      }
+    ]
+  }
+]

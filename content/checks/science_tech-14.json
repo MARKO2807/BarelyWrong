@@ -1,0 +1,327 @@
+[
+  {
+    "id": "science_tech-0301",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:HTTP 404",
+        "needles": [
+          "The server may not have the resource or it may not wish to disclose whether it has the resource",
+          "Not Found"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0302",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:AlphaGo versus Lee Sedol",
+        "needles": [
+          "five-game Go match between top Go player Lee Sedol and AlphaGo, a computer Go program developed by DeepMind, played in Seoul",
+          "March 2016",
+          "AlphaGo won all but the fourth game"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0303",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Bell Labs",
+        "needles": [
+          "owned by the Finnish technology company Nokia",
+          "Murray Hill, New Jersey",
+          "American Telephone and Telegraph Company (AT&T)",
+          "the transistor, the laser, the photovoltaic cell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0304",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jack Kilby",
+        "needles": [
+          "first integrated circuit while working at Texas Instruments in 1958",
+          "shared the 2000 Nobel Prize in Physics",
+          "co-inventor of the handheld calculator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0305",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:New Horizons",
+        "needles": [
+          "Launched in 2006, it became the first spacecraft to perform a flyby study and capture high-resolution photographs of Pluto and its moons",
+          "Johns Hopkins University App"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0306",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:51 Pegasi b",
+        "needles": [
+          "1995"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0307",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Betelgeuse",
+        "needles": [
+          "red supergiant star in the equatorial constellation of Orion",
+          "usually the tenth-brightest star in the night sky and, after Rigel, the second brightest in its constellation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0308",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sagittarius A*",
+        "needles": [
+          "supermassive black hole at the Galactic Center of the Milky Way",
+          "about 5.6° south of the ecliptic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0309",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Graphene",
+        "needles": [
+          "single layer of atoms arranged in a honeycomb planar nanostructure",
+          "In 2004, the material was isolated and characterized by Andre Geim and Konstantin Novoselov",
+          "adhesive tape",
+          "In 2010, Geim and Novoselov were awarded the Nobel Prize in Physics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0310",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Buckminsterfullerene",
+        "needles": [
+          "formula C60",
+          "twenty hexagons and twelve pentagons",
+          "nicknamed buckyballs",
+          "Small quantities of it can be found in soot. It also exists in space"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0311",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Heike Kamerlingh Onnes",
+        "needles": [
+          "Dutch experimental physicist",
+          "In 1911",
+          "superconductivity",
+          "born on 21 September 1853 in Groningen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0312",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ernst Mach",
+        "needles": [
+          "Austrian physicist and philosopher who contributed to the understanding of the physics of shock waves",
+          "The ratio of the speed of a flow or object to that of sound is named the Mach number"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0313",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Chuck Yeager",
+        "needles": [
+          "in October 1947 became the first pilot in history confirmed to have exceeded the speed of sound in level flight",
+          "raised in Hamlin, West Virginia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0314",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Andrew Wiles",
+        "needles": [
+          "English mathematician",
+          "best known for proving Fermat's Last Theorem, for which he was awarded the 2016 Abel Prize"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0315",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Möbius strip",
+        "needles": [
+          "attaching the ends of a strip of paper together with a half-twist",
+          "Roman mosaics from the third century CE",
+          "non-orientable"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0316",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Fields Medal",
+        "needles": [
+          "mathematicians under 40 years of age",
+          "every four years",
+          "honors the Canadian mathematician John Charles Fields"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0317",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Miroslav Radman",
+        "needles": [
+          "molecular"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0318",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Herman of Carinthia",
+        "needles": [
+          "(1105/1110 – after 1154)",
+          "Herman Dalmatin",
+          "born in the \"heart of Istria\"",
+          "philosopher, astronomer",
+          "translator of Arabic works into Latin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0319",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Arecibo message",
+        "needles": [
+          "interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 (M13) in 1974",
+          "demonstration of human technological achievement rather than a real attempt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0320",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wow! signal",
+        "needles": [
+          "strong narrowband radio signal detected on August 15, 1977, by Ohio State University's Big Ear radio telescope"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0322",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:CERN",
+        "needles": [
+          "largest particle physics laboratory in the world. Established in 1954, it is based in Meyrin, a western suburb of Geneva, on the France–Switzerland border"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0323",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ferdinand von Zeppelin",
+        "needles": [
+          "German general and later inventor of the Zeppelin rigid airships",
+          "founded the company Luftschiffbau Zeppelin",
+          "Graf von Zeppelin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0324",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Olbers's paradox",
+        "needles": [
+          "dark night paradox",
+          "darkness of the night sky conflicts with the assumption of an infinite and eternal stati"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0325",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Urbain Le Verrier",
+        "needles": [
+          "French astronomer and mathematician",
+          "predicting the existence and position of Neptune using only mathematics",
+          "Le Verrier sent the coordinates to Johann Gott"
+        ]
+      }
+    ]
+  }
+]

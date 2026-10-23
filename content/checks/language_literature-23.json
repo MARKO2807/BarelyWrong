@@ -1,0 +1,523 @@
+[
+  {
+    "id": "language_literature-0502",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Edmund Spenser",
+        "needles": [
+          "The Faerie Queene",
+          "Elizabeth I",
+          "Spenserian stanza"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0503",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Christopher Marlowe",
+        "needles": [
+          "Doctor Faustus",
+          "1593",
+          "Tamburlaine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0504",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ben Jonson",
+        "needles": [
+          "Volpone",
+          "England's first"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0505",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alexander Pope",
+        "needles": [
+          "The Rape of the Lock",
+          "Homer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0506",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Samuel Johnson",
+        "needles": [
+          "A Dictionary of the English Language",
+          "1755",
+          "Boswell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0507",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Laurence Sterne",
+        "needles": [
+          "Tristram Shandy",
+          "black page"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0508",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Henry Fielding",
+        "needles": [
+          "Tom Jones",
+          "Bow Street Runners"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0509",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:William Wordsworth",
+        "needles": [
+          "Lyrical Ballads",
+          "1798",
+          "Poet Laureate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0510",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Samuel Taylor Coleridge",
+        "needles": [
+          "The Rime of the Ancient Mariner",
+          "Kubla Khan",
+          "Frost at Midnight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0511",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Percy Bysshe Shelley",
+        "needles": [
+          "Mary Shelley",
+          "drowned",
+          "Ozymandias"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0512",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:John Keats",
+        "needles": [
+          "Ode to a Nightingale",
+          "tuberculosis",
+          "less than four years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0513",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Thomas Hardy",
+        "needles": [
+          "Tess of the d'Urbervilles",
+          "Far from the Madding Crowd",
+          "Wessex"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0514",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:E. M. Forster",
+        "needles": [
+          "A Passage to India",
+          "A Room with a View",
+          "Maurice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0515",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:T. S. Eliot",
+        "needles": [
+          "The Waste Land",
+          "1922",
+          "Cats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0516",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:W. B. Yeats",
+        "needles": [
+          "1923",
+          "Abbey Theatre"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0517",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:George Bernard Shaw",
+        "needles": [
+          "Pygmalion",
+          "1938",
+          "Academy Award"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0518",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Evelyn Waugh",
+        "needles": [
+          "Brideshead Revisited",
+          "Decline and Fall"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0519",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Graham Greene",
+        "needles": [
+          "The Power and the Glory",
+          "The Third Man",
+          "MI6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0520",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ian Fleming",
+        "needles": [
+          "James Bond",
+          "Casino Royale",
+          "1953"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0521",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Doris Lessing",
+        "needles": [
+          "The Golden Notebook",
+          "2007",
+          "oldest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0522",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sylvia Plath",
+        "needles": [
+          "The Bell Jar",
+          "Ariel",
+          "Ted Hughes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0523",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Salman Rushdie",
+        "needles": [
+          "Midnight's Children",
+          "The Satanic Verses",
+          "Booker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0524",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ian McEwan",
+        "needles": [
+          "Atonement",
+          "Amsterdam",
+          "Booker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0525",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hilary Mantel",
+        "needles": [
+          "Thomas Cromwell",
+          "Wolf Hall",
+          "Booker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0526",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Henry James",
+        "needles": [
+          "The Portrait of a Lady",
+          "The Turn of the Screw",
+          "William James"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0527",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Edith Wharton",
+        "needles": [
+          "The Age of Innocence",
+          "Pulitzer",
+          "first woman"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0528",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tennessee Williams",
+        "needles": [
+          "A Streetcar Named Desire",
+          "Cat on a Hot Tin Roof"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0529",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Arthur Miller",
+        "needles": [
+          "Death of a Salesman",
+          "The Crucible",
+          "Pulitzer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0530",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Eugene O'Neill",
+        "needles": [
+          "Long Day's Journey into Night",
+          "1936",
+          "1957 Tony Award"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0531",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Allen Ginsberg",
+        "needles": [
+          "Howl",
+          "obscenity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0532",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ursula K. Le Guin",
+        "needles": [
+          "Earthsea",
+          "The Left Hand of Darkness",
+          "Kroeber"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0533",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Cormac McCarthy",
+        "needles": [
+          "The Road",
+          "No Country for Old Men",
+          "Pulitzer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0534",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Philip Roth",
+        "needles": [
+          "Portnoy's Complaint",
+          "American Pastoral",
+          "legacy of the 1960s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0535",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Thomas Pynchon",
+        "needles": [
+          "Gravity's Rainbow",
+          "notoriously reclusive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0536",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Margaret Atwood",
+        "needles": [
+          "The Handmaid's Tale",
+          "two Booker Prizes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0537",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alice Munro",
+        "needles": [
+          "2013",
+          "short story"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0538",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wole Soyinka",
+        "needles": [
+          "1986",
+          "first",
+          "arrested by federal authorities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "language_literature-0539",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Yukio Mishima",
+        "needles": [
+          "The Temple of the Golden Pavilion",
+          "seppuku",
+          "Hiraoka"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "history-0534",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Peloponnesian War",
+        "needles": [
+          "Thucydides",
+          "431",
+          "Persian Empire in support of Sparta in 413 BC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0535",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Punic Wars",
+        "needles": [
+          "264 to 146 BC",
+          "Three such wars"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0536",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gallic Wars",
+        "needles": [
+          "58 BC",
+          "Commentarii de Bello Gallico"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0537",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Balkan Wars",
+        "needles": [
+          "1912",
+          "1913",
+          "Bulgaria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0538",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Yom Kippur War",
+        "needles": [
+          "Yom Kippur",
+          "Egypt",
+          "Syria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0539",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Gulf War",
+        "needles": [
+          "Kuwait",
+          "Desert Storm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0540",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Hungarian Revolution of 1956",
+        "needles": [
+          "new government of Imre Nagy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0541",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:New Deal",
+        "needles": [
+          "Franklin D. Roosevelt",
+          "Social Security"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0542",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Nuremberg trials",
+        "needles": [
+          "1945",
+          "1946",
+          "crimes against humanity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0543",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Universal Declaration of Human Rights",
+        "needles": [
+          "Eleanor Roosevelt",
+          "10 December 1948"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0544",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Non-Aligned Movement",
+        "needles": [
+          "Belgrade",
+          "1961",
+          "Tito"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0545",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Apartheid",
+        "needles": [
+          "1948",
+          "separateness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0546",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Reformation",
+        "needles": [
+          "Martin Luther",
+          "Ninety-five Theses",
+          "1517"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0547",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Counter-Reformation",
+        "needles": [
+          "Council of Trent",
+          "1545",
+          "1563"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0548",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Age of Enlightenment",
+        "needles": [
+          "Diderot",
+          "Sapere aude"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0549",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Croatian national revival",
+        "needles": [
+          "Illyrian movement",
+          "Croatia Rediviva"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0550",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Long March",
+        "needles": [
+          "1934",
+          "About 100,000 troops"
+        ]
+      }
+    ]
+  }
+]

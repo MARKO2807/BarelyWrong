@@ -1,0 +1,225 @@
+[
+  {
+    "id": "sport-0158",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Home run",
+        "needles": [
+          "In baseball, a home run (abbreviated HR) is scored when the ball is hit in such a way that the batter is able to circle the bases"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0159",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Tennis scoring",
+        "needles": [
+          "A tennis match is composed of points, games, and sets",
+          "A set consists of a number of games (a minimum of six)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0160",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Super Bowl",
+        "needles": [
+          "league championship final game of the National Football League (NFL)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0161",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Haka",
+        "needles": [
+          "All Blacks"
+        ]
+      },
+      {
+        "page": "en:New Zealand national rugby union team",
+        "needles": [
+          "In 1905, the All Blacks began the tradition of using Ka Mate",
+          "\"All Blacks\" dates from this time"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0163",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Penalty card",
+        "needles": [
+          "Yellow and red cards are the most common, typically indicating, respectively, cautions and dismissals",
+          "originated in association football, with English referee Ken Aston"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0164",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rafael Nadal",
+        "needles": [
+          "a record 14 French Open titles",
+          "22 major titles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0165",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Croatia men's national water polo team",
+        "needles": [
+          "Croatia has since become Olympic champion (2012)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0166",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ayrton Senna",
+        "needles": [
+          "During the 1994 San Marino Grand Prix at Imola, Senna was killed in a crash whilst leading the race"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0168",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ball (association football)",
+        "needles": [
+          "circumference of 68–70 cm",
+          "a mass of 410–450 g"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0169",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Santiago Bernabéu Stadium",
+        "needles": [
+          "home stadium of Real Madrid since its completion in 1947",
+          "Named after former Real Madrid player and president Santiago Bernabéu",
+          "second-largest seating capacity for a football stadium in Spain, behind Camp Nou"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0171",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Eliud Kipchoge",
+        "needles": [
+          "On 12 October 2019 in Vienna's Prater park, he ran 4.4 laps of the Hauptallee in 1:59:40",
+          "The run did not count as a new marathon record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0172",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Art competitions at the Summer Olympics",
+        "needles": [
+          "Art competitions formed part of the modern Olympic Games during its early years, from 1912 to 1948"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0173",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Stadion Rujevica",
+        "needles": [
+          "officially known as Stadion HNK Rijeka",
+          "is a stadium in the city of Rijeka, Croatia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0174",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Matea Jelić",
+        "needles": [
+          "Croatian taekwondo athlete. She is the 2020 Olympic champion in 67 kg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0175",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Webb Ellis Cup",
+        "needles": [
+          "trophy awarded to the winner of the men's Rugby World Cup",
+          "named after William Webb Ellis, who is often credited as being the inventor of rugby football",
+          "since the first competition in 1987"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0176",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Boat Race",
+        "needles": [
+          "Oxford and Cambridge Boat Race",
+          "The men's race was first held in 1829",
+          "River Thames"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0177",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Maurice Garin",
+        "needles": [
+          "best known for winning the inaugural Tour de France in 1903, and for being stripped of his title in the second To"
+        ]
+      }
+    ]
+  }
+]

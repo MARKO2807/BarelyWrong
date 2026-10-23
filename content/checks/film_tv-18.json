@@ -1,0 +1,267 @@
+[
+  {
+    "id": "film_tv-0383",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Casablanca (film)",
+        "needles": [
+          "Rick's Café Américain",
+          "Everybody Comes to Rick's"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0384",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rear Window",
+        "needles": [
+          "James Stewart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0385",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Birds (film)",
+        "needles": [
+          "Daphne du Maurier",
+          "Bodega Bay",
+          "Tippi Hedren"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0386",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sunset Boulevard (film)",
+        "needles": [
+          "Norma Desmond",
+          "Gloria Swanson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0387",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Breakfast at Tiffany's (film)",
+        "needles": [
+          "Holly Golightly",
+          "Truman Capote"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0388",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Scarface (1983 film)",
+        "needles": [
+          "Tony Montana",
+          "Brian De Palma",
+          "Oliver Stone"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0389",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:E.T. the Extra-Terrestrial",
+        "needles": [
+          "Elliott",
+          "a record it held for eleven years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0390",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Blade Runner",
+        "needles": [
+          "replicants",
+          "Rick Deckard",
+          "blade runner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0391",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Alien (film)",
+        "needles": [
+          "Ripley",
+          "Sigourney Weaver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0392",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:The Terminator",
+        "needles": [
+          "Sarah Connor",
+          "Linda Hamilton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0393",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sheldon Cooper",
+        "needles": [
+          "Jim Parsons",
+          "Young Sheldon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0394",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Westworld (TV series)",
+        "needles": [
+          "Michael Crichton",
+          "Jonathan Nolan",
+          "Lisa Joy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0395",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Prison Break",
+        "needles": [
+          "Michael Scofield",
+          "Wentworth Miller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0396",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jack Bauer",
+        "needles": [
+          "Kiefer Sutherland",
+          "Counter Terrorist Unit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0397",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Rick and Morty",
+        "needles": [
+          "Justin Roiland",
+          "Dan Harmon",
+          "Adult Swim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0398",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:BoJack Horseman",
+        "needles": [
+          "Raphael Bob-Waksberg",
+          "Will Arnett"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0399",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Kung Fu Panda",
+        "needles": [
+          "Dragon Warrior",
+          "Jack Black"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0400",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Buster Keaton",
+        "needles": [
+          "The Great Stone Face",
+          "stoic, deadpan facial expression",
+          "The General"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0401",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Pula Film Festival",
+        "needles": [
+          "Golden Arena",
+          "Pula Arena"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film_tv-0402",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Psycho (1960 film)",
+        "needles": [
+          "Norman Bates",
+          "Anthony Perkins"
+        ]
+      }
+    ]
+  }
+]

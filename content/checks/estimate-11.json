@@ -1,0 +1,197 @@
+[
+  {
+    "id": "science_tech-0478",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Three Gorges Dam",
+        "needles": [
+          "2,335",
+          "installed capacity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0479",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Petronas Towers",
+        "needles": [
+          "451.9",
+          "1998"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0469",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Empire State Building",
+        "needles": [
+          "102",
+          "1931",
+          "1970"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0470",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Ulm Minster",
+        "needles": [
+          "161.53",
+          "fourth-tallest structure in the world when the towers were completed in 1890"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history-0532",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Titanic",
+        "needles": [
+          "269",
+          "20 lifeboats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0483",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Lake Baikal",
+        "needles": [
+          "25–30 million years",
+          "oldest lake"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0487",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Giacomo Agostini",
+        "needles": [
+          "122 Grand Prix victories",
+          "MV Agusta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0488",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Wayne Gretzky",
+        "needles": [
+          "1,963 assists"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport-0489",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Jack Nicklaus",
+        "needles": [
+          "117 professional tournaments",
+          "World Golf Hall of Fame"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0471",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Big Ben",
+        "needles": [
+          "334 steps",
+          "6.9 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geography-0484",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Dead Sea",
+        "needles": [
+          "34.2%",
+          "9.6 times"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0472",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Sagrada Família",
+        "needles": [
+          "172.5",
+          "tallest church"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0473",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:St. Peter's Basilica",
+        "needles": [
+          "136.57",
+          "Michelangelo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science_tech-0480",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Burj Al Arab",
+        "needles": [
+          "321",
+          "280 m"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture-0474",
+    "checkedAt": "2026-10-22",
+    "sources": [
+      {
+        "page": "en:Atomium",
+        "needles": [
+          "102",
+          "165 billion"
+        ]
+      }
+    ]
+  }
+]
