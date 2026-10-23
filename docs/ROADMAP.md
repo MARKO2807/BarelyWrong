@@ -129,4 +129,7 @@ Napravljeno prema planu ispod; ponašanje je u SPEC 9.4. Izmjene u odnosu na pla
 
 - Igra na više mobitela: svaki tim se javlja sa svog uređaja (Supabase Realtime).
 - Iz SPEC 11: izbor težine, pitanja sa slikom i zvukom (`media`), Najbrži prst s drugim pokušajem.
+- Manje zahtjeva prema bazi (dogovoreno 24. 10. 2026., odgođeno; danas je promet daleko ispod ograničenja, oko 0,1–0,2 MB po partiji):
+  - zapis odgovora i napretka nakon svakog pitanja spojiti u jedan zahtjev (funkcija u bazi), pa partija šalje oko 50 umjesto oko 100 sitnih zahtjeva;
+  - Urednik pri prijavi ne učitava svih 5.000+ pitanja odjednom, nego stranicu po stranicu i preglede iz baze (postaje važno s rastom baze, korak 3).
 - Dizajnirani mail za novu partiju (boje i logo Barely Wronga, gumb na Games) i tjedni sažetak aktivnosti: servis za mailove (npr. Resend) koji pokreće baza pri novoj partiji, umjesto Netlify Forms (izgled se ne može mijenjati, oko 100 mailova mjesečno). Traži račun, DNS zapise za domenu, migraciju i tajni ključ u Supabaseu. Predloženo 24. 10. 2026., odgođeno.
