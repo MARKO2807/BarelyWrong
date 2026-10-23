@@ -18,6 +18,12 @@ export const hr = {
     play: 'Igraj',
     continueGame: 'Nastavi partiju',
   },
+  /** Author credit at the bottom of the home page. */
+  credit: {
+    prefix: 'Developed by',
+    name: 'Marko Bare',
+    label: 'Developed by Marko Bare (otvara se u novoj kartici)',
+  },
   common: {
     close: 'Zatvori',
     cancel: 'Odustani',

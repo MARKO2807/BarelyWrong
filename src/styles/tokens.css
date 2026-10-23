@@ -103,6 +103,7 @@
   --header-icon-size: max(3rem, calc(var(--header-font-size) * 2));
   --tagline-font-size: min(4rem, 6.5vh);
   --play-font-size: min(4rem, 6.5vh);
+  --credit-font-size: clamp(0.875rem, 2.6vh, 1.375rem);
   --hero-lift: 12vh;
 
   /* Game screen: sizes follow the screen height so a whole turn fits without scrolling. */
@@ -132,6 +133,7 @@
     --header-font-size: 1.5rem;
     --tagline-font-size: 2.25rem;
     --play-font-size: 2.25rem;
+    --credit-font-size: 1.125rem;
     --hero-lift: 6vh;
 
     /* Game screen on a phone: smaller fixed sizes, so the question gets the room. */
