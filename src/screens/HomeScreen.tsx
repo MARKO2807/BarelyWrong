@@ -6,12 +6,11 @@ import { useSettings } from '../app/SettingsProvider'
 import { t } from '../i18n'
 import { hasUnfinishedGame } from '../storage'
 import { Button, ButtonLink } from '../ui/Button'
+import { CreditLink } from '../ui/CreditLink'
 import { Header } from '../ui/Header'
 import { HeroImage } from '../ui/HeroImage'
 import { Logo } from '../ui/Logo'
 import { useDocumentTitle } from '../ui/useDocumentTitle'
-
-const AUTHOR_URL = 'https://markobare.dev/'
 
 export function HomeScreen() {
   useDocumentTitle()
@@ -50,22 +49,7 @@ export function HomeScreen() {
       </main>
       {/* Bottom left, under the hunter; out of the flow, so it never pushes the Igraj button. */}
       <footer className="absolute bottom-safe-y left-safe-x z-10 max-w-[calc(100%-2*var(--spacing-safe-x))]">
-        <a
-          href={AUTHOR_URL}
-          target="_blank"
-          rel="noopener"
-          className="credit-link"
-          aria-label={t('credit.label')}
-        >
-          <span className="credit-code" aria-hidden="true">
-            {'</>'}
-          </span>
-          <span>{t('credit.prefix')}</span>
-          <span className="credit-name">{t('credit.name')}</span>
-          <span className="credit-caret" aria-hidden="true">
-            _
-          </span>
-        </a>
+        <CreditLink />
       </footer>
     </div>
   )

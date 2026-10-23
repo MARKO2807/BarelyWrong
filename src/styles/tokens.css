@@ -133,7 +133,7 @@
     --header-font-size: 1.5rem;
     --tagline-font-size: 2.25rem;
     --play-font-size: 2.25rem;
-    --credit-font-size: 1.125rem;
+    --credit-font-size: 0.9375rem;
     --hero-lift: 6vh;
 
     /* Game screen on a phone: smaller fixed sizes, so the question gets the room. */

@@ -766,11 +766,6 @@
     transition: color var(--duration-base) var(--ease-out);
   }
 
-  .credit-caret {
-    color: var(--primary-text);
-    animation: credit-blink 1.1s steps(1) infinite;
-  }
-
   .credit-link:focus-visible {
     border-color: var(--primary);
   }
@@ -784,12 +779,6 @@
 
     .credit-link:hover .credit-name {
       color: var(--primary-text);
-    }
-  }
-
-  @keyframes credit-blink {
-    50% {
-      opacity: 0;
     }
   }
 
@@ -886,8 +875,7 @@
     .hero-sparkle,
     .hero-logo,
     .header-logo,
-    .play-cta,
-    .credit-caret {
+    .play-cta {
       animation: none;
     }
   }
@@ -959,7 +947,6 @@
     .editor-nav-link,
     .field-control,
     .segmented-option,
-    .credit-link,
     [role='switch'] {
       min-height: var(--touch-target);
     }
