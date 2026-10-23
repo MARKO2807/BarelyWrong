@@ -550,6 +550,14 @@ export const hr = {
       large: 'veliki ekran',
     },
   },
+  /** A page that could not load (src/app/RouteError.tsx). */
+  error: {
+    title: 'Ups!',
+    pageTitle: 'Greška',
+    text: 'Ova stranica se nije mogla učitati. Osvježi stranicu ili se vrati na početnu.',
+    newVersion: 'Upravo je izašla nova verzija Barely Wronga. Osvježi stranicu da je učitaš.',
+    reload: 'Osvježi',
+  },
   notFound: {
     title: 'Error 404',
     pageTitle: 'Stranica nije pronađena',

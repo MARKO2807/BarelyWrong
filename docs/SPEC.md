@@ -118,6 +118,7 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 - Imena timova u donjim bodovima i tablicama imaju do dva retka prije nego što se skrate. Tablica bodova po temama prikazuje stupce s temama od širine laptopa; na tabletu uspravno i mobitelu ima samo ukupne bodove.
 - Na dodirnim ekranima nema oznaka tipki, svaki gumb i polje imaju najmanje 44 px visine, polja za upis imaju slova od 16 px (iPhone tada ne zumira), a efekti prelaska mišem postoje samo na uređajima s mišem. Na telefonima s izrezom kamere sadržaj poštuje sigurne rubove ekrana.
 - Gumb za cijeli zaslon.
+- Stranica koja se ne može učitati pokazuje poruku „Ups!” s gumbima „Osvježi” i „Na početnu”. Ako je uzrok nova verzija stranice (stara kartica traži datoteke kojih više nema), stranica se prvo sama jednom osvježi.
 - Tekst pitanja je što veći može biti, a da stane bez pomicanja; dulja pitanja automatski dobivaju manji font. Riječ dulja od retka (npr. maorsko ime brda) prelama se, umjesto da izađe iz okvira.
 - Početna je u retro 8-bit i neon stilu; ostali ekrani su minimalistički i pregledni.
 

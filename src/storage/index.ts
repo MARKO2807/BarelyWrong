@@ -10,6 +10,7 @@ export {
   type SavedGame,
 } from './game'
 export { KEYS } from './keys'
+export { claimReload } from './reload'
 export { loadLastSetup, saveLastSetup } from './lastSetup'
 export {
   enqueue,

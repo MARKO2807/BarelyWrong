@@ -123,6 +123,7 @@ Ključevi su `bw:<ime>:v<verzija>` (`src/storage/keys.ts`):
 | `lastSetup` | 2 | zadnji timovi i opcije |
 | `outbox` | 4 | statistika, prijave i aktivnost (s veličinom prozora, jezikom i napretkom po pitanju) koji čekaju slanje |
 | `auth` | 1 | Supabase sesija urednika |
+| `reloadedAt` | 1 | session storage: kad se kartica zadnji put sama osvježila zbog nove verzije |
 
 Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.ts`). Stari podaci se ne smiju samo baciti.
 
@@ -148,7 +149,7 @@ Korak po korak vodi skill `serija-pitanja`; alati su u `scripts/questions.ts` (`
 - **Dodir i mali ekrani.** Na `pointer: coarse` gumbi, polja, kartice Urednika i izbori (`segmented-option`) imaju najmanje `--touch-target` (44 px), a `.field-control` 16 px slova (`components.css`, na kraju). Efekti `:hover` iz `components.css` su unutar `@media (hover: hover)`, da ne zapnu nakon dodira; Tailwindov `hover:` to radi sam. `--spacing-safe-x/y` uzimaju i `env(safe-area-inset-*)` jer `index.html` ima `viewport-fit=cover`. Kad se donji bodovi skrivaju, odlučuje `scoreboardClass` u `GameScreen`. Tablica bodova po temama (`.standings-grid`, `Standings`) ima stupce s temama od 64 rem (`lg`).
 - **Urednik:** popis pitanja crta 100 redaka i gumb „Prikaži još” (`QuestionsPage`); kartice na mobitelu prelaze u drugi red.
 - **Slike.** `vite-imagetools` s presetima u `vite.config.ts`: `?hero` (pozadine, WebP u više širina), `?sprite` (likovi), `?logo` (AVIF i WebP), `?placeholder` (mutna sličica od 32 px). Komponenta `ui/Picture.tsx` iscrta `<picture>`. Uspravni ekrani (`usePortrait`, omjer najviše 1:1) dobivaju uspravne pozadine bez likova (`*-mobile.webp`). Ostali dobivaju široku pozadinu s likovima postavljenima u postocima slike 1672×941 (`HeroImage`, `LoginScene`).
-- **Učitavanje.** `main.tsx` je malen: prethodno učita logo početne pa uveze `boot.tsx`. Nova partija, igra i urednik su zasebni dijelovi koda (lazy rute).
+- **Učitavanje.** `main.tsx` je malen: prethodno učita logo početne pa uveze `boot.tsx`. Nova partija, igra i urednik su zasebni dijelovi koda (lazy rute). Nakon objave stara otvorena kartica traži datoteke kojih više nema: `RouteError` (`errorElement` svake rute) tada jednom osvježi stranicu (`claimReload` u `src/storage/reload.ts` pamti to u session storageu 30 s, da se ne vrti u krug), a inače pokaže poruku s gumbom „Osvježi”.
 
 ## 12. Build, deploy i sigurnost
 

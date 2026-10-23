@@ -18,6 +18,8 @@ export const STORED = {
   outbox: { name: 'outbox', version: 4 },
   // The editor's Supabase session (src/storage/auth.ts).
   auth: { name: 'auth', version: 1 },
+  // Session storage: when this tab last reloaded for a new version (src/storage/reload.ts).
+  reload: { name: 'reloadedAt', version: 1 },
 } as const
 
 /** `bw:` prefix plus the schema version, e.g. `bw:settings:v1`. */
