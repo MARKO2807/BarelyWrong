@@ -7,15 +7,14 @@ import {
 } from '../storage'
 import { supabase } from './supabase'
 
-type AnswerItem = Extract<OutboxItem, { type: 'answer' }>
-type ReportItem = Extract<OutboxItem, { type: 'report' }>
+type ItemOf<K extends OutboxItem['type']> = Extract<OutboxItem, { type: K }>
 
 /** `sent`; `rejected` when the server refused the data (it will never succeed); `failed` otherwise. */
 export type SendResult = 'sent' | 'rejected' | 'failed'
 
-export interface Sender {
-  answers: (items: readonly AnswerItem[]) => Promise<SendResult>
-  reports: (items: readonly ReportItem[]) => Promise<SendResult>
+/** One function per kind of item, each sending a batch of that kind. */
+export type Sender = {
+  [K in OutboxItem['type']]: (items: readonly ItemOf<K>[]) => Promise<SendResult>
 }
 
 /** Postgres and PostgREST errors carry a code; network failures don't. */
@@ -24,23 +23,55 @@ function resultOf(error: { code?: string } | null): SendResult {
   return error.code && /^(\d|[A-Z]){5}$|^PGRST/.test(error.code) ? 'rejected' : 'failed'
 }
 
+async function insert(table: string, rows: object[]): Promise<SendResult> {
+  if (!supabase) return 'failed'
+  const { error } = await supabase.from(table).insert(rows)
+  return resultOf(error)
+}
+
 const supabaseSender: Sender = {
-  answers: async (items) => {
-    if (!supabase) return 'failed'
-    const { error } = await supabase
-      .from('answer_events')
-      .insert(items.map((i) => ({ question_id: i.questionId, kind: i.kind, correct: i.correct })))
-    return resultOf(error)
-  },
-  reports: async (items) => {
-    if (!supabase) return 'failed'
-    const { error } = await supabase
-      .from('question_reports')
-      .insert(
-        items.map((i) => ({ question_id: i.questionId, reason: i.reason, comment: i.comment })),
-      )
-    return resultOf(error)
-  },
+  visit: (items) =>
+    insert(
+      'visits',
+      items.map((i) => ({
+        path: i.path,
+        screen: i.screen,
+        referrer: i.referrer,
+        time_zone: i.timeZone,
+      })),
+    ),
+  gameStart: (items) =>
+    insert(
+      'game_starts',
+      items.map((i) => ({
+        id: i.gameId,
+        team_count: i.teamCount,
+        length: i.length,
+        seconds_per_question: i.secondsPerQuestion,
+        fastest_finger: i.fastestFinger,
+        rounds: i.rounds,
+        rematch: i.rematch,
+        screen: i.screen,
+        time_zone: i.timeZone,
+        theme: i.theme,
+        sound: i.sound,
+      })),
+    ),
+  gameProgress: (items) =>
+    insert(
+      'game_progress',
+      items.map((i) => ({ game_id: i.gameId, event: i.event, round: i.round })),
+    ),
+  answer: (items) =>
+    insert(
+      'answer_events',
+      items.map((i) => ({ question_id: i.questionId, kind: i.kind, correct: i.correct })),
+    ),
+  report: (items) =>
+    insert(
+      'question_reports',
+      items.map((i) => ({ question_id: i.questionId, reason: i.reason, comment: i.comment })),
+    ),
 }
 
 /**
@@ -64,13 +95,24 @@ async function sendBatch<T extends OutboxItem>(
   return done
 }
 
-/** Sends what is waiting; anything that fails stays queued for the next try. */
+const ofType = <K extends OutboxItem['type']>(items: readonly OutboxItem[], type: K) =>
+  items.filter((i): i is ItemOf<K> => i.type === type)
+
+/**
+ * Sends what is waiting; anything that fails stays queued for the next try. A game's progress
+ * waits until its start is in the database (otherwise the database would refuse it for good).
+ */
 export async function sendOutbox(items: readonly OutboxItem[], sender: Sender): Promise<string[]> {
-  const answers = items.filter((i): i is AnswerItem => i.type === 'answer')
-  const reports = items.filter((i): i is ReportItem => i.type === 'report')
+  const starts = ofType(items, 'gameStart')
+  const sentStarts = await sendBatch(starts, sender.gameStart)
+  const waiting = new Set(starts.filter((s) => !sentStarts.includes(s.id)).map((s) => s.gameId))
+  const progress = ofType(items, 'gameProgress').filter((p) => !waiting.has(p.gameId))
   return [
-    ...(await sendBatch(answers, sender.answers)),
-    ...(await sendBatch(reports, sender.reports)),
+    ...sentStarts,
+    ...(await sendBatch(progress, sender.gameProgress)),
+    ...(await sendBatch(ofType(items, 'visit'), sender.visit)),
+    ...(await sendBatch(ofType(items, 'answer'), sender.answer)),
+    ...(await sendBatch(ofType(items, 'report'), sender.report)),
   ]
 }
 
@@ -91,7 +133,7 @@ export function flushOutbox(sender: Sender = supabaseSender): Promise<void> {
   return running
 }
 
-/** Queues statistics or a report and tries to send right away. */
+/** Queues statistics, a report or activity and tries to send right away. */
 export function submit(items: readonly NewOutboxItem[]) {
   if (items.length === 0) return
   enqueue(items)

@@ -12,4 +12,5 @@ export const EDITOR_ROUTES = {
   question: (id: string) => `/admin/question/${encodeURIComponent(id)}`,
   reports: '/admin/reports',
   importExport: '/admin/import',
+  games: '/admin/games',
 } as const

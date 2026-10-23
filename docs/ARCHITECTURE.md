@@ -68,7 +68,7 @@ roundIntro → turnIntro → question → answer → judged → (sljedeći tim: 
 
 1. **Nova partija** (`SetupScreen`): timovi (2–4, ime, boja), duljina (12 ili 6 rundi), Najbrži prst, vrijeme po pitanju. `validateSetup` je u engineu. Zadnje postavke pamte se lokalno (`lastSetup`).
 2. **Start** (`useStartGame`): `fetchCandidates()` → `createGame` → `GameSession.begin` → `/game`.
-3. **Igra** (`GameScreen`): `GameSession.dispatch(action)` pokrene `gameReducer`, spremi stanje (`saveGame`), označi prikazano pitanje kao odigrano (`markPlayed`) i preda konačne odgovore redu za slanje (`submit`). Prečaci s tipkovnice su u `ui/game/keyboard.ts` (`commandForKey`). Gumbi su u `ui/game/Controls.tsx`, a prikaz po koraku u `ui/game/stages.tsx`.
+3. **Igra** (`GameScreen`): `GameSession.dispatch(action)` pokrene `gameReducer`, spremi stanje (`saveGame`), označi prikazano pitanje kao odigrano (`markPlayed`) i preda konačne odgovore redu za slanje (`submit`). Završene runde i kraj partije (`getProgressEvents` u engineu) idu u aktivnost (`src/data/activity.ts`, vidi 7). Prečaci s tipkovnice su u `ui/game/keyboard.ts` (`commandForKey`). Gumbi su u `ui/game/Controls.tsx`, a prikaz po koraku u `ui/game/stages.tsx`.
 4. **Prekid i nastavak.** Pri zatvaranju kartice partija se sprema s pauziranim timerom (`pagehide`). Otvaranje `/game` nastavlja spremljenu partiju (`resume`). Izlazak usred partije traži potvrdu (`useBlocker` i `beforeunload`).
 5. **Zvuk** (`ui/sound/sfx.ts`): 8-bitni efekti sintetizirani Web Audio API-jem, bez audio datoteka. Isključeni su po zadanom. `useGameSounds` ih pušta prema promjenama koraka; `GameTimer` pušta upozorenje na 10 s i otkucaje u zadnje 3 s.
 6. **Ekran** (`useWakeLock`): ekran ostaje upaljen dok partija traje. Cijeli zaslon se pali gumbom ili tipkom F.
@@ -95,18 +95,21 @@ Tablice (`supabase/migrations/…_schema.sql`, opis u SPEC 7):
 - `question_texts`: tekst po jeziku, s ključem `(question_id, lang)`. Danas postoji samo `hr`; engleski dolazi kao novi redak.
 - `answer_events`: statistika odgovora.
 - `question_reports`: prijave iz igre.
+- `visits`, `game_starts`, `game_progress` (`…_activity.sql`): aktivnost. Pogled `editor_games` daje jedan red po partiji (dosegnuta runda, status, događaji), a funkcija `activity_visits` posjete po danu, ekranu i izvoru.
 
 **Pristup** (`…_access.sql`, `…_editor.sql`, `…_editor_grants.sql`):
 
-- **Anon (igrač):** smije samo `select` na `game_questions`, pozvati `game_candidates` i `question_kinds`, `insert` u `answer_events` i `question_reports` (samo navedeni stupci).
-- **Urednik:** račun s `app_metadata.role = 'editor'` (funkcija `is_editor()`). Smije čitati i uređivati pitanja, pogled `editor_questions` (sa statistikom), funkcije `import_questions`, `match_questions` i `similar_pairs`. `delete` na `questions` je oduzet svima.
+- **Anon (igrač):** smije samo `select` na `game_questions`, pozvati `game_candidates` i `question_kinds`, `insert` u `answer_events`, `question_reports`, `visits`, `game_starts` i `game_progress` (samo navedeni stupci). Ponovljena runda iste partije se odbija (`unique`).
+- **Urednik:** račun s `app_metadata.role = 'editor'` (funkcija `is_editor()`). Smije čitati i uređivati pitanja, pogled `editor_questions` (sa statistikom), funkcije `import_questions`, `match_questions` i `similar_pairs`. Čita aktivnost i smije brisati partije (`game_starts`; napredak se briše s njima), a posjete ne. `delete` na `questions` je oduzet svima.
 - `npm run db:check` provjerava ta pravila iz perspektive igrača i urednika.
 
 **Duplikati.** Embedding se računa iz pitanja i odgovora zajedno, lokalnim modelom `Xenova/multilingual-e5-small` (`scripts/lib/embedder.ts`, `npm run embed`). Pragovi su u SPEC 8.5: 0,96 i više blokira uvoz, 0,93–0,96 je upozorenje. Izmjena teksta u bazi briše zastarjeli embedding (okidač), pa ga `npm run embed` računa ponovno.
 
-## 7. Statistika i prijave (red za slanje)
+## 7. Statistika, prijave i aktivnost (red za slanje)
 
-`src/data/sync.ts` i `src/storage/outbox.ts`: `submit()` doda stavke u lokalni red i odmah pokuša poslati. Red se prazni pri startu, kad se veza vrati (`online`) i svake minute. Ako server odbije skupinu, stavke se šalju jedna po jedna, pa jedna loša stavka ne blokira ostale. Procjena i Najbrži prst bez javljanja ne bilježe se.
+`src/data/sync.ts` i `src/storage/outbox.ts`: `submit()` doda stavke u lokalni red i odmah pokuša poslati. Vrste stavki: odgovor, prijava, posjet, početak partije i napredak partije. Napredak partije čeka dok njezin početak ne stigne u bazu (inače bi ga baza zauvijek odbila). Red se prazni pri startu, kad se veza vrati (`online`) i svake minute. Ako server odbije skupinu, stavke se šalju jedna po jedna, pa jedna loša stavka ne blokira ostale. Procjena i Najbrži prst bez javljanja ne bilježe se.
+
+**Aktivnost** (`src/data/activity.ts`, SPEC 9.4): `recordVisit` pri pokretanju (`boot.tsx`), a `GameSession` zove `recordGameStart` (u `begin`, uz oznaku revanša), `recordProgress` i `recordAbandon` (`getCompletedRounds`). Id partije je `crypto.randomUUID()` i sprema se uz partiju (`bw:game:v4`), pa se nastavljena partija bilježi pod istim id-jem. Ništa se ne bilježi kad je `import.meta.env.DEV` ili kad uređaj ima sesiju urednika (`hasEditorSession`). `recordGameStart` usput pošalje skriveni Netlify obrazac „partija” iz `index.html` (POST na `/`), a Netlify vlasniku pošalje mail.
 
 ## 8. Local storage
 
@@ -116,16 +119,16 @@ Ključevi su `bw:<ime>:v<verzija>` (`src/storage/keys.ts`):
 |---|---|---|
 | `settings` | 1 | tema, zvuk |
 | `played` | 2 | id-jevi odigranih pitanja na ovom uređaju |
-| `game` | 3 | partija u tijeku i vrijeme spremanja |
+| `game` | 4 | partija u tijeku, njezin id za aktivnost i vrijeme spremanja |
 | `lastSetup` | 2 | zadnji timovi i opcije |
-| `outbox` | 1 | statistika i prijave koje čekaju slanje |
+| `outbox` | 2 | statistika, prijave i aktivnost koji čekaju slanje |
 | `auth` | 1 | Supabase sesija urednika |
 
 Kad se oblik podataka promijeni, podigni verziju i dodaj migraciju (`versioned.ts`). Stari podaci se ne smiju samo baciti.
 
 ## 9. Urednik (`/admin`)
 
-`src/screens/editor/`: prijava (`EditorApp`, `LoginScene`), popis pitanja s filtrima i statistikom (`QuestionsPage`), uređivanje (`QuestionPage`), pregled pitanja sa statusom `review` (`ReviewPage`), prijave (`ReportsPage`), uvoz i izvoz iz preglednika (`ImportExportPage`). Podaci idu kroz `src/data/editorApi.ts` i `editorSession.ts`. Uvoz iz preglednika koristi istu logiku kao skripta (`src/data/import/`), osim usporedbe po značenju (embeddingi postoje samo u skripti). `/admin` šalje `X-Robots-Tag: noindex`.
+`src/screens/editor/`: prijava (`EditorApp`, `LoginScene`), popis pitanja s filtrima i statistikom (`QuestionsPage`), uređivanje (`QuestionPage`), pregled pitanja sa statusom `review` (`ReviewPage`), prijave (`ReportsPage`), uvoz i izvoz iz preglednika (`ImportExportPage`) te aktivnost (`GamesPage`, `/admin/games`: brojke iz `src/data/activityStats.ts`, brisanje partija). Aktivnost se učitava tek na toj stranici (`fetchGames`, `fetchVisitCounts`), ne pri prijavi. Podaci idu kroz `src/data/editorApi.ts` i `editorSession.ts`. Uvoz iz preglednika koristi istu logiku kao skripta (`src/data/import/`), osim usporedbe po značenju (embeddingi postoje samo u skripti). `/admin` šalje `X-Robots-Tag: noindex`.
 
 ## 10. Uvoz pitanja (postupak)
 
@@ -150,6 +153,7 @@ Korak po korak vodi skill `serija-pitanja`; alati su u `scripts/questions.ts` (`
 - `npm run build` = `tsc -b` + `vite build`. Vite plugin `htmlPlugin` ubacuje naslov i opis iz `hr.ts` i skriptu za temu u `index.html`. Plugin `headersPlugin` generira `dist/_headers` s Content-Security-Policy (inline skripta je dopuštena po hashu, a mreža samo prema `*.supabase.co`).
 - `netlify.toml`: SPA preusmjeravanje, trajni cache za `/assets/*` i sigurnosna zaglavlja.
 - **Varijable na Netlifyju:** `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, `VITE_QUESTIONS_SOURCE=supabase`. `BW_EDITOR_*` nikad ne ide na Netlify.
+- **Netlify Forms:** skriveni obrazac „partija” u `index.html` (mail pri novoj partiji). U Netlifyju treba uključiti Forms → Enable form detection i obavijest mailom za taj obrazac.
 - **`index.html`:** favikone, Open Graph i Twitter oznake. Slika za pregled linka je `https://barelywrong.com/og-image.jpg` (1200×630).
 
 ## 13. Testovi i provjere

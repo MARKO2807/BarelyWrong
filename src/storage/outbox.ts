@@ -1,9 +1,13 @@
 import { z } from 'zod'
 import { REPORT_REASONS } from '../data/reports'
+import { SCREENS } from '../data/screens'
+import { GAME_LENGTHS, ROUND_KINDS, SECONDS_PER_QUESTION_OPTIONS } from '../engine'
 import { STORED } from './keys'
+import { THEMES } from './settings'
 import { readStored, writeStored, type StoredValue } from './versioned'
 
-// Statistics and reports wait here until they reach the server, so nothing is lost offline.
+// Statistics, reports and the activity log wait here until they reach the server, so nothing is
+// lost offline.
 
 const outboxItemSchema = z.discriminatedUnion('type', [
   z.object({
@@ -20,6 +24,36 @@ const outboxItemSchema = z.discriminatedUnion('type', [
     reason: z.enum(REPORT_REASONS),
     comment: z.string().max(500).nullable(),
   }),
+  z.object({
+    type: z.literal('visit'),
+    id: z.string(),
+    path: z.string().min(1).max(200),
+    screen: z.enum(SCREENS),
+    referrer: z.string().min(1).max(200).nullable(),
+    timeZone: z.string().min(1).max(64).nullable(),
+  }),
+  z.object({
+    type: z.literal('gameStart'),
+    id: z.string(),
+    gameId: z.string(),
+    teamCount: z.number().int().min(2).max(4),
+    length: z.enum(GAME_LENGTHS),
+    secondsPerQuestion: z.literal(SECONDS_PER_QUESTION_OPTIONS),
+    fastestFinger: z.boolean(),
+    rounds: z.array(z.enum(ROUND_KINDS)).min(1).max(12),
+    rematch: z.boolean(),
+    screen: z.enum(SCREENS),
+    timeZone: z.string().min(1).max(64).nullable(),
+    theme: z.enum(THEMES),
+    sound: z.boolean(),
+  }),
+  z.object({
+    type: z.literal('gameProgress'),
+    id: z.string(),
+    gameId: z.string(),
+    event: z.enum(['round', 'finished', 'abandoned']),
+    round: z.number().int().min(0).max(12),
+  }),
 ])
 export type OutboxItem = z.infer<typeof outboxItemSchema>
 
@@ -33,7 +67,12 @@ export type NewOutboxItem = OutboxItem extends infer T
 /** Keeps the queue bounded if the server stays unreachable for a very long time. */
 const MAX_ITEMS = 2000
 
-const stored: StoredValue<OutboxItem[]> = { ...STORED.outbox, schema: z.array(outboxItemSchema) }
+const stored: StoredValue<OutboxItem[]> = {
+  ...STORED.outbox,
+  schema: z.array(outboxItemSchema),
+  // v1 → v2: new kinds of items; the old ones keep their shape.
+  migrations: { 1: (data) => data },
+}
 
 export function readOutbox(): OutboxItem[] {
   return readStored(stored) ?? []

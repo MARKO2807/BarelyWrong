@@ -49,3 +49,41 @@ export function getCommittedAnswerEvents(previous: GameState, next: GameState): 
       return []
     })
 }
+
+/** Matches the `game_progress` table: rounds are numbered from 1. */
+export interface ProgressEvent {
+  event: 'round' | 'finished'
+  round: number
+}
+
+/** A round or the whole game that ended with this change (for the editor's activity page). */
+export function getProgressEvents(previous: GameState, next: GameState): ProgressEvent[] {
+  const { step } = next
+  if (step.type === previous.step.type) return []
+  if (step.type === 'leaderboard') return [{ event: 'round', round: step.round + 1 }]
+  if (step.type === 'finished') return [{ event: 'finished', round: next.rounds.length }]
+  return []
+}
+
+/** How many rounds are over: what Prekini partiju reports as the round the game got to. */
+export function getCompletedRounds(game: GameState): number {
+  const { step } = game
+  switch (step.type) {
+    case 'roundIntro':
+    case 'turnIntro':
+    case 'question':
+    case 'answer':
+    case 'judged':
+      return step.round
+    case 'leaderboard':
+      return step.round + 1
+    case 'fastestFingerIntro':
+    case 'fastestFingerQuestion':
+    case 'fastestFingerBuzzed':
+    case 'fastestFingerAnswer':
+    case 'fastestFingerJudged':
+      return game.fastestFinger!.afterRound + 1
+    default:
+      return game.rounds.length
+  }
+}

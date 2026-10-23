@@ -229,6 +229,7 @@ create table question_reports (
 
 - Igra čita pitanja kroz pogled `game_questions` koji spaja `questions` i `question_texts` (jezik `hr`) samo za status `approved`, bez internih polja (`embedding`, `editor_note`, `origin`).
 - RLS: anonimni korisnik smije čitati samo odobrena pitanja kroz pogled te dodavati retke u `answer_events` i `question_reports`. Prijavljeni urednik smije sve.
+- Aktivnost (9.4) je u tablicama `visits`, `game_starts` i `game_progress` (`supabase/migrations/…_activity.sql`): igrač smije samo dodavati retke, urednik čita i briše partije.
 - Statistika se bilježi za otvorena pitanja, točno/netočno i Najbrži prst; procjena se ne bilježi, a ni Najbrži prst na koji se nitko nije javio.
 - Pitanja se nikad ne brišu: odbačena dobivaju status, a njihov `id` se nikad ponovno ne koristi.
 - Engleski kasnije dolazi kao novi redak u `question_texts` s `lang = 'en'`.
@@ -333,6 +334,20 @@ Prijava urednika prikazuje noćnu ulicu (slika login-bg) s lovcem u prvom planu 
 - Prijave iz igre, s označavanjem riješenih.
 - Uvoz JSON datoteke iz preglednika (ista logika kao skripta) i izvoz.
 - Upozorenja o mogućim duplikatima uz pitanje.
+- Stranica „Games” s aktivnošću (9.4).
+
+### 9.4 Aktivnost (`/admin/games`)
+
+Urednik vidi koliko se igra. Ne bilježe se kolačići, IP adrese, imena timova ni trajni id uređaja, pa se povratak istog uređaja ne prati i ne treba privola. U „Pravilima” jedna rečenica kaže da se anonimno bilježi koliko se igra.
+
+- **Posjet** (svako otvaranje aplikacije, osim `/admin`): vrijeme, stranica, vrsta ekrana, domena s koje je posjetitelj došao (samo host) i vremenska zona preglednika.
+- **Partija:** nasumični id, broj timova, duljina, vrijeme po pitanju, Najbrži prst, teme rundi redom, revanš, ekran, vremenska zona, tema i zvuk. Zatim zapis za svaku završenu rundu, za kraj partije i za „Prekini partiju” (s brojem završenih rundi). Partija bez kraja i prekida je „u tijeku” prvih 30 minuta, a poslije „nedovršena”.
+- **Vrsta ekrana** po širini prozora: mobitel do 640 px, tablet do 1024, laptop do 1600, iznad toga veliki ekran. Okvirno je: TV koji povećava sliku može se predstaviti kao laptop.
+- **Ništa se ne šalje** iz lokalnog razvoja ni s uređaja na kojem je urednik prijavljen.
+- **Stranica Games:** partije uživo; brojke za 7 dana, 30 dana i ukupno (posjeti, započete i završene partije, postotak završenih, prosječno trajanje završenih, postotak revanša); graf posjeta i partija po danima za 30 dana; raspodjele za odabrano razdoblje (ekran, duljina, odakle dolaze posjeti, nakon koliko rundi partije stanu, odigrane runde); popis partija s filtrima (status, ekran) i detaljima (postavke, kad je koja runda završila).
+- **Brisanje:** urednik može trajno obrisati partiju (jednu ili više odabranih, uz potvrdu), npr. probnu ili lažnu. Posjeti se ne brišu.
+- **Mail:** pri početku svake partije Netlify šalje vlasniku mail s kratkim sažetkom (obrazac „partija”). Besplatni plan ima oko 100 prijava mjesečno; ako ih bude više, mail ide samo za prvu partiju u danu.
+- **Lažni zapisi:** javni ključ omogućuje slanje izmišljenih zapisa; baza odbija nemoguće vrijednosti, a zaštita po brzini dolazi kasnije. Lažne partije urednik briše.
 
 ## 10. Faze rada
 
@@ -352,7 +367,7 @@ Bez prepravljanja postojećeg moraju se moći dodati: engleski jezik, izbor tež
 
 ## Prilog A: tekst za "Pravila"
 
-Izvor istine je `src/i18n/hr.ts` (`howToPlay.steps`).
+Izvor istine je `src/i18n/hr.ts` (`howToPlay.steps`, a ispod popisa `howToPlay.privacy`).
 
 1. Igraju 2–4 tima na jednom ekranu. Jedna osoba vodi igru: čita pitanja naglas i klikće. Krivi klik? „Poništi” vraća zadnju odluku.
 2. Duga partija ima 12 rundi, a kratka 6. Svaka runda je jedna tema, a svaki tim u njoj dobiva po jedno pitanje. Timovi igraju naizmjence, uvijek istim redom.

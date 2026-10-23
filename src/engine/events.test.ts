@@ -1,8 +1,23 @@
 import { describe, expect, it } from 'vitest'
-import { getCommittedAnswerEvents, getShownQuestionId } from './events'
+import {
+  getCommittedAnswerEvents,
+  getCompletedRounds,
+  getProgressEvents,
+  getShownQuestionId,
+  type ProgressEvent,
+} from './events'
 import { gameReducer, type GameAction } from './reducer'
 import type { GameState } from './schema'
-import { NOW, findGame, newGame, playToRound, playUntil, run, withScores } from './testing/fixtures'
+import {
+  NOW,
+  findGame,
+  newGame,
+  playToEnd,
+  playToRound,
+  playUntil,
+  run,
+  withScores,
+} from './testing/fixtures'
 
 /** Applies one action and returns both states. */
 function step(game: GameState, action: GameAction): [GameState, GameState] {
@@ -107,5 +122,64 @@ describe('getCommittedAnswerEvents', () => {
     }
     const expected = game.results.filter((r) => r.type !== 'estimate').length
     expect(events).toHaveLength(expected)
+  })
+})
+
+describe('getProgressEvents', () => {
+  /** Every progress event of a game played to the end, step by step. */
+  function progressOf(game: GameState): ProgressEvent[] {
+    const events: ProgressEvent[] = []
+    let current = game
+    for (let i = 0; i < 5000 && current.step.type !== 'finished'; i++) {
+      const before = current
+      current = playUntil(current, (g) => g !== before)
+      events.push(...getProgressEvents(before, current))
+    }
+    return events
+  }
+
+  it('reports each round once and then the end of the game', () => {
+    const game = newGame({ teams: 2 })
+    const rounds = game.rounds.length
+    expect(progressOf(game)).toEqual([
+      ...Array.from({ length: rounds }, (_, i) => ({ event: 'round', round: i + 1 })),
+      { event: 'finished', round: rounds },
+    ])
+  })
+
+  it('counts rounds of a short game', () => {
+    const events = progressOf(newGame({ options: { length: 'short', fastestFinger: false } }))
+    expect(events.at(-1)).toEqual({ event: 'finished', round: 6 })
+  })
+
+  it('reports the end after a tiebreak, and again after an undo of the winner', () => {
+    const last = playUntil(newGame(), (g) => g.step.type === 'leaderboard' && g.step.round === 11)
+    const tied = run(withScores(last, { t1: 1, t2: 1, t3: 0 }), next, start, { type: 'reveal' })
+    const [answer, finished] = step(tied, { type: 'award', teamId: 't1' })
+    expect(getProgressEvents(answer, finished)).toEqual([{ event: 'finished', round: 12 }])
+    const [, undone] = step(finished, { type: 'undo', now: NOW })
+    expect(getProgressEvents(finished, undone)).toEqual([])
+  })
+
+  it('reports nothing within a round', () => {
+    const question = run(newGame(), next, start)
+    expect(getProgressEvents(...step(question, { type: 'reveal' }))).toEqual([])
+  })
+})
+
+describe('getCompletedRounds', () => {
+  const game = newGame()
+
+  it('counts finished rounds as the game goes on', () => {
+    expect(getCompletedRounds(game)).toBe(0)
+    expect(getCompletedRounds(run(game, next, start))).toBe(0)
+    expect(getCompletedRounds(playUntil(game, 'leaderboard'))).toBe(1)
+    expect(getCompletedRounds(playToRound(game, 3))).toBe(3)
+    expect(getCompletedRounds(playToEnd(game))).toBe(game.rounds.length)
+  })
+
+  it('counts Najbrži prst as after its round', () => {
+    const ff = playUntil(game, 'fastestFingerIntro')
+    expect(getCompletedRounds(ff)).toBe(game.fastestFinger!.afterRound + 1)
   })
 })

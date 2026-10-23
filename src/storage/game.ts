@@ -8,6 +8,8 @@ import { readStored, removeStored, writeStored, type StoredValue } from './versi
 const savedGameSchema = z.object({
   /** When it was saved; on resume, a running timer is paused at this moment. */
   savedAt: z.number(),
+  /** Random id of this game in the editor's activity log (game_starts.id). */
+  id: z.string(),
   game: gameStateSchema,
 })
 export type SavedGame = z.infer<typeof savedGameSchema>
@@ -24,11 +26,13 @@ const stored: StoredValue<SavedGame> = {
         game: { ...saved.game, adjustments: {} },
       }
     },
+    // v3 → v4: games get an id for the activity log.
+    3: (data) => ({ ...(data as object), id: crypto.randomUUID() }),
   },
 }
 
-export function saveGame(game: GameState, now: number = Date.now()): boolean {
-  return writeStored(stored, { savedAt: now, game })
+export function saveGame(game: GameState, id: string, now: number = Date.now()): boolean {
+  return writeStored(stored, { savedAt: now, id, game })
 }
 
 /** The saved game, or null. A damaged save is thrown away. */

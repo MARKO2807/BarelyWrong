@@ -182,7 +182,7 @@ export function GameScreen() {
           game={game}
           dispatch={dispatch}
           busy={status === 'loading'}
-          onRematch={() => void start({ teams: game.teams, options: game.options })}
+          onRematch={() => void start({ teams: game.teams, options: game.options }, [], true)}
           onNewGame={() => goTo(ROUTES.newGame)}
           onHome={() => goTo(ROUTES.home)}
         />

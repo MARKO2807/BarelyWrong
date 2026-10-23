@@ -34,6 +34,7 @@ export function HowToPlayDialog({ open, onClose }: DialogProps) {
           </li>
         ))}
       </ol>
+      <p className="mt-6 text-base text-text-muted">{t('howToPlay.privacy')}</p>
     </Modal>
   )
 }

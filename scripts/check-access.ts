@@ -148,6 +148,54 @@ const kinds = await db.rpc('question_kinds', { p_ids: excluded })
 allowed('players can ask for the kinds of played questions', kinds)
 check('question_kinds answers for every known question', kinds.data?.length === excluded.length)
 
+// The activity log (migration _activity.sql). The test game is deleted by the editor below.
+for (const table of ['visits', 'game_starts', 'game_progress', 'editor_games'])
+  refused(`players cannot read ${table}`, await db.from(table).select('*').limit(1), PERMISSION)
+refused(
+  'players cannot read visit counts',
+  await db.rpc('activity_visits', { p_since: null }),
+  PERMISSION,
+)
+// A bad value fails the check, so the visit is refused without adding a row.
+refused(
+  'visits reject unknown screens',
+  await db.from('visits').insert({ path: '/', screen: 'tv' }),
+  CONSTRAINT,
+)
+const testGameId = crypto.randomUUID()
+const testGame = {
+  id: testGameId,
+  team_count: 2,
+  length: 'short',
+  seconds_per_question: 60,
+  fastest_finger: false,
+  rounds: ['sport'],
+  rematch: false,
+  screen: 'laptop',
+  time_zone: 'Europe/Zagreb',
+  theme: 'dark',
+  sound: false,
+}
+allowed('players can add a game', await db.from('game_starts').insert(testGame))
+refused(
+  'games reject impossible settings',
+  await db.from('game_starts').insert({ ...testGame, id: crypto.randomUUID(), team_count: 7 }),
+  CONSTRAINT,
+)
+const round = { game_id: testGameId, event: 'round', round: 1 }
+allowed('players can add game progress', await db.from('game_progress').insert(round))
+refused('a round cannot be reported twice', await db.from('game_progress').insert(round), ['23505'])
+refused(
+  'progress needs a known game',
+  await db.from('game_progress').insert({ ...round, game_id: crypto.randomUUID() }),
+  ['23503'],
+)
+refused(
+  'players cannot delete games',
+  await db.from('game_starts').delete().eq('id', testGameId),
+  PERMISSION,
+)
+
 // The editor's tools (migration _editor.sql).
 refused(
   'players cannot read editor_questions',
@@ -189,6 +237,19 @@ if (process.env.BW_EDITOR_EMAIL && process.env.BW_EDITOR_PASSWORD) {
     'editor can search similar questions',
     await editor.rpc('similar_pairs', { min_similarity: 0.99 }),
   )
+  const games = await editor.from('editor_games').select('id, status, rounds_done')
+  check(
+    'editor reads editor_games',
+    !games.error && (games.data ?? []).some((g) => g.id === testGameId && g.rounds_done === 1),
+    describe(games),
+  )
+  allowed(
+    'editor reads visit counts',
+    await editor.rpc('activity_visits', { p_since: new Date().toISOString() }),
+  )
+  allowed('editor deletes games', await editor.from('game_starts').delete().eq('id', testGameId))
+  const left = await editor.from('game_progress').select('id').eq('game_id', testGameId)
+  check('deleting a game deletes its progress', !left.error && left.data?.length === 0)
   refused(
     'not even the editor can delete questions',
     await editor.from('questions').delete().eq('id', 'sport-9999'),
@@ -196,6 +257,7 @@ if (process.env.BW_EDITOR_EMAIL && process.env.BW_EDITOR_PASSWORD) {
   )
 } else {
   console.log('\n(Editor checks skipped: BW_EDITOR_EMAIL / BW_EDITOR_PASSWORD not set.)')
+  console.log(`(The test game ${testGameId} stays; delete it on the Games page.)`)
 }
 
 console.log(failures === 0 ? '\nAll access rules hold.' : `\n${failures} check(s) failed.`)

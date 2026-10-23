@@ -2,9 +2,9 @@
 
 Ovo nije specifikacija. Prije svakog koraka predloži detaljan plan i pričekaj potvrdu (skill `sljedeci-korak`); dogovoreno ponašanje upiši u `docs/SPEC.md`. Kad je korak gotov, označi ga s `[x]` u popisu i u naslovu koraka, dodaj datum i pomakni „Sljedeći korak”.
 
-## Stanje (22. 10. 2026.)
+## Stanje (23. 10. 2026.)
 
-- **Objava:** barelywrong.com (Netlify). Partija, urednik, statistika i prijave rade.
+- **Objava:** barelywrong.com (Netlify). Partija, urednik, statistika, prijave i aktivnost (Urednik → Games) rade.
 - **Pitanja:** oko 5.000 odobrenih na hrvatskom, u 10 tema i 3 formata. Partija ih više ne učitava sva (korak 1), pa broj može rasti.
 - **Uređaji:** dorađeno za TV, laptop i mobitel (uspravno i položeno).
 
@@ -16,10 +16,10 @@ Ovo nije specifikacija. Prije svakog koraka predloži detaljan plan i pričekaj 
 - [ ] **2. Engleski jezik** (must) — sučelje, prijevod univerzalnih pitanja, statistika po jeziku.
 - [ ] **3. Stalni dotok pitanja** — skripta za serije, prijedlozi igrača, suradnje, paketi.
 - [ ] **4. Kvaliteta iz podataka** — težina i pregled pitanja prema statistici.
-- [ ] **5. Aktivnost u Uredniku** — posjeti i partije vidljivi samo uredniku, mail kad netko zaigra.
+- [x] **5. Aktivnost u Uredniku** (23. 10. 2026.) — posjeti i partije vidljivi samo uredniku, mail kad netko zaigra.
 - [ ] **6. Kasnije** — igra na više mobitela, izbor težine, pitanja sa slikom i zvukom.
 
-Redoslijed nije obavezan: korak 5 ne ovisi o ostalima i može se napraviti bilo kada.
+Redoslijed nije obavezan.
 
 ## Koraci
 
@@ -65,9 +65,9 @@ Prije je igra na početku svake partije učitala sva odobrena pitanja: 6 upita, 
   
   Ništa se u bazi ne mijenja bez odobrenja korisnika.
 
-### [ ] 5. Aktivnost u Uredniku
+### [x] 5. Aktivnost u Uredniku (23. 10. 2026.)
 
-Dogovoreno s korisnikom 18. 10. 2026., implementacija odgođena. Partije su važnije od posjeta, ali bilježe se oboje. Podaci se čuvaju zauvijek.
+Napravljeno prema planu ispod; ponašanje je u SPEC 9.4. Izmjene u odnosu na plan: stranica se zove „Games”, urednik može trajno brisati partije (posjete ne), a zaštita od lažnih zapisa po brzini je odgođena. Dogovoreno s korisnikom 18. i 23. 10. 2026. Partije su važnije od posjeta, ali bilježe se oboje. Podaci se čuvaju zauvijek.
 
 **Što se bilježi.** Nema kolačića, IP adresa, imena timova ni trajnog id-ja uređaja. Trajni id bi u EU tražio privolu i banner, pa se povratak istog uređaja ne prati.
 

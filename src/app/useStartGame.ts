@@ -11,6 +11,7 @@ export interface ShortageState {
   shortages: Shortage[]
   /** Played questions were already brought back and it still isn't enough. */
   afterRestore: boolean
+  rematch: boolean
 }
 
 /** Creates a game from a setup (new game or rematch) and opens the game screen. */
@@ -21,7 +22,7 @@ export function useStartGame() {
   const [shortage, setShortage] = useState<ShortageState | null>(null)
 
   const start = useCallback(
-    async (setup: GameSetup, restore: readonly ShortageKind[] = []) => {
+    async (setup: GameSetup, restore: readonly ShortageKind[] = [], rematch = false) => {
       setStatus('loading')
       try {
         if (restore.length > 0) unmarkPlayed(await fetchIdsOfKinds(getPlayedIds(), restore))
@@ -30,12 +31,17 @@ export function useStartGame() {
         const result = createGame({ ...setup, pool, playedIds, rng: Math.random })
         setStatus('idle')
         if (!result.ok) {
-          setShortage({ setup, shortages: result.shortages, afterRestore: restore.length > 0 })
+          setShortage({
+            setup,
+            shortages: result.shortages,
+            afterRestore: restore.length > 0,
+            rematch,
+          })
           return
         }
         setShortage(null)
         saveLastSetup(setup)
-        begin(result.game)
+        begin(result.game, rematch)
         navigate(ROUTES.game)
       } catch {
         setStatus('failed')
@@ -49,6 +55,7 @@ export function useStartGame() {
       void start(
         shortage.setup,
         shortage.shortages.map((s) => s.kind),
+        shortage.rematch,
       )
   }, [shortage, start])
 

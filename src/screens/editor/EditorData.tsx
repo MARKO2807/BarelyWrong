@@ -73,7 +73,11 @@ export function EditorDataProvider({
         (error: unknown) =>
           setState({
             status: 'error',
-            message: error instanceof Error ? error.message : String(error),
+            // Supabase errors are plain objects with a message, not Error instances.
+            message:
+              typeof error === 'object' && error && 'message' in error
+                ? String(error.message)
+                : String(error),
           }),
       ),
     [db],

@@ -15,3 +15,8 @@ export const authStorage = {
     removeKey(storageKey(`${STORED.auth.name}-${key}`, STORED.auth.version))
   },
 }
+
+/** The editor is signed in on this device (their own games are left out of the activity log). */
+export function hasEditorSession(): boolean {
+  return authStorage.getItem('editor') !== null
+}

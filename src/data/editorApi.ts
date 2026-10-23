@@ -1,10 +1,11 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import { z } from 'zod'
-import { QUESTION_FORMATS, TOPICS } from '../engine'
+import { GAME_LENGTHS, QUESTION_FORMATS, ROUND_KINDS, TOPICS } from '../engine'
 import { QUESTION_STATUSES, type QuestionStatus } from './batchSchema'
 import type { ImportRow, SimilarMatch } from './import'
 import { readAll } from './readAll'
 import { REPORT_REASONS } from './reports'
+import { SCREENS } from './screens'
 
 // Database access for the editor, shared by the /admin screens and the scripts. Every function
 // takes a client signed in as the editor; the database refuses everyone else (RLS).
@@ -168,7 +169,72 @@ export async function saveEmbedding(db: SupabaseClient, id: string, embedding: r
   if (error) throw error
 }
 
-/** Full backup (spec 9.2): questions with texts, reports and statistics. */
+// Activity (spec 9.4) ----------------------------------------------------------------------------
+
+export const GAME_STATUSES = ['open', 'finished', 'abandoned'] as const
+
+export const editorGameSchema = z.object({
+  id: z.string(),
+  created_at: z.string(),
+  team_count: z.number(),
+  length: z.enum(GAME_LENGTHS),
+  seconds_per_question: z.number(),
+  fastest_finger: z.boolean(),
+  rounds: z.array(z.enum(ROUND_KINDS)),
+  rematch: z.boolean(),
+  screen: z.enum(SCREENS),
+  time_zone: z.string().nullable(),
+  theme: z.string(),
+  sound: z.boolean(),
+  rounds_done: z.number(),
+  status: z.enum(GAME_STATUSES),
+  last_event_at: z.string().nullable(),
+  events: z.array(
+    z.object({
+      event: z.enum(['round', 'finished', 'abandoned']),
+      round: z.number(),
+      at: z.string(),
+    }),
+  ),
+})
+export type EditorGame = z.infer<typeof editorGameSchema>
+
+export const visitCountSchema = z.object({
+  day: z.string(),
+  screen: z.enum(SCREENS),
+  referrer: z.string().nullable(),
+  visits: z.number(),
+})
+export type VisitCount = z.infer<typeof visitCountSchema>
+
+/** Every game, newest first. */
+export function fetchGames(db: SupabaseClient): Promise<EditorGame[]> {
+  return readAll(
+    (from, to) =>
+      db.from('editor_games').select('*').order('created_at', { ascending: false }).range(from, to),
+    editorGameSchema,
+  )
+}
+
+/** Visits per day (Croatian time), screen and referrer, all time. */
+export async function fetchVisitCounts(db: SupabaseClient): Promise<VisitCount[]> {
+  const { data, error } = await db.rpc('activity_visits', { p_since: null })
+  if (error) throw error
+  return z.array(visitCountSchema).parse(data)
+}
+
+/** Deletes games for good, with their progress. */
+export async function deleteGames(db: SupabaseClient, ids: readonly string[]) {
+  for (let i = 0; i < ids.length; i += 100) {
+    const { error } = await db
+      .from('game_starts')
+      .delete()
+      .in('id', ids.slice(i, i + 100))
+    if (error) throw error
+  }
+}
+
+/** Full backup (spec 9.2): questions with texts, reports, statistics and activity. */
 export async function exportDatabase(db: SupabaseClient) {
   const answerEvents = readAll(
     (from, to) =>
@@ -185,15 +251,19 @@ export async function exportDatabase(db: SupabaseClient) {
       created_at: z.string(),
     }),
   )
-  const [questions, reports, events] = await Promise.all([
+  const [questions, reports, events, games, visits] = await Promise.all([
     fetchEditorQuestions(db),
     fetchReports(db),
     answerEvents,
+    fetchGames(db),
+    fetchVisitCounts(db),
   ])
   return {
     exportedAt: new Date().toISOString(),
     questions,
     reports,
     answerEvents: events,
+    games,
+    visits,
   }
 }

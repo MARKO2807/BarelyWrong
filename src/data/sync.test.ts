@@ -18,16 +18,47 @@ const report = (questionId: string): OutboxItem => ({
   comment: null,
 })
 
+const start = (gameId: string): OutboxItem => ({
+  type: 'gameStart',
+  id: `s-${gameId}`,
+  gameId,
+  teamCount: 2,
+  length: 'full',
+  secondsPerQuestion: 60,
+  fastestFinger: true,
+  rounds: ['sport', 'estimate'],
+  rematch: false,
+  screen: 'large',
+  timeZone: 'Europe/Zagreb',
+  theme: 'dark',
+  sound: false,
+})
+const progress = (gameId: string, round: number): OutboxItem => ({
+  type: 'gameProgress',
+  id: `p-${gameId}-${round}`,
+  gameId,
+  event: 'round',
+  round,
+})
+const visit: OutboxItem = {
+  type: 'visit',
+  id: 'v',
+  path: '/',
+  screen: 'phone',
+  referrer: null,
+  timeZone: null,
+}
+
 function sender(behaviour: (ids: string[]) => 'sent' | 'rejected' | 'failed'): Sender & {
   calls: string[][]
 } {
   const calls: string[][] = []
   const send = async (items: readonly OutboxItem[]) => {
-    const ids = items.map((i) => i.questionId)
+    const ids = items.map((i) => ('questionId' in i ? i.questionId : i.id))
     calls.push(ids)
     return behaviour(ids)
   }
-  return { answers: send, reports: send, calls }
+  return { answer: send, report: send, visit: send, gameStart: send, gameProgress: send, calls }
 }
 
 beforeEach(() => {
@@ -71,6 +102,21 @@ describe('sendOutbox', () => {
   })
 })
 
+describe('activity', () => {
+  it('sends a game start before its progress, and visits', async () => {
+    const s = sender(() => 'sent')
+    const done = await sendOutbox([progress('g', 1), visit, start('g')], s)
+    expect(s.calls).toEqual([['s-g'], ['p-g-1'], ['v']])
+    expect(done).toEqual(['s-g', 'p-g-1', 'v'])
+  })
+
+  it('keeps the progress of a game whose start did not get through', async () => {
+    const s = sender((ids) => (ids.includes('s-g') ? 'failed' : 'sent'))
+    const done = await sendOutbox([start('g'), progress('g', 1), progress('h', 2)], s)
+    expect(done).toEqual(['p-h-2'])
+  })
+})
+
 describe('outbox', () => {
   it('queues items and removes what was sent', async () => {
     enqueue([
@@ -78,9 +124,15 @@ describe('outbox', () => {
       { type: 'report', questionId: 'y', reason: 'wrong', comment: 'Krivi odgovor' },
     ])
     expect(readOutbox()).toHaveLength(2)
-    const answers = vi.fn(async () => 'sent' as const)
-    const reports = vi.fn(async () => 'failed' as const)
-    await flushOutbox({ answers, reports })
+    const sent = vi.fn(async () => 'sent' as const)
+    const failed = vi.fn(async () => 'failed' as const)
+    await flushOutbox({
+      answer: sent,
+      report: failed,
+      visit: sent,
+      gameStart: sent,
+      gameProgress: sent,
+    })
     expect(readOutbox().map((i) => i.type)).toEqual(['report'])
   })
 })

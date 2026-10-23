@@ -8,10 +8,13 @@ import {
   useState,
   type ReactNode,
 } from 'react'
+import { recordAbandon, recordGameStart, recordProgress } from '../data/activity'
 import { startOutboxSync, submit } from '../data/sync'
 import {
   gameReducer,
   getCommittedAnswerEvents,
+  getCompletedRounds,
+  getProgressEvents,
   getShownQuestionId,
   type GameAction,
   type GameState,
@@ -22,7 +25,7 @@ interface GameSessionValue {
   game: GameState | null
   dispatch: (action: GameAction) => void
   /** Starts a freshly created game (new or rematch). */
-  begin: (game: GameState) => void
+  begin: (game: GameState, rematch: boolean) => void
   /** Loads the saved game, paused where it was left. Returns false when there is none. */
   resume: () => boolean
   /** Prekini partiju: deletes the game for good. */
@@ -35,15 +38,18 @@ const GameSessionContext = createContext<GameSessionValue | null>(null)
  * Glue between the engine and the browser: every change is saved, questions are marked as
  * played the moment they appear, and a closing tab saves the game with its clock paused.
  * Answers go to the statistics queue once the game moves on, so Undo never has to take them back.
+ * The start, every finished round, the end and Prekini partiju go to the editor's activity log.
  */
 export function GameSessionProvider({ children }: { children: ReactNode }) {
   const [game, setGame] = useState<GameState | null>(null)
   const current = useRef<GameState | null>(null)
+  /** Id of the current game in the activity log; saved with the game. */
+  const gameId = useRef('')
 
   const apply = useCallback((next: GameState | null) => {
     current.current = next
     setGame(next)
-    if (next) saveGame(next)
+    if (next) saveGame(next, gameId.current)
   }, [])
 
   const dispatch = useCallback(
@@ -60,21 +66,33 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
           ...event,
         })),
       )
+      recordProgress(gameId.current, getProgressEvents(previous, next))
       apply(next)
     },
     [apply],
   )
 
-  const begin = useCallback((next: GameState) => apply(next), [apply])
+  const begin = useCallback(
+    (next: GameState, rematch: boolean) => {
+      gameId.current = crypto.randomUUID()
+      recordGameStart(gameId.current, next, rematch)
+      apply(next)
+    },
+    [apply],
+  )
 
   const resume = useCallback(() => {
     const saved = loadGame()
     if (!saved) return false
+    gameId.current = saved.id
     apply(gameReducer(saved.game, { type: 'pause', now: saved.savedAt }))
     return true
   }, [apply])
 
   const abandon = useCallback(() => {
+    const latest = current.current
+    if (latest && latest.step.type !== 'finished')
+      recordAbandon(gameId.current, getCompletedRounds(latest))
     current.current = null
     setGame(null)
     clearGame()
@@ -85,7 +103,7 @@ export function GameSessionProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const saveOnLeave = () => {
       const latest = current.current
-      if (latest) saveGame(gameReducer(latest, { type: 'pause', now: Date.now() }))
+      if (latest) saveGame(gameReducer(latest, { type: 'pause', now: Date.now() }), gameId.current)
     }
     window.addEventListener('pagehide', saveOnLeave)
     return () => window.removeEventListener('pagehide', saveOnLeave)

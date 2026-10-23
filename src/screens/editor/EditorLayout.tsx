@@ -5,6 +5,7 @@ import { t } from '../../i18n'
 import { Button, ButtonLink } from '../../ui/Button'
 import { Logo } from '../../ui/Logo'
 import { useEditorData } from './EditorData'
+import { GamesPage } from './GamesPage'
 import { ImportExportPage } from './ImportExportPage'
 import { QuestionPage } from './QuestionPage'
 import { QuestionsPage } from './QuestionsPage'
@@ -20,6 +21,7 @@ export function EditorRoutes() {
       <Route path="question/:id" element={<QuestionPage />} />
       <Route path="reports" element={<ReportsPage />} />
       <Route path="import" element={<ImportExportPage />} />
+      <Route path="games" element={<GamesPage />} />
       <Route path="*" element={<p className="text-xl">{t('notFound.text')}</p>} />
     </Routes>
   )
@@ -40,6 +42,7 @@ export function EditorLayout({
     { to: EDITOR_ROUTES.questions, label: t('editor.nav.questions'), count: questions.length },
     { to: EDITOR_ROUTES.review, label: t('editor.nav.review'), count: inReview },
     { to: EDITOR_ROUTES.reports, label: t('editor.nav.reports'), count: openReports },
+    { to: EDITOR_ROUTES.games, label: t('editor.nav.games'), count: null },
     { to: EDITOR_ROUTES.importExport, label: t('editor.nav.importExport'), count: null },
   ]
 

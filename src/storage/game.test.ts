@@ -10,6 +10,7 @@ import {
   loadGame,
   loadLastSetup,
   markPlayed,
+  readOutbox,
   resetPlayed,
   saveGame,
   saveLastSetup,
@@ -23,21 +24,21 @@ beforeEach(() => {
 describe('game in progress', () => {
   it('saves and loads with the time it was saved', () => {
     const game = gameReducer(newGame(), { type: 'next' })
-    expect(saveGame(game, 1234)).toBe(true)
-    expect(loadGame()).toEqual({ savedAt: 1234, game })
+    expect(saveGame(game, 'g1', 1234)).toBe(true)
+    expect(loadGame()).toEqual({ savedAt: 1234, id: 'g1', game })
     expect(hasUnfinishedGame()).toBe(true)
   })
 
   it('has nothing to continue when no game or a finished game is saved', () => {
     expect(loadGame()).toBeNull()
     expect(hasUnfinishedGame()).toBe(false)
-    saveGame(playToEnd(newGame({ teams: 2 })))
+    saveGame(playToEnd(newGame({ teams: 2 })), 'g1')
     expect(hasUnfinishedGame()).toBe(false)
   })
 
   it('throws away a damaged save', () => {
     const game = newGame()
-    saveGame({ ...game, step: { type: 'judged', round: 0 } } as unknown as typeof game)
+    saveGame({ ...game, step: { type: 'judged', round: 0 } } as unknown as typeof game, 'g1')
     expect(loadGame()).toBeNull()
     expect(localStorage.getItem(KEYS.game)).toBeNull()
 
@@ -46,7 +47,7 @@ describe('game in progress', () => {
   })
 
   it('is cleared when a game is abandoned', () => {
-    saveGame(newGame())
+    saveGame(newGame(), 'g1')
     clearGame()
     expect(loadGame()).toBeNull()
   })
@@ -94,6 +95,24 @@ describe('older saves', () => {
     localStorage.setItem('bw:game:v2', JSON.stringify({ savedAt: 5, game: v2Game }))
     expect(loadGame()?.game).toEqual(game)
     expect(localStorage.getItem('bw:game:v2')).toBeNull()
+  })
+
+  it('keeps a v1 outbox', () => {
+    const items = [
+      { type: 'answer', id: 'a', questionId: 'sport-0001', kind: 'turn', correct: true },
+    ]
+    localStorage.setItem('bw:outbox:v1', JSON.stringify(items))
+    expect(readOutbox()).toEqual(items)
+    expect(localStorage.getItem('bw:outbox:v1')).toBeNull()
+  })
+
+  it('gives a v3 game an id', () => {
+    const game = newGame()
+    localStorage.setItem('bw:game:v3', JSON.stringify({ savedAt: 5, game }))
+    const saved = loadGame()
+    expect(saved?.game).toEqual(game)
+    expect(saved?.id).toMatch(/^[0-9a-f-]{36}$/)
+    expect(localStorage.getItem('bw:game:v3')).toBeNull()
   })
 
   it('reads a v1 last setup, and drops team icons a newer save may hold', () => {
