@@ -79,19 +79,23 @@ export function Controls({ game, dispatch, onRematch, onNewGame, onHome, busy }:
       </Button>
     </>
   )
-  /** Team buttons; keys 1–4 follow the team list. */
-  const teamButtons = (teams: readonly Team[], action: (team: Team) => GameAction) =>
-    teams.map((team) => (
-      <Button
-        key={team.id}
-        variant="team"
-        size="lg"
-        style={teamStyle(team.color)}
-        onClick={() => dispatch(action(team))}
-      >
-        {team.name} <Key>{game.teams.indexOf(team) + 1}</Key>
-      </Button>
-    ))
+  /** Team buttons, two by two on a phone; keys 1–4 follow the team list. */
+  const teamButtons = (teams: readonly Team[], action: (team: Team) => GameAction) => (
+    <div className="grid w-full grid-cols-2 gap-2 md:flex md:w-auto md:flex-wrap md:justify-center md:gap-3">
+      {teams.map((team) => (
+        <Button
+          key={team.id}
+          variant="team"
+          size="lg"
+          style={teamStyle(team.color)}
+          className="min-w-0 leading-tight break-words whitespace-normal max-md:px-3 max-md:text-lg"
+          onClick={() => dispatch(action(team))}
+        >
+          {team.name} <Key>{game.teams.indexOf(team) + 1}</Key>
+        </Button>
+      ))}
+    </div>
+  )
   const prompt = (text: string) => (
     <span className="w-full text-center text-xl font-semibold sm:text-2xl md:w-auto">{text}</span>
   )

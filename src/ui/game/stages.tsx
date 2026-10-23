@@ -40,19 +40,28 @@ export function RoundIntro({ game, roundIndex }: { game: GameState; roundIndex: 
       ? t(`game.kindHints.${round.kind}`)
       : null
   return (
-    <div key={roundIndex} className="pop-in flex flex-col items-center gap-5 text-center">
-      <span className="font-terminal text-3xl text-text-muted sm:text-4xl">
+    <div
+      key={roundIndex}
+      className="pop-in flex flex-col items-center gap-5 text-center short:gap-2"
+    >
+      <span className="font-terminal text-3xl text-text-muted sm:text-4xl short:text-2xl">
         {t('game.roundNumber', { number: roundIndex + 1 })}
       </span>
       <Icon className="text-(length:--icon-hero) text-primary-text" />
-      <h1 className="font-display text-4xl font-extrabold text-balance sm:text-5xl">
+      <h1 className="font-display text-4xl font-extrabold text-balance sm:text-5xl short:text-3xl">
         {t(`topics.${round.kind}`)}
       </h1>
-      {hint && <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">{hint}</p>}
+      {hint && (
+        <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl short:text-base">
+          {hint}
+        </p>
+      )}
       {round.doubled && (
-        <div className="mt-2 flex flex-col items-center gap-3">
+        <div className="mt-2 flex flex-col items-center gap-3 short:mt-0 short:gap-1">
           <DoubleTroubleBadge large />
-          <p className="text-xl font-semibold sm:text-2xl">{t('game.doubleTroubleText')}</p>
+          <p className="text-xl font-semibold sm:text-2xl short:text-base">
+            {t('game.doubleTroubleText')}
+          </p>
         </div>
       )}
     </div>
@@ -65,14 +74,14 @@ export function TeamIntro({ game }: { game: GameState }) {
     <div
       key={turn.team.id + turn.roundIndex}
       style={teamStyle(turn.team.color)}
-      className="team-spotlight pop-in flex flex-col items-center gap-6 text-center"
+      className="team-spotlight pop-in flex flex-col items-center gap-6 text-center short:gap-2"
     >
-      <span className="text-2xl text-text-muted sm:text-3xl">{t('game.onTurn')}</span>
-      <h1 className="team-banner font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance">
+      <span className="text-2xl text-text-muted sm:text-3xl short:text-xl">{t('game.onTurn')}</span>
+      <h1 className="team-banner max-w-full font-display text-(length:--team-name-size) leading-tight font-extrabold text-balance break-words">
         {turn.team.name}
       </h1>
       {turn.challenger && (
-        <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
+        <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl short:text-base">
           {t('game.estimates', { team: turn.team.name })}{' '}
           {t('game.challenges', { team: turn.challenger.name })}
         </p>
@@ -96,7 +105,10 @@ function QuestionLabel({ game }: { game: GameState }) {
   if (turn) {
     return (
       <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xl sm:text-2xl short:text-base">
-        <span style={teamStyle(turn.team.color)} className="team-pill font-display font-extrabold">
+        <span
+          style={teamStyle(turn.team.color)}
+          className="team-pill max-w-full font-display font-extrabold break-words"
+        >
           {turn.team.name}
         </span>
         {turn.challenger && (
@@ -177,12 +189,12 @@ export function QuestionStage({ game, onExpire }: { game: GameState; onExpire: (
 
 export function FastestFingerIntro() {
   return (
-    <div className="pop-in flex flex-col items-center gap-5 text-center">
+    <div className="pop-in flex flex-col items-center gap-5 text-center short:gap-2">
       <BoltIcon className="text-(length:--icon-hero) text-secondary-text" />
-      <h1 className="font-display text-4xl font-extrabold sm:text-5xl">
+      <h1 className="font-display text-4xl font-extrabold sm:text-5xl short:text-3xl">
         {t('game.fastestFinger')}
       </h1>
-      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
+      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl short:text-base">
         {t('game.fastestFingerText')}
       </p>
     </div>
@@ -192,19 +204,21 @@ export function FastestFingerIntro() {
 export function TiebreakIntro({ game }: { game: GameState }) {
   const tied = (game.tiebreak?.teamIds ?? []).map((id) => getTeam(game, id))
   return (
-    <div className="pop-in flex flex-col items-center gap-6 text-center">
+    <div className="pop-in flex flex-col items-center gap-6 text-center short:gap-2">
       <div className="flex gap-4">
         {tied.map((team) => (
           <TeamChip
             key={team.id}
             color={team.color}
             name={team.name}
-            className="size-16 text-4xl sm:size-20 sm:text-5xl"
+            className="size-16 text-4xl sm:size-20 sm:text-5xl short:size-10 short:text-2xl"
           />
         ))}
       </div>
-      <h1 className="font-display text-4xl font-extrabold sm:text-5xl">{t('game.tiebreak')}</h1>
-      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl">
+      <h1 className="font-display text-4xl font-extrabold sm:text-5xl short:text-3xl">
+        {t('game.tiebreak')}
+      </h1>
+      <p className="max-w-3xl text-xl text-balance text-text-muted sm:text-2xl short:text-base">
         {t('game.tiebreakText', { teams: joinNames(tied, t('game.and')) })}
       </p>
     </div>
@@ -276,7 +290,7 @@ export function EndStage({ game }: { game: GameState }) {
           name={winner.name}
           className="size-20 text-4xl sm:size-24 sm:text-5xl"
         />
-        <h1 className="font-display text-3xl font-extrabold text-balance sm:text-4xl">
+        <h1 className="max-w-full font-display text-3xl font-extrabold text-balance break-words sm:text-4xl">
           {t('game.winner', { team: winner.name })}
         </h1>
       </div>

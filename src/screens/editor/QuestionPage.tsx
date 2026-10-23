@@ -127,7 +127,7 @@ function QuestionForm({ question }: { question: EditorQuestion }) {
               void navigate(-1)
             }
           }}
-          className="rounded-sm text-text-muted underline"
+          className="inline-flex min-h-(--touch-target) items-center rounded-sm text-text-muted underline"
         >
           ← {fromReview ? t('editor.review.title') : t('editor.edit.back')}
         </Link>

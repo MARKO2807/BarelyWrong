@@ -9,8 +9,9 @@ interface FitTextProps {
 }
 
 /**
- * Fills the available space: short questions get huge type, long ones shrink to fit. If even the
- * smallest size does not fit (a long question on a small phone), the box scrolls.
+ * Fills the available space: short questions get huge type, long ones shrink to fit. A word wider
+ * than the box at the smallest size is broken; if the text is still too tall (a long question on a
+ * small phone), the box scrolls.
  */
 export function FitText({ text, minRem, maxRem, className }: FitTextProps) {
   const box = useRef<HTMLDivElement>(null)
@@ -22,18 +23,26 @@ export function FitText({ text, minRem, maxRem, className }: FitTextProps) {
       const element = inner.current
       if (!container || !element) return
       const rem = parseFloat(getComputedStyle(document.documentElement).fontSize)
-      let low = minRem * rem
-      let high = maxRem * rem
-      for (let i = 0; i < 12; i++) {
-        const size = (low + high) / 2
-        element.style.fontSize = `${size}px`
-        const fits =
-          element.scrollHeight <= container.clientHeight &&
-          element.scrollWidth <= container.clientWidth
-        if (fits) low = size
-        else high = size
+      // A word wider than its line (the line has a max width in ch) sticks out of the text.
+      const overflows = () =>
+        element.scrollWidth > element.clientWidth || container.scrollWidth > container.clientWidth
+      const search = () => {
+        let low = minRem * rem
+        let high = maxRem * rem
+        for (let i = 0; i < 12; i++) {
+          const size = (low + high) / 2
+          element.style.fontSize = `${size}px`
+          if (element.scrollHeight <= container.clientHeight && !overflows()) low = size
+          else high = size
+        }
+        element.style.fontSize = `${low}px`
       }
-      element.style.fontSize = `${low}px`
+      element.style.overflowWrap = 'normal'
+      search()
+      if (overflows()) {
+        element.style.overflowWrap = 'anywhere'
+        search()
+      }
     }
     fit()
     const observer = new ResizeObserver(fit)

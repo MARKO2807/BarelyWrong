@@ -54,7 +54,7 @@ export function EditorLayout({
         </Link>
         <nav
           aria-label={t('editor.nav.label')}
-          className="-mx-1 flex flex-1 gap-1 overflow-x-auto px-1 py-1 max-sm:order-last max-sm:basis-full"
+          className="flex flex-1 flex-wrap gap-1 py-1 max-sm:order-last max-sm:basis-full"
         >
           {links.map((link) => (
             <NavLink key={link.to} to={link.to} end className="editor-nav-link">

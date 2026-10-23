@@ -28,9 +28,10 @@
   --text-5xl: 4rem;
 
   --spacing: 0.25rem;
-  /* TV-safe area: some TVs crop the picture edges. */
-  --spacing-safe-x: 5vw;
-  --spacing-safe-y: 5vh;
+  /* TV-safe area: some TVs crop the picture edges. Phones with a notch or rounded corners
+     (viewport-fit=cover in index.html) get at least their safe-area insets. */
+  --spacing-safe-x: max(5vw, env(safe-area-inset-left), env(safe-area-inset-right));
+  --spacing-safe-y: max(5vh, env(safe-area-inset-top), env(safe-area-inset-bottom));
 
   --radius-sm: 0.375rem;
   --radius-md: 0.75rem;
@@ -116,6 +117,8 @@
   --button-padding: 0.65em 1.15em;
   --button-depth: 0.3rem;
   --focus-ring-width: 0.1875rem;
+  /* Smallest comfortable tap target on touch screens (Apple and Google guidelines). */
+  --touch-target: 44px;
 
   --duration-fast: 120ms;
   --duration-base: 220ms;

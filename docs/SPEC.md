@@ -112,9 +112,13 @@ Jednom po partiji, u nasumičnoj rundi koja nikad nije prva. Sva pitanja u toj r
 ### 6.1 Raspored
 
 - TV na prvom mjestu: osnovni raspored je 16:9 za velik ekran, a tekst se mora čitati s kauča. Važni elementi drže se oko 5% podalje od rubova, jer neki TV-i odrežu rub slike.
-- Potpuno responzivno na svim veličinama, do mobitela uspravno. Na mobitelu je partija sažeta: manji naslovi, timer i bodovi; predugo pitanje se pomiče umjesto da se odreže; na položenom mobitelu bodovi su u jednom redu; na malim ekranima ljestvica nakon runde skriva donje bodove; na dodirnim ekranima nema oznaka tipki.
+- Potpuno responzivno na svim veličinama, do mobitela uspravno (najmanje 320 px). Na mobitelu je partija sažeta: manji naslovi, timer i bodovi; predugo pitanje se pomiče umjesto da se odreže; na položenom mobitelu bodovi su u jednom redu.
+- Donji bodovi se na malim ekranima skrivaju kad ponavljaju ono što je već na ekranu: na ljestvici nakon runde te kod Najbržeg prsta i neriješenog, gdje gumbi timova pokazuju sve timove. Na položenom (i vrlo niskom) mobitelu skrivaju se i na najavama runde, tima, Najbržeg prsta i neriješenog.
+- Gumbi timova (Najbrži prst, procjena, neriješeno) su na mobitelu dva po dva; dugo ime tima prelazi u drugi red.
+- Imena timova u donjim bodovima i tablicama imaju do dva retka prije nego što se skrate. Tablica bodova po temama prikazuje stupce s temama od širine laptopa; na tabletu uspravno i mobitelu ima samo ukupne bodove.
+- Na dodirnim ekranima nema oznaka tipki, svaki gumb i polje imaju najmanje 44 px visine, polja za upis imaju slova od 16 px (iPhone tada ne zumira), a efekti prelaska mišem postoje samo na uređajima s mišem. Na telefonima s izrezom kamere sadržaj poštuje sigurne rubove ekrana.
 - Gumb za cijeli zaslon.
-- Tekst pitanja je što veći može biti, a da stane bez pomicanja; dulja pitanja automatski dobivaju manji font.
+- Tekst pitanja je što veći može biti, a da stane bez pomicanja; dulja pitanja automatski dobivaju manji font. Riječ dulja od retka (npr. maorsko ime brda) prelama se, umjesto da izađe iz okvira.
 - Početna je u retro 8-bit i neon stilu; ostali ekrani su minimalistički i pregledni.
 
 ### 6.2 Tipografija

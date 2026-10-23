@@ -44,9 +44,9 @@ export function Scoreboard({ game, activeTeamIds, bubble }: ScoreboardProps) {
             <TeamChip
               color={team.color}
               name={team.name}
-              className="size-7 text-lg sm:size-8 sm:text-xl lg:size-10 lg:text-2xl short:size-6 short:text-base"
+              className="size-8 text-xl max-sm:hidden lg:size-10 lg:text-2xl short:hidden"
             />
-            <span className="min-w-0 flex-1 truncate font-display text-base font-extrabold sm:text-lg lg:text-xl short:text-sm">
+            <span className="line-clamp-2 min-w-0 flex-1 font-display text-sm leading-tight font-extrabold break-words sm:text-lg lg:text-xl short:line-clamp-1 short:text-sm">
               {team.name}
             </span>
             <span className="font-display text-3xl leading-none font-extrabold tabular-nums sm:text-4xl short:text-2xl">

@@ -1,4 +1,4 @@
-import { useId, useMemo } from 'react'
+import { useId, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { EDITOR_ROUTES } from '../../app/routes'
 import { QUESTION_STATUSES } from '../../data/batchSchema'
@@ -6,11 +6,14 @@ import { correctRate } from '../../data/editorChecks'
 import { matchKey } from '../../data/import'
 import { QUESTION_FORMATS, TOPICS } from '../../engine'
 import { t, tList } from '../../i18n'
+import { Button } from '../../ui/Button'
 import { Checkbox, Select, TextInput } from '../../ui/editor/fields'
 import { StatusBadge } from '../../ui/editor/StatusBadge'
 import { useEditorData } from './EditorData'
 
 const ALL = 'all'
+/** Rows drawn at once; "Prikaži još" adds the next page. */
+const PAGE = 100
 
 /** Every question, filtered (spec 9.3). Filters live in the URL, so Back keeps them. */
 export function QuestionsPage() {
@@ -60,6 +63,12 @@ export function QuestionsPage() {
       (!filters.similar || similar.has(q.id)) &&
       (!query || searchable.get(q.id)!.includes(query)),
   )
+
+  // A new filter starts again from the first page.
+  const filterKey = JSON.stringify(filters)
+  const [paging, setPaging] = useState({ key: filterKey, limit: PAGE })
+  const limit = paging.key === filterKey ? paging.limit : PAGE
+  const visible = shown.slice(0, limit)
 
   const all = { value: ALL, label: t('editor.all') }
   const difficulties = tList('editor.difficulties')
@@ -152,7 +161,7 @@ export function QuestionsPage() {
               </tr>
             </thead>
             <tbody>
-              {shown.map((q) => {
+              {visible.map((q) => {
                 const similarIds = similar.get(q.id)?.map((s) => s.id) ?? []
                 return (
                   <tr key={q.id} className="border-t-2 border-border align-top hover:bg-surface">
@@ -204,6 +213,20 @@ export function QuestionsPage() {
               })}
             </tbody>
           </table>
+        </div>
+      )}
+      {shown.length > visible.length && (
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <p className="text-text-muted">
+            {t('editor.list.shown', { count: visible.length, total: shown.length })}
+          </p>
+          <Button
+            variant="secondary"
+            size="sm"
+            onClick={() => setPaging({ key: filterKey, limit: limit + PAGE })}
+          >
+            {t('editor.list.more', { count: Math.min(PAGE, shown.length - visible.length) })}
+          </Button>
         </div>
       )}
     </section>

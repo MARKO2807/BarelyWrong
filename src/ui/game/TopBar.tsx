@@ -30,12 +30,12 @@ export function TopBar({ game, isFullscreen, onFullscreen, onMenu }: TopBarProps
     <header className="flex items-center justify-between gap-3 sm:gap-4">
       <div className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-0.5 sm:gap-x-5 sm:gap-y-1">
         {roundIndex !== null && (
-          <span className="font-terminal text-2xl text-text-muted sm:text-3xl">
+          <span className="font-terminal text-2xl text-text-muted sm:text-3xl short:text-xl">
             {t('game.round', { current: roundIndex + 1, total: game.rounds.length })}
           </span>
         )}
         {kind && Icon && (
-          <span className="flex min-w-0 items-center gap-2 font-display text-lg leading-tight font-extrabold sm:text-2xl">
+          <span className="flex min-w-0 items-center gap-2 font-display text-lg leading-tight font-extrabold sm:text-2xl short:text-lg">
             <Icon className="text-primary-text" />
             {t(`topics.${kind}`)}
           </span>

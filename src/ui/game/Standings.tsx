@@ -74,7 +74,7 @@ export function Standings({
                 key={column}
                 role="columnheader"
                 title={t(`topics.${column}`)}
-                className="text-center text-xl max-md:hidden"
+                className="text-center text-xl max-lg:hidden"
               >
                 <Icon className="mx-auto" />
                 <span className="sr-only">{t(`topics.${column}`)}</span>
@@ -110,7 +110,7 @@ export function Standings({
                   className="size-9 text-2xl lg:size-10"
                 />
                 <span className="flex min-w-0 flex-col">
-                  <span className="truncate font-display text-xl font-extrabold lg:text-2xl">
+                  <span className="line-clamp-2 font-display text-xl leading-tight font-extrabold break-words lg:text-2xl">
                     {team.name}
                   </span>
                   {last && (
@@ -124,7 +124,7 @@ export function Standings({
                 <span
                   key={column}
                   role="cell"
-                  className="text-center font-display text-2xl font-extrabold tabular-nums max-md:hidden"
+                  className="text-center font-display text-2xl font-extrabold tabular-nums max-lg:hidden"
                 >
                   {byColumn[team.id]?.[column] ?? 0}
                 </span>

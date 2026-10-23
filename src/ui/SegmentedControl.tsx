@@ -35,7 +35,7 @@ export function SegmentedControl<T extends string>({
       {options.map((option) => (
         <label
           key={option.value}
-          className="has-focus-ring min-w-0 cursor-pointer rounded-sm px-[clamp(0.4rem,2vw,1rem)] py-2 text-center font-display text-[length:clamp(0.8rem,4.2vw,1.125rem)] whitespace-nowrap font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
+          className="segmented-option has-focus-ring flex min-w-0 cursor-pointer items-center justify-center rounded-sm px-[clamp(0.4rem,2vw,1rem)] py-2 text-center font-display text-[length:clamp(0.8rem,4.2vw,1.125rem)] whitespace-nowrap font-extrabold text-text-muted transition-colors hover:text-text has-checked:bg-primary has-checked:text-on-primary"
         >
           <input
             type="radio"

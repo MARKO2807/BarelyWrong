@@ -38,11 +38,13 @@
       var(--glow-primary);
   }
 
-  .btn-primary:hover:not(:disabled) {
-    transform: translateY(-0.1rem);
-    box-shadow:
-      0 calc(var(--button-depth) + 0.1rem) 0 var(--primary-shade),
-      var(--glow-primary-strong);
+  @media (hover: hover) {
+    .btn-primary:hover:not(:disabled) {
+      transform: translateY(-0.1rem);
+      box-shadow:
+        0 calc(var(--button-depth) + 0.1rem) 0 var(--primary-shade),
+        var(--glow-primary-strong);
+    }
   }
 
   .btn-primary:active:not(:disabled) {
@@ -58,16 +60,20 @@
     color: var(--secondary-text);
   }
 
-  .btn-secondary:hover:not(:disabled) {
-    background-color: color-mix(in srgb, var(--secondary) 14%, var(--surface));
+  @media (hover: hover) {
+    .btn-secondary:hover:not(:disabled) {
+      background-color: color-mix(in srgb, var(--secondary) 14%, var(--surface));
+    }
   }
 
   .btn-ghost {
     color: var(--text);
   }
 
-  .btn-ghost:hover:not(:disabled) {
-    background-color: color-mix(in srgb, var(--text) 10%, transparent);
+  @media (hover: hover) {
+    .btn-ghost:hover:not(:disabled) {
+      background-color: color-mix(in srgb, var(--text) 10%, transparent);
+    }
   }
 
   .btn-sm {
@@ -119,8 +125,10 @@
     transition: background-color var(--duration-fast) var(--ease-out);
   }
 
-  .icon-btn:hover {
-    background-color: color-mix(in srgb, var(--text) 12%, transparent);
+  @media (hover: hover) {
+    .icon-btn:hover {
+      background-color: color-mix(in srgb, var(--text) 12%, transparent);
+    }
   }
 
   /* Header icon on a frosted disc, so it stands out on any part of the hero image. */
@@ -138,15 +146,14 @@
     font-weight: 800;
     text-shadow: var(--hero-text-shadow);
     cursor: pointer;
+    gap: 0.4em;
     transition: background-color var(--duration-fast) var(--ease-out);
   }
 
-  .header-link:hover {
-    background-color: color-mix(in srgb, var(--text) 12%, transparent);
-  }
-
-  .header-link {
-    gap: 0.4em;
+  @media (hover: hover) {
+    .header-link:hover {
+      background-color: color-mix(in srgb, var(--text) 12%, transparent);
+    }
   }
 
   /* Postavke: a frosted pill (round on small screens) whose gear turns on hover. */
@@ -159,17 +166,19 @@
     text-shadow: none;
   }
 
-  .header-settings:hover {
-    border-color: var(--primary);
-    background-color: var(--surface);
-  }
-
   .header-settings-icon {
     transition: transform var(--duration-base) var(--ease-out);
   }
 
-  .header-settings:hover .header-settings-icon {
-    transform: rotate(90deg);
+  @media (hover: hover) {
+    .header-settings:hover {
+      border-color: var(--primary);
+      background-color: var(--surface);
+    }
+
+    .header-settings:hover .header-settings-icon {
+      transform: rotate(90deg);
+    }
   }
 
   @media (width < 40rem) {
@@ -279,10 +288,12 @@
     color: var(--bg);
   }
 
-  .btn-team:hover:not(:disabled),
-  .btn-correct:hover:not(:disabled),
-  .btn-wrong:hover:not(:disabled) {
-    transform: translateY(-0.1rem);
+  @media (hover: hover) {
+    .btn-team:hover:not(:disabled),
+    .btn-correct:hover:not(:disabled),
+    .btn-wrong:hover:not(:disabled) {
+      transform: translateY(-0.1rem);
+    }
   }
 
   /* Touch screens have no keyboard, so the shortcut hints only get in the way. */
@@ -366,9 +377,11 @@
       border-color var(--duration-fast) var(--ease-out);
   }
 
-  .game-top-btn:hover {
-    border-color: var(--primary);
-    background-color: color-mix(in srgb, var(--primary) 18%, var(--surface));
+  @media (hover: hover) {
+    .game-top-btn:hover {
+      border-color: var(--primary);
+      background-color: color-mix(in srgb, var(--primary) 18%, var(--surface));
+    }
   }
 
   .game-top-btn .ui-icon {
@@ -382,9 +395,9 @@
       5.5rem;
   }
 
-  @media (width < 48rem) {
+  @media (width < 64rem) {
     .standings-grid {
-      grid-template-columns: 2.5rem minmax(0, 1fr) var(--gained-col) 4.75rem;
+      grid-template-columns: 2.5rem minmax(0, 1fr) var(--gained-col) 5.5rem;
     }
   }
 
@@ -496,6 +509,8 @@
   }
 
   .editor-nav-link {
+    display: inline-flex;
+    align-items: center;
     border-radius: var(--radius-sm);
     padding: 0.4rem 0.75rem;
     font-family: var(--font-display);
@@ -505,8 +520,10 @@
     transition: color var(--duration-fast) var(--ease-out);
   }
 
-  .editor-nav-link:hover {
-    color: var(--text);
+  @media (hover: hover) {
+    .editor-nav-link:hover {
+      color: var(--text);
+    }
   }
 
   .editor-nav-link[aria-current='page'] {
@@ -866,5 +883,30 @@
   /* White and yellow chips need an edge on the light theme. */
   .team-chip {
     box-shadow: inset 0 0 0 0.125rem color-mix(in srgb, var(--text) 18%, transparent);
+  }
+}
+
+/*
+ * Touch screens: every control at least a comfortable tap target, and form fields at 16px so iOS
+ * does not zoom in when one gets focus.
+ */
+@layer components {
+  @media (pointer: coarse) {
+    .btn,
+    .editor-nav-link,
+    .field-control,
+    .segmented-option,
+    [role='switch'] {
+      min-height: var(--touch-target);
+    }
+
+    .game-top-btn {
+      min-width: max(var(--game-top-btn-size), var(--touch-target));
+      height: max(var(--game-top-btn-size), var(--touch-target));
+    }
+
+    .field-control {
+      font-size: max(1rem, 16px);
+    }
   }
 }

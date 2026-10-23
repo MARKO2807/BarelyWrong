@@ -3,7 +3,7 @@ import { useBlocker, useNavigate } from 'react-router'
 import { useGameSession } from '../app/GameSession'
 import { ROUTES } from '../app/routes'
 import { useStartGame } from '../app/useStartGame'
-import { getCurrentTurn, getTimer, isTimerRunning, type GameState } from '../engine'
+import { getCurrentTurn, getTimer, isTimerRunning, type GameState, type StepType } from '../engine'
 import { t } from '../i18n'
 import { loadGame } from '../storage'
 import { Button, ButtonLink } from '../ui/Button'
@@ -43,6 +43,19 @@ function scoreBubble(game: GameState): ScoreBubble | null {
   const result = game.results.at(-1)
   if (!result || result.points === 0) return null
   return { teamId: result.teamId, points: result.points, key: game.results.length }
+}
+
+/**
+ * Small screens hide the scoreboard where it repeats what is on screen: the leaderboard shows
+ * every score, and team buttons (Najbrži prst, tiebreak) every team. On a phone held sideways or a
+ * very short one, the announcements need that room too.
+ */
+function scoreboardClass(step: StepType): string | undefined {
+  if (['leaderboard', 'fastestFingerQuestion', 'tiebreakAnswer'].includes(step))
+    return 'max-lg:hidden short:hidden'
+  if (['roundIntro', 'turnIntro', 'fastestFingerIntro', 'tiebreakIntro'].includes(step))
+    return 'short:hidden [@media(max-height:40rem)]:hidden'
+  return undefined
 }
 
 export function GameScreen() {
@@ -187,8 +200,7 @@ export function GameScreen() {
           onHome={() => goTo(ROUTES.home)}
         />
         {step.type !== 'finished' && (
-          // The leaderboard already shows every score; small screens need that room for it.
-          <div className={step.type === 'leaderboard' ? 'max-lg:hidden short:hidden' : undefined}>
+          <div className={scoreboardClass(step.type)}>
             <Scoreboard game={game} activeTeamIds={activeTeams(game)} bubble={scoreBubble(game)} />
           </div>
         )}

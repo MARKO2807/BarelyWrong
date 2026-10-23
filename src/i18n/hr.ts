@@ -352,6 +352,8 @@ export const hr = {
       similar: 'Slično: {ids}',
       stats: '{shown}× · {rate} %',
       notPlayed: 'Nije igrano',
+      shown: 'Prikazano {count} od {total}',
+      more: 'Prikaži još {count}',
     },
     edit: {
       title: 'Pitanje {id}',
