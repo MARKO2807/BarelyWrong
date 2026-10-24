@@ -53,6 +53,11 @@ Prije je igra na početku svake partije učitala sva odobrena pitanja: 6 upita, 
 - **Suradnje:** pub kvizovi i kviz klubovi, uz potpis ili licencu. Pitanja HKS-a se i dalje ne kopiraju doslovno.
 - **Paketi** preko `tags`: blagdani, desetljeća, natjecanja, gradovi, firme. Mogućnost naplate.
 - **Cilj:** 10.000+ pitanja po jeziku. Jedna partija troši oko 50 pitanja.
+- **Jednostavniji dotok** (predloženo 24. 10. 2026., odgođeno; preporuka je kombinacija 1 i 2, a 3 usput):
+  1. **Tjedna serija sama stiže u Pregled:** zakazani zadatak na korisnikovom računalu (lokalni `.env.local`) jednom tjedno napiše 30–50 pitanja iz teme s najmanje pitanja, provjeri činjenice i duplikate i uveze ih sa statusom `review`. Korisnik ih u Uredniku → Pregled odobri (O) ili odbaci (X), oko 10 minuta za 50 pitanja. Ništa ne ide u igru bez njegovog klika. Troši korisnikov limit korištenja Claudea.
+  2. **Korisnik bilježi činjenice, Claude piše pitanja:** zanimljivosti zapisane usput (bilješke na mobitelu ili Google Sheet, npr. „Eiffelov toranj je ljeti viši 15 cm”) jednom mjesečno postaju prava pitanja s izvorima, sa statusom `review`.
+  3. **Gumb „Dodaj pitanje” u Uredniku:** obrazac (pitanje, odgovor, zanimljivost, poveznica na izvor) sprema pitanje sa statusom `review`, za upis s mobitela bez datoteka.
+  4. **Tematski paketi:** umjesto „još 50 iz sporta” tema večeri (Eurosong, Dalmacija, 90-e, Božić); kasnije paketi preko `tags`.
 
 ### [ ] 4. Kvaliteta iz podataka
 
